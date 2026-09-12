@@ -51,6 +51,15 @@ export async function addMaterial(
   return row.id;
 }
 
+export async function deleteMaterial(accountId: number, id: number) {
+  const rows = await sql<Array<{ id: number }>>`
+    DELETE FROM study_materials
+    WHERE id = ${id} AND account_id = ${accountId}
+    RETURNING id
+  `;
+  return rows.length > 0;
+}
+
 export async function promoteToFaculty(accountId: number, code: string) {
   const expected = (process.env.FACULTY_INVITE ?? "prephaat-faculty").trim();
   if (!code || code !== expected) throw new Error("Invalid faculty invite code");

@@ -15,7 +15,7 @@ import {
 } from "./auth.ts";
 import { getCurrentAffairs } from "./current-affairs.ts";
 import { getAttempt, getTracker, gradeQuiz, isQuizSubject, listAttempts, saveAttempt, startQuiz, subjectLabel } from "./quiz.ts";
-import { addMaterial, listFacultyMaterials, listPublishedMaterials, promoteToFaculty } from "./materials.ts";
+import { addMaterial, deleteMaterial, listFacultyMaterials, listPublishedMaterials, promoteToFaculty } from "./materials.ts";
 import {
   clearGoogleStateCookie,
   createGoogleState,
@@ -398,6 +398,19 @@ const server = createServer(async (req, res) => {
       } catch (err) {
         send(res, 400, { error: err instanceof Error ? err.message : "Could not publish" });
       }
+      return;
+    }
+
+    const materialMatch = url.pathname.match(/^\/api\/materials\/(\d+)$/);
+    if (req.method === "DELETE" && materialMatch) {
+      const account = await requireFaculty(req, res);
+      if (!account) return;
+      const removed = await deleteMaterial(account.id, Number(materialMatch[1]));
+      if (!removed) {
+        send(res, 404, { error: "Material not found" });
+        return;
+      }
+      send(res, 200, { ok: true });
       return;
     }
 

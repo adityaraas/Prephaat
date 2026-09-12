@@ -93,6 +93,11 @@ a { color: var(--green); text-decoration: none; font-weight: 700; }
   color: #fff;
 }
 
+.danger-btn {
+  color: var(--danger);
+  border: 1px solid #f4c4c8;
+}
+
 .tabs {
   display: flex;
   gap: 0.55rem;
