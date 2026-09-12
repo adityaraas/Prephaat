@@ -1,0 +1,135 @@
+{
+  "subject": "science",
+  "note": "Original Class 6–10 science path plus selected Class 11–12 ideas that UPSC/BPSC actually ask. Mechanism first, names second.",
+  "books": [
+    {
+      "class": 6,
+      "book": "Science",
+      "chapters": [
+        { "title": "Food: Where Does It Come From?", "summary": "Sources of food, plant vs animal, ingredients vs sources. Food security later sits on this.", "points": ["Ingredients", "Herbivore–carnivore", "Plant parts as food", "Diversity of diets"], "exam": "Basics." },
+        { "title": "Components of Food", "summary": "Carbs, proteins, fats, vitamins, minerals, fibre, water. Deficiency diseases. Balanced diet.", "points": ["Nutrients", "Tests (starch/protein)", "Deficiencies", "Balanced diet"], "exam": "Health GS." },
+        { "title": "Fibre to Fabric", "summary": "Plant and animal fibres, spinning, weaving. Link to industry geography later.", "points": ["Cotton/jute", "Wool/silk", "Process", "History of cloth"], "exam": "Light." },
+        { "title": "Sorting Materials into Groups", "summary": "Properties: lustre, hardness, soluble, density, transparent. Classification is scientific method.", "points": ["Properties", "Solubility", "Density", "Why classify"], "exam": "Method." },
+        { "title": "Separation of Substances", "summary": "Handpicking, sieving, filtration, evaporation, condensation. Mixtures vs pure substances.", "points": ["Methods", "Solution", "Evaporation", "Water purification idea"], "exam": "Everyday science." },
+        { "title": "Changes Around Us", "summary": "Reversible vs irreversible, physical vs chemical. Heating, burning, rusting.", "points": ["Reversible", "Chemical change", "Rust", "Energy in changes"], "exam": "Chemistry intro." },
+        { "title": "Getting to Know Plants", "summary": "Herbs shrubs trees, root stem leaf flower. Photosynthesis preview. Transpiration.", "points": ["Types", "Venation", "Photosynthesis", "Transpiration"], "exam": "Biology." },
+        { "title": "Body Movements", "summary": "Human skeleton, joints, gait of animals. Structure–function.", "points": ["Joints", "Ball and socket", "Exoskeleton", "Muscles"], "exam": "Human body." },
+        { "title": "The Living Organisms — Characteristics", "summary": "Habitat, adaptation, life processes. Desert, mountain, aquatic adaptations.", "points": ["Habitat", "Adaptation", "Stimuli", "Growth/reproduction"], "exam": "Ecology intro." },
+        { "title": "Motion and Measurement of Distances", "summary": "Rest and motion, SI units, measurement. Precision matters in science and in GS data.", "points": ["SI", "Types of motion", "Measurement", "Accuracy"], "exam": "Physics." },
+        { "title": "Light, Shadows and Reflections", "summary": "Rectilinear propagation, pinhole, mirrors. Later Class 10 optics builds here.", "points": ["Straight line", "Shadow", "Reflection", "Pinhole"], "exam": "Optics start." },
+        { "title": "Electricity and Circuits", "summary": "Cell, bulb, switch, conductors vs insulators. Safety.", "points": ["Circuit", "Conductors", "Open/closed", "Safety"], "exam": "Electricity." },
+        { "title": "Fun with Magnets", "summary": "Poles, compass, Earth’s magnetism. Navigation history.", "points": ["Poles", "Compass", "Attraction/repulsion", "Earth magnet"], "exam": "Magnetism." },
+        { "title": "Water", "summary": "Cycle, drought, flood, conservation. Direct GS-III overlap.", "points": ["Cycle", "Drought/flood", "Groundwater", "Conserve"], "exam": "Water." },
+        { "title": "Air Around Us", "summary": "Composition, oxygen for burning and breathing, atmosphere. Link later to pollution.", "points": ["Composition", "Oxygen", "Atmosphere", "Uses"], "exam": "Atmosphere." },
+        { "title": "Garbage In, Garbage Out", "summary": "Vermicompost, plastics, 3Rs. Waste is a governance problem.", "points": ["Biodegradable", "Plastics", "3R", "Landfill"], "exam": "Environment." }
+      ]
+    },
+    {
+      "class": 7,
+      "book": "Science",
+      "chapters": [
+        { "title": "Nutrition in Plants & Animals", "summary": "Photosynthesis equation idea, heterotrophs, human digestive system. Autotroph vs heterotroph.", "points": ["Photosynthesis", "Stomata", "Digestion organs", "Ruminants"], "exam": "Biology core." },
+        { "title": "Fibre to Fabric (wool/silk)", "summary": "Animal fibres in more depth. Sericulture as livelihood.", "points": ["Wool", "Silk", "Occupational health", "Livelihood"], "exam": "Light." },
+        { "title": "Heat", "summary": "Temperature, conduction convection radiation, land–sea breeze. Climate physics starts here.", "points": ["Thermometer", "Transfer of heat", "Land breeze", "Insulators"], "exam": "Climate link." },
+        { "title": "Acids, Bases and Salts", "summary": "Indicators, natural acids, neutralisation. Everyday chemicals (baking soda, calamine).", "points": ["Indicators", "Neutralisation", "Uses", "Safety"], "exam": "Chemistry." },
+        { "title": "Physical and Chemical Changes", "summary": "Rusting, crystallisation, chemical equations idea. Conservation of mass flavour.", "points": ["Rusting", "Crystallisation", "Chemical vs physical", "Prevention of rust"], "exam": "Chemistry." },
+        { "title": "Weather, Climate and Adaptations", "summary": "Weather vs climate, climate and polar/tropical adaptations. Geography twin.", "points": ["Weather/climate", "Migration", "Polar bear/penguin", "Tropical"], "exam": "Climate." },
+        { "title": "Winds, Storms and Cyclones", "summary": "Air pressure, wind, thunderstorms, cyclones, safety. Disaster management science.", "points": ["Pressure", "Thunderstorm", "Cyclone", "Safety"], "exam": "GS-III disaster." },
+        { "title": "Soil", "summary": "Profile, types, suitability for crops. Geography overlap.", "points": ["Horizon", "Types", "Percolation", "Soil and crops"], "exam": "Soils." },
+        { "title": "Respiration in Organisms", "summary": "Aerobic vs anaerobic, human respiratory system, breathing vs respiration.", "points": ["Aerobic", "Anaerobic", "Lungs", "Yeast"], "exam": "Biology." },
+        { "title": "Transportation in Animals and Plants", "summary": "Circulatory system, excretion, xylem–phloem. Structure–function.", "points": ["Heart/blood", "Excretion", "Xylem", "Transpiration pull"], "exam": "Biology." },
+        { "title": "Reproduction in Plants", "summary": "Asexual and sexual, pollination, seed dispersal. Agriculture link.", "points": ["Asexual", "Pollination", "Fertilisation", "Dispersal"], "exam": "Biology." },
+        { "title": "Motion and Time", "summary": "Speed, distance–time graphs, oscillatory motion. Quantitative thinking.", "points": ["Speed", "Graphs", "Pendulum", "Uniform motion"], "exam": "Physics." },
+        { "title": "Electric Current and its Effects", "summary": "Heating effect, magnetic effect, electromagnet, fuse. Applications.", "points": ["Heating", "Magnetic", "Electromagnet", "Fuse"], "exam": "Electricity." },
+        { "title": "Light", "summary": "Reflection laws, spherical mirrors idea, colours, Newton’s disc. Class 10 will deepen.", "points": ["Laws of reflection", "Images", "Spectrum", "Lenses intro"], "exam": "Optics." },
+        { "title": "Forests: Our Lifeline", "summary": "Canopy, interdependence, deforestation. Environment chapter in science clothing.", "points": ["Layers", "Food web", "Deforestation", "Conservation"], "exam": "Environment." },
+        { "title": "Wastewater Story", "summary": "Sewage, treatment plant, sanitation. Public health + urban GS.", "points": ["Sewage", "WWTP steps", "Sanitation", "Waterborne disease"], "exam": "Health/urban." }
+      ]
+    },
+    {
+      "class": 8,
+      "book": "Science",
+      "chapters": [
+        { "title": "Crop Production and Management", "summary": "Agricultural practices, manure vs fertiliser, irrigation, weeds, storage. Green Revolution costs belong in economy notes.", "points": ["Kharif/rabi", "Fertiliser vs manure", "Irrigation", "Storage"], "exam": "Agriculture." },
+        { "title": "Microorganisms", "summary": "Bacteria, fungi, protozoa, algae, virus. Useful (nitrogen fix, vaccines, curd) vs harmful. Antibiotics and AMR later.", "points": ["Types", "Useful microbes", "Pathogens", "Food preservation"], "exam": "Health." },
+        { "title": "Coal and Petroleum", "summary": "Fossil fuels, refining, limited nature, conservation. Energy GS-III.", "points": ["Fossil fuels", "Refining", "Limited", "Conserve"], "exam": "Energy." },
+        { "title": "Combustion and Flame", "summary": "Types of combustion, flame structure, fuel efficiency, fire control. Air pollution from fuels.", "points": ["Combustion types", "Flame", "Calorific value", "Pollution"], "exam": "Energy/pollution." },
+        { "title": "Conservation of Plants and Animals", "summary": "Deforestation, biodiversity, endemic, Red Data, national parks, biosphere reserves. Direct environment syllabus.", "points": ["Deforestation", "Endemic", "Protected areas", "Migration"], "exam": "Environment." },
+        { "title": "Cell — Structure and Functions", "summary": "Cell theory, plant vs animal cell, organelles. Foundation of biology Prelims.", "points": ["Cell theory", "Organelles", "Plant vs animal", "Unicellular"], "exam": "Cell." },
+        { "title": "Reproduction in Animals", "summary": "Sexual, asexual, IVF mention, metamorphosis. Human reproduction ethics later in GS-IV/S&T.", "points": ["Modes", "Fertilisation", "Development", "IVF idea"], "exam": "Biology." },
+        { "title": "Reaching the Age of Adolescence", "summary": "Hormones, puberty, reproductive health, gender myths. Health education as public policy.", "points": ["Hormones", "Puberty", "Reproductive health", "Myths"], "exam": "Health." },
+        { "title": "Force and Pressure", "summary": "Contact/non-contact, pressure in fluids, atmosphere. Why dams are thick at base.", "points": ["Force", "Pressure", "Liquids", "Atmosphere"], "exam": "Physics." },
+        { "title": "Friction", "summary": "Advantages, disadvantages, reducing friction. Applied physics.", "points": ["Static/kinetic", "Uses", "Reduce", "Fluid friction"], "exam": "Physics." },
+        { "title": "Sound", "summary": "Vibration, frequency, amplitude, human ear, noise pollution. Policy on noise.", "points": ["Vibration", "Pitch/loudness", "Ear", "Noise"], "exam": "Physics + environment." },
+        { "title": "Chemical Effects of Electric Current", "summary": "Electrolysis, electroplating, LED. Industrial applications.", "points": ["Conducting liquids", "Electrolysis", "Electroplating", "LED"], "exam": "Chemistry/industry." },
+        { "title": "Some Natural Phenomena", "summary": "Lightning, earthquake, safety, seismic zones. Disaster science.", "points": ["Charging", "Lightning safety", "Earthquake", "Seismic zones"], "exam": "Disaster." },
+        { "title": "Light", "summary": "Laws, regular/diffused, multiple mirrors, human eye, Braille. Care of eyes.", "points": ["Laws", "Kaleidoscope", "Eye", "Braille"], "exam": "Optics." },
+        { "title": "Stars and the Solar System", "summary": "Moon phases, planets, constellations, artificial satellites. Bridge to ISRO CA.", "points": ["Phases", "Planets", "Constellations", "Satellites"], "exam": "Space." },
+        { "title": "Pollution of Air and Water", "summary": "Smog, acid rain, greenhouse, water pollution, Ganga action flavour. Law comes later.", "points": ["Air pollutants", "GHG", "Water pollutants", "Purification"], "exam": "Environment." }
+      ]
+    },
+    {
+      "class": 9,
+      "book": "Science",
+      "chapters": [
+        { "title": "Matter in Our Surroundings", "summary": "States, diffusion, latent heat, evaporation cooling. Kinetic theory flavour.", "points": ["States", "Latent heat", "Evaporation", "Diffusion"], "exam": "Chemistry." },
+        { "title": "Is Matter Around Us Pure", "summary": "Mixtures, solutions, colloids, suspensions, separation, physical vs chemical.", "points": ["Mixture types", "Concentration", "Tyndall", "Separation"], "exam": "Chemistry." },
+        { "title": "Atoms and Molecules", "summary": "Laws of chemical combination, atoms, molecules, mole idea, formulae.", "points": ["Dalton", "Ions", "Mole", "Formulae"], "exam": "Chemistry." },
+        { "title": "Structure of the Atom", "summary": "Thomson, Rutherford, Bohr, electrons protons neutrons, valency, isotopes. Nuclear energy later.", "points": ["Models", "Isotopes", "Valency", "Atomic number"], "exam": "Chemistry/physics." },
+        { "title": "The Fundamental Unit of Life", "summary": "Cell organelles in more detail, osmosis, plasma membrane.", "points": ["Organelles", "Osmosis", "Prokaryote/eukaryote", "Division intro"], "exam": "Cell." },
+        { "title": "Tissues", "summary": "Plant and animal tissues. Meristem, xylem, phloem, epithelium, muscle, nerve.", "points": ["Plant tissues", "Animal tissues", "Xylem/phloem", "Muscle types"], "exam": "Biology." },
+        { "title": "Motion", "summary": "Displacement, velocity, acceleration, graphs, equations, uniform circular.", "points": ["Scalar/vector", "Graphs", "Equations", "Circular motion"], "exam": "Physics." },
+        { "title": "Force and Laws of Motion", "summary": "Newton’s laws, inertia, momentum, action–reaction. Rockets and recoil as examples.", "points": ["Three laws", "Momentum", "Impulse", "Applications"], "exam": "Physics." },
+        { "title": "Gravitation", "summary": "Universal law, free fall, mass vs weight, thrust, buoyancy, Archimedes. Satellites qualitatively.", "points": ["G", "g", "Buoyancy", "Why ships float"], "exam": "Physics." },
+        { "title": "Work and Energy", "summary": "Work, kinetic/potential, conservation, rate (power), commercial unit kWh.", "points": ["W=Fs", "KE/PE", "Conservation", "kWh"], "exam": "Energy." },
+        { "title": "Sound", "summary": "Wave, SONAR, human hearing, ultrasound applications (medicine, industry).", "points": ["Wave", "SONAR", "Ultrasound", "Range of hearing"], "exam": "Applications." },
+        { "title": "Why Do We Fall Ill", "summary": "Health vs disease, infectious vs non-infectious, principles of treatment and prevention, immunization.", "points": ["Health", "Pathogens", "Antibiotics vs viruses", "Vaccines"], "exam": "Public health." },
+        { "title": "Natural Resources", "summary": "Air, water, soil biogeochemical cycles, ozone. Class 9 environment block.", "points": ["Air/water/soil", "Cycles C N water", "Ozone hole idea", "Greenhouse"], "exam": "Environment." },
+        { "title": "Improvement in Food Resources", "summary": "Crop variety, production management, animal husbandry, fish, bee-keeping. Farm science for GS-III.", "points": ["Varietal improvement", "Nutrient management", "Husbandry", "Storage"], "exam": "Agriculture." }
+      ]
+    },
+    {
+      "class": 10,
+      "book": "Science",
+      "chapters": [
+        { "title": "Chemical Reactions and Equations", "summary": "Types of reactions, redox, corrosion, rancidity. Balancing.", "points": ["Combination/decomposition", "Redox", "Corrosion", "Rancidity"], "exam": "Chemistry." },
+        { "title": "Acids, Bases and Salts", "summary": "pH, indicators, important salts (NaOH, bleaching powder, baking soda, washing soda, plaster of Paris). Everyday GS.", "points": ["pH", "Tooth decay", "Salts", "Water of crystallisation"], "exam": "High-yield." },
+        { "title": "Metals and Non-metals", "summary": "Reactivity series, ionic bonds, extraction, corrosion. Industry geography later.", "points": ["Reactivity", "Ionic", "Extraction", "Alloys"], "exam": "Chemistry/industry." },
+        { "title": "Carbon and its Compounds", "summary": "Covalent, homologous series, ethanol, ethanoic acid, soaps vs detergents. Saturated/unsaturated.", "points": ["Covalent", "Nomenclature idea", "Ethanol/ethanoic", "Soap/hard water"], "exam": "Organic lite." },
+        { "title": "Periodic Classification", "summary": "Mendeleev to modern periodic table, trends. Why classification matters.", "points": ["Mendeleev", "Modern table", "Trends", "Valency"], "exam": "Chemistry." },
+        { "title": "Life Processes", "summary": "Nutrition, respiration, transport, excretion in plants and humans. Must-revise for Prelims.", "points": ["Photosynthesis", "Respiration", "Heart/nephron", "Transpiration"], "exam": "Biology core." },
+        { "title": "Control and Coordination", "summary": "Nervous system, hormones in animals, tropisms, plant hormones. Endocrine as chemical coordination.", "points": ["Neuron", "Brain", "Hormones", "Tropism"], "exam": "Biology." },
+        { "title": "How do Organisms Reproduce", "summary": "Asexual, sexual, human reproductive system, contraception, reproductive health. Population and health GS.", "points": ["Asexual modes", "Human system", "Contraception", "Health"], "exam": "Biology + social." },
+        { "title": "Heredity and Evolution", "summary": "Mendel, sex determination, acquired vs inherited, evolution, speciation, fossils, human evolution sketch.", "points": ["Mendel", "Sex chromosomes", "Evolution evidence", "Speciation"], "exam": "Biology." },
+        { "title": "Light — Reflection and Refraction", "summary": "Mirrors, lenses, lens formula, power of lens, human eye, defects, prism, atmospheric refraction, scattering (why sky is blue).", "points": ["Mirror/lens", "Eye defects", "Prism", "Scattering"], "exam": "Optics favourite." },
+        { "title": "Electricity", "summary": "Ohm’s law, resistance, series/parallel, heating effect, electric power, household circuits, fuse, earthing.", "points": ["Ohm", "Combination", "Power", "Safety"], "exam": "Physics." },
+        { "title": "Magnetic Effects of Electric Current", "summary": "Field, Fleming, electric motor/generator idea, AC vs DC, domestic wiring.", "points": ["Field lines", "Motor/generator", "AC/DC", "Earthing"], "exam": "Physics." },
+        { "title": "Our Environment", "summary": "Ecosystem, food chains, ozone, waste, biodegradable. Direct environment.", "points": ["Trophic levels", "Ozone", "Waste", "10% law"], "exam": "Environment." },
+        { "title": "Sustainable Management of Natural Resources", "summary": "5Rs, forests, water (dams debate), coal/petroleum. Stakeholder conflicts (forest people vs industry).", "points": ["5R", "Forests", "Water", "Stakeholders"], "exam": "GS-III." }
+      ]
+    },
+    {
+      "class": 11,
+      "book": "Selected plus-two (UPSC relevant)",
+      "chapters": [
+        { "title": "Cell cycle, biomolecules (idea)", "summary": "DNA/RNA as information, enzymes, why biotech can edit genes. Enough to read CRISPR news.", "points": ["DNA/RNA", "Enzymes", "Cell cycle", "Biotech hook"], "exam": "S&T." },
+        { "title": "Plant physiology (idea)", "summary": "Photosynthesis light/dark reactions names, transpiration, mineral nutrition (N cycle link).", "points": ["Photosynthesis stages", "Transpiration", "N fixation", "Deficiency symptoms idea"], "exam": "Agriculture/S&T." },
+        { "title": "Human physiology (idea)", "summary": "Neural, endocrine, immunity (innate/adaptive), which makes vaccine current affairs readable.", "points": ["Immunity", "Hormones", "Neural", "Public health"], "exam": "Health." },
+        { "title": "Thermodynamics & equilibrium (idea)", "summary": "Energy conservation, enthalpy flavour, why engines waste heat. Climate and energy policy sit on this.", "points": ["Laws of thermo (qualitative)", "Equilibrium", "Energy efficiency", "Climate"], "exam": "Energy." },
+        { "title": "Hydrocarbons & environmental chemistry (idea)", "summary": "Fuels, pollutants, green chemistry idea. Link Class 8–10 pollution to industrial chemistry.", "points": ["Fuels", "Pollutants", "Green chemistry", "Smog"], "exam": "Environment." }
+      ]
+    },
+    {
+      "class": 12,
+      "book": "Selected plus-two (UPSC relevant)",
+      "chapters": [
+        { "title": "Biotechnology: principles and applications", "summary": "rDNA, PCR, GM crops, insulin, gene therapy idea, ethical/biosafety (GEAC). Write application + regulation.", "points": ["rDNA", "PCR", "GM", "GEAC/ethics"], "exam": "S&T mains." },
+        { "title": "Human health and disease", "summary": "Immunity, AIDS, cancer, drugs, vaccines, public health. AMR as current file.", "points": ["Immunity", "Communicable", "Lifestyle", "AMR"], "exam": "Health." },
+        { "title": "Microbes in human welfare", "summary": "Antibiotics, sewage treatment, biogas, biocontrol. Industry + sanitation.", "points": ["Antibiotics", "STP microbes", "Biogas", "Biocontrol"], "exam": "Applied bio." },
+        { "title": "Biodiversity and conservation (bio)", "summary": "Levels, patterns, loss, in-situ/ex-situ. Overlaps environment GS.", "points": ["Levels", "Hotspots", "Threats", "Conservation"], "exam": "Environment." },
+        { "title": "Semiconductor electronics (idea)", "summary": "p-n, diode, transistor as switch, why chips are strategic. Enough for semiconductor mission news.", "points": ["Semiconductor", "Diode", "Chip supply chain", "India mission"], "exam": "S&T/industry." },
+        { "title": "Nuclei (idea)", "summary": "Radioactivity, fission/fusion, nuclear energy, waste, India’s three-stage programme flavour.", "points": ["Radioactivity", "Fission/fusion", "Nuclear power", "Waste"], "exam": "Energy/security." }
+      ]
+    }
+  ]
+}

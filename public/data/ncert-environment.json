@@ -1,0 +1,70 @@
+{
+  "subject": "environment",
+  "note": "Original environment pack: school chapters plus GS-III law, conventions, India and Bihar. Use with the Science and Geography NCERT paths.",
+  "books": [
+    {
+      "class": 6,
+      "book": "Environment from Class 6 science/geo",
+      "chapters": [
+        { "title": "Garbage and 3Rs", "summary": "Segregation, composting, plastic persistence. Habit plus municipal systems.", "points": ["Biodegradable", "Plastic", "3R", "Landfill methane"], "exam": "Waste." },
+        { "title": "Water as a resource", "summary": "Cycle, scarcity, flood and drought in the same country. Conservation is culture plus engineering.", "points": ["Cycle", "Scarcity", "Flood/drought", "Conserve"], "exam": "Water." }
+      ]
+    },
+    {
+      "class": 7,
+      "book": "Environment from Class 7",
+      "chapters": [
+        { "title": "Forests as lifeline", "summary": "Layers, tribes, products, deforestation chain (soil, climate, livelihoods).", "points": ["Canopy", "Interdependence", "Deforestation", "People in forests"], "exam": "Forests." },
+        { "title": "Wastewater and sanitation", "summary": "Sewage treatment, open defecation free as a public-health project, river pollution.", "points": ["STP", "Sanitation", "Rivers", "Health"], "exam": "Urban/env." }
+      ]
+    },
+    {
+      "class": 8,
+      "book": "Environment from Class 8",
+      "chapters": [
+        { "title": "Coal, petroleum and combustion", "summary": "Finite fossils, incomplete combustion, soot, CO. Energy transition starts as a science fact.", "points": ["Finite", "Pollution", "Efficiency", "Alternatives"], "exam": "Energy." },
+        { "title": "Conservation of plants and animals", "summary": "Protected area network, endemic species, Red Data, migratory birds. Paper parks vs real protection.", "points": ["PA network", "Endemic", "Red Data", "Corridors"], "exam": "Biodiversity." },
+        { "title": "Air and water pollution", "summary": "Smog, acid rain, greenhouse, industrial and domestic effluent. Ganga as a living case.", "points": ["Smog", "Acid rain", "GHG", "Effluent"], "exam": "Pollution." }
+      ]
+    },
+    {
+      "class": 9,
+      "book": "Natural resources & food",
+      "chapters": [
+        { "title": "Biogeochemical cycles", "summary": "Water, nitrogen, carbon, oxygen. Human disruption (fertiliser, fossil carbon) is the GS hook.", "points": ["N cycle", "C cycle", "Water", "Human disruption"], "exam": "Ecology." },
+        { "title": "Ozone and greenhouse", "summary": "Stratospheric ozone vs tropospheric warming — do not mix the two. Montreal vs UNFCCC.", "points": ["Ozone depletion", "GHG", "Montreal", "UNFCCC"], "exam": "Conventions." }
+      ]
+    },
+    {
+      "class": 10,
+      "book": "Our environment & resources",
+      "chapters": [
+        { "title": "Ecosystems and food chains", "summary": "Producers to decomposers, 10% law, biomagnification (DDT). Why top predators are few.", "points": ["Trophic", "10% law", "Biomagnification", "Decomposers"], "exam": "Ecology." },
+        { "title": "Sustainable resource management", "summary": "Stakeholders in forests and dams. Chipko and local institutions. 5Rs.", "points": ["Stakeholders", "Dams debate", "5R", "Local institutions"], "exam": "GS-III." }
+      ]
+    },
+    {
+      "class": 11,
+      "book": "GS environment core",
+      "chapters": [
+        { "title": "Ecology basics for Prelims", "summary": "Biome, ecotone, niche, keystone, edge effect, ecological succession, pyramids (number, biomass, energy).", "points": ["Biome/ecotone", "Niche/keystone", "Succession", "Pyramids"], "exam": "Prelims definitions." },
+        { "title": "Biodiversity of India", "summary": "Four hotspots touching India, biogeographic zones, Western Ghats vs Himalaya, Indo-Burma, Sundaland. Species examples without stuffing 200 names.", "points": ["Hotspots", "Zones", "Endemism", "Threats"], "exam": "India bio." },
+        { "title": "Protected area architecture", "summary": "NP, WLS, conservation/community reserves, biosphere, Ramsar, World Heritage, tiger reserves, elephant corridors.", "points": ["Categories", "Biosphere", "Ramsar", "Project Tiger idea"], "exam": "Institutions." },
+        { "title": "Pollution science", "summary": "Air (PM, NOx, SOx, ozone), water (BOD/COD idea), soil, noise, plastic, e-waste, biomedical. NCAP, CPCB, SPCBs.", "points": ["PM2.5", "BOD", "E-waste", "Agencies"], "exam": "Pollution." },
+        { "title": "Climate change science", "summary": "GHG, GWP, carbon budget, 1.5°C, adaptation vs mitigation, India’s energy mix, just transition.", "points": ["GWP", "Budget", "Mitigation/adaptation", "Just transition"], "exam": "Climate." }
+      ]
+    },
+    {
+      "class": 12,
+      "book": "Law, policy, Bihar",
+      "chapters": [
+        { "title": "Indian environmental law stack", "summary": "1972 Stockholm → Wildlife Act 1972, Water 1974, Forest 1980, Air 1981, EPA 1986 umbrella, Biodiversity 2002, FRA 2006, NGT 2010. EIA notification as the live wire.", "points": ["Umbrella EPA", "Sectoral acts", "NGT", "EIA"], "exam": "Law." },
+        { "title": "Forest Rights and people", "summary": "FRA, Gram Sabha, critical wildlife habitat tension. Conservation that ignores people fails; people without ecology also fail.", "points": ["FRA", "Gram Sabha", "CWH", "Balance"], "exam": "GS-II/III." },
+        { "title": "Conventions one-pass", "summary": "UNFCCC/Kyoto/Paris, CBD, CITES, Ramsar, CMS, Bonn, Basel, Rotterdam, Stockholm, Minamata, UNCCD, Montreal/Kigali.", "points": ["Climate trio", "Biodiversity trio", "Chemicals", "Desertification"], "exam": "Prelims list — with one-line aim." },
+        { "title": "Disaster–environment in Bihar", "summary": "Floods, heat, changing monsoon, embankment ecology, arsenic, river-linking debates. Adaptation is the Bihar climate story.", "points": ["Floods", "Heat", "Arsenic", "Embankments"], "exam": "BPSC." },
+        { "title": "Agriculture and environment", "summary": "Stubble, fertiliser runoff, groundwater, agroforestry, millet, organic. Green Revolution’s ecological bill.", "points": ["Runoff", "Stubble", "GW", "Millets"], "exam": "Agri-env." },
+        { "title": "Energy transition", "summary": "Coal dependence, RE targets, grid, storage, green hydrogen hype vs logistics, nuclear. Security + climate + jobs.", "points": ["Coal", "RE", "Storage", "Hydrogen caution"], "exam": "GS-III." }
+      ]
+    }
+  ]
+}

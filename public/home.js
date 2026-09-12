@@ -13,6 +13,13 @@ const quizHistoryEl = document.getElementById("quiz-history");
 const tabsEl = document.getElementById("tabs");
 const syllabusContent = document.getElementById("syllabus-content");
 const syllabusBox = document.getElementById("syllabus-box");
+const pyqEl = document.getElementById("pyq");
+const pyqBoard = document.getElementById("pyq-board");
+const pyqExamEl = document.getElementById("pyq-exam");
+const pyqStageEl = document.getElementById("pyq-stage");
+const pyqYearEl = document.getElementById("pyq-year");
+const pyqPaperEl = document.getElementById("pyq-paper");
+const pyqMeta = document.getElementById("pyq-meta");
 
 let newsItems = [];
 let activeSource = "all";
@@ -22,8 +29,24 @@ let activeExam = "upsc";
 let tracker = null;
 let activeQuiz = null;
 let quizAnswers = {};
+let extraNotes = {};
+let pyqIndex = null;
+let pyqBanks = {};
+let pyqExam = "upsc";
+let pyqStage = "prelims";
+let pyqYear = 2024;
+let pyqPaper = "all";
+let pyqPicks = {};
+let pyqOpen = {};
 let ncertCache = {};
-let ncertClass = { history: "all", geography: "all", economy: "all" };
+let ncertClass = {
+  history: "all",
+  geography: "all",
+  economy: "all",
+  polity: "all",
+  science: "all",
+  environment: "all",
+};
 let quizSubject = "history";
 let quizEndsAt = 0;
 let quizTimerId = 0;
@@ -155,6 +178,7 @@ function renderTabs() {
   const items = [
     { id: "current", label: "🗞️ Current affairs" },
     { id: "quiz", label: "⚡ Quiz" },
+    { id: "pyq", label: "📘 PYQ" },
     ...studyData.subjects.map((subject) => ({
       id: subject.id,
       label: `${subject.emoji ?? ""} ${subject.title}`.trim(),
@@ -171,21 +195,153 @@ function showTab(id) {
   }
   const isNews = id === "current";
   const isQuiz = id === "quiz";
+  const isPyq = id === "pyq";
   feedEl.hidden = !isNews;
   methodEl.hidden = !isNews;
   quizEl.hidden = !isQuiz;
-  subjectEl.hidden = isNews || isQuiz;
+  pyqEl.hidden = !isPyq;
+  subjectEl.hidden = isNews || isQuiz || isPyq;
   if (isQuiz) {
     renderQuizPick();
     renderTracker();
     loadHistory();
+  } else if (isPyq) {
+    renderPyq();
   } else if (!isNews) {
     renderSubject(id);
   }
 }
 
+async function loadPyqBank(exam) {
+  if (pyqBanks[exam]) return pyqBanks[exam];
+  const res = await fetch(`/data/pyq-${exam}.json`);
+  pyqBanks[exam] = res.ok ? await res.json() : { papers: [] };
+  return pyqBanks[exam];
+}
+
+function pyqChips(el, items, current, attr) {
+  el.innerHTML = items
+    .map(
+      (item) =>
+        `<button type="button" class="${String(item.id) === String(current) ? "on" : ""}" data-${attr}="${escapeHtml(String(item.id))}">${escapeHtml(item.label)}</button>`
+    )
+    .join("");
+}
+
+function currentPyqPapers() {
+  const bank = pyqBanks[pyqExam];
+  if (!bank) return [];
+  return (bank.papers || []).filter((paper) => paper.stage === pyqStage && Number(paper.year) === Number(pyqYear));
+}
+
+function renderPyqQuestion(item, paper) {
+  const open = Boolean(pyqOpen[item.id]);
+  const pick = pyqPicks[item.id];
+  const isMains = paper.stage === "mains";
+  if (isMains) {
+    return `
+      <article class="q pyq-q">
+        <p class="badge">${escapeHtml(paper.paper)} · ${item.marks || ""} marks · Q${item.n}</p>
+        <h3>${escapeHtml(item.q)}</h3>
+        <button type="button" class="ghost" data-pyq-sol="${escapeHtml(item.id)}">${open ? "Hide solution" : "Show solution"}</button>
+        ${open ? `<div class="explain pyq-sol"><strong>Model solution</strong><p>${escapeHtml(item.solution)}</p></div>` : ""}
+      </article>`;
+  }
+  const options = (item.options || [])
+    .map((opt, idx) => {
+      let cls = "q-opt";
+      if (item.cancelled) cls += " bad";
+      else if (open || pick !== undefined) {
+        if (idx === item.answer) cls += " good";
+        else if (pick === idx && idx !== item.answer) cls += " bad";
+        else if (pick === idx) cls += " picked";
+      } else if (pick === idx) cls += " picked";
+      return `<button type="button" class="${cls}" data-pyq-opt="${idx}" data-pyq-id="${escapeHtml(item.id)}"><span class="opt-key">${OPTION_LETTERS[idx] || idx + 1}</span><span class="opt-text">${escapeHtml(opt)}</span></button>`;
+    })
+    .join("");
+  const sol =
+    open || pick !== undefined
+      ? `<div class="explain pyq-sol"><strong>${item.cancelled ? "Deleted" : "Solution"}</strong><p>${escapeHtml(item.solution)}</p></div>`
+      : `<button type="button" class="ghost" data-pyq-sol="${escapeHtml(item.id)}">Show solution</button>`;
+  return `
+    <article class="q pyq-q">
+      <p class="badge">${escapeHtml(item.topic || "GS")} · Q${item.n}${item.cancelled ? " · deleted" : ""}</p>
+      <h3>${escapeHtml(item.q)}</h3>
+      ${options}
+      ${sol}
+    </article>`;
+}
+
+async function renderPyq() {
+  if (!pyqBanks[pyqExam] && !pyqIndex) {
+    pyqBoard.innerHTML = `<p class="empty">Loading previous year papers…</p>`;
+  }
+  if (!pyqIndex) {
+    const res = await fetch("/data/pyq-index.json");
+    pyqIndex = res.ok ? await res.json() : { exams: [] };
+  }
+  const examMeta = (pyqIndex.exams || []).find((entry) => entry.id === pyqExam) || pyqIndex.exams[0];
+  if (examMeta) pyqExam = examMeta.id;
+  await loadPyqBank(pyqExam);
+  const yearKey = pyqStage === "mains" ? "mainsYears" : "prelimsYears";
+  const years = examMeta?.[yearKey] || [];
+  if (years.length && !years.includes(Number(pyqYear))) pyqYear = years[0];
+  pyqChips(
+    pyqExamEl,
+    (pyqIndex.exams || []).map((entry) => ({ id: entry.id, label: entry.title })),
+    pyqExam,
+    "pyq-exam"
+  );
+  pyqChips(
+    pyqStageEl,
+    [
+      { id: "prelims", label: "Prelims" },
+      { id: "mains", label: "Mains" },
+    ],
+    pyqStage,
+    "pyq-stage"
+  );
+  pyqChips(
+    pyqYearEl,
+    years.map((year) => ({ id: year, label: String(year) })),
+    pyqYear,
+    "pyq-year"
+  );
+  const papers = currentPyqPapers();
+  const paperNames = [...new Set(papers.map((paper) => paper.paper))];
+  if (paperNames.length > 1) {
+    pyqChips(
+      pyqPaperEl,
+      [{ id: "all", label: "All papers" }, ...paperNames.map((name) => ({ id: name, label: name }))],
+      pyqPaper,
+      "pyq-paper"
+    );
+  } else {
+    pyqPaper = "all";
+    pyqPaperEl.innerHTML = "";
+  }
+  const visible = papers.filter((paper) => pyqPaper === "all" || paper.paper === pyqPaper);
+  const official = visible[0]?.official || pyqIndex.official?.[pyqExam] || "";
+  const count = visible.reduce((n, paper) => n + paper.questions.length, 0);
+  pyqMeta.innerHTML = visible[0]
+    ? `${escapeHtml(visible[0].note || "")} · ${count} questions. <a href="${escapeHtml(official)}" target="_blank" rel="noopener noreferrer">Official papers</a>`
+    : "No paper in this year yet.";
+  pyqBoard.innerHTML = visible.length
+    ? visible
+        .map(
+          (paper) => `
+            <div class="ncert-book">
+              <h3>${escapeHtml(paper.paper)} · ${paper.year}</h3>
+              ${paper.questions.map((item) => renderPyqQuestion(item, paper)).join("")}
+            </div>`
+        )
+        .join("")
+    : `<p class="empty">Pick another year or stage. Full booklets keep being added; 2024 UPSC GS-I and 69th–70th BPSC Prelims are complete papers.</p>`;
+}
+
 async function loadNcert(id) {
-  if (!["history", "geography", "economy"].includes(id)) return null;
+  const files = ["history", "geography", "economy", "polity", "science", "environment"];
+  if (!files.includes(id)) return null;
   if (!ncertCache[id]) {
     const res = await fetch(`/data/ncert-${id}.json`);
     ncertCache[id] = res.ok ? await res.json() : { books: [] };
@@ -233,11 +389,26 @@ function renderNcert(id, pack) {
     </div>`;
 }
 
+function extraModulesHtml(id, heading = "More material") {
+  const extras = extraNotes[id] ?? [];
+  if (!extras.length) return "";
+  return `<h2>${escapeHtml(heading)}</h2>${extras
+    .map(
+      (mod) => `
+        <div class="module">
+          <h3>${escapeHtml(mod.title)}</h3>
+          ${(mod.explain || []).map((para) => `<p class="detail">${escapeHtml(para)}</p>`).join("")}
+          <ul>${(mod.points || []).map((point) => `<li>${escapeHtml(point)}</li>`).join("")}</ul>
+        </div>`
+    )
+    .join("")}`;
+}
+
 function renderMethod() {
   const steps = studyData.howToReadPaper.steps
     .map((step) => `<li>${escapeHtml(step)}</li>`)
     .join("");
-  methodEl.innerHTML = `<h2>${escapeHtml(studyData.howToReadPaper.title)}</h2><ol>${steps}</ol>`;
+  methodEl.innerHTML = `<h2>${escapeHtml(studyData.howToReadPaper.title)}</h2><ol>${steps}</ol>${extraModulesHtml("current", "CA notebooks")}`;
 }
 
 function renderFilters() {
@@ -292,24 +463,7 @@ async function renderSubject(id) {
   let ncertHtml = "";
   const pack = await loadNcert(id);
   if (pack?.books?.length) ncertHtml = renderNcert(id, pack);
-  let extraHtml = "";
-  const extraRes = await fetch("/data/extra-notes.json");
-  if (extraRes.ok) {
-    const extraPack = await extraRes.json();
-    const extras = extraPack[id] ?? [];
-    if (extras.length) {
-      extraHtml = `<h2>More material</h2>${extras
-        .map(
-          (mod) => `
-            <div class="module">
-              <h3>${escapeHtml(mod.title)}</h3>
-              ${(mod.explain || []).map((para) => `<p class="detail">${escapeHtml(para)}</p>`).join("")}
-              <ul>${(mod.points || []).map((point) => `<li>${escapeHtml(point)}</li>`).join("")}</ul>
-            </div>`
-        )
-        .join("")}`;
-    }
-  }
+  const extraHtml = extraModulesHtml(id);
   let facultyHtml = "";
   const facRes = await fetch(`/api/materials?subject=${encodeURIComponent(id)}`);
   if (facRes.ok) {
@@ -496,6 +650,55 @@ tabsEl.addEventListener("click", (event) => {
   if (button) showTab(button.dataset.tab);
 });
 
+pyqEl.addEventListener("click", (event) => {
+  const examBtn = event.target.closest("[data-pyq-exam]");
+  if (examBtn) {
+    pyqExam = examBtn.dataset.pyqExam;
+    pyqPaper = "all";
+    pyqPicks = {};
+    pyqOpen = {};
+    renderPyq();
+    return;
+  }
+  const stageBtn = event.target.closest("[data-pyq-stage]");
+  if (stageBtn) {
+    pyqStage = stageBtn.dataset.pyqStage;
+    pyqPaper = "all";
+    pyqPicks = {};
+    pyqOpen = {};
+    renderPyq();
+    return;
+  }
+  const yearBtn = event.target.closest("[data-pyq-year]");
+  if (yearBtn) {
+    pyqYear = Number(yearBtn.dataset.pyqYear);
+    pyqPaper = "all";
+    pyqPicks = {};
+    pyqOpen = {};
+    renderPyq();
+    return;
+  }
+  const paperBtn = event.target.closest("[data-pyq-paper]");
+  if (paperBtn) {
+    pyqPaper = paperBtn.dataset.pyqPaper;
+    renderPyq();
+    return;
+  }
+  const sol = event.target.closest("[data-pyq-sol]");
+  if (sol) {
+    pyqOpen[sol.dataset.pyqSol] = !pyqOpen[sol.dataset.pyqSol];
+    renderPyq();
+    return;
+  }
+  const opt = event.target.closest("[data-pyq-opt]");
+  if (opt) {
+    clickSound();
+    pyqPicks[opt.dataset.pyqId] = Number(opt.dataset.pyqOpt);
+    pyqOpen[opt.dataset.pyqId] = true;
+    renderPyq();
+  }
+});
+
 sourceFilters.addEventListener("click", (event) => {
   const button = event.target.closest("button[data-source]");
   if (!button) return;
@@ -650,12 +853,14 @@ document.getElementById("logout").addEventListener("click", async () => {
   if (!session) return;
   document.getElementById("who").textContent = session.account.name;
 
-  const [subjectsRes, syllabusRes, newsRes] = await Promise.all([
+  const [subjectsRes, syllabusRes, newsRes, extraRes] = await Promise.all([
     fetch("/data/subjects.json"),
     fetch("/data/syllabus.json"),
     fetch("/api/current-affairs"),
+    fetch("/data/extra-notes.json"),
   ]);
   studyData = await subjectsRes.json();
+  extraNotes = extraRes.ok ? await extraRes.json() : {};
   syllabusData = await syllabusRes.json();
   renderTabs();
   renderMethod();

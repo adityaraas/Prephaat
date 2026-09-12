@@ -1,0 +1,109 @@
+{
+  "subject": "polity",
+  "note": "Original notes along NCERT civics / political science 6–12. Pair with Laxmikanth and the bare Constitution.",
+  "books": [
+    {
+      "class": 6,
+      "book": "Social and Political Life — I",
+      "chapters": [
+        { "title": "Understanding Diversity", "summary": "India’s diversity of language, region, religion and livelihood is a political fact, not only a slogan. Unity is negotiated through the Constitution, not sameness.", "points": ["Diversity vs inequality", "Prejudice and stereotypes", "Unity in the Constitution", "Bihar’s linguistic–caste mosaic as example"], "exam": "Society + polity intro." },
+        { "title": "Diversity and Discrimination", "summary": "Discrimination is diversity plus power. Caste, gender, disability and minority status need legal remedies (rights, commissions), not only moral appeals.", "points": ["Prejudice → discrimination", "Caste and gender", "Equality as a right", "Dignity"], "exam": "GS-I/II social justice." },
+        { "title": "What is Government?", "summary": "Government makes laws, implements, and settles disputes. Levels: local, state, Union. Democracy means people can change rulers and demand answers.", "points": ["Law, execution, courts", "Three levels", "Democracy vs monarchy", "Why we need government"], "exam": "Basic polity." },
+        { "title": "Key Elements of a Democratic Government", "summary": "Participation, accountability, resolution of conflict, equality and justice. Elections are necessary but not sufficient.", "points": ["Participation", "Accountability", "Conflict resolution", "Equality"], "exam": "Democratic theory." },
+        { "title": "Panchayati Raj", "summary": "Village democracy: gram sabha, gram panchayat, three tiers after 73rd Amendment. Funds, functions, functionaries decide if PRIs are real.", "points": ["Gram sabha", "Three tiers", "Women’s reservation", "Bihar PRIs"], "exam": "Local government." },
+        { "title": "Rural Administration", "summary": "Patwari, tehsildar, police station, land records. Administration is the face of the state in the village.", "points": ["Land records", "Police", "Revenue officials", "Access to justice"], "exam": "Governance." },
+        { "title": "Urban Administration", "summary": "Municipalities, wards, taxes, water and waste. 74th Amendment is the urban twin of panchayats.", "points": ["Municipal functions", "Wards", "Urban services", "74th CAA"], "exam": "Urban local bodies." },
+        { "title": "Rural Livelihoods", "summary": "Farm and non-farm work, landless labour, cooperatives. Livelihoods explain why welfare and MGNREGA exist.", "points": ["Small farmers", "Labour", "Non-farm", "Seasonal work"], "exam": "Economy overlap." },
+        { "title": "Urban Livelihoods", "summary": "Factories, shops, street vendors, gig work. Informal urban work is the majority story.", "points": ["Vendors", "Factories", "Informal sector", "Social security gap"], "exam": "Labour + cities." }
+      ]
+    },
+    {
+      "class": 7,
+      "book": "Social and Political Life — II",
+      "chapters": [
+        { "title": "On Equality", "summary": "Equality in the Preamble and Article 14–18. Universal Adult Franchise. Midday meal as equality in practice. Inequality persists; law is a tool.", "points": ["One person one vote", "Untouchability abolished", "Article 15", "Implementation gap"], "exam": "FRs." },
+        { "title": "Role of the Government in Health", "summary": "Public vs private health, Kerala-type public investment vs out-of-pocket spend. Health is a governance outcome.", "points": ["Public facilities", "Private care costs", "PHCs", "Right to health debate"], "exam": "Social sector GS-II." },
+        { "title": "How the State Government Works", "summary": "MLAs, Chief Minister, Council of Ministers, Vidhan Sabha. Debates, questions, and the cabinet system at state level.", "points": ["MLA", "CM and cabinet", "Legislative assembly", "Constituency"], "exam": "State executive." },
+        { "title": "Growing up as Boys and Girls", "summary": "Gender is social. Housework is work. Equality needs law and culture change.", "points": ["Stereotypes", "Unpaid care", "Girls’ education", "Law + society"], "exam": "Gender GS." },
+        { "title": "Women Change the World", "summary": "Women’s movement, education, laws against violence, political reservation. History of struggle, not a finished file.", "points": ["Movements", "Laws", "Literacy", "Political voice"], "exam": "Social justice." },
+        { "title": "Understanding Media", "summary": "Media sets agenda, needs money, can be biased. Democracy needs independent information and media literacy.", "points": ["Agenda setting", "Ownership", "Censorship vs freedom", "Social media"], "exam": "GS-II governance." },
+        { "title": "Markets Around Us", "summary": "Weekly haats to malls and chains. Who has power in the market? Link later to competition law.", "points": ["Weekly market", "Wholesale", "Shops", "Unequal bargaining"], "exam": "Economy." },
+        { "title": "A Shirt in the Market", "summary": "Value chain from cotton farmer to brand. Putting-out, profits at the brand end, vulnerability at the farm end.", "points": ["Value chain", "Farmer", "Exporter/brand", "Labour"], "exam": "Globalisation preview." },
+        { "title": "Struggles for Equality", "summary": "Movements use the Constitution. Tawa Matsya Sangh-type examples: organisation + rights language.", "points": ["Social movements", "Constitution as resource", "Collective action", "Dignity"], "exam": "Rights movements." }
+      ]
+    },
+    {
+      "class": 8,
+      "book": "Social and Political Life — III",
+      "chapters": [
+        { "title": "The Indian Constitution", "summary": "Why a long written Constitution: colonial past, diversity, rights. Key features: federal, parliamentary, independent judiciary, secular, socialist (42nd). Rule of law.", "points": ["Need for Constitution", "Federal + unitary bias", "Parliamentary", "Secular"], "exam": "Features." },
+        { "title": "Understanding Secularism", "summary": "Indian secularism: principled distance, not wall of separation only. State can intervene against social evils. Freedom of religion with public order limits.", "points": ["Principled distance", "Freedom of religion", "Reform intervention", "Not theocracy"], "exam": "Secularism debates." },
+        { "title": "Why Do We Need a Parliament?", "summary": "Lok Sabha, Rajya Sabha, law-making, budget, executive control. People elect; Parliament represents and oversees.", "points": ["Two Houses", "Law-making", "Question Hour", "Money Bill idea"], "exam": "Parliament." },
+        { "title": "Understanding Laws", "summary": "How a bill becomes an Act, unpopular laws, role of people and courts. Law without legitimacy is brittle.", "points": ["Bill to Act", "Controversial laws", "Rule of law", "Citizen pressure"], "exam": "Legislation." },
+        { "title": "Judiciary", "summary": "Independence, structure (SC–HC–district), judicial review, PIL. Access to justice is the weak link.", "points": ["Independence", "Integrated judiciary", "Review", "PIL"], "exam": "Judiciary." },
+        { "title": "Understanding Our Criminal Justice System", "summary": "Police, public prosecutor, defence, judge. FIR, investigation, fair trial. Article 22 and rights of accused.", "points": ["FIR", "Roles", "Fair trial", "Rights of accused"], "exam": "Criminal justice." },
+        { "title": "Understanding Marginalisation", "summary": "Adivasis, minorities, development-displacement. Marginalisation is structural.", "points": ["Adivasi rights", "Minorities", "Displacement", "Stereotypes"], "exam": "Social justice." },
+        { "title": "Confronting Marginalisation", "summary": "Safeguards: Articles 15, 17, 21, 32; SC/ST Prevention of Atrocities Act; Forest Rights Act. Law + movement.", "points": ["Constitutional safeguards", "PoA Act", "FRA", "Reservations idea"], "exam": "GS-II." },
+        { "title": "Public Facilities", "summary": "Water, health, sanitation as public goods. Who provides, who pays, who is excluded. Chennai water as a case of urban stress.", "points": ["Public goods", "Water", "Sanitation", "Equity"], "exam": "Governance." },
+        { "title": "Law and Social Justice", "summary": "Why markets need labour and environment laws. Bhopal as a warning on enforcement. Minimum wages, safety.", "points": ["Why regulate", "Workers’ laws", "Environment law", "Enforcement gap"], "exam": "GS-II/III." }
+      ]
+    },
+    {
+      "class": 9,
+      "book": "Democratic Politics — I",
+      "chapters": [
+        { "title": "What is Democracy? Why Democracy?", "summary": "Features: free fair elections, one person one vote, rule of law, rights. Merits and arguments against. Democracy as a form plus a principle.", "points": ["Features", "Broader meaning", "Arguments for/against", "Accountable rule"], "exam": "Theory." },
+        { "title": "Constitutional Design", "summary": "South Africa comparison, making of Indian Constitution, Preamble values, institutional design. Philosophy in the Preamble.", "points": ["Constituent Assembly", "Preamble", "Institutional design", "SA parallel"], "exam": "Preamble + making." },
+        { "title": "Electoral Politics", "summary": "Why elections, our system (FPTP), Election Commission, challenges (money, muscle, booth). Democratic elections need a referee.", "points": ["FPTP", "EC", "Reserved constituencies", "Challenges"], "exam": "Electoral system." },
+        { "title": "Working of Institutions", "summary": "President, PM, Parliament, Supreme Court through a policy case (e.g. OBC decision). Who takes decisions in a parliamentary system.", "points": ["PM-centric executive", "Parliament", "President’s role", "Judiciary"], "exam": "Union government." },
+        { "title": "Democratic Rights", "summary": "Life without rights (Guantanamo-type contrast), Fundamental Rights, NHRC, expanding rights (education, information, food as later laws).", "points": ["Six FRs clusters", "NHRC", "Rights in the news", "Duties briefly"], "exam": "FRs." }
+      ]
+    },
+    {
+      "class": 10,
+      "book": "Democratic Politics — II",
+      "chapters": [
+        { "title": "Power-sharing", "summary": "Belgium and Sri Lanka: why power-sharing prevents conflict. Forms: among organs, among governments, among social groups, among parties/movements.", "points": ["Belgium", "Sri Lanka", "Four forms", "Federal idea"], "exam": "Federalism intro." },
+        { "title": "Federalism", "summary": "What federalism is, India as holding-together federation, Union–State–local, linguistic states, 1992 local government, Centre–State bargaining.", "points": ["Features", "Lists", "Linguistic states", "Decentralisation"], "exam": "Federalism." },
+        { "title": "Gender, Religion and Caste", "summary": "Gender division of labour, women’s political representation, communalism vs secularism, caste in politics — both as social division and as mobilisation.", "points": ["Feminist politics", "Communalism", "Caste and parties", "Secular state"], "exam": "Social cleavages." },
+        { "title": "Political Parties", "summary": "Functions, national vs state parties, challenges (dynasty, money, internal democracy), party system. Need for reform.", "points": ["Functions", "System", "Challenges", "Reforms"], "exam": "Party system." },
+        { "title": "Outcomes of Democracy", "summary": "Accountable government, reduced inequality (incomplete), dignity. Democracy is a process; outcomes vary by citizen quality.", "points": ["Accountability", "Development debate", "Inequality", "Dignity"], "exam": "Eval of democracy." },
+        { "title": "Political Reforms / Challenges to Democracy", "summary": "Foundational, challenge of expansion, deepening. Legal plus political reforms; over-criminalisation of politics is itself a problem.", "points": ["Challenges", "Reform principles", "Role of citizens", "Avoid over-legislation"], "exam": "GS-II reforms." }
+      ]
+    },
+    {
+      "class": 11,
+      "book": "Indian Constitution at Work",
+      "chapters": [
+        { "title": "Constitution: Why and How", "summary": "Functions of a constitution, Indian making process, sources, mode of promulgation. It is a living document.", "points": ["Functions", "Assembly", "Sources", "Objective Resolution"], "exam": "Making." },
+        { "title": "Rights in the Indian Constitution", "summary": "WRIT jurisdiction, reasonable restrictions, expanding Article 21, relationship with DPSPs and duties.", "points": ["WRITS", "Restrictions", "Art. 21 expansion", "DPSP harmony"], "exam": "Rights." },
+        { "title": "Election and Representation", "summary": "FPTP vs PR, reserved seats, free and fair, Election Commission’s powers, electoral reforms (NOTA, VVPATs in CA).", "points": ["FPTP", "Reservation", "EC", "Reforms"], "exam": "Elections." },
+        { "title": "Executive", "summary": "Parliamentary executive, PM as real executive, President’s discretionary edges, permanent civil service, bureaucracy’s role.", "points": ["PM", "Council of Ministers", "President", "Civil service"], "exam": "Executive." },
+        { "title": "Legislature", "summary": "Two Houses, how a bill is passed, instruments of control, decline of debate, anti-defection.", "points": ["Rajya Sabha role", "Ordinary vs money bill", "Committees", "Tenth Schedule"], "exam": "Parliament." },
+        { "title": "Judiciary", "summary": "Independence, appointments (collegium debate), judicial review, activism vs overreach, tribunals.", "points": ["Independence", "Collegium", "Review", "PIL"], "exam": "Judiciary." },
+        { "title": "Federalism", "summary": "Strong Centre, emergencies, Governor, inter-state council, GST Council as a new federal site, Sarkaria/Punchhi flavour.", "points": ["Strong Centre", "Governor", "Finance", "Cooperative federalism"], "exam": "Federalism advanced." },
+        { "title": "Local Governments", "summary": "73rd/74th, 11th–12th Schedules, remaining weaknesses: funds and parallel bodies.", "points": ["Amendments", "Schedules", "SEC/SFC", "Gaps"], "exam": "Local govt." },
+        { "title": "Constitution as a Living Document", "summary": "Amendment procedure, basic structure, 42nd/44th, how politics changes the text.", "points": ["Art. 368", "Basic structure", "Important amendments", "Flexibility"], "exam": "Amendment." },
+        { "title": "The Philosophy of the Constitution", "summary": "Political equality, social justice, national unity, respect for diversity. Limitations and achievements.", "points": ["Core principles", "Social justice", "Diversity", "Critique"], "exam": "Essay/GS-II." }
+      ]
+    },
+    {
+      "class": 12,
+      "book": "Politics in India since Independence + Contemporary World Politics (selected)",
+      "chapters": [
+        { "title": "Challenges of Nation-Building", "summary": "Partition, integration of states, linguistic reorganisation. Nehru’s project of unity and planned development.", "points": ["Partition", "Princely states", "States Reorganisation", "Nation-building"], "exam": "Post-1947." },
+        { "title": "Era of One-party Dominance", "summary": "Congress system, opposition, 1952–67 elections. Dominance was electoral, not the absence of democracy.", "points": ["Congress system", "Opposition", "1952–67", "Kothari idea"], "exam": "Party system history." },
+        { "title": "Politics of Planned Development", "summary": "Planning Commission, mixed economy, dams and industry as temples, land reforms mixed record.", "points": ["Plans", "Public sector", "Land reform", "Debate on model"], "exam": "Polity–economy." },
+        { "title": "India’s External Relations", "summary": "NAM, Panchsheel, 1962/1965/1971, nuclear 1974, look-east later CA. Foreign policy as GS-II.", "points": ["NAM", "Neighbours", "Wars", "Nuclear"], "exam": "IR." },
+        { "title": "Challenges to and Restoration of the Congress System", "summary": "1967, splits, 1971, populism. From dominance to competition.", "points": ["1967", "Split", "Garibi Hatao", "Realignment"], "exam": "Party change." },
+        { "title": "The Crisis of Democratic Order", "summary": "JP movement, Emergency 1975–77, 42nd Amendment, lessons for constitutionalism. Handle factually.", "points": ["Emergency", "Rights suspended", "42nd vs 44th", "Lessons"], "exam": "Sensitive but syllabus." },
+        { "title": "Rise of Popular Movements", "summary": "Chipko, Dalit Panthers, farmers, women, NBA. Movements as extra-parliamentary democracy.", "points": ["Environment", "Dalit", "Farmers", "Women"], "exam": "Social movements." },
+        { "title": "Regional Aspirations", "summary": "Punjab, North-East, Jammu & Kashmir, Dravidian politics, Jharkhand–Chhattisgarh–Uttarakhand. Accommodation vs insurgency.", "points": ["Punjab", "NE", "JK (historical syllabus)", "Statehood"], "exam": "Federal diversity." },
+        { "title": "Recent Developments in Indian Politics", "summary": "Mandal, mandir, coalition era, 2014 majority politics, GST and federal bargaining as CA overlay. Keep analytical, not partisan.", "points": ["Mandal", "Coalitions", "Economic reforms politics", "New majority phase"], "exam": "Contemporary politics." },
+        { "title": "Cold War and NAM (world politics)", "summary": "Bipolarity, NAM’s space, UN, arms race. Useful for IR theory in GS-II.", "points": ["Bipolarity", "NAM", "UN", "Arenas of Cold War"], "exam": "IR." },
+        { "title": "US Hegemony & Alternative centres", "summary": "Post-1991, EU, ASEAN, China, BRICS, multipolar talk. Read with current QUAD/BRICS news.", "points": ["Hegemony", "EU/ASEAN", "China", "Multilateralism"], "exam": "IR." },
+        { "title": "UN and Security in the Contemporary World", "summary": "UN organs, reform debate, new security (terrorism, human security, environment).", "points": ["UNSC reform", "Peacekeeping", "New threats", "India’s claim"], "exam": "IR institutions." }
+      ]
+    }
+  ]
+}

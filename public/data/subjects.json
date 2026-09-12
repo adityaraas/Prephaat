@@ -61,6 +61,33 @@
             "Champaran, NCM, CDM, Quit India; social groups in the movement.",
             "Partition, integration, Constitution-making."
           ]
+        },
+        {
+          "title": "Art, culture and ideas",
+          "explain": [
+            "Treat culture as society made visible. Stupa and cave, Nagara–Dravida–Vesara temples, Indo-Islamic arches and gardens, colonial civic architecture. Sculpture from Mauryan polish to Chola bronze; painting from Ajanta to Mughal miniatures and Company/Patna Kalam.",
+            "Ideas: Sramana traditions, Bhakti–Sufi vernaculars, reform in the 19th century (Brahmo, Arya, Aligarh, women’s education), print and public sphere. Prelims asks a diagnostic feature; Mains asks patronage, region and social message.",
+            "Bihar culture file: Bodh Gaya–Nalanda–Vikramshila, Madhubani, Sonepur, Magahi–Maithili–Bhojpuri literary worlds. Use them as examples, not as a tourist brochure."
+          ],
+          "points": [
+            "Architecture and painting families.",
+            "Bhakti–Sufi and 19th-century reform.",
+            "Feature + region for Prelims.",
+            "Bihar sites and living arts."
+          ]
+        },
+        {
+          "title": "World history (UPSC GS-I slice)",
+          "explain": [
+            "Industrial Revolution and its social costs; American, French, Russian revolutions as political templates; colonialism and decolonisation; World Wars and the UN; Cold War bipolarity and NAM’s room to manoeuvre.",
+            "Keep each event to cause → course in two lines → consequence for Asia/India. This is a short paper slice, not a second optional."
+          ],
+          "points": [
+            "Revolutions as templates.",
+            "Industrialisation and empire.",
+            "World Wars to UN.",
+            "Cold War and NAM."
+          ]
         }
       ]
     },
@@ -112,6 +139,20 @@
             "Agro-climatic zones, litchi–makhana, irrigation, arsenic.",
             "Minerals in neighbouring Jharkhand; industrial map of Bihar."
           ]
+        },
+        {
+          "title": "World geography & maps",
+          "explain": [
+            "Places that still appear in Prelims: major currents, deserts, rift valleys, temperate grasslands, important straits and canals, rainforests vs taiga. Pair each with a resource or climate process.",
+            "Geopolitical geography: chokepoints (Malacca, Hormuz, Suez, Bab-el-Mandeb), Arctic routes, Indo-Pacific framing. This is IR sitting on a map.",
+            "Practise locating India’s neighbours’ capitals and Himalayan passes; BPSC still rewards the eastern Himalaya–Tarai–delta continuum."
+          ],
+          "points": [
+            "Currents, biomes, straits.",
+            "Chokepoints and Indo-Pacific.",
+            "Neighbour and pass maps.",
+            "Process, not place-name dumps."
+          ]
         }
       ]
     },
@@ -150,6 +191,20 @@
             "RTI, CVC, CAG, Lokpal, e-governance.",
             "Social justice commissions and welfare delivery."
           ]
+        },
+        {
+          "title": "Rights, cases and comparison",
+          "explain": [
+            "A short case list is enough if each case teaches a doctrine: Kesavananda (basic structure), Minerva Mills (harmony), Maneka (due process flavour), Bommai (federalism/356), Vishaka (guidelines), Puttaswamy (privacy), Shayara Bano/triple talaq as legislative follow-through, NJAC as appointment politics.",
+            "Comparison: parliamentary vs presidential, FPTP vs PR, Indian secularism vs strict separation. Use comparison to sharpen, not to write political science optional answers.",
+            "Current affairs should land on one of these doctrines within 24 hours of reading the paper."
+          ],
+          "points": [
+            "Doctrine per case, not 50 names.",
+            "Basic structure, 21, federalism, privacy.",
+            "Electoral and secularism comparisons.",
+            "News → doctrine within a day."
+          ]
         }
       ]
     },
@@ -186,6 +241,20 @@
             "MSP, food security, Bihar crops.",
             "Industry, labour, remittances.",
             "Infrastructure and post-2005 state schemes."
+          ]
+        },
+        {
+          "title": "External sector, WTO and industry",
+          "explain": [
+            "BoP: current vs capital, CAD, services surplus, remittances, forex. Rupee as outcome of inflation differentials, flows and risk. Do not confuse FDI (lasting stake) with FPI (portfolio).",
+            "WTO: MFN, national treatment, agriculture boxes, public stockholding, fisheries, TRIPS and public health. FTAs are political economy — rules of origin, sensitive lists, services mobility.",
+            "Industry: PLI, logistics (Gati Shakti flavour), MSME credit, labour codes as GS-III. Bihar’s industrial thinness is a location and power-and-land story, not a slogan."
+          ],
+          "points": [
+            "CAD, FDI vs FPI, remittances.",
+            "WTO agriculture and TRIPS.",
+            "PLI, logistics, MSME.",
+            "Bihar industry constraints."
           ]
         }
       ]
@@ -224,6 +293,20 @@
             "Biotech, GM, genome editing + ethics.",
             "IPR, tech missions, India Stack."
           ]
+        },
+        {
+          "title": "Nuclear, defence tech and health R&D",
+          "explain": [
+            "Civil nuclear: three-stage programme idea, liability, waste, IAEA safeguards flavour. Defence: missiles as deterrence + industry, drones, cyber-physical systems — write capability plus export control plus ethics of autonomy.",
+            "Health R&D: vaccine manufacturing, diagnostics, genomics, One Health. Regulation (CDSCO, ICMR) and equity of access belong in the same paragraph as the molecule.",
+            "Internal security tech: CCTNS flavour, drones on borders, encryption vs lawful access. Always add a rights sentence so GS-III does not become a gadget list."
+          ],
+          "points": [
+            "Civil nuclear and waste.",
+            "Defence capability + control.",
+            "Health R&D and access.",
+            "Security tech + rights."
+          ]
         }
       ]
     },
@@ -248,6 +331,20 @@
             "Pollution, EIA, NGT, key Acts.",
             "UNFCCC/NDCs; Bihar flood–heat stress."
           ]
+        },
+        {
+          "title": "India policy, finance and justice",
+          "explain": [
+            "From Stockholm 1972 to EPA 1986 to NGT 2010: institutions matured faster than enforcement. EIA, CRZ, forest clearance, and FRA sit in one clearance-vs-rights diagram. Climate policy: NAPCC missions, NDCs, carbon market pilots, state action plans — Bihar’s SAPCC is adaptation-heavy.",
+            "Environment justice: who lives next to the landfill, who loses land to a dam, who breathes brick-kiln air. A GS-III answer that names a community and a remedy scores above a list of Acts.",
+            "International: CBDR-RC, climate finance, loss and damage, plastic treaty talks. Link each COP headline back to India’s energy mix and coal districts."
+          ],
+          "points": [
+            "Law stack + EIA/FRA tension.",
+            "NDC and state climate plans.",
+            "Environmental justice examples.",
+            "Climate finance and CBDR."
+          ]
         }
       ]
     },
@@ -271,6 +368,20 @@
             "Few thinkers, used as tools.",
             "Weekly news case: stakeholders → options → public interest.",
             "Bihar administration examples without party colour."
+          ]
+        },
+        {
+          "title": "Aptitude, attitude and public organisations",
+          "explain": [
+            "Foundational values (2nd ARC): integrity, impartiality, non-partisanship, objectivity, dedication to public service, empathy, tolerance, compassion. Aptitude is the stable pattern; attitude can be trained by leadership, incentives and peer culture.",
+            "Emotional intelligence is a field skill: flood camp, angry counter, communal rumour. Name the EI component you used. Work culture and code of ethics vs code of conduct are standard theory — keep them short and then apply.",
+            "Probity: RTI, disclosures, social audit, e-procurement, whistle-blower protection, recusal. Corporate ethics and environmental ethics appear when a PSU, contractor or EIA file is in the case."
+          ],
+          "points": [
+            "ARC foundational values.",
+            "EI in a live incident.",
+            "Conduct vs ethics codes.",
+            "Probity instruments."
           ]
         }
       ]

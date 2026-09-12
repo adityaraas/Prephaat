@@ -3,10 +3,34 @@
     {
       "title": "Monthly CA filing system",
       "explain": [
-        "Keep one notebook or digital file with eight hanging folders: Polity, Economy, IR, Environment, S&T, Security, Social justice, Bihar. Every clipping gets a date, a 40-word gist, and a syllabus tag.",
+        "Keep eight hanging folders: Polity, Economy, IR, Environment, S&T, Security, Social justice, Bihar. Every clipping gets a date, a 40-word gist, and a syllabus tag.",
         "Sunday review: drop anything you cannot explain aloud. Add one map and one ethics dilemma from the week’s news."
       ],
       "points": ["8 GS folders", "40-word gist", "Sunday cull", "One map + one case"]
+    },
+    {
+      "title": "Issue note template (one page)",
+      "explain": [
+        "Header: issue + paper (GS-II/III) + Bihar/national. Body: what happened, why now, stakeholders, constitutional or scheme hook, two-sided argument, way forward with an institution named.",
+        "If you cannot name a body (EC, RBI, NDMA, NGT, Finance Commission), the note is still journalism, not GS."
+      ],
+      "points": ["What / why now", "Stakeholders", "Law or scheme", "Institution in the way forward"]
+    },
+    {
+      "title": "IR and security from the same newspaper",
+      "explain": [
+        "Neighbourhood first: Nepal, Bangladesh, Myanmar, China, Pakistan — one line each on the live file. Then QUAD, BRICS, UN, WTO only if the story actually moved.",
+        "Internal security: Left-wing extremism, border management, cyber, money trails. Do not mix a crime report with a GS-III answer unless a policy lever exists."
+      ],
+      "points": ["Neighbourhood first", "One live file per neighbour", "Security needs a policy lever", "Skip crime colour"]
+    },
+    {
+      "title": "Bihar CA shortlist",
+      "explain": [
+        "Floods and rivers, education exams, health (kala-azar, AES belts), migration and jobs, agriculture (makhana, litchi, maize), and any CAG/assembly story on delivery. That is enough for BPSC if revised monthly.",
+        "Quote a number only if you can source it (Economic Survey of Bihar, NFHS, Census, IMD)."
+      ],
+      "points": ["Floods", "Human development", "Migration", "Sourced numbers only"]
     }
   ],
   "history": [
@@ -17,6 +41,38 @@
         "Add Bihar beads on the same thread: Magadha, Nalanda, Sher Shah, 1857, Champaran, 1942, post-2005 governance as contemporary history of the state."
       ],
       "points": ["All-India spine", "Bihar beads", "Recite weekly", "Pair with maps"]
+    },
+    {
+      "title": "Art and culture in four boxes",
+      "explain": [
+        "Architecture (stupa, temple Nagara–Dravida–Vesara, Indo-Islamic, colonial), sculpture and painting (Ajanta, Chola bronze, Mughal, Patna Kalam), literature and philosophy (Vedanta, Bhakti–Sufi, modern print), performing arts (classical dance/music families, folk of Bihar: Madhubani, Sonepur, Bidesia).",
+        "Prelims wants a feature + dynasty/region. Mains wants what the art says about patronage and society."
+      ],
+      "points": ["Four boxes", "Feature + region", "Patronage", "Bihar folk/classical"]
+    },
+    {
+      "title": "Modern India economic spine",
+      "explain": [
+        "Drain, deindustrialisation, land systems, railways and irrigation as extraction plus modernisation, commercialisation of agriculture, famines as political economy, early Indian capital (Bombay mills, Marwari networks).",
+        "This block writes half of GS-I modern and feeds GS-III agriculture/industry answers."
+      ],
+      "points": ["Drain thesis", "Three land systems", "Famine politics", "Indian capital"]
+    },
+    {
+      "title": "Freedom struggle social map",
+      "explain": [
+        "Do not write only Gandhi. Keep workers, peasants, tribals, women, depressed classes, revolutionaries, INA, and the communal question on one page with one example each.",
+        "Bihar: Champaran, peasant satyagrahas, 1942, Kunwar Singh as 1857 memory."
+      ],
+      "points": ["Many social groups", "One example each", "Champaran", "Quit India in Bihar"]
+    },
+    {
+      "title": "Post-independence (GS-I)",
+      "explain": [
+        "Integration of states, linguistic reorganisation, planned economy, Green Revolution, 1975–77 as constitutional stress, Mandal, coalition era, liberalisation 1991. Keep it analytical and dated, not partisan.",
+        "Link each to a polity or economy chapter so the same fact is not rewritten three times."
+      ],
+      "points": ["Integration", "Planning to 1991", "Social justice politics", "Cross-link Polity/Economy"]
     }
   ],
   "geography": [
@@ -27,6 +83,38 @@
         "Then write four lines: process, Indian example, disaster or economy link, a newspaper hook."
       ],
       "points": ["Three maps", "Hand tracing", "Process + example", "News hook"]
+    },
+    {
+      "title": "Monsoon one-diagram",
+      "explain": [
+        "Onset: ITCZ shift, Tibetan heat, Somali jet, Bay and Arabian branches. Breaks: subtropical westerly jet and monsoon trough position. Retreat: beginning of cyclonic window in the Bay.",
+        "ENSO and IOD are modulators. Never say ‘El Niño means drought always’ — say probability and regional exception."
+      ],
+      "points": ["Onset physics", "Breaks", "Retreat/cyclones", "ENSO as probability"]
+    },
+    {
+      "title": "Resources without shopping lists",
+      "explain": [
+        "For coal, iron, petroleum, rare earths, solar: location, grade/constraint, environment cost, logistics, and a policy (auction, just transition, critical minerals).",
+        "Bihar’s mineral story is mostly next door (Jharkhand) plus the state’s own mica/limestone pockets — say that honestly."
+      ],
+      "points": ["Location + constraint", "Environment cost", "Policy hook", "Bihar–Jharkhand"]
+    },
+    {
+      "title": "Human geography for Mains",
+      "explain": [
+        "Density, sex ratio, literacy, urbanisation, migration (push–pull, remittances), slums, industrial location (Weber flavour without the jargon). Census themes beat random district lists.",
+        "Bihar out-migration is a complete GS-I/III answer if you add destination, skill, social cost, and a state skill/urban policy."
+      ],
+      "points": ["Census themes", "Migration model", "Urbanisation", "Bihar remittances"]
+    },
+    {
+      "title": "Disaster geography",
+      "explain": [
+        "Hazard vs vulnerability vs capacity. Floods of North Bihar, drought south of Ganga fringe, earthquakes in Himalayan belt, heat, lightning. Structural (embankment, reservoir) vs non-structural (warning, insurance, land use).",
+        "Sendai and NDMA are the institutional overlay; science is still the map."
+      ],
+      "points": ["Hazard–vulnerability", "Bihar flood vs drought", "Non-structural measures", "NDMA"]
     }
   ],
   "polity": [
@@ -44,6 +132,30 @@
         "Panchayats, public service delivery, flood administration, education exams, and police as GS-II examples. Stay institutional, not partisan."
       ],
       "points": ["PRIs", "Service delivery", "Disaster admin", "Neutral tone"]
+    },
+    {
+      "title": "Constitutional, statutory, regulatory",
+      "explain": [
+        "Write a 3-column table: EC/CAG/UPSC/FC vs NHRC/CIC/Lokpal vs SEBI/RBI/CCI/TRAI. Appointment, removal, one function, one controversy.",
+        "Prelims loves the column; Mains loves independence vs accountability."
+      ],
+      "points": ["Three columns", "Appointment/removal", "One function", "Independence debate"]
+    },
+    {
+      "title": "Rights that grew after 1950",
+      "explain": [
+        "Article 21 as a tree: due process flavour, privacy, environment, health, education (also 21A), legal aid, speedy trial. RTI, NFSA, Forest Rights as statutory cousins.",
+        "Reasonable restrictions and national security are the other side of the same note."
+      ],
+      "points": ["Art. 21 expansion", "21A/RTE", "Statutory cousins", "Restrictions"]
+    },
+    {
+      "title": "Parliament that actually works",
+      "explain": [
+        "Question Hour, zero hour flavour, standing and departmentally related committees, money vs ordinary vs constitution amendment bills, ordinance route, anti-defection’s effect on debate.",
+        "Decline of deliberation is a Mains theme; committees are the constructive paragraph."
+      ],
+      "points": ["Control of executive", "Committees", "Bill types", "Ordinance caution"]
     }
   ],
   "economy": [
@@ -53,6 +165,38 @@
         "After the Economic Survey, lift ten facts that illustrate a concept you already know (inflation, jobs, agriculture, inequality). After the Budget, lift the fiscal math and three scheme redesigns. Do not photocopy the whole documents."
       ],
       "points": ["10 Survey facts", "Fiscal math", "3 scheme changes", "Concept first"]
+    },
+    {
+      "title": "Inflation and the poor",
+      "explain": [
+        "CPI vs WPI, food vs core, rural vs urban. Monetary tightening cools demand; food inflation often needs supply (buffer, logistics, weather). Say who is hurt: wage lag, real interest, fiscal subsidy bill.",
+        "Never write ‘RBI should cut GST’ — wrong instrument."
+      ],
+      "points": ["CPI/WPI", "Food vs core", "Who is hurt", "Right instrument"]
+    },
+    {
+      "title": "Banking and inclusion",
+      "explain": [
+        "Commercial banks, RRBs, cooperative stress, NBFCs, payment banks. NPAs, PCA, IBC. Inclusion: PMJDY, UPI, credit to MSME and farmers, insurance/pension (PMJJBY, APY).",
+        "Digital is not inclusion if last-mile grievance and connectivity fail — a Bihar-relevant sentence."
+      ],
+      "points": ["IBC/NPA", "UPI/PMJDY", "MSME credit", "Last-mile caution"]
+    },
+    {
+      "title": "Agriculture for two papers",
+      "explain": [
+        "MSP, APMC, e-NAM, FPOs, food Corporation, NFSA, crop insurance, irrigation (AIBP flavour), climate risk. Bihar: small holdings, floods, horticulture, makhana GI-type stories, migration of labour.",
+        "WTO: public stockholding and special safeguard — one paragraph, not a treatise."
+      ],
+      "points": ["MSP–APMC", "Food security", "Bihar farm", "WTO one para"]
+    },
+    {
+      "title": "External sector in five numbers",
+      "explain": [
+        "Merchandise deficit vs services surplus, CAD, forex, FDI vs FPI, rupee. Then one risk: oil, global rates, or a FTA.",
+        "Remittances are a Bihar–Kerala–Punjab human story sitting inside BoP."
+      ],
+      "points": ["CAD", "FDI/FPI", "Rupee", "Remittances"]
     }
   ],
   "science": [
@@ -63,6 +207,38 @@
         "Then add a current file: space, health, digital public infrastructure, biotech regulation."
       ],
       "points": ["Class 10 NCERT", "Space/health/DPI", "Mechanism not nickname", "Ethics overlap"]
+    },
+    {
+      "title": "Space applications, not nicknames",
+      "explain": [
+        "Launchers (PSLV/GSLV/SSLV flavour), Earth observation, NavIC, disaster, agriculture, communication. Gaganyaan as human-space capability plus industrial ecosystem.",
+        "Write: what data, who uses it (IMD, agriculture, NDMA), what equity issue (connectivity of poor districts)."
+      ],
+      "points": ["Application first", "User ministry", "Equity", "Human space as industry"]
+    },
+    {
+      "title": "Health S&T",
+      "explain": [
+        "Vaccines, diagnostics, AMR, vector control (kala-azar, JE/AES in eastern plains), nutrition science vs food policy, telemedicine. One Health: human–animal–environment.",
+        "Regulation: CDSCO, ICMR, vaccine trials ethics."
+      ],
+      "points": ["Vaccines/AMR", "Vectors in Bihar", "One Health", "Trial ethics"]
+    },
+    {
+      "title": "Digital public infrastructure",
+      "explain": [
+        "Aadhaar, UPI, DigiLocker, ONDC flavour, data empowerment. Gains: inclusion, leak-proof DBT. Risks: exclusion errors, surveillance, cyber, consent.",
+        "Data protection law + CERT-In + critical information infrastructure = GS-III internal security as well."
+      ],
+      "points": ["Inclusion", "Exclusion errors", "Data law", "Cyber"]
+    },
+    {
+      "title": "Energy tech",
+      "explain": [
+        "Solar, wind, storage, green hydrogen (electrolyser + water + offtake honesty), nuclear three-stage flavour, ethanol blending, semiconductors as strategic manufacturing.",
+        "Every tech needs grid, minerals, and just transition for coal districts."
+      ],
+      "points": ["RE + storage", "Hydrogen caution", "Nuclear", "Just transition"]
     }
   ],
   "environment": [
@@ -72,6 +248,38 @@
         "UNFCCC, CBD, CITES, Ramsar, CMS, Stockholm, Basel, Montreal. For each: year, aim, India angle, a current COP or listing in the news."
       ],
       "points": ["One page each", "India angle", "News hook", "No dumping lists"]
+    },
+    {
+      "title": "India’s PA and species file",
+      "explain": [
+        "Project Tiger/Elephant, biospheres, Ramsar in the Ganga basin, vulture decline, Gangetic dolphin as a Bihar–UP river flagship, grassland vs plantation mistakes.",
+        "Corridors and human–wildlife conflict are the Mains paragraphs; lists of parks are Prelims only."
+      ],
+      "points": ["Flagship programmes", "Dolphin/river", "Corridors", "Conflict"]
+    },
+    {
+      "title": "Pollution instruments",
+      "explain": [
+        "Command-and-control (standards, closure) vs market (ETS pilots, polluter pays) vs information (AQI). NCAP cities, stubble, brick kilns, vehicular, waste burning.",
+        "Water: BOD, untreated sewage, industrial clusters, Namami Gange as governance not slogan."
+      ],
+      "points": ["AQI/NCAP", "Instruments", "Sewage", "Ganga as governance"]
+    },
+    {
+      "title": "Climate: mitigation and adaptation",
+      "explain": [
+        "Mitigation: energy, forests (carbon sink debates), methane, industry. Adaptation: floods, heat action plans, seeds, insurance, resilient housing. Bihar is adaptation-heavy.",
+        "Loss and damage, climate finance, CBDR-RC are the international politics layer."
+      ],
+      "points": ["Two tracks", "Bihar adaptation", "Finance/CBDR", "Heat + flood plans"]
+    },
+    {
+      "title": "EIA and federal green clearance",
+      "explain": [
+        "Screening, scoping, public hearing, appraisal, post-clearance monitoring. Exemptions and violations are the newspaper file. NGT and SC overlay.",
+        "Development vs environment answers need a process, not a sermon."
+      ],
+      "points": ["EIA steps", "Public hearing", "Monitoring", "Courts"]
     }
   ],
   "ethics": [
@@ -81,6 +289,38 @@
         "Index cards: integrity, objectivity, empathy, perseverance, impartiality, public service, accountability. Front: your definition. Back: a 4-line Bihar or Union case."
       ],
       "points": ["Own definitions", "One case behind", "No quotation stuffing", "Interview reuse"]
+    },
+    {
+      "title": "Thinkers as tools, not wallpaper",
+      "explain": [
+        "Gandhi: means–ends, trusteeship, satyagraha as truth-force. Kant: duty and treating persons as ends. Aristotle: golden mean. Mill: harm principle and utility — useful for policy trade-offs. Kautilya: danda with dharma; statecraft without celebrating cruelty.",
+        "One thinker per answer, applied to the fact pattern."
+      ],
+      "points": ["One thinker", "Applied to facts", "No quote dump", "East + West mix"]
+    },
+    {
+      "title": "Attitude, aptitude, EI",
+      "explain": [
+        "Attitude: ABC (affect, behaviour, cognition) and how training plus leadership changes it. Aptitude: foundational values of civil service (2nd ARC). EI: self-awareness, regulation, motivation, empathy, social skill — operational in a riot, flood camp, or angry counter.",
+        "Write a 6-line incident, not a textbook paragraph."
+      ],
+      "points": ["ABC of attitude", "ARC values", "EI in a crisis", "Incident not theory"]
+    },
+    {
+      "title": "Probity toolkit",
+      "explain": [
+        "Code of conduct vs ethics, RTI, asset disclosure, whistle-blower, citizen charter, social audit, e-procurement, conflict-of-interest recusal.",
+        "Corruption answers need prevention architecture, not only punishment rhetoric."
+      ],
+      "points": ["Conduct vs ethics", "Disclosure", "Social audit", "Recusal"]
+    },
+    {
+      "title": "Case practice roster",
+      "explain": [
+        "Weekly: flood relief targeting, teacher recruitment leak, contractor pressure, caste data and fairness, hospital referral refusal, social media by a civil servant.",
+        "Always: facts → stakeholders → options (including delay) → constitutional values → chosen path + communication + monitoring."
+      ],
+      "points": ["Weekly case", "Full structure", "Communication step", "Monitoring"]
     }
   ]
 }

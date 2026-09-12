@@ -350,6 +350,11 @@ a { color: var(--green); text-decoration: none; font-weight: 700; }
 .q-opt.bad { border-color: var(--danger); background: #fde8ea; }
 .q-opt.bad .opt-key { background: var(--danger); color: #fff; }
 
+.pyq-q .badge { margin-bottom: 0.35rem; }
+.pyq-sol { margin-top: 0.7rem; background: #f3fbf3; border-radius: 12px; padding: 0.75rem 0.85rem; }
+.pyq-sol p { margin: 0.35rem 0 0; line-height: 1.5; }
+.pyq-q .ghost { margin-top: 0.55rem; }
+
 .explain { font-size: 0.88rem; color: #444; }
 
 .tracker-grid {
