@@ -26,6 +26,7 @@ import {
   validGoogleState,
 } from "./google.ts";
 import { SURVEY_KEYS, signedGetUrl } from "./storage.ts";
+import { answerChat } from "./chat.ts";
 
 const PORT = Number(process.env.PORT) || 3000;
 const publicDir = join(import.meta.dirname, "public");
@@ -467,6 +468,30 @@ const server = createServer(async (req, res) => {
           error: "Survey PDF is not on storage yet",
           official: "https://www.indiabudget.gov.in/economicsurvey/doc/echapter.pdf",
         });
+      }
+      return;
+    }
+
+    if (req.method === "POST" && url.pathname === "/api/chat") {
+      if (!(await requireAccount(req, res))) return;
+      try {
+        const body = asObject(await readJson(req));
+        const message = String(body.message ?? "");
+        const history = Array.isArray(body.history)
+          ? body.history
+              .filter((item) => item && typeof item === "object")
+              .map((item) => {
+                const row = item as Record<string, unknown>;
+                const role = row.role === "assistant" ? "assistant" : "user";
+                return { role, content: String(row.content ?? "") };
+              })
+          : [];
+        const reply = await answerChat(history, message);
+        send(res, 200, { reply });
+      } catch (err) {
+        const message = err instanceof Error ? err.message : "Could not answer";
+        const status = message.includes("not configured") ? 503 : 400;
+        send(res, status, { error: message });
       }
       return;
     }

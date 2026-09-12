@@ -32,7 +32,30 @@
       </div>
     </header>
 
-    <nav class="tabs" id="tabs" aria-label="Subjects"></nav>
+    <div class="tabs-wrap">
+      <button type="button" class="bored-nav" id="bored-chess-open" title="Play chess against the computer">
+        <span class="bored-icon" aria-hidden="true">♞</span>
+        <span class="bored-label">click me if you are bored</span>
+      </button>
+      <nav class="tabs" id="tabs" aria-label="Subjects"></nav>
+    </div>
+
+    <div class="chess-overlay" id="chess-overlay" hidden>
+      <div class="chess-sheet" role="dialog" aria-labelledby="chess-title">
+        <div class="chess-top">
+          <div>
+            <h2 id="chess-title">Chess · you vs computer</h2>
+            <p class="meta" id="chess-status">You play White. Click a piece, then a square.</p>
+          </div>
+          <div class="chess-actions">
+            <button type="button" class="ghost" id="chess-new">New game</button>
+            <button type="button" class="ghost" id="chess-close">Close</button>
+          </div>
+        </div>
+        <div class="chess-board" id="chess-board"></div>
+        <p class="meta chess-hint">Computer plays Black. Pawns promote to queens.</p>
+      </div>
+    </div>
 
     <div class="layout">
       <main>
@@ -89,6 +112,28 @@
       </div>
     </aside>
 
+    <aside class="chat-dock" id="chat-dock">
+      <button type="button" class="chat-fab" id="chat-toggle" aria-expanded="false">
+        <span aria-hidden="true">💬</span>
+        Ask
+      </button>
+      <div class="chat-panel" id="chat-panel" hidden>
+        <div class="chat-head">
+          <strong>Study chat</strong>
+          <button type="button" class="syllabus-toggle" id="chat-close" aria-label="Close chat">–</button>
+        </div>
+        <p class="meta chat-note">Public exam help only. It cannot see this site’s private notes or files.</p>
+        <div class="chat-log" id="chat-log"></div>
+        <form class="chat-form" id="chat-form">
+          <label class="sr-only" for="chat-input">Your question</label>
+          <textarea id="chat-input" rows="2" placeholder="Ask a GS question…" required></textarea>
+          <button type="submit" class="cta" id="chat-send">Send</button>
+        </form>
+      </div>
+    </aside>
+
     <script src="/home.js"></script>
+    <script src="/chess-play.js"></script>
+    <script src="/chat.js"></script>
   </body>
 </html>
