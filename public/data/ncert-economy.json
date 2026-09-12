@@ -1,0 +1,76 @@
+{
+  "subject": "economy",
+  "note": "Original notes following NCERT economics 9–12 (there is no separate 6–8 economics book; those years sit inside geography ‘resources’ and social science). Class 11–12 cover Indian Economic Development, Statistics (light), Micro and Macro.",
+  "books": [
+    {
+      "class": 9,
+      "book": "Economics",
+      "chapters": [
+        { "title": "The Story of Village Palampur", "summary": "A model village to teach factors of production: land, labour, physical capital, human capital. Multiple cropping, HYV, small vs large farmers, and non-farm work (dairy, transport, shop). Modern farming needs cheap working capital—often debt.", "points": ["Four factors", "HYV + irrigation", "Small farmer credit", "Non-farm activities"], "exam": "Micro foundations of rural India." },
+        { "title": "People as Resource", "summary": "Population becomes human capital through education and health. Unemployment (seasonal, disguised, educated) wastes that capital. Women’s work is undercounted. Investment in people raises productivity.", "points": ["Human capital", "Education & health", "Unemployment types", "Gendered work"], "exam": "GS-III human development." },
+        { "title": "Poverty as a Challenge", "summary": "Poverty as capability failure, not only income. Estimates, social groups, interstate variation. Causes: colonial drain, low growth earlier, inequality, social exclusion. Anti-poverty: growth + targeted schemes (historical MGNREGA-type idea).", "points": ["Social groups", "Causes", "Poverty line idea", "Anti-poverty strategy"], "exam": "Inclusive growth." },
+        { "title": "Food Security in India", "summary": "Availability, access, absorption. Buffer stocks, PDS, cooperatives. Hunger can exist with granaries if access fails. Revise NFSA in current affairs on top of this chapter.", "points": ["Three dimensions", "PDS", "Buffer stock", "Vulnerable groups"], "exam": "Food security GS-III." }
+      ]
+    },
+    {
+      "class": 10,
+      "book": "Understanding Economic Development",
+      "chapters": [
+        { "title": "Development", "summary": "Different people, different development goals. Income vs HDI (health, education). Sustainability: groundwater, environment. National development is comparison plus justice, not only average income.", "points": ["Goals", "Per capita income", "HDI", "Sustainability"], "exam": "Development definition." },
+        { "title": "Sectors of the Indian Economy", "summary": "Primary, secondary, tertiary; organised vs unorganised; public vs private. Tertiary’s rising share vs still-large farm employment—structural change is incomplete. MGNREGA and labour protection appear as policy.", "points": ["Three sectors", "GDP vs employment", "Organised/unorganised", "Public/private"], "exam": "Structural change." },
+        { "title": "Money and Credit", "summary": "Money as medium of exchange, modern forms, banks, cheques, formal vs informal credit. Cheap formal credit is development; informal high-interest credit traps the poor. RBI oversees banks.", "points": ["Functions of money", "Banks", "Formal vs informal", "Terms of credit"], "exam": "Banking + inclusion." },
+        { "title": "Globalisation and the Indian Economy", "summary": "MNCs, trade liberalisation, WTO, SEZs, winners and losers among producers and workers. Globalisation is technology + policy, not fate. Connect to 1991 reforms at plus-two.", "points": ["MNC production", "Liberalisation of trade", "WTO", "Impact on workers/small producers"], "exam": "External sector." },
+        { "title": "Consumer Rights", "summary": "COPRA, consumer forums, rights to safety, information, choice, redressal. Markets need rules. ISI/Agmark as quality marks.", "points": ["COPRA", "Rights", "Redressal", "Quality marks"], "exam": "Governance + markets." }
+      ]
+    },
+    {
+      "class": 11,
+      "book": "Indian Economic Development",
+      "chapters": [
+        { "title": "Indian Economy on the Eve of Independence", "summary": "Stagnant agriculture, deindustrialisation, poor infrastructure, drain, low literacy. The colonial structure is the starting point of planning.", "points": ["Agrarian stagnation", "Deindustrialisation", "Demographic condition", "Infrastructure"], "exam": "Colonial economy." },
+        { "title": "Indian Economy 1950–1990", "summary": "Planning Commission, mixed economy, land reforms, Green Revolution, industry (IPR 1956), public sector. Achievements and the licence-permit costs. Food self-sufficiency vs inefficiency debate.", "points": ["Plans", "Land reforms", "Green Revolution", "Public sector"], "exam": "Planning era." },
+        { "title": "Liberalisation, Privatisation and Globalisation", "summary": "1991 crisis, LPG, WTO era, NITI replacing Planning Commission in later current affairs. Outcomes: growth, inequality, services boom, farm distress unfinished.", "points": ["1991", "LPG", "WTO", "Outcomes"], "exam": "Reforms." },
+        { "title": "Poverty", "summary": "Measurement debates, causes, policy (growth vs targeted), multidimensional poverty in later data. Link Class 9 to technical estimates.", "points": ["Measurement", "Causes", "Programmes", "MDPI flavour"], "exam": "Poverty." },
+        { "title": "Human Capital Formation", "summary": "Education and health as investment. India’s education structure, still-large quality gaps, gender. Human capital vs human development.", "points": ["Sources of human capital", "Education", "Health", "India’s gaps"], "exam": "Social sector." },
+        { "title": "Rural Development", "summary": "Credit (cooperatives, SHGs, NABARD), agriculture marketing, organic farming, diversification (animal husbandry, fisheries). Rural is not only crop.", "points": ["Credit", "Marketing", "Diversification", "Organic"], "exam": "Rural GS-III." },
+        { "title": "Employment: Growth, Informalisation", "summary": "Workforce, self vs hired, informalisation, jobless growth worry, government as employer. Quality of jobs matters as much as count.", "points": ["Labour force vs workforce", "Informal sector", "Unemployment types", "Job quality"], "exam": "Labour." },
+        { "title": "Infrastructure", "summary": "Energy, transport, communication, health, education as infrastructure. Public–private mix, energy shortages, health as right vs commodity.", "points": ["Energy", "Transport", "Health infrastructure", "PPP debates"], "exam": "Infrastructure." },
+        { "title": "Environment and Sustainable Development", "summary": "Carrying capacity, pollution, Chipko to contemporary climate. Development that keeps future options open. India’s dual burden: poverty and pollution.", "points": ["Absorptive capacity", "Pollution", "Strategies", "Global issues"], "exam": "Environment–economy." },
+        { "title": "Comparative Development Experiences of India and Neighbours", "summary": "India, Pakistan, China: growth paths, demographic transition, HDI, reforms timing. China is not a photocopyable model; institutions differ.", "points": ["Indicators", "China reforms", "Pakistan", "Lessons"], "exam": "Comparison table." }
+      ]
+    },
+    {
+      "class": 11,
+      "book": "Statistics for Economics (exam toolkit)",
+      "chapters": [
+        { "title": "Introduction & Collection of Data", "summary": "Why statistics, primary vs secondary data, census vs sample, NSSO/NSO as sources. Bad data makes bad policy.", "points": ["Primary/secondary", "Census/sample", "NSSO", "Errors"], "exam": "Prelims data sources." },
+        { "title": "Organisation and Presentation of Data", "summary": "Variables, frequency, tables, bar, pie, histogram. Presentation is argument.", "points": ["Classification", "Frequency", "Graphs", "Honesty in charts"], "exam": "Essay/GS data." },
+        { "title": "Measures of Central Tendency & Dispersion", "summary": "Mean, median, mode; range, quartile deviation, mean deviation, SD, Lorenz curve / Gini flavour. Averages hide inequality.", "points": ["Mean/median/mode", "SD", "Lorenz", "When not to use mean"], "exam": "Inequality." },
+        { "title": "Correlation & Index Numbers", "summary": "Correlation is not causation. CPI, WPI, GDP deflator as index numbers for inflation. Base year matters.", "points": ["Correlation", "CPI vs WPI", "Base year", "Inflation measurement"], "exam": "Inflation." }
+      ]
+    },
+    {
+      "class": 12,
+      "book": "Introductory Macroeconomics",
+      "chapters": [
+        { "title": "National Income Accounting", "summary": "GDP, GNP, NNP, factor cost vs market price, real vs nominal, value added. What GDP misses (home work, environment).", "points": ["Circular flow", "Methods of calculating NI", "Real vs nominal", "Limitations of GDP"], "exam": "Core macro." },
+        { "title": "Money and Banking", "summary": "Functions of money, money supply measures, credit creation, RBI instruments (repo, CRR, SLR, OMOs). Monetary policy vs inflation targeting in current affairs.", "points": ["Functions", "Credit creation", "RBI tools", "Money supply"], "exam": "Banking." },
+        { "title": "Determination of Income and Employment", "summary": "Keynesian idea: output can be demand-constrained. Consumption, savings, investment, multiplier. Simple AD–AS story without drowning in graphs.", "points": ["Effective demand", "Consumption function", "Multiplier", "Deficient demand"], "exam": "Conceptual Mains." },
+        { "title": "Government Budget and the Economy", "summary": "Revenue vs capital, deficits (fiscal, revenue, primary), FRBM idea, subsidies, tax vs non-tax. Budget is GS-III every year.", "points": ["Components", "Deficits", "Fiscal policy", "Public goods"], "exam": "Budget." },
+        { "title": "Open Economy — Macroeconomics", "summary": "BoP, current vs capital account, exchange rates (flexible, fixed, managed), CAD. Link to RBI and trade policy.", "points": ["BoP accounts", "Exchange rate", "CAD", "Foreign exchange market"], "exam": "External sector." }
+      ]
+    },
+    {
+      "class": 12,
+      "book": "Introductory Microeconomics",
+      "chapters": [
+        { "title": "Introduction (Micro)", "summary": "Central problems: what, how, for whom. PPC, opportunity cost, positive vs normative. Micro is the household and firm; macro is the aggregate.", "points": ["Scarcity", "PPC", "Opportunity cost", "Micro vs macro"], "exam": "Definitions." },
+        { "title": "Theory of Consumer Behaviour", "summary": "Utility, indifference (idea), demand curve, elasticity. Why demand slopes down.", "points": ["Utility", "Demand", "Elasticity", "Consumer equilibrium idea"], "exam": "Markets." },
+        { "title": "Production and Costs", "summary": "Short run vs long run, TP–AP–MP, cost curves (idea). Production needs time to adjust capital.", "points": ["Factors", "Returns", "Costs", "Short vs long run"], "exam": "Firms." },
+        { "title": "The Theory of the Firm & Perfect Competition", "summary": "Revenue, profit maximisation idea, features of perfect competition. Real markets are imperfect—use this as a benchmark.", "points": ["MR=MC idea", "Perfect competition", "Supply curve", "Efficiency claim"], "exam": "Market structures." },
+        { "title": "Market Equilibrium & Imperfect markets (overview)", "summary": "Demand–supply equilibrium, price ceiling/floor (MSP as a floor flavour), monopoly/oligopoly as real GS examples (digital markets, telecom).", "points": ["Equilibrium", "Controls", "MSP as floor", "Imperfect competition"], "exam": "Policy." },
+        { "title": "Non-competitive Markets (idea)", "summary": "Monopoly, monopolistic competition, oligopoly. Why regulators (CCI, TRAI) exist. Link to GS-II/III regulation.", "points": ["Monopoly", "Oligopoly", "Product differentiation", "Regulation"], "exam": "Regulation." }
+      ]
+    }
+  ]
+}

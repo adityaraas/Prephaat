@@ -1,0 +1,86 @@
+{
+  "current": [
+    {
+      "title": "Monthly CA filing system",
+      "explain": [
+        "Keep one notebook or digital file with eight hanging folders: Polity, Economy, IR, Environment, S&T, Security, Social justice, Bihar. Every clipping gets a date, a 40-word gist, and a syllabus tag.",
+        "Sunday review: drop anything you cannot explain aloud. Add one map and one ethics dilemma from the week’s news."
+      ],
+      "points": ["8 GS folders", "40-word gist", "Sunday cull", "One map + one case"]
+    }
+  ],
+  "history": [
+    {
+      "title": "Timeline drill (must recite)",
+      "explain": [
+        "Harappa → mahajanapadas → Maurya → Gupta → regional kingdoms → Sultanate → Mughals → 18th-century states → Company → 1857 → Congress → Gandhi → 1947 → Constitution. If the spine is firm, facts hang on it.",
+        "Add Bihar beads on the same thread: Magadha, Nalanda, Sher Shah, 1857, Champaran, 1942, post-2005 governance as contemporary history of the state."
+      ],
+      "points": ["All-India spine", "Bihar beads", "Recite weekly", "Pair with maps"]
+    }
+  ],
+  "geography": [
+    {
+      "title": "Atlas hour",
+      "explain": [
+        "Thirty minutes, three maps: India rivers, India soils/rainfall, world currents or plates. Tracing by hand beats highlighting PDFs.",
+        "Then write four lines: process, Indian example, disaster or economy link, a newspaper hook."
+      ],
+      "points": ["Three maps", "Hand tracing", "Process + example", "News hook"]
+    }
+  ],
+  "polity": [
+    {
+      "title": "Article clusters to own",
+      "explain": [
+        "Do not mug 395 articles. Own clusters: Preamble; 12–35 rights; 36–51 DPSPs; Union executive; Parliament; judiciary; federal (246, 263, 280, 356); local government 73–74; emergency; amendment 368.",
+        "For each cluster keep one case (Kesavananda, Minerva Mills, S.R. Bommai, K.S. Puttaswamy, etc.) and one current news item."
+      ],
+      "points": ["Cluster method", "One case each", "Bommai/federalism", "Privacy as FR"]
+    },
+    {
+      "title": "Bihar governance file",
+      "explain": [
+        "Panchayats, public service delivery, flood administration, education exams, and police as GS-II examples. Stay institutional, not partisan."
+      ],
+      "points": ["PRIs", "Service delivery", "Disaster admin", "Neutral tone"]
+    }
+  ],
+  "economy": [
+    {
+      "title": "Survey–Budget ritual",
+      "explain": [
+        "After the Economic Survey, lift ten facts that illustrate a concept you already know (inflation, jobs, agriculture, inequality). After the Budget, lift the fiscal math and three scheme redesigns. Do not photocopy the whole documents."
+      ],
+      "points": ["10 Survey facts", "Fiscal math", "3 scheme changes", "Concept first"]
+    }
+  ],
+  "science": [
+    {
+      "title": "School science recovery list",
+      "explain": [
+        "Light, electricity, carbon compounds, human physiology, reproduction, environment in Class 10 NCERT. One week of honest NCERT beats six coaching PDFs.",
+        "Then add a current file: space, health, digital public infrastructure, biotech regulation."
+      ],
+      "points": ["Class 10 NCERT", "Space/health/DPI", "Mechanism not nickname", "Ethics overlap"]
+    }
+  ],
+  "environment": [
+    {
+      "title": "Convention one-pagers",
+      "explain": [
+        "UNFCCC, CBD, CITES, Ramsar, CMS, Stockholm, Basel, Montreal. For each: year, aim, India angle, a current COP or listing in the news."
+      ],
+      "points": ["One page each", "India angle", "News hook", "No dumping lists"]
+    }
+  ],
+  "ethics": [
+    {
+      "title": "Value cards",
+      "explain": [
+        "Index cards: integrity, objectivity, empathy, perseverance, impartiality, public service, accountability. Front: your definition. Back: a 4-line Bihar or Union case."
+      ],
+      "points": ["Own definitions", "One case behind", "No quotation stuffing", "Interview reuse"]
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "subject": "geography",
+  "note": "Original class-wise notes following NCERT geography 6–12. Two books each in 11 and 12.",
+  "books": [
+    {
+      "class": 6,
+      "book": "The Earth: Our Habitat",
+      "chapters": [
+        { "title": "The Earth in the Solar System", "summary": "The Sun, planets, the Moon, asteroids. Earth is a unique mix of air, water and life. Latitudes of other planets help contrast.", "points": ["Solar family", "Earth–Moon", "Why Earth supports life", "Stars vs planets"], "exam": "Basics for geophysics." },
+        { "title": "Globe: Latitudes and Longitudes", "summary": "Axis, equator, tropics, poles, longitudes and time. Standard meridians and IST (82°30′ E).", "points": ["Parallels and meridians", "Heat zones", "Local time vs IST", "Grid references"], "exam": "Map skills." },
+        { "title": "Motions of the Earth", "summary": "Rotation (day–night) and revolution (seasons, leap year). Equinoxes and solstices. Tilt of 23½° is the seasonal key.", "points": ["Rotation vs revolution", "Seasons", "Leap year", "Circle of illumination"], "exam": "Climatology base." },
+        { "title": "Maps", "summary": "Scale, direction, conventional signs, sketch vs plan vs map. Physical, political and thematic maps.", "points": ["Scale types", "North", "Legends", "Thematic maps"], "exam": "Atlas habit." },
+        { "title": "Major Domains of the Earth", "summary": "Lithosphere, hydrosphere, atmosphere, biosphere. Continents and oceans. Interaction of spheres is environment.", "points": ["Four spheres", "Seven continents", "Oceans", "Biosphere as life zone"], "exam": "Earth system." },
+        { "title": "Major Landforms of the Earth", "summary": "Mountains, plateaus, plains—internal (tectonic) vs external (erosion) processes. Young fold mountains vs old plateaus.", "points": ["Endogenic vs exogenic", "Himalaya type", "Plateaus (Deccan)", "Plains and agriculture"], "exam": "Geomorphology intro." },
+        { "title": "Our Country — India", "summary": "Location, neighbours, tropic of Cancer, standard meridian, political divisions. India’s size and latitudinal spread explain climate variety.", "points": ["Lat–long extent", "Neighbours", "Tropic of Cancer", "States/UTs snapshot"], "exam": "India map." },
+        { "title": "India: Climate, Vegetation and Wildlife", "summary": "Monsoon climate, forests (tropical to alpine), wildlife and protection. Climate drives vegetation.", "points": ["Monsoon", "Forest types (intro)", "Wildlife", "Protection need"], "exam": "Environment link." }
+      ]
+    },
+    {
+      "class": 7,
+      "book": "Our Environment",
+      "chapters": [
+        { "title": "Environment", "summary": "Natural, human and human-made components. Ecosystem as interaction. Balance and human impact.", "points": ["Biotic–abiotic", "Ecosystem", "Human environment", "Need for balance"], "exam": "Ecology intro." },
+        { "title": "Inside Our Earth", "summary": "Crust, mantle, core; rocks (igneous, sedimentary, metamorphic) and the rock cycle. Minerals as building blocks.", "points": ["Layers", "Rock types", "Rock cycle", "Minerals"], "exam": "Geomorphology." },
+        { "title": "Our Changing Earth", "summary": "Lithospheric plates, earthquakes, volcanoes, and work of river, wind, ice, sea waves. Landforms have processes.", "points": ["Plate tectonics intro", "Earthquake/volcano", "River landforms", "Wind–glacier–wave"], "exam": "Hazards + landforms." },
+        { "title": "Air", "summary": "Atmosphere composition, structure, weather vs climate, wind, moisture. Greenhouse idea at a simple level.", "points": ["Gases", "Layers", "Pressure and winds", "Rain types intro"], "exam": "Climatology." },
+        { "title": "Water", "summary": "Water cycle, salinity, tides, ocean currents, distribution of water. Freshwater is scarce.", "points": ["Hydrological cycle", "Tides", "Currents", "Water conservation"], "exam": "Oceanography intro." },
+        { "title": "Natural Vegetation and Wildlife", "summary": "Forests, grasslands, shrubs; factors of climate and soil. Conservation of flora and fauna.", "points": ["Forest belts", "Grasslands", "Wildlife", "Conservation"], "exam": "Biogeography." },
+        { "title": "Human Environment — Settlement, Transport, Communication", "summary": "Rural–urban settlements, transport modes, communication as development infrastructure.", "points": ["Site vs situation", "Transport types", "Urban problems", "Communication"], "exam": "Human geography." },
+        { "title": "Human Environment Interactions — Tropical and Subtropical Region", "summary": "Amazon and Ganga–Brahmaputra: life in rainforests and river plains. Environment shapes livelihood.", "points": ["Amazon", "Ganga–Brahmaputra", "Livelihoods", "Threats"], "exam": "Regional geography." },
+        { "title": "Life in the Temperate Grasslands", "summary": "Prairies and velds: climate, wheat–cattle economies, Chinook. Compare with Indian plains.", "points": ["Prairies", "Velds", "Wheat belts", "Climate"], "exam": "World geography." },
+        { "title": "Life in the Deserts", "summary": "Sahara (hot) and Ladakh (cold): adaptations, water, tourism and change.", "points": ["Hot vs cold desert", "Oasis", "Ladakh", "Adaptation"], "exam": "World + India." }
+      ]
+    },
+    {
+      "class": 8,
+      "book": "Resources and Development",
+      "chapters": [
+        { "title": "Resources", "summary": "Natural, human, human-made; renewable vs non-renewable; sustainable development. Resource is technology + need, not just stuff.", "points": ["Classification", "Localised vs ubiquitous", "Sustainability", "Conservation"], "exam": "GS-III resources." },
+        { "title": "Land, Soil, Water, Natural Vegetation and Wildlife Resources", "summary": "Land use, soil formation and types, water scarcity, forest and wildlife conservation. Degradation is a policy issue.", "points": ["Land use", "Soil types/conservation", "Water stress", "Wildlife law intro"], "exam": "India physical + environment." },
+        { "title": "Mineral and Power Resources", "summary": "Metallic–non-metallic minerals, distribution, conventional vs non-conventional energy. Mining has costs.", "points": ["Iron, bauxite, mica", "Coal, petroleum", "Solar, wind, biogas", "Conservation"], "exam": "Map minerals." },
+        { "title": "Agriculture", "summary": "Farm types, major crops, agricultural development, farm system. Green Revolution as a mixed blessing.", "points": ["Subsistence vs commercial", "Crops", "Inputs", "Food security link"], "exam": "Indian agriculture." },
+        { "title": "Industries", "summary": "Classification, locational factors, case studies (textiles, steel, IT, Jamshedpur). Industry is geography + policy.", "points": ["Locational factors", "Agro vs mineral based", "Steel", "Information technology"], "exam": "Indian industry." },
+        { "title": "Human Resources", "summary": "People as resource: distribution, density, age–sex, literacy. Population is both strength and planning challenge.", "points": ["Distribution", "Density", "Pyramid intro", "Literacy"], "exam": "Human geography." }
+      ]
+    },
+    {
+      "class": 9,
+      "book": "Contemporary India — I",
+      "chapters": [
+        { "title": "India — Size and Location", "summary": "Lat–long, standard meridian, neighbours, central location in the Indian Ocean. Size shapes climate and time.", "points": ["Extent", "IST", "Neighbours", "Ocean location"], "exam": "India map." },
+        { "title": "Physical Features of India", "summary": "Tectonic origin of Himalayas, Northern Plains, Peninsular Plateau, Desert, Coasts, Islands. The master map of India.", "points": ["Himalayan ranges", "Plains", "Peninsular block", "Coastal plains & islands"], "exam": "Highest-yield physical." },
+        { "title": "Drainage", "summary": "Himalayan vs peninsular rivers, Ganga system, Brahmaputra, west-flowing rivers, lakes, national river-linking debates at a basic level.", "points": ["Indus, Ganga, Brahmaputra", "Godavari–Krishna–Kaveri", "Narmada–Tapi", "Lakes"], "exam": "Rivers map." },
+        { "title": "Climate", "summary": "Monsoon mechanism, seasons, rainfall distribution, climate controls (latitude, relief, ENSO intro). Drought and flood.", "points": ["Controls", "Monsoon onset/retreat", "Seasons", "Rainfall map"], "exam": "Climatology of India." },
+        { "title": "Natural Vegetation and Wildlife", "summary": "Forest types, biosphere reserves, fauna. Vegetation follows rainfall and altitude.", "points": ["Tropical evergreen to alpine", "Mangroves", "Wildlife", "Conservation"], "exam": "Environment." },
+        { "title": "Population", "summary": "Size, distribution, density, growth, age composition, NPP. Census as source.", "points": ["Density patterns", "Growth", "Literacy", "Census"], "exam": "Human geography." }
+      ]
+    },
+    {
+      "class": 10,
+      "book": "Contemporary India — II",
+      "chapters": [
+        { "title": "Resources and Development", "summary": "Resource planning, land degradation, soil types of India, soil conservation. Agenda 21 idea of sustainable planning.", "points": ["Resource planning", "Land use", "Alluvial, black, red, laterite", "Conservation"], "exam": "Soils map." },
+        { "title": "Forest and Wildlife Resources", "summary": "Biodiversity, Forest Acts, types of forests, community conservation (sacred groves), Chipko as a story of people.", "points": ["IUCN categories intro", "Forest types", "Joint forest management", "Sacred groves"], "exam": "Environment." },
+        { "title": "Water Resources", "summary": "Water scarcity is social as well as physical. Dams, multi-purpose projects, rainwater harvesting. Conflicts over rivers.", "points": ["Scarcity causes", "Dams debate", "Rainwater harvesting", "Interstate rivers"], "exam": "GS-III water." },
+        { "title": "Agriculture", "summary": "Cropping patterns (rabi, kharif, zaid), major crops, institutional reforms, Green Revolution, food security.", "points": ["Cropping seasons", "Crops map", "Technological/institutional reforms", "Food security"], "exam": "Agriculture GS." },
+        { "title": "Minerals and Energy Resources", "summary": "Distribution of coal, petroleum, atomic minerals, non-conventional energy. Conservation.", "points": ["Mineral belts", "Coalfields", "Petroleum", "Renewables"], "exam": "Map." },
+        { "title": "Manufacturing Industries", "summary": "Locational factors, agro-based and mineral-based, industrial pollution. Manufacturing as development.", "points": ["Location", "Textiles, steel, chemicals, auto, IT", "Pollution", "Industrial policy flavour"], "exam": "Industry." },
+        { "title": "Lifelines of National Economy", "summary": "Road, rail, air, water, pipelines, trade. Golden Quadrilateral, ports. Communication and tourism as economy.", "points": ["Transport modes", "Ports", "International trade", "Tourism"], "exam": "Infrastructure." }
+      ]
+    },
+    {
+      "class": 11,
+      "book": "Fundamentals of Physical Geography",
+      "chapters": [
+        { "title": "Geography as a Discipline", "summary": "Physical vs human, dualism, and why geography integrates nature and society.", "points": ["Branches", "Physical–human", "Regional approach", "Applied geography"], "exam": "Approach." },
+        { "title": "The Origin and Evolution of the Earth", "summary": "Nebular hypothesis, Big Bang context, formation of crust, atmosphere, life. Geological time at a glance.", "points": ["Solar origin", "Differentiation of Earth", "Atmosphere origin", "Life"], "exam": "Geophysics." },
+        { "title": "Interior of the Earth", "summary": "Earthquake waves, shadow zones, crust–mantle–core, volcanoes. Evidence is geophysical.", "points": ["P, S, L waves", "Shadow zone", "Layers", "Volcano types"], "exam": "Prelims favourite." },
+        { "title": "Distribution of Oceans and Continents", "summary": "Continental drift, seafloor spreading, plate tectonics, force behind plates.", "points": ["Wegener", "Mid-ocean ridges", "Plates", "Convection"], "exam": "Tectonics." },
+        { "title": "Geomorphic Processes", "summary": "Endogenic–exogenic, weathering, mass wasting, erosion–deposition. Landform = process + time + rock.", "points": ["Weathering types", "Mass wasting", "Cycle of erosion (idea)", "Soil formation link"], "exam": "Geomorphology." },
+        { "title": "Landforms and their Evolution", "summary": "Running water, groundwater, glaciers, waves, wind—each suite of landforms. Indian examples (Himalayan rivers, Thar, coasts).", "points": ["Fluvial", "Karst", "Glacial", "Aeolian & coastal"], "exam": "Landform ID." },
+        { "title": "Composition and Structure of Atmosphere", "summary": "Gases, layers up to exosphere, weather vs climate. Ozone.", "points": ["Composition", "Troposphere–stratosphere", "Ozone", "Weather elements"], "exam": "Climatology." },
+        { "title": "Solar Radiation, Heat Balance and Temperature", "summary": "Insolation, heat budget, inversion, temperature distribution. Why continents heat faster.", "points": ["Insolation controls", "Heat budget", "Inversion", "Isotherms"], "exam": "Climate." },
+        { "title": "Atmospheric Circulation and Weather Systems", "summary": "Pressure belts, winds, jet streams, air masses, fronts, cyclones, anticyclones. Monsoon is a later India-book topic but the physics starts here.", "points": ["Tricellular model", "Jet streams", "Tropical vs extra-tropical cyclone", "ENSO intro"], "exam": "High-yield." },
+        { "title": "Water in the Atmosphere", "summary": "Humidity, condensation, rainfall types, world precipitation pattern.", "points": ["Absolute vs relative humidity", "Clouds", "Convectional/orographic/cyclonic rain", "World rainfall"], "exam": "Climatology." },
+        { "title": "World Climate and Climate Change", "summary": "Koeppen types, climate change causes and evidence. Link to IPCC language in current affairs.", "points": ["Koeppen", "Forcing", "Impacts", "Mitigation vs adaptation"], "exam": "Environment overlap." },
+        { "title": "Water (Oceans)", "summary": "Relief of ocean floor, temperature, salinity. Horizontal and vertical distribution.", "points": ["Continental shelf to trench", "Salinity factors", "Temperature", "Hydrological cycle"], "exam": "Oceanography." },
+        { "title": "Movements of Ocean Water", "summary": "Waves, tides, currents (warm/cold), El Niño as current–climate coupler.", "points": ["Tides", "Currents map", "Upwelling", "ENSO"], "exam": "Prelims map." },
+        { "title": "Biodiversity and Conservation", "summary": "Genetic–species–ecosystem diversity, hotspots, IUCN, in-situ vs ex-situ. Normative conservation.", "points": ["Levels of biodiversity", "Hotspots", "Threats", "Conservation modes"], "exam": "Environment." }
+      ]
+    },
+    {
+      "class": 11,
+      "book": "India: Physical Environment",
+      "chapters": [
+        { "title": "India — Location", "summary": "Size, extent, standard meridian, Indian Ocean centrality, neighbours. Repeat from 9 but at plus-two depth.", "points": ["Extent", "IST", "Ocean location", "Strategic location"], "exam": "Location." },
+        { "title": "Structure and Physiography", "summary": "Geological divisions (Peninsular block, Himalayas, Indo-Ganga plain) and physiographic units in detail.", "points": ["Shield", "Himalayan origin", "Plains", "Coastal & islands"], "exam": "Physical India." },
+        { "title": "Drainage System", "summary": "Evolution of Himalayan vs peninsular drainage, river regimes, river basins, problems (floods, linking).", "points": ["Antecedent rivers", "Regimes", "Basins", "Kosi–flood idea"], "exam": "Rivers + Bihar." },
+        { "title": "Climate", "summary": "Monsoon mechanism (Tibet heat, ITCZ, jets), seasons, Koeppen for India, variability, climate and life.", "points": ["Mechanism", "Breaks in monsoon", "Rainfall distribution", "Koeppen India"], "exam": "Must." },
+        { "title": "Natural Vegetation", "summary": "Forest types mapped to rainfall and altitude; conservation, social forestry.", "points": ["Types", "Mangrove", "Degradation", "Policy"], "exam": "Vegetation map." },
+        { "title": "Soils", "summary": "Soil-forming factors, Indian soil types, erosion and conservation. Alluvial vs black vs red vs laterite vs arid vs forest.", "points": ["Factors", "Types", "Erosion", "Conservation"], "exam": "Soils." },
+        { "title": "Natural Hazards and Disasters", "summary": "Floods, droughts, cyclones, earthquakes, landslides. NDMA mindset: preparedness over panic. Bihar floods belong here.", "points": ["Earthquake zones", "Cyclone east coast", "Floods", "Mitigation"], "exam": "GS-III disaster." }
+      ]
+    },
+    {
+      "class": 12,
+      "book": "Fundamentals of Human Geography",
+      "chapters": [
+        { "title": "Human Geography: Nature and Scope", "summary": "Human geography studies people–place relations: cultural, economic, political. Approaches from environmental determinism to possibilism.", "points": ["Nature", "Approaches", "Fields", "Relevance"], "exam": "Theory." },
+        { "title": "The World Population", "summary": "Growth, distribution, density, demographic transition, Malthus vs reality. Migration types.", "points": ["Factors of distribution", "DTM", "Migration", "Population problems"], "exam": "Population." },
+        { "title": "Population Composition", "summary": "Age–sex, rural–urban, literacy, occupation, pyramids. Composition tells development.", "points": ["Pyramids", "Sex ratio", "Literacy", "Rural–urban"], "exam": "Census analysis." },
+        { "title": "Human Development", "summary": "HDI, income–health–education, Sen’s capabilities flavour. Growth is not development.", "points": ["HDI", "Pillars", "India vs neighbours", "Equity"], "exam": "GS-II/III." },
+        { "title": "Primary Activities", "summary": "Hunting, gathering, pastoralism, mining, agriculture types (intensive, extensive, plantation, Mediterranean).", "points": ["Agriculture types", "Pastoralism", "Mining", "Plantation"], "exam": "Economic geography." },
+        { "title": "Secondary Activities", "summary": "Manufacturing systems, industry classification, high-tech industry, traditional large-scale.", "points": ["Cottage to high-tech", "Location", "Footloose industry", "Agglomeration"], "exam": "Industry." },
+        { "title": "Tertiary and Quaternary Activities", "summary": "Services, trade, transport, communication, IT, knowledge economy. Quinary as decision-making.", "points": ["Services", "Digital economy", "Outsourcing", "Quinary"], "exam": "Services sector." },
+        { "title": "Transport and Communication", "summary": "World rail, road, sea, air, pipelines, internet. Suez, Panama, trans-Siberian as classics.", "points": ["Modes", "Canals", "Ports", "ICT"], "exam": "World map." },
+        { "title": "International Trade", "summary": "Basis of trade, WTO, ports as gateways, concerns of developing countries.", "points": ["Comparative advantage idea", "WTO", "Balance of trade", "Ports"], "exam": "Economy overlap." },
+        { "title": "Human Settlements", "summary": "Rural patterns, urban types, megacities, problems of urbanisation.", "points": ["Compact vs dispersed", "Urban functions", "Megacity", "Problems"], "exam": "Settlements." }
+      ]
+    },
+    {
+      "class": 12,
+      "book": "India: People and Economy",
+      "chapters": [
+        { "title": "Population: Distribution, Density, Growth and Composition", "summary": "Census India: density belts, growth phases, language, religion, rural–urban. Bihar’s density and out-migration belong here.", "points": ["Density", "Growth phases", "Composition", "Bihar link"], "exam": "Census." },
+        { "title": "Migration: Types, Causes and Consequences", "summary": "Inter-state streams, Gulf migration, rural–urban. Remittances and social costs. Bihar as origin.", "points": ["Streams", "Push–pull", "Remittances", "Women and migration"], "exam": "BPSC high-yield." },
+        { "title": "Human Development", "summary": "Indian HDI variation across states. Health, education, income gaps. Planning for capability.", "points": ["State variation", "Indicators", "Gender", "Policy"], "exam": "Development." },
+        { "title": "Human Settlements", "summary": "Indian villages, urbanisation, smart cities debate, slums, conurbations (Delhi, Mumbai).", "points": ["Rural types", "Urbanisation level", "Metropolitan", "Problems"], "exam": "Urban GS." },
+        { "title": "Land Resources and Agriculture", "summary": "Land-use change, cropping intensity, Green–White–Blue revolutions, agricultural problems, food security.", "points": ["Land-use", "Cropping patterns", "Revolutions", "Challenges"], "exam": "Agriculture." },
+        { "title": "Water Resources", "summary": "Surface–groundwater, irrigation, watershed, inter-state disputes, pollution. Eastern India’s flood-and-scarcity paradox.", "points": ["Irrigation types", "Groundwater stress", "Disputes", "Conservation"], "exam": "Water." },
+        { "title": "Mineral and Energy Resources", "summary": "Distribution, energy mix, nuclear, renewables, conservation. Jharkhand–Odisha–Chhattisgarh mineral belt vs Bihar’s limited minerals.", "points": ["Mineral belts", "Energy mix", "Renewables", "Conservation"], "exam": "Maps." },
+        { "title": "Manufacturing Industries", "summary": "Industrial regions of India, liberalisation impact, pollution. Location still follows raw material, power, market, policy.", "points": ["Regions", "Iron-steel", "Cotton", "Liberalisation"], "exam": "Industry." },
+        { "title": "Planning and Sustainable Development in Indian Context", "summary": "Five-year plans to NITI, hill-area, drought, command area, ITDP. Sustainable development as method.", "points": ["Planning history", "NITI", "Targeted area programmes", "Sustainability"], "exam": "Polity–economy." },
+        { "title": "Transport and Communication", "summary": "Indian rail gauges history, NH, ports, airways, ISRO communication. Lifelines at national scale.", "points": ["Rail", "Road", "Ports", "Pipelines"], "exam": "Infrastructure." },
+        { "title": "International Trade", "summary": "India’s trade composition, direction, seaports and airports as gateways.", "points": ["Exports–imports", "Direction", "Ports", "Trade policy flavour"], "exam": "Economy." },
+        { "title": "Geographical Perspective on Selected Issues", "summary": "Pollution, urban waste, rural–urban migration, problems of slums. Geography as applied civic science.", "points": ["Pollution", "Urban waste", "Slums", "Solutions"], "exam": "Environment + urban." }
+      ]
+    }
+  ]
+}

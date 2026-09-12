@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PrepHaat · Civil Services Prep</title>
+    <link rel="icon" href="/logo.svg" />
+    <link rel="stylesheet" href="/study.css" />
+  </head>
+  <body>
+    <header class="mast">
+      <a class="brand" href="/home">
+        <img src="/logo.svg" alt="" width="42" height="42" />
+        <div>
+          <strong>PrepHaat</strong>
+          <span>UPSC · BPSC in quick bites</span>
+        </div>
+      </a>
+      <div class="mast-right">
+        <p id="who" class="who"></p>
+        <a id="faculty-link" href="/faculty">Faculty desk</a>
+        <a href="/records">Records</a>
+        <button type="button" id="logout" class="ghost">Sign out</button>
+      </div>
+    </header>
+
+    <nav class="tabs" id="tabs" aria-label="Subjects"></nav>
+
+    <div class="layout">
+      <main>
+        <section id="paper-method" class="panel method" hidden></section>
+        <section id="feed" class="panel" hidden>
+          <div class="section-head">
+            <h2>Today’s paper trail</h2>
+            <p id="feed-meta" class="meta"></p>
+          </div>
+          <div class="filters" id="source-filters"></div>
+          <div id="articles" class="articles"></div>
+        </section>
+        <section id="quiz" class="panel" hidden>
+          <div class="section-head">
+            <h2>Daily score tracker</h2>
+            <p class="meta">Each correct answer is 1 point spent into today’s subject buckets (IST).</p>
+          </div>
+          <div id="tracker"></div>
+          <div id="quiz-history"></div>
+          <div class="quiz-pick" id="quiz-pick"></div>
+          <div id="quiz-timer"></div>
+          <div id="quiz-board"></div>
+        </section>
+        <section id="subject" class="panel" hidden></section>
+      </main>
+    </div>
+
+    <aside class="syllabus-corner" id="syllabus-box">
+      <div class="syllabus-bar" id="syllabus-drag">
+        <span>Syllabus · drag anywhere</span>
+        <button type="button" class="syllabus-toggle" id="syllabus-toggle" aria-expanded="true" aria-label="Collapse syllabus">–</button>
+      </div>
+      <div class="syllabus-body" id="syllabus-body">
+        <div class="syllabus-tabs">
+          <button type="button" class="on" data-exam="upsc">UPSC</button>
+          <button type="button" data-exam="bpsc">BPSC</button>
+        </div>
+        <div id="syllabus-content"></div>
+      </div>
+    </aside>
+
+    <script src="/home.js"></script>
+  </body>
+</html>

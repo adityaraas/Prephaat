@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Faculty desk · PrepHaat</title>
+    <link rel="icon" href="/logo.svg" />
+    <link rel="stylesheet" href="/study.css" />
+  </head>
+  <body>
+    <header class="mast">
+      <a class="brand" href="/home">
+        <img src="/logo.svg" alt="" width="42" height="42" />
+        <div>
+          <strong>PrepHaat</strong>
+          <span>Faculty material desk</span>
+        </div>
+      </a>
+      <div class="mast-right">
+        <a href="/home">Student view</a>
+        <button type="button" id="logout" class="ghost">Sign out</button>
+      </div>
+    </header>
+    <div class="layout">
+      <section class="panel" id="claim-box">
+        <h2>Unlock faculty publishing</h2>
+        <p class="meta">Enter the invite code from your institute (also in server FACULTY_INVITE). Published notes appear in the matching subject on the study desk.</p>
+        <form id="claim-form">
+          <label class="meta">Invite code
+            <input name="code" type="password" required style="display:block;width:100%;margin:.4rem 0 1rem;padding:.7rem;border-radius:10px;border:1px solid #ececec" />
+          </label>
+          <button class="cta" type="submit">Become faculty</button>
+          <p id="claim-status" class="empty"></p>
+        </form>
+      </section>
+      <section class="panel" id="publish-box" hidden>
+        <h2>Add study material</h2>
+        <p class="meta">This publishes immediately to the student’s subject page.</p>
+        <form id="pub-form">
+          <p class="filters" style="margin-bottom:1rem">
+            <label>Subject
+              <select name="subject">
+                <option value="history">History</option>
+                <option value="geography">Geography</option>
+                <option value="polity">Polity</option>
+                <option value="economy">Economy</option>
+                <option value="science">Science</option>
+                <option value="environment">Environment</option>
+                <option value="ethics">Ethics</option>
+                <option value="current">Current affairs</option>
+              </select>
+            </label>
+            <label>Class tag
+              <input name="class_tag" type="text" placeholder="e.g. Class 12 / GS-II" maxlength="40" />
+            </label>
+          </p>
+          <input name="title" type="text" placeholder="Title" required maxlength="200" style="width:100%;margin:.4rem 0;padding:.7rem;border-radius:10px;border:1px solid #ececec" />
+          <textarea name="body" required minlength="20" placeholder="Write the note students should see…" style="width:100%;min-height:160px;margin:.4rem 0 1rem;padding:.7rem;border-radius:10px;border:1px solid #ececec;font:inherit"></textarea>
+          <button class="cta" type="submit">Publish to main section</button>
+          <p id="pub-status" class="empty"></p>
+        </form>
+        <h3>Your published notes</h3>
+        <div id="mine"></div>
+      </section>
+    </div>
+    <script src="/faculty.js"></script>
+  </body>
+</html>

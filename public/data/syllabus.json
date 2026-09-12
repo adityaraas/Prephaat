@@ -1,0 +1,167 @@
+{
+  "upsc": {
+    "exam": "UPSC Civil Services",
+    "stages": [
+      {
+        "name": "Prelims",
+        "papers": [
+          {
+            "title": "GS Paper I (200 marks)",
+            "points": [
+              "Current events of national and international importance",
+              "History of India and Indian National Movement",
+              "Indian and World Geography — physical, social, economic",
+              "Indian Polity and Governance — Constitution, political system, Panchayati Raj, rights issues",
+              "Economic and Social Development — sustainable development, poverty, inclusion, demographics",
+              "Environment, ecology, biodiversity and climate change (no specialist background needed)",
+              "General Science"
+            ]
+          },
+          {
+            "title": "CSAT Paper II (qualifying 33%)",
+            "points": [
+              "Comprehension and interpersonal skills",
+              "Logical reasoning and analytical ability",
+              "Decision-making and problem-solving",
+              "General mental ability",
+              "Basic numeracy and data interpretation (Class X level)"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mains",
+        "papers": [
+          {
+            "title": "Qualifying papers",
+            "points": ["Paper A — Indian language", "Paper B — English"]
+          },
+          {
+            "title": "Essay",
+            "points": ["Two essays; contemporary, philosophical and GS-linked themes"]
+          },
+          {
+            "title": "GS I",
+            "points": [
+              "Indian heritage and culture",
+              "Modern Indian history and freedom struggle",
+              "World history (18th century onwards)",
+              "Indian society, diversity, communalism, regionalism, secularism",
+              "World and Indian geography; geophysical phenomena"
+            ]
+          },
+          {
+            "title": "GS II",
+            "points": [
+              "Indian Constitution, federalism, separation of powers",
+              "Parliament, state legislatures, executive, judiciary",
+              "Representation of People’s Act; constitutional and statutory bodies",
+              "Welfare schemes, social sector, NGOs",
+              "Governance, transparency, e-governance",
+              "International relations and Indian diaspora"
+            ]
+          },
+          {
+            "title": "GS III",
+            "points": [
+              "Indian economy, budgeting, inclusive growth, agriculture",
+              "Science and technology; awareness in IT, space, nano, bio",
+              "Environment, disaster management",
+              "Internal security, border management, cyber security"
+            ]
+          },
+          {
+            "title": "GS IV",
+            "points": [
+              "Ethics, integrity and aptitude",
+              "Attitude, emotional intelligence, moral thinkers",
+              "Public/civil service values; probity in governance",
+              "Case studies"
+            ]
+          },
+          {
+            "title": "Optional + Interview",
+            "points": ["Two optional papers", "Personality test"]
+          }
+        ]
+      }
+    ]
+  },
+  "bpsc": {
+    "exam": "BPSC Combined Competitive Exam",
+    "stages": [
+      {
+        "name": "Prelims",
+        "papers": [
+          {
+            "title": "General Studies (150 marks)",
+            "points": [
+              "Current events of national and international importance",
+              "History of India and Bihar, including the Indian National Movement in Bihar",
+              "Geography of India and Bihar — physical, social, economic",
+              "Indian Polity and economy; Bihar economy after independence",
+              "Indian National Movement and contribution of Bihar",
+              "General Science; questions on Bihar’s special identity — agriculture, culture, river systems"
+            ]
+          },
+          {
+            "title": "CSAT (qualifying)",
+            "points": [
+              "Comprehension, reasoning, mental ability",
+              "Basic numeracy and data interpretation"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mains (current CCE pattern)",
+        "papers": [
+          {
+            "title": "General Hindi (qualifying)",
+            "points": ["Grammar, précis, comprehension — qualifying paper"]
+          },
+          {
+            "title": "GS Paper I",
+            "points": [
+              "Modern history of India and Indian culture",
+              "Current national events",
+              "Statistical analysis, graphs and diagrams"
+            ]
+          },
+          {
+            "title": "GS Paper II",
+            "points": [
+              "Indian Polity",
+              "Indian economy and geography of India",
+              "Role and impact of science and technology in India"
+            ]
+          },
+          {
+            "title": "Essay",
+            "points": ["National, social, Bihar-centric and philosophical topics"]
+          },
+          {
+            "title": "Interview",
+            "points": ["Personality test; awareness of Bihar administration and society"]
+          }
+        ]
+      },
+      {
+        "name": "Bihar focus (must cover)",
+        "papers": [
+          {
+            "title": "State-specific",
+            "points": [
+              "Ancient Magadha, Nalanda, Vikramshila, Mauryan and Gupta links",
+              "1857 in Bihar; Champaran Satyagraha; JP movement",
+              "Rivers: Ganga, Kosi, Gandak, Son — floods and irrigation",
+              "Agriculture, litchi, makhana, agro-climate zones",
+              "Bihar economy, industries, migration, schemes after 2005",
+              "Art: Madhubani, Patna Kalam; festivals and languages"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

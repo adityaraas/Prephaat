@@ -1,0 +1,279 @@
+{
+  "howToReadPaper": {
+    "title": "How to convert a newspaper into GS notes",
+    "steps": [
+      "Read The Hindu / Indian Express editorials for the argument, not the anecdote.",
+      "Map every story to a syllabus heading (Polity, Economy, IR, Environment, Science, Bihar).",
+      "Write 4–5 lines: what happened, why it matters, constitutional/legal hook, way forward.",
+      "PIB is for schemes, indices and official data — copy facts, skip PR language.",
+      "Revise weekly: 10 issues, 2 maps, 1 ethics case from real news."
+    ]
+  },
+  "subjects": [
+    {
+      "id": "history",
+      "title": "History",
+      "emoji": "📜",
+      "papers": "Prelims GS · Mains GS-I · BPSC GS-I",
+      "overview": "History in UPSC and BPSC is not a list of kings. It is how power, economy, culture and protest changed over time. Prelims tests facts that sit on a storyline. Mains wants causes, consequences and continuity. BPSC adds Magadha, 1857 in Bihar, Champaran and the JP movement. Read NCERT as the spine, Spectrum for modern India, and keep a one-page Bihar timeline.",
+      "sources": ["NCERT 6–12 (Themes, Our Pasts)", "Spectrum — Modern India", "Bipan Chandra — India’s Struggle", "Bihar special notes: Magadha, 1857, Champaran"],
+      "modules": [
+        {
+          "title": "Ancient India",
+          "explain": [
+            "Start with the Harappan world: planned cities, drainage, craft specialisation, long-distance trade (Mesopotamia), and a script we still cannot read. Decline is a package of climate, river shift and political fragmentation — not a single invasion story. Link this to geography: Indus, Ghaggar-Hakra, monsoon reliability.",
+            "The Vedic–later Vedic transition is about pastoral to agrarian life, varna, janapadas and the rise of mahajanapadas. Magadha (Rajgir, then Pataliputra) wins because of iron, forests, the Ganga–Son corridor and ambitious dynasties (Haryanka, Shishunaga, Nanda). This is a BPSC favourite.",
+            "Mauryas built the first pan-Indian state we can describe in some detail: standing army, spies, land revenue, Ashoka’s dhamma after Kalinga, and edicts as public communication. Collapse opens space for Shungas, Satavahanas, Kushanas and Sangam south. Guptas are the ‘classical’ template: land grants, Sanskrit culture, Aryabhata, and a looser feudalising polity. Buddhism and Jainism need councils, patrons, cave and stupa architecture, and Bihar sites — Bodh Gaya, Nalanda, Vaishali, Vikramshila."
+          ],
+          "points": [
+            "Harappan urbanism, craft, trade, script, decline — always pair with rivers and climate.",
+            "Mahajanapadas; why Magadha (iron, Ganga, geography, politics).",
+            "Mauryan state, Ashoka’s dhamma, economy, Mauryan art (Sarnath, Dhauli).",
+            "Gupta polity, land grants, science, post-Gupta regional kingdoms.",
+            "Buddhism–Jainism: teachings, sangha, spread, Nalanda–Vikramshila."
+          ]
+        },
+        {
+          "title": "Medieval India",
+          "explain": [
+            "Treat the Delhi Sultanate as an administrative experiment: iqta, cavalry, urban markets (Alauddin Khalji), and Indo-Islamic architecture (Qutb, Tughlaq, Lodi). Do not reduce it to battles. Ask what happened to peasants, towns and religion on the ground.",
+            "The south and Deccan are equal GS: Vijayanagara’s nayaka system and temple-urbanism; Bahmani successor states; Bhakti and Sufi as social languages that cut across courts. Kabir, Nanak, Chaitanya, the Nayanars–Alvars, and the Chishti silsila are more useful than memorising every raid.",
+            "Mughals: mansab, jagir, zabt, sulh-i-kul, painting and architecture. The jagir crisis and later fragmentation matter more than a morality play about Aurangzeb. Sher Shah (Sasaram) is a Bihar-centred case: roads, rupee, sarkar–pargana — a ready-made Mains example of state capacity. Patna Kalam later shows cultural continuity in the region."
+          ],
+          "points": [
+            "Sultanate: iqta, market control, architecture, urban economy.",
+            "Vijayanagara, Bahmani, Bhakti and Sufi — culture as politics.",
+            "Mughal administration, zabt, jagir crisis, art.",
+            "Sher Shah in Bihar–Bengal as a governance case study."
+          ]
+        },
+        {
+          "title": "Modern India & National Movement",
+          "explain": [
+            "Modern India begins with how the Company became a state: Plassey–Buxar, Diwani, Subsidiary Alliance, Doctrine of Lapse. Economy is half the paper: drain of wealth, deindustrialisation, land systems (Permanent, Ryotwari, Mahalwari), famines, railways as both modernisation and extraction. This overlaps GS-III.",
+            "1857 is a layered event — army, taluqdars, peasants, religion, communication. For BPSC, zoom to Arrah, Jagdispur and Kunwar Singh. After 1857, Crown rule, associations, Congress, Moderates vs Extremists, Swadeshi, Home Rule.",
+            "Gandhian mass politics: Champaran (indigo, 1917 — first satyagraha in India), Kheda, Ahmedabad, Non-Cooperation, Civil Disobedience, Quit India. In Bihar, note peasant movements and 1942. Also keep revolutionaries, workers, women, depressed classes, and the communal question. End with Partition, integration of states, and the Constituent Assembly — the bridge into Polity."
+          ],
+          "points": [
+            "Colonisation and economic drain; land revenue systems.",
+            "1857 with Bihar centres (Kunwar Singh, Arrah).",
+            "Moderates–Extremists, Swadeshi, Home Rule.",
+            "Champaran, NCM, CDM, Quit India; social groups in the movement.",
+            "Partition, integration, Constitution-making."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geography",
+      "title": "Geography",
+      "emoji": "🗺️",
+      "papers": "Prelims GS · Mains GS-I · BPSC GS-II",
+      "overview": "Geography is the map underneath almost every GS paper: climate for agriculture, rivers for disasters, location for industry, migration for Bihar’s economy. Draw while you read. Prelims loves definitions and India maps. Mains wants process + impact + policy. Keep an atlas open next to NCERT and G.C. Leong.",
+      "sources": ["NCERT 6–12 (Physical, India People & Economy)", "G.C. Leong", "Oxford / Orient Blackswan atlas", "IMD, Survey of India, Bihar Economic Survey maps"],
+      "modules": [
+        {
+          "title": "Physical geography",
+          "explain": [
+            "Geomorphology: Earth’s interior, plate tectonics (divergence, convergence, transform), earthquakes, volcanoes, and landforms of wind, water, glacier and wave. Prelims asks the ‘why’ of a landform (ox-bow, fjord, barchan). Mains asks hazards and human settlement.",
+            "Climatology: composition of atmosphere, heat budget, pressure belts, jet streams, monsoon as seasonal reversal plus ITCZ, western disturbances, cyclones (eye, eyewall, energy from warm seas), ENSO as a modulator not the monsoon itself. Practise diagrams of the Indian monsoon onset and retreat.",
+            "Oceanography (currents, upwelling, resources) and biogeography (biomes, soils of India — alluvial, black, red, laterite, arid). Soils connect to cropping patterns and to Bihar’s alluvial fertility plus waterlogging."
+          ],
+          "points": [
+            "Tectonics, earthquakes, volcanoes, fluvial and glacial landforms.",
+            "Monsoon mechanism, cyclones, ENSO, jet streams.",
+            "Oceans, soils of India, biomes."
+          ]
+        },
+        {
+          "title": "Indian geography",
+          "explain": [
+            "Six physiographic units: Himalayas, Northern Plains, Peninsular Plateau, Indian Desert, Coastal Plains, Islands. Himalaya vs peninsula is the master contrast: young fold mountains vs old plateau, snow-fed vs rain-fed rivers, seismic north vs relatively stable south (with exceptions).",
+            "Drainage: Himalayan rivers (antecedent, large sediment, changing courses) vs peninsular (graded, east-flowing deltas). Ganga–Brahmaputra–Meghna and the Kosi–Gandak–Son system are exam gold. Resources: coal, iron, petroleum, rare earths — location + environmental cost. Agriculture regions (rice, wheat, cotton, sugarcane, millets) follow climate and irrigation.",
+            "Human geography: density, census themes, urbanisation, smart cities, industrial corridors (DMIC etc.), ports. For Bihar, out-migration to Punjab, Delhi, Mumbai and the Gulf is a human-geography + economy + society question."
+          ],
+          "points": [
+            "Physiographic divisions; Himalaya–peninsula contrast.",
+            "Himalayan vs peninsular drainage; Ganga–Kosi.",
+            "Resources, agro-climatic regions, industry, transport.",
+            "Population, urbanisation, Bihar migration."
+          ]
+        },
+        {
+          "title": "Bihar geography",
+          "explain": [
+            "North Bihar is a floodplain of Himalayan rivers: shifting courses, high water tables, and the Kosi’s avulsion history. South of the Ganga you meet older alluvium and, further south, the fringe of Chhotanagpur — harder rock, minerals next door in Jharkhand, different drought–flood mix.",
+            "Floods are not only ‘too much rain’. They are sediment, embankments that trap water, drainage congestion, and climate extremes. Pair this with GS-III disaster management: early warning, reservoirs, non-structural measures, and why embankment-only policy fails.",
+            "Agriculture: maize, litchi, makhana, winter vegetables, jute pockets. Agro-climatic zones differ east–west. Irrigation from canals and tubewells; arsenic in some groundwater pockets is a health-geography issue. Industry is thin relative to people — hence migration — but locational logic (Gaya, Muzaffarpur, Begusarai, food parks) still matters."
+          ],
+          "points": [
+            "North plains vs southern plateau fringe.",
+            "Kosi–Gandak floods, embankments, disaster management.",
+            "Agro-climatic zones, litchi–makhana, irrigation, arsenic.",
+            "Minerals in neighbouring Jharkhand; industrial map of Bihar."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polity",
+      "title": "Polity & Governance",
+      "emoji": "⚖️",
+      "papers": "Prelims GS · Mains GS-II · BPSC GS-II",
+      "overview": "Polity is the rule-book of the Republic plus how it actually runs. Laxmikanth is the index, the Constitution is the text, newspapers are the case file. Every current story about Governors, bills, courts or elections should land on an Article, a body, or a doctrine.",
+      "sources": ["M. Laxmikanth", "Bare Constitution", "PRS India, PIB", "2nd ARC summaries"],
+      "modules": [
+        {
+          "title": "Constitutional structure",
+          "explain": [
+            "Preamble (justice, liberty, equality, fraternity; socialist, secular, democratic, republic) is a key to interpretation. Features: length, borrowed provisions, federal with unitary bias, parliamentary executive, independent judiciary, fundamental rights. Amendment (Art. 368) vs basic structure (Kesavananda Bharati, 1973) is the central doctrine question.",
+            "Fundamental Rights (12–35), DPSPs (36–51), Duties (51A): harmony and conflict (Champakam, Minerva Mills). Union and State executives, Parliament and legislatures, money bills, ordinance, anti-defection. Judiciary: independence, judicial review, PIL, collegium debates, tribunals.",
+            "Federalism: Seventh Schedule, Finance Commission, GST Council, emergencies (352, 356, 360), the Governor as a flashpoint in current affairs. Representation of the People Act and the Election Commission complete the electoral skeleton."
+          ],
+          "points": [
+            "Preamble, features, amendment, basic structure.",
+            "FRs, DPSPs, Duties — conflict and harmony.",
+            "Union/State organs, Parliament, judiciary.",
+            "Federalism, Governor, emergencies, electoral law."
+          ]
+        },
+        {
+          "title": "Governance",
+          "explain": [
+            "Sort bodies: constitutional (EC, CAG, UPSC, FC), statutory (NHRC, CIC, Lokpal), executive/regulatory (SEBI, RBI, CCI). Know appointment, removal, and one function each.",
+            "Local government: 73rd and 74th Amendments, three-tier panchayats, 11th/12th Schedules, State Election Commission, State Finance Commission. Bihar’s PRIs, reservations, and scheme delivery at the last mile are BPSC-relevant.",
+            "Transparency and integrity: RTI, CVC, CAG audit, Lokpal, citizen charters, e-governance, DBT. Social justice: NCSC, NCST, NCBC, women and child commissions, welfare architecture. Governance answers should name a principle, an institution, and a reform — not slogans."
+          ],
+          "points": [
+            "Constitutional vs statutory vs regulatory bodies.",
+            "73rd/74th, Panchayati Raj in Bihar.",
+            "RTI, CVC, CAG, Lokpal, e-governance.",
+            "Social justice commissions and welfare delivery."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "title": "Economy",
+      "emoji": "📈",
+      "papers": "Prelims GS · Mains GS-III · BPSC GS-II",
+      "overview": "Economy is concepts + this year’s Survey and Budget. If you cannot explain inflation, deficit, repo and GST in plain Hindi/English, facts will not save you. Then add Bihar: agriculture, migration, low industrial base, and schemes after 2005.",
+      "sources": ["NCERT Macro + Indian Economic Development", "Economic Survey", "Budget at a glance", "RBI, Bihar Economic Survey"],
+      "modules": [
+        {
+          "title": "Core concepts",
+          "explain": [
+            "National income (GDP, GVA, real vs nominal), inflation (CPI vs WPI, food vs core), unemployment types. Monetary policy: RBI, MPC, repo, SDF, CRR, SLR, transmission. Fiscal policy: Budget, revenue vs capital, fiscal/revenue/primary deficits, FRBM. Never confuse monetary (RBI) with fiscal (government).",
+            "Banking and NBFCs, NPAs, inclusion (PMJDY, UPI), insurance and pensions. GST as a destination-based dual indirect tax; compensation debates are federalism. Finance Commission (vertical and horizontal devolution) is GS-II/III overlap.",
+            "External sector: CAD, capital flows, forex reserves, rupee, WTO (agriculture, subsidies, public stockholding), FTAs. Prelims loves definitions; Mains wants trade-offs (growth vs inflation, welfare vs deficit)."
+          ],
+          "points": [
+            "GDP, inflation, unemployment; repo vs Budget.",
+            "Banking, inclusion, GST, Finance Commission.",
+            "CAD, rupee, WTO, FTAs."
+          ]
+        },
+        {
+          "title": "Development & Bihar economy",
+          "explain": [
+            "Development is not GDP alone: poverty lines, inequality, HDI, SDGs, health and education outcomes, jobs. Agriculture: MSP, APMC, MSP–inflation tension, food security (NFSA), climate risk. Bihar’s maize, litchi, makhana and vegetable belts are concrete examples.",
+            "Industry and labour: why Bihar’s factory share is low, power and land, food processing, and the role of remittances from migrants. Infrastructure (roads after 2005, electricity, digital) changed the growth story but the social sector still decides Mains marks.",
+            "Read the Bihar Economic Survey for two numbers you can quote: GSDP growth, sectoral shares, unemployment or migration. Pair with national Survey so you can compare."
+          ],
+          "points": [
+            "Poverty, jobs, inequality, SDGs.",
+            "MSP, food security, Bihar crops.",
+            "Industry, labour, remittances.",
+            "Infrastructure and post-2005 state schemes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "title": "Science & Technology",
+      "emoji": "🔬",
+      "papers": "Prelims GS · Mains GS-III · BPSC GS-II",
+      "overview": "Prelims wants Class 6–10 science done cleanly. Mains wants what a technology does to the economy, security, health and fairness. File every ISRO, vaccine or AI headline as application + regulation + equity.",
+      "sources": ["NCERT Science 6–10 + selected 11–12", "ISRO, DST, MoHFW", "The Hindu Science"],
+      "modules": [
+        {
+          "title": "Everyday & applied science",
+          "explain": [
+            "Physics: motion, light, electricity, semiconductors at a conceptual level. Chemistry: acids–bases, carbon compounds, polymers, everyday chemicals. Biology: cell, genetics at a light level, human physiology, diseases, nutrition. This block wins easy prelims marks if you revise NCERT, not random PDFs.",
+            "Health: vaccines (antigen, memory), antibiotics vs AMR, vector-borne disease in Bihar (kala-azar, encephalitis belts). Energy: solar, nuclear, green hydrogen, storage. Semiconductors and the India incentive story sit at GS-III industry + S&T.",
+            "Space: PSLV vs GSLV, navigation (NavIC), Earth observation for farming and floods — a direct bridge to Bihar disaster management. Don’t collect mission nicknames without a use-case."
+          ],
+          "points": [
+            "NCERT physics–chemistry–biology for Prelims.",
+            "Vaccines, AMR, public health in the eastern plains.",
+            "Energy mix, semiconductors.",
+            "ISRO applications: maps, weather, navigation."
+          ]
+        },
+        {
+          "title": "Frontier tech (Mains)",
+          "explain": [
+            "AI, platforms and data: productivity vs bias vs labour. Data protection law, CERT-In, critical information infrastructure — this is internal security as much as S&T.",
+            "Biotech: GM crops, genome editing (CRISPR), ethics of consent and biodiversity (Cartagena). IPR, patents vs access to medicines. India Stack (Aadhaar, UPI, DEPA) as digital public infrastructure — inclusion and surveillance in the same paragraph.",
+            "Write S&T answers in three beats: what it is, where India stands, what governance must do."
+          ],
+          "points": [
+            "AI, cyber, data protection.",
+            "Biotech, GM, genome editing + ethics.",
+            "IPR, tech missions, India Stack."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "title": "Environment & Ecology",
+      "emoji": "🌿",
+      "papers": "Prelims GS · Mains GS-III",
+      "overview": "Environment is ecology science plus law plus climate politics. Prelims: definitions and conventions. Mains: development vs conservation, and Bihar’s flood–heat–agriculture triangle. Use Shankar selectively; NCERT + current affairs do most of the work.",
+      "sources": ["NCERT", "MoEFCC, IPCC summaries", "Down To Earth / The Hindu Environment"],
+      "modules": [
+        {
+          "title": "Core ecology",
+          "explain": [
+            "Ecosystem structure (biotic–abiotic), food chains, ecological pyramids, biomes, nutrient cycles (C, N, P, water). Biodiversity: genetic–species–ecosystem; hotspots (two criteria: endemism + threat); IUCN Red List; CITES; Ramsar wetlands; UNESCO World Heritage natural sites. Know at least one Bihar-relevant wetland/forest issue.",
+            "Pollution: air (PM2.5, NCAP), water, plastic, e-waste. Law: EPA 1986, Air/Water Acts, Wildlife Act, Forest Rights Act, EIA process, NGT. Current affairs often turns on EIA exemptions or a court order.",
+            "Climate: UNFCCC, Kyoto, Paris, NDCs, mitigation (emissions) vs adaptation (floods, heat, seeds). Bihar is an adaptation geography: floods, heat, changing monsoon, agrarian vulnerability. Disaster management (NDMA, Sendai) overlaps here."
+          ],
+          "points": [
+            "Ecosystems, cycles, biomes.",
+            "Hotspots, IUCN, CITES, Ramsar, heritage.",
+            "Pollution, EIA, NGT, key Acts.",
+            "UNFCCC/NDCs; Bihar flood–heat stress."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ethics",
+      "title": "Ethics",
+      "emoji": "🧭",
+      "papers": "UPSC GS-IV · BPSC interview",
+      "overview": "GS-IV rewards clarity, not quotations. Define a value, give a public-service example, then a case. Newspapers in Bihar — floods, exams, welfare targeting — are enough if you stay non-partisan.",
+      "sources": ["Your own definition notebook", "2nd ARC Ethics in Governance", "Real cases from The Hindu / IE"],
+      "modules": [
+        {
+          "title": "Values, thinkers, cases",
+          "explain": [
+            "Write your own one-line definitions: integrity (honesty when nobody is watching), conflict of interest, compassion, objectivity, non-partisanship, perseverance, empathy, emotional intelligence (reading affect and regulating response). If you cannot apply a thinker (Gandhi’s means–ends, Kautilya’s danda–dharma, Kant’s duty, Aristotle’s golden mean), drop the name.",
+            "Case method: facts → stakeholders → options (including do-nothing) → public interest and constitutional values → chosen path and communication. Never write a sermon without an operational step.",
+            "Practise on Bihar files: flood relief targeting, teacher/exam integrity, caste data and fairness, police discretion. The interview will probe the same temperament: calm, specific, lawful, kind."
+          ],
+          "points": [
+            "Own-language definitions of core values.",
+            "Few thinkers, used as tools.",
+            "Weekly news case: stakeholders → options → public interest.",
+            "Bihar administration examples without party colour."
+          ]
+        }
+      ]
+    }
+  ]
+}

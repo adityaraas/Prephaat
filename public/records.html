@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Records · Civil Services Prep</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="wrap">
+      <header>
+        <p class="eyebrow"><a href="/home">PrepHaat</a> · user_details</p>
+        <h1>Add a person</h1>
+        <p class="lede">Saves name, date of birth, and mobile number to Neon.</p>
+      </header>
+
+      <form id="user-form" novalidate>
+        <label>
+          Name
+          <input name="user_name" type="text" autocomplete="name" maxlength="120" required />
+        </label>
+        <label>
+          Date of birth
+          <input name="dob" type="date" required />
+        </label>
+        <label>
+          Mobile number
+          <input
+            name="mobile_no"
+            type="tel"
+            inputmode="numeric"
+            autocomplete="tel"
+            pattern="\d{10}"
+            maxlength="10"
+            placeholder="10 digits"
+            required
+          />
+        </label>
+        <button type="submit">Save to database</button>
+        <p id="status" class="status" role="status"></p>
+      </form>
+
+      <section>
+        <div class="section-head">
+          <h2>Saved rows</h2>
+          <button type="button" id="refresh" class="ghost">Refresh</button>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>DOB</th>
+                <th>Mobile</th>
+              </tr>
+            </thead>
+            <tbody id="rows"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+    <script src="/app.js"></script>
+  </body>
+</html>
