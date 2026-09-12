@@ -10,6 +10,7 @@ const LABELS: Record<string, string> = {
   science: "Science",
   environment: "Environment",
   ethics: "Ethics",
+  survey: "Economic Survey",
 };
 
 export { isQuizSubject, type QuizSubject } from "./quiz-bank.ts";
@@ -20,12 +21,13 @@ export function subjectLabel(subject: string) {
 
 export function startQuiz(subject: string) {
   if (!isQuizSubject(subject)) throw new Error("Unknown subject");
-  const questions = pickQuiz(subject);
+  const count = subject === "survey" ? 20 : 10;
+  const questions = pickQuiz(subject, count);
   if (!questions.length) throw new Error("No quiz for this subject yet");
   return {
     subject,
     title: subjectLabel(subject),
-    durationSeconds: 600,
+    durationSeconds: subject === "survey" ? 720 : 600,
     questions: questions.map(publicQuestion),
   };
 }

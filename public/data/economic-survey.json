@@ -1,0 +1,220 @@
+{
+  "title": "Economic Survey 2025-26",
+  "source": "Ministry of Finance, Government of India (January 2026)",
+  "official": "https://www.indiabudget.gov.in/economicsurvey/",
+  "note": "Exam notes from the official Survey and Highlights PDF. Quote FAE numbers in Prelims; write trade-offs in Mains. Full PDFs download from S3 (signed link).",
+  "hero": {
+    "banner": "/survey/banner.jpg",
+    "cover": "/survey/cover.png"
+  },
+  "slides": [
+    { "src": "/survey/slides/slide-01.jpg", "caption": "Highlights cover — Economic Survey 2025-26 (MoF)" },
+    { "src": "/survey/slides/slide-02.jpg", "caption": "State of the economy — growth frontier" },
+    { "src": "/survey/slides/slide-03.jpg", "caption": "Fiscal developments — consolidation" },
+    { "src": "/survey/slides/slide-04.jpg", "caption": "Monetary management and financial intermediation" },
+    { "src": "/survey/slides/slide-05.jpg", "caption": "External sector" },
+    { "src": "/survey/slides/slide-06.jpg", "caption": "Inflation — tamed and anchored" },
+    { "src": "/survey/slides/slide-07.jpg", "caption": "Agriculture and food management" },
+    { "src": "/survey/slides/slide-08.jpg", "caption": "Services — new frontiers" }
+  ],
+  "headlineNumbers": [
+    { "label": "Real GDP (FAE FY26)", "value": "7.4%", "hint": "Fastest-growing major economy, 4th year" },
+    { "label": "Real GVA (FAE FY26)", "value": "7.3%", "hint": "Supply-side twin of GDP" },
+    { "label": "Potential growth (Survey)", "value": "7.0%", "hint": "Revised up from 6.5% three years ago" },
+    { "label": "Union fiscal deficit FY25", "value": "4.8%", "hint": "Vs budgeted 4.9%; FY26 target 4.4%" }
+  ],
+  "howToUse": [
+    "Prelims: memorise FAE 7.4% GDP, deficit path 9.2% (FY21) → 4.8% → 4.4% target, and ‘inflation tamed’ as the Survey’s own headline.",
+    "Mains GS-III: one paragraph on domestic demand + services, one on global tariff/geopolitics, one way-forward (reforms already named: GST overhaul, labour codes, nuclear/insurance FDI).",
+    "BPSC: add Bihar as an adaptation/agriculture/migration example; do not invent a Survey table for the state.",
+    "Never copy charts into the answer booklet — write the story the chart is telling."
+  ],
+  "chapters": [
+    {
+      "id": "ch1",
+      "no": 1,
+      "title": "State of the economy: pushing the growth frontier",
+      "points": [
+        "FY26 First Advance Estimates: real GDP 7.4%, GVA 7.3%; growth is demand-led at home, services-led on the supply side.",
+        "Private consumption and capital formation are the two domestic engines; manufacturing has gained traction; agriculture is the stabilizer.",
+        "Survey revises India’s medium-term potential growth to 7.0% (from 6.5% three years ago).",
+        "Global backdrop: tariffs, fragmented supply chains, policy used as a strategic tool — India still prints strong macros.",
+        "Rupee ‘punches below its weight’: goods deficit + thinner capital flows even while inflation, banks and fiscal path look healthy."
+      ],
+      "exam": "GS-III growth vs external shock. Pair with IMF WEO revisions, not newspaper panic."
+    },
+    {
+      "id": "ch2",
+      "no": 2,
+      "title": "Fiscal developments: credible consolidation",
+      "points": [
+        "FY25 deficit 4.8% of GDP (budget 4.9%); FY26 target 4.4% — the 2021 promise to more than halve the FY21 9.2% deficit.",
+        "Three rating upgrades in 2025 (including S&P BBB- → BBB, first major-agency upgrade in nearly two decades).",
+        "GST collections tracking nominal GDP; quality of spending still the Mains question, not only the deficit ratio.",
+        "States’ finances and general-government debt sit in the same chapter — don’t write only the Union number."
+      ],
+      "exam": "Prelims: 4.8 / 4.4 / 9.2 path. Mains: consolidation without cutting capex."
+    },
+    {
+      "id": "ch3",
+      "no": 3,
+      "title": "Monetary management and financial intermediation",
+      "points": [
+        "RBI cut rates and eased liquidity as inflation and growth conditions allowed; 2023 macro-prudential tightness was later relaxed.",
+        "Banks’ books are described as healthy; credit growth ‘respectable’; corporate balance sheets strong.",
+        "Theme of the chapter: refine the regulatory touch — not deregulate blindly, not over-regulate MSME credit.",
+        "Global financial fragility (levered AI/data-centre SPVs, JGB yields) is the external risk to Indian markets."
+      ],
+      "exam": "Repo vs Budget. Never assign GST cuts to the MPC."
+    },
+    {
+      "id": "ch4",
+      "no": 4,
+      "title": "External sector: playing the long game",
+      "points": [
+        "Merchandise deficit vs services surplus + remittances is the BoP arithmetic; CAD stays manageable in the Survey’s telling.",
+        "US reciprocal + penal tariffs in 2025 were a shock; growth still accelerated — use this as a GS-II/III case of shock absorption.",
+        "Forex reserves remain the buffer; rupee underperformance is a capital-flow story as much as a trade story.",
+        "Long game: diversification of markets, services exports, and less dependence on a single destination."
+      ],
+      "exam": "CAD, services exports, remittances, tariff shock. Bihar remittances as a household BoP."
+    },
+    {
+      "id": "ch5",
+      "no": 5,
+      "title": "Inflation: tamed and anchored",
+      "points": [
+        "Survey headline: inflation is contained; food still drives the monthly noise (vegetables, TOP — tomato, onion, potato).",
+        "Core vs food is the MPC split: repo is blunt against a vegetable shock; buffers and logistics are the supply answer.",
+        "Regional/state inflation differences matter for BPSC/state answers — don’t quote only all-India CPI.",
+        "GDP deflator / manufacturing terms of trade is the advanced Prelims trap in this chapter."
+      ],
+      "exam": "CPI vs WPI vs deflator. Who is hurt: wage lag, real rates, subsidy bill."
+    },
+    {
+      "id": "ch6",
+      "no": 6,
+      "title": "Agriculture and food management",
+      "points": [
+        "Productivity + income + food security is the triad — not MSP alone.",
+        "Allied sectors and institutional interventions (not only the monsoon paragraph).",
+        "MSP, procurement of wheat/paddy, and food subsidy charts are in the Highlights PDF — know the direction, not 12 decimals.",
+        "Climate and water are the binding constraints; millets and diversification are the Survey-consistent way forward."
+      ],
+      "exam": "GS-III agri. Bihar: floods, small holdings, horticulture."
+    },
+    {
+      "id": "ch7",
+      "no": 7,
+      "title": "Services: from stability to new frontiers",
+      "points": [
+        "Services remain the largest GDP engine and the external-sector shock absorber (IT, travel, other business services).",
+        "New frontiers: digital, logistics, tourism, professional services — not only software exports.",
+        "Jobs test: services can grow without enough good jobs if informality stays high."
+      ],
+      "exam": "Sectoral share + employment elasticity."
+    },
+    {
+      "id": "ch8",
+      "no": 8,
+      "title": "Industry’s next leap",
+      "points": [
+        "Global manufacturing is shifting to high-tech value chains; India wants structural transformation, not only PLI slogans.",
+        "Core inputs (steel, chemicals, energy) plus MSME credit, competitiveness, and market access.",
+        "Labour codes notified — rules still the implementation paragraph.",
+        "QCOs paused where they hurt downstream industry: a deregulation example the Survey wants you to notice."
+      ],
+      "exam": "PLI + MSME + logistics. Bihar’s thin factory base as contrast."
+    },
+    {
+      "id": "ch9",
+      "no": 9,
+      "title": "Investment and infrastructure",
+      "points": [
+        "Capex, private participation, and multimodal connectivity (including inland waterways freight growth cited in the preface logic).",
+        "Energy + digital public infrastructure as ‘future-ready’ capex, not only roads.",
+        "Social infrastructure (health, education buildings) belongs here as well as in the human-development chapter."
+      ],
+      "exam": "Gati Shakti flavour without dumping scheme logos."
+    },
+    {
+      "id": "ch10",
+      "no": 10,
+      "title": "Environment and climate",
+      "points": [
+        "Adaptation and mitigation in one chapter: resilience + low-carbon competitiveness.",
+        "Climate finance and a lighter, growth-aware environmental regulation (green-cover norms differentiated by pollution potential).",
+        "Development-driven green transition — energy security is not optional in the Survey’s frame."
+      ],
+      "exam": "NDC + just transition. Bihar = adaptation geography."
+    },
+    {
+      "id": "ch11",
+      "no": 11,
+      "title": "Education and health",
+      "points": [
+        "Quality and access, not enrolment slogans. Learning outcomes are the Prelims/Mains hinge.",
+        "Public and preventive health over hospital-only thinking.",
+        "Human capital is why 7% potential growth can last — or not."
+      ],
+      "exam": "ASER/NFHS style outcomes if you quote; else stay qualitative."
+    },
+    {
+      "id": "ch12",
+      "no": 12,
+      "title": "Employment and skilling",
+      "points": [
+        "Getting skilling right is the chapter title — supply of certificates ≠ demand for tasks.",
+        "H1 FY26 labour-market charts: industry distribution and status (self-employed / casual / regular).",
+        "Youth skilling + job creation together; one without the other is a Mains fail."
+      ],
+      "exam": "PLFS concepts. Migration from Bihar as the employment spillover."
+    },
+    {
+      "id": "ch13",
+      "no": 13,
+      "title": "Rural development and social progress",
+      "points": [
+        "Poverty and inequality: ‘lifting millions’ plus the remaining last-mile.",
+        "From participation to partnership — SHGs, rural economy, social justice as inclusion enabler.",
+        "DBT and rural jobs schemes as governance, not as a slogan list."
+      ],
+      "exam": "Inclusive growth paragraph for GS-III."
+    },
+    {
+      "id": "ch14",
+      "no": 14,
+      "title": "AI ecosystem: the way forward",
+      "points": [
+        "Development-oriented AI: public data, skills, safety — not only model-size nationalism.",
+        "Human capital and governance/data architecture are binding constraints.",
+        "Global AI capex leverage is a financial-stability footnote the preface already flagged."
+      ],
+      "exam": "S&T + economy. Application, regulation, equity."
+    },
+    {
+      "id": "ch15",
+      "no": 15,
+      "title": "Urbanisation",
+      "points": [
+        "Cities lack economic agency (governance deficit).",
+        "Binding constraints: land, housing, mobility, sanitation/waste.",
+        "Informality is an urban outcome to integrate, not a stain to erase on paper.",
+        "Civic order needs a social contract — ethics overlap for GS-IV case studies."
+      ],
+      "exam": "74th CAA + services. Patna/urban Bihar as example."
+    },
+    {
+      "id": "ch16",
+      "no": 16,
+      "title": "Strategic resilience and indispensability",
+      "points": [
+        "From import substitution nostalgia to strategic resilience: tiered indigenisation, input-cost reduction, advanced manufacturing as discipline.",
+        "State capacity is the binding constraint: culture, skills, execution, a capable regulatory state.",
+        "Compact of State + private sector + citizens. Swadeshi is framed as necessity in a harsher world, not as autarky.",
+        "Lowy ‘power gap’ mention in the preface: India operating below strategic potential — useful for GS-II IR."
+      ],
+      "exam": "Essay/GS-III strategy. Avoid partisan tone."
+    }
+  ]
+}

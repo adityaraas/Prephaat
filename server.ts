@@ -25,6 +25,7 @@ import {
   upsertGoogleAccount,
   validGoogleState,
 } from "./google.ts";
+import { SURVEY_KEYS, signedGetUrl } from "./storage.ts";
 
 const PORT = Number(process.env.PORT) || 3000;
 const publicDir = join(import.meta.dirname, "public");
@@ -43,6 +44,10 @@ const mime: Record<string, string> = {
   ".json": "application/json; charset=utf-8",
   ".svg": "image/svg+xml",
   ".ico": "image/x-icon",
+  ".jpg": "image/jpeg",
+  ".jpeg": "image/jpeg",
+  ".png": "image/png",
+  ".pdf": "application/pdf",
 };
 
 const pages: Record<string, string> = {
@@ -437,6 +442,31 @@ const server = createServer(async (req, res) => {
         send(res, 201, { user: formatUser(row) });
       } catch (err) {
         send(res, 400, { error: err instanceof Error ? err.message : "Invalid input" });
+      }
+      return;
+    }
+
+    if (req.method === "GET" && url.pathname === "/api/survey/files") {
+      if (!(await requireAccount(req, res))) return;
+      try {
+        const [fullPdf, highlightsPdf] = await Promise.all([
+          signedGetUrl(SURVEY_KEYS.fullPdf),
+          signedGetUrl(SURVEY_KEYS.highlightsPdf),
+        ]);
+        send(res, 200, {
+          source: "Ministry of Finance, Economic Survey 2025-26",
+          official: "https://www.indiabudget.gov.in/economicsurvey/",
+          files: [
+            { id: "full", label: "Full Economic Survey PDF (S3)", url: fullPdf },
+            { id: "highlights", label: "Highlights / infographics PDF (S3)", url: highlightsPdf },
+          ],
+        });
+      } catch (err) {
+        console.error(err);
+        send(res, 503, {
+          error: "Survey PDF is not on storage yet",
+          official: "https://www.indiabudget.gov.in/economicsurvey/doc/echapter.pdf",
+        });
       }
       return;
     }

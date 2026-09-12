@@ -16,6 +16,14 @@
           <span>UPSC · BPSC in quick bites</span>
         </div>
       </a>
+      <div class="site-search" id="site-search">
+        <label class="sr-only" for="site-search-input">Search study material</label>
+        <input id="site-search-input" type="search" placeholder="Search notes, PYQ, Survey, news…" autocomplete="off" />
+        <div class="search-panel" id="search-panel" hidden>
+          <p class="search-status" id="search-status"></p>
+          <div id="search-results"></div>
+        </div>
+      </div>
       <div class="mast-right">
         <p id="who" class="who"></p>
         <a id="faculty-link" href="/faculty">Faculty desk</a>
@@ -59,6 +67,9 @@
           <div class="filters" id="pyq-paper"></div>
           <p id="pyq-meta" class="meta"></p>
           <div id="pyq-board"></div>
+        </section>
+        <section id="survey" class="panel" hidden>
+          <div id="survey-board"></div>
         </section>
         <section id="subject" class="panel" hidden></section>
       </main>

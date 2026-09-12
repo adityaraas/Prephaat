@@ -1,0 +1,247 @@
+{
+  "title": "Economic Survey 2025-26 - UPSC Practice MCQs",
+  "source": "Economic Survey 2025-26 Highlights, Department of Economic Affairs, GoI",
+  "total_questions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "question": "As per the Economic Survey 2025-26, India's real GDP growth for FY27 is projected in which range?",
+      "options": {
+        "A": "5.5–6.0%",
+        "B": "6.0–6.5%",
+        "C": "6.8–7.2%",
+        "D": "7.5–8.0%"
+      },
+      "answer": "C",
+      "explanation": "The Survey projects FY27 real GDP growth at 6.8–7.2%, continuing India's strong growth momentum."
+    },
+    {
+      "id": 2,
+      "question": "Which THREE factors does the Survey identify as pushing India's potential GDP growth to ~7% ('Reform Express')?",
+      "options": {
+        "A": "Capital Accumulation, Labour Input, Total Factor Productivity",
+        "B": "Exports, Imports, Remittances",
+        "C": "Fiscal Deficit, Current Account Deficit, Inflation",
+        "D": "Agriculture, Industry, Services"
+      },
+      "answer": "A",
+      "explanation": "The Survey's growth framework rests on capital accumulation, labour input (formalisation/skilling) and total factor productivity."
+    },
+    {
+      "id": 3,
+      "question": "The Union Government's fiscal deficit target for FY26 (Budget Estimate) is:",
+      "options": {
+        "A": "3.4% of GDP",
+        "B": "4.4% of GDP",
+        "C": "5.5% of GDP",
+        "D": "6.5% of GDP"
+      },
+      "answer": "B",
+      "explanation": "FY26 BE fiscal deficit is pegged at 4.4% of GDP, continuing the consolidation path from 9.2% in FY21."
+    },
+    {
+      "id": 4,
+      "question": "Which of the following agencies upgraded India's sovereign credit rating in 2025, as noted in the Survey?",
+      "options": {
+        "A": "Moody's, Fitch, CRISIL",
+        "B": "Morningstar DBRS, S&P Global Ratings, R&I (Japan)",
+        "C": "ICRA, CARE, IMF",
+        "D": "World Bank, ADB, AIIB"
+      },
+      "answer": "B",
+      "explanation": "The Survey attributes 2025 sovereign rating upgrades to Morningstar DBRS, S&P Global Ratings, and R&I of Japan."
+    },
+    {
+      "id": 5,
+      "question": "Under GST 2.0 reforms, the new two-rate structure comprises which rates (besides the de-merit/sin-good rate)?",
+      "options": {
+        "A": "5% and 12%",
+        "B": "12% and 18%",
+        "C": "5% and 18%",
+        "D": "18% and 28%"
+      },
+      "answer": "C",
+      "explanation": "GST 2.0 introduced a simplified two-rate structure of 5% (merit) and 18% (standard), with a 40% rate for de-merit/sin goods."
+    },
+    {
+      "id": 6,
+      "question": "India's Current Account Deficit (CAD) in H1 FY26 stood at approximately:",
+      "options": {
+        "A": "0.8% of GDP",
+        "B": "1.3% of GDP",
+        "C": "2.1% of GDP",
+        "D": "3.0% of GDP"
+      },
+      "answer": "A",
+      "explanation": "CAD moderated to 0.8% of GDP in H1 FY26 from 1.3% in H1 FY25, reflecting a comfortable external position."
+    },
+    {
+      "id": 7,
+      "question": "As per UNCTAD data cited in the Survey, India was the world's largest destination for greenfield digital investment (2020-2024), attracting approximately:",
+      "options": {
+        "A": "USD 23 billion",
+        "B": "USD 55 billion",
+        "C": "USD 89 billion",
+        "D": "USD 114 billion"
+      },
+      "answer": "D",
+      "explanation": "India attracted USD 114 billion in greenfield digital investment (2020-2024), the highest globally, ahead of Malaysia and Indonesia."
+    },
+    {
+      "id": 8,
+      "question": "Which of the following Free Trade Agreements has India concluded (signed) in the last five years?",
+      "options": {
+        "A": "India-USA Bilateral Trade Agreement",
+        "B": "India-UK CETA",
+        "C": "India-Korea CEPA (upgraded)",
+        "D": "India-Eurasian Economic Union FTA"
+      },
+      "answer": "B",
+      "explanation": "The India-UK CETA (2025) is among the 8 FTAs/CEPAs concluded in the past 5 years. The others listed are still under negotiation."
+    },
+    {
+      "id": 9,
+      "question": "According to the Survey, India's average headline CPI inflation for April-December 2025 was the lowest since the CPI series began, at approximately:",
+      "options": {
+        "A": "1.7%",
+        "B": "2.9%",
+        "C": "3.5%",
+        "D": "4.6%"
+      },
+      "answer": "A",
+      "explanation": "April-Dec 2025 average headline inflation was 1.7%, the lowest since the CPI series began, driven by subdued food inflation."
+    },
+    {
+      "id": 10,
+      "question": "Among Agriculture sub-sectors, which recorded the HIGHEST average GVA growth during FY20-FY24?",
+      "options": {
+        "A": "Crop",
+        "B": "Livestock",
+        "C": "Fishing and Aquaculture",
+        "D": "Agriculture sector (overall)"
+      },
+      "answer": "C",
+      "explanation": "Fishing and Aquaculture grew fastest at 7.2% (FY20-FY24 average), ahead of Livestock (6.1%) and Crop (4.0%)."
+    },
+    {
+      "id": 11,
+      "question": "India's Services GVA growth in 2024, as highlighted in the Survey's cross-country comparison, was:",
+      "options": {
+        "A": "2.8% (same as world average)",
+        "B": "5.0% (same as China)",
+        "C": "7.2%, outperforming major global economies",
+        "D": "1.3%, similar to the US"
+      },
+      "answer": "C",
+      "explanation": "India's Services GVA grew 7.2% in 2024, well above the World (2.8%), US (1.3%), EU (2.2%) and UK (2.1%)."
+    },
+    {
+      "id": 12,
+      "question": "Medium- and high-technology activities account for what share of India's total manufacturing value added?",
+      "options": {
+        "A": "26.3%",
+        "B": "36.3%",
+        "C": "46.3%",
+        "D": "56.3%"
+      },
+      "answer": "C",
+      "explanation": "The Survey notes medium- and high-tech activities now account for 46.3% of India's total manufacturing value added."
+    },
+    {
+      "id": 13,
+      "question": "India's rank in the Global Innovation Index improved from 81 (2015) to which position in 2025?",
+      "options": {
+        "A": "58",
+        "B": "48",
+        "C": "40",
+        "D": "38"
+      },
+      "answer": "D",
+      "explanation": "India's Global Innovation Index rank improved steadily from 81 (2015) to 38 (2025), per WIPO data cited in the Survey."
+    },
+    {
+      "id": 14,
+      "question": "The National Nuclear Energy Mission (2025-26) targets what nuclear capacity by 2047?",
+      "options": {
+        "A": "22,480 MW",
+        "B": "50 GW",
+        "C": "100 GW",
+        "D": "150 GW"
+      },
+      "answer": "C",
+      "explanation": "The Mission targets 100 GW of nuclear capacity by 2047, up from the current 8,780 MW, with Rs. 20,000 crore allocated in Budget 2025-26."
+    },
+    {
+      "id": 15,
+      "question": "The SHANTI Act, enacted in December 2025, primarily relates to:",
+      "options": {
+        "A": "Enabling private and state participation in nuclear power with a graded liability framework",
+        "B": "Reforming labour laws for gig workers",
+        "C": "Consolidating securities market regulations",
+        "D": "Establishing a national floor wage"
+      },
+      "answer": "A",
+      "explanation": "The SHANTI Act enables private and state participation in nuclear energy, introduces a graded liability framework and protects victim compensation."
+    },
+    {
+      "id": 16,
+      "question": "As per NEP 2020 targets cited in the Survey, India aims to achieve 100% Gross Enrolment Ratio (GER) in school education by:",
+      "options": {
+        "A": "2025",
+        "B": "2030",
+        "C": "2035",
+        "D": "2047"
+      },
+      "answer": "B",
+      "explanation": "The Survey notes NEP's target of achieving 100% GER in school education by 2030, and 50% GER in higher education by 2035."
+    },
+    {
+      "id": 17,
+      "question": "The four Labour Codes (consolidating 29 labour laws) were enacted on:",
+      "options": {
+        "A": "15 August 2025",
+        "B": "26 January 2025",
+        "C": "21 November 2025",
+        "D": "1 April 2026"
+      },
+      "answer": "C",
+      "explanation": "The four Labour Codes — Wages, Industrial Relations, Social Security, and Occupational Safety, Health & Working Conditions — were enacted on 21 November 2025."
+    },
+    {
+      "id": 18,
+      "question": "Female Labour Force Participation Rate (LFPR) in India rose from 23.3% (2017-18) to what level in 2023-24 (Annual PLFS)?",
+      "options": {
+        "A": "30.5%",
+        "B": "35.9%",
+        "C": "41.7%",
+        "D": "48.2%"
+      },
+      "answer": "C",
+      "explanation": "Female LFPR rose sharply from 23.3% (2017-18) to 41.7% (2023-24), while female unemployment fell from 5.6% to 3.2%."
+    },
+    {
+      "id": 19,
+      "question": "As per the revised World Bank international poverty line (USD 3.0/day), India's extreme poverty rate in 2022-23 was:",
+      "options": {
+        "A": "5.3%",
+        "B": "10.2%",
+        "C": "15.8%",
+        "D": "21.9%"
+      },
+      "answer": "A",
+      "explanation": "India's extreme poverty rate fell to 5.3% in 2022-23 as per the revised international poverty line of USD 3.0/day."
+    },
+    {
+      "id": 20,
+      "question": "Which city is cited in the Survey as a model for India's cleanest-city waste management practices?",
+      "options": {
+        "A": "Surat",
+        "B": "Indore",
+        "C": "Mysuru",
+        "D": "Bhopal"
+      },
+      "answer": "B",
+      "explanation": "Indore is highlighted as India's cleanest city, attributed to strict penalties, leadership buy-in, and sustained civic-sense campaigns."
+    }
+  ]
+}

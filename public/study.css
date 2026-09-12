@@ -70,6 +70,113 @@ body {
   font-size: 0.88rem;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.site-search {
+  position: relative;
+  flex: 1;
+  min-width: 160px;
+  max-width: 440px;
+}
+
+.site-search input[type="search"] {
+  width: 100%;
+  border: 0;
+  border-radius: 12px;
+  padding: 0.55rem 0.9rem;
+  font: inherit;
+  background: #fff;
+  color: var(--ink);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.site-search input[type="search"]:focus {
+  outline: 2px solid var(--green);
+  outline-offset: 1px;
+}
+
+.search-panel {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  right: 0;
+  max-height: min(70vh, 440px);
+  overflow: auto;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 14px 42px rgba(0, 0, 0, 0.16);
+  z-index: 40;
+}
+
+.search-status {
+  margin: 0;
+  padding: 0.7rem 0.9rem 0.2rem;
+  font-size: 0.78rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.search-hit {
+  display: block;
+  width: 100%;
+  text-align: left;
+  border: 0;
+  background: #fff;
+  padding: 0.7rem 0.9rem;
+  cursor: pointer;
+  border-top: 1px solid var(--line);
+  font: inherit;
+}
+
+.search-hit:hover,
+.search-hit.active {
+  background: #fff8df;
+}
+
+.search-hit strong {
+  display: block;
+  font-size: 0.92rem;
+}
+
+.search-hit small {
+  display: block;
+  margin-top: 0.12rem;
+  color: var(--green);
+  font-weight: 700;
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.search-hit p {
+  margin: 0.25rem 0 0;
+  font-size: 0.8rem;
+  color: #555;
+  line-height: 1.35;
+}
+
+.search-flash {
+  outline: 3px solid var(--yellow);
+  outline-offset: 4px;
+  border-radius: 10px;
+  animation: search-pulse 1.4s ease;
+}
+
+@keyframes search-pulse {
+  0% { background: #fff3c4; }
+  100% { background: transparent; }
+}
+
 .who { margin: 0; font-weight: 700; }
 
 a { color: var(--green); text-decoration: none; font-weight: 700; }
@@ -360,6 +467,84 @@ a { color: var(--green); text-decoration: none; font-weight: 700; }
 .pyq-sol p { margin: 0.35rem 0 0; line-height: 1.5; }
 .pyq-q .ghost { margin-top: 0.55rem; }
 
+.survey-banner {
+  width: 100%;
+  border-radius: 14px;
+  margin-bottom: 0.9rem;
+  display: block;
+}
+
+.survey-hero {
+  display: grid;
+  grid-template-columns: 1fr 7.5rem;
+  gap: 0.9rem;
+  align-items: start;
+  margin-bottom: 1rem;
+}
+
+.survey-hero h2 { margin: 0 0 0.35rem; }
+
+.survey-cover {
+  width: 7.5rem;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.survey-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+a.survey-dl { text-decoration: none; display: inline-block; padding: 0.5rem 0.85rem; border-radius: 10px; }
+
+.survey-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.65rem;
+  margin: 0.8rem 0 1.2rem;
+}
+
+.survey-stat {
+  background: #fffdf5;
+  border: 1px solid #f3e3a6;
+  border-radius: 14px;
+  padding: 0.7rem 0.8rem;
+}
+
+.survey-stat .stat { font-size: 1.45rem; margin: 0 0 0.2rem; }
+
+.survey-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+  margin: 0.6rem 0 1.2rem;
+}
+
+.survey-slide {
+  margin: 0;
+  background: #fafafa;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.survey-slide img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.survey-slide figcaption {
+  font-size: 0.75rem;
+  color: var(--muted);
+  padding: 0.45rem 0.65rem 0.6rem;
+}
+
+.survey-quiz { margin-top: 1.6rem; padding-top: 0.6rem; border-top: 1px solid var(--line); }
+.survey-quiz .q-opt[disabled] { cursor: default; }
+
 .explain { font-size: 0.88rem; color: #444; }
 
 .tracker-grid {
@@ -516,5 +701,6 @@ a { color: var(--green); text-decoration: none; font-weight: 700; }
 @media (max-width: 720px) {
   .tracker-grid { grid-template-columns: 1fr; }
   .mast { flex-wrap: wrap; }
+  .site-search { max-width: none; order: 3; flex: 1 1 100%; }
   .layout { padding-bottom: 5rem; }
 }

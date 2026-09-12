@@ -20,6 +20,8 @@ const pyqStageEl = document.getElementById("pyq-stage");
 const pyqYearEl = document.getElementById("pyq-year");
 const pyqPaperEl = document.getElementById("pyq-paper");
 const pyqMeta = document.getElementById("pyq-meta");
+const surveyEl = document.getElementById("survey");
+const surveyBoard = document.getElementById("survey-board");
 
 let newsItems = [];
 let activeSource = "all";
@@ -54,6 +56,12 @@ let quizLocked = false;
 let audioCtx = null;
 const QUIZ_SECONDS = 600;
 const OPTION_LETTERS = ["A", "B", "C", "D"];
+const NCERT_IDS = ["history", "geography", "economy", "polity", "science", "environment"];
+const SEARCH_LIMIT = 18;
+
+let searchIndex = [];
+let searchHits = [];
+let searchActive = -1;
 
 const quizSubjects = [
   { id: "current", title: "Current affairs" },
@@ -64,6 +72,7 @@ const quizSubjects = [
   { id: "science", title: "Science" },
   { id: "environment", title: "Environment" },
   { id: "ethics", title: "Ethics" },
+  { id: "survey", title: "Economic Survey" },
 ];
 
 function playTone(freq, duration, type = "square") {
@@ -100,10 +109,11 @@ function renderTimer() {
     quizTimerEl.innerHTML = "";
     return;
   }
+  const seconds = Number(activeQuiz?.durationSeconds) || QUIZ_SECONDS;
   const left = Math.max(0, Math.ceil((quizEndsAt - Date.now()) / 1000));
   const mm = String(Math.floor(left / 60)).padStart(2, "0");
   const ss = String(left % 60).padStart(2, "0");
-  const pct = Math.max(0, (left / QUIZ_SECONDS) * 100);
+  const pct = Math.max(0, (left / seconds) * 100);
   quizTimerEl.innerHTML = `
     <div class="timer-wrap ${left <= 60 ? "low" : ""}">
       <div class="timer">${mm}:${ss}</div>
@@ -116,7 +126,7 @@ function renderTimer() {
 function startQuizTimer() {
   stopQuizTimer();
   quizLocked = false;
-  quizEndsAt = Date.now() + QUIZ_SECONDS * 1000;
+  quizEndsAt = Date.now() + (Number(activeQuiz?.durationSeconds) || QUIZ_SECONDS) * 1000;
   renderTimer();
   quizTimerId = window.setInterval(() => {
     renderTimer();
@@ -179,6 +189,7 @@ function renderTabs() {
     { id: "current", label: "🗞️ Current affairs" },
     { id: "quiz", label: "⚡ Quiz" },
     { id: "pyq", label: "📘 PYQ" },
+    { id: "survey", label: "📊 Economic Survey" },
     ...studyData.subjects.map((subject) => ({
       id: subject.id,
       label: `${subject.emoji ?? ""} ${subject.title}`.trim(),
@@ -189,26 +200,30 @@ function renderTabs() {
     .join("");
 }
 
-function showTab(id) {
+async function showTab(id) {
   for (const button of tabsEl.querySelectorAll("button")) {
     button.classList.toggle("on", button.dataset.tab === id);
   }
   const isNews = id === "current";
   const isQuiz = id === "quiz";
   const isPyq = id === "pyq";
+  const isSurvey = id === "survey";
   feedEl.hidden = !isNews;
   methodEl.hidden = !isNews;
   quizEl.hidden = !isQuiz;
   pyqEl.hidden = !isPyq;
-  subjectEl.hidden = isNews || isQuiz || isPyq;
+  surveyEl.hidden = !isSurvey;
+  subjectEl.hidden = isNews || isQuiz || isPyq || isSurvey;
   if (isQuiz) {
     renderQuizPick();
     renderTracker();
     loadHistory();
   } else if (isPyq) {
-    renderPyq();
+    await renderPyq();
+  } else if (isSurvey) {
+    await renderSurvey();
   } else if (!isNews) {
-    renderSubject(id);
+    await renderSubject(id);
   }
 }
 
@@ -240,7 +255,7 @@ function renderPyqQuestion(item, paper) {
   const isMains = paper.stage === "mains";
   if (isMains) {
     return `
-      <article class="q pyq-q">
+      <article class="q pyq-q" data-hit="pyq:${escapeHtml(item.id)}">
         <p class="badge">${escapeHtml(paper.paper)} · ${item.marks || ""} marks · Q${item.n}</p>
         <h3>${escapeHtml(item.q)}</h3>
         <button type="button" class="ghost" data-pyq-sol="${escapeHtml(item.id)}">${open ? "Hide solution" : "Show solution"}</button>
@@ -264,7 +279,7 @@ function renderPyqQuestion(item, paper) {
       ? `<div class="explain pyq-sol"><strong>${item.cancelled ? "Deleted" : "Solution"}</strong><p>${escapeHtml(item.solution)}</p></div>`
       : `<button type="button" class="ghost" data-pyq-sol="${escapeHtml(item.id)}">Show solution</button>`;
   return `
-    <article class="q pyq-q">
+    <article class="q pyq-q" data-hit="pyq:${escapeHtml(item.id)}">
       <p class="badge">${escapeHtml(item.topic || "GS")} · Q${item.n}${item.cancelled ? " · deleted" : ""}</p>
       <h3>${escapeHtml(item.q)}</h3>
       ${options}
@@ -339,6 +354,147 @@ async function renderPyq() {
     : `<p class="empty">Pick another year or stage. Full booklets keep being added; 2024 UPSC GS-I and 69th–70th BPSC Prelims are complete papers.</p>`;
 }
 
+let surveyData = null;
+let surveyFiles = null;
+let surveyQuizPack = null;
+let surveyQuizPicks = {};
+let surveyQuizDone = false;
+let surveyQuizMessage = "";
+
+function surveyAnswerIndex(letter) {
+  return { A: 0, B: 1, C: 2, D: 3 }[String(letter).toUpperCase()];
+}
+
+function renderSurveyQuiz() {
+  const host = document.getElementById("survey-quiz");
+  if (!host || !surveyQuizPack) return;
+  const questions = surveyQuizPack.questions ?? [];
+  const cards = questions
+    .map((item, index) => {
+      const qid = `es-${item.id}`;
+      const correct = surveyAnswerIndex(item.answer);
+      const pick = surveyQuizPicks[qid];
+      const keys = ["A", "B", "C", "D"];
+      const options = keys
+        .map((key, optIndex) => {
+          const text = item.options[key];
+          let cls = "q-opt";
+          if (surveyQuizDone) {
+            if (optIndex === correct) cls += " good";
+            else if (pick === optIndex && pick !== correct) cls += " bad";
+          } else if (pick === optIndex) cls += " picked";
+          return `<button type="button" class="${cls}" data-survey-opt="${optIndex}" data-survey-id="${qid}" ${surveyQuizDone ? "disabled" : ""}><span class="opt-key">${key}</span><span class="opt-text">${escapeHtml(text)}</span></button>`;
+        })
+        .join("");
+      const explain = surveyQuizDone
+        ? `<div class="explain pyq-sol"><strong>Answer: ${escapeHtml(item.answer)}</strong><p>${escapeHtml(item.explanation)}</p></div>`
+        : "";
+      return `
+        <article class="q">
+          <p class="badge">Q${index + 1} / ${questions.length}</p>
+          <h3>${escapeHtml(item.question)}</h3>
+          ${options}
+          ${explain}
+        </article>`;
+    })
+    .join("");
+  const answered = Object.keys(surveyQuizPicks).length;
+  const score = surveyQuizDone
+    ? questions.filter((item) => surveyQuizPicks[`es-${item.id}`] === surveyAnswerIndex(item.answer)).length
+    : null;
+  host.innerHTML = `
+    <h3>${escapeHtml(surveyQuizPack.title)}</h3>
+    <p class="meta">${escapeHtml(surveyQuizPack.source)} · ${questions.length} questions</p>
+    ${surveyQuizDone ? `<p class="stat">${score} / ${questions.length}</p>` : `<p class="meta">${answered} answered</p>`}
+    ${surveyQuizMessage ? `<p class="meta">${escapeHtml(surveyQuizMessage)}</p>` : ""}
+    ${cards}
+    <p>
+      ${
+        surveyQuizDone
+          ? `<button type="button" class="ghost" data-survey-reset="1">Try again</button>`
+          : `<button type="button" class="cta" data-survey-submit="1">Submit & save score</button>`
+      }
+    </p>
+  `;
+}
+
+async function renderSurvey() {
+  if (!surveyData) {
+    surveyBoard.innerHTML = `<p class="empty">Loading Economic Survey notes…</p>`;
+    const res = await fetch("/data/economic-survey.json");
+    surveyData = res.ok ? await res.json() : null;
+  }
+  if (!surveyData) {
+    surveyBoard.innerHTML = `<p class="empty">Could not load the Survey notes.</p>`;
+    return;
+  }
+  const filesRes = surveyFiles
+    ? { ok: true, json: async () => surveyFiles }
+    : await fetch("/api/survey/files");
+  const filesPayload = filesRes.ok ? (surveyFiles ?? (await filesRes.json())) : { files: [], official: surveyData.official };
+  surveyFiles = filesPayload;
+  if (!surveyQuizPack) {
+    const quizRes = await fetch("/data/economic-survey-quiz.json");
+    surveyQuizPack = quizRes.ok ? await quizRes.json() : { questions: [] };
+  }
+  const downloads = (filesPayload.files ?? [])
+    .map((file) => `<a class="cta survey-dl" href="${escapeHtml(file.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(file.label)}</a>`)
+    .join("");
+  const official = `<a class="ghost" href="${escapeHtml(filesPayload.official || surveyData.official)}" target="_blank" rel="noopener noreferrer">MoF page</a>`;
+  const nums = (surveyData.headlineNumbers ?? [])
+    .map(
+      (item) => `
+        <div class="survey-stat">
+          <p class="stat">${escapeHtml(item.value)}</p>
+          <p class="meta">${escapeHtml(item.label)}</p>
+          <p class="detail">${escapeHtml(item.hint)}</p>
+        </div>`
+    )
+    .join("");
+  const slides = (surveyData.slides ?? [])
+    .map(
+      (slide) => `
+        <figure class="survey-slide">
+          <img src="${escapeHtml(slide.src)}" alt="${escapeHtml(slide.caption)}" loading="lazy" />
+          <figcaption>${escapeHtml(slide.caption)}</figcaption>
+        </figure>`
+    )
+    .join("");
+  const how = (surveyData.howToUse ?? []).map((line) => `<li>${escapeHtml(line)}</li>`).join("");
+  const chapters = (surveyData.chapters ?? [])
+    .map(
+      (ch) => `
+        <article class="module" data-hit="survey:${escapeHtml(ch.id)}">
+          <h3>Chapter ${ch.no}. ${escapeHtml(ch.title)}</h3>
+          <ul>${(ch.points || []).map((point) => `<li>${escapeHtml(point)}</li>`).join("")}</ul>
+          <p class="exam-hook">${escapeHtml(ch.exam || "")}</p>
+        </article>`
+    )
+    .join("");
+  surveyBoard.innerHTML = `
+    <img class="survey-banner" src="${escapeHtml(surveyData.hero.banner)}" alt="Economic Survey 2025-26" />
+    <div class="survey-hero">
+      <div>
+        <h2>${escapeHtml(surveyData.title)}</h2>
+        <p class="meta">${escapeHtml(surveyData.source)}</p>
+        <p class="detail">${escapeHtml(surveyData.note)}</p>
+        <p class="survey-actions">${downloads} ${official}</p>
+      </div>
+      <img class="survey-cover" src="${escapeHtml(surveyData.hero.cover)}" alt="Survey cover" />
+    </div>
+    <div class="survey-stats">${nums}</div>
+    <h3>Images from the Highlights PDF</h3>
+    <p class="meta">Official Ministry of Finance infographic pages (educational use, attributed).</p>
+    <div class="survey-gallery">${slides}</div>
+    <h3>How to use this in the exam</h3>
+    <ol class="method">${how}</ol>
+    <h3>Chapter points</h3>
+    ${chapters}
+    <div id="survey-quiz" class="survey-quiz"></div>
+  `;
+  renderSurveyQuiz();
+}
+
 async function loadNcert(id) {
   const files = ["history", "geography", "economy", "polity", "science", "environment"];
   if (!files.includes(id)) return null;
@@ -365,7 +521,7 @@ function renderNcert(id, pack) {
       const cards = book.chapters
         .map(
           (ch) => `
-            <article class="ncert-card">
+            <article class="ncert-card" data-hit="ncert:${escapeHtml(ch.title)}">
               <h4>${escapeHtml(ch.title)}</h4>
               <p class="detail">${escapeHtml(ch.summary)}</p>
               <ul>${ch.points.map((point) => `<li>${escapeHtml(point)}</li>`).join("")}</ul>
@@ -395,7 +551,7 @@ function extraModulesHtml(id, heading = "More material") {
   return `<h2>${escapeHtml(heading)}</h2>${extras
     .map(
       (mod) => `
-        <div class="module">
+        <div class="module" data-hit="extra:${escapeHtml(mod.title)}">
           <h3>${escapeHtml(mod.title)}</h3>
           ${(mod.explain || []).map((para) => `<p class="detail">${escapeHtml(para)}</p>`).join("")}
           <ul>${(mod.points || []).map((point) => `<li>${escapeHtml(point)}</li>`).join("")}</ul>
@@ -432,7 +588,7 @@ function renderArticles() {
       const date = item.published ? new Date(item.published).toLocaleString("en-IN", { dateStyle: "medium" }) : "";
       const tags = (item.tags || []).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("");
       return `
-        <article class="article">
+        <article class="article" data-hit="news:${escapeHtml(item.title)}">
           <span class="badge">${escapeHtml(item.source)} · ${escapeHtml(item.section)}</span>
           <span class="meta">${escapeHtml(date)}</span>
           <h3><a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a></h3>
@@ -453,7 +609,7 @@ async function renderSubject(id) {
     .map((mod) => {
       const explain = (mod.explain || []).map((para) => `<p class="detail">${escapeHtml(para)}</p>`).join("");
       return `
-        <div class="module">
+        <div class="module" data-hit="mod:${escapeHtml(mod.title)}">
           <h3>${escapeHtml(mod.title)}</h3>
           ${explain}
           <ul>${mod.points.map((point) => `<li>${escapeHtml(point)}</li>`).join("")}</ul>
@@ -636,13 +792,385 @@ function renderSyllabus() {
         ${stage.papers
           .map(
             (paper) => `
-              <h4>${escapeHtml(paper.title)}</h4>
+              <h4 data-hit="syl:${escapeHtml(paper.title)}">${escapeHtml(paper.title)}</h4>
               <ul>${paper.points.map((point) => `<li>${escapeHtml(point)}</li>`).join("")}</ul>
             `
           )
           .join("")}`
     )
     .join("")}`;
+}
+
+function clipText(value, max = 140) {
+  const text = String(value || "").replace(/\s+/g, " ").trim();
+  if (text.length <= max) return text;
+  return `${text.slice(0, max - 1)}…`;
+}
+
+function pushSearchDoc(doc) {
+  searchIndex.push({
+    ...doc,
+    hay: [doc.title, doc.snippet, doc.body].filter(Boolean).join(" ").toLowerCase(),
+  });
+}
+
+function rebuildSearchIndex() {
+  searchIndex = [];
+  pushSearchDoc({
+    kind: "Page",
+    title: "Current affairs",
+    snippet: "Live newspaper feed and CA notebooks",
+    tab: "current",
+  });
+  pushSearchDoc({
+    kind: "Page",
+    title: "Daily quiz",
+    snippet: "Timed MCQs and score tracker",
+    tab: "quiz",
+  });
+  pushSearchDoc({
+    kind: "Page",
+    title: "Previous year questions",
+    snippet: "UPSC and BPSC prelims and mains with solutions",
+    tab: "pyq",
+  });
+  pushSearchDoc({
+    kind: "Page",
+    title: "Economic Survey 2025-26",
+    snippet: "Official chapter notes, numbers, and practice MCQs",
+    tab: "survey",
+  });
+  for (const subject of quizSubjects) {
+    pushSearchDoc({
+      kind: "Quiz",
+      title: `${subject.title} quiz`,
+      snippet: "Start a timed practice set",
+      tab: "quiz",
+      quizSubject: subject.id,
+    });
+  }
+  if (studyData?.howToReadPaper) {
+    pushSearchDoc({
+      kind: "Method",
+      title: studyData.howToReadPaper.title,
+      snippet: (studyData.howToReadPaper.steps || []).slice(0, 2).join(" "),
+      body: (studyData.howToReadPaper.steps || []).join(" "),
+      tab: "current",
+    });
+  }
+  for (const subject of studyData?.subjects ?? []) {
+    pushSearchDoc({
+      kind: "Subject",
+      title: subject.title,
+      snippet: subject.overview || subject.papers,
+      body: [subject.papers, ...(subject.sources || [])].join(" "),
+      tab: subject.id,
+    });
+    for (const mod of subject.modules || []) {
+      const body = [...(mod.explain || []), ...(mod.points || [])].join(" ");
+      pushSearchDoc({
+        kind: "Exam lens",
+        title: mod.title,
+        snippet: clipText(body),
+        body,
+        tab: subject.id,
+        hit: `mod:${mod.title}`,
+      });
+    }
+  }
+  for (const [id, extras] of Object.entries(extraNotes || {})) {
+    if (!Array.isArray(extras)) continue;
+    const tab = id === "current" ? "current" : id;
+    for (const mod of extras) {
+      const body = [...(mod.explain || []), ...(mod.points || [])].join(" ");
+      pushSearchDoc({
+        kind: "Notes",
+        title: mod.title,
+        snippet: clipText(body),
+        body,
+        tab,
+        hit: `extra:${mod.title}`,
+      });
+    }
+  }
+  for (const id of NCERT_IDS) {
+    const pack = ncertCache[id];
+    for (const book of pack?.books || []) {
+      for (const ch of book.chapters || []) {
+        const body = [ch.summary, ...(ch.points || []), ch.exam].join(" ");
+        pushSearchDoc({
+          kind: "NCERT",
+          title: ch.title,
+          snippet: `Class ${book.class} · ${book.book}`,
+          body,
+          tab: id,
+          hit: `ncert:${ch.title}`,
+          ncertClass: String(book.class),
+        });
+      }
+    }
+  }
+  for (const item of newsItems) {
+    const body = [item.summary, item.source, item.section, ...(item.tags || [])].join(" ");
+    pushSearchDoc({
+      kind: "News",
+      title: item.title,
+      snippet: clipText(item.summary || item.source),
+      body,
+      tab: "current",
+      hit: `news:${item.title}`,
+    });
+  }
+  if (surveyData) {
+    for (const ch of surveyData.chapters || []) {
+      const body = [...(ch.points || []), ch.exam].join(" ");
+      pushSearchDoc({
+        kind: "Survey",
+        title: `Ch ${ch.no}. ${ch.title}`,
+        snippet: clipText(body),
+        body,
+        tab: "survey",
+        hit: `survey:${ch.id}`,
+      });
+    }
+    for (const num of surveyData.headlineNumbers || []) {
+      pushSearchDoc({
+        kind: "Survey",
+        title: `${num.label}: ${num.value}`,
+        snippet: num.hint,
+        body: `${num.label} ${num.value} ${num.hint}`,
+        tab: "survey",
+      });
+    }
+  }
+  for (const q of surveyQuizPack?.questions || []) {
+    const opts = Object.values(q.options || {}).join(" ");
+    pushSearchDoc({
+      kind: "Survey quiz",
+      title: q.question,
+      snippet: clipText(q.explanation || opts),
+      body: opts,
+      tab: "survey",
+    });
+  }
+  if (syllabusData) {
+    for (const examId of Object.keys(syllabusData)) {
+      const exam = syllabusData[examId];
+      for (const stage of exam.stages || []) {
+        for (const paper of stage.papers || []) {
+          const body = (paper.points || []).join(" ");
+          pushSearchDoc({
+            kind: "Syllabus",
+            title: `${exam.exam} · ${paper.title}`,
+            snippet: clipText(body),
+            body: `${stage.name} ${body}`,
+            tab: "current",
+            exam: examId,
+            hit: `syl:${paper.title}`,
+          });
+        }
+      }
+    }
+  }
+  for (const [examId, bank] of Object.entries(pyqBanks)) {
+    for (const paper of bank.papers || []) {
+      for (const item of paper.questions || []) {
+        pushSearchDoc({
+          kind: "PYQ",
+          title: clipText(item.q, 110),
+          snippet: `${String(examId).toUpperCase()} ${paper.year} ${paper.stage} · ${item.topic || paper.paper}`,
+          body: `${item.q || ""} ${item.topic || ""} ${paper.paper || ""}`,
+          tab: "pyq",
+          pyqExam: examId,
+          pyqStage: paper.stage,
+          pyqYear: paper.year,
+          pyqPaper: paper.paper,
+          hit: `pyq:${item.id}`,
+        });
+      }
+    }
+  }
+}
+
+function searchTokens(query) {
+  return query
+    .toLowerCase()
+    .split(/[^a-z0-9%]+/i)
+    .filter((tok) => tok.length >= 2);
+}
+
+function scoreSearchDoc(doc, query, tokens) {
+  const title = doc.title.toLowerCase();
+  const hay = doc.hay || "";
+  if (title === query) return 1000;
+  if (title.includes(query) && query.length >= 3) return 220 + Math.min(query.length, 40);
+  let score = 0;
+  for (const tok of tokens) {
+    if (title.includes(tok)) score += 48;
+    else if (hay.includes(tok)) score += 14;
+    else return 0;
+  }
+  if (doc.kind === "Subject" || doc.kind === "Page") score += 8;
+  return score;
+}
+
+function runSearch(query) {
+  const raw = query.trim().toLowerCase();
+  const status = document.getElementById("search-status");
+  const list = document.getElementById("search-results");
+  const panel = document.getElementById("search-panel");
+  if (!raw) {
+    searchHits = [];
+    searchActive = -1;
+    panel.hidden = true;
+    return;
+  }
+  panel.hidden = false;
+  const tokens = searchTokens(raw);
+  if (!tokens.length) {
+    searchHits = [];
+    status.textContent = "Type a fuller word to search.";
+    list.innerHTML = "";
+    return;
+  }
+  const ranked = searchIndex
+    .map((doc, idx) => ({ doc, idx, score: scoreSearchDoc(doc, raw, tokens) }))
+    .filter((row) => row.score > 0)
+    .sort((a, b) => b.score - a.score || a.idx - b.idx)
+    .slice(0, SEARCH_LIMIT)
+    .map((row) => row.doc);
+  searchHits = ranked;
+  searchActive = ranked.length ? 0 : -1;
+  status.textContent = ranked.length
+    ? `${ranked.length} result${ranked.length === 1 ? "" : "s"}`
+    : "No matching notes or questions.";
+  list.innerHTML = ranked
+    .map(
+      (doc, index) => `
+        <button type="button" class="search-hit ${index === 0 ? "active" : ""}" data-search-i="${index}">
+          <small>${escapeHtml(doc.kind)}</small>
+          <strong>${escapeHtml(doc.title)}</strong>
+          <p>${escapeHtml(doc.snippet || "")}</p>
+        </button>`
+    )
+    .join("");
+}
+
+function setSearchActive(index) {
+  if (!searchHits.length) return;
+  searchActive = (index + searchHits.length) % searchHits.length;
+  const buttons = document.querySelectorAll("#search-results .search-hit");
+  buttons.forEach((btn, i) => btn.classList.toggle("active", i === searchActive));
+  buttons[searchActive]?.scrollIntoView({ block: "nearest" });
+}
+
+function closeSearchPanel() {
+  const panel = document.getElementById("search-panel");
+  if (panel) panel.hidden = true;
+  searchActive = -1;
+}
+
+function scrollHit(hit) {
+  if (!hit) {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    return;
+  }
+  const el = document.querySelector(`[data-hit="${CSS.escape(hit)}"]`);
+  if (!el) {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    return;
+  }
+  el.classList.add("search-flash");
+  el.scrollIntoView({ behavior: "smooth", block: "center" });
+  window.setTimeout(() => el.classList.remove("search-flash"), 1600);
+}
+
+async function openSearchResult(item) {
+  if (!item) return;
+  closeSearchPanel();
+  if (item.kind === "Syllabus") {
+    activeExam = item.exam || activeExam;
+    for (const tab of document.querySelectorAll(".syllabus-tabs button")) {
+      tab.classList.toggle("on", tab.dataset.exam === activeExam);
+    }
+    syllabusBox.classList.remove("closed");
+    document.getElementById("syllabus-toggle").setAttribute("aria-expanded", "true");
+    document.getElementById("syllabus-toggle").textContent = "–";
+    renderSyllabus();
+    scrollHit(item.hit);
+    return;
+  }
+  if (item.ncertClass && ncertClass[item.tab] !== undefined) {
+    ncertClass[item.tab] = item.ncertClass;
+  }
+  if (item.pyqExam) {
+    pyqExam = item.pyqExam;
+    pyqStage = item.pyqStage || pyqStage;
+    pyqYear = item.pyqYear || pyqYear;
+    pyqPaper = item.pyqPaper || "all";
+  }
+  if (item.quizSubject) quizSubject = item.quizSubject;
+  await showTab(item.tab);
+  if (item.quizSubject) loadQuiz(item.quizSubject);
+  window.setTimeout(() => scrollHit(item.hit), 60);
+}
+
+function bindSearch() {
+  const input = document.getElementById("site-search-input");
+  const results = document.getElementById("search-results");
+  const wrap = document.getElementById("site-search");
+  if (!input || !results || !wrap) return;
+  let timer = 0;
+  input.addEventListener("input", () => {
+    window.clearTimeout(timer);
+    timer = window.setTimeout(() => runSearch(input.value), 80);
+  });
+  input.addEventListener("focus", () => {
+    if (input.value.trim()) runSearch(input.value);
+  });
+  input.addEventListener("keydown", (event) => {
+    if (event.key === "ArrowDown") {
+      event.preventDefault();
+      setSearchActive(searchActive + 1);
+    } else if (event.key === "ArrowUp") {
+      event.preventDefault();
+      setSearchActive(searchActive - 1);
+    } else if (event.key === "Enter") {
+      event.preventDefault();
+      const item = searchHits[searchActive] || searchHits[0];
+      if (item) openSearchResult(item);
+    } else if (event.key === "Escape") {
+      closeSearchPanel();
+      input.blur();
+    }
+  });
+  results.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-search-i]");
+    if (!button) return;
+    openSearchResult(searchHits[Number(button.dataset.searchI)]);
+  });
+  document.addEventListener("click", (event) => {
+    if (!wrap.contains(event.target)) closeSearchPanel();
+  });
+}
+
+async function warmSearchIndex() {
+  await Promise.all([
+    ...NCERT_IDS.map((id) => loadNcert(id)),
+    (async () => {
+      if (!surveyData) {
+        const res = await fetch("/data/economic-survey.json");
+        surveyData = res.ok ? await res.json() : null;
+      }
+      if (!surveyQuizPack) {
+        const quizRes = await fetch("/data/economic-survey-quiz.json");
+        surveyQuizPack = quizRes.ok ? await quizRes.json() : { questions: [] };
+      }
+    })(),
+    loadPyqBank("upsc"),
+    loadPyqBank("bpsc"),
+  ]);
+  rebuildSearchIndex();
 }
 
 tabsEl.addEventListener("click", (event) => {
@@ -697,6 +1225,48 @@ pyqEl.addEventListener("click", (event) => {
     pyqOpen[opt.dataset.pyqId] = true;
     renderPyq();
   }
+});
+
+surveyEl.addEventListener("click", async (event) => {
+  const opt = event.target.closest("[data-survey-opt]");
+  if (opt && !surveyQuizDone) {
+    clickSound();
+    surveyQuizPicks[opt.dataset.surveyId] = Number(opt.dataset.surveyOpt);
+    renderSurveyQuiz();
+    return;
+  }
+  const reset = event.target.closest("[data-survey-reset]");
+  if (reset) {
+    surveyQuizPicks = {};
+    surveyQuizDone = false;
+    surveyQuizMessage = "";
+    renderSurveyQuiz();
+    return;
+  }
+  const submit = event.target.closest("[data-survey-submit]");
+  if (!submit || surveyQuizDone) return;
+  const questions = surveyQuizPack?.questions ?? [];
+  const answers = {};
+  const ids = questions.map((item) => {
+    const id = `es-${item.id}`;
+    if (surveyQuizPicks[id] !== undefined) answers[id] = surveyQuizPicks[id];
+    return id;
+  });
+  submit.disabled = true;
+  const res = await fetch("/api/quiz", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ subject: "survey", ids, answers }),
+  });
+  const data = await res.json();
+  surveyQuizDone = true;
+  if (res.ok) {
+    tracker = data.tracker;
+    surveyQuizMessage = `Saved: ${data.correct}/${data.total}. Also available under Quiz → Economic Survey.`;
+  } else {
+    surveyQuizMessage = data.error ?? "Score shown below; save failed.";
+  }
+  renderSurveyQuiz();
 });
 
 sourceFilters.addEventListener("click", (event) => {
@@ -865,6 +1435,8 @@ document.getElementById("logout").addEventListener("click", async () => {
   renderTabs();
   renderMethod();
   renderSyllabus();
+  bindSearch();
+  rebuildSearchIndex();
   showTab("current");
 
   if (newsRes.ok) {
@@ -878,6 +1450,8 @@ document.getElementById("logout").addEventListener("click", async () => {
   }
   renderFilters();
   renderArticles();
+  rebuildSearchIndex();
+  warmSearchIndex();
   await loadTracker();
   loadHistory();
   renderQuizPick();
