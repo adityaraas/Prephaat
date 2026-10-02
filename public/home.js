@@ -26,6 +26,7 @@ const surveyBoard = document.getElementById("survey-board");
 let newsItems = [];
 let activeSource = "all";
 let studyData = null;
+let resourceData = null;
 let syllabusData = null;
 let activeExam = "upsc";
 let tracker = null;
@@ -41,6 +42,8 @@ let pyqPaper = "all";
 let pyqPicks = {};
 let pyqOpen = {};
 let ncertCache = {};
+let historyCourseData = null;
+const subjectCourseData = {};
 let ncertClass = {
   history: "all",
   geography: "all",
@@ -186,18 +189,13 @@ async function requireSession() {
 
 function renderTabs() {
   const items = [
-    { id: "current", label: "🗞️ Current affairs" },
-    { id: "quiz", label: "⚡ Quiz" },
-    { id: "pyq", label: "📘 PYQ" },
-    { id: "survey", label: "📊 Economic Survey" },
-    ...studyData.subjects.map((subject) => ({
-      id: subject.id,
-      label: `${subject.emoji ?? ""} ${subject.title}`.trim(),
-    })),
+    { id: "current", label: "Current affairs" },
+    { id: "quiz", label: "Quiz" },
+    { id: "pyq", label: "PYQ" },
+    { id: "survey", label: "Economic Survey" },
+    ...studyData.subjects.map(subject => ({ id: subject.id, label: subject.title })),
   ];
-  tabsEl.innerHTML = items
-    .map((item, index) => `<button type="button" data-tab="${item.id}" class="${index === 0 ? "on" : ""}">${escapeHtml(item.label)}</button>`)
-    .join("");
+  tabsEl.innerHTML = items.map((item, index) => `<button type="button" data-tab="${item.id}" class="${index === 0 ? "on" : ""}">${SiteTheme.icon(item.id)}<span>${escapeHtml(item.label)}</span></button>`).join("");
 }
 
 async function showTab(id) {
@@ -540,6 +538,7 @@ function renderNcert(id, pack) {
     <div class="ncert-block">
       <h2>NCERT path · Class 6–12</h2>
       <p class="meta">${escapeHtml(pack.note)}</p>
+      <p class="meta">These revision notes follow older NCERT editions. Use the subject resource library above for the current publisher catalog; chapter titles and numbering may differ.</p>
       <div class="filters" id="ncert-filters">${chips}</div>
       ${chapters}
     </div>`;
@@ -602,6 +601,11 @@ function renderArticles() {
 async function renderSubject(id) {
   const subject = studyData.subjects.find((entry) => entry.id === id);
   if (!subject) return;
+  if (HistoryPlan.subjects.includes(id)) {
+    subjectEl.innerHTML = '<div id="history-plan"></div>';
+    await HistoryPlan.mount(document.getElementById("history-plan"), id);
+    return;
+  }
   const overview = subject.overview
     ? `<p class="overview">${escapeHtml(subject.overview)}</p>`
     : "";
@@ -639,17 +643,19 @@ async function renderSubject(id) {
     }
   }
   subjectEl.innerHTML = `
-    <h2>${escapeHtml(subject.emoji ?? "")} ${escapeHtml(subject.title)}</h2>
+    <h2>${SiteTheme.icon(subject.id)} ${escapeHtml(subject.title)}</h2>
     <p class="papers">${escapeHtml(subject.papers)}</p>
     ${overview}
     <p class="sources">Sources: ${escapeHtml(subject.sources.join(" · "))}</p>
     <p><button type="button" class="cta" data-open-quiz="${escapeHtml(subject.id)}">Start ${escapeHtml(subject.title)} quiz</button></p>
     ${facultyHtml}
+    <div id="subject-resources"></div>
     ${ncertHtml}
     ${extraHtml}
     <h2>Exam lens</h2>
     ${modules}
   `;
+  ResourceLibrary.mount(document.getElementById("subject-resources"), { subject: id });
 }
 
 function weekday(iso) {
@@ -866,6 +872,7 @@ function rebuildSearchIndex() {
       body: [subject.papers, ...(subject.sources || [])].join(" "),
       tab: subject.id,
     });
+    if (HistoryPlan.subjects.includes(subject.id)) continue;
     for (const mod of subject.modules || []) {
       const body = [...(mod.explain || []), ...(mod.points || [])].join(" ");
       pushSearchDoc({
@@ -879,6 +886,7 @@ function rebuildSearchIndex() {
     }
   }
   for (const [id, extras] of Object.entries(extraNotes || {})) {
+    if (HistoryPlan.subjects.includes(id)) continue;
     if (!Array.isArray(extras)) continue;
     const tab = id === "current" ? "current" : id;
     for (const mod of extras) {
@@ -893,7 +901,18 @@ function rebuildSearchIndex() {
       });
     }
   }
+  for (const resource of resourceData?.resources ?? []) {
+    pushSearchDoc({
+      kind: "Study resource",
+      title: resource.title,
+      snippet: `${resource.provider} · ${resource.language}${resource.class ? ` · Class ${resource.class}` : ""}`,
+      body: [resource.description, ...resource.topics, ...resource.papers, ...resource.subjects].join(" "),
+      tab: resource.subjects[0],
+      resourceId: resource.id,
+    });
+  }
   for (const id of NCERT_IDS) {
+    if (HistoryPlan.subjects.includes(id)) continue;
     const pack = ncertCache[id];
     for (const book of pack?.books || []) {
       for (const ch of book.chapters || []) {
@@ -906,6 +925,20 @@ function rebuildSearchIndex() {
           tab: id,
           hit: `ncert:${ch.title}`,
           ncertClass: String(book.class),
+        });
+      }
+    }
+  }
+  for (const [courseId, course] of Object.entries({ history: historyCourseData, ...subjectCourseData })) {
+    for (const segment of course?.segments || []) {
+      for (const lesson of segment.days) {
+        pushSearchDoc({
+          kind: "Study lesson",
+          title: `Day ${lesson.day}: ${lesson.topic}`,
+          snippet: `${course.title || "History"} / ${segment.title}: ${lesson.reading}`,
+          body: [...lesson.notes, ...(lesson.deepReading || []).flatMap(id => course.dossiers[id].sections.map(s => s.text)), lesson.recall, lesson.task].join(" "),
+          tab: courseId,
+          courseDay: lesson.day,
         });
       }
     }
@@ -1088,6 +1121,10 @@ function scrollHit(hit) {
 async function openSearchResult(item) {
   if (!item) return;
   closeSearchPanel();
+  if (item.resourceId) {
+    window.location.href = `/library?resource=${encodeURIComponent(item.resourceId)}`;
+    return;
+  }
   if (item.kind === "Syllabus") {
     activeExam = item.exam || activeExam;
     for (const tab of document.querySelectorAll(".syllabus-tabs button")) {
@@ -1110,7 +1147,9 @@ async function openSearchResult(item) {
     pyqPaper = item.pyqPaper || "all";
   }
   if (item.quizSubject) quizSubject = item.quizSubject;
+  if (item.courseDay) history.replaceState(null, "", `#${item.tab === "history" ? "" : item.tab + "-"}day-${item.courseDay}`);
   await showTab(item.tab);
+  if (item.courseDay) document.getElementById("lesson-title")?.focus();
   if (item.quizSubject) loadQuiz(item.quizSubject);
   window.setTimeout(() => scrollHit(item.hit), 60);
 }
@@ -1156,7 +1195,8 @@ function bindSearch() {
 
 async function warmSearchIndex() {
   await Promise.all([
-    ...NCERT_IDS.map((id) => loadNcert(id)),
+    HistoryPlan.load().then(data => { historyCourseData = data; }).catch(() => {}),
+    ...HistoryPlan.subjects.filter(id => id !== "history").map(id => HistoryPlan.load(id).then(data => { subjectCourseData[id] = data; }).catch(() => {})),
     (async () => {
       if (!surveyData) {
         const res = await fetch("/data/economic-survey.json");
@@ -1423,12 +1463,14 @@ document.getElementById("logout").addEventListener("click", async () => {
   if (!session) return;
   document.getElementById("who").textContent = session.account.name;
 
-  const [subjectsRes, syllabusRes, newsRes, extraRes] = await Promise.all([
+  const [subjectsRes, syllabusRes, newsRes, extraRes, resources] = await Promise.all([
     fetch("/data/subjects.json"),
     fetch("/data/syllabus.json"),
     fetch("/api/current-affairs"),
     fetch("/data/extra-notes.json"),
+    ResourceLibrary.load().catch(() => null),
   ]);
+  resourceData = resources;
   studyData = await subjectsRes.json();
   extraNotes = extraRes.ok ? await extraRes.json() : {};
   syllabusData = await syllabusRes.json();

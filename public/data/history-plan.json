@@ -1,0 +1,3287 @@
+{
+  "routine": "Each day: 60 minutes reading, 25 minutes notes or maps, 25 minutes practice, 10 minutes recall. On test days, use reading time for the test and error review. Use the site’s quiz/PYQ sections or your own question bank.",
+  "editionNote": "Assignments use topics rather than page numbers. Our Pasts refers to legacy NCERT editions; newer and rationalised editions may omit or rename chapters. Use the linked Class 12/Tamil Nadu readings and revision notes to fill gaps. These are original study notes and reading assignments, not extracted or reproduced book text.",
+  "sources": {
+    "ncert12c": {
+      "title": "NCERT: Themes in Indian History III",
+      "url": "https://ncert.nic.in/textbook.php?lehs3=0-4",
+      "access": "Official NCERT chapter PDFs and complete-book download. Read the matching colonial history theme before Spectrum."
+    },
+    "ncert6": {
+      "title": "NCERT: Our Pasts I (Class 6, legacy edition)",
+      "url": "https://ncert.nic.in/textbook.php?fess1=0-12",
+      "access": "Official NCERT chapter PDFs / complete-book download; legacy edition availability may vary."
+    },
+    "ncert12a": {
+      "title": "NCERT: Themes in Indian History I",
+      "url": "https://ncert.nic.in/textbook.php?lehs1=0-4",
+      "access": "Official NCERT chapter PDFs and complete-book download."
+    },
+    "tamil": {
+      "title": "Tamil Nadu Class 11 History I — NDLI chapter collection",
+      "url": "https://www.ndl.iitkgp.ac.in/se_document/tn_school_board/12345678_tnbrd/16872",
+      "access": "Government textbook indexed by NDLI. Choose the lesson in the sidebar; the opening item is the preface. Sign-in may be requested."
+    },
+    "ncert7": {
+      "title": "NCERT: Our Pasts II (Class 7, legacy edition)",
+      "url": "https://ncert.nic.in/textbook.php?gess1=1-10",
+      "access": "Official NCERT chapter PDFs / complete-book download; legacy edition availability may vary."
+    },
+    "ncert12b": {
+      "title": "NCERT: Themes in Indian History II",
+      "url": "https://ncert.nic.in/textbook.php?lehs2=0-4",
+      "access": "Official NCERT chapter PDFs and complete-book download."
+    },
+    "spectrum": {
+      "title": "Spectrum: A Brief History of Modern India",
+      "url": "https://spectrumbooksonline.in/product/a-brief-history-of-modern-india/",
+      "access": "Publisher book listing. Read from your purchased or library copy; no authorized free full PDF verified."
+    },
+    "bipan": {
+      "title": "Bipan Chandra et al.: India’s Struggle for Independence",
+      "url": "https://www.penguin.co.in/book/indias-struggle-for-independence/",
+      "access": "Publisher book listing. Supplementary reading from your purchased or library copy; no authorized free full PDF verified."
+    }
+  },
+  "segments": [
+    {
+      "id": "ancient",
+      "title": "Ancient",
+      "description": "Build your foundation with NCERT and use Tamil Nadu Class 11 for a connected account of early India.",
+      "sources": [
+        "ncert6",
+        "ncert12a",
+        "tamil"
+      ],
+      "days": [
+        {
+          "day": 1,
+          "topic": "Sources and the ancient timeline",
+          "sources": [
+            "ncert6",
+            "tamil"
+          ],
+          "reading": "Our Pasts I: What, Where, How and When?; Tamil Nadu: opening discussion of early India.",
+          "task": "Draw a timeline from prehistory to c. 750 CE. Compare inscriptions, coins, archaeology and literary sources.",
+          "notes": [
+            "Historians combine material remains with written evidence. Archaeology reveals settlement, tools, food and crafts; inscriptions can record donations or royal claims; coins help reconstruct exchange and political authority. Each source answers different questions.",
+            "A text is not a transparent account of its age. Ask who produced it, for whom, in which language and for what purpose. A royal praise inscription may exaggerate victory, while a prescriptive text describes desired conduct rather than universal practice.",
+            "Geography shaped opportunities: alluvial plains supported farming, rivers connected settlements, forests supplied resources, and passes and coasts enabled exchange. Political and technological choices explain why similar environments did not always produce identical societies."
+          ],
+          "recall": "Why should an inscription be compared with archaeological evidence?",
+          "recallAnswer": "An inscription conveys a particular claim or message; archaeology can independently reveal settlement, production and everyday life. Comparison helps test the claim and identify what the inscription leaves out.",
+          "deepReading": [
+            "sources"
+          ],
+          "studyWords": 288
+        },
+        {
+          "day": 2,
+          "topic": "Hunter-gatherers and early farming",
+          "sources": [
+            "ncert6",
+            "tamil"
+          ],
+          "reading": "Our Pasts I: From Hunting–Gathering to Growing Food; Tamil Nadu: early India before the Indus civilisation.",
+          "task": "Map major prehistoric sites and compare Palaeolithic, Mesolithic and Neolithic life.",
+          "notes": [
+            "Palaeolithic communities depended largely on hunting and gathering. Mobility helped them follow seasonal resources. Stone tools were adapted to different tasks; changes in tool form do not mean every region changed at the same time.",
+            "Food production emerged through a long, uneven process of domestication. Mehrgarh provides early evidence for farming and herding in the north-west. Storage, houses and pottery became important in many settled communities, but hunting and gathering continued.",
+            "Distinguish cultivation from domestication and settlement from farming: people could experiment with plants or occupy a place repeatedly before adopting a fully agricultural economy. Avoid a single straight ladder of progress for the whole subcontinent."
+          ],
+          "recall": "Did farming immediately replace hunting and gathering?",
+          "recallAnswer": "No. Mixed livelihoods persisted, and the timing and balance of cultivation, herding and foraging varied across regions.",
+          "deepReading": [
+            "farming"
+          ],
+          "studyWords": 276
+        },
+        {
+          "day": 3,
+          "topic": "Harappan cities",
+          "sources": [
+            "ncert12a",
+            "tamil"
+          ],
+          "reading": "Themes I: Bricks, Beads and Bones; Tamil Nadu: Indus civilisation.",
+          "task": "Map Harappa, Mohenjo-daro, Dholavira, Rakhigarhi and Lothal; list evidence for urban planning.",
+          "notes": [
+            "The Mature Harappan phase is commonly dated to about 2600–1900 BCE. Settlements extended beyond the Indus valley into areas of present-day Gujarat, Haryana and western Uttar Pradesh. Locate sites before memorising their individual features.",
+            "Some cities had planned streets, drainage, wells and differentiated areas. Dholavira is especially useful for studying water management. Standardised weights and specialised crafts suggest organised exchange, though settlement layouts were not identical everywhere.",
+            "Harappan writing remains undeciphered. Archaeologists therefore rely heavily on structures, artefacts and their contexts. Claims about a single king, political constitution or particular religious identity require more caution than observations about bricks and drains."
+          ],
+          "recall": "What limits our knowledge of Harappan government?",
+          "recallAnswer": "The script has not been securely deciphered, so the political system must be inferred from material evidence rather than read from administrative or narrative records.",
+          "deepReading": [
+            "harappa"
+          ],
+          "studyWords": 281
+        },
+        {
+          "day": 4,
+          "topic": "Harappan economy and interpretation",
+          "sources": [
+            "ncert12a"
+          ],
+          "reading": "Bricks, Beads and Bones: crafts, trade, burials and archaeological interpretation.",
+          "task": "Make an evidence-versus-inference table; explain why the undeciphered script limits conclusions.",
+          "notes": [
+            "Craft production included bead making, shell working, metallurgy and pottery. Raw materials could travel long distances. The location of workshops, unfinished objects and discarded material helps identify the stages of production.",
+            "Weights, seals and finds outside the subcontinent support discussion of exchange, including connections with Mesopotamia. A seal is evidence of a practice; its exact owner, message and use may remain uncertain.",
+            "Burials can reveal objects placed with the dead, but grave goods are not a simple wealth census. Changes after the urban phase were regional and involved settlement shifts and altered production, rather than the disappearance of all people and traditions."
+          ],
+          "recall": "How can archaeologists identify a craft workshop?",
+          "recallAnswer": "They examine tools, raw material, unfinished pieces, waste and the concentration of these finds in a specific context.",
+          "deepReading": [
+            "harappa"
+          ],
+          "studyWords": 282
+        },
+        {
+          "day": 5,
+          "topic": "Vedic cultures and the Iron Age",
+          "sources": [
+            "ncert6",
+            "tamil"
+          ],
+          "reading": "Our Pasts I: What Books and Burials Tell Us; Tamil Nadu: Chalcolithic, Megalithic, Iron Age and Vedic cultures.",
+          "task": "Compare early and later Vedic economy, polity and society; distinguish textual and burial evidence.",
+          "notes": [
+            "Early Vedic society is reconstructed mainly from the Rigveda. Cattle, kinship and pastoral activity mattered greatly, alongside agriculture. These hymns were composed and transmitted over time; they are not a census of all communities.",
+            "Later Vedic texts indicate expanding agriculture, stronger territorial polities and increasing ritual and social differentiation. The movement towards the Ganga plains was gradual. Cattle retained significance even as land and agricultural production became more important.",
+            "Megalithic burials and Iron Age cultures are archaeological categories that must not simply be equated with a single language or people. Compare material evidence with texts while keeping their geographic and chronological differences visible."
+          ],
+          "recall": "Name two broad changes from early to later Vedic society.",
+          "recallAnswer": "Agricultural and territorial organisation became more prominent, while social and ritual hierarchies grew more elaborate. These changes were uneven, not universal overnight shifts.",
+          "deepReading": [
+            "vedic"
+          ],
+          "studyWords": 258
+        },
+        {
+          "day": 6,
+          "topic": "Mahajanapadas and Magadha",
+          "sources": [
+            "ncert6",
+            "tamil"
+          ],
+          "reading": "Our Pasts I: Kingdoms, Kings and an Early Republic; Tamil Nadu: rise of territorial kingdoms.",
+          "task": "Map the mahajanapadas; explain Magadha’s growth with special attention to Rajgir and Pataliputra.",
+          "notes": [
+            "By about the sixth century BCE, large territorial units known as mahajanapadas included monarchies and gana-sanghas. A gana-sangha involved collective rule among a restricted group; it was not modern universal democracy.",
+            "Magadha benefited from fertile land, river communication and access to resources and elephants. Rulers built on these advantages through warfare and alliances. Rajagriha and later Pataliputra connected political authority to strategic locations.",
+            "Agricultural surplus and taxation supported larger armies and officials. Urbanisation, coinage and new religious movements formed part of the wider setting. For Bihar, connect sites to processes rather than learning place names alone."
+          ],
+          "recall": "Why is calling a gana-sangha a modern democracy misleading?",
+          "recallAnswer": "Political participation was restricted to particular groups and did not amount to universal adult citizenship or equal political rights.",
+          "deepReading": [
+            "magadha"
+          ],
+          "studyWords": 248
+        },
+        {
+          "day": 7,
+          "topic": "Revision: early India",
+          "sources": [
+            "ncert6",
+            "ncert12a",
+            "tamil"
+          ],
+          "reading": "Revisit Days 1–6 using your marked passages and notes.",
+          "task": "Attempt 30 relevant PYQs or practice MCQs, review every error and redraw the ancient map from memory.",
+          "notes": [
+            "Reconstruct the sequence: foraging communities, early farming, Harappan urbanism, Vedic cultures, and mahajanapadas. These categories overlap in time and space; a timeline is a guide, not evidence that all regions changed together.",
+            "Practise distinguishing evidence from inference. Drainage is directly observable at excavated sites; the identity of a ruler or the meaning of an undeciphered seal is interpretive. Source-based questions often test this difference.",
+            "For revision, group errors as chronology, map location, terminology or unsupported assumption. Re-read only the relevant material, then explain the correction aloud. Use the official paper links below for selected genuine examples and a separate question bank for a larger test."
+          ],
+          "recall": "What is the difference between an archaeological observation and an interpretation?",
+          "recallAnswer": "An observation records material evidence, such as a drain or bead workshop. Interpretation explains its purpose or wider significance and may change with further evidence.",
+          "deepReading": [
+            "farming",
+            "harappa"
+          ],
+          "studyWords": 455
+        },
+        {
+          "day": 8,
+          "topic": "Buddhism and Jainism",
+          "sources": [
+            "ncert6",
+            "tamil"
+          ],
+          "reading": "Our Pasts I: New Questions and Ideas; Tamil Nadu: new religious sects.",
+          "task": "Compare teachings, sanghas and patronage; mark Bodh Gaya, Sarnath, Rajgir, Vaishali and Pawapuri.",
+          "notes": [
+            "Buddhism and Jainism developed amid debates over ritual, conduct and liberation. The Buddha’s teaching addresses suffering and its cessation through an ethical and mental discipline associated with the middle path.",
+            "Jain traditions emphasise non-violence, restraint and liberation of the soul from karmic bondage. Mahavira is regarded as the twenty-fourth Tirthankara. Do not treat the Jain conception of the soul as identical to Buddhist teaching.",
+            "Monastic communities depended on relationships with lay supporters, merchants and rulers. Map Bodh Gaya, Sarnath, Rajgir and Vaishali. Their significance differs: a biographical association is not the same as a later monastery or council tradition."
+          ],
+          "recall": "What is one major philosophical difference between Buddhism and Jainism?",
+          "recallAnswer": "Jainism affirms individual souls, whereas Buddhist teaching rejects a permanent, unchanging self. Both traditions developed diverse schools over time.",
+          "deepReading": [
+            "religion"
+          ],
+          "studyWords": 263
+        },
+        {
+          "day": 9,
+          "topic": "Belief, stupas and sculpture",
+          "sources": [
+            "ncert12a"
+          ],
+          "reading": "Themes I: Thinkers, Beliefs and Buildings.",
+          "task": "Sketch a stupa and label its features; write 150 words on material evidence and religious traditions.",
+          "notes": [
+            "A Buddhist stupa could house relics and serve as a commemorative or devotional structure. Worshippers circumambulated it. Identify the mound, railing and gateways, and connect decoration with the activity of donors and artisans.",
+            "Religious monuments developed through patronage from many social groups, not only kings. Donative inscriptions help recover some of these contributors. Sites such as Sanchi show that monuments were expanded and altered across generations.",
+            "Images and narratives use conventions that must be read in context. Symbols can represent events or sacred presence without a human figure. Link Dhanyakataka and Amaravati with the Andhra region when revising Buddhist geography."
+          ],
+          "recall": "Why are donor inscriptions useful for the history of religion?",
+          "recallAnswer": "They reveal who supported religious institutions and can illuminate occupations, local networks and participation beyond royal patronage.",
+          "deepReading": [
+            "religion"
+          ],
+          "studyWords": 264
+        },
+        {
+          "day": 10,
+          "topic": "The Mauryan state",
+          "sources": [
+            "ncert6",
+            "tamil"
+          ],
+          "reading": "Our Pasts I: Ashoka, the Emperor Who Gave Up War; Tamil Nadu: emergence of state and empire.",
+          "task": "Create a ruler–source–administration table, including Megasthenes and the Arthashastra with source limitations.",
+          "notes": [
+            "Chandragupta Maurya established an empire centred on Magadha; Bindusara and Ashoka followed. An imperial map should distinguish direct administrative centres from frontier areas where control may have operated differently.",
+            "Megasthenes, the Arthashastra tradition, inscriptions and archaeology provide different perspectives. Their dates, transmission and purposes must be considered before assembling them into a single picture of administration.",
+            "Revenue, communication, military organisation and provincial centres helped sustain imperial authority. It is misleading to assume that every village across the vast territory was governed in precisely the same way."
+          ],
+          "recall": "Why should Mauryan administration not be described from one source alone?",
+          "recallAnswer": "Sources differ in date, purpose, survival and geographic coverage. Comparing them reduces the risk of treating a prescription or outsider’s observation as universal practice.",
+          "deepReading": [
+            "empires"
+          ],
+          "studyWords": 242
+        },
+        {
+          "day": 11,
+          "topic": "Ashoka and dhamma",
+          "sources": [
+            "ncert12a",
+            "tamil"
+          ],
+          "reading": "Themes I: Kings, Farmers and Towns, Mauryan sections; Tamil Nadu: Ashoka.",
+          "task": "Distinguish dhamma from a sectarian doctrine; map major edict sites and write a short answer on governance.",
+          "notes": [
+            "Ashoka’s inscriptions are unusually valuable because they communicate royal messages across different regions. Most used Prakrit and Brahmi, while north-western examples include other scripts and languages.",
+            "Dhamma stressed ethical conduct, restraint, welfare and respect among religious communities. Ashoka’s remorse after Kalinga is central to his public presentation, but dhamma did not abolish government, revenue or coercive authority.",
+            "Distinguish the ruler’s personal Buddhist commitment from the wider moral language of many edicts. In a Mains answer, explain both the ethical message and the role of communication in governing a diverse empire."
+          ],
+          "recall": "Was Ashoka’s dhamma simply a command that everyone become Buddhist?",
+          "recallAnswer": "No. Many edicts addressed broad ethical conduct and respect among sects rather than compulsory conversion.",
+          "deepReading": [
+            "empires"
+          ],
+          "studyWords": 246
+        },
+        {
+          "day": 12,
+          "topic": "Post-Mauryan kingdoms and exchange",
+          "sources": [
+            "tamil",
+            "ncert12a"
+          ],
+          "reading": "Tamil Nadu: Polity and Society in Post-Mauryan Period; Themes I: trade and towns.",
+          "task": "Compare Indo-Greeks, Shakas, Kushanas and Satavahanas; trace land and maritime trade routes.",
+          "notes": [
+            "After Mauryan rule, several regional and transregional powers shaped the subcontinent: Indo-Greeks, Shakas, Kushanas and Satavahanas among them. Avoid representing this period only as fragmentation after an empire.",
+            "Trade linked inland production, northern routes and peninsular ports. Coins and inscriptions reveal political claims and economic connections, but a coin’s presence does not by itself prove direct political control.",
+            "Gandhara and Mathura developed distinct artistic traditions with interactions across regions. Patronage, religious institutions and commercial networks help explain cultural production better than a simple foreign-versus-indigenous divide."
+          ],
+          "recall": "Does finding a ruler’s coin prove that the ruler directly governed that site?",
+          "recallAnswer": "Not necessarily. Coins could circulate through trade, gifts and later movement. Political control requires corroborating evidence.",
+          "deepReading": [
+            "classical"
+          ],
+          "studyWords": 246
+        },
+        {
+          "day": 13,
+          "topic": "Sangam society",
+          "sources": [
+            "tamil",
+            "ncert6"
+          ],
+          "reading": "Tamil Nadu: Evolution of Society in South India; Our Pasts I: villages, towns and trade.",
+          "task": "Summarise Chera, Chola and Pandya polities, tinai landscapes, ports and literary evidence.",
+          "notes": [
+            "Sangam literature provides evidence about early Tamil society, political authority and ideals. Chera, Chola and Pandya lineages are central, but literary descriptions should be compared with archaeology and inscriptions.",
+            "Tinai connected landscapes with forms of life and poetic conventions. It is a literary framework, not a complete economic survey. Agriculture, pastoralism, fishing, warfare and exchange appear in different settings.",
+            "Korkai, Poompuhar and Muchiri are associated with maritime exchange. Ports linked local production to wider Indian Ocean networks. Track how poems, imported objects and coins contribute different kinds of evidence."
+          ],
+          "recall": "What common function links Korkai, Poompuhar and Muchiri?",
+          "recallAnswer": "They are remembered as important ports associated with early South Indian maritime exchange.",
+          "deepReading": [
+            "classical"
+          ],
+          "studyWords": 250
+        },
+        {
+          "day": 14,
+          "topic": "Revision: religions and empires",
+          "sources": [
+            "ncert12a",
+            "tamil"
+          ],
+          "reading": "Revisit Days 8–13, especially religion, Mauryas and trade.",
+          "task": "Attempt 30 MCQs and one 150-word answer comparing Mauryan and post-Mauryan political organisation.",
+          "notes": [
+            "Compare Buddhism and Jainism using liberation, soul, ethical practice and institutional organisation. Shared opposition to some ritual practices does not mean their doctrines were identical.",
+            "Compare Mauryan and post-Mauryan politics through evidence, revenue, communication and regional variation. More kingdoms did not automatically mean less trade or less cultural activity.",
+            "Revise a map of Buddhist centres, imperial capitals and ports. For every location, attach one relevant source and one historical process. This is more useful than an isolated site list."
+          ],
+          "recall": "Give two ways trade and religious institutions could support one another.",
+          "recallAnswer": "Merchants could donate to monasteries, while religious centres near routes could attract travellers and connect communities across regions.",
+          "deepReading": [
+            "religion",
+            "empires"
+          ],
+          "studyWords": 399
+        },
+        {
+          "day": 15,
+          "topic": "Guptas: polity and economy",
+          "sources": [
+            "tamil",
+            "ncert6"
+          ],
+          "reading": "Tamil Nadu: The Guptas; Our Pasts I: New Empires and Kingdoms.",
+          "task": "Build a ruler–inscription table; compare land grants, taxation, urban change and political authority.",
+          "notes": [
+            "Gupta political history is reconstructed from inscriptions, coins and texts. The Prayaga prashasti celebrates Samudragupta and categorises different relationships with other rulers; it should be read as royal praise.",
+            "Land grants illuminate rights, revenue claims and local power. Administrative arrangements and commercial conditions varied across regions. Avoid projecting one inscription onto the entire subcontinent.",
+            "The label golden age highlights achievements in literature, science and art but can conceal inequality and regional difference. A balanced answer specifies whose achievements and experiences are being discussed."
+          ],
+          "recall": "What is the main caution when using a prashasti?",
+          "recallAnswer": "It is a eulogy intended to enhance a ruler’s prestige, so its political claims require critical comparison with other evidence.",
+          "deepReading": [
+            "classical"
+          ],
+          "studyWords": 244
+        },
+        {
+          "day": 16,
+          "topic": "Kinship, caste and gender",
+          "sources": [
+            "ncert12a"
+          ],
+          "reading": "Themes I: Kinship, Caste and Class.",
+          "task": "Compare prescriptions with social practice; prepare notes on gotra, inheritance and the use of the Mahabharata.",
+          "notes": [
+            "The Mahabharata and normative texts illuminate debates about kinship, inheritance and social order. They contain layers composed over time and cannot be read as direct descriptions of all households.",
+            "Patriliny traces descent through men; rules about gotra and marriage sought to organise kinship. Inscriptions and narratives also show departures from prescriptions. Distinguish the rule from evidence of actual behaviour.",
+            "Varna is a broad normative classification, while jati refers to numerous social groups formed in historical contexts. Gender, property and occupation intersected with status; social experiences were neither uniform nor static."
+          ],
+          "recall": "Why separate prescription from practice?",
+          "recallAnswer": "A text may state what authors considered proper, while inscriptions or narratives show how people actually behaved, including exceptions and disputes.",
+          "deepReading": [
+            "vedic"
+          ],
+          "studyWords": 245
+        },
+        {
+          "day": 17,
+          "topic": "Harsha and regional kingdoms",
+          "sources": [
+            "tamil",
+            "ncert6"
+          ],
+          "reading": "Tamil Nadu: Harsha and Rise of Regional Kingdoms; Our Pasts I: New Empires and Kingdoms.",
+          "task": "Compare Harsha, Chalukyas and Pallavas; note Xuanzang and Banabhatta as different kinds of sources.",
+          "notes": [
+            "Harsha’s career is reconstructed through sources including Banabhatta and Xuanzang. The former wrote courtly biography and the latter recorded observations shaped by travel and religious interests.",
+            "Chalukyas and Pallavas were major powers in the Deccan and south. Their conflicts, grants and monuments show how regional states developed political and cultural authority.",
+            "Samanta relationships and land grants connected local and larger centres of power. Their meaning varied with context; do not assume that a single label describes an unchanging institution everywhere."
+          ],
+          "recall": "How do Banabhatta and Xuanzang differ as sources?",
+          "recallAnswer": "Banabhatta wrote in a courtly setting, while Xuanzang wrote as a Buddhist traveller. Their purposes and viewpoints shape what they emphasised.",
+          "deepReading": [
+            "classical"
+          ],
+          "studyWords": 241
+        },
+        {
+          "day": 18,
+          "topic": "Art, learning and literature",
+          "sources": [
+            "ncert6",
+            "tamil"
+          ],
+          "reading": "Our Pasts I: Buildings, Paintings and Books; Tamil Nadu: Cultural Development in South India.",
+          "task": "Make an art-form–site–patron table; include Nalanda, Ajanta and early temple traditions.",
+          "notes": [
+            "Religious architecture included stupas, rock-cut spaces and structural temples. Buildings frequently accumulated additions under different patrons. Date a feature carefully instead of giving a whole site one unqualified date.",
+            "Ajanta is important for Buddhist cave architecture and painting. Nalanda developed as a major centre of learning. Both should be studied through patronage, religious life and networks of movement.",
+            "Sanskrit and Tamil texts, mathematical and astronomical works, sculpture and architecture reveal diverse intellectual activity. Artistic achievement does not establish that all social groups enjoyed equal opportunity."
+          ],
+          "recall": "Why can a monument have more than one historical date?",
+          "recallAnswer": "Construction, enlargement, renovation and new decoration may occur under different patrons over centuries.",
+          "deepReading": [
+            "classical"
+          ],
+          "studyWords": 246
+        },
+        {
+          "day": 19,
+          "topic": "Ancient Bihar consolidation",
+          "sources": [
+            "ncert12a",
+            "tamil"
+          ],
+          "reading": "Revisit Magadha, Mauryas, Buddhist and Jain sites and centres of learning in your assigned books.",
+          "task": "Create a Bihar map and timeline; write 150 words explaining the importance of Magadha in early state formation.",
+          "notes": [
+            "Ancient Bihar links state formation with religious and intellectual history. Rajgir and Pataliputra were political centres, while Bodh Gaya, Vaishali and Nalanda connect different traditions and periods.",
+            "Explain Magadha’s rise through resources, transport, surplus and political action together. Geography made opportunities available; conquest, alliances and institutions helped turn them into durable power.",
+            "Keep the chronology of sites separate. A place associated with the Buddha’s life need not have possessed its later monumental form at that time. Distinguish an early association from later patronage."
+          ],
+          "recall": "Why is geography alone insufficient to explain Magadha’s rise?",
+          "recallAnswer": "Resource and transport advantages mattered, but rulers also used alliances, warfare, revenue and institutions to consolidate their position.",
+          "deepReading": [
+            "magadha"
+          ],
+          "studyWords": 235
+        },
+        {
+          "day": 20,
+          "topic": "Ancient History test and repair",
+          "sources": [
+            "ncert6",
+            "ncert12a",
+            "tamil"
+          ],
+          "reading": "Revise the full Ancient segment using your error log.",
+          "task": "Take 50 mixed MCQs, write two short answers, and re-read the three weakest topics.",
+          "notes": [
+            "For an Ancient History test, interleave questions on sources, chronology, religion, states, trade and art. Reviewing only the most recent chapter creates an inflated sense of mastery.",
+            "Check qualifiers such as only, all and necessarily. A true observation about one site or period may become false when extended to every region. Eliminate options using evidence rather than familiarity alone.",
+            "In short answers, open with a dated context, organise the argument into themes and use two concrete examples. End with a qualification where evidence is limited. Review errors before moving to Medieval History."
+          ],
+          "recall": "What should an error log record besides the correct answer?",
+          "recallAnswer": "Record why the original choice seemed plausible, what evidence corrects it and whether the error concerns chronology, concepts, geography or reading the question.",
+          "deepReading": [
+            "sources",
+            "classical"
+          ],
+          "studyWords": 434
+        }
+      ]
+    },
+    {
+      "id": "medieval",
+      "title": "Medieval",
+      "description": "Use NCERT for political history, society, art and culture, supported by Class 12 thematic readings.",
+      "sources": [
+        "ncert7",
+        "ncert12b"
+      ],
+      "days": [
+        {
+          "day": 21,
+          "topic": "Sources and early medieval change",
+          "sources": [
+            "ncert7"
+          ],
+          "reading": "Our Pasts II: Tracing Changes through a Thousand Years.",
+          "task": "Build a c. 700–1750 CE timeline; compare chronicles, inscriptions, travel accounts and architecture.",
+          "notes": [
+            "Medieval history uses Persian and regional chronicles, inscriptions, travel accounts, coins and monuments. Authors often wrote for patrons; language and political context influence their descriptions.",
+            "Between roughly 700 and 1750, new dynasties, technologies, social groups and religious expressions emerged. A period label is a convenient framework, not a claim that society changed everywhere on one date.",
+            "Words such as Hindustan could have meanings different from their modern usage. Read terms in their source context. Political conflict cannot be reduced to timeless religious blocs."
+          ],
+          "recall": "Why must historical terms be read in context?",
+          "recallAnswer": "Their geographic, political and social meanings changed over time, so modern meanings can distort what the author intended.",
+          "deepReading": [
+            "sources"
+          ],
+          "studyWords": 264
+        },
+        {
+          "day": 22,
+          "topic": "Regional kingdoms and Cholas",
+          "sources": [
+            "ncert7"
+          ],
+          "reading": "Our Pasts II: New Kings and Kingdoms.",
+          "task": "Compare samantas, land grants and Chola local institutions; map regional kingdoms.",
+          "notes": [
+            "Regional kingdoms drew resources from agriculture, tribute, grants and warfare. Competition among Palas, Pratiharas and Rashtrakutas is one example of interaction across regions rather than isolated local histories.",
+            "Chola authority combined royal power with local institutions and temple-centred activity. Inscriptions provide evidence about assemblies and land administration. Participation was conditioned by status and qualifications.",
+            "Temples could be centres of worship, employment, production and the management of resources. Chola bronzes and maritime campaigns should be connected to these wider political and economic relationships."
+          ],
+          "recall": "Were Chola assemblies based on universal adult franchise?",
+          "recallAnswer": "No. Inscriptions indicate restrictions and qualifications; local participation should not be equated with modern universal voting rights.",
+          "deepReading": [
+            "regional"
+          ],
+          "studyWords": 231
+        },
+        {
+          "day": 23,
+          "topic": "Delhi Sultanate: political expansion",
+          "sources": [
+            "ncert7"
+          ],
+          "reading": "Our Pasts II: The Delhi Sultans, dynasties and expansion.",
+          "task": "Draw the dynasty sequence and map expansion; separate contemporary evidence from later accounts.",
+          "notes": [
+            "The Delhi Sultanate included Mamluk, Khalji, Tughlaq, Sayyid and Lodi dynasties. Learn their order before associating policies with individual rulers. Territories and practical control changed substantially over time.",
+            "Expansion relied on military campaigns, garrisons and arrangements for collecting revenue. Forests, communication difficulties, local resistance and Mongol pressure affected the capacity to govern.",
+            "Chronicles illuminate court politics but may say little about ordinary people. Compare them with inscriptions, archaeology and regional evidence to understand the relationship between conquest and administration."
+          ],
+          "recall": "Name the Sultanate dynasties in chronological order.",
+          "recallAnswer": "Mamluk, Khalji, Tughlaq, Sayyid and Lodi.",
+          "deepReading": [
+            "sultanate"
+          ],
+          "studyWords": 241
+        },
+        {
+          "day": 24,
+          "topic": "Sultanate administration",
+          "sources": [
+            "ncert7"
+          ],
+          "reading": "The Delhi Sultans: iqta, revenue, military organisation and measures under Khaljis and Tughlaqs.",
+          "task": "Compare administrative policies and write a short answer on the challenges of expansion.",
+          "notes": [
+            "An iqta assigned rights to collect revenue in return for obligations, including maintaining troops and administration. It was not simply private ownership of land. Rulers sought to supervise holders and their accounts.",
+            "Alauddin Khalji is associated with market regulation and military measures. Muhammad bin Tughlaq is associated with experiments including token currency and agricultural schemes. Distinguish the ruler, aim, implementation and result.",
+            "The period saw wider use or diffusion of technologies in crafts and building, including paper making and arched construction. Explain how adoption affected labour and urban life; do not assume every technology was invented in India during this period."
+          ],
+          "recall": "How is an iqta different from absolute private land ownership?",
+          "recallAnswer": "It involved assigned revenue rights linked to service and state supervision, rather than unrestricted permanent ownership of all land in the area.",
+          "deepReading": [
+            "sultanate"
+          ],
+          "studyWords": 263
+        },
+        {
+          "day": 25,
+          "topic": "Mughals and the Sur interlude",
+          "sources": [
+            "ncert7"
+          ],
+          "reading": "Our Pasts II: The Mughal Empire, political chronology including Humayun and Sher Shah.",
+          "task": "Trace Babur to Aurangzeb; add a Bihar note on Sher Shah and Sasaram from your available references.",
+          "notes": [
+            "Babur established Mughal power after the First Battle of Panipat in 1526. Humayun’s reign was interrupted by the Sur rulers before restoration. Keep the Sur interlude within the sixteenth-century sequence.",
+            "Sher Shah’s rule is associated with revenue administration, roads, sarais and currency measures. Sasaram in Bihar is an important site for studying his architectural legacy.",
+            "Akbar expanded and consolidated the empire; later rulers faced changing military and political circumstances. The dynasty’s succession conflicts and alliances are more informative than a ruler list alone."
+          ],
+          "recall": "Where does Sher Shah fit in the Mughal chronology?",
+          "recallAnswer": "He displaced Humayun and established Sur rule between Babur’s foundation of Mughal power and the later consolidation under Akbar.",
+          "deepReading": [
+            "mughal"
+          ],
+          "studyWords": 236
+        },
+        {
+          "day": 26,
+          "topic": "Mughal administration and agrarian society",
+          "sources": [
+            "ncert7",
+            "ncert12b"
+          ],
+          "reading": "Our Pasts II: Mughal administration; Themes II: Peasants, Zamindars and the State.",
+          "task": "Explain mansab, jagir, zamindar and revenue assessment; distinguish rank from a hereditary estate.",
+          "notes": [
+            "Mansab ranked imperial servants, while jagir assignments supported remuneration through revenue. Zat and sawar related to status and cavalry obligations. A mansab and a jagir were connected but were not identical institutions.",
+            "Peasants, village communities, zamindars and officials participated in agrarian production and revenue collection. Zamindars had varied local rights and power; they were not simply Mughal officials appointed anew in every case.",
+            "The Ain-i Akbari presents an imperial account of administration and resources. Compare its classificatory ambitions with regional evidence and remember that formal assessment did not always equal actual collection."
+          ],
+          "recall": "What is the difference between mansab and jagir?",
+          "recallAnswer": "Mansab denotes rank and associated obligations; jagir is an assignment of revenue used to support remuneration and service.",
+          "deepReading": [
+            "mughal"
+          ],
+          "studyWords": 245
+        },
+        {
+          "day": 27,
+          "topic": "Revision: kingdoms and administration",
+          "sources": [
+            "ncert7",
+            "ncert12b"
+          ],
+          "reading": "Revisit Days 21–26.",
+          "task": "Solve 30 relevant MCQs and compare Sultanate and Mughal administration in a one-page table.",
+          "notes": [
+            "Rebuild two timelines: Sultanate dynasties and Mughal rulers including the Sur interlude. Add one administrative measure and one source to each major ruler rather than memorising dates in isolation.",
+            "Compare iqta and jagir through revenue assignment, service and supervision. Similarities should not erase changes in administrative context, terminology and practical operation.",
+            "For a comparison answer, use common headings such as recruitment, revenue, military obligations and local intermediaries. A list describing one state followed by another is less effective than a direct comparison."
+          ],
+          "recall": "How should you organise an administrative comparison?",
+          "recallAnswer": "Use the same dimensions for both systems, then identify similarities, differences and limits in the surviving evidence.",
+          "deepReading": [
+            "sultanate",
+            "mughal"
+          ],
+          "studyWords": 397
+        },
+        {
+          "day": 28,
+          "topic": "Vijayanagara",
+          "sources": [
+            "ncert12b"
+          ],
+          "reading": "Themes II: An Imperial Capital—Vijayanagara.",
+          "task": "Sketch the sacred centre, royal centre and waterworks; list the archaeological and travel-account evidence.",
+          "notes": [
+            "Vijayanagara’s capital developed around a landscape of rocky hills and the Tungabhadra. Fortifications, roads, reservoirs and canals connected political power to the management of water and movement.",
+            "The sacred centre and royal centre served different but overlapping functions. Temples, ceremonial spaces and monumental structures communicated authority while also supporting economic activity.",
+            "Travel accounts and archaeology should be read together. Devaraya I is associated with a dam and waterworks bringing Tungabhadra water towards the capital, a detail tested in the 2023 Prelims paper."
+          ],
+          "recall": "Why was water management significant at Vijayanagara?",
+          "recallAnswer": "It supported agriculture and urban supply in the local landscape and demonstrated the ruler’s ability to mobilise labour and resources.",
+          "deepReading": [
+            "vijayanagara"
+          ],
+          "studyWords": 240
+        },
+        {
+          "day": 29,
+          "topic": "Bhakti and Sufi traditions",
+          "sources": [
+            "ncert7",
+            "ncert12b"
+          ],
+          "reading": "Our Pasts II: Devotional Paths to the Divine; Themes II: Bhakti-Sufi Traditions.",
+          "task": "Compare major saints, languages, ideas and Sufi silsilas without treating either tradition as uniform.",
+          "notes": [
+            "Bhakti traditions emphasised varied relationships of devotion to the divine. Alvars, Nayanars, Kabir and other figures differed in language, theology and social setting. Saguna and nirguna are useful distinctions, not complete descriptions of every tradition.",
+            "Sufi communities formed around teachers and spiritual lineages. Khanqahs provided settings for instruction, devotion and social interaction. Different silsilas maintained different relationships with political authority.",
+            "Poems, hagiographies and later collections require source criticism. Teachings could challenge social hierarchy without eliminating it in practice. Explain both devotional expression and its social setting."
+          ],
+          "recall": "Why should Bhakti and Sufi traditions not be treated as uniform movements?",
+          "recallAnswer": "They included different teachers, institutions, practices and political relationships across regions and centuries.",
+          "deepReading": [
+            "culture"
+          ],
+          "studyWords": 237
+        },
+        {
+          "day": 30,
+          "topic": "Travellers and everyday life",
+          "sources": [
+            "ncert12b"
+          ],
+          "reading": "Themes II: Through the Eyes of Travellers.",
+          "task": "Compare Al-Biruni, Ibn Battuta and Bernier by period, observations and limitations.",
+          "notes": [
+            "Al-Biruni, Ibn Battuta and Bernier visited in different centuries and wrote from different intellectual positions. Place each author in context before comparing observations.",
+            "Al-Biruni engaged with Sanskrit learning; Ibn Battuta described travel, cities and communication; Bernier compared Mughal arrangements with European ones. Each selected and interpreted material through personal expectations.",
+            "An outsider’s account can reveal unfamiliar practices but also misunderstand them. Claims about property, caste or social life should be compared with local texts, inscriptions and administrative evidence."
+          ],
+          "recall": "What is a common limitation of a traveller’s account?",
+          "recallAnswer": "Its author saw only part of a society and interpreted it through particular expectations, interests and access to information.",
+          "deepReading": [
+            "travellers"
+          ],
+          "studyWords": 244
+        },
+        {
+          "day": 31,
+          "topic": "Architecture and regional culture",
+          "sources": [
+            "ncert7"
+          ],
+          "reading": "Our Pasts II: Rulers and Buildings and The Making of Regional Cultures, where retained in your edition.",
+          "task": "Create a monument–patron–style table; use the revision notes above for omitted legacy topics.",
+          "notes": [
+            "Buildings communicated authority through scale, inscriptions, location and patronage. Temples, mosques, tombs and forts also employed artisans and materials drawn from different networks.",
+            "Distinguish trabeate construction from arcuate techniques, while recognising hybrid practices. Architectural change involved adaptation and regional traditions, not a complete overnight replacement of one style by another.",
+            "Regional cultures developed through language, literature, religious practice and court patronage. In Bihar, Sher Shah’s tomb at Sasaram offers a useful example linking monument, ruler and place."
+          ],
+          "recall": "What is the basic structural difference between trabeate and arcuate construction?",
+          "recallAnswer": "Trabeate systems use horizontal beams supported by posts; arcuate systems use arches and related vaulting principles.",
+          "deepReading": [
+            "culture"
+          ],
+          "studyWords": 228
+        },
+        {
+          "day": 32,
+          "topic": "Towns, crafts and communities",
+          "sources": [
+            "ncert7",
+            "ncert12b"
+          ],
+          "reading": "Our Pasts II: towns and trade where available; Tribes, Nomads and Settled Communities; Themes II: agrarian society.",
+          "task": "Compare urban crafts, itinerant trade and tribal state formation; add Gond and Ahom examples.",
+          "notes": [
+            "Medieval towns varied in function: administrative centres, pilgrimage destinations, ports and craft-producing settlements often overlapped. Merchants and artisans connected local markets to long-distance exchange.",
+            "Tribal and pastoral communities were not isolated from states or settled agriculture. Their relationships included conflict, trade, tribute and political formation. Gond and Ahom histories show different paths of state building.",
+            "Changing environments and political demands could alter occupations and identities. Avoid describing all forest communities as unchanged survivals from an earlier era."
+          ],
+          "recall": "Why is it misleading to treat tribal societies as outside history?",
+          "recallAnswer": "They interacted with other communities and states, changed economically and politically, and sometimes built powerful regional states.",
+          "deepReading": [
+            "travellers"
+          ],
+          "studyWords": 243
+        },
+        {
+          "day": 33,
+          "topic": "Eighteenth-century regional powers",
+          "sources": [
+            "ncert7"
+          ],
+          "reading": "Our Pasts II: Eighteenth-Century Political Formations.",
+          "task": "Map Awadh, Bengal, Hyderabad, Marathas and Sikhs; distinguish Mughal decline from an absence of political activity.",
+          "notes": [
+            "The weakening of central Mughal authority opened space for regional powers. Bengal, Awadh and Hyderabad developed substantial autonomy while often retaining elements of Mughal legitimacy and administration.",
+            "Maratha expansion, Sikh power and other regional formations show that the eighteenth century was a period of political reorganisation. Networks of bankers, merchants and revenue officials remained significant.",
+            "British expansion must be placed within this competitive setting. Mughal decline alone does not explain Company success; finance, alliances, military organisation and particular conflicts also mattered."
+          ],
+          "recall": "Was eighteenth-century India simply a political vacuum?",
+          "recallAnswer": "No. Regional states and commercial networks remained active, and the Company expanded through interactions and conflicts with these powers.",
+          "deepReading": [
+            "regional"
+          ],
+          "studyWords": 230
+        },
+        {
+          "day": 34,
+          "topic": "Medieval Bihar and culture revision",
+          "sources": [
+            "ncert7",
+            "ncert12b"
+          ],
+          "reading": "Revisit the Sur dynasty, agrarian relations, Sufi traditions and regional culture.",
+          "task": "Consolidate Bihar references and monument notes; write a 150-word answer on cultural interaction.",
+          "notes": [
+            "Connect medieval Bihar to larger processes through Sher Shah, regional administration, agriculture and religious networks. Site-based revision works best when linked to a dated political context.",
+            "Cultural interaction occurred through language, crafts, architecture and devotional traditions. Interaction did not always mean harmony, just as political conflict did not prevent exchange.",
+            "Use precise examples and avoid generalisations about entire religious communities. A Mains answer should show who interacted, in what setting and with what evidence."
+          ],
+          "recall": "How can cultural interaction and political conflict coexist?",
+          "recallAnswer": "Artisans, merchants and religious networks can continue exchanging ideas and practices even when rulers or political groups compete.",
+          "deepReading": [
+            "culture"
+          ],
+          "studyWords": 225
+        },
+        {
+          "day": 35,
+          "topic": "Medieval History test and repair",
+          "sources": [
+            "ncert7",
+            "ncert12b"
+          ],
+          "reading": "Revise the full Medieval segment and compare it with Ancient History.",
+          "task": "Take 50 MCQs and two short answers; repair weak topics and complete a combined chronology.",
+          "notes": [
+            "Review political chronology alongside institutions: Sultanate dynasties, Mughal succession, Vijayanagara and regional powers. Test terminology such as iqta, mansab, jagir and zamindar in context.",
+            "Connect cultural topics to evidence: a traveller’s claim, a donor inscription, a monument or a devotional composition. Explain what each reveals and what it cannot establish.",
+            "For the transition to Modern History, revisit eighteenth-century states and trading networks. Build the bridge from regional politics to Company expansion rather than starting modern history without context."
+          ],
+          "recall": "What links the Medieval and Modern segments of this course?",
+          "recallAnswer": "Eighteenth-century regional state formation, commercial networks and European trading companies provide the setting for colonial expansion.",
+          "deepReading": [
+            "regional",
+            "mughal"
+          ],
+          "studyWords": 380
+        }
+      ]
+    },
+    {
+      "id": "modern",
+      "title": "Modern",
+      "description": "Start with the matching NCERT theme, use Spectrum for systematic coverage, and deepen your understanding of the freedom struggle with Bipan Chandra.",
+      "sources": [
+        "ncert12c",
+        "spectrum",
+        "bipan"
+      ],
+      "days": [
+        {
+          "day": 36,
+          "topic": "European entry and Company expansion",
+          "sources": [
+            "ncert12c",
+            "spectrum"
+          ],
+          "reading": "Foundation: NCERT Themes III — Colonialism and the Countryside; Rebels and the Raj; focus on today’s topic. Main reading: Read the sections on European trading companies, Carnatic conflicts, Bengal, Plassey and Buxar.",
+          "task": "Map trading centres and make a battle–treaty–consequence table; highlight Buxar and the Diwani.",
+          "notes": [
+            "European companies sought profitable trade through coastal factories, privileges and armed competition. Commercial presence did not automatically produce territorial rule; political opportunities and military conflicts changed their role.",
+            "Plassey in 1757 depended heavily on intrigue within Bengal’s ruling elite. Buxar in 1764 strengthened Company power against a coalition including Bengal, Awadh and the Mughal emperor.",
+            "The Diwani grant of 1765 gave the Company revenue rights in Bengal, Bihar and Orissa. Revenue could finance military and commercial expansion, linking economic extraction with political power."
+          ],
+          "recall": "Why was the Diwani grant important?",
+          "recallAnswer": "It provided a major revenue base, enabling the Company to fund administration, armies and further expansion.",
+          "deepReading": [
+            "company"
+          ],
+          "studyWords": 240
+        },
+        {
+          "day": 37,
+          "topic": "Conquest and colonial administration",
+          "sources": [
+            "ncert12c",
+            "spectrum"
+          ],
+          "reading": "Foundation: NCERT Themes III — Colonialism and the Countryside; Rebels and the Raj; focus on today’s topic. Main reading: Read British expansion, subsidiary alliances, annexation and the development of administration.",
+          "task": "Compare methods of expansion and organise major administrative changes chronologically.",
+          "notes": [
+            "The Company expanded through war, alliances and annexation. Subsidiary alliances restricted an ally’s freedom while imposing military and financial obligations; the Doctrine of Lapse was a different annexation device.",
+            "Parliamentary legislation increasingly supervised Company rule. The Regulating Act of 1773 and later measures changed governing institutions. The Charter Act of 1833 made the Governor-General of Bengal the Governor-General of India.",
+            "Administrative centralisation was gradual and uneven. Compare the legal design with regional implementation, and connect reforms to revenue, military needs and political control."
+          ],
+          "recall": "Which Act changed the title to Governor-General of India?",
+          "recallAnswer": "The Charter Act of 1833. Do not confuse it with the earlier Regulating Act of 1773.",
+          "deepReading": [
+            "company"
+          ],
+          "studyWords": 240
+        },
+        {
+          "day": 38,
+          "topic": "Land revenue and colonial economy",
+          "sources": [
+            "ncert12c",
+            "spectrum"
+          ],
+          "reading": "Foundation: NCERT Themes III — Colonialism and the Countryside; Rebels and the Raj; focus on today’s topic. Main reading: Read land settlements, economic impact, deindustrialisation, drain of wealth and commercialisation.",
+          "task": "Compare Permanent, Ryotwari and Mahalwari settlements; connect the Permanent Settlement to Bihar.",
+          "notes": [
+            "The Permanent Settlement fixed the state demand on zamindars in the areas where it operated. Ryotwari arrangements assessed cultivators directly, while Mahalwari arrangements were associated with village estates or groups. Terms and implementation varied.",
+            "High demands, rigid collection and market pressures could worsen rural vulnerability. Fixed state demand did not mean fixed rents for every cultivator or secure conditions for all tenants.",
+            "Nationalist economic criticism examined the drain of wealth, unequal trade and pressure on crafts. Distinguish changes in employment and markets from an assumption that every craft disappeared."
+          ],
+          "recall": "Did the Permanent Settlement fix every peasant’s rent permanently?",
+          "recallAnswer": "No. Fixing the state’s demand on zamindars did not automatically fix all rents paid by tenants.",
+          "deepReading": [
+            "rural"
+          ],
+          "studyWords": 262
+        },
+        {
+          "day": 39,
+          "topic": "Resistance before 1857",
+          "sources": [
+            "ncert12c",
+            "spectrum",
+            "bipan"
+          ],
+          "reading": "Foundation: NCERT Themes III — Colonialism and the Countryside; Rebels and the Raj; focus on today’s topic. Main reading: Spectrum: civil, tribal and peasant resistance; Bipan Chandra: matching early resistance discussions.",
+          "task": "Make a movement–region–grievance–leadership table; include Santhal and Kol resistance with historical regional context.",
+          "notes": [
+            "Resistance before 1857 emerged from varied grievances: revenue demands, interference with local power, debt, forest restrictions and disruption of livelihoods. Different movements had distinct aims and social bases.",
+            "Santhal and Kol resistance should be located in their historical regions, including areas now in Jharkhand. Current state boundaries should not be projected backwards without explanation.",
+            "Avoid describing every protest as an already unified national movement. Some defended local rights or authority, but together they reveal the uneven and contested establishment of colonial power."
+          ],
+          "recall": "Why should early resistance movements be studied separately before comparison?",
+          "recallAnswer": "Their participants, grievances, political goals and regional contexts differed; comparison becomes useful only after these differences are clear.",
+          "deepReading": [
+            "rural"
+          ],
+          "studyWords": 255
+        },
+        {
+          "day": 40,
+          "topic": "The Revolt of 1857",
+          "sources": [
+            "ncert12c",
+            "spectrum",
+            "bipan"
+          ],
+          "reading": "Foundation: NCERT Themes III — Colonialism and the Countryside; Rebels and the Raj; focus on today’s topic. Main reading: Read the matching sections on the revolt, its social base, regional spread and British response.",
+          "task": "Map centres and leaders including Kunwar Singh; write an answer on causes and limitations.",
+          "notes": [
+            "The 1857 uprising combined military grievances with wider political and social discontent. Annexation, dispossession and fears about interference helped create conditions in which the cartridge controversy became a trigger.",
+            "Participation and leadership varied by region. Delhi, Awadh, Kanpur, Jhansi and parts of Bihar are key locations. Kunwar Singh is central to the Bihar story, but the revolt did not spread uniformly across India.",
+            "After suppression, rule passed from the Company to the Crown in 1858. Changes in the army and policy towards princes accompanied new official assurances. Debate about the revolt’s nature should consider evidence of both common action and differing objectives."
+          ],
+          "recall": "Why distinguish a trigger from the causes of 1857?",
+          "recallAnswer": "The cartridge issue helped ignite rebellion, but military, political and social grievances explain why it spread and attracted wider support.",
+          "deepReading": [
+            "revolt"
+          ],
+          "studyWords": 267
+        },
+        {
+          "day": 41,
+          "topic": "Social and religious reform",
+          "sources": [
+            "ncert12c",
+            "spectrum"
+          ],
+          "reading": "Foundation: NCERT Themes III — Colonialism and the Countryside; Rebels and the Raj; focus on today’s topic. Main reading: Read reform movements, education, press and women’s questions.",
+          "task": "Compare organisations, founders, approaches and limitations; avoid reducing reform to founder lists alone.",
+          "notes": [
+            "Reform movements engaged with religion, caste, gender and education in different ways. Some sought reinterpretation of tradition, others attacked entrenched hierarchy more directly. Region and social background shaped their agendas.",
+            "Compare the Brahmo Samaj, Arya Samaj, Aligarh movement and anti-caste initiatives through aims, methods and constituencies. Founder lists alone cannot explain the debates within and between them.",
+            "Print and education widened public discussion but access remained unequal. Women and marginalised groups were participants with their own voices, not merely passive recipients of reform."
+          ],
+          "recall": "What makes a comparison of reform movements analytical?",
+          "recallAnswer": "It compares social aims, methods, audiences and limits, rather than only listing founders and dates.",
+          "deepReading": [
+            "reform"
+          ],
+          "studyWords": 247
+        },
+        {
+          "day": 42,
+          "topic": "Revision: conquest and resistance",
+          "sources": [
+            "ncert12c",
+            "spectrum",
+            "bipan"
+          ],
+          "reading": "Foundation: NCERT Themes III — Colonialism and the Countryside; Rebels and the Raj; focus on today’s topic. Main reading: Revisit Days 36–41 and cross-check your chronology.",
+          "task": "Attempt 40 MCQs and one answer on the economic consequences of colonial rule.",
+          "notes": [
+            "Connect Company trade, territorial conquest and revenue extraction as mutually reinforcing processes. Treat Plassey, Buxar and the Diwani as different stages rather than interchangeable milestones.",
+            "Compare rural settlements using who paid, how demand was assessed and what rights were recognised. Then connect administrative arrangements to rural resistance and indebtedness.",
+            "Revise 1857 alongside earlier resistance and reform movements without merging their distinct purposes. Your error log should identify whether a mistaken answer confuses a person, date, institution or causal relationship."
+          ],
+          "recall": "What sequence connects Buxar and the Diwani?",
+          "recallAnswer": "The Company’s victory at Buxar in 1764 strengthened its bargaining power; in 1765 it obtained the Diwani of Bengal, Bihar and Orissa.",
+          "deepReading": [
+            "company",
+            "revolt"
+          ],
+          "studyWords": 401
+        },
+        {
+          "day": 43,
+          "topic": "Nationalism and the early Congress",
+          "sources": [
+            "ncert12c",
+            "spectrum",
+            "bipan"
+          ],
+          "reading": "Foundation: NCERT Themes III — Mahatma Gandhi and the Nationalist Movement; focus on today’s topic. Main reading: Read the emergence of nationalism, formation of Congress and moderate politics.",
+          "task": "Explain economic critique and political methods; build a session–president–decision table for key sessions.",
+          "notes": [
+            "Modern nationalism emerged through political associations, print, economic criticism and shared opposition to colonial rule. Its development was uneven, and early leadership drew heavily from educated groups.",
+            "The Congress, founded in 1885, provided a wider platform for demands and political communication. Early leaders used petitions, public argument and constitutional reform demands, including greater Indian participation in administration.",
+            "The economic critique exposed links between poverty and colonial policies. Assess early politics through institution building and public education as well as its limited social reach."
+          ],
+          "recall": "Why did the economic critique matter for nationalism?",
+          "recallAnswer": "It connected diverse economic grievances to the structure of colonial rule and helped create a shared political explanation of poverty.",
+          "deepReading": [
+            "nationalism"
+          ],
+          "studyWords": 243
+        },
+        {
+          "day": 44,
+          "topic": "Swadeshi and assertive nationalism",
+          "sources": [
+            "ncert12c",
+            "spectrum",
+            "bipan"
+          ],
+          "reading": "Foundation: NCERT Themes III — Mahatma Gandhi and the Nationalist Movement; focus on today’s topic. Main reading: Read Bengal partition, Swadeshi, boycott and the Surat split.",
+          "task": "Compare forms of mobilisation, participation and limitations; draw the 1905–1908 timeline.",
+          "notes": [
+            "The 1905 partition of Bengal provoked mobilisation through boycott, swadeshi, national education and public activity. Different regions and social groups participated in different ways.",
+            "The movement linked consumption and production with political protest. Its programmes encouraged indigenous enterprise and cultural expression but faced limits in sustained participation and inclusion.",
+            "Disputes over methods and leadership contributed to the 1907 Surat split. Distinguish the partition announcement, the boycott mobilisation and later organisational conflicts within the Congress."
+          ],
+          "recall": "How did boycott and swadeshi complement each other?",
+          "recallAnswer": "Boycott discouraged selected foreign goods or institutions, while swadeshi promoted indigenous production and alternative institutions.",
+          "deepReading": [
+            "nationalism"
+          ],
+          "studyWords": 234
+        },
+        {
+          "day": 45,
+          "topic": "Revolutionaries and Home Rule",
+          "sources": [
+            "ncert12c",
+            "spectrum",
+            "bipan"
+          ],
+          "reading": "Foundation: NCERT Themes III — Mahatma Gandhi and the Nationalist Movement; focus on today’s topic. Main reading: Read revolutionary activity, Ghadar, the First World War, Home Rule and the Lucknow Pact.",
+          "task": "Distinguish revolutionary networks from constitutional campaigns; connect 1909 reforms and wartime politics.",
+          "notes": [
+            "Revolutionary groups, the Ghadar movement and Home Rule campaigns pursued different strategies. Separate clandestine armed action and overseas networks from organised campaigns for self-government within public politics.",
+            "The First World War changed economic pressures and political expectations. Home Rule Leagues associated with Tilak and Annie Besant expanded discussion of self-government.",
+            "The Lucknow Pact of 1916 marked Congress–League agreement on constitutional demands, while also accepting separate electorates. Describe the agreement’s context and consequences without assuming permanent unity."
+          ],
+          "recall": "Were Home Rule and Ghadar the same kind of movement?",
+          "recallAnswer": "No. Home Rule used public political campaigns for self-government, while Ghadar developed revolutionary networks, especially among Indians overseas.",
+          "deepReading": [
+            "nationalism"
+          ],
+          "studyWords": 236
+        },
+        {
+          "day": 46,
+          "topic": "Gandhi’s early campaigns",
+          "sources": [
+            "ncert12c",
+            "spectrum",
+            "bipan"
+          ],
+          "reading": "Foundation: NCERT Themes III — Mahatma Gandhi and the Nationalist Movement; focus on today’s topic. Main reading: Read Gandhi’s return, Champaran, Ahmedabad and Kheda.",
+          "task": "Compare grievances and methods; prepare a Bihar-focused note on Champaran and local participation.",
+          "notes": [
+            "Gandhi’s early Indian campaigns addressed specific local grievances. Champaran in 1917 concerned indigo cultivators; Ahmedabad in 1918 involved mill workers; Kheda in 1918 concerned revenue relief.",
+            "Satyagraha combined resistance with a claim to ethical discipline and truth. Local organisers, inquiry, negotiation and participation mattered alongside Gandhi’s leadership.",
+            "Compare Gandhi’s emphasis on craft, community and moral self-rule with Tagore’s educational internationalism and criticism of aggressive nationalism. Their disagreements coexisted with mutual respect and criticism of colonial domination."
+          ],
+          "recall": "What distinguishes the grievances of Champaran and Ahmedabad?",
+          "recallAnswer": "Champaran involved the conditions imposed on indigo cultivators; Ahmedabad involved a labour dispute between textile workers and mill owners.",
+          "deepReading": [
+            "gandhi"
+          ],
+          "studyWords": 225
+        },
+        {
+          "day": 47,
+          "topic": "Rowlatt, Khilafat and Non-Cooperation",
+          "sources": [
+            "ncert12c",
+            "spectrum",
+            "bipan"
+          ],
+          "reading": "Foundation: NCERT Themes III — Mahatma Gandhi and the Nationalist Movement; focus on today’s topic. Main reading: Read the Rowlatt agitation, Jallianwala Bagh, Khilafat and Non-Cooperation.",
+          "task": "Create a cause–programme–participation–withdrawal chart and explain Chauri Chaura’s significance.",
+          "notes": [
+            "The Rowlatt legislation extended coercive powers after the war, prompting widespread opposition. The Jallianwala Bagh massacre in 1919 deepened anger and distrust of colonial authority.",
+            "Non-Cooperation joined boycott of institutions and titles with constructive work. The Khilafat issue helped create a wider alliance, though participants did not always share the same immediate goals.",
+            "Gandhi withdrew the movement after the Chauri Chaura violence in 1922. Explain the tension between mass mobilisation and non-violent discipline rather than treating withdrawal as a simple absence of popular support."
+          ],
+          "recall": "Why is Chauri Chaura significant?",
+          "recallAnswer": "The violence there prompted Gandhi to withdraw Non-Cooperation because he considered non-violent discipline essential to the movement.",
+          "deepReading": [
+            "gandhi"
+          ],
+          "studyWords": 233
+        },
+        {
+          "day": 48,
+          "topic": "Politics during the 1920s",
+          "sources": [
+            "ncert12c",
+            "spectrum",
+            "bipan"
+          ],
+          "reading": "Foundation: NCERT Themes III — Mahatma Gandhi and the Nationalist Movement; focus on today’s topic. Main reading: Read Swarajists, constructive work, revolutionary nationalism, Simon Commission and the Nehru Report.",
+          "task": "Trace the debate from constitutional reform to complete independence.",
+          "notes": [
+            "After Non-Cooperation, Swarajists favoured entering councils to challenge colonial government from within, while others emphasised constructive work. These were debates over strategy within a broader anti-colonial struggle.",
+            "The Simon Commission drew opposition because it had no Indian members. Constitutional proposals, including the Nehru Report, exposed disagreements about representation and the desired form of self-government.",
+            "Revolutionary activity and socialist ideas also gained attention. By the Lahore session of 1929, the Congress adopted complete independence as its objective, preparing the ground for another mass campaign."
+          ],
+          "recall": "What was the strategic issue dividing Swarajists and their critics?",
+          "recallAnswer": "Whether to enter legislative councils to obstruct and expose colonial rule or concentrate on constructive work and activity outside those institutions.",
+          "deepReading": [
+            "nationalism",
+            "gandhi"
+          ],
+          "studyWords": 392
+        },
+        {
+          "day": 49,
+          "topic": "Revision: nationalism to 1929",
+          "sources": [
+            "ncert12c",
+            "spectrum",
+            "bipan"
+          ],
+          "reading": "Foundation: NCERT Themes III — Mahatma Gandhi and the Nationalist Movement; focus on today’s topic. Main reading: Revisit Days 43–48.",
+          "task": "Attempt 40 MCQs and compare Swadeshi with Non-Cooperation in a short answer.",
+          "notes": [
+            "Trace the sequence from early Congress politics through Swadeshi, Home Rule and Non-Cooperation to complete independence. For each stage, identify the grievance, method, participants and limits.",
+            "Compare movements through mobilisation rather than leaders alone. Boycott, public meetings, schools, local campaigns and constructive work connected political demands with everyday practices.",
+            "Keep constitutional negotiations, revolutionary activity and mass campaigns on parallel timelines. They interacted but were not identical strands of the freedom struggle."
+          ],
+          "recall": "How does comparing participation improve a history answer?",
+          "recallAnswer": "It shows which groups joined, why they joined and how their goals differed, moving beyond a narrative of leaders and events.",
+          "deepReading": [
+            "nationalism"
+          ],
+          "studyWords": 231
+        },
+        {
+          "day": 50,
+          "topic": "Civil Disobedience",
+          "sources": [
+            "ncert12c",
+            "spectrum",
+            "bipan"
+          ],
+          "reading": "Foundation: NCERT Themes III — Mahatma Gandhi and the Nationalist Movement; focus on today’s topic. Main reading: Read the Lahore session, Salt March, regional mobilisation and Gandhi–Irwin Pact.",
+          "task": "Compare Civil Disobedience with Non-Cooperation; note women’s participation and regional differences.",
+          "notes": [
+            "The Salt March in 1930 challenged an everyday tax and opened Civil Disobedience. Breaking selected laws differed from the earlier emphasis on withdrawal from colonial institutions.",
+            "Participation included salt making, boycott and forms of rural protest that varied by region. Women’s public participation expanded, but social and regional limits should remain visible.",
+            "The Gandhi–Irwin Pact of 1931 suspended the movement and enabled Congress participation in the Second Round Table Conference. Distinguish negotiation from the achievement of independence."
+          ],
+          "recall": "How did Civil Disobedience differ in method from Non-Cooperation?",
+          "recallAnswer": "Civil Disobedience directly violated selected laws, while Non-Cooperation principally withdrew support from institutions, titles and other links with colonial authority.",
+          "deepReading": [
+            "gandhi"
+          ],
+          "studyWords": 226
+        },
+        {
+          "day": 51,
+          "topic": "Constitutional negotiations",
+          "sources": [
+            "ncert12c",
+            "spectrum",
+            "bipan"
+          ],
+          "reading": "Foundation: NCERT Themes III — Mahatma Gandhi and the Nationalist Movement; focus on today’s topic. Main reading: Read Round Table Conferences, Communal Award, Poona Pact and the Government of India Act 1935.",
+          "task": "Separate proposals from enacted provisions; make a representation and franchise comparison table.",
+          "notes": [
+            "The Round Table Conferences addressed constitutional arrangements but did not resolve the central conflicts over power and representation. Congress participation differed across the conferences.",
+            "The Communal Award and Poona Pact of 1932 must be distinguished: the latter replaced separate electorates for the Depressed Classes with reserved seats in joint electorates, within the agreed arrangement.",
+            "The Government of India Act 1935 introduced provincial autonomy and proposed an all-India federation that did not come into operation. Separate enacted provisions from proposals and actual implementation."
+          ],
+          "recall": "Did the proposed federation under the 1935 Act actually begin functioning?",
+          "recallAnswer": "No. Provincial autonomy operated, but the proposed all-India federation did not come into effect.",
+          "deepReading": [
+            "constitution"
+          ],
+          "studyWords": 237
+        },
+        {
+          "day": 52,
+          "topic": "Congress ministries and social movements",
+          "sources": [
+            "ncert12c",
+            "spectrum",
+            "bipan"
+          ],
+          "reading": "Foundation: NCERT Themes III — Mahatma Gandhi and the Nationalist Movement; focus on today’s topic. Main reading: Read the 1937 elections, ministries, socialist currents, workers and peasants.",
+          "task": "Add Bihar’s peasant mobilisation and Sahajanand Saraswati; assess the achievements and limits of ministries.",
+          "notes": [
+            "The 1937 elections led to Congress ministries in several provinces under the 1935 Act. They pursued reforms while operating within restricted powers and the continuing authority of governors.",
+            "Peasant and labour organisations pressed demands that did not always align neatly with provincial governments. Socialist currents widened debates over the social content of freedom.",
+            "Sahajanand Saraswati and organised peasant mobilisation are important for Bihar. Connect tenancy, agrarian inequality and organisation rather than reducing the movement to one leader’s biography."
+          ],
+          "recall": "Why were Congress ministries not fully sovereign governments?",
+          "recallAnswer": "They operated under colonial legislation, limited provincial powers and governors’ reserved authority, while central power remained colonial.",
+          "deepReading": [
+            "constitution",
+            "rural"
+          ],
+          "studyWords": 406
+        },
+        {
+          "day": 53,
+          "topic": "War and Quit India",
+          "sources": [
+            "ncert12c",
+            "spectrum",
+            "bipan"
+          ],
+          "reading": "Foundation: NCERT Themes III — Mahatma Gandhi and the Nationalist Movement; focus on today’s topic. Main reading: Read the Second World War, August Offer, Individual Satyagraha, Cripps Mission and Quit India.",
+          "task": "Build a 1939–1942 sequence and a Bihar note on underground activity and Jayaprakash Narayan.",
+          "notes": [
+            "India’s involvement in the Second World War without consultation deepened constitutional conflict. Congress ministries resigned in 1939; subsequent negotiations and offers failed to produce agreement.",
+            "The failure of the Cripps Mission, wartime hardship and the threat of Japanese advance formed the setting for Quit India in August 1942. Arrests of major leaders were followed by widespread and varied local action.",
+            "Underground networks and parallel governments in some areas showed continued resistance despite severe repression. In Bihar, Jayaprakash Narayan’s underground role is important. The movement did not immediately force British withdrawal."
+          ],
+          "recall": "Why should Quit India’s results be assessed beyond immediate independence?",
+          "recallAnswer": "It was repressed and did not immediately end colonial rule, but demonstrated deep opposition and the limits of governing without Indian consent.",
+          "deepReading": [
+            "independence"
+          ],
+          "studyWords": 260
+        },
+        {
+          "day": 54,
+          "topic": "Subhas Bose and the INA",
+          "sources": [
+            "ncert12c",
+            "spectrum",
+            "bipan"
+          ],
+          "reading": "Foundation: NCERT Themes III — Mahatma Gandhi and the Nationalist Movement; focus on today’s topic. Main reading: Read Bose, the INA, INA trials and the Royal Indian Navy uprising.",
+          "task": "Compare military, political and popular pressure in the final phase of British rule.",
+          "notes": [
+            "Subhas Chandra Bose sought international and military means to end British rule. The INA’s development involved Indian prisoners of war and overseas communities in Southeast Asia.",
+            "Military setbacks did not exhaust the INA’s political significance. The trials generated public sympathy and mobilisation across different constituencies in India.",
+            "The 1946 naval uprising added to the atmosphere of unrest. Evaluate these events alongside mass politics, wartime exhaustion and constitutional negotiations; avoid claiming that one event alone produced independence."
+          ],
+          "recall": "How could the INA matter politically despite military defeat?",
+          "recallAnswer": "Its members’ trials stimulated public mobilisation and raised questions about loyalty, legitimacy and the future of colonial authority.",
+          "deepReading": [
+            "independence"
+          ],
+          "studyWords": 246
+        },
+        {
+          "day": 55,
+          "topic": "Transfer of power and Partition",
+          "sources": [
+            "ncert12c",
+            "spectrum",
+            "bipan"
+          ],
+          "reading": "Foundation: NCERT Themes III — Mahatma Gandhi and the Nationalist Movement; focus on today’s topic. Main reading: Read Wavell, Cabinet Mission, interim government, Partition and the transfer of power.",
+          "task": "Compare successive proposals; write a balanced answer on the causes and consequences of Partition.",
+          "notes": [
+            "The Cabinet Mission of 1946 proposed a constitutional framework for a united India with a limited centre and grouping arrangements. Disagreements over its meaning and operation were central to its failure.",
+            "Communal conflict, competing political claims and the breakdown of negotiations shaped the final transfer of power. The Mountbatten Plan and Indian Independence Act of 1947 belong to the final stage.",
+            "Partition involved displacement, violence and the division of institutions and territories. A balanced answer connects high politics with lived experience and avoids portraying the outcome as inevitable from the start."
+          ],
+          "recall": "Why distinguish the Cabinet Mission from the final Partition plan?",
+          "recallAnswer": "The Cabinet Mission sought a constitutional arrangement for a united India; the later transfer-of-power plan accepted partition.",
+          "deepReading": [
+            "independence"
+          ],
+          "studyWords": 261
+        },
+        {
+          "day": 56,
+          "topic": "Revision: 1930–1947",
+          "sources": [
+            "ncert12c",
+            "spectrum",
+            "bipan"
+          ],
+          "reading": "Foundation: NCERT Themes III — Framing the Constitution and a review of the earlier themes; focus on today’s topic. Main reading: Revisit Days 50–55.",
+          "task": "Solve 40 MCQs, write two short answers and repair confusion between proposals, pacts and acts.",
+          "notes": [
+            "Review 1930–1947 through parallel tracks: mass movements, constitutional negotiations, social organisations and wartime developments. Place every pact, mission and act on the correct track.",
+            "Compare Salt Satyagraha and Quit India by immediate context, organisation, state response and results. Avoid treating every movement as a repetition with a different date.",
+            "Use causal language carefully: contributed to, intensified and constrained are often more accurate than single-cause explanations. Support conclusions with dated examples."
+          ],
+          "recall": "What common revision error occurs with constitutional history?",
+          "recallAnswer": "Confusing a proposal, negotiated agreement and enacted law, or assuming every enacted provision was implemented.",
+          "deepReading": [
+            "gandhi",
+            "independence"
+          ],
+          "studyWords": 389
+        },
+        {
+          "day": 57,
+          "topic": "Acts, governors and national institutions",
+          "sources": [
+            "ncert12c",
+            "spectrum"
+          ],
+          "reading": "Foundation: NCERT Themes III — Framing the Constitution and a review of the earlier themes; focus on today’s topic. Main reading: Revisit constitutional development, important administrative measures and Congress sessions.",
+          "task": "Build linked timelines for 1773–1947; learn office-holders through the measures and events associated with them.",
+          "notes": [
+            "Build a framework around 1773, 1784, 1833, 1858, 1909, 1919, 1935 and 1947. Associate each with a change in control, representation or administrative structure instead of learning dates alone.",
+            "The 1919 Act introduced provincial dyarchy; the 1935 Act introduced provincial autonomy. A proposed central dyarchy under the later framework should not be confused with the implemented provincial system under the earlier one.",
+            "Learn office-holders through policy contexts: an act may be passed during a tenure, while implementation and effects continue later. Precise institutional terms often determine Prelims answers."
+          ],
+          "recall": "What key provincial change separates the 1919 and 1935 Acts?",
+          "recallAnswer": "The 1919 framework introduced dyarchy in provinces; the 1935 framework replaced it with provincial autonomy.",
+          "deepReading": [
+            "constitution"
+          ],
+          "studyWords": 243
+        },
+        {
+          "day": 58,
+          "topic": "Press, education, reform and culture",
+          "sources": [
+            "ncert12c",
+            "spectrum"
+          ],
+          "reading": "Foundation: NCERT Themes III — Framing the Constitution and a review of the earlier themes; focus on today’s topic. Main reading: Revisit newspapers, educational policies, organisations and cultural responses to colonialism.",
+          "task": "Create a publication–editor–purpose table and revise social reform; practise 25 targeted MCQs.",
+          "notes": [
+            "Education policy moved through debates about language, curriculum, institutions and funding. The 1835 education decision and Wood’s Despatch of 1854 should be linked to different policy stages.",
+            "Newspapers and associations helped create political publics, while censorship sought to restrict them. Connect a publication to its language, audience and political role rather than only its editor.",
+            "Reform, literature and education shaped visions of society as well as anti-colonial politics. Gandhi and Tagore are useful for comparing educational aims and different understandings of nationalism."
+          ],
+          "recall": "Why should press history include audiences as well as editors?",
+          "recallAnswer": "The political effect of a publication depends on who could read or hear it, how it circulated and what debates it created.",
+          "deepReading": [
+            "reform"
+          ],
+          "studyWords": 246
+        },
+        {
+          "day": 59,
+          "topic": "Modern Bihar consolidation",
+          "sources": [
+            "ncert12c",
+            "spectrum",
+            "bipan"
+          ],
+          "reading": "Foundation: NCERT Themes III — Framing the Constitution and a review of the earlier themes; focus on today’s topic. Main reading: Revisit Buxar, 1857, Champaran, peasant movements and Quit India in the assigned readings.",
+          "task": "Prepare a two-page Bihar timeline with people, places and significance; write one BPSC-style answer.",
+          "notes": [
+            "A modern Bihar timeline can connect Buxar, Kunwar Singh in 1857, Champaran in 1917, organised peasant politics and the Quit India movement. Explain how each fits the wider Indian story.",
+            "Local participation matters: cultivators, students, organisers and workers shaped the form of protest. National leaders did not act in a vacuum, and regional grievances could broaden a movement’s appeal.",
+            "Separate present-day Bihar from historical administrative boundaries when discussing movements in adjoining areas. Use a map to make geographic qualifications explicit."
+          ],
+          "recall": "How can a Bihar example strengthen a Mains answer?",
+          "recallAnswer": "Use it as evidence for a larger argument, such as the relationship between local agrarian grievances and national mobilisation, rather than adding an unrelated fact.",
+          "deepReading": [
+            "gandhi",
+            "independence"
+          ],
+          "studyWords": 399
+        },
+        {
+          "day": 60,
+          "topic": "Full History mock and next revision",
+          "sources": [
+            "ncert12c",
+            "spectrum",
+            "bipan",
+            "ncert12a",
+            "ncert12b"
+          ],
+          "reading": "Foundation: NCERT Themes III — Framing the Constitution and a review of the earlier themes; focus on today’s topic. Main reading: Review your error log across all three periods.",
+          "task": "Attempt 60 mixed MCQs and three short answers. List your five weakest topics and schedule revision after 7 and 21 days.",
+          "notes": [
+            "The full course links sources and geography, state formation, agrarian and commercial change, cultural traditions and colonial resistance. A final revision should test connections as well as isolated facts.",
+            "For Prelims, justify why each rejected option is wrong. For Mains, identify the command word, divide the question into parts and choose examples that directly support the argument.",
+            "This page provides selected PYQ examples, not a full mock paper. Use official papers or your question bank for the larger test, then plan spaced revision around demonstrated weaknesses rather than rereading everything equally."
+          ],
+          "recall": "What should determine the next revision cycle?",
+          "recallAnswer": "Your error log and weak concepts: revisit them after a short interval, retest without notes, and extend the interval once recall and explanation improve.",
+          "deepReading": [
+            "sources",
+            "constitution"
+          ],
+          "studyWords": 427
+        }
+      ]
+    }
+  ],
+  "pyqs": [
+    {
+      "segment": "ancient",
+      "stage": "Prelims",
+      "year": 2023,
+      "reference": "Set A · Q41",
+      "day": 9,
+      "prompt": "Locate the Buddhist centre Dhanyakataka, associated with the Mahasanghikas.",
+      "options": [
+        "Andhra",
+        "Gandhara",
+        "Kalinga",
+        "Magadha"
+      ],
+      "answer": "A — Andhra. Link Dhanyakataka with the lower Krishna region near Amaravati. The question tests the geography of Buddhist centres, not merely familiarity with a dynasty.",
+      "url": "https://www.upsc.gov.in/sites/default/files/QP_CS_Pre_Exam_2023_280523.pdf"
+    },
+    {
+      "segment": "ancient",
+      "stage": "Mains",
+      "year": 2023,
+      "reference": "Q1",
+      "day": 1,
+      "marks": 10,
+      "words": 150,
+      "prompt": "Discuss how geography influenced the development of ancient India.",
+      "answer": "Organise the answer around rivers and alluvial agriculture, resource zones, mountain passes and coasts. Use Magadha, Harappan settlements and maritime exchange as examples. Explain mechanisms: surplus, transport, access to materials and contact. Conclude that geography created opportunities and constraints, while human decisions shaped outcomes.",
+      "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-GENERAL-STUDIES-PAPER-I-180923.pdf"
+    },
+    {
+      "segment": "medieval",
+      "stage": "Prelims",
+      "year": 2023,
+      "reference": "Set A · Q48",
+      "day": 28,
+      "prompt": "Identify the Vijayanagara ruler associated with a Tungabhadra dam and a long water channel serving the capital.",
+      "options": [
+        "Devaraya I",
+        "Mallikarjuna",
+        "Vira Vijaya",
+        "Virupaksha"
+      ],
+      "answer": "A — Devaraya I. Study rulers together with water-management works and the capital’s landscape. Do not automatically attribute every major Vijayanagara achievement to Krishnadevaraya.",
+      "url": "https://www.upsc.gov.in/sites/default/files/QP_CS_Pre_Exam_2023_280523.pdf"
+    },
+    {
+      "segment": "medieval",
+      "stage": "Mains",
+      "year": 2023,
+      "reference": "Q12",
+      "day": 24,
+      "marks": 15,
+      "words": 250,
+      "prompt": "Assess technological developments in the Sultanate era and their effects on Indian society.",
+      "answer": "Group the answer into textile production, paper and communication, building techniques and agricultural technology. Discuss wider adoption and adaptation rather than claiming every technique was newly invented. Link examples to artisan work, urban growth, record keeping and patronage. Explain uneven regional diffusion and distinguish technological change from a single political cause.",
+      "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-GENERAL-STUDIES-PAPER-I-180923.pdf"
+    },
+    {
+      "segment": "modern",
+      "stage": "Prelims",
+      "year": 2023,
+      "reference": "Set A · Q50",
+      "day": 37,
+      "prompt": "Which law redesignated Bengal’s Governor-General as Governor-General of India?",
+      "options": [
+        "Regulating Act",
+        "Pitt’s India Act",
+        "Charter Act, 1793",
+        "Charter Act, 1833"
+      ],
+      "answer": "D — Charter Act, 1833. It marked a further centralisation of Company administration. The earlier Regulating Act created the office of Governor-General of Bengal; the two changes are easy to confuse.",
+      "url": "https://www.upsc.gov.in/sites/default/files/QP_CS_Pre_Exam_2023_280523.pdf"
+    },
+    {
+      "segment": "modern",
+      "stage": "Mains",
+      "year": 2023,
+      "reference": "Q2",
+      "day": 46,
+      "marks": 10,
+      "words": 150,
+      "prompt": "Compare Gandhi and Tagore on education and nationalism.",
+      "answer": "Use two paired headings. Education: Gandhi emphasised productive craft, community and self-reliance; Tagore emphasised creative freedom, nature and international cultural exchange. Nationalism: explain Gandhi’s mass politics and moral self-rule alongside Tagore’s concern about aggressive, narrow nationalism. Recognise shared opposition to domination and their mutual respect; avoid presenting them as absolute opposites.",
+      "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-GENERAL-STUDIES-PAPER-I-180923.pdf"
+    }
+  ],
+  "dossiers": {
+    "sources": {
+      "title": "How to read historical evidence",
+      "sections": [
+        {
+          "heading": "From an object to an argument",
+          "text": "Begin with context. A coin recovered in an undisturbed archaeological layer can help date that layer, but a coin purchased without a known findspot tells us much less about its original use. Ask what was found, where it was found and how securely it is dated. The same discipline applies to texts: a surviving manuscript may be much later than the work it transmits."
+        },
+        {
+          "heading": "Corroboration and silence",
+          "text": "Different sources can support one another without saying exactly the same thing. A donation inscription may name a merchant; a workshop and imported objects may show the economy within which that merchant operated. Silence is more difficult: the absence of a surviving text does not prove that a practice never existed. Preservation favours some materials and institutions over others."
+        },
+        {
+          "heading": "Use geography as an explanation",
+          "text": "A river can support irrigation and transport while also creating flood risks. A mountain pass can channel migration rather than prevent it. Historical explanations should link an environmental feature to a mechanism and a dated example. For Magadha, combine river routes and productive land with political choices. Avoid explaining every successful kingdom simply by calling its location favourable."
+        }
+      ],
+      "comparison": {
+        "headers": [
+          "Concept / example",
+          "What to remember",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Inscription",
+            "Text on a durable surface",
+            "Can record grants, orders or praise; its purpose still needs scrutiny."
+          ],
+          [
+            "Numismatics",
+            "Study of coins",
+            "Connects authority, symbols, circulation and chronology."
+          ],
+          [
+            "Archaeology",
+            "Material remains in context",
+            "Reconstructs lives that elite texts may overlook."
+          ],
+          [
+            "Chronicle",
+            "Narrative of events",
+            "Author, patron and intended audience shape selection."
+          ]
+        ]
+      },
+      "terms": [
+        {
+          "term": "Epigraphy",
+          "meaning": "The study of inscriptions."
+        },
+        {
+          "term": "Stratigraphy",
+          "meaning": "The relationship between archaeological layers."
+        },
+        {
+          "term": "Corroboration",
+          "meaning": "Testing a claim against independent evidence."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "Before writing",
+          "event": "Material evidence is especially important."
+        },
+        {
+          "date": "Early historic period",
+          "event": "Inscriptions and coins widen the evidence base."
+        },
+        {
+          "date": "Medieval centuries",
+          "event": "Chronicles and regional texts provide further perspectives."
+        }
+      ],
+      "trap": "A primary source is close to its subject; it is not automatically unbiased.",
+      "practice": {
+        "question": "How would you investigate a king’s claim to have conquered a distant region?",
+        "answer": "Compare the claim with local inscriptions, administrative records, coin distributions and settlement evidence. Distinguish a raid, tribute relationship and lasting administration instead of treating them as the same form of conquest."
+      }
+    },
+    "farming": {
+      "title": "From mobile livelihoods to settled production",
+      "sections": [
+        {
+          "heading": "An uneven transition",
+          "text": "Foraging required detailed knowledge of seasons, animals and plants. It was not simply an unsuccessful version of farming. Food production developed through experimentation and changing relationships with particular species. Some communities farmed while continuing to hunt; others specialised in herding or exchanged forest products with cultivators. Archaeological periods describe patterns, not a universal timetable followed by every community."
+        },
+        {
+          "heading": "What changed in daily life",
+          "text": "Storage allowed food to be kept beyond the harvest, but also required protection and organisation. Repeated settlement encouraged investment in houses and facilities. Farming could increase output while bringing risks from crop failure and a narrower diet. Changes in labour, property and exchange must therefore be investigated rather than assumed to be uniformly beneficial."
+        },
+        {
+          "heading": "Reading the archaeological record",
+          "text": "Plant remains, animal bones, tools and habitation structures answer different questions. Domesticated species may be identified through physical changes, while sickles or grinding stones point to activities rather than one guaranteed economic system. Mehrgarh is a major example for early farming in the north-west. Megalithic burials provide a different kind of evidence, especially for communities in peninsular India."
+        }
+      ],
+      "comparison": {
+        "headers": [
+          "Concept / example",
+          "What to remember",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Palaeolithic",
+            "Predominantly hunting and gathering",
+            "Study tools alongside habitats and mobility."
+          ],
+          [
+            "Mesolithic",
+            "Microliths are a common marker",
+            "Regional livelihoods remained diverse."
+          ],
+          [
+            "Neolithic",
+            "Food production and polished tools in many settings",
+            "Different traits did not always appear together."
+          ],
+          [
+            "Chalcolithic",
+            "Copper and stone used together",
+            "Metal did not immediately replace stone."
+          ]
+        ]
+      },
+      "terms": [
+        {
+          "term": "Domestication",
+          "meaning": "Changes in species through sustained human selection and management."
+        },
+        {
+          "term": "Microlith",
+          "meaning": "A small worked stone implement."
+        },
+        {
+          "term": "Surplus",
+          "meaning": "Production beyond immediate consumption needs."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "Long prehistoric span",
+          "event": "Foraging economies adapted to varied environments."
+        },
+        {
+          "date": "Early village life",
+          "event": "Farming, herding and storage developed regionally."
+        },
+        {
+          "date": "Later settlements",
+          "event": "Production and exchange supported greater specialisation."
+        }
+      ],
+      "trap": "Permanent settlement and farming are related, but neither automatically proves the other.",
+      "practice": {
+        "question": "Why is “farming was immediate progress for everyone” an inadequate argument?",
+        "answer": "It ignores regional choices, continuing mixed livelihoods, crop risks, labour demands and possible inequalities. Explain both increased production and the new vulnerabilities associated with dependence on harvests."
+      }
+    },
+    "harappa": {
+      "title": "Harappan cities: economy, society and evidence",
+      "sections": [
+        {
+          "heading": "Urban systems",
+          "text": "Harappan urbanism rested on relationships between cities, smaller settlements, agricultural zones and sources of raw material. Roads, drains and wells reveal planning, but the most useful question is how these facilities were maintained. Standardised practices suggest coordination; they do not by themselves identify whether authority belonged to a king, councils or some other institution. Compare settlements before generalising from one famous city."
+        },
+        {
+          "heading": "Crafts and exchange",
+          "text": "Bead production required raw material, specialised techniques and labour. Shell objects, metals and stone linked distant resource zones. Standard weights and seals are relevant to exchange and administration, although their precise uses are debated. Contact with Mesopotamia places Harappan communities within wider networks. A foreign object can indicate contact without proving that its maker lived at the site where it was found."
+        },
+        {
+          "heading": "Change after the urban phase",
+          "text": "The decline of large urban centres should be separated from the disappearance of every associated practice. Settlement shifted and regional cultures developed. Environmental change, river behaviour and economic reorganisation are among the issues historians investigate. A strong answer recognises regional variation and the limitations of evidence instead of presenting one dramatic event as a complete explanation."
+        }
+      ],
+      "comparison": {
+        "headers": [
+          "Concept / example",
+          "What to remember",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Mohenjo-daro",
+            "Great Bath and urban facilities",
+            "Use specific features as evidence rather than guessing their full social meaning."
+          ],
+          [
+            "Dholavira",
+            "Reservoirs and distinctive city divisions",
+            "Shows adaptation to local water conditions."
+          ],
+          [
+            "Harappa",
+            "Major excavated urban centre",
+            "Gives its name to the civilisation."
+          ],
+          [
+            "Rakhigarhi",
+            "Large settlement in present-day Haryana",
+            "Reminds us that the civilisation extended beyond the Indus river itself."
+          ]
+        ]
+      },
+      "terms": [
+        {
+          "term": "Citadel",
+          "meaning": "A conventionally named raised or fortified area at some sites."
+        },
+        {
+          "term": "Seal",
+          "meaning": "An inscribed or decorated object used to make an impression."
+        },
+        {
+          "term": "Urbanisation",
+          "meaning": "Growth of settlements with concentrated population and specialised functions."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "c. 2600 BCE",
+          "event": "Beginning of the Mature Harappan phase."
+        },
+        {
+          "date": "c. 2600–1900 BCE",
+          "event": "Major urban settlements and extensive exchange."
+        },
+        {
+          "date": "After c. 1900 BCE",
+          "event": "Regional changes and decline of many large cities."
+        }
+      ],
+      "trap": "An undeciphered script cannot be used to make a secure translation of Harappan religious or political titles.",
+      "practice": {
+        "question": "How do standard weights and different city layouts fit together?",
+        "answer": "Standard weights indicate shared practices across networks, while varied layouts show local choices and environments. Common cultural features do not require identical institutions or urban design everywhere."
+      }
+    },
+    "vedic": {
+      "title": "Vedic society, kinship and social change",
+      "sections": [
+        {
+          "heading": "Texts and chronology",
+          "text": "The Vedas are collections transmitted over generations. Historians distinguish broad early and later contexts, while recognising that individual passages are difficult to date precisely. The Rigveda contains hymns, not a comprehensive description of all inhabitants of the subcontinent. Archaeological cultures and textual communities should not be equated without additional evidence."
+        },
+        {
+          "heading": "Economy and political organisation",
+          "text": "Cattle were central to wealth and ritual vocabulary in early Vedic texts. Over time, agriculture and more territorially defined political units became increasingly prominent. Assemblies, chiefs and kings must be understood within changing institutions. Expansion towards the Ganga plains involved interaction with existing communities; it was not settlement of an empty landscape."
+        },
+        {
+          "heading": "Norms and actual relationships",
+          "text": "Later texts elaborated social classification, ritual obligations and kinship rules. Patriliny concerned descent, while rules of marriage and gotra sought to structure social relationships. Prescriptions about women or social groups do not establish that all individuals lived identically. Use narratives and inscriptions to examine negotiations, exceptions and unequal access to property or authority."
+        }
+      ],
+      "comparison": {
+        "headers": [
+          "Concept / example",
+          "What to remember",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Early Vedic emphasis",
+            "Cattle, kin groups and hymnic ritual",
+            "Do not erase evidence of cultivation."
+          ],
+          [
+            "Later Vedic development",
+            "Agrarian expansion and territorial power",
+            "A broad trend, not a single date of transformation."
+          ],
+          [
+            "Varna",
+            "Normative classification",
+            "Not identical to every historically existing jati."
+          ],
+          [
+            "Patriliny",
+            "Descent through the male line",
+            "Must be distinguished from rules of residence and property."
+          ]
+        ]
+      },
+      "terms": [
+        {
+          "term": "Gotra",
+          "meaning": "A lineage category important in marriage prescriptions."
+        },
+        {
+          "term": "Jana",
+          "meaning": "A term associated with a people or community."
+        },
+        {
+          "term": "Janapada",
+          "meaning": "A territorial domain associated with a political community."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "Early Vedic context",
+          "event": "North-western river landscapes figure prominently."
+        },
+        {
+          "date": "Later Vedic context",
+          "event": "Ganga–Yamuna regions become increasingly significant."
+        },
+        {
+          "date": "c. sixth century BCE",
+          "event": "Larger territorial states form part of a new political setting."
+        }
+      ],
+      "trap": "A rule in a normative text is evidence of an ideal, not proof of universal compliance.",
+      "practice": {
+        "question": "Write a two-part comparison of early and later Vedic society.",
+        "answer": "First compare economy and political organisation: cattle-centred wealth and kin groups versus greater agrarian and territorial emphasis. Then discuss social differentiation and ritual elaboration, qualifying the comparison with regional variation and the limits of the sources."
+      }
+    },
+    "magadha": {
+      "title": "Mahajanapadas and the rise of Magadha",
+      "sections": [
+        {
+          "heading": "Territorial power",
+          "text": "Larger states required resources beyond a chief’s immediate following. Agricultural production, taxation, fortified centres and armed forces reinforced one another. Monarchies coexisted with gana-sanghas, in which a restricted body of leading members exercised authority. This variation matters: early political history is not a story of only one institutional form."
+        },
+        {
+          "heading": "The Magadhan advantage",
+          "text": "River connections supported movement of goods and people. Productive land and access to forests and mineral-bearing regions offered resources, but resources were useful only when organised. Bimbisara, Ajatashatru and subsequent rulers employed alliances, conquest and institutional consolidation. A geographical explanation becomes stronger when connected to these concrete political actions."
+        },
+        {
+          "heading": "Bihar as a connected landscape",
+          "text": "Rajgir’s setting and Pataliputra’s river connections illustrate different strategic advantages. Vaishali and Buddhist and Jain sites show that political centres existed alongside religious networks. Nalanda belongs to a later institutional history and should not be inserted into every earlier period. A Bihar answer gains precision when it separates site, date, institution and historical process."
+        }
+      ],
+      "comparison": {
+        "headers": [
+          "Concept / example",
+          "What to remember",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Monarchy",
+            "Authority centred on a ruler",
+            "Dynasty, taxation and military organisation need explanation."
+          ],
+          [
+            "Gana-sangha",
+            "Collective authority among a limited group",
+            "Not universal adult democracy."
+          ],
+          [
+            "Rajgir",
+            "An early Magadhan centre",
+            "Topography and fortification mattered."
+          ],
+          [
+            "Pataliputra",
+            "Strategic location within river networks",
+            "Communication supported wider political integration."
+          ]
+        ]
+      },
+      "terms": [
+        {
+          "term": "Mahajanapada",
+          "meaning": "A major territorial polity of the early historic period."
+        },
+        {
+          "term": "Tribute",
+          "meaning": "A payment expressing a political relationship."
+        },
+        {
+          "term": "State formation",
+          "meaning": "Development of institutions that organise authority and resources."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "c. sixth century BCE",
+          "event": "Mahajanapadas and new religious movements."
+        },
+        {
+          "date": "Magadhan expansion",
+          "event": "Alliances and conquests strengthen regional power."
+        },
+        {
+          "date": "Fourth century BCE",
+          "event": "Nanda and then Mauryan power widen political integration."
+        }
+      ],
+      "trap": "Natural advantages help explain possibilities; they do not make the success of a kingdom inevitable.",
+      "practice": {
+        "question": "Explain Magadha’s rise using three linked mechanisms.",
+        "answer": "Agricultural surplus supported revenue; river routes supported movement and communication; rulers converted resources into military and political control through alliances, conquest and administration."
+      }
+    },
+    "religion": {
+      "title": "Buddhism, Jainism and religious patronage",
+      "sections": [
+        {
+          "heading": "New questions in a changing society",
+          "text": "Urban growth and political change formed the setting for debates about ritual, suffering, conduct and liberation. Buddhist and Jain traditions were part of a wider intellectual field. Treating them only as protests against one social practice overlooks their philosophical and institutional development. Their teachings also evolved through debate and the formation of different schools."
+        },
+        {
+          "heading": "Ideas and institutions",
+          "text": "The Buddhist path addresses suffering and its cessation through ethical and mental discipline. Jain teaching emphasises liberation of the soul from karmic bondage through restraint and knowledge. Both traditions developed monastic communities and relationships with lay supporters. Shared ethical concerns, such as non-violence, do not erase major differences about the self, practice or liberation."
+        },
+        {
+          "heading": "Monuments as social evidence",
+          "text": "A stupa could preserve relics and support devotion and commemoration. Donative inscriptions reveal participation by people other than rulers. Trade routes, towns and religious institutions could reinforce one another, but patronage had multiple motives. When studying a monument, ask who funded it, when it was enlarged, which community used it and how its imagery communicated meaning."
+        }
+      ],
+      "comparison": {
+        "headers": [
+          "Concept / example",
+          "What to remember",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Buddhism",
+            "No permanent, unchanging self",
+            "Do not substitute the Jain doctrine of an enduring soul."
+          ],
+          [
+            "Jainism",
+            "Liberation of the soul from karmic bondage",
+            "Restraint and non-violence are central."
+          ],
+          [
+            "Sangha",
+            "A religious community, especially monastic in this context",
+            "Institutional organisation helped transmit teaching."
+          ],
+          [
+            "Stupa",
+            "Relic, commemorative or devotional structure",
+            "Architecture can be evidence for patronage and ritual."
+          ]
+        ]
+      },
+      "terms": [
+        {
+          "term": "Dukkha",
+          "meaning": "Suffering or unsatisfactoriness in Buddhist teaching."
+        },
+        {
+          "term": "Tirthankara",
+          "meaning": "A revered teacher in the Jain tradition."
+        },
+        {
+          "term": "Circumambulation",
+          "meaning": "Movement around a sacred object or structure as a devotional act."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "c. sixth–fifth centuries BCE",
+          "event": "Broad setting of the Buddha and Mahavira."
+        },
+        {
+          "date": "Mauryan period",
+          "event": "Ashoka becomes a prominent Buddhist patron."
+        },
+        {
+          "date": "Later centuries",
+          "event": "Monastic networks and monuments expand and change."
+        }
+      ],
+      "trap": "Mahavira is the twenty-fourth Tirthankara in Jain tradition, not the first.",
+      "practice": {
+        "question": "Why is a religious monument useful for social history?",
+        "answer": "Its inscriptions, architecture and location can reveal donors, crafts, networks and ritual practices. Explain what survives while acknowledging that unnamed worshippers and workers remain harder to recover."
+      }
+    },
+    "empires": {
+      "title": "Mauryan government and Ashoka’s dhamma",
+      "sections": [
+        {
+          "heading": "An empire of different regions",
+          "text": "Imperial control could involve provincial centres, routes and strategic settlements rather than an equally dense bureaucracy everywhere. Sources indicate ambitions of supervision, but actual governing arrangements depended on distance and local conditions. Distinguish the territory claimed by a ruler from uniform direct administration across every part of it."
+        },
+        {
+          "heading": "Read each source on its own terms",
+          "text": "Megasthenes wrote as an outsider; his account survives through later writers. The Arthashastra is a prescriptive work with a complex textual history. Ashokan inscriptions communicate royal orders and ethical messages. These sources can be compared, but they should not be combined as though written at the same time for the same purpose."
+        },
+        {
+          "heading": "Ethics and communication",
+          "text": "Ashoka’s public response to Kalinga expresses remorse and a preference for dhamma. Messages about restraint, welfare and respect among communities also helped communicate across a diverse empire. Dhamma cannot be reduced either to compulsory Buddhism or to the abolition of state power. The inscriptions themselves are evidence of how royal authority sought to address its subjects."
+        }
+      ],
+      "comparison": {
+        "headers": [
+          "Concept / example",
+          "What to remember",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Chandragupta Maurya",
+            "Foundation of Mauryan power",
+            "Connect political expansion with Magadha."
+          ],
+          [
+            "Megasthenes",
+            "An external observer",
+            "Transmission and viewpoint affect the evidence."
+          ],
+          [
+            "Major Rock Edict XIII",
+            "Kalinga and the language of remorse",
+            "Useful for analysing public royal claims."
+          ],
+          [
+            "Dhamma",
+            "Broad ethical conduct",
+            "Not a replacement for every administrative institution."
+          ]
+        ]
+      },
+      "terms": [
+        {
+          "term": "Prakrit",
+          "meaning": "A group of Middle Indo-Aryan languages used in many inscriptions."
+        },
+        {
+          "term": "Brahmi",
+          "meaning": "A script used in many Ashokan inscriptions."
+        },
+        {
+          "term": "Edict",
+          "meaning": "An authoritative public proclamation."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "Late fourth century BCE",
+          "event": "Mauryan power established."
+        },
+        {
+          "date": "Third century BCE",
+          "event": "Ashoka’s reign and inscriptions."
+        },
+        {
+          "date": "After Kalinga",
+          "event": "Dhamma becomes central to his public message."
+        }
+      ],
+      "trap": "Ashoka’s religious commitment and the intended audience of his ethical messages are related but distinct questions.",
+      "practice": {
+        "question": "How can an ethical policy also serve political communication?",
+        "answer": "A ruler can address shared standards of conduct across different communities while presenting himself as concerned with welfare and order. This political function does not mean that the ethical commitment was necessarily insincere."
+      }
+    },
+    "classical": {
+      "title": "Trade, regional states and cultural production",
+      "sections": [
+        {
+          "heading": "Beyond the idea of decline",
+          "text": "The period after the Mauryas included regional kingdoms, transregional exchange and major artistic developments. Political plurality did not automatically stop commerce. Kushana and Satavahana histories connect inland routes, towns and religious institutions. In early Tamil regions, poems and archaeology illuminate exchange without providing a complete statistical account of society."
+        },
+        {
+          "heading": "Guptas and regional authority",
+          "text": "Inscriptions and coins are essential for Gupta history. The Prayaga prashasti celebrates Samudragupta and describes different relationships with other rulers. Conquest, tribute and recognition were not the same. Land grants reveal transfers of rights and claims over revenue, but their effects must be studied regionally. Labels such as golden age should be tested against whose experience is being described."
+        },
+        {
+          "heading": "Art and learning in context",
+          "text": "Gandhara and Mathura show different materials and artistic conventions within connected worlds. Ajanta’s caves and paintings developed under changing patronage; Nalanda became an important centre of learning. Literature and monuments survived through institutions, resources and skilled labour. An answer on cultural achievement becomes analytical when it explains those conditions and recognises social inequality."
+        }
+      ],
+      "comparison": {
+        "headers": [
+          "Concept / example",
+          "What to remember",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Gandhara",
+            "North-western artistic traditions",
+            "Contact and adaptation matter more than a simple imported/local binary."
+          ],
+          [
+            "Mathura",
+            "A major centre of sculpture",
+            "Compare material, iconography and patronage."
+          ],
+          [
+            "Sangam ports",
+            "Korkai, Poompuhar and Muchiri",
+            "Connect literary evidence with maritime exchange."
+          ],
+          [
+            "Prashasti",
+            "Royal eulogy",
+            "Political claims require critical reading."
+          ]
+        ]
+      },
+      "terms": [
+        {
+          "term": "Guild",
+          "meaning": "An association linked to an occupation or craft."
+        },
+        {
+          "term": "Land grant",
+          "meaning": "Transfer or recognition of rights, often recorded in inscriptions."
+        },
+        {
+          "term": "Patronage",
+          "meaning": "Support that makes cultural or institutional activity possible."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "Post-Mauryan centuries",
+          "event": "Regional powers and wider trade networks."
+        },
+        {
+          "date": "Fourth–sixth centuries CE",
+          "event": "Major phase of Gupta rule."
+        },
+        {
+          "date": "Seventh century CE",
+          "event": "Harsha and powerful regional kingdoms."
+        }
+      ],
+      "trap": "A cultural achievement does not demonstrate prosperity or equality for every social group.",
+      "practice": {
+        "question": "How would you qualify the description of the Gupta age as a golden age?",
+        "answer": "Identify specific achievements in art, literature or knowledge, then discuss their uneven social and regional distribution. Use the label as a claim to evaluate, not a substitute for evidence."
+      }
+    },
+    "regional": {
+      "title": "Regional kingdoms, temples and political networks",
+      "sections": [
+        {
+          "heading": "Power through relationships",
+          "text": "Regional rulers obtained resources through farming, tribute, grants and military action. Authority depended on intermediaries as well as royal orders. Terms such as samanta describe relationships that changed over time. A subordinate could become powerful, compete with a ruler or establish an independent lineage; political status was not permanently fixed."
+        },
+        {
+          "heading": "Temples and local institutions",
+          "text": "Temples could employ workers, receive grants and participate in production and redistribution. Chola inscriptions illuminate assemblies and qualifications for participation. These institutions show local organisation, but restricted eligibility makes comparison with modern democracy misleading. Separate village institutions from an assumption that all residents possessed equal political rights."
+        },
+        {
+          "heading": "The eighteenth-century comparison",
+          "text": "Later regional powers such as Bengal, Awadh and Hyderabad combined autonomy with elements of Mughal legitimacy. Their growth demonstrates political reorganisation rather than a universal vacuum. Compare different regional periods carefully: similar words like local power do not make Chola and eighteenth-century institutions identical. Specify the date and mechanism in every comparison."
+        }
+      ],
+      "comparison": {
+        "headers": [
+          "Concept / example",
+          "What to remember",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Cholas",
+            "Royal, local and temple institutions",
+            "Study how resources connected these levels."
+          ],
+          [
+            "Palas / Pratiharas / Rashtrakutas",
+            "Interregional competition",
+            "Kannauj is important in the political narrative."
+          ],
+          [
+            "Bengal / Awadh / Hyderabad",
+            "Autonomous eighteenth-century powers",
+            "Mughal decline did not end all administration."
+          ],
+          [
+            "Maratha expansion",
+            "Military and revenue networks",
+            "Connect regional ambitions with wider political change."
+          ]
+        ]
+      },
+      "terms": [
+        {
+          "term": "Brahmadeya",
+          "meaning": "A land grant associated with Brahman recipients."
+        },
+        {
+          "term": "Sabha",
+          "meaning": "An assembly associated in this context with certain Brahman settlements."
+        },
+        {
+          "term": "Legitimacy",
+          "meaning": "The grounds on which authority is justified or recognised."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "Early medieval centuries",
+          "event": "Regional lineages and new political relationships."
+        },
+        {
+          "date": "Chola expansion",
+          "event": "Temples and local institutions leave rich inscriptional evidence."
+        },
+        {
+          "date": "Eighteenth century",
+          "event": "Mughal successor states and other powers expand."
+        }
+      ],
+      "trap": "Local government in the past does not imply universal political equality.",
+      "practice": {
+        "question": "Why should temples appear in an answer about political economy?",
+        "answer": "They could receive resources, employ artisans and workers, organise ritual prestige and interact with local authorities. Explain these roles without assuming every temple had the same scale or function."
+      }
+    },
+    "sultanate": {
+      "title": "Delhi Sultanate: institutions and technological change",
+      "sections": [
+        {
+          "heading": "Conquest is not administration",
+          "text": "Military success created opportunities but did not guarantee stable revenue or obedience. The Sultanate had to manage communications, local resistance, powerful nobles and pressure from outside its frontiers. A dynasty list gives chronology; the deeper question is how each ruler tried to translate armed strength into durable control."
+        },
+        {
+          "heading": "Revenue and service",
+          "text": "Iqta assignments connected revenue collection with obligations to the state. Holders were expected to maintain troops and meet other demands, while rulers sought supervision and accounting. Do not describe an iqta as an unrestricted hereditary estate. Khalji and Tughlaq policies should be compared through their aims, implementation problems and effects, rather than memorised as isolated experiments."
+        },
+        {
+          "heading": "Technology and society",
+          "text": "Paper making, textile techniques and building practices spread through networks of artisans, merchants and patrons. True arches and domes involved structural knowledge and adaptation. Wider use can be historically important even when a technique was not invented in that period. For Mains, connect technology to labour, production, record keeping and urban life, and acknowledge uneven diffusion across regions."
+        }
+      ],
+      "comparison": {
+        "headers": [
+          "Concept / example",
+          "What to remember",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Mamluks",
+            "Early consolidation at Delhi",
+            "Place rulers before comparing later policies."
+          ],
+          [
+            "Alauddin Khalji",
+            "Market and military measures",
+            "Connect regulation with the needs of a large army."
+          ],
+          [
+            "Muhammad bin Tughlaq",
+            "Ambitious fiscal and administrative experiments",
+            "Separate objectives from outcomes."
+          ],
+          [
+            "Iqta",
+            "Revenue assignment linked to obligations",
+            "Not equivalent to absolute land ownership."
+          ]
+        ]
+      },
+      "terms": [
+        {
+          "term": "Muqti",
+          "meaning": "A holder or administrator of an iqta in Sultanate usage."
+        },
+        {
+          "term": "Arcuate",
+          "meaning": "Construction using arches and related vaulting."
+        },
+        {
+          "term": "Trabeate",
+          "meaning": "Construction based on posts and horizontal beams."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "1206",
+          "event": "Conventional beginning of the Delhi Sultanate."
+        },
+        {
+          "date": "1290–1320",
+          "event": "Khalji dynasty."
+        },
+        {
+          "date": "1320–1414",
+          "event": "Tughlaq dynasty."
+        },
+        {
+          "date": "1526",
+          "event": "First Battle of Panipat ends Lodi rule."
+        }
+      ],
+      "trap": "Introduction, adoption, diffusion and invention are different claims about a technology.",
+      "practice": {
+        "question": "How should an answer connect paper making with social change?",
+        "answer": "Discuss more accessible written communication, record keeping and learned activity, while noting that literacy and access remained unequal and that political patronage and markets affected production."
+      }
+    },
+    "mughal": {
+      "title": "Mughal power and the agrarian system",
+      "sections": [
+        {
+          "heading": "Ranks and revenue",
+          "text": "The mansab system organised imperial service through ranks, with zat and sawar expressing distinct aspects of status and cavalry obligations. Jagir assignments supported remuneration through claims on revenue. Confusing mansab and jagir loses the distinction between a person’s rank and the fiscal arrangement supporting service. Transfers and supervision were important to the system’s operation."
+        },
+        {
+          "heading": "Village society was not uniform",
+          "text": "Peasants differed in holdings, resources and bargaining power. Zamindars could possess local rights and influence that predated a particular imperial appointment. The state depended on intermediaries while also trying to regulate them. Revenue assessment describes a claim, whereas actual collection depended on harvests, resistance, negotiation and administrative capacity."
+        },
+        {
+          "heading": "Sources and the Sur interlude",
+          "text": "The Ain-i Akbari offers a systematic imperial view but should be checked against regional evidence. Sher Shah’s earlier administration belongs to a separate dynasty within the sixteenth-century chronology. Roads, sarais and revenue measures illustrate the relationship between communication and rule. Do not collapse all administrative developments into a timeless Mughal system."
+        }
+      ],
+      "comparison": {
+        "headers": [
+          "Concept / example",
+          "What to remember",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Mansab",
+            "Rank in imperial service",
+            "Status and obligations."
+          ],
+          [
+            "Jagir",
+            "Revenue assignment",
+            "A means of supporting remuneration and service."
+          ],
+          [
+            "Zamindar",
+            "Holder of varied local rights and influence",
+            "Not simply a synonym for every revenue official."
+          ],
+          [
+            "Assessment / collection",
+            "Demand calculated / payment realised",
+            "A difference between administrative design and practice."
+          ]
+        ]
+      },
+      "terms": [
+        {
+          "term": "Zat",
+          "meaning": "A component of mansab associated with personal rank."
+        },
+        {
+          "term": "Sawar",
+          "meaning": "A component associated with cavalry obligations."
+        },
+        {
+          "term": "Ain-i Akbari",
+          "meaning": "Abul Fazl’s account of imperial administration and resources."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "1526",
+          "event": "Babur’s victory at Panipat."
+        },
+        {
+          "date": "1540–1555",
+          "event": "Sur rule interrupts Humayun’s reign."
+        },
+        {
+          "date": "1556–1605",
+          "event": "Akbar’s reign."
+        },
+        {
+          "date": "Eighteenth century",
+          "event": "Regional power grows amid weakening central authority."
+        }
+      ],
+      "trap": "A jagir is not the same as a mansab, and neither automatically means private ownership of every field.",
+      "practice": {
+        "question": "Explain why the amount assessed might differ from revenue collected.",
+        "answer": "Harvest variation, local bargaining, resistance, intermediary power and uneven enforcement could prevent the state from realising its formal demand."
+      }
+    },
+    "vijayanagara": {
+      "title": "Vijayanagara: landscape, water and authority",
+      "sections": [
+        {
+          "heading": "A capital within its environment",
+          "text": "Rocky hills, the Tungabhadra and cultivable areas shaped the capital’s development. Fortifications worked with the terrain, while reservoirs and canals addressed water supply. Studying the city as a system links its famous monuments to farms, routes and labour. This is more revealing than a catalogue of buildings separated from their setting."
+        },
+        {
+          "heading": "Reading different urban spaces",
+          "text": "The sacred centre, royal centre and areas of settlement had different but related functions. Ceremonies communicated power; religious institutions attracted people and resources; markets connected production with consumption. Archaeological names for structures may be modern interpretations. A label should not be treated as a fully documented account of a building’s original use."
+        },
+        {
+          "heading": "Accounts and political change",
+          "text": "Travellers described wealth, ceremonies and urban organisation through their own interests. Compare these accounts with ruins, inscriptions and the landscape. The defeat at Talikota in 1565 profoundly affected the capital, but the wider political history continued beyond one battle. Likewise, attribute particular waterworks to the correct ruler rather than assuming all achievements belong to Krishnadevaraya."
+        }
+      ],
+      "comparison": {
+        "headers": [
+          "Concept / example",
+          "What to remember",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Tungabhadra",
+            "River and water source",
+            "Connect environment to agricultural and urban supply."
+          ],
+          [
+            "Devaraya I",
+            "Associated with major waterworks",
+            "A useful ruler–infrastructure association."
+          ],
+          [
+            "Royal centre",
+            "Political and ceremonial spaces",
+            "Interpret structures using multiple kinds of evidence."
+          ],
+          [
+            "Sacred centre",
+            "Religious sites and institutions",
+            "Religion, economy and authority could overlap."
+          ]
+        ]
+      },
+      "terms": [
+        {
+          "term": "Aqueduct",
+          "meaning": "A structure or channel carrying water across a landscape."
+        },
+        {
+          "term": "Fortification",
+          "meaning": "Defensive works around a place or route."
+        },
+        {
+          "term": "Urban hinterland",
+          "meaning": "The surrounding area supplying and interacting with a town."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "Fourteenth century",
+          "event": "Rise of Vijayanagara."
+        },
+        {
+          "date": "Early fifteenth century",
+          "event": "Devaraya I’s rule."
+        },
+        {
+          "date": "1509–1529",
+          "event": "Krishnadevaraya’s reign."
+        },
+        {
+          "date": "1565",
+          "event": "Battle of Talikota and its aftermath."
+        }
+      ],
+      "trap": "The destruction or decline of a capital is not automatically the immediate end of every associated political institution.",
+      "practice": {
+        "question": "Explain water management as both an economic and political activity.",
+        "answer": "Waterworks support cultivation and urban supply, while their construction displays authority’s ability to mobilise resources and labour. Use the capital’s environment and a named example to connect the two."
+      }
+    },
+    "culture": {
+      "title": "Devotion, architecture and regional cultures",
+      "sections": [
+        {
+          "heading": "Diversity within devotional traditions",
+          "text": "Bhakti included different ideas of the divine, forms of worship and social relationships. Alvars and Nayanars belong to southern devotional traditions; Kabir’s compositions raise different questions about religious identity and authority. Use saguna and nirguna as analytical distinctions, while recognising that individual traditions may resist simple classification."
+        },
+        {
+          "heading": "Institutions and transmission",
+          "text": "Sufi teaching developed through lineages and communities associated with teachers. Khanqahs could provide instruction, hospitality and spaces of devotion. Relations with rulers differed across time and silsilas. Hagiographies often communicate ideals and miracles; they should be read differently from administrative accounts rather than treated as literal transcripts of every event."
+        },
+        {
+          "heading": "Language and artistic exchange",
+          "text": "Regional literature, music and architecture developed through patrons and mobile specialists. Buildings can combine techniques and forms drawn from different traditions. Political rivalry did not prevent artistic exchange, and cultural interaction did not eliminate conflict or social hierarchy. Explain a concrete mechanism—translation, artisan movement or a devotional network—before making a broad claim about synthesis."
+        }
+      ],
+      "comparison": {
+        "headers": [
+          "Concept / example",
+          "What to remember",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Saguna devotion",
+            "Divine attributes and forms",
+            "A conceptual distinction within varied practices."
+          ],
+          [
+            "Nirguna devotion",
+            "Emphasis beyond fixed attributes",
+            "Do not assume every teacher expressed it identically."
+          ],
+          [
+            "Silsila",
+            "A Sufi spiritual lineage",
+            "Shows transmission and institutional affiliation."
+          ],
+          [
+            "Monument",
+            "Patronage embodied in space",
+            "Date additions and identify artisans where possible."
+          ]
+        ]
+      },
+      "terms": [
+        {
+          "term": "Khanqah",
+          "meaning": "A place associated with Sufi teaching and community life."
+        },
+        {
+          "term": "Hagiography",
+          "meaning": "A life of a holy person written with devotional purposes."
+        },
+        {
+          "term": "Vernacular",
+          "meaning": "A language used by a local or regional community."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "Early medieval south",
+          "event": "Alvar and Nayanar traditions develop."
+        },
+        {
+          "date": "Later medieval centuries",
+          "event": "Regional devotional and Sufi networks expand."
+        },
+        {
+          "date": "Mughal and regional courts",
+          "event": "Diverse forms of artistic patronage continue."
+        }
+      ],
+      "trap": "Social criticism in a poem does not prove that social inequality disappeared among all its followers.",
+      "practice": {
+        "question": "Give a balanced conclusion about devotional traditions and social change.",
+        "answer": "They created languages and spaces for questioning authority and expressing devotion, but their social effects differed by region and community. Recognise both challenges to hierarchy and its continued presence."
+      }
+    },
+    "travellers": {
+      "title": "Travellers, towns and changing communities",
+      "sections": [
+        {
+          "heading": "An observer has a position",
+          "text": "Al-Biruni’s engagement with Sanskrit learning, Ibn Battuta’s mobile career and Bernier’s comparisons with Europe created different accounts. Their interests determined what they noticed. A claim about all Indian society may rest on a narrow set of encounters. Ask where an observer travelled, which languages he knew and whom he could meet."
+        },
+        {
+          "heading": "Towns as networks",
+          "text": "A town might be a port, administrative centre, pilgrimage site or craft hub, often combining several roles. Artisans required raw materials and customers; merchants needed routes, credit and political arrangements. Urban history therefore links production, exchange and institutions. A traveller’s account of a spectacular market should be checked against other evidence rather than converted directly into a measure of general prosperity."
+        },
+        {
+          "heading": "Beyond settled-versus-tribal binaries",
+          "text": "Pastoral and forest communities interacted with states through trade, tribute, conflict and alliance. Gond and Ahom histories show different processes of state building and social change. These groups were not frozen outside history. Changes in land use and political demand could reshape occupations, settlement and identities, while communities also influenced the states around them."
+        }
+      ],
+      "comparison": {
+        "headers": [
+          "Concept / example",
+          "What to remember",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Al-Biruni",
+            "Eleventh-century intellectual observer",
+            "Compare learning and cultural translation."
+          ],
+          [
+            "Ibn Battuta",
+            "Fourteenth-century traveller",
+            "Useful for movement, cities and communication."
+          ],
+          [
+            "Bernier",
+            "Seventeenth-century European visitor",
+            "Comparisons may project European expectations."
+          ],
+          [
+            "Gonds / Ahoms",
+            "Different regional histories",
+            "Avoid one generic model for all communities."
+          ]
+        ]
+      },
+      "terms": [
+        {
+          "term": "Itinerary",
+          "meaning": "A route or sequence of travel."
+        },
+        {
+          "term": "Pastoralism",
+          "meaning": "Livelihoods substantially based on herding."
+        },
+        {
+          "term": "Ethnocentrism",
+          "meaning": "Interpreting others primarily through one’s own cultural assumptions."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "Eleventh century",
+          "event": "Al-Biruni’s work on India."
+        },
+        {
+          "date": "Fourteenth century",
+          "event": "Ibn Battuta’s travels."
+        },
+        {
+          "date": "Seventeenth century",
+          "event": "Bernier’s observations of Mughal India."
+        }
+      ],
+      "trap": "An eyewitness can be accurate about an event while drawing an unreliable generalisation from it.",
+      "practice": {
+        "question": "How would you evaluate a traveller’s statement about landownership?",
+        "answer": "Define the rights he actually observed, compare local and administrative sources, and distinguish ownership, revenue claims and cultivation. Check whether European legal categories have distorted the description."
+      }
+    },
+    "company": {
+      "title": "From trading company to territorial government",
+      "sections": [
+        {
+          "heading": "Commercial power needed political arrangements",
+          "text": "European companies began with trade but relied on privileges, fortified settlements and armed competition. They operated within existing Indian markets and political systems. Their later territorial strength should not be projected back as an inevitable outcome of the first factory. Local alliances, finance and conflicts changed what the Company could achieve."
+        },
+        {
+          "heading": "Bengal and the revenue–army connection",
+          "text": "Plassey and Buxar were different events with different political consequences. Victory and negotiation enabled the Company to obtain the Diwani in 1765. Revenue supported military expenditure; military power could secure new revenue. This feedback helps explain expansion, but it depended on Indian intermediaries, banking networks and particular decisions as well as European organisation."
+        },
+        {
+          "heading": "Expansion and parliamentary supervision",
+          "text": "Subsidiary alliances imposed military and diplomatic constraints on allied rulers. Annexation could occur through different mechanisms, including the Doctrine of Lapse. Meanwhile, Parliament increasingly regulated the Company. The creation of the Governor-General of Bengal and the later designation of Governor-General of India belong to distinct legal stages. Separate territory, title and effective control."
+        }
+      ],
+      "comparison": {
+        "headers": [
+          "Concept / example",
+          "What to remember",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Plassey, 1757",
+            "Victory closely tied to political intrigue",
+            "Do not confuse it with Buxar’s coalition and consequences."
+          ],
+          [
+            "Buxar, 1764",
+            "Military victory strengthens Company leverage",
+            "Important for the ensuing settlement and Bihar."
+          ],
+          [
+            "Diwani, 1765",
+            "Revenue rights in Bengal, Bihar and Orissa",
+            "Finance becomes central to political expansion."
+          ],
+          [
+            "Subsidiary alliance",
+            "Obligations under an unequal alliance",
+            "Not identical to annexation by lapse."
+          ]
+        ]
+      },
+      "terms": [
+        {
+          "term": "Factory",
+          "meaning": "A trading establishment in early Company usage."
+        },
+        {
+          "term": "Diwani",
+          "meaning": "Revenue-administration rights in this context."
+        },
+        {
+          "term": "Annexation",
+          "meaning": "Incorporation of territory into a ruler’s domain."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "1757",
+          "event": "Plassey."
+        },
+        {
+          "date": "1764",
+          "event": "Buxar."
+        },
+        {
+          "date": "1765",
+          "event": "Diwani grant."
+        },
+        {
+          "date": "1833",
+          "event": "Governor-General of India designation."
+        }
+      ],
+      "trap": "Company commercial presence, territorial sovereignty and parliamentary control developed at different times.",
+      "practice": {
+        "question": "Explain Company expansion without attributing it to military technology alone.",
+        "answer": "Combine revenue resources, credit, diplomacy, alliances, local conflicts and military organisation. Use Bengal to show how these factors reinforced one another rather than presenting a single-cause explanation."
+      }
+    },
+    "rural": {
+      "title": "Land settlements, the colonial economy and resistance",
+      "sections": [
+        {
+          "heading": "Rights and demands",
+          "text": "Revenue systems reorganised relationships among the state, intermediaries and cultivators. Under the Permanent Settlement, the state’s demand on zamindars was fixed; this did not fix every tenant’s rent or remove insecurity. Ryotwari and Mahalwari arrangements used different units and intermediaries. Variations in assessment, enforcement and recognised rights were as important as the names of the systems."
+        },
+        {
+          "heading": "Markets could create vulnerability",
+          "text": "Commercial cultivation connected farmers to wider prices and credit. Debt, revenue deadlines and crop failure could interact. A crop might be profitable for some participants while exposing others to risk or coercion. Colonial economic criticism connected these conditions to trade policy, remittances and the drain of wealth. Deindustrialisation should be studied as uneven changes in crafts and employment, not the disappearance of every artisan."
+        },
+        {
+          "heading": "Resistance has a local history",
+          "text": "Peasant, tribal and civil resistance arose from different combinations of grievances. Santhal and Kol movements require attention to land, debt, intermediaries and the historical geography of regions now including Jharkhand. Their aims should be reconstructed before calling them identical expressions of modern nationalism. Local struggles nonetheless illuminate the contested character of colonial rule."
+        }
+      ],
+      "comparison": {
+        "headers": [
+          "Concept / example",
+          "What to remember",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Permanent Settlement",
+            "State demand fixed on zamindars",
+            "Tenant conditions could still change."
+          ],
+          [
+            "Ryotwari",
+            "Direct assessment of cultivators in its basic design",
+            "No automatic protection from high demands or crop failure."
+          ],
+          [
+            "Mahalwari",
+            "Assessment linked to village estates or groups",
+            "Implementation varied across regions."
+          ],
+          [
+            "Drain critique",
+            "Resources transferred without equivalent return",
+            "Connect economic argument with emerging nationalism."
+          ]
+        ]
+      },
+      "terms": [
+        {
+          "term": "Rent",
+          "meaning": "Payment by a cultivator to a holder of superior land rights."
+        },
+        {
+          "term": "Revenue",
+          "meaning": "The state’s fiscal demand or receipts."
+        },
+        {
+          "term": "Commercialisation",
+          "meaning": "Increasing production for markets rather than only direct consumption."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "1793",
+          "event": "Permanent Settlement introduced in Bengal."
+        },
+        {
+          "date": "1831–32",
+          "event": "Kol uprising."
+        },
+        {
+          "date": "1855–56",
+          "event": "Santhal rebellion."
+        },
+        {
+          "date": "Later nineteenth century",
+          "event": "Nationalist economic criticism develops."
+        }
+      ],
+      "trap": "Fixed state revenue and fixed peasant rent are not the same thing.",
+      "practice": {
+        "question": "Why could rising agricultural exports coexist with rural distress?",
+        "answer": "Higher exports do not reveal how benefits and risks were distributed. Revenue pressure, debt, unequal contracts, price changes and reduced security could burden cultivators even as trade expanded."
+      }
+    },
+    "revolt": {
+      "title": "1857: causes, participation and consequences",
+      "sections": [
+        {
+          "heading": "Build a layered explanation",
+          "text": "Military grievances included service conditions and fears about interference with religion. Political grievances involved annexation and the loss of authority; rural discontent reflected wider social and economic pressures. The cartridge controversy was a trigger within this setting. Explaining only the trigger cannot account for participation beyond soldiers or for differences between regions."
+        },
+        {
+          "heading": "Unity and diversity",
+          "text": "Rebels sometimes invoked common symbols and sought wider legitimacy, but leaders and participants did not share one fully developed programme. Some defended dynastic claims; others pursued local concerns. Important centres included Delhi, Awadh, Kanpur, Jhansi and parts of Bihar. Regions that remained quieter are also part of the explanation and caution against unqualified claims of universal participation."
+        },
+        {
+          "heading": "What changed after suppression",
+          "text": "Crown rule replaced Company government in 1858. Army organisation, relations with princes and official policy statements changed. The experience influenced later colonial attitudes and Indian political memory. Debates over whether to call it a mutiny, revolt or war of independence should be grounded in evidence about participation and goals, rather than resolved by a label alone."
+        }
+      ],
+      "comparison": {
+        "headers": [
+          "Concept / example",
+          "What to remember",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Military grievances",
+            "Conditions, service and religious fears",
+            "Explain the initial military setting."
+          ],
+          [
+            "Political grievances",
+            "Annexation and dispossession",
+            "Connect affected rulers and elites."
+          ],
+          [
+            "Popular participation",
+            "Varied local demands",
+            "Shows why “only a barracks event” is insufficient."
+          ],
+          [
+            "Kunwar Singh",
+            "Important leader in Bihar",
+            "Use a regional example within the wider argument."
+          ]
+        ]
+      },
+      "terms": [
+        {
+          "term": "Trigger",
+          "meaning": "An immediate event that helps set a crisis in motion."
+        },
+        {
+          "term": "Structural cause",
+          "meaning": "A deeper condition making a crisis possible."
+        },
+        {
+          "term": "Proclamation",
+          "meaning": "An official public statement of policy or authority."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "May 1857",
+          "event": "Rebellion at Meerut and movement towards Delhi."
+        },
+        {
+          "date": "1857–58",
+          "event": "Major centres of rebellion and suppression."
+        },
+        {
+          "date": "1858",
+          "event": "Transfer of rule to the British Crown."
+        }
+      ],
+      "trap": "A common enemy does not automatically mean identical objectives among all rebels.",
+      "practice": {
+        "question": "How can a short answer acknowledge both unity and diversity in 1857?",
+        "answer": "Identify common opposition and shared symbols, then illustrate distinct military, dynastic and local aims. Finish by explaining uneven regional participation and why neither total unity nor complete isolation describes the evidence."
+      }
+    },
+    "reform": {
+      "title": "Reform, education and the public sphere",
+      "sections": [
+        {
+          "heading": "Compare approaches, not only founders",
+          "text": "Movements differed in how they approached scripture, caste, women’s position and social authority. Some sought reinterpretation within a tradition; others challenged hierarchy more directly. An organisation’s stated ideals should be distinguished from its membership and actual reach. A comparison becomes useful when it asks whose problems were prioritised and which methods were available."
+        },
+        {
+          "heading": "Education and unequal access",
+          "text": "Debates about language and curriculum were also debates about employment, culture and power. The 1835 decision and Wood’s Despatch of 1854 belong to different policy moments. Institutions widened learning for some while leaving major inequalities. Women and marginalised communities developed their own educational initiatives and arguments, so reform should not be narrated only as elite men acting on others."
+        },
+        {
+          "heading": "Print as infrastructure for debate",
+          "text": "Newspapers and pamphlets helped circulate grievances, proposals and new identities. Editors mattered, but language, literacy, price and distribution shaped readership. Public readings could carry printed ideas beyond individual subscribers. Censorship and prosecution reveal official concern about this circulation. Link a publication to a debate rather than learning its title without historical purpose."
+        }
+      ],
+      "comparison": {
+        "headers": [
+          "Concept / example",
+          "What to remember",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Brahmo Samaj",
+            "Religious and social reform",
+            "Analyse reinterpretation and social constituency."
+          ],
+          [
+            "Arya Samaj",
+            "Reform through an appeal to Vedic authority",
+            "Compare its approach with other reform traditions."
+          ],
+          [
+            "Aligarh movement",
+            "Education and community advancement",
+            "Situate institutions within colonial conditions."
+          ],
+          [
+            "Anti-caste initiatives",
+            "Challenges to inherited hierarchy",
+            "Do not subsume all reform under elite religious organisations."
+          ]
+        ]
+      },
+      "terms": [
+        {
+          "term": "Public sphere",
+          "meaning": "Spaces and media through which public questions are debated."
+        },
+        {
+          "term": "Social reform",
+          "meaning": "Organised attempts to change practices or institutions."
+        },
+        {
+          "term": "Censorship",
+          "meaning": "Control over publication or circulation of expression."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "1828",
+          "event": "Brahmo Sabha founded."
+        },
+        {
+          "date": "1835",
+          "event": "Major colonial education-policy decision."
+        },
+        {
+          "date": "1854",
+          "event": "Wood’s Despatch."
+        },
+        {
+          "date": "1878",
+          "event": "Vernacular Press Act."
+        }
+      ],
+      "trap": "English education did not reach everyone, and educated Indians did not hold one political opinion.",
+      "practice": {
+        "question": "What would make a press-history answer more than a list?",
+        "answer": "Explain audiences, language, circulation, censorship and the debate a paper advanced. Show how print connected people and grievances while recognising unequal access."
+      }
+    },
+    "nationalism": {
+      "title": "Early nationalism, Swadeshi and competing strategies",
+      "sections": [
+        {
+          "heading": "Making a wider political platform",
+          "text": "Associations and newspapers helped connect regional grievances with questions about colonial rule. The Congress offered a forum for demands, discussion and political education. Early leaders used constitutional methods and developed an economic critique. Their limited social base is important, but it should not obscure institution building or the creation of arguments later movements could use."
+        },
+        {
+          "heading": "Swadeshi as practical politics",
+          "text": "Opposition to Bengal’s partition connected boycott with indigenous enterprise, national education and cultural expression. These activities brought politics into consumption and everyday institutions. Participation remained uneven, and sustaining alternatives required resources. The movement’s significance lies partly in its methods of mobilisation, not only in whether every immediate aim succeeded."
+        },
+        {
+          "heading": "Different routes to freedom",
+          "text": "Revolutionary groups, overseas networks and Home Rule campaigns differed in organisation and strategy. Wartime conditions intensified political expectations. The Lucknow Pact created an agreement in a particular context; it did not permanently resolve every disagreement. Place constitutional negotiation, mass activity and revolutionary action alongside one another instead of treating any one strand as the entire movement."
+        }
+      ],
+      "comparison": {
+        "headers": [
+          "Concept / example",
+          "What to remember",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Moderate methods",
+            "Petitions, public argument and reform demands",
+            "Assess political education as well as limits."
+          ],
+          [
+            "Swadeshi",
+            "Boycott and indigenous alternatives",
+            "Connect economic practice with mobilisation."
+          ],
+          [
+            "Home Rule",
+            "Public campaigns for self-government",
+            "Different from clandestine armed activity."
+          ],
+          [
+            "Ghadar",
+            "Revolutionary overseas networks",
+            "Connect migration, war and anti-colonial organisation."
+          ]
+        ]
+      },
+      "terms": [
+        {
+          "term": "Boycott",
+          "meaning": "Organised refusal to use or participate in something."
+        },
+        {
+          "term": "Swadeshi",
+          "meaning": "Support for indigenous production and institutions."
+        },
+        {
+          "term": "Constitutional agitation",
+          "meaning": "Political action through demands concerning lawful institutions and rights."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "1885",
+          "event": "Indian National Congress founded."
+        },
+        {
+          "date": "1905",
+          "event": "Bengal partition and Swadeshi mobilisation."
+        },
+        {
+          "date": "1907",
+          "event": "Surat split."
+        },
+        {
+          "date": "1916",
+          "event": "Home Rule activity and Lucknow Pact."
+        }
+      ],
+      "trap": "The labels moderate and extremist describe political tendencies in a specific context, not fixed personality types.",
+      "practice": {
+        "question": "Why did Swadeshi require constructive activity as well as boycott?",
+        "answer": "Refusing imported goods or existing institutions created a need for alternatives. Schools, production and organisations helped turn protest into sustained participation, although resources and social reach limited success."
+      }
+    },
+    "gandhi": {
+      "title": "Gandhian mobilisation: methods, participation and limits",
+      "sections": [
+        {
+          "heading": "A local grievance can become political education",
+          "text": "Champaran, Ahmedabad and Kheda addressed different problems. Inquiry, negotiation and local organisation connected grievance with disciplined resistance. These campaigns should not be compressed into a single identical event. They helped establish a political method and networks, while depending on participants who already had knowledge of local conditions and their own demands."
+        },
+        {
+          "heading": "Mass action is interpreted locally",
+          "text": "A national programme can acquire different meanings among peasants, workers, students and merchants. Leaders seek coordination, but participants bring their own priorities. Non-Cooperation emphasised withdrawal of support; Civil Disobedience included deliberate breaches of selected laws. Compare programme, participation and actual action rather than assuming that instructions were followed uniformly."
+        },
+        {
+          "heading": "Withdrawal, negotiation and debate",
+          "text": "Chauri Chaura exposed the tension between rapid mobilisation and non-violent discipline. The Gandhi–Irwin Pact reflects another tension: negotiation could create opportunities while disappointing some participants. Gandhi’s educational and national ideas also differed from Tagore’s without making them absolute opposites. Analyse choices in context, weighing achievements, limits and alternative perspectives."
+        }
+      ],
+      "comparison": {
+        "headers": [
+          "Concept / example",
+          "What to remember",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Champaran, 1917",
+            "Indigo cultivators",
+            "Local inquiry and agrarian grievances."
+          ],
+          [
+            "Ahmedabad, 1918",
+            "Textile labour dispute",
+            "Industrial workers rather than a revenue campaign."
+          ],
+          [
+            "Non-Cooperation",
+            "Withdrawal from colonial links",
+            "Compare programme with local interpretations."
+          ],
+          [
+            "Civil Disobedience",
+            "Violation of selected laws",
+            "Salt connected a national demand to an everyday issue."
+          ]
+        ]
+      },
+      "terms": [
+        {
+          "term": "Satyagraha",
+          "meaning": "Resistance grounded in truth, ethical discipline and non-violence."
+        },
+        {
+          "term": "Constructive work",
+          "meaning": "Practical activity intended to build social and political capacity."
+        },
+        {
+          "term": "Mass mobilisation",
+          "meaning": "Bringing large and diverse groups into collective action."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "1917–18",
+          "event": "Early local campaigns."
+        },
+        {
+          "date": "1920–22",
+          "event": "Non-Cooperation."
+        },
+        {
+          "date": "1929",
+          "event": "Complete independence adopted as the Congress objective."
+        },
+        {
+          "date": "1930–31",
+          "event": "Salt March, Civil Disobedience and Gandhi–Irwin Pact."
+        }
+      ],
+      "trap": "A movement’s withdrawal does not prove that nobody supported it or that every achievement vanished.",
+      "practice": {
+        "question": "Compare the political use of salt with an abstract constitutional demand.",
+        "answer": "Salt taxation touched ordinary life, made defiance understandable and enabled visible participation. Its political force came from connecting a familiar grievance with the larger claim to self-rule."
+      }
+    },
+    "constitution": {
+      "title": "Constitutional change and the limits of colonial reform",
+      "sections": [
+        {
+          "heading": "Read laws through institutions",
+          "text": "Constitutional history becomes manageable when each measure is linked to an institutional question: who controlled the executive, who could represent whom, and which powers remained reserved? A title change is not equivalent to democratic accountability. The Governor-General’s evolving designation, parliamentary supervision and later representative institutions belong to different parts of this development."
+        },
+        {
+          "heading": "Representation and safeguards",
+          "text": "Separate electorates, reserved seats and joint electorates are distinct arrangements. The Communal Award and Poona Pact should be compared on precisely this point. The debate involved competing concerns about political voice and social power. Avoid describing the agreement as merely an increase or decrease in seats without explaining how representatives would be chosen."
+        },
+        {
+          "heading": "Proposal versus implementation",
+          "text": "The 1935 Act introduced provincial autonomy but its proposed all-India federation did not operate. Congress ministries formed after the 1937 elections within a constrained colonial framework. Governors’ powers and central control limited their autonomy. Use these limits to explain the difference between running a provincial ministry and possessing national sovereignty."
+        }
+      ],
+      "comparison": {
+        "headers": [
+          "Concept / example",
+          "What to remember",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "1773 framework",
+            "Governor-General of Bengal",
+            "An early stage of parliamentary regulation."
+          ],
+          [
+            "1833 Act",
+            "Governor-General of India",
+            "Administrative centralisation, not popular sovereignty."
+          ],
+          [
+            "1919 Act",
+            "Provincial dyarchy",
+            "Different fields of government assigned differently."
+          ],
+          [
+            "1935 Act",
+            "Provincial autonomy; federation proposed",
+            "Only implemented provisions should be described as operating institutions."
+          ]
+        ]
+      },
+      "terms": [
+        {
+          "term": "Dyarchy",
+          "meaning": "Division of governmental subjects between different authorities."
+        },
+        {
+          "term": "Separate electorate",
+          "meaning": "An electoral arrangement in which a defined group votes separately for its representatives."
+        },
+        {
+          "term": "Reserved seat",
+          "meaning": "A seat set aside for a group, which can exist within joint electorates."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "1909",
+          "event": "Constitutional reform and separate electorates."
+        },
+        {
+          "date": "1919",
+          "event": "Provincial dyarchy."
+        },
+        {
+          "date": "1932",
+          "event": "Communal Award and Poona Pact."
+        },
+        {
+          "date": "1935–37",
+          "event": "Act followed by provincial elections and ministries."
+        }
+      ],
+      "trap": "The all-India federation proposed in 1935 never came into operation.",
+      "practice": {
+        "question": "Why is the distinction between joint electorates and reserved seats important?",
+        "answer": "A joint electorate concerns who votes, while reservation concerns which seats or representatives are set aside. The two can coexist, so neither term should be used as a synonym for the other."
+      }
+    },
+    "independence": {
+      "title": "War, Quit India and the transfer of power",
+      "sections": [
+        {
+          "heading": "Wartime pressures",
+          "text": "The Second World War changed economic conditions and political bargaining. Congress ministries resigned after India was drawn into the war without consultation. The failure of later proposals, including the Cripps Mission, helped create the setting for Quit India. Inflation, uncertainty and the Japanese advance were part of the context; no single factor is a complete explanation."
+        },
+        {
+          "heading": "Resistance under repression",
+          "text": "The arrests of national leaders were followed by diverse local actions and underground organisation. Bihar’s underground networks, including Jayaprakash Narayan’s role, connect regional participation to the wider movement. The INA’s trials and the naval uprising later added different pressures. Their importance should be assessed alongside mass politics and Britain’s postwar situation, not as exclusive causes of independence."
+        },
+        {
+          "heading": "Negotiation and human consequences",
+          "text": "The Cabinet Mission proposed a framework for a united India, while later decisions accepted partition. Disagreements, political competition and violence shaped this transition. Independence transferred authority but also involved institutional division and enormous displacement. An answer on Partition should bring constitutional negotiations into conversation with the experiences of people affected, without treating violence as a minor afterthought."
+        }
+      ],
+      "comparison": {
+        "headers": [
+          "Concept / example",
+          "What to remember",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Cripps Mission",
+            "Wartime constitutional proposal",
+            "Failure belongs to the immediate setting of Quit India."
+          ],
+          [
+            "Quit India",
+            "Mass and underground resistance",
+            "Repression and local initiative shaped its course."
+          ],
+          [
+            "INA trials",
+            "Political impact beyond military outcomes",
+            "Public responses matter as well as battlefield results."
+          ],
+          [
+            "Cabinet Mission",
+            "Proposed united constitutional framework",
+            "Not the same as the later Partition settlement."
+          ]
+        ]
+      },
+      "terms": [
+        {
+          "term": "Interim government",
+          "meaning": "A temporary executive during a political transition."
+        },
+        {
+          "term": "Sovereignty",
+          "meaning": "Supreme authority to govern."
+        },
+        {
+          "term": "Partition",
+          "meaning": "Division of territory and institutions, accompanied here by mass displacement and violence."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "1939",
+          "event": "War and resignation of Congress ministries."
+        },
+        {
+          "date": "1942",
+          "event": "Cripps Mission and Quit India."
+        },
+        {
+          "date": "1946",
+          "event": "Cabinet Mission and interim government."
+        },
+        {
+          "date": "1947",
+          "event": "Independence and Partition."
+        }
+      ],
+      "trap": "Quit India did not immediately end British rule; its importance includes political effects beyond immediate success.",
+      "practice": {
+        "question": "How can a balanced answer explain independence without a single decisive cause?",
+        "answer": "Combine sustained popular mobilisation, constitutional negotiation, wartime and postwar pressures, changing legitimacy and unrest. Explain how they interacted, then distinguish the achievement of independence from the separate question of why Partition occurred."
+      }
+    }
+  },
+  "readers": {
+    "ancient": [
+      [
+        "Bricks, Beads and Bones",
+        "lehs101"
+      ],
+      [
+        "Kings, Farmers and Towns",
+        "lehs102"
+      ],
+      [
+        "Kinship, Caste and Class",
+        "lehs103"
+      ],
+      [
+        "Thinkers, Beliefs and Buildings",
+        "lehs104"
+      ]
+    ],
+    "medieval": [
+      [
+        "Through the Eyes of Travellers",
+        "lehs201"
+      ],
+      [
+        "Bhakti-Sufi Traditions",
+        "lehs202"
+      ],
+      [
+        "An Imperial Capital: Vijayanagara",
+        "lehs203"
+      ],
+      [
+        "Peasants, Zamindars and the State",
+        "lehs204"
+      ]
+    ],
+    "modern": [
+      [
+        "Colonialism and the Countryside",
+        "lehs301"
+      ],
+      [
+        "Rebels and the Raj",
+        "lehs302"
+      ],
+      [
+        "Mahatma Gandhi and the Nationalist Movement",
+        "lehs303"
+      ],
+      [
+        "Framing the Constitution",
+        "lehs304"
+      ]
+    ]
+  }
+}

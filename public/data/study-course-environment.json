@@ -1,0 +1,1840 @@
+{
+  "id": "environment",
+  "title": "Environment & Ecology",
+  "headline": "See the connections. Think in systems.",
+  "intro": "Connect ecological systems, environmental pressures and practical conservation responses.",
+  "practiceOnly": true,
+  "readerTitle": "NCERT textbook reader",
+  "readerDescription": "Choose an official chapter from this study block. Use the book contents to match the topic: chapter numbering and retained content vary by edition.",
+  "sources": {
+    "lebo1": {
+      "title": "NCERT Class 12: Biology",
+      "url": "https://ncert.nic.in/textbook.php?lebo1=0-13",
+      "access": "Official book portal. The reading list uses topic names; legacy and current editions may organise or omit material differently."
+    },
+    "jesc1": {
+      "title": "NCERT Class 10: Science",
+      "url": "https://ncert.nic.in/textbook.php?jesc1=0-13",
+      "access": "Official book portal. The reading list uses topic names; legacy and current editions may organise or omit material differently."
+    }
+  },
+  "segments": [
+    {
+      "id": "block-1",
+      "title": "Ecology & Biodiversity",
+      "icon": "environment",
+      "description": "Draw an interaction network and trace an indirect effect. Build the foundation through the daily notes and use the block companion to connect concepts.",
+      "sources": [
+        "lebo1"
+      ],
+      "days": [
+        {
+          "day": 1,
+          "topic": "Forests as lifeline",
+          "notes": [
+            "Layers, tribes, products, deforestation chain (soil, climate, livelihoods).",
+            "Key distinctions to retain: Canopy; Interdependence; Deforestation; People in forests."
+          ],
+          "reading": "Class 7 · Environment from Class 7: Forests as lifeline.",
+          "task": "Draw an interaction network and trace an indirect effect. Write five explained points on Forests as lifeline, then check them against the notes and source reading.",
+          "recall": "Explain Forests as lifeline in your own words and connect it to Canopy.",
+          "recallAnswer": "Layers, tribes, products, deforestation chain (soil, climate, livelihoods).",
+          "studyWords": 184,
+          "deepReading": [
+            "environment-1"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 2,
+          "topic": "Forests as lifeline — application",
+          "notes": [
+            "Layers, tribes, products, deforestation chain (soil, climate, livelihoods).",
+            "Key distinctions to retain: Canopy; Interdependence; Deforestation; People in forests."
+          ],
+          "reading": "Class 7 · Environment from Class 7: Forests as lifeline.",
+          "task": "Draw an interaction network and trace an indirect effect. Write five explained points on Forests as lifeline, then check them against the notes and source reading.",
+          "recall": "Explain Forests as lifeline in your own words and connect it to Canopy.",
+          "recallAnswer": "Layers, tribes, products, deforestation chain (soil, climate, livelihoods).",
+          "studyWords": 184,
+          "deepReading": [
+            "environment-1"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 3,
+          "topic": "Forests as lifeline — application",
+          "notes": [
+            "Layers, tribes, products, deforestation chain (soil, climate, livelihoods).",
+            "Key distinctions to retain: Canopy; Interdependence; Deforestation; People in forests."
+          ],
+          "reading": "Class 7 · Environment from Class 7: Forests as lifeline.",
+          "task": "Draw an interaction network and trace an indirect effect. Write five explained points on Forests as lifeline, then check them against the notes and source reading.",
+          "recall": "Explain Forests as lifeline in your own words and connect it to Canopy.",
+          "recallAnswer": "Layers, tribes, products, deforestation chain (soil, climate, livelihoods).",
+          "studyWords": 184,
+          "deepReading": [
+            "environment-1"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 4,
+          "topic": "Forests as lifeline — application",
+          "notes": [
+            "Layers, tribes, products, deforestation chain (soil, climate, livelihoods).",
+            "Key distinctions to retain: Canopy; Interdependence; Deforestation; People in forests."
+          ],
+          "reading": "Class 7 · Environment from Class 7: Forests as lifeline.",
+          "task": "Draw an interaction network and trace an indirect effect. Write five explained points on Forests as lifeline, then check them against the notes and source reading.",
+          "recall": "Explain Forests as lifeline in your own words and connect it to Canopy.",
+          "recallAnswer": "Layers, tribes, products, deforestation chain (soil, climate, livelihoods).",
+          "studyWords": 184,
+          "deepReading": [
+            "environment-1"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 5,
+          "topic": "Biogeochemical cycles",
+          "notes": [
+            "Water, nitrogen, carbon, oxygen. Human disruption (fertiliser, fossil carbon) is the GS hook.",
+            "Key distinctions to retain: N cycle; C cycle; Water; Human disruption."
+          ],
+          "reading": "Class 9 · Natural resources & food: Biogeochemical cycles.",
+          "task": "Draw an interaction network and trace an indirect effect. Write five explained points on Biogeochemical cycles, then check them against the notes and source reading.",
+          "recall": "Explain Biogeochemical cycles in your own words and connect it to N cycle.",
+          "recallAnswer": "Water, nitrogen, carbon, oxygen. Human disruption (fertiliser, fossil carbon) is the GS hook.",
+          "studyWords": 190,
+          "deepReading": [
+            "environment-1"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 6,
+          "topic": "Biogeochemical cycles — application",
+          "notes": [
+            "Water, nitrogen, carbon, oxygen. Human disruption (fertiliser, fossil carbon) is the GS hook.",
+            "Key distinctions to retain: N cycle; C cycle; Water; Human disruption."
+          ],
+          "reading": "Class 9 · Natural resources & food: Biogeochemical cycles.",
+          "task": "Draw an interaction network and trace an indirect effect. Write five explained points on Biogeochemical cycles, then check them against the notes and source reading.",
+          "recall": "Explain Biogeochemical cycles in your own words and connect it to N cycle.",
+          "recallAnswer": "Water, nitrogen, carbon, oxygen. Human disruption (fertiliser, fossil carbon) is the GS hook.",
+          "studyWords": 190,
+          "deepReading": [
+            "environment-1"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 7,
+          "topic": "Revision I: Ecology & Biodiversity",
+          "notes": [
+            "Forests as lifeline: Layers, tribes, products, deforestation chain (soil, climate, livelihoods).",
+            "Biogeochemical cycles: Water, nitrogen, carbon, oxygen. Human disruption (fertiliser, fossil carbon) is the GS hook."
+          ],
+          "reading": "Revisit your notes for Forests as lifeline; Biogeochemical cycles. Re-read the assigned source sections only where your recall is weak.",
+          "task": "Close the notes and reconstruct the main distinctions from the last 2 topics. Draw an interaction network and trace an indirect effect. Then compare your work with the material below.",
+          "recall": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+          "recallAnswer": "Layers, tribes, products, deforestation chain (soil, climate, livelihoods). Water, nitrogen, carbon, oxygen. Human disruption (fertiliser, fossil carbon) is the GS hook.",
+          "studyWords": 192,
+          "deepReading": [
+            "environment-1"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "revision"
+        },
+        {
+          "day": 8,
+          "topic": "Biogeochemical cycles — application",
+          "notes": [
+            "Water, nitrogen, carbon, oxygen. Human disruption (fertiliser, fossil carbon) is the GS hook.",
+            "Key distinctions to retain: N cycle; C cycle; Water; Human disruption."
+          ],
+          "reading": "Class 9 · Natural resources & food: Biogeochemical cycles.",
+          "task": "Draw an interaction network and trace an indirect effect. Write five explained points on Biogeochemical cycles, then check them against the notes and source reading.",
+          "recall": "Explain Biogeochemical cycles in your own words and connect it to N cycle.",
+          "recallAnswer": "Water, nitrogen, carbon, oxygen. Human disruption (fertiliser, fossil carbon) is the GS hook.",
+          "studyWords": 190,
+          "deepReading": [
+            "environment-1"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 9,
+          "topic": "Ecosystems and food chains",
+          "notes": [
+            "Producers to decomposers, 10% law, biomagnification (DDT). Why top predators are few.",
+            "Key distinctions to retain: Trophic; 10% law; Biomagnification; Decomposers."
+          ],
+          "reading": "Class 10 · Our environment & resources: Ecosystems and food chains.",
+          "task": "Draw an interaction network and trace an indirect effect. Write five explained points on Ecosystems and food chains, then check them against the notes and source reading.",
+          "recall": "Explain Ecosystems and food chains in your own words and connect it to Trophic.",
+          "recallAnswer": "Producers to decomposers, 10% law, biomagnification (DDT). Why top predators are few.",
+          "studyWords": 187,
+          "deepReading": [
+            "environment-1"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 10,
+          "topic": "Ecosystems and food chains — application",
+          "notes": [
+            "Producers to decomposers, 10% law, biomagnification (DDT). Why top predators are few.",
+            "Key distinctions to retain: Trophic; 10% law; Biomagnification; Decomposers."
+          ],
+          "reading": "Class 10 · Our environment & resources: Ecosystems and food chains.",
+          "task": "Draw an interaction network and trace an indirect effect. Write five explained points on Ecosystems and food chains, then check them against the notes and source reading.",
+          "recall": "Explain Ecosystems and food chains in your own words and connect it to Trophic.",
+          "recallAnswer": "Producers to decomposers, 10% law, biomagnification (DDT). Why top predators are few.",
+          "studyWords": 187,
+          "deepReading": [
+            "environment-1"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 11,
+          "topic": "Ecosystems and food chains — application",
+          "notes": [
+            "Producers to decomposers, 10% law, biomagnification (DDT). Why top predators are few.",
+            "Key distinctions to retain: Trophic; 10% law; Biomagnification; Decomposers."
+          ],
+          "reading": "Class 10 · Our environment & resources: Ecosystems and food chains.",
+          "task": "Draw an interaction network and trace an indirect effect. Write five explained points on Ecosystems and food chains, then check them against the notes and source reading.",
+          "recall": "Explain Ecosystems and food chains in your own words and connect it to Trophic.",
+          "recallAnswer": "Producers to decomposers, 10% law, biomagnification (DDT). Why top predators are few.",
+          "studyWords": 187,
+          "deepReading": [
+            "environment-1"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 12,
+          "topic": "Ecology basics for Prelims",
+          "notes": [
+            "Biome, ecotone, niche, keystone, edge effect, ecological succession, pyramids (number, biomass, energy).",
+            "Key distinctions to retain: Biome/ecotone; Niche/keystone; Succession; Pyramids."
+          ],
+          "reading": "Class 11 · GS environment core: Ecology basics for Prelims.",
+          "task": "Draw an interaction network and trace an indirect effect. Write five explained points on Ecology basics for Prelims, then check them against the notes and source reading.",
+          "recall": "Explain Ecology basics for Prelims in your own words and connect it to Biome/ecotone.",
+          "recallAnswer": "Biome, ecotone, niche, keystone, edge effect, ecological succession, pyramids (number, biomass, energy).",
+          "studyWords": 186,
+          "deepReading": [
+            "environment-1"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 13,
+          "topic": "Ecology basics for Prelims — application",
+          "notes": [
+            "Biome, ecotone, niche, keystone, edge effect, ecological succession, pyramids (number, biomass, energy).",
+            "Key distinctions to retain: Biome/ecotone; Niche/keystone; Succession; Pyramids."
+          ],
+          "reading": "Class 11 · GS environment core: Ecology basics for Prelims.",
+          "task": "Draw an interaction network and trace an indirect effect. Write five explained points on Ecology basics for Prelims, then check them against the notes and source reading.",
+          "recall": "Explain Ecology basics for Prelims in your own words and connect it to Biome/ecotone.",
+          "recallAnswer": "Biome, ecotone, niche, keystone, edge effect, ecological succession, pyramids (number, biomass, energy).",
+          "studyWords": 186,
+          "deepReading": [
+            "environment-1"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 14,
+          "topic": "Revision II: Ecology & Biodiversity",
+          "notes": [
+            "Biogeochemical cycles: Water, nitrogen, carbon, oxygen. Human disruption (fertiliser, fossil carbon) is the GS hook.",
+            "Ecosystems and food chains: Producers to decomposers, 10% law, biomagnification (DDT). Why top predators are few.",
+            "Ecology basics for Prelims: Biome, ecotone, niche, keystone, edge effect, ecological succession, pyramids (number, biomass, energy)."
+          ],
+          "reading": "Revisit your notes for Biogeochemical cycles; Ecosystems and food chains; Ecology basics for Prelims. Re-read the assigned source sections only where your recall is weak.",
+          "task": "Close the notes and reconstruct the main distinctions from the last 3 topics. Draw an interaction network and trace an indirect effect. Then compare your work with the material below.",
+          "recall": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+          "recallAnswer": "Water, nitrogen, carbon, oxygen. Human disruption (fertiliser, fossil carbon) is the GS hook. Producers to decomposers, 10% law, biomagnification (DDT). Why top predators are few. Biome, ecotone, niche, keystone, edge effect, ecological succession, pyramids (number, biomass, energy).",
+          "studyWords": 213,
+          "deepReading": [
+            "environment-1"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "revision"
+        },
+        {
+          "day": 15,
+          "topic": "Ecology basics for Prelims — application",
+          "notes": [
+            "Biome, ecotone, niche, keystone, edge effect, ecological succession, pyramids (number, biomass, energy).",
+            "Key distinctions to retain: Biome/ecotone; Niche/keystone; Succession; Pyramids."
+          ],
+          "reading": "Class 11 · GS environment core: Ecology basics for Prelims.",
+          "task": "Draw an interaction network and trace an indirect effect. Write five explained points on Ecology basics for Prelims, then check them against the notes and source reading.",
+          "recall": "Explain Ecology basics for Prelims in your own words and connect it to Biome/ecotone.",
+          "recallAnswer": "Biome, ecotone, niche, keystone, edge effect, ecological succession, pyramids (number, biomass, energy).",
+          "studyWords": 186,
+          "deepReading": [
+            "environment-1"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 16,
+          "topic": "Biodiversity of India",
+          "notes": [
+            "Four hotspots touching India, biogeographic zones, Western Ghats vs Himalaya, Indo-Burma, Sundaland. Species examples without stuffing 200 names.",
+            "Key distinctions to retain: Hotspots; Zones; Endemism; Threats."
+          ],
+          "reading": "Class 11 · GS environment core: Biodiversity of India.",
+          "task": "Draw an interaction network and trace an indirect effect. Write five explained points on Biodiversity of India, then check them against the notes and source reading.",
+          "recall": "Explain Biodiversity of India in your own words and connect it to Hotspots.",
+          "recallAnswer": "Four hotspots touching India, biogeographic zones, Western Ghats vs Himalaya, Indo-Burma, Sundaland. Species examples without stuffing 200 names.",
+          "studyWords": 192,
+          "deepReading": [
+            "environment-1"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 17,
+          "topic": "Biodiversity of India — application",
+          "notes": [
+            "Four hotspots touching India, biogeographic zones, Western Ghats vs Himalaya, Indo-Burma, Sundaland. Species examples without stuffing 200 names.",
+            "Key distinctions to retain: Hotspots; Zones; Endemism; Threats."
+          ],
+          "reading": "Class 11 · GS environment core: Biodiversity of India.",
+          "task": "Draw an interaction network and trace an indirect effect. Write five explained points on Biodiversity of India, then check them against the notes and source reading.",
+          "recall": "Explain Biodiversity of India in your own words and connect it to Hotspots.",
+          "recallAnswer": "Four hotspots touching India, biogeographic zones, Western Ghats vs Himalaya, Indo-Burma, Sundaland. Species examples without stuffing 200 names.",
+          "studyWords": 192,
+          "deepReading": [
+            "environment-1"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 18,
+          "topic": "Biodiversity of India — application",
+          "notes": [
+            "Four hotspots touching India, biogeographic zones, Western Ghats vs Himalaya, Indo-Burma, Sundaland. Species examples without stuffing 200 names.",
+            "Key distinctions to retain: Hotspots; Zones; Endemism; Threats."
+          ],
+          "reading": "Class 11 · GS environment core: Biodiversity of India.",
+          "task": "Draw an interaction network and trace an indirect effect. Write five explained points on Biodiversity of India, then check them against the notes and source reading.",
+          "recall": "Explain Biodiversity of India in your own words and connect it to Hotspots.",
+          "recallAnswer": "Four hotspots touching India, biogeographic zones, Western Ghats vs Himalaya, Indo-Burma, Sundaland. Species examples without stuffing 200 names.",
+          "studyWords": 192,
+          "deepReading": [
+            "environment-1"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 19,
+          "topic": "Ecology & Biodiversity: synthesis",
+          "notes": [
+            "Ecology basics for Prelims: Biome, ecotone, niche, keystone, edge effect, ecological succession, pyramids (number, biomass, energy).",
+            "Biodiversity of India: Four hotspots touching India, biogeographic zones, Western Ghats vs Himalaya, Indo-Burma, Sundaland. Species examples without stuffing 200 names."
+          ],
+          "reading": "Revisit your notes for Ecology basics for Prelims; Biodiversity of India. Re-read the assigned source sections only where your recall is weak.",
+          "task": "Close the notes and reconstruct the main distinctions from the last 2 topics. Draw an interaction network and trace an indirect effect. Then compare your work with the material below.",
+          "recall": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+          "recallAnswer": "Biome, ecotone, niche, keystone, edge effect, ecological succession, pyramids (number, biomass, energy). Four hotspots touching India, biogeographic zones, Western Ghats vs Himalaya, Indo-Burma, Sundaland. Species examples without stuffing 200 names.",
+          "studyWords": 203,
+          "deepReading": [
+            "environment-1"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "revision"
+        },
+        {
+          "day": 20,
+          "topic": "Ecology & Biodiversity: assessment & repair",
+          "notes": [
+            "Forests as lifeline: Layers, tribes, products, deforestation chain (soil, climate, livelihoods).",
+            "Biogeochemical cycles: Water, nitrogen, carbon, oxygen. Human disruption (fertiliser, fossil carbon) is the GS hook.",
+            "Ecosystems and food chains: Producers to decomposers, 10% law, biomagnification (DDT). Why top predators are few.",
+            "Ecology basics for Prelims: Biome, ecotone, niche, keystone, edge effect, ecological succession, pyramids (number, biomass, energy).",
+            "Biodiversity of India: Four hotspots touching India, biogeographic zones, Western Ghats vs Himalaya, Indo-Burma, Sundaland. Species examples without stuffing 200 names."
+          ],
+          "reading": "Revisit your notes for Forests as lifeline; Biogeochemical cycles; Ecosystems and food chains; Ecology basics for Prelims; Biodiversity of India. Re-read the assigned source sections only where your recall is weak.",
+          "task": "Use the official-paper link or your question bank for a timed 20-question topic test and one short answer. Mark the gaps, explain your errors and schedule a second recall attempt.",
+          "recall": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+          "recallAnswer": "Layers, tribes, products, deforestation chain (soil, climate, livelihoods). Water, nitrogen, carbon, oxygen. Human disruption (fertiliser, fossil carbon) is the GS hook. Producers to decomposers, 10% law, biomagnification (DDT). Why top predators are few. Biome, ecotone, niche, keystone, edge effect, ecological succession, pyramids (number, biomass, energy). Four hotspots touching India, biogeographic zones, Western Ghats vs Himalaya, Indo-Burma, Sundaland. Species examples without stuffing 200 names.",
+          "studyWords": 245,
+          "deepReading": [
+            "environment-1"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "test"
+        }
+      ]
+    },
+    {
+      "id": "block-2",
+      "title": "Pollution & Climate",
+      "icon": "environment",
+      "description": "Trace a pollutant or climate-risk pathway and compare responses. Build the foundation through the daily notes and use the block companion to connect concepts.",
+      "sources": [
+        "jesc1"
+      ],
+      "days": [
+        {
+          "day": 21,
+          "topic": "Garbage and 3Rs",
+          "notes": [
+            "Segregation, composting, plastic persistence. Habit plus municipal systems.",
+            "Key distinctions to retain: Biodegradable; Plastic; 3R; Landfill methane."
+          ],
+          "reading": "Class 6 · Environment from Class 6 science/geo: Garbage and 3Rs.",
+          "task": "Trace a pollutant or climate-risk pathway and compare responses. Write five explained points on Garbage and 3Rs, then check them against the notes and source reading.",
+          "recall": "Explain Garbage and 3Rs in your own words and connect it to Biodegradable.",
+          "recallAnswer": "Segregation, composting, plastic persistence. Habit plus municipal systems.",
+          "studyWords": 183,
+          "deepReading": [
+            "environment-2"
+          ],
+          "sources": [
+            "jesc1"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 22,
+          "topic": "Garbage and 3Rs — application",
+          "notes": [
+            "Segregation, composting, plastic persistence. Habit plus municipal systems.",
+            "Key distinctions to retain: Biodegradable; Plastic; 3R; Landfill methane."
+          ],
+          "reading": "Class 6 · Environment from Class 6 science/geo: Garbage and 3Rs.",
+          "task": "Trace a pollutant or climate-risk pathway and compare responses. Write five explained points on Garbage and 3Rs, then check them against the notes and source reading.",
+          "recall": "Explain Garbage and 3Rs in your own words and connect it to Biodegradable.",
+          "recallAnswer": "Segregation, composting, plastic persistence. Habit plus municipal systems.",
+          "studyWords": 183,
+          "deepReading": [
+            "environment-2"
+          ],
+          "sources": [
+            "jesc1"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 23,
+          "topic": "Water as a resource",
+          "notes": [
+            "Cycle, scarcity, flood and drought in the same country. Conservation is culture plus engineering.",
+            "Key distinctions to retain: Cycle; Scarcity; Flood/drought; Conserve."
+          ],
+          "reading": "Class 6 · Environment from Class 6 science/geo: Water as a resource.",
+          "task": "Trace a pollutant or climate-risk pathway and compare responses. Write five explained points on Water as a resource, then check them against the notes and source reading.",
+          "recall": "Explain Water as a resource in your own words and connect it to Cycle.",
+          "recallAnswer": "Cycle, scarcity, flood and drought in the same country. Conservation is culture plus engineering.",
+          "studyWords": 188,
+          "deepReading": [
+            "environment-2"
+          ],
+          "sources": [
+            "jesc1"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 24,
+          "topic": "Water as a resource — application",
+          "notes": [
+            "Cycle, scarcity, flood and drought in the same country. Conservation is culture plus engineering.",
+            "Key distinctions to retain: Cycle; Scarcity; Flood/drought; Conserve."
+          ],
+          "reading": "Class 6 · Environment from Class 6 science/geo: Water as a resource.",
+          "task": "Trace a pollutant or climate-risk pathway and compare responses. Write five explained points on Water as a resource, then check them against the notes and source reading.",
+          "recall": "Explain Water as a resource in your own words and connect it to Cycle.",
+          "recallAnswer": "Cycle, scarcity, flood and drought in the same country. Conservation is culture plus engineering.",
+          "studyWords": 188,
+          "deepReading": [
+            "environment-2"
+          ],
+          "sources": [
+            "jesc1"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 25,
+          "topic": "Wastewater and sanitation",
+          "notes": [
+            "Sewage treatment, open defecation free as a public-health project, river pollution.",
+            "Key distinctions to retain: STP; Sanitation; Rivers; Health."
+          ],
+          "reading": "Class 7 · Environment from Class 7: Wastewater and sanitation.",
+          "task": "Trace a pollutant or climate-risk pathway and compare responses. Write five explained points on Wastewater and sanitation, then check them against the notes and source reading.",
+          "recall": "Explain Wastewater and sanitation in your own words and connect it to STP.",
+          "recallAnswer": "Sewage treatment, open defecation free as a public-health project, river pollution.",
+          "studyWords": 185,
+          "deepReading": [
+            "environment-2"
+          ],
+          "sources": [
+            "jesc1"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 26,
+          "topic": "Wastewater and sanitation — application",
+          "notes": [
+            "Sewage treatment, open defecation free as a public-health project, river pollution.",
+            "Key distinctions to retain: STP; Sanitation; Rivers; Health."
+          ],
+          "reading": "Class 7 · Environment from Class 7: Wastewater and sanitation.",
+          "task": "Trace a pollutant or climate-risk pathway and compare responses. Write five explained points on Wastewater and sanitation, then check them against the notes and source reading.",
+          "recall": "Explain Wastewater and sanitation in your own words and connect it to STP.",
+          "recallAnswer": "Sewage treatment, open defecation free as a public-health project, river pollution.",
+          "studyWords": 185,
+          "deepReading": [
+            "environment-2"
+          ],
+          "sources": [
+            "jesc1"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 27,
+          "topic": "Revision I: Pollution & Climate",
+          "notes": [
+            "Garbage and 3Rs: Segregation, composting, plastic persistence. Habit plus municipal systems.",
+            "Water as a resource: Cycle, scarcity, flood and drought in the same country. Conservation is culture plus engineering.",
+            "Wastewater and sanitation: Sewage treatment, open defecation free as a public-health project, river pollution."
+          ],
+          "reading": "Revisit your notes for Garbage and 3Rs; Water as a resource; Wastewater and sanitation. Re-read the assigned source sections only where your recall is weak.",
+          "task": "Close the notes and reconstruct the main distinctions from the last 3 topics. Trace a pollutant or climate-risk pathway and compare responses. Then compare your work with the material below.",
+          "recall": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+          "recallAnswer": "Segregation, composting, plastic persistence. Habit plus municipal systems. Cycle, scarcity, flood and drought in the same country. Conservation is culture plus engineering. Sewage treatment, open defecation free as a public-health project, river pollution.",
+          "studyWords": 209,
+          "deepReading": [
+            "environment-2"
+          ],
+          "sources": [
+            "jesc1"
+          ],
+          "mode": "revision"
+        },
+        {
+          "day": 28,
+          "topic": "Coal, petroleum and combustion",
+          "notes": [
+            "Finite fossils, incomplete combustion, soot, CO. Energy transition starts as a science fact.",
+            "Key distinctions to retain: Finite; Pollution; Efficiency; Alternatives."
+          ],
+          "reading": "Class 8 · Environment from Class 8: Coal, petroleum and combustion.",
+          "task": "Trace a pollutant or climate-risk pathway and compare responses. Write five explained points on Coal, petroleum and combustion, then check them against the notes and source reading.",
+          "recall": "Explain Coal, petroleum and combustion in your own words and connect it to Finite.",
+          "recallAnswer": "Finite fossils, incomplete combustion, soot, CO. Energy transition starts as a science fact.",
+          "studyWords": 187,
+          "deepReading": [
+            "environment-2"
+          ],
+          "sources": [
+            "jesc1"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 29,
+          "topic": "Coal, petroleum and combustion — application",
+          "notes": [
+            "Finite fossils, incomplete combustion, soot, CO. Energy transition starts as a science fact.",
+            "Key distinctions to retain: Finite; Pollution; Efficiency; Alternatives."
+          ],
+          "reading": "Class 8 · Environment from Class 8: Coal, petroleum and combustion.",
+          "task": "Trace a pollutant or climate-risk pathway and compare responses. Write five explained points on Coal, petroleum and combustion, then check them against the notes and source reading.",
+          "recall": "Explain Coal, petroleum and combustion in your own words and connect it to Finite.",
+          "recallAnswer": "Finite fossils, incomplete combustion, soot, CO. Energy transition starts as a science fact.",
+          "studyWords": 187,
+          "deepReading": [
+            "environment-2"
+          ],
+          "sources": [
+            "jesc1"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 30,
+          "topic": "Air and water pollution",
+          "notes": [
+            "Smog, acid rain, greenhouse, industrial and domestic effluent. Ganga as a living case.",
+            "Key distinctions to retain: Smog; Acid rain; GHG; Effluent."
+          ],
+          "reading": "Class 8 · Environment from Class 8: Air and water pollution.",
+          "task": "Trace a pollutant or climate-risk pathway and compare responses. Write five explained points on Air and water pollution, then check them against the notes and source reading.",
+          "recall": "Explain Air and water pollution in your own words and connect it to Smog.",
+          "recallAnswer": "Smog, acid rain, greenhouse, industrial and domestic effluent. Ganga as a living case.",
+          "studyWords": 188,
+          "deepReading": [
+            "environment-2"
+          ],
+          "sources": [
+            "jesc1"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 31,
+          "topic": "Air and water pollution — application",
+          "notes": [
+            "Smog, acid rain, greenhouse, industrial and domestic effluent. Ganga as a living case.",
+            "Key distinctions to retain: Smog; Acid rain; GHG; Effluent."
+          ],
+          "reading": "Class 8 · Environment from Class 8: Air and water pollution.",
+          "task": "Trace a pollutant or climate-risk pathway and compare responses. Write five explained points on Air and water pollution, then check them against the notes and source reading.",
+          "recall": "Explain Air and water pollution in your own words and connect it to Smog.",
+          "recallAnswer": "Smog, acid rain, greenhouse, industrial and domestic effluent. Ganga as a living case.",
+          "studyWords": 188,
+          "deepReading": [
+            "environment-2"
+          ],
+          "sources": [
+            "jesc1"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 32,
+          "topic": "Ozone and greenhouse",
+          "notes": [
+            "Stratospheric ozone vs tropospheric warming — do not mix the two. Montreal vs UNFCCC.",
+            "Key distinctions to retain: Ozone depletion; GHG; Montreal; UNFCCC."
+          ],
+          "reading": "Class 9 · Natural resources & food: Ozone and greenhouse.",
+          "task": "Trace a pollutant or climate-risk pathway and compare responses. Write five explained points on Ozone and greenhouse, then check them against the notes and source reading.",
+          "recall": "Explain Ozone and greenhouse in your own words and connect it to Ozone depletion.",
+          "recallAnswer": "Stratospheric ozone vs tropospheric warming — do not mix the two. Montreal vs UNFCCC.",
+          "studyWords": 189,
+          "deepReading": [
+            "environment-2"
+          ],
+          "sources": [
+            "jesc1"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 33,
+          "topic": "Ozone and greenhouse — application",
+          "notes": [
+            "Stratospheric ozone vs tropospheric warming — do not mix the two. Montreal vs UNFCCC.",
+            "Key distinctions to retain: Ozone depletion; GHG; Montreal; UNFCCC."
+          ],
+          "reading": "Class 9 · Natural resources & food: Ozone and greenhouse.",
+          "task": "Trace a pollutant or climate-risk pathway and compare responses. Write five explained points on Ozone and greenhouse, then check them against the notes and source reading.",
+          "recall": "Explain Ozone and greenhouse in your own words and connect it to Ozone depletion.",
+          "recallAnswer": "Stratospheric ozone vs tropospheric warming — do not mix the two. Montreal vs UNFCCC.",
+          "studyWords": 189,
+          "deepReading": [
+            "environment-2"
+          ],
+          "sources": [
+            "jesc1"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 34,
+          "topic": "Revision II: Pollution & Climate",
+          "notes": [
+            "Coal, petroleum and combustion: Finite fossils, incomplete combustion, soot, CO. Energy transition starts as a science fact.",
+            "Air and water pollution: Smog, acid rain, greenhouse, industrial and domestic effluent. Ganga as a living case.",
+            "Ozone and greenhouse: Stratospheric ozone vs tropospheric warming — do not mix the two. Montreal vs UNFCCC."
+          ],
+          "reading": "Revisit your notes for Coal, petroleum and combustion; Air and water pollution; Ozone and greenhouse. Re-read the assigned source sections only where your recall is weak.",
+          "task": "Close the notes and reconstruct the main distinctions from the last 3 topics. Trace a pollutant or climate-risk pathway and compare responses. Then compare your work with the material below.",
+          "recall": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+          "recallAnswer": "Finite fossils, incomplete combustion, soot, CO. Energy transition starts as a science fact. Smog, acid rain, greenhouse, industrial and domestic effluent. Ganga as a living case. Stratospheric ozone vs tropospheric warming — do not mix the two. Montreal vs UNFCCC.",
+          "studyWords": 217,
+          "deepReading": [
+            "environment-2"
+          ],
+          "sources": [
+            "jesc1"
+          ],
+          "mode": "revision"
+        },
+        {
+          "day": 35,
+          "topic": "Pollution science",
+          "notes": [
+            "Air (PM, NOx, SOx, ozone), water (BOD/COD idea), soil, noise, plastic, e-waste, biomedical. NCAP, CPCB, SPCBs.",
+            "Key distinctions to retain: PM2.5; BOD; E-waste; Agencies."
+          ],
+          "reading": "Class 11 · GS environment core: Pollution science.",
+          "task": "Trace a pollutant or climate-risk pathway and compare responses. Write five explained points on Pollution science, then check them against the notes and source reading.",
+          "recall": "Explain Pollution science in your own words and connect it to PM2.5.",
+          "recallAnswer": "Air (PM, NOx, SOx, ozone), water (BOD/COD idea), soil, noise, plastic, e-waste, biomedical. NCAP, CPCB, SPCBs.",
+          "studyWords": 190,
+          "deepReading": [
+            "environment-2"
+          ],
+          "sources": [
+            "jesc1"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 36,
+          "topic": "Pollution science — application",
+          "notes": [
+            "Air (PM, NOx, SOx, ozone), water (BOD/COD idea), soil, noise, plastic, e-waste, biomedical. NCAP, CPCB, SPCBs.",
+            "Key distinctions to retain: PM2.5; BOD; E-waste; Agencies."
+          ],
+          "reading": "Class 11 · GS environment core: Pollution science.",
+          "task": "Trace a pollutant or climate-risk pathway and compare responses. Write five explained points on Pollution science, then check them against the notes and source reading.",
+          "recall": "Explain Pollution science in your own words and connect it to PM2.5.",
+          "recallAnswer": "Air (PM, NOx, SOx, ozone), water (BOD/COD idea), soil, noise, plastic, e-waste, biomedical. NCAP, CPCB, SPCBs.",
+          "studyWords": 190,
+          "deepReading": [
+            "environment-2"
+          ],
+          "sources": [
+            "jesc1"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 37,
+          "topic": "Climate change science",
+          "notes": [
+            "GHG, GWP, carbon budget, 1.5°C, adaptation vs mitigation, India’s energy mix, just transition.",
+            "Key distinctions to retain: GWP; Budget; Mitigation/adaptation; Just transition."
+          ],
+          "reading": "Class 11 · GS environment core: Climate change science.",
+          "task": "Trace a pollutant or climate-risk pathway and compare responses. Write five explained points on Climate change science, then check them against the notes and source reading.",
+          "recall": "Explain Climate change science in your own words and connect it to GWP.",
+          "recallAnswer": "GHG, GWP, carbon budget, 1.5°C, adaptation vs mitigation, India’s energy mix, just transition.",
+          "studyWords": 188,
+          "deepReading": [
+            "environment-2"
+          ],
+          "sources": [
+            "jesc1"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 38,
+          "topic": "Climate change science — application",
+          "notes": [
+            "GHG, GWP, carbon budget, 1.5°C, adaptation vs mitigation, India’s energy mix, just transition.",
+            "Key distinctions to retain: GWP; Budget; Mitigation/adaptation; Just transition."
+          ],
+          "reading": "Class 11 · GS environment core: Climate change science.",
+          "task": "Trace a pollutant or climate-risk pathway and compare responses. Write five explained points on Climate change science, then check them against the notes and source reading.",
+          "recall": "Explain Climate change science in your own words and connect it to GWP.",
+          "recallAnswer": "GHG, GWP, carbon budget, 1.5°C, adaptation vs mitigation, India’s energy mix, just transition.",
+          "studyWords": 188,
+          "deepReading": [
+            "environment-2"
+          ],
+          "sources": [
+            "jesc1"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 39,
+          "topic": "Pollution & Climate: synthesis",
+          "notes": [
+            "Ozone and greenhouse: Stratospheric ozone vs tropospheric warming — do not mix the two. Montreal vs UNFCCC.",
+            "Pollution science: Air (PM, NOx, SOx, ozone), water (BOD/COD idea), soil, noise, plastic, e-waste, biomedical. NCAP, CPCB, SPCBs.",
+            "Climate change science: GHG, GWP, carbon budget, 1.5°C, adaptation vs mitigation, India’s energy mix, just transition."
+          ],
+          "reading": "Revisit your notes for Ozone and greenhouse; Pollution science; Climate change science. Re-read the assigned source sections only where your recall is weak.",
+          "task": "Close the notes and reconstruct the main distinctions from the last 3 topics. Trace a pollutant or climate-risk pathway and compare responses. Then compare your work with the material below.",
+          "recall": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+          "recallAnswer": "Stratospheric ozone vs tropospheric warming — do not mix the two. Montreal vs UNFCCC. Air (PM, NOx, SOx, ozone), water (BOD/COD idea), soil, noise, plastic, e-waste, biomedical. NCAP, CPCB, SPCBs. GHG, GWP, carbon budget, 1.5°C, adaptation vs mitigation, India’s energy mix, just transition.",
+          "studyWords": 217,
+          "deepReading": [
+            "environment-2"
+          ],
+          "sources": [
+            "jesc1"
+          ],
+          "mode": "revision"
+        },
+        {
+          "day": 40,
+          "topic": "Pollution & Climate: assessment & repair",
+          "notes": [
+            "Garbage and 3Rs: Segregation, composting, plastic persistence. Habit plus municipal systems.",
+            "Water as a resource: Cycle, scarcity, flood and drought in the same country. Conservation is culture plus engineering.",
+            "Wastewater and sanitation: Sewage treatment, open defecation free as a public-health project, river pollution.",
+            "Coal, petroleum and combustion: Finite fossils, incomplete combustion, soot, CO. Energy transition starts as a science fact.",
+            "Air and water pollution: Smog, acid rain, greenhouse, industrial and domestic effluent. Ganga as a living case.",
+            "Ozone and greenhouse: Stratospheric ozone vs tropospheric warming — do not mix the two. Montreal vs UNFCCC.",
+            "Pollution science: Air (PM, NOx, SOx, ozone), water (BOD/COD idea), soil, noise, plastic, e-waste, biomedical. NCAP, CPCB, SPCBs.",
+            "Climate change science: GHG, GWP, carbon budget, 1.5°C, adaptation vs mitigation, India’s energy mix, just transition."
+          ],
+          "reading": "Revisit your notes for Garbage and 3Rs; Water as a resource; Wastewater and sanitation; Coal, petroleum and combustion; Air and water pollution; Ozone and greenhouse; Pollution science; Climate change science. Re-read the assigned source sections only where your recall is weak.",
+          "task": "Use the official-paper link or your question bank for a timed 20-question topic test and one short answer. Mark the gaps, explain your errors and schedule a second recall attempt.",
+          "recall": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+          "recallAnswer": "Segregation, composting, plastic persistence. Habit plus municipal systems. Cycle, scarcity, flood and drought in the same country. Conservation is culture plus engineering. Sewage treatment, open defecation free as a public-health project, river pollution. Finite fossils, incomplete combustion, soot, CO. Energy transition starts as a science fact. Smog, acid rain, greenhouse, industrial and domestic effluent. Ganga as a living case. Stratospheric ozone vs tropospheric warming — do not mix the two. Montreal vs UNFCCC. Air (PM, NOx, SOx, ozone), water (BOD/COD idea), soil, noise, plastic, e-waste, biomedical. NCAP, CPCB, SPCBs. GHG, GWP, carbon budget, 1.5°C, adaptation vs mitigation, India’s energy mix, just transition.",
+          "studyWords": 294,
+          "deepReading": [
+            "environment-2"
+          ],
+          "sources": [
+            "jesc1"
+          ],
+          "mode": "test"
+        }
+      ]
+    },
+    {
+      "id": "block-3",
+      "title": "Conservation & Governance",
+      "icon": "environment",
+      "description": "Evaluate a conservation measure using ecology, people and monitoring. Build the foundation through the daily notes and use the block companion to connect concepts.",
+      "sources": [
+        "lebo1"
+      ],
+      "days": [
+        {
+          "day": 41,
+          "topic": "Conservation of plants and animals",
+          "notes": [
+            "Protected area network, endemic species, Red Data, migratory birds. Paper parks vs real protection.",
+            "Key distinctions to retain: PA network; Endemic; Red Data; Corridors."
+          ],
+          "reading": "Class 8 · Environment from Class 8: Conservation of plants and animals.",
+          "task": "Evaluate a conservation measure using ecology, people and monitoring. Write five explained points on Conservation of plants and animals, then check them against the notes and source reading.",
+          "recall": "Explain Conservation of plants and animals in your own words and connect it to PA network.",
+          "recallAnswer": "Protected area network, endemic species, Red Data, migratory birds. Paper parks vs real protection.",
+          "studyWords": 191,
+          "deepReading": [
+            "environment-3"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 42,
+          "topic": "Conservation of plants and animals — application",
+          "notes": [
+            "Protected area network, endemic species, Red Data, migratory birds. Paper parks vs real protection.",
+            "Key distinctions to retain: PA network; Endemic; Red Data; Corridors."
+          ],
+          "reading": "Class 8 · Environment from Class 8: Conservation of plants and animals.",
+          "task": "Evaluate a conservation measure using ecology, people and monitoring. Write five explained points on Conservation of plants and animals, then check them against the notes and source reading.",
+          "recall": "Explain Conservation of plants and animals in your own words and connect it to PA network.",
+          "recallAnswer": "Protected area network, endemic species, Red Data, migratory birds. Paper parks vs real protection.",
+          "studyWords": 191,
+          "deepReading": [
+            "environment-3"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 43,
+          "topic": "Sustainable resource management",
+          "notes": [
+            "Stakeholders in forests and dams. Chipko and local institutions. 5Rs.",
+            "Key distinctions to retain: Stakeholders; Dams debate; 5R; Local institutions."
+          ],
+          "reading": "Class 10 · Our environment & resources: Sustainable resource management.",
+          "task": "Evaluate a conservation measure using ecology, people and monitoring. Write five explained points on Sustainable resource management, then check them against the notes and source reading.",
+          "recall": "Explain Sustainable resource management in your own words and connect it to Stakeholders.",
+          "recallAnswer": "Stakeholders in forests and dams. Chipko and local institutions. 5Rs.",
+          "studyWords": 187,
+          "deepReading": [
+            "environment-3"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 44,
+          "topic": "Sustainable resource management — application",
+          "notes": [
+            "Stakeholders in forests and dams. Chipko and local institutions. 5Rs.",
+            "Key distinctions to retain: Stakeholders; Dams debate; 5R; Local institutions."
+          ],
+          "reading": "Class 10 · Our environment & resources: Sustainable resource management.",
+          "task": "Evaluate a conservation measure using ecology, people and monitoring. Write five explained points on Sustainable resource management, then check them against the notes and source reading.",
+          "recall": "Explain Sustainable resource management in your own words and connect it to Stakeholders.",
+          "recallAnswer": "Stakeholders in forests and dams. Chipko and local institutions. 5Rs.",
+          "studyWords": 187,
+          "deepReading": [
+            "environment-3"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 45,
+          "topic": "Protected area architecture",
+          "notes": [
+            "NP, WLS, conservation/community reserves, biosphere, Ramsar, World Heritage, tiger reserves, elephant corridors.",
+            "Key distinctions to retain: Categories; Biosphere; Ramsar; Project Tiger idea."
+          ],
+          "reading": "Class 11 · GS environment core: Protected area architecture.",
+          "task": "Evaluate a conservation measure using ecology, people and monitoring. Write five explained points on Protected area architecture, then check them against the notes and source reading.",
+          "recall": "Explain Protected area architecture in your own words and connect it to Categories.",
+          "recallAnswer": "NP, WLS, conservation/community reserves, biosphere, Ramsar, World Heritage, tiger reserves, elephant corridors.",
+          "studyWords": 189,
+          "deepReading": [
+            "environment-3"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 46,
+          "topic": "Protected area architecture — application",
+          "notes": [
+            "NP, WLS, conservation/community reserves, biosphere, Ramsar, World Heritage, tiger reserves, elephant corridors.",
+            "Key distinctions to retain: Categories; Biosphere; Ramsar; Project Tiger idea."
+          ],
+          "reading": "Class 11 · GS environment core: Protected area architecture.",
+          "task": "Evaluate a conservation measure using ecology, people and monitoring. Write five explained points on Protected area architecture, then check them against the notes and source reading.",
+          "recall": "Explain Protected area architecture in your own words and connect it to Categories.",
+          "recallAnswer": "NP, WLS, conservation/community reserves, biosphere, Ramsar, World Heritage, tiger reserves, elephant corridors.",
+          "studyWords": 189,
+          "deepReading": [
+            "environment-3"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 47,
+          "topic": "Revision I: Conservation & Governance",
+          "notes": [
+            "Conservation of plants and animals: Protected area network, endemic species, Red Data, migratory birds. Paper parks vs real protection.",
+            "Sustainable resource management: Stakeholders in forests and dams. Chipko and local institutions. 5Rs.",
+            "Protected area architecture: NP, WLS, conservation/community reserves, biosphere, Ramsar, World Heritage, tiger reserves, elephant corridors."
+          ],
+          "reading": "Revisit your notes for Conservation of plants and animals; Sustainable resource management; Protected area architecture. Re-read the assigned source sections only where your recall is weak.",
+          "task": "Close the notes and reconstruct the main distinctions from the last 3 topics. Evaluate a conservation measure using ecology, people and monitoring. Then compare your work with the material below.",
+          "recall": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+          "recallAnswer": "Protected area network, endemic species, Red Data, migratory birds. Paper parks vs real protection. Stakeholders in forests and dams. Chipko and local institutions. 5Rs. NP, WLS, conservation/community reserves, biosphere, Ramsar, World Heritage, tiger reserves, elephant corridors.",
+          "studyWords": 214,
+          "deepReading": [
+            "environment-3"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "revision"
+        },
+        {
+          "day": 48,
+          "topic": "Indian environmental law stack",
+          "notes": [
+            "1972 Stockholm → Wildlife Act 1972, Water 1974, Forest 1980, Air 1981, EPA 1986 umbrella, Biodiversity 2002, FRA 2006, NGT 2010. EIA notification as the live wire.",
+            "Key distinctions to retain: Umbrella EPA; Sectoral acts; NGT; EIA."
+          ],
+          "reading": "Class 12 · Law, policy, Bihar: Indian environmental law stack.",
+          "task": "Evaluate a conservation measure using ecology, people and monitoring. Write five explained points on Indian environmental law stack, then check them against the notes and source reading.",
+          "recall": "Explain Indian environmental law stack in your own words and connect it to Umbrella EPA.",
+          "recallAnswer": "1972 Stockholm → Wildlife Act 1972, Water 1974, Forest 1980, Air 1981, EPA 1986 umbrella, Biodiversity 2002, FRA 2006, NGT 2010. EIA notification as the live wire.",
+          "studyWords": 204,
+          "deepReading": [
+            "environment-3"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 49,
+          "topic": "Indian environmental law stack — application",
+          "notes": [
+            "1972 Stockholm → Wildlife Act 1972, Water 1974, Forest 1980, Air 1981, EPA 1986 umbrella, Biodiversity 2002, FRA 2006, NGT 2010. EIA notification as the live wire.",
+            "Key distinctions to retain: Umbrella EPA; Sectoral acts; NGT; EIA."
+          ],
+          "reading": "Class 12 · Law, policy, Bihar: Indian environmental law stack.",
+          "task": "Evaluate a conservation measure using ecology, people and monitoring. Write five explained points on Indian environmental law stack, then check them against the notes and source reading.",
+          "recall": "Explain Indian environmental law stack in your own words and connect it to Umbrella EPA.",
+          "recallAnswer": "1972 Stockholm → Wildlife Act 1972, Water 1974, Forest 1980, Air 1981, EPA 1986 umbrella, Biodiversity 2002, FRA 2006, NGT 2010. EIA notification as the live wire.",
+          "studyWords": 204,
+          "deepReading": [
+            "environment-3"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 50,
+          "topic": "Forest Rights and people",
+          "notes": [
+            "FRA, Gram Sabha, critical wildlife habitat tension. Conservation that ignores people fails; people without ecology also fail.",
+            "Key distinctions to retain: FRA; Gram Sabha; CWH; Balance."
+          ],
+          "reading": "Class 12 · Law, policy, Bihar: Forest Rights and people.",
+          "task": "Evaluate a conservation measure using ecology, people and monitoring. Write five explained points on Forest Rights and people, then check them against the notes and source reading.",
+          "recall": "Explain Forest Rights and people in your own words and connect it to FRA.",
+          "recallAnswer": "FRA, Gram Sabha, critical wildlife habitat tension. Conservation that ignores people fails; people without ecology also fail.",
+          "studyWords": 193,
+          "deepReading": [
+            "environment-3"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 51,
+          "topic": "Conventions one-pass",
+          "notes": [
+            "UNFCCC/Kyoto/Paris, CBD, CITES, Ramsar, CMS, Bonn, Basel, Rotterdam, Stockholm, Minamata, UNCCD, Montreal/Kigali.",
+            "Key distinctions to retain: Climate trio; Biodiversity trio; Chemicals; Desertification."
+          ],
+          "reading": "Class 12 · Law, policy, Bihar: Conventions one-pass.",
+          "task": "Evaluate a conservation measure using ecology, people and monitoring. Write five explained points on Conventions one-pass, then check them against the notes and source reading.",
+          "recall": "Explain Conventions one-pass in your own words and connect it to Climate trio.",
+          "recallAnswer": "UNFCCC/Kyoto/Paris, CBD, CITES, Ramsar, CMS, Bonn, Basel, Rotterdam, Stockholm, Minamata, UNCCD, Montreal/Kigali.",
+          "studyWords": 189,
+          "deepReading": [
+            "environment-3"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 52,
+          "topic": "Conventions one-pass — application",
+          "notes": [
+            "UNFCCC/Kyoto/Paris, CBD, CITES, Ramsar, CMS, Bonn, Basel, Rotterdam, Stockholm, Minamata, UNCCD, Montreal/Kigali.",
+            "Key distinctions to retain: Climate trio; Biodiversity trio; Chemicals; Desertification."
+          ],
+          "reading": "Class 12 · Law, policy, Bihar: Conventions one-pass.",
+          "task": "Evaluate a conservation measure using ecology, people and monitoring. Write five explained points on Conventions one-pass, then check them against the notes and source reading.",
+          "recall": "Explain Conventions one-pass in your own words and connect it to Climate trio.",
+          "recallAnswer": "UNFCCC/Kyoto/Paris, CBD, CITES, Ramsar, CMS, Bonn, Basel, Rotterdam, Stockholm, Minamata, UNCCD, Montreal/Kigali.",
+          "studyWords": 189,
+          "deepReading": [
+            "environment-3"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 53,
+          "topic": "Disaster–environment in Bihar",
+          "notes": [
+            "Floods, heat, changing monsoon, embankment ecology, arsenic, river-linking debates. Adaptation is the Bihar climate story.",
+            "Key distinctions to retain: Floods; Heat; Arsenic; Embankments."
+          ],
+          "reading": "Class 12 · Law, policy, Bihar: Disaster–environment in Bihar.",
+          "task": "Evaluate a conservation measure using ecology, people and monitoring. Write five explained points on Disaster–environment in Bihar, then check them against the notes and source reading.",
+          "recall": "Explain Disaster–environment in Bihar in your own words and connect it to Floods.",
+          "recallAnswer": "Floods, heat, changing monsoon, embankment ecology, arsenic, river-linking debates. Adaptation is the Bihar climate story.",
+          "studyWords": 190,
+          "deepReading": [
+            "environment-3"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 54,
+          "topic": "Revision II: Conservation & Governance",
+          "notes": [
+            "Indian environmental law stack: 1972 Stockholm → Wildlife Act 1972, Water 1974, Forest 1980, Air 1981, EPA 1986 umbrella, Biodiversity 2002, FRA 2006, NGT 2010. EIA notification as the live wire.",
+            "Forest Rights and people: FRA, Gram Sabha, critical wildlife habitat tension. Conservation that ignores people fails; people without ecology also fail.",
+            "Conventions one-pass: UNFCCC/Kyoto/Paris, CBD, CITES, Ramsar, CMS, Bonn, Basel, Rotterdam, Stockholm, Minamata, UNCCD, Montreal/Kigali.",
+            "Disaster–environment in Bihar: Floods, heat, changing monsoon, embankment ecology, arsenic, river-linking debates. Adaptation is the Bihar climate story."
+          ],
+          "reading": "Revisit your notes for Indian environmental law stack; Forest Rights and people; Conventions one-pass; Disaster–environment in Bihar. Re-read the assigned source sections only where your recall is weak.",
+          "task": "Close the notes and reconstruct the main distinctions from the last 4 topics. Evaluate a conservation measure using ecology, people and monitoring. Then compare your work with the material below.",
+          "recall": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+          "recallAnswer": "1972 Stockholm → Wildlife Act 1972, Water 1974, Forest 1980, Air 1981, EPA 1986 umbrella, Biodiversity 2002, FRA 2006, NGT 2010. EIA notification as the live wire. FRA, Gram Sabha, critical wildlife habitat tension. Conservation that ignores people fails; people without ecology also fail. UNFCCC/Kyoto/Paris, CBD, CITES, Ramsar, CMS, Bonn, Basel, Rotterdam, Stockholm, Minamata, UNCCD, Montreal/Kigali. Floods, heat, changing monsoon, embankment ecology, arsenic, river-linking debates. Adaptation is the Bihar climate story.",
+          "studyWords": 251,
+          "deepReading": [
+            "environment-3"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "revision"
+        },
+        {
+          "day": 55,
+          "topic": "Disaster–environment in Bihar — application",
+          "notes": [
+            "Floods, heat, changing monsoon, embankment ecology, arsenic, river-linking debates. Adaptation is the Bihar climate story.",
+            "Key distinctions to retain: Floods; Heat; Arsenic; Embankments."
+          ],
+          "reading": "Class 12 · Law, policy, Bihar: Disaster–environment in Bihar.",
+          "task": "Evaluate a conservation measure using ecology, people and monitoring. Write five explained points on Disaster–environment in Bihar, then check them against the notes and source reading.",
+          "recall": "Explain Disaster–environment in Bihar in your own words and connect it to Floods.",
+          "recallAnswer": "Floods, heat, changing monsoon, embankment ecology, arsenic, river-linking debates. Adaptation is the Bihar climate story.",
+          "studyWords": 190,
+          "deepReading": [
+            "environment-3"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 56,
+          "topic": "Agriculture and environment",
+          "notes": [
+            "Stubble, fertiliser runoff, groundwater, agroforestry, millet, organic. Green Revolution’s ecological bill.",
+            "Key distinctions to retain: Runoff; Stubble; GW; Millets."
+          ],
+          "reading": "Class 12 · Law, policy, Bihar: Agriculture and environment.",
+          "task": "Evaluate a conservation measure using ecology, people and monitoring. Write five explained points on Agriculture and environment, then check them against the notes and source reading.",
+          "recall": "Explain Agriculture and environment in your own words and connect it to Runoff.",
+          "recallAnswer": "Stubble, fertiliser runoff, groundwater, agroforestry, millet, organic. Green Revolution’s ecological bill.",
+          "studyWords": 186,
+          "deepReading": [
+            "environment-3"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 57,
+          "topic": "Agriculture and environment — application",
+          "notes": [
+            "Stubble, fertiliser runoff, groundwater, agroforestry, millet, organic. Green Revolution’s ecological bill.",
+            "Key distinctions to retain: Runoff; Stubble; GW; Millets."
+          ],
+          "reading": "Class 12 · Law, policy, Bihar: Agriculture and environment.",
+          "task": "Evaluate a conservation measure using ecology, people and monitoring. Write five explained points on Agriculture and environment, then check them against the notes and source reading.",
+          "recall": "Explain Agriculture and environment in your own words and connect it to Runoff.",
+          "recallAnswer": "Stubble, fertiliser runoff, groundwater, agroforestry, millet, organic. Green Revolution’s ecological bill.",
+          "studyWords": 186,
+          "deepReading": [
+            "environment-3"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 58,
+          "topic": "Energy transition",
+          "notes": [
+            "Coal dependence, RE targets, grid, storage, green hydrogen hype vs logistics, nuclear. Security + climate + jobs.",
+            "Key distinctions to retain: Coal; RE; Storage; Hydrogen caution."
+          ],
+          "reading": "Class 12 · Law, policy, Bihar: Energy transition.",
+          "task": "Evaluate a conservation measure using ecology, people and monitoring. Write five explained points on Energy transition, then check them against the notes and source reading.",
+          "recall": "Explain Energy transition in your own words and connect it to Coal.",
+          "recallAnswer": "Coal dependence, RE targets, grid, storage, green hydrogen hype vs logistics, nuclear. Security + climate + jobs.",
+          "studyWords": 193,
+          "deepReading": [
+            "environment-3"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 59,
+          "topic": "Conservation & Governance: synthesis",
+          "notes": [
+            "Conventions one-pass: UNFCCC/Kyoto/Paris, CBD, CITES, Ramsar, CMS, Bonn, Basel, Rotterdam, Stockholm, Minamata, UNCCD, Montreal/Kigali.",
+            "Disaster–environment in Bihar: Floods, heat, changing monsoon, embankment ecology, arsenic, river-linking debates. Adaptation is the Bihar climate story.",
+            "Agriculture and environment: Stubble, fertiliser runoff, groundwater, agroforestry, millet, organic. Green Revolution’s ecological bill.",
+            "Energy transition: Coal dependence, RE targets, grid, storage, green hydrogen hype vs logistics, nuclear. Security + climate + jobs."
+          ],
+          "reading": "Revisit your notes for Conventions one-pass; Disaster–environment in Bihar; Agriculture and environment; Energy transition. Re-read the assigned source sections only where your recall is weak.",
+          "task": "Close the notes and reconstruct the main distinctions from the last 4 topics. Evaluate a conservation measure using ecology, people and monitoring. Then compare your work with the material below.",
+          "recall": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+          "recallAnswer": "UNFCCC/Kyoto/Paris, CBD, CITES, Ramsar, CMS, Bonn, Basel, Rotterdam, Stockholm, Minamata, UNCCD, Montreal/Kigali. Floods, heat, changing monsoon, embankment ecology, arsenic, river-linking debates. Adaptation is the Bihar climate story. Stubble, fertiliser runoff, groundwater, agroforestry, millet, organic. Green Revolution’s ecological bill. Coal dependence, RE targets, grid, storage, green hydrogen hype vs logistics, nuclear. Security + climate + jobs.",
+          "studyWords": 232,
+          "deepReading": [
+            "environment-3"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "revision"
+        },
+        {
+          "day": 60,
+          "topic": "Conservation & Governance: assessment & repair",
+          "notes": [
+            "Conservation of plants and animals: Protected area network, endemic species, Red Data, migratory birds. Paper parks vs real protection.",
+            "Sustainable resource management: Stakeholders in forests and dams. Chipko and local institutions. 5Rs.",
+            "Protected area architecture: NP, WLS, conservation/community reserves, biosphere, Ramsar, World Heritage, tiger reserves, elephant corridors.",
+            "Indian environmental law stack: 1972 Stockholm → Wildlife Act 1972, Water 1974, Forest 1980, Air 1981, EPA 1986 umbrella, Biodiversity 2002, FRA 2006, NGT 2010. EIA notification as the live wire.",
+            "Forest Rights and people: FRA, Gram Sabha, critical wildlife habitat tension. Conservation that ignores people fails; people without ecology also fail.",
+            "Conventions one-pass: UNFCCC/Kyoto/Paris, CBD, CITES, Ramsar, CMS, Bonn, Basel, Rotterdam, Stockholm, Minamata, UNCCD, Montreal/Kigali.",
+            "Disaster–environment in Bihar: Floods, heat, changing monsoon, embankment ecology, arsenic, river-linking debates. Adaptation is the Bihar climate story.",
+            "Agriculture and environment: Stubble, fertiliser runoff, groundwater, agroforestry, millet, organic. Green Revolution’s ecological bill.",
+            "Energy transition: Coal dependence, RE targets, grid, storage, green hydrogen hype vs logistics, nuclear. Security + climate + jobs."
+          ],
+          "reading": "Revisit your notes for Conservation of plants and animals; Sustainable resource management; Protected area architecture; Indian environmental law stack; Forest Rights and people; Conventions one-pass; Disaster–environment in Bihar; Agriculture and environment; Energy transition. Re-read the assigned source sections only where your recall is weak.",
+          "task": "Use the official-paper link or your question bank for a timed 20-question topic test and one short answer. Mark the gaps, explain your errors and schedule a second recall attempt.",
+          "recall": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+          "recallAnswer": "Protected area network, endemic species, Red Data, migratory birds. Paper parks vs real protection. Stakeholders in forests and dams. Chipko and local institutions. 5Rs. NP, WLS, conservation/community reserves, biosphere, Ramsar, World Heritage, tiger reserves, elephant corridors. 1972 Stockholm → Wildlife Act 1972, Water 1974, Forest 1980, Air 1981, EPA 1986 umbrella, Biodiversity 2002, FRA 2006, NGT 2010. EIA notification as the live wire. FRA, Gram Sabha, critical wildlife habitat tension. Conservation that ignores people fails; people without ecology also fail. UNFCCC/Kyoto/Paris, CBD, CITES, Ramsar, CMS, Bonn, Basel, Rotterdam, Stockholm, Minamata, UNCCD, Montreal/Kigali. Floods, heat, changing monsoon, embankment ecology, arsenic, river-linking debates. Adaptation is the Bihar climate story. Stubble, fertiliser runoff, groundwater, agroforestry, millet, organic. Green Revolution’s ecological bill. Coal dependence, RE targets, grid, storage, green hydrogen hype vs logistics, nuclear. Security + climate + jobs.",
+          "studyWords": 331,
+          "deepReading": [
+            "environment-3"
+          ],
+          "sources": [
+            "lebo1"
+          ],
+          "mode": "test"
+        }
+      ]
+    }
+  ],
+  "dossiers": {
+    "environment-1": {
+      "title": "Ecology: relationships, flows and diversity",
+      "sections": [
+        {
+          "heading": "An ecosystem is a set of interactions",
+          "text": "Organisms interact with one another and with physical conditions. Producers, consumers and decomposers describe functional roles, not a rigid ranking of importance. Food webs are more realistic than isolated chains because many organisms use several resources. Removing one component can have indirect effects, but their scale depends on the network and local conditions."
+        },
+        {
+          "heading": "Energy and matter behave differently",
+          "text": "Energy enters many ecosystems through photosynthesis and is dissipated through successive transfers; nutrients can cycle among living organisms, soil, water and the atmosphere. Do not say that energy is recycled in the same way as matter. Ecological pyramids depend on what is being measured, while simple rules of thumb should not be treated as identical observations for every ecosystem."
+        },
+        {
+          "heading": "Diversity has several dimensions",
+          "text": "Genetic, species and ecosystem diversity describe different levels. Richness counts species, while the balance of their abundance also affects diversity. An endemic species has a restricted geographic distribution; that does not automatically mean it is threatened. Assess habitat, pressures and population evidence separately. This distinction is useful when reading conservation claims and species-based questions."
+        }
+      ],
+      "comparison": {
+        "headers": [
+          "Concept",
+          "Distinction",
+          "Application"
+        ],
+        "rows": [
+          [
+            "Energy flow",
+            "Transfer with dissipation",
+            "Not a closed recycling loop."
+          ],
+          [
+            "Nutrient cycle",
+            "Movement among reservoirs",
+            "Connect biological and physical processes."
+          ],
+          [
+            "Endemic",
+            "Restricted distribution",
+            "Not automatically an extinction-risk category."
+          ],
+          [
+            "Food web",
+            "Interconnected feeding relationships",
+            "Indirect effects can matter."
+          ]
+        ]
+      },
+      "terms": [
+        {
+          "term": "Habitat",
+          "meaning": "The environment in which an organism lives."
+        },
+        {
+          "term": "Niche",
+          "meaning": "An organism’s ecological role and relationships."
+        },
+        {
+          "term": "Trophic level",
+          "meaning": "A position in feeding relationships."
+        }
+      ],
+      "timelineTitle": "Reason through the topic",
+      "timeline": [
+        {
+          "date": "Identify",
+          "event": "List living and non-living components."
+        },
+        {
+          "date": "Trace",
+          "event": "Follow energy, nutrients and interactions."
+        },
+        {
+          "date": "Predict",
+          "event": "Consider direct and indirect effects of change."
+        }
+      ],
+      "trap": "Endemic, invasive and endangered describe different properties.",
+      "practice": {
+        "question": "Why might the loss of one species affect organisms that do not feed directly on it?",
+        "answer": "Food webs include indirect relationships through predators, competitors, resources and habitat modification. Explain a chain of effects and acknowledge that real systems can respond differently."
+      },
+      "mcq": [
+        "Which is generally recycled through an ecosystem?",
+        [
+          "Energy in exactly the same form",
+          "Nutrients such as carbon and nitrogen",
+          "All incoming sunlight",
+          "Every organism indefinitely"
+        ],
+        1,
+        "Matter cycles among reservoirs, while usable energy is progressively dissipated."
+      ]
+    },
+    "environment-2": {
+      "title": "Pollution and climate: sources, pathways and impacts",
+      "sections": [
+        {
+          "heading": "Trace the exposure pathway",
+          "text": "A pollutant matters through its source, transport, transformation and contact with living systems. Concentration, duration and vulnerability affect harm. A clear river is not necessarily free of dissolved contamination, and dilution does not remove the total pollutant load. Compare prevention at source with treatment after release rather than treating all waste management as an end-of-pipe problem."
+        },
+        {
+          "heading": "Distinguish related atmospheric issues",
+          "text": "The greenhouse effect concerns the balance of incoming and outgoing energy. Ozone depletion involves a different atmospheric process, although some chemicals connect the issues. Climate is evaluated through longer-term patterns and multiple observations, not a single hot or cold day. Mitigation addresses the drivers of change; adaptation reduces harm from experienced or expected effects."
+        },
+        {
+          "heading": "Choose responses at the right scale",
+          "text": "Household action, municipal services, industrial regulation and international cooperation act at different levels. A response can shift pollution elsewhere if its full life cycle is ignored. Evaluate trade-offs, monitoring and implementation. For Bihar, water quality, waste handling, flood exposure and agricultural practices connect ecological conditions with health and livelihoods; avoid blaming outcomes on individual behaviour alone."
+        }
+      ],
+      "comparison": {
+        "headers": [
+          "Concept",
+          "Distinction",
+          "Application"
+        ],
+        "rows": [
+          [
+            "Mitigation",
+            "Reduce drivers of climate change",
+            "For example, lowering emissions."
+          ],
+          [
+            "Adaptation",
+            "Reduce vulnerability to effects",
+            "For example, heat preparedness."
+          ],
+          [
+            "Concentration / load",
+            "Amount per volume / total amount",
+            "Dilution can lower one without removing the other."
+          ],
+          [
+            "Ozone depletion / warming",
+            "Different atmospheric processes",
+            "Do not use the terms interchangeably."
+          ]
+        ]
+      },
+      "terms": [
+        {
+          "term": "Exposure",
+          "meaning": "Contact with a hazard through a pathway."
+        },
+        {
+          "term": "Eutrophication",
+          "meaning": "Nutrient enrichment that can alter aquatic systems."
+        },
+        {
+          "term": "Life cycle",
+          "meaning": "Stages from resource extraction through use and disposal."
+        }
+      ],
+      "timelineTitle": "Reason through the topic",
+      "timeline": [
+        {
+          "date": "Source",
+          "event": "Identify where the pressure originates."
+        },
+        {
+          "date": "Pathway",
+          "event": "Track movement and contact."
+        },
+        {
+          "date": "Response",
+          "event": "Prevent, reduce, monitor and review."
+        }
+      ],
+      "trap": "A lower concentration after dilution does not mean that the pollutant has ceased to exist.",
+      "practice": {
+        "question": "Why should urban air-pollution policy consider more than private cars?",
+        "answer": "Industry, power, construction, dust, waste burning and other sources can contribute differently by location and season. Use source evidence to prioritise measures and assess exposure, enforcement and alternatives."
+      },
+      "mcq": [
+        "Which is primarily an adaptation measure?",
+        [
+          "Reducing fuel emissions",
+          "Preparing heat-action and cooling-access plans",
+          "Capturing carbon emissions",
+          "Replacing a high-emission process"
+        ],
+        1,
+        "Heat preparedness reduces harm from climatic conditions; the other examples primarily reduce drivers."
+      ]
+    },
+    "environment-3": {
+      "title": "Conservation: ecological outcomes and public institutions",
+      "sections": [
+        {
+          "heading": "Protection involves people and places",
+          "text": "A protected boundary is only one part of conservation. Connectivity, habitat quality, enforcement, livelihoods and the rights of affected communities influence results. A conservation category does not by itself reveal management quality. Examine ecological objectives and the institutional arrangements required to achieve them, and use official current sources for legal designations and changing status."
+        },
+        {
+          "heading": "Compare conservation strategies",
+          "text": "In-situ conservation works within natural habitats; ex-situ approaches operate outside them, such as seed banks or managed breeding. They can complement one another but are not interchangeable. Restoring a degraded ecosystem is more complex than planting any trees: species composition, water, soil, local ecology and long-term maintenance matter. A plantation should not automatically be described as equivalent to a natural forest."
+        },
+        {
+          "heading": "Turn commitments into implementation",
+          "text": "Environmental governance includes standards, assessment, monitoring, incentives and accountability. International commitments and domestic implementation are distinct steps. Evaluate whether institutions have data, capacity and a response when requirements are violated. For an exam answer, connect environmental protection with distributional questions: who benefits, who bears costs and how participation and remedies are organised."
+        }
+      ],
+      "comparison": {
+        "headers": [
+          "Concept",
+          "Distinction",
+          "Application"
+        ],
+        "rows": [
+          [
+            "In situ",
+            "Conservation within habitats",
+            "Protect ecological relationships."
+          ],
+          [
+            "Ex situ",
+            "Conservation outside natural habitats",
+            "Can preserve material or support recovery."
+          ],
+          [
+            "Plantation / natural forest",
+            "Planted stand / complex evolving ecosystem",
+            "Area alone does not capture ecological quality."
+          ],
+          [
+            "Commitment / outcome",
+            "Stated objective / measured result",
+            "Implementation and monitoring connect them."
+          ]
+        ]
+      },
+      "terms": [
+        {
+          "term": "Connectivity",
+          "meaning": "Links allowing ecological movement and interaction."
+        },
+        {
+          "term": "Restoration",
+          "meaning": "Helping a degraded ecosystem recover relevant functions and characteristics."
+        },
+        {
+          "term": "Precaution",
+          "meaning": "Considering serious uncertain risks before harm becomes established."
+        }
+      ],
+      "timelineTitle": "Reason through the topic",
+      "timeline": [
+        {
+          "date": "Objective",
+          "event": "Define the ecological outcome."
+        },
+        {
+          "date": "Design",
+          "event": "Combine institutions, incentives and participation."
+        },
+        {
+          "date": "Monitor",
+          "event": "Measure change and correct failures."
+        }
+      ],
+      "trap": "Tree cover, forest quality and biodiversity are related but not identical indicators.",
+      "practice": {
+        "question": "Why might a tree-planting target fail to restore an ecosystem?",
+        "answer": "Inappropriate species, poor survival, altered water use, loss of open habitats or lack of maintenance can undermine the objective. Define the original ecosystem and measure function and diversity, not only saplings planted."
+      },
+      "mcq": [
+        "Which is an ex-situ conservation example?",
+        [
+          "Protecting a wild habitat",
+          "Maintaining a seed bank",
+          "Preserving a migration corridor",
+          "Reducing disturbance in a forest"
+        ],
+        1,
+        "A seed bank conserves biological material outside the natural habitat."
+      ]
+    }
+  },
+  "pyqs": [
+    {
+      "segment": "block-1",
+      "stage": "Prelims",
+      "reference": "Original concept check",
+      "prompt": "Which is generally recycled through an ecosystem?",
+      "options": [
+        "Energy in exactly the same form",
+        "Nutrients such as carbon and nitrogen",
+        "All incoming sunlight",
+        "Every organism indefinitely"
+      ],
+      "answer": "B — Matter cycles among reservoirs, while usable energy is progressively dissipated.",
+      "day": 1,
+      "paper": "GS III"
+    },
+    {
+      "segment": "block-1",
+      "stage": "Mains",
+      "reference": "Original answer-writing exercise",
+      "prompt": "Why might the loss of one species affect organisms that do not feed directly on it?",
+      "marks": 10,
+      "words": 150,
+      "answer": "Food webs include indirect relationships through predators, competitors, resources and habitat modification. Explain a chain of effects and acknowledge that real systems can respond differently.",
+      "day": 1,
+      "paper": "GS III"
+    },
+    {
+      "segment": "block-2",
+      "stage": "Prelims",
+      "reference": "Original concept check",
+      "prompt": "Which is primarily an adaptation measure?",
+      "options": [
+        "Reducing fuel emissions",
+        "Preparing heat-action and cooling-access plans",
+        "Capturing carbon emissions",
+        "Replacing a high-emission process"
+      ],
+      "answer": "B — Heat preparedness reduces harm from climatic conditions; the other examples primarily reduce drivers.",
+      "day": 21,
+      "paper": "GS III"
+    },
+    {
+      "segment": "block-2",
+      "stage": "Mains",
+      "reference": "Original answer-writing exercise",
+      "prompt": "Why should urban air-pollution policy consider more than private cars?",
+      "marks": 10,
+      "words": 150,
+      "answer": "Industry, power, construction, dust, waste burning and other sources can contribute differently by location and season. Use source evidence to prioritise measures and assess exposure, enforcement and alternatives.",
+      "day": 21,
+      "paper": "GS III"
+    },
+    {
+      "segment": "block-3",
+      "stage": "Prelims",
+      "reference": "Original concept check",
+      "prompt": "Which is an ex-situ conservation example?",
+      "options": [
+        "Protecting a wild habitat",
+        "Maintaining a seed bank",
+        "Preserving a migration corridor",
+        "Reducing disturbance in a forest"
+      ],
+      "answer": "B — A seed bank conserves biological material outside the natural habitat.",
+      "day": 41,
+      "paper": "GS III"
+    },
+    {
+      "segment": "block-3",
+      "stage": "Mains",
+      "reference": "Original answer-writing exercise",
+      "prompt": "Why might a tree-planting target fail to restore an ecosystem?",
+      "marks": 10,
+      "words": 150,
+      "answer": "Inappropriate species, poor survival, altered water use, loss of open habitats or lack of maintenance can undermine the objective. Define the original ecosystem and measure function and diversity, not only saplings planted.",
+      "day": 41,
+      "paper": "GS III"
+    }
+  ],
+  "readers": {
+    "block-1": [
+      [
+        "Biology — chapter 1",
+        "lebo101",
+        "https://ncert.nic.in/textbook/pdf/lebo101.pdf"
+      ],
+      [
+        "Biology — chapter 2",
+        "lebo102",
+        "https://ncert.nic.in/textbook/pdf/lebo102.pdf"
+      ],
+      [
+        "Biology — chapter 3",
+        "lebo103",
+        "https://ncert.nic.in/textbook/pdf/lebo103.pdf"
+      ],
+      [
+        "Biology — chapter 4",
+        "lebo104",
+        "https://ncert.nic.in/textbook/pdf/lebo104.pdf"
+      ],
+      [
+        "Biology — chapter 5",
+        "lebo105",
+        "https://ncert.nic.in/textbook/pdf/lebo105.pdf"
+      ],
+      [
+        "Biology — chapter 6",
+        "lebo106",
+        "https://ncert.nic.in/textbook/pdf/lebo106.pdf"
+      ],
+      [
+        "Biology — chapter 7",
+        "lebo107",
+        "https://ncert.nic.in/textbook/pdf/lebo107.pdf"
+      ],
+      [
+        "Biology — chapter 8",
+        "lebo108",
+        "https://ncert.nic.in/textbook/pdf/lebo108.pdf"
+      ],
+      [
+        "Biology — chapter 9",
+        "lebo109",
+        "https://ncert.nic.in/textbook/pdf/lebo109.pdf"
+      ],
+      [
+        "Biology — chapter 10",
+        "lebo110",
+        "https://ncert.nic.in/textbook/pdf/lebo110.pdf"
+      ],
+      [
+        "Biology — chapter 11",
+        "lebo111",
+        "https://ncert.nic.in/textbook/pdf/lebo111.pdf"
+      ],
+      [
+        "Biology — chapter 12",
+        "lebo112",
+        "https://ncert.nic.in/textbook/pdf/lebo112.pdf"
+      ],
+      [
+        "Biology — chapter 13",
+        "lebo113",
+        "https://ncert.nic.in/textbook/pdf/lebo113.pdf"
+      ]
+    ],
+    "block-2": [
+      [
+        "Science — chapter 1",
+        "jesc101",
+        "https://ncert.nic.in/textbook/pdf/jesc101.pdf"
+      ],
+      [
+        "Science — chapter 2",
+        "jesc102",
+        "https://ncert.nic.in/textbook/pdf/jesc102.pdf"
+      ],
+      [
+        "Science — chapter 3",
+        "jesc103",
+        "https://ncert.nic.in/textbook/pdf/jesc103.pdf"
+      ],
+      [
+        "Science — chapter 4",
+        "jesc104",
+        "https://ncert.nic.in/textbook/pdf/jesc104.pdf"
+      ],
+      [
+        "Science — chapter 5",
+        "jesc105",
+        "https://ncert.nic.in/textbook/pdf/jesc105.pdf"
+      ],
+      [
+        "Science — chapter 6",
+        "jesc106",
+        "https://ncert.nic.in/textbook/pdf/jesc106.pdf"
+      ],
+      [
+        "Science — chapter 7",
+        "jesc107",
+        "https://ncert.nic.in/textbook/pdf/jesc107.pdf"
+      ],
+      [
+        "Science — chapter 8",
+        "jesc108",
+        "https://ncert.nic.in/textbook/pdf/jesc108.pdf"
+      ],
+      [
+        "Science — chapter 9",
+        "jesc109",
+        "https://ncert.nic.in/textbook/pdf/jesc109.pdf"
+      ],
+      [
+        "Science — chapter 10",
+        "jesc110",
+        "https://ncert.nic.in/textbook/pdf/jesc110.pdf"
+      ],
+      [
+        "Science — chapter 11",
+        "jesc111",
+        "https://ncert.nic.in/textbook/pdf/jesc111.pdf"
+      ],
+      [
+        "Science — chapter 12",
+        "jesc112",
+        "https://ncert.nic.in/textbook/pdf/jesc112.pdf"
+      ],
+      [
+        "Science — chapter 13",
+        "jesc113",
+        "https://ncert.nic.in/textbook/pdf/jesc113.pdf"
+      ]
+    ],
+    "block-3": [
+      [
+        "Biology — chapter 1",
+        "lebo101",
+        "https://ncert.nic.in/textbook/pdf/lebo101.pdf"
+      ],
+      [
+        "Biology — chapter 2",
+        "lebo102",
+        "https://ncert.nic.in/textbook/pdf/lebo102.pdf"
+      ],
+      [
+        "Biology — chapter 3",
+        "lebo103",
+        "https://ncert.nic.in/textbook/pdf/lebo103.pdf"
+      ],
+      [
+        "Biology — chapter 4",
+        "lebo104",
+        "https://ncert.nic.in/textbook/pdf/lebo104.pdf"
+      ],
+      [
+        "Biology — chapter 5",
+        "lebo105",
+        "https://ncert.nic.in/textbook/pdf/lebo105.pdf"
+      ],
+      [
+        "Biology — chapter 6",
+        "lebo106",
+        "https://ncert.nic.in/textbook/pdf/lebo106.pdf"
+      ],
+      [
+        "Biology — chapter 7",
+        "lebo107",
+        "https://ncert.nic.in/textbook/pdf/lebo107.pdf"
+      ],
+      [
+        "Biology — chapter 8",
+        "lebo108",
+        "https://ncert.nic.in/textbook/pdf/lebo108.pdf"
+      ],
+      [
+        "Biology — chapter 9",
+        "lebo109",
+        "https://ncert.nic.in/textbook/pdf/lebo109.pdf"
+      ],
+      [
+        "Biology — chapter 10",
+        "lebo110",
+        "https://ncert.nic.in/textbook/pdf/lebo110.pdf"
+      ],
+      [
+        "Biology — chapter 11",
+        "lebo111",
+        "https://ncert.nic.in/textbook/pdf/lebo111.pdf"
+      ],
+      [
+        "Biology — chapter 12",
+        "lebo112",
+        "https://ncert.nic.in/textbook/pdf/lebo112.pdf"
+      ],
+      [
+        "Biology — chapter 13",
+        "lebo113",
+        "https://ncert.nic.in/textbook/pdf/lebo113.pdf"
+      ]
+    ]
+  },
+  "editionNote": "Daily material is original study guidance using the subject’s NCERT topic sequence or, for Ethics, original GS-IV lessons. Blocks deliberately revisit concepts through application and revision days. The shared block companion supports several daily topics. Consult current official sources for changing laws, policy settings and statistics. Practice questions here are original exercises, not claimed as actual UPSC PYQs."
+}

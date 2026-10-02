@@ -1,0 +1,1534 @@
+{
+  "id": "ethics",
+  "title": "Ethics",
+  "headline": "Reason with clarity. Act with integrity.",
+  "intro": "Develop clear definitions, public-service judgment and practical case-study answers.",
+  "practiceOnly": true,
+  "readerTitle": "Official report reader",
+  "readerDescription": "Read the official supplementary report here, alongside the original daily lessons.",
+  "sources": {
+    "arc": {
+      "title": "Second ARC: Ethics in Governance",
+      "url": "https://darpg.gov.in/sites/default/files/ethics4.pdf",
+      "access": "Official government report for supplementary reading. The daily notes and cases here are original teaching material, not extracted report text."
+    }
+  },
+  "segments": [
+    {
+      "id": "block-1",
+      "title": "Values & Moral Reasoning",
+      "icon": "ethics",
+      "description": "Compare two ethical lenses using a concrete decision. Build the foundation through the daily notes and use the block companion to connect concepts.",
+      "sources": [
+        "arc"
+      ],
+      "days": [
+        {
+          "day": 1,
+          "topic": "Ethics and everyday judgment",
+          "notes": [
+            "Ethical reasoning asks whether conduct can be justified to the people affected, not only whether it is convenient. Begin by separating the facts of a situation from your assumptions, then identify the values at stake. A familiar habit or popular view can still need scrutiny."
+          ],
+          "reading": "Original GS-IV study notes: Ethics and everyday judgment.",
+          "task": "Compare two ethical lenses using a concrete decision. Describe a decision in which convenience conflicts with a duty.",
+          "recall": "Describe a decision in which convenience conflicts with a duty.",
+          "recallAnswer": "Ethical reasoning asks whether conduct can be justified to the people affected, not only whether it is convenient. Begin by separating the facts of a situation from your assumptions, then identify the values at stake. A familiar habit or popular view can still need scrutiny.",
+          "studyWords": 214,
+          "deepReading": [
+            "ethics-1"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 2,
+          "topic": "Ethics and everyday judgment — application",
+          "notes": [
+            "Ethical reasoning asks whether conduct can be justified to the people affected, not only whether it is convenient. Begin by separating the facts of a situation from your assumptions, then identify the values at stake. A familiar habit or popular view can still need scrutiny."
+          ],
+          "reading": "Original GS-IV study notes: Ethics and everyday judgment.",
+          "task": "Compare two ethical lenses using a concrete decision. Describe a decision in which convenience conflicts with a duty.",
+          "recall": "Describe a decision in which convenience conflicts with a duty.",
+          "recallAnswer": "Ethical reasoning asks whether conduct can be justified to the people affected, not only whether it is convenient. Begin by separating the facts of a situation from your assumptions, then identify the values at stake. A familiar habit or popular view can still need scrutiny.",
+          "studyWords": 214,
+          "deepReading": [
+            "ethics-1"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 3,
+          "topic": "Values and their formation",
+          "notes": [
+            "Families, schools, peers and institutions influence values, but individuals can reflect on inherited beliefs. A value becomes meaningful when it shapes conduct under pressure. Distinguish the values a person announces from the incentives and behaviour an organisation actually rewards."
+          ],
+          "reading": "Original GS-IV study notes: Values and their formation.",
+          "task": "Compare two ethical lenses using a concrete decision. Contrast a stated organisational value with an incentive that could undermine it.",
+          "recall": "Contrast a stated organisational value with an incentive that could undermine it.",
+          "recallAnswer": "Families, schools, peers and institutions influence values, but individuals can reflect on inherited beliefs. A value becomes meaningful when it shapes conduct under pressure. Distinguish the values a person announces from the incentives and behaviour an organisation actually rewards.",
+          "studyWords": 208,
+          "deepReading": [
+            "ethics-1"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 4,
+          "topic": "Values and their formation — application",
+          "notes": [
+            "Families, schools, peers and institutions influence values, but individuals can reflect on inherited beliefs. A value becomes meaningful when it shapes conduct under pressure. Distinguish the values a person announces from the incentives and behaviour an organisation actually rewards."
+          ],
+          "reading": "Original GS-IV study notes: Values and their formation.",
+          "task": "Compare two ethical lenses using a concrete decision. Contrast a stated organisational value with an incentive that could undermine it.",
+          "recall": "Contrast a stated organisational value with an incentive that could undermine it.",
+          "recallAnswer": "Families, schools, peers and institutions influence values, but individuals can reflect on inherited beliefs. A value becomes meaningful when it shapes conduct under pressure. Distinguish the values a person announces from the incentives and behaviour an organisation actually rewards.",
+          "studyWords": 208,
+          "deepReading": [
+            "ethics-1"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 5,
+          "topic": "Duty and consequences",
+          "notes": [
+            "Consequences matter, but an attractive result does not automatically justify deception or disregard for rights. Duties also need interpretation in context. Compare the strongest reasons for an option, the constraints on it and the risks of using the same justification in future cases."
+          ],
+          "reading": "Original GS-IV study notes: Duty and consequences.",
+          "task": "Compare two ethical lenses using a concrete decision. Apply duty and consequence reasoning to withholding information.",
+          "recall": "Apply duty and consequence reasoning to withholding information.",
+          "recallAnswer": "Consequences matter, but an attractive result does not automatically justify deception or disregard for rights. Duties also need interpretation in context. Compare the strongest reasons for an option, the constraints on it and the risks of using the same justification in future cases.",
+          "studyWords": 212,
+          "deepReading": [
+            "ethics-1"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 6,
+          "topic": "Duty and consequences — application",
+          "notes": [
+            "Consequences matter, but an attractive result does not automatically justify deception or disregard for rights. Duties also need interpretation in context. Compare the strongest reasons for an option, the constraints on it and the risks of using the same justification in future cases."
+          ],
+          "reading": "Original GS-IV study notes: Duty and consequences.",
+          "task": "Compare two ethical lenses using a concrete decision. Apply duty and consequence reasoning to withholding information.",
+          "recall": "Apply duty and consequence reasoning to withholding information.",
+          "recallAnswer": "Consequences matter, but an attractive result does not automatically justify deception or disregard for rights. Duties also need interpretation in context. Compare the strongest reasons for an option, the constraints on it and the risks of using the same justification in future cases.",
+          "studyWords": 212,
+          "deepReading": [
+            "ethics-1"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 7,
+          "topic": "Revision I: Values & Moral Reasoning",
+          "notes": [
+            "Ethics and everyday judgment: Ethical reasoning asks whether conduct can be justified to the people affected, not only whether it is convenient. Begin by separating the facts of a situation from your assumptions, then identify the values at stake. A familiar habit or popular view can still need scrutiny.",
+            "Values and their formation: Families, schools, peers and institutions influence values, but individuals can reflect on inherited beliefs. A value becomes meaningful when it shapes conduct under pressure. Distinguish the values a person announces from the incentives and behaviour an organisation actually rewards.",
+            "Duty and consequences: Consequences matter, but an attractive result does not automatically justify deception or disregard for rights. Duties also need interpretation in context. Compare the strongest reasons for an option, the constraints on it and the risks of using the same justification in future cases."
+          ],
+          "reading": "Revisit your notes for Ethics and everyday judgment; Values and their formation; Duty and consequences. Re-read the assigned source sections only where your recall is weak.",
+          "task": "Close the notes and reconstruct the main distinctions from the last 3 topics. Compare two ethical lenses using a concrete decision. Then compare your work with the material below.",
+          "recall": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+          "recallAnswer": "Ethical reasoning asks whether conduct can be justified to the people affected, not only whether it is convenient. Begin by separating the facts of a situation from your assumptions, then identify the values at stake. A familiar habit or popular view can still need scrutiny. Families, schools, peers and institutions influence values, but individuals can reflect on inherited beliefs. A value becomes meaningful when it shapes conduct under pressure. Distinguish the values a person announces from the incentives and behaviour an organisation actually rewards. Consequences matter, but an attractive result does not automatically justify deception or disregard for rights. Duties also need interpretation in context. Compare the strongest reasons for an option, the constraints on it and the risks of using the same justification in future cases.",
+          "studyWords": 307,
+          "deepReading": [
+            "ethics-1"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "revision"
+        },
+        {
+          "day": 8,
+          "topic": "Virtue and practical wisdom",
+          "notes": [
+            "Virtues are dispositions developed through practice, reflection and judgment. Courage differs from recklessness; compassion differs from arbitrary favour. A responsible response depends on understanding the circumstances and choosing a defensible action, rather than mechanically maximising one quality."
+          ],
+          "reading": "Original GS-IV study notes: Virtue and practical wisdom.",
+          "task": "Compare two ethical lenses using a concrete decision. Explain courage using one cautious but firm public-service action.",
+          "recall": "Explain courage using one cautious but firm public-service action.",
+          "recallAnswer": "Virtues are dispositions developed through practice, reflection and judgment. Courage differs from recklessness; compassion differs from arbitrary favour. A responsible response depends on understanding the circumstances and choosing a defensible action, rather than mechanically maximising one quality.",
+          "studyWords": 206,
+          "deepReading": [
+            "ethics-1"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 9,
+          "topic": "Virtue and practical wisdom — application",
+          "notes": [
+            "Virtues are dispositions developed through practice, reflection and judgment. Courage differs from recklessness; compassion differs from arbitrary favour. A responsible response depends on understanding the circumstances and choosing a defensible action, rather than mechanically maximising one quality."
+          ],
+          "reading": "Original GS-IV study notes: Virtue and practical wisdom.",
+          "task": "Compare two ethical lenses using a concrete decision. Explain courage using one cautious but firm public-service action.",
+          "recall": "Explain courage using one cautious but firm public-service action.",
+          "recallAnswer": "Virtues are dispositions developed through practice, reflection and judgment. Courage differs from recklessness; compassion differs from arbitrary favour. A responsible response depends on understanding the circumstances and choosing a defensible action, rather than mechanically maximising one quality.",
+          "studyWords": 206,
+          "deepReading": [
+            "ethics-1"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 10,
+          "topic": "Empathy and compassion",
+          "notes": [
+            "Empathy helps understand another person’s situation; compassion adds concern and a wish to respond to suffering. Neither requires abandoning evidence or fair criteria. Listening respectfully can reveal barriers invisible in a file, while a recorded decision preserves equal treatment and accountability."
+          ],
+          "reading": "Original GS-IV study notes: Empathy and compassion.",
+          "task": "Compare two ethical lenses using a concrete decision. Show how empathy can improve a service without creating favouritism.",
+          "recall": "Show how empathy can improve a service without creating favouritism.",
+          "recallAnswer": "Empathy helps understand another person’s situation; compassion adds concern and a wish to respond to suffering. Neither requires abandoning evidence or fair criteria. Listening respectfully can reveal barriers invisible in a file, while a recorded decision preserves equal treatment and accountability.",
+          "studyWords": 210,
+          "deepReading": [
+            "ethics-1"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 11,
+          "topic": "Empathy and compassion — application",
+          "notes": [
+            "Empathy helps understand another person’s situation; compassion adds concern and a wish to respond to suffering. Neither requires abandoning evidence or fair criteria. Listening respectfully can reveal barriers invisible in a file, while a recorded decision preserves equal treatment and accountability."
+          ],
+          "reading": "Original GS-IV study notes: Empathy and compassion.",
+          "task": "Compare two ethical lenses using a concrete decision. Show how empathy can improve a service without creating favouritism.",
+          "recall": "Show how empathy can improve a service without creating favouritism.",
+          "recallAnswer": "Empathy helps understand another person’s situation; compassion adds concern and a wish to respond to suffering. Neither requires abandoning evidence or fair criteria. Listening respectfully can reveal barriers invisible in a file, while a recorded decision preserves equal treatment and accountability.",
+          "studyWords": 210,
+          "deepReading": [
+            "ethics-1"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 12,
+          "topic": "Attitude and persuasion",
+          "notes": [
+            "Attitudes involve beliefs, feelings and tendencies to act. Persuasion can use evidence, trust and dialogue; manipulation suppresses meaningful choice or exploits vulnerability. A public campaign should be understandable, truthful and sensitive to its audience, with opportunities to ask questions."
+          ],
+          "reading": "Original GS-IV study notes: Attitude and persuasion.",
+          "task": "Compare two ethical lenses using a concrete decision. Design a truthful public message and explain what would make it manipulative.",
+          "recall": "Design a truthful public message and explain what would make it manipulative.",
+          "recallAnswer": "Attitudes involve beliefs, feelings and tendencies to act. Persuasion can use evidence, trust and dialogue; manipulation suppresses meaningful choice or exploits vulnerability. A public campaign should be understandable, truthful and sensitive to its audience, with opportunities to ask questions.",
+          "studyWords": 208,
+          "deepReading": [
+            "ethics-1"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 13,
+          "topic": "Attitude and persuasion — application",
+          "notes": [
+            "Attitudes involve beliefs, feelings and tendencies to act. Persuasion can use evidence, trust and dialogue; manipulation suppresses meaningful choice or exploits vulnerability. A public campaign should be understandable, truthful and sensitive to its audience, with opportunities to ask questions."
+          ],
+          "reading": "Original GS-IV study notes: Attitude and persuasion.",
+          "task": "Compare two ethical lenses using a concrete decision. Design a truthful public message and explain what would make it manipulative.",
+          "recall": "Design a truthful public message and explain what would make it manipulative.",
+          "recallAnswer": "Attitudes involve beliefs, feelings and tendencies to act. Persuasion can use evidence, trust and dialogue; manipulation suppresses meaningful choice or exploits vulnerability. A public campaign should be understandable, truthful and sensitive to its audience, with opportunities to ask questions.",
+          "studyWords": 208,
+          "deepReading": [
+            "ethics-1"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 14,
+          "topic": "Revision II: Values & Moral Reasoning",
+          "notes": [
+            "Virtue and practical wisdom: Virtues are dispositions developed through practice, reflection and judgment. Courage differs from recklessness; compassion differs from arbitrary favour. A responsible response depends on understanding the circumstances and choosing a defensible action, rather than mechanically maximising one quality.",
+            "Empathy and compassion: Empathy helps understand another person’s situation; compassion adds concern and a wish to respond to suffering. Neither requires abandoning evidence or fair criteria. Listening respectfully can reveal barriers invisible in a file, while a recorded decision preserves equal treatment and accountability.",
+            "Attitude and persuasion: Attitudes involve beliefs, feelings and tendencies to act. Persuasion can use evidence, trust and dialogue; manipulation suppresses meaningful choice or exploits vulnerability. A public campaign should be understandable, truthful and sensitive to its audience, with opportunities to ask questions."
+          ],
+          "reading": "Revisit your notes for Virtue and practical wisdom; Empathy and compassion; Attitude and persuasion. Re-read the assigned source sections only where your recall is weak.",
+          "task": "Close the notes and reconstruct the main distinctions from the last 3 topics. Compare two ethical lenses using a concrete decision. Then compare your work with the material below.",
+          "recall": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+          "recallAnswer": "Virtues are dispositions developed through practice, reflection and judgment. Courage differs from recklessness; compassion differs from arbitrary favour. A responsible response depends on understanding the circumstances and choosing a defensible action, rather than mechanically maximising one quality. Empathy helps understand another person’s situation; compassion adds concern and a wish to respond to suffering. Neither requires abandoning evidence or fair criteria. Listening respectfully can reveal barriers invisible in a file, while a recorded decision preserves equal treatment and accountability. Attitudes involve beliefs, feelings and tendencies to act. Persuasion can use evidence, trust and dialogue; manipulation suppresses meaningful choice or exploits vulnerability. A public campaign should be understandable, truthful and sensitive to its audience, with opportunities to ask questions.",
+          "studyWords": 296,
+          "deepReading": [
+            "ethics-1"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "revision"
+        },
+        {
+          "day": 15,
+          "topic": "Emotional intelligence",
+          "notes": [
+            "Recognising anger or anxiety can help an official respond calmly rather than defensively. Self-regulation does not mean suppressing every emotion, and understanding others does not justify controlling them covertly. Connect emotional awareness to listening, de-escalation and a fair decision."
+          ],
+          "reading": "Original GS-IV study notes: Emotional intelligence.",
+          "task": "Compare two ethical lenses using a concrete decision. Describe how you would respond to an angry but eligible applicant.",
+          "recall": "Describe how you would respond to an angry but eligible applicant.",
+          "recallAnswer": "Recognising anger or anxiety can help an official respond calmly rather than defensively. Self-regulation does not mean suppressing every emotion, and understanding others does not justify controlling them covertly. Connect emotional awareness to listening, de-escalation and a fair decision.",
+          "studyWords": 208,
+          "deepReading": [
+            "ethics-1"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 16,
+          "topic": "Emotional intelligence — application",
+          "notes": [
+            "Recognising anger or anxiety can help an official respond calmly rather than defensively. Self-regulation does not mean suppressing every emotion, and understanding others does not justify controlling them covertly. Connect emotional awareness to listening, de-escalation and a fair decision."
+          ],
+          "reading": "Original GS-IV study notes: Emotional intelligence.",
+          "task": "Compare two ethical lenses using a concrete decision. Describe how you would respond to an angry but eligible applicant.",
+          "recall": "Describe how you would respond to an angry but eligible applicant.",
+          "recallAnswer": "Recognising anger or anxiety can help an official respond calmly rather than defensively. Self-regulation does not mean suppressing every emotion, and understanding others does not justify controlling them covertly. Connect emotional awareness to listening, de-escalation and a fair decision.",
+          "studyWords": 208,
+          "deepReading": [
+            "ethics-1"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 17,
+          "topic": "Means and ends",
+          "notes": [
+            "Methods shape trust, institutions and future incentives. A shortcut that appears to produce a useful result can damage the process on which other people rely. Examine authorised discretion and legitimate alternatives before treating procedure as an obstacle that may simply be ignored."
+          ],
+          "reading": "Original GS-IV study notes: Means and ends.",
+          "task": "Compare two ethical lenses using a concrete decision. Explain a case where a good objective is undermined by the method used.",
+          "recall": "Explain a case where a good objective is undermined by the method used.",
+          "recallAnswer": "Methods shape trust, institutions and future incentives. A shortcut that appears to produce a useful result can damage the process on which other people rely. Examine authorised discretion and legitimate alternatives before treating procedure as an obstacle that may simply be ignored.",
+          "studyWords": 211,
+          "deepReading": [
+            "ethics-1"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 18,
+          "topic": "Means and ends — application",
+          "notes": [
+            "Methods shape trust, institutions and future incentives. A shortcut that appears to produce a useful result can damage the process on which other people rely. Examine authorised discretion and legitimate alternatives before treating procedure as an obstacle that may simply be ignored."
+          ],
+          "reading": "Original GS-IV study notes: Means and ends.",
+          "task": "Compare two ethical lenses using a concrete decision. Explain a case where a good objective is undermined by the method used.",
+          "recall": "Explain a case where a good objective is undermined by the method used.",
+          "recallAnswer": "Methods shape trust, institutions and future incentives. A shortcut that appears to produce a useful result can damage the process on which other people rely. Examine authorised discretion and legitimate alternatives before treating procedure as an obstacle that may simply be ignored.",
+          "studyWords": 211,
+          "deepReading": [
+            "ethics-1"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 19,
+          "topic": "Values & Moral Reasoning: synthesis",
+          "notes": [
+            "Attitude and persuasion: Attitudes involve beliefs, feelings and tendencies to act. Persuasion can use evidence, trust and dialogue; manipulation suppresses meaningful choice or exploits vulnerability. A public campaign should be understandable, truthful and sensitive to its audience, with opportunities to ask questions.",
+            "Emotional intelligence: Recognising anger or anxiety can help an official respond calmly rather than defensively. Self-regulation does not mean suppressing every emotion, and understanding others does not justify controlling them covertly. Connect emotional awareness to listening, de-escalation and a fair decision.",
+            "Means and ends: Methods shape trust, institutions and future incentives. A shortcut that appears to produce a useful result can damage the process on which other people rely. Examine authorised discretion and legitimate alternatives before treating procedure as an obstacle that may simply be ignored."
+          ],
+          "reading": "Revisit your notes for Attitude and persuasion; Emotional intelligence; Means and ends. Re-read the assigned source sections only where your recall is weak.",
+          "task": "Close the notes and reconstruct the main distinctions from the last 3 topics. Compare two ethical lenses using a concrete decision. Then compare your work with the material below.",
+          "recall": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+          "recallAnswer": "Attitudes involve beliefs, feelings and tendencies to act. Persuasion can use evidence, trust and dialogue; manipulation suppresses meaningful choice or exploits vulnerability. A public campaign should be understandable, truthful and sensitive to its audience, with opportunities to ask questions. Recognising anger or anxiety can help an official respond calmly rather than defensively. Self-regulation does not mean suppressing every emotion, and understanding others does not justify controlling them covertly. Connect emotional awareness to listening, de-escalation and a fair decision. Methods shape trust, institutions and future incentives. A shortcut that appears to produce a useful result can damage the process on which other people rely. Examine authorised discretion and legitimate alternatives before treating procedure as an obstacle that may simply be ignored.",
+          "studyWords": 297,
+          "deepReading": [
+            "ethics-1"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "revision"
+        },
+        {
+          "day": 20,
+          "topic": "Values & Moral Reasoning: assessment & repair",
+          "notes": [
+            "Ethics and everyday judgment: Ethical reasoning asks whether conduct can be justified to the people affected, not only whether it is convenient. Begin by separating the facts of a situation from your assumptions, then identify the values at stake. A familiar habit or popular view can still need scrutiny.",
+            "Values and their formation: Families, schools, peers and institutions influence values, but individuals can reflect on inherited beliefs. A value becomes meaningful when it shapes conduct under pressure. Distinguish the values a person announces from the incentives and behaviour an organisation actually rewards.",
+            "Duty and consequences: Consequences matter, but an attractive result does not automatically justify deception or disregard for rights. Duties also need interpretation in context. Compare the strongest reasons for an option, the constraints on it and the risks of using the same justification in future cases.",
+            "Virtue and practical wisdom: Virtues are dispositions developed through practice, reflection and judgment. Courage differs from recklessness; compassion differs from arbitrary favour. A responsible response depends on understanding the circumstances and choosing a defensible action, rather than mechanically maximising one quality.",
+            "Empathy and compassion: Empathy helps understand another person’s situation; compassion adds concern and a wish to respond to suffering. Neither requires abandoning evidence or fair criteria. Listening respectfully can reveal barriers invisible in a file, while a recorded decision preserves equal treatment and accountability.",
+            "Attitude and persuasion: Attitudes involve beliefs, feelings and tendencies to act. Persuasion can use evidence, trust and dialogue; manipulation suppresses meaningful choice or exploits vulnerability. A public campaign should be understandable, truthful and sensitive to its audience, with opportunities to ask questions.",
+            "Emotional intelligence: Recognising anger or anxiety can help an official respond calmly rather than defensively. Self-regulation does not mean suppressing every emotion, and understanding others does not justify controlling them covertly. Connect emotional awareness to listening, de-escalation and a fair decision.",
+            "Means and ends: Methods shape trust, institutions and future incentives. A shortcut that appears to produce a useful result can damage the process on which other people rely. Examine authorised discretion and legitimate alternatives before treating procedure as an obstacle that may simply be ignored."
+          ],
+          "reading": "Revisit your notes for Ethics and everyday judgment; Values and their formation; Duty and consequences; Virtue and practical wisdom; Empathy and compassion; Attitude and persuasion; Emotional intelligence; Means and ends. Re-read the assigned source sections only where your recall is weak.",
+          "task": "Use the official-paper link or your question bank for a timed case study and two short answers. Mark the gaps, explain your errors and schedule a second recall attempt.",
+          "recall": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+          "recallAnswer": "Ethical reasoning asks whether conduct can be justified to the people affected, not only whether it is convenient. Begin by separating the facts of a situation from your assumptions, then identify the values at stake. A familiar habit or popular view can still need scrutiny. Families, schools, peers and institutions influence values, but individuals can reflect on inherited beliefs. A value becomes meaningful when it shapes conduct under pressure. Distinguish the values a person announces from the incentives and behaviour an organisation actually rewards. Consequences matter, but an attractive result does not automatically justify deception or disregard for rights. Duties also need interpretation in context. Compare the strongest reasons for an option, the constraints on it and the risks of using the same justification in future cases. Virtues are dispositions developed through practice, reflection and judgment. Courage differs from recklessness; compassion differs from arbitrary favour. A responsible response depends on understanding the circumstances and choosing a defensible action, rather than mechanically maximising one quality. Empathy helps understand another person’s situation; compassion adds concern and a wish to respond to suffering. Neither requires abandoning evidence or fair criteria. Listening respectfully can reveal barriers invisible in a file, while a recorded decision preserves equal treatment and accountability. Attitudes involve beliefs, feelings and tendencies to act. Persuasion can use evidence, trust and dialogue; manipulation suppresses meaningful choice or exploits vulnerability. A public campaign should be understandable, truthful and sensitive to its audience, with opportunities to ask questions. Recognising anger or anxiety can help an official respond calmly rather than defensively. Self-regulation does not mean suppressing every emotion, and understanding others does not justify controlling them covertly. Connect emotional awareness to listening, de-escalation and a fair decision. Methods shape trust, institutions and future incentives. A shortcut that appears to produce a useful result can damage the process on which other people rely. Examine authorised discretion and legitimate alternatives before treating procedure as an obstacle that may simply be ignored.",
+          "studyWords": 520,
+          "deepReading": [
+            "ethics-1"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "test"
+        }
+      ]
+    },
+    {
+      "id": "block-2",
+      "title": "Public-Service Ethics",
+      "icon": "ethics",
+      "description": "Explain the value through a feasible administrative action. Build the foundation through the daily notes and use the block companion to connect concepts.",
+      "sources": [
+        "arc"
+      ],
+      "days": [
+        {
+          "day": 21,
+          "topic": "Integrity under pressure",
+          "notes": [
+            "Integrity is tested when a justified commitment becomes costly. An officer who records an inconvenient fact preserves the basis for a sound decision even if a superior dislikes it. Respectful communication and proper escalation can combine professional discipline with refusal to falsify evidence."
+          ],
+          "reading": "Original GS-IV study notes: Integrity under pressure.",
+          "task": "Explain the value through a feasible administrative action. Draft a short response to a request to alter an inspection finding.",
+          "recall": "Draft a short response to a request to alter an inspection finding.",
+          "recallAnswer": "Integrity is tested when a justified commitment becomes costly. An officer who records an inconvenient fact preserves the basis for a sound decision even if a superior dislikes it. Respectful communication and proper escalation can combine professional discipline with refusal to falsify evidence.",
+          "studyWords": 214,
+          "deepReading": [
+            "ethics-2"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 22,
+          "topic": "Integrity under pressure — application",
+          "notes": [
+            "Integrity is tested when a justified commitment becomes costly. An officer who records an inconvenient fact preserves the basis for a sound decision even if a superior dislikes it. Respectful communication and proper escalation can combine professional discipline with refusal to falsify evidence."
+          ],
+          "reading": "Original GS-IV study notes: Integrity under pressure.",
+          "task": "Explain the value through a feasible administrative action. Draft a short response to a request to alter an inspection finding.",
+          "recall": "Draft a short response to a request to alter an inspection finding.",
+          "recallAnswer": "Integrity is tested when a justified commitment becomes costly. An officer who records an inconvenient fact preserves the basis for a sound decision even if a superior dislikes it. Respectful communication and proper escalation can combine professional discipline with refusal to falsify evidence.",
+          "studyWords": 214,
+          "deepReading": [
+            "ethics-2"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 23,
+          "topic": "Impartiality and equity",
+          "notes": [
+            "Fairness uses relevant criteria consistently; it does not require ignoring different needs. Emergency relief can prioritise severe vulnerability under transparent criteria without becoming partisan. Explain both the rule and the reason for a justified distinction so that others can scrutinise it."
+          ],
+          "reading": "Original GS-IV study notes: Impartiality and equity.",
+          "task": "Explain the value through a feasible administrative action. Distinguish need-based priority from preferential treatment.",
+          "recall": "Distinguish need-based priority from preferential treatment.",
+          "recallAnswer": "Fairness uses relevant criteria consistently; it does not require ignoring different needs. Emergency relief can prioritise severe vulnerability under transparent criteria without becoming partisan. Explain both the rule and the reason for a justified distinction so that others can scrutinise it.",
+          "studyWords": 212,
+          "deepReading": [
+            "ethics-2"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 24,
+          "topic": "Impartiality and equity — application",
+          "notes": [
+            "Fairness uses relevant criteria consistently; it does not require ignoring different needs. Emergency relief can prioritise severe vulnerability under transparent criteria without becoming partisan. Explain both the rule and the reason for a justified distinction so that others can scrutinise it."
+          ],
+          "reading": "Original GS-IV study notes: Impartiality and equity.",
+          "task": "Explain the value through a feasible administrative action. Distinguish need-based priority from preferential treatment.",
+          "recall": "Distinguish need-based priority from preferential treatment.",
+          "recallAnswer": "Fairness uses relevant criteria consistently; it does not require ignoring different needs. Emergency relief can prioritise severe vulnerability under transparent criteria without becoming partisan. Explain both the rule and the reason for a justified distinction so that others can scrutinise it.",
+          "studyWords": 212,
+          "deepReading": [
+            "ethics-2"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 25,
+          "topic": "Non-partisanship",
+          "notes": [
+            "A public servant serves lawful public institutions rather than a political party. Respect for elected authority is compatible with accurate advice and refusal to misuse official resources. The appropriate response to pressure should preserve records, use authorised channels and avoid personal political campaigning in an official role."
+          ],
+          "reading": "Original GS-IV study notes: Non-partisanship.",
+          "task": "Explain the value through a feasible administrative action. Identify the difference between implementing a lawful policy and campaigning for a party.",
+          "recall": "Identify the difference between implementing a lawful policy and campaigning for a party.",
+          "recallAnswer": "A public servant serves lawful public institutions rather than a political party. Respect for elected authority is compatible with accurate advice and refusal to misuse official resources. The appropriate response to pressure should preserve records, use authorised channels and avoid personal political campaigning in an official role.",
+          "studyWords": 218,
+          "deepReading": [
+            "ethics-2"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 26,
+          "topic": "Non-partisanship — application",
+          "notes": [
+            "A public servant serves lawful public institutions rather than a political party. Respect for elected authority is compatible with accurate advice and refusal to misuse official resources. The appropriate response to pressure should preserve records, use authorised channels and avoid personal political campaigning in an official role."
+          ],
+          "reading": "Original GS-IV study notes: Non-partisanship.",
+          "task": "Explain the value through a feasible administrative action. Identify the difference between implementing a lawful policy and campaigning for a party.",
+          "recall": "Identify the difference between implementing a lawful policy and campaigning for a party.",
+          "recallAnswer": "A public servant serves lawful public institutions rather than a political party. Respect for elected authority is compatible with accurate advice and refusal to misuse official resources. The appropriate response to pressure should preserve records, use authorised channels and avoid personal political campaigning in an official role.",
+          "studyWords": 218,
+          "deepReading": [
+            "ethics-2"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 27,
+          "topic": "Revision I: Public-Service Ethics",
+          "notes": [
+            "Integrity under pressure: Integrity is tested when a justified commitment becomes costly. An officer who records an inconvenient fact preserves the basis for a sound decision even if a superior dislikes it. Respectful communication and proper escalation can combine professional discipline with refusal to falsify evidence.",
+            "Impartiality and equity: Fairness uses relevant criteria consistently; it does not require ignoring different needs. Emergency relief can prioritise severe vulnerability under transparent criteria without becoming partisan. Explain both the rule and the reason for a justified distinction so that others can scrutinise it.",
+            "Non-partisanship: A public servant serves lawful public institutions rather than a political party. Respect for elected authority is compatible with accurate advice and refusal to misuse official resources. The appropriate response to pressure should preserve records, use authorised channels and avoid personal political campaigning in an official role."
+          ],
+          "reading": "Revisit your notes for Integrity under pressure; Impartiality and equity; Non-partisanship. Re-read the assigned source sections only where your recall is weak.",
+          "task": "Close the notes and reconstruct the main distinctions from the last 3 topics. Explain the value through a feasible administrative action. Then compare your work with the material below.",
+          "recall": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+          "recallAnswer": "Integrity is tested when a justified commitment becomes costly. An officer who records an inconvenient fact preserves the basis for a sound decision even if a superior dislikes it. Respectful communication and proper escalation can combine professional discipline with refusal to falsify evidence. Fairness uses relevant criteria consistently; it does not require ignoring different needs. Emergency relief can prioritise severe vulnerability under transparent criteria without becoming partisan. Explain both the rule and the reason for a justified distinction so that others can scrutinise it. A public servant serves lawful public institutions rather than a political party. Respect for elected authority is compatible with accurate advice and refusal to misuse official resources. The appropriate response to pressure should preserve records, use authorised channels and avoid personal political campaigning in an official role.",
+          "studyWords": 309,
+          "deepReading": [
+            "ethics-2"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "revision"
+        },
+        {
+          "day": 28,
+          "topic": "Conflict of interest",
+          "notes": [
+            "A personal connection or financial interest can create a risk of biased judgment even without an improper decision. Early disclosure allows the institution to manage that risk. Recusal or independent review may be appropriate; concealing the connection deprives others of the chance to assess fairness."
+          ],
+          "reading": "Original GS-IV study notes: Conflict of interest.",
+          "task": "Explain the value through a feasible administrative action. Explain why disclosure is needed before proof of wrongdoing.",
+          "recall": "Explain why disclosure is needed before proof of wrongdoing.",
+          "recallAnswer": "A personal connection or financial interest can create a risk of biased judgment even without an improper decision. Early disclosure allows the institution to manage that risk. Recusal or independent review may be appropriate; concealing the connection deprives others of the chance to assess fairness.",
+          "studyWords": 216,
+          "deepReading": [
+            "ethics-2"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 29,
+          "topic": "Conflict of interest — application",
+          "notes": [
+            "A personal connection or financial interest can create a risk of biased judgment even without an improper decision. Early disclosure allows the institution to manage that risk. Recusal or independent review may be appropriate; concealing the connection deprives others of the chance to assess fairness."
+          ],
+          "reading": "Original GS-IV study notes: Conflict of interest.",
+          "task": "Explain the value through a feasible administrative action. Explain why disclosure is needed before proof of wrongdoing.",
+          "recall": "Explain why disclosure is needed before proof of wrongdoing.",
+          "recallAnswer": "A personal connection or financial interest can create a risk of biased judgment even without an improper decision. Early disclosure allows the institution to manage that risk. Recusal or independent review may be appropriate; concealing the connection deprives others of the chance to assess fairness.",
+          "studyWords": 216,
+          "deepReading": [
+            "ethics-2"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 30,
+          "topic": "Transparency and privacy",
+          "notes": [
+            "Public scrutiny requires information, but disclosure can also harm people when unnecessary personal details are exposed. Identify the purpose of disclosure and release what is justified through the applicable process. Accountability does not require publishing every private fact in an administrative file."
+          ],
+          "reading": "Original GS-IV study notes: Transparency and privacy.",
+          "task": "Explain the value through a feasible administrative action. Suggest a way to publish service performance while protecting applicants’ identities.",
+          "recall": "Suggest a way to publish service performance while protecting applicants’ identities.",
+          "recallAnswer": "Public scrutiny requires information, but disclosure can also harm people when unnecessary personal details are exposed. Identify the purpose of disclosure and release what is justified through the applicable process. Accountability does not require publishing every private fact in an administrative file.",
+          "studyWords": 213,
+          "deepReading": [
+            "ethics-2"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 31,
+          "topic": "Transparency and privacy — application",
+          "notes": [
+            "Public scrutiny requires information, but disclosure can also harm people when unnecessary personal details are exposed. Identify the purpose of disclosure and release what is justified through the applicable process. Accountability does not require publishing every private fact in an administrative file."
+          ],
+          "reading": "Original GS-IV study notes: Transparency and privacy.",
+          "task": "Explain the value through a feasible administrative action. Suggest a way to publish service performance while protecting applicants’ identities.",
+          "recall": "Suggest a way to publish service performance while protecting applicants’ identities.",
+          "recallAnswer": "Public scrutiny requires information, but disclosure can also harm people when unnecessary personal details are exposed. Identify the purpose of disclosure and release what is justified through the applicable process. Accountability does not require publishing every private fact in an administrative file.",
+          "studyWords": 213,
+          "deepReading": [
+            "ethics-2"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 32,
+          "topic": "Citizen charters and redress",
+          "notes": [
+            "A service commitment is useful when it specifies standards, responsibility and a complaint route. A grievance mechanism should be accessible and lead to review or correction. Counting complaints closed without checking whether the problem was resolved can reward superficial compliance."
+          ],
+          "reading": "Original GS-IV study notes: Citizen charters and redress.",
+          "task": "Explain the value through a feasible administrative action. Propose a better measure than the number of complaints marked closed.",
+          "recall": "Propose a better measure than the number of complaints marked closed.",
+          "recallAnswer": "A service commitment is useful when it specifies standards, responsibility and a complaint route. A grievance mechanism should be accessible and lead to review or correction. Counting complaints closed without checking whether the problem was resolved can reward superficial compliance.",
+          "studyWords": 211,
+          "deepReading": [
+            "ethics-2"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 33,
+          "topic": "Citizen charters and redress — application",
+          "notes": [
+            "A service commitment is useful when it specifies standards, responsibility and a complaint route. A grievance mechanism should be accessible and lead to review or correction. Counting complaints closed without checking whether the problem was resolved can reward superficial compliance."
+          ],
+          "reading": "Original GS-IV study notes: Citizen charters and redress.",
+          "task": "Explain the value through a feasible administrative action. Propose a better measure than the number of complaints marked closed.",
+          "recall": "Propose a better measure than the number of complaints marked closed.",
+          "recallAnswer": "A service commitment is useful when it specifies standards, responsibility and a complaint route. A grievance mechanism should be accessible and lead to review or correction. Counting complaints closed without checking whether the problem was resolved can reward superficial compliance.",
+          "studyWords": 211,
+          "deepReading": [
+            "ethics-2"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 34,
+          "topic": "Revision II: Public-Service Ethics",
+          "notes": [
+            "Conflict of interest: A personal connection or financial interest can create a risk of biased judgment even without an improper decision. Early disclosure allows the institution to manage that risk. Recusal or independent review may be appropriate; concealing the connection deprives others of the chance to assess fairness.",
+            "Transparency and privacy: Public scrutiny requires information, but disclosure can also harm people when unnecessary personal details are exposed. Identify the purpose of disclosure and release what is justified through the applicable process. Accountability does not require publishing every private fact in an administrative file.",
+            "Citizen charters and redress: A service commitment is useful when it specifies standards, responsibility and a complaint route. A grievance mechanism should be accessible and lead to review or correction. Counting complaints closed without checking whether the problem was resolved can reward superficial compliance."
+          ],
+          "reading": "Revisit your notes for Conflict of interest; Transparency and privacy; Citizen charters and redress. Re-read the assigned source sections only where your recall is weak.",
+          "task": "Close the notes and reconstruct the main distinctions from the last 3 topics. Explain the value through a feasible administrative action. Then compare your work with the material below.",
+          "recall": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+          "recallAnswer": "A personal connection or financial interest can create a risk of biased judgment even without an improper decision. Early disclosure allows the institution to manage that risk. Recusal or independent review may be appropriate; concealing the connection deprives others of the chance to assess fairness. Public scrutiny requires information, but disclosure can also harm people when unnecessary personal details are exposed. Identify the purpose of disclosure and release what is justified through the applicable process. Accountability does not require publishing every private fact in an administrative file. A service commitment is useful when it specifies standards, responsibility and a complaint route. A grievance mechanism should be accessible and lead to review or correction. Counting complaints closed without checking whether the problem was resolved can reward superficial compliance.",
+          "studyWords": 308,
+          "deepReading": [
+            "ethics-2"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "revision"
+        },
+        {
+          "day": 35,
+          "topic": "Work culture and incentives",
+          "notes": [
+            "Rules influence conduct, but so do informal expectations, leadership and rewards. Unrealistic targets can encourage false reporting; unpunished harassment can silence dissent. An ethical response combines individual responsibility with changes to supervision, protection and incentives that make good conduct sustainable."
+          ],
+          "reading": "Original GS-IV study notes: Work culture and incentives.",
+          "task": "Explain the value through a feasible administrative action. Explain how a target can unintentionally encourage dishonest reporting.",
+          "recall": "Explain how a target can unintentionally encourage dishonest reporting.",
+          "recallAnswer": "Rules influence conduct, but so do informal expectations, leadership and rewards. Unrealistic targets can encourage false reporting; unpunished harassment can silence dissent. An ethical response combines individual responsibility with changes to supervision, protection and incentives that make good conduct sustainable.",
+          "studyWords": 211,
+          "deepReading": [
+            "ethics-2"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 36,
+          "topic": "Work culture and incentives — application",
+          "notes": [
+            "Rules influence conduct, but so do informal expectations, leadership and rewards. Unrealistic targets can encourage false reporting; unpunished harassment can silence dissent. An ethical response combines individual responsibility with changes to supervision, protection and incentives that make good conduct sustainable."
+          ],
+          "reading": "Original GS-IV study notes: Work culture and incentives.",
+          "task": "Explain the value through a feasible administrative action. Explain how a target can unintentionally encourage dishonest reporting.",
+          "recall": "Explain how a target can unintentionally encourage dishonest reporting.",
+          "recallAnswer": "Rules influence conduct, but so do informal expectations, leadership and rewards. Unrealistic targets can encourage false reporting; unpunished harassment can silence dissent. An ethical response combines individual responsibility with changes to supervision, protection and incentives that make good conduct sustainable.",
+          "studyWords": 211,
+          "deepReading": [
+            "ethics-2"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 37,
+          "topic": "Probity in public spending",
+          "notes": [
+            "Public spending requires a justified purpose, fair selection, records and verification of delivery. The lowest quoted price is not always the lowest total cost, but discretion must be transparent and within the rules. Separate a reasoned quality criterion from an excuse to favour a particular supplier."
+          ],
+          "reading": "Original GS-IV study notes: Probity in public spending.",
+          "task": "Explain the value through a feasible administrative action. List the evidence needed to justify a procurement choice.",
+          "recall": "List the evidence needed to justify a procurement choice.",
+          "recallAnswer": "Public spending requires a justified purpose, fair selection, records and verification of delivery. The lowest quoted price is not always the lowest total cost, but discretion must be transparent and within the rules. Separate a reasoned quality criterion from an excuse to favour a particular supplier.",
+          "studyWords": 217,
+          "deepReading": [
+            "ethics-2"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 38,
+          "topic": "Probity in public spending — application",
+          "notes": [
+            "Public spending requires a justified purpose, fair selection, records and verification of delivery. The lowest quoted price is not always the lowest total cost, but discretion must be transparent and within the rules. Separate a reasoned quality criterion from an excuse to favour a particular supplier."
+          ],
+          "reading": "Original GS-IV study notes: Probity in public spending.",
+          "task": "Explain the value through a feasible administrative action. List the evidence needed to justify a procurement choice.",
+          "recall": "List the evidence needed to justify a procurement choice.",
+          "recallAnswer": "Public spending requires a justified purpose, fair selection, records and verification of delivery. The lowest quoted price is not always the lowest total cost, but discretion must be transparent and within the rules. Separate a reasoned quality criterion from an excuse to favour a particular supplier.",
+          "studyWords": 217,
+          "deepReading": [
+            "ethics-2"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 39,
+          "topic": "Public-Service Ethics: synthesis",
+          "notes": [
+            "Citizen charters and redress: A service commitment is useful when it specifies standards, responsibility and a complaint route. A grievance mechanism should be accessible and lead to review or correction. Counting complaints closed without checking whether the problem was resolved can reward superficial compliance.",
+            "Work culture and incentives: Rules influence conduct, but so do informal expectations, leadership and rewards. Unrealistic targets can encourage false reporting; unpunished harassment can silence dissent. An ethical response combines individual responsibility with changes to supervision, protection and incentives that make good conduct sustainable.",
+            "Probity in public spending: Public spending requires a justified purpose, fair selection, records and verification of delivery. The lowest quoted price is not always the lowest total cost, but discretion must be transparent and within the rules. Separate a reasoned quality criterion from an excuse to favour a particular supplier."
+          ],
+          "reading": "Revisit your notes for Citizen charters and redress; Work culture and incentives; Probity in public spending. Re-read the assigned source sections only where your recall is weak.",
+          "task": "Close the notes and reconstruct the main distinctions from the last 3 topics. Explain the value through a feasible administrative action. Then compare your work with the material below.",
+          "recall": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+          "recallAnswer": "A service commitment is useful when it specifies standards, responsibility and a complaint route. A grievance mechanism should be accessible and lead to review or correction. Counting complaints closed without checking whether the problem was resolved can reward superficial compliance. Rules influence conduct, but so do informal expectations, leadership and rewards. Unrealistic targets can encourage false reporting; unpunished harassment can silence dissent. An ethical response combines individual responsibility with changes to supervision, protection and incentives that make good conduct sustainable. Public spending requires a justified purpose, fair selection, records and verification of delivery. The lowest quoted price is not always the lowest total cost, but discretion must be transparent and within the rules. Separate a reasoned quality criterion from an excuse to favour a particular supplier.",
+          "studyWords": 309,
+          "deepReading": [
+            "ethics-2"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "revision"
+        },
+        {
+          "day": 40,
+          "topic": "Public-Service Ethics: assessment & repair",
+          "notes": [
+            "Integrity under pressure: Integrity is tested when a justified commitment becomes costly. An officer who records an inconvenient fact preserves the basis for a sound decision even if a superior dislikes it. Respectful communication and proper escalation can combine professional discipline with refusal to falsify evidence.",
+            "Impartiality and equity: Fairness uses relevant criteria consistently; it does not require ignoring different needs. Emergency relief can prioritise severe vulnerability under transparent criteria without becoming partisan. Explain both the rule and the reason for a justified distinction so that others can scrutinise it.",
+            "Non-partisanship: A public servant serves lawful public institutions rather than a political party. Respect for elected authority is compatible with accurate advice and refusal to misuse official resources. The appropriate response to pressure should preserve records, use authorised channels and avoid personal political campaigning in an official role.",
+            "Conflict of interest: A personal connection or financial interest can create a risk of biased judgment even without an improper decision. Early disclosure allows the institution to manage that risk. Recusal or independent review may be appropriate; concealing the connection deprives others of the chance to assess fairness.",
+            "Transparency and privacy: Public scrutiny requires information, but disclosure can also harm people when unnecessary personal details are exposed. Identify the purpose of disclosure and release what is justified through the applicable process. Accountability does not require publishing every private fact in an administrative file.",
+            "Citizen charters and redress: A service commitment is useful when it specifies standards, responsibility and a complaint route. A grievance mechanism should be accessible and lead to review or correction. Counting complaints closed without checking whether the problem was resolved can reward superficial compliance.",
+            "Work culture and incentives: Rules influence conduct, but so do informal expectations, leadership and rewards. Unrealistic targets can encourage false reporting; unpunished harassment can silence dissent. An ethical response combines individual responsibility with changes to supervision, protection and incentives that make good conduct sustainable.",
+            "Probity in public spending: Public spending requires a justified purpose, fair selection, records and verification of delivery. The lowest quoted price is not always the lowest total cost, but discretion must be transparent and within the rules. Separate a reasoned quality criterion from an excuse to favour a particular supplier."
+          ],
+          "reading": "Revisit your notes for Integrity under pressure; Impartiality and equity; Non-partisanship; Conflict of interest; Transparency and privacy; Citizen charters and redress; Work culture and incentives; Probity in public spending. Re-read the assigned source sections only where your recall is weak.",
+          "task": "Use the official-paper link or your question bank for a timed case study and two short answers. Mark the gaps, explain your errors and schedule a second recall attempt.",
+          "recall": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+          "recallAnswer": "Integrity is tested when a justified commitment becomes costly. An officer who records an inconvenient fact preserves the basis for a sound decision even if a superior dislikes it. Respectful communication and proper escalation can combine professional discipline with refusal to falsify evidence. Fairness uses relevant criteria consistently; it does not require ignoring different needs. Emergency relief can prioritise severe vulnerability under transparent criteria without becoming partisan. Explain both the rule and the reason for a justified distinction so that others can scrutinise it. A public servant serves lawful public institutions rather than a political party. Respect for elected authority is compatible with accurate advice and refusal to misuse official resources. The appropriate response to pressure should preserve records, use authorised channels and avoid personal political campaigning in an official role. A personal connection or financial interest can create a risk of biased judgment even without an improper decision. Early disclosure allows the institution to manage that risk. Recusal or independent review may be appropriate; concealing the connection deprives others of the chance to assess fairness. Public scrutiny requires information, but disclosure can also harm people when unnecessary personal details are exposed. Identify the purpose of disclosure and release what is justified through the applicable process. Accountability does not require publishing every private fact in an administrative file. A service commitment is useful when it specifies standards, responsibility and a complaint route. A grievance mechanism should be accessible and lead to review or correction. Counting complaints closed without checking whether the problem was resolved can reward superficial compliance. Rules influence conduct, but so do informal expectations, leadership and rewards. Unrealistic targets can encourage false reporting; unpunished harassment can silence dissent. An ethical response combines individual responsibility with changes to supervision, protection and incentives that make good conduct sustainable. Public spending requires a justified purpose, fair selection, records and verification of delivery. The lowest quoted price is not always the lowest total cost, but discretion must be transparent and within the rules. Separate a reasoned quality criterion from an excuse to favour a particular supplier.",
+          "studyWords": 540,
+          "deepReading": [
+            "ethics-2"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "test"
+        }
+      ]
+    },
+    {
+      "id": "block-3",
+      "title": "Case Studies & Decisions",
+      "icon": "ethics",
+      "description": "Write a case response with stakeholders, options, reasons and follow-up. Build the foundation through the daily notes and use the block companion to connect concepts.",
+      "sources": [
+        "arc"
+      ],
+      "days": [
+        {
+          "day": 41,
+          "topic": "Relief allocation",
+          "notes": [
+            "When supplies are scarce, identify urgent need, vulnerability and available alternatives. Publish understandable criteria and create a way for overlooked cases to be assessed. Pressure from influential groups should be documented and addressed through proper channels rather than allowed to replace evidence."
+          ],
+          "reading": "Original GS-IV study notes: Relief allocation.",
+          "task": "Write a case response with stakeholders, options, reasons and follow-up. Allocate scarce relief using three defensible criteria.",
+          "recall": "Allocate scarce relief using three defensible criteria.",
+          "recallAnswer": "When supplies are scarce, identify urgent need, vulnerability and available alternatives. Publish understandable criteria and create a way for overlooked cases to be assessed. Pressure from influential groups should be documented and addressed through proper channels rather than allowed to replace evidence.",
+          "studyWords": 198,
+          "deepReading": [
+            "ethics-3"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 42,
+          "topic": "Relief allocation — application",
+          "notes": [
+            "When supplies are scarce, identify urgent need, vulnerability and available alternatives. Publish understandable criteria and create a way for overlooked cases to be assessed. Pressure from influential groups should be documented and addressed through proper channels rather than allowed to replace evidence."
+          ],
+          "reading": "Original GS-IV study notes: Relief allocation.",
+          "task": "Write a case response with stakeholders, options, reasons and follow-up. Allocate scarce relief using three defensible criteria.",
+          "recall": "Allocate scarce relief using three defensible criteria.",
+          "recallAnswer": "When supplies are scarce, identify urgent need, vulnerability and available alternatives. Publish understandable criteria and create a way for overlooked cases to be assessed. Pressure from influential groups should be documented and addressed through proper channels rather than allowed to replace evidence.",
+          "studyWords": 198,
+          "deepReading": [
+            "ethics-3"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 43,
+          "topic": "Exam integrity",
+          "notes": [
+            "An allegation of a paper leak requires protecting evidence and the examination’s credibility while avoiding unsupported accusations. Separate urgent containment from findings of guilt. Fair inquiry, communication and a reasoned decision on the affected process protect candidates as well as institutional trust."
+          ],
+          "reading": "Original GS-IV study notes: Exam integrity.",
+          "task": "Write a case response with stakeholders, options, reasons and follow-up. Distinguish immediate safeguards from punishment after an inquiry.",
+          "recall": "Distinguish immediate safeguards from punishment after an inquiry.",
+          "recallAnswer": "An allegation of a paper leak requires protecting evidence and the examination’s credibility while avoiding unsupported accusations. Separate urgent containment from findings of guilt. Fair inquiry, communication and a reasoned decision on the affected process protect candidates as well as institutional trust.",
+          "studyWords": 198,
+          "deepReading": [
+            "ethics-3"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 44,
+          "topic": "Exam integrity — application",
+          "notes": [
+            "An allegation of a paper leak requires protecting evidence and the examination’s credibility while avoiding unsupported accusations. Separate urgent containment from findings of guilt. Fair inquiry, communication and a reasoned decision on the affected process protect candidates as well as institutional trust."
+          ],
+          "reading": "Original GS-IV study notes: Exam integrity.",
+          "task": "Write a case response with stakeholders, options, reasons and follow-up. Distinguish immediate safeguards from punishment after an inquiry.",
+          "recall": "Distinguish immediate safeguards from punishment after an inquiry.",
+          "recallAnswer": "An allegation of a paper leak requires protecting evidence and the examination’s credibility while avoiding unsupported accusations. Separate urgent containment from findings of guilt. Fair inquiry, communication and a reasoned decision on the affected process protect candidates as well as institutional trust.",
+          "studyWords": 198,
+          "deepReading": [
+            "ethics-3"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 45,
+          "topic": "Public misinformation",
+          "notes": [
+            "A harmful rumour requires timely verified information, coordination and proportionate action. Do not amplify private details or falsely claim certainty. Explain what is known, what is being checked and how people can obtain help, while ensuring that vulnerable groups are not unfairly blamed."
+          ],
+          "reading": "Original GS-IV study notes: Public misinformation.",
+          "task": "Write a case response with stakeholders, options, reasons and follow-up. Write the three elements of a responsible initial public statement.",
+          "recall": "Write the three elements of a responsible initial public statement.",
+          "recallAnswer": "A harmful rumour requires timely verified information, coordination and proportionate action. Do not amplify private details or falsely claim certainty. Explain what is known, what is being checked and how people can obtain help, while ensuring that vulnerable groups are not unfairly blamed.",
+          "studyWords": 199,
+          "deepReading": [
+            "ethics-3"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 46,
+          "topic": "Public misinformation — application",
+          "notes": [
+            "A harmful rumour requires timely verified information, coordination and proportionate action. Do not amplify private details or falsely claim certainty. Explain what is known, what is being checked and how people can obtain help, while ensuring that vulnerable groups are not unfairly blamed."
+          ],
+          "reading": "Original GS-IV study notes: Public misinformation.",
+          "task": "Write a case response with stakeholders, options, reasons and follow-up. Write the three elements of a responsible initial public statement.",
+          "recall": "Write the three elements of a responsible initial public statement.",
+          "recallAnswer": "A harmful rumour requires timely verified information, coordination and proportionate action. Do not amplify private details or falsely claim certainty. Explain what is known, what is being checked and how people can obtain help, while ensuring that vulnerable groups are not unfairly blamed.",
+          "studyWords": 199,
+          "deepReading": [
+            "ethics-3"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 47,
+          "topic": "Revision I: Case Studies & Decisions",
+          "notes": [
+            "Relief allocation: When supplies are scarce, identify urgent need, vulnerability and available alternatives. Publish understandable criteria and create a way for overlooked cases to be assessed. Pressure from influential groups should be documented and addressed through proper channels rather than allowed to replace evidence.",
+            "Exam integrity: An allegation of a paper leak requires protecting evidence and the examination’s credibility while avoiding unsupported accusations. Separate urgent containment from findings of guilt. Fair inquiry, communication and a reasoned decision on the affected process protect candidates as well as institutional trust.",
+            "Public misinformation: A harmful rumour requires timely verified information, coordination and proportionate action. Do not amplify private details or falsely claim certainty. Explain what is known, what is being checked and how people can obtain help, while ensuring that vulnerable groups are not unfairly blamed."
+          ],
+          "reading": "Revisit your notes for Relief allocation; Exam integrity; Public misinformation. Re-read the assigned source sections only where your recall is weak.",
+          "task": "Close the notes and reconstruct the main distinctions from the last 3 topics. Write a case response with stakeholders, options, reasons and follow-up. Then compare your work with the material below.",
+          "recall": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+          "recallAnswer": "When supplies are scarce, identify urgent need, vulnerability and available alternatives. Publish understandable criteria and create a way for overlooked cases to be assessed. Pressure from influential groups should be documented and addressed through proper channels rather than allowed to replace evidence. An allegation of a paper leak requires protecting evidence and the examination’s credibility while avoiding unsupported accusations. Separate urgent containment from findings of guilt. Fair inquiry, communication and a reasoned decision on the affected process protect candidates as well as institutional trust. A harmful rumour requires timely verified information, coordination and proportionate action. Do not amplify private details or falsely claim certainty. Explain what is known, what is being checked and how people can obtain help, while ensuring that vulnerable groups are not unfairly blamed.",
+          "studyWords": 289,
+          "deepReading": [
+            "ethics-3"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "revision"
+        },
+        {
+          "day": 48,
+          "topic": "Whistleblowing and evidence",
+          "notes": [
+            "Concerns about misconduct should be recorded accurately and raised through appropriate protected channels where available. Distinguish direct evidence from suspicion, minimise unnecessary disclosure and assess risks to affected people. A responsible account seeks correction without inventing facts or using allegations as personal retaliation."
+          ],
+          "reading": "Original GS-IV study notes: Whistleblowing and evidence.",
+          "task": "Write a case response with stakeholders, options, reasons and follow-up. Explain why preserving evidence differs from publicly circulating an allegation.",
+          "recall": "Explain why preserving evidence differs from publicly circulating an allegation.",
+          "recallAnswer": "Concerns about misconduct should be recorded accurately and raised through appropriate protected channels where available. Distinguish direct evidence from suspicion, minimise unnecessary disclosure and assess risks to affected people. A responsible account seeks correction without inventing facts or using allegations as personal retaliation.",
+          "studyWords": 199,
+          "deepReading": [
+            "ethics-3"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 49,
+          "topic": "Whistleblowing and evidence — application",
+          "notes": [
+            "Concerns about misconduct should be recorded accurately and raised through appropriate protected channels where available. Distinguish direct evidence from suspicion, minimise unnecessary disclosure and assess risks to affected people. A responsible account seeks correction without inventing facts or using allegations as personal retaliation."
+          ],
+          "reading": "Original GS-IV study notes: Whistleblowing and evidence.",
+          "task": "Write a case response with stakeholders, options, reasons and follow-up. Explain why preserving evidence differs from publicly circulating an allegation.",
+          "recall": "Explain why preserving evidence differs from publicly circulating an allegation.",
+          "recallAnswer": "Concerns about misconduct should be recorded accurately and raised through appropriate protected channels where available. Distinguish direct evidence from suspicion, minimise unnecessary disclosure and assess risks to affected people. A responsible account seeks correction without inventing facts or using allegations as personal retaliation.",
+          "studyWords": 199,
+          "deepReading": [
+            "ethics-3"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 50,
+          "topic": "Digital exclusion",
+          "notes": [
+            "A service can become inaccessible when applicants lack connectivity, literacy or reliable authentication. Preserve legitimate checks while providing authorised assistance and alternatives. Treating every failure as applicant fault hides a design problem and can deny entitlements to the people the programme was meant to serve."
+          ],
+          "reading": "Original GS-IV study notes: Digital exclusion.",
+          "task": "Write a case response with stakeholders, options, reasons and follow-up. Design a fair fallback for a failed online application.",
+          "recall": "Design a fair fallback for a failed online application.",
+          "recallAnswer": "A service can become inaccessible when applicants lack connectivity, literacy or reliable authentication. Preserve legitimate checks while providing authorised assistance and alternatives. Treating every failure as applicant fault hides a design problem and can deny entitlements to the people the programme was meant to serve.",
+          "studyWords": 201,
+          "deepReading": [
+            "ethics-3"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 51,
+          "topic": "Digital exclusion — application",
+          "notes": [
+            "A service can become inaccessible when applicants lack connectivity, literacy or reliable authentication. Preserve legitimate checks while providing authorised assistance and alternatives. Treating every failure as applicant fault hides a design problem and can deny entitlements to the people the programme was meant to serve."
+          ],
+          "reading": "Original GS-IV study notes: Digital exclusion.",
+          "task": "Write a case response with stakeholders, options, reasons and follow-up. Design a fair fallback for a failed online application.",
+          "recall": "Design a fair fallback for a failed online application.",
+          "recallAnswer": "A service can become inaccessible when applicants lack connectivity, literacy or reliable authentication. Preserve legitimate checks while providing authorised assistance and alternatives. Treating every failure as applicant fault hides a design problem and can deny entitlements to the people the programme was meant to serve.",
+          "studyWords": 201,
+          "deepReading": [
+            "ethics-3"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 52,
+          "topic": "Environmental trade-offs",
+          "notes": [
+            "A project may promise jobs while imposing environmental and livelihood costs. Identify affected groups, evidence, legal processes and alternatives. Consultation should be meaningful, not merely a signature sheet. A decision needs reasons, safeguards, monitoring and remedies rather than a slogan that growth or conservation must always win."
+          ],
+          "reading": "Original GS-IV study notes: Environmental trade-offs.",
+          "task": "Write a case response with stakeholders, options, reasons and follow-up. Compare two feasible alternatives to a project rather than only approval or rejection.",
+          "recall": "Compare two feasible alternatives to a project rather than only approval or rejection.",
+          "recallAnswer": "A project may promise jobs while imposing environmental and livelihood costs. Identify affected groups, evidence, legal processes and alternatives. Consultation should be meaningful, not merely a signature sheet. A decision needs reasons, safeguards, monitoring and remedies rather than a slogan that growth or conservation must always win.",
+          "studyWords": 203,
+          "deepReading": [
+            "ethics-3"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 53,
+          "topic": "Environmental trade-offs — application",
+          "notes": [
+            "A project may promise jobs while imposing environmental and livelihood costs. Identify affected groups, evidence, legal processes and alternatives. Consultation should be meaningful, not merely a signature sheet. A decision needs reasons, safeguards, monitoring and remedies rather than a slogan that growth or conservation must always win."
+          ],
+          "reading": "Original GS-IV study notes: Environmental trade-offs.",
+          "task": "Write a case response with stakeholders, options, reasons and follow-up. Compare two feasible alternatives to a project rather than only approval or rejection.",
+          "recall": "Compare two feasible alternatives to a project rather than only approval or rejection.",
+          "recallAnswer": "A project may promise jobs while imposing environmental and livelihood costs. Identify affected groups, evidence, legal processes and alternatives. Consultation should be meaningful, not merely a signature sheet. A decision needs reasons, safeguards, monitoring and remedies rather than a slogan that growth or conservation must always win.",
+          "studyWords": 203,
+          "deepReading": [
+            "ethics-3"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 54,
+          "topic": "Revision II: Case Studies & Decisions",
+          "notes": [
+            "Whistleblowing and evidence: Concerns about misconduct should be recorded accurately and raised through appropriate protected channels where available. Distinguish direct evidence from suspicion, minimise unnecessary disclosure and assess risks to affected people. A responsible account seeks correction without inventing facts or using allegations as personal retaliation.",
+            "Digital exclusion: A service can become inaccessible when applicants lack connectivity, literacy or reliable authentication. Preserve legitimate checks while providing authorised assistance and alternatives. Treating every failure as applicant fault hides a design problem and can deny entitlements to the people the programme was meant to serve.",
+            "Environmental trade-offs: A project may promise jobs while imposing environmental and livelihood costs. Identify affected groups, evidence, legal processes and alternatives. Consultation should be meaningful, not merely a signature sheet. A decision needs reasons, safeguards, monitoring and remedies rather than a slogan that growth or conservation must always win."
+          ],
+          "reading": "Revisit your notes for Whistleblowing and evidence; Digital exclusion; Environmental trade-offs. Re-read the assigned source sections only where your recall is weak.",
+          "task": "Close the notes and reconstruct the main distinctions from the last 3 topics. Write a case response with stakeholders, options, reasons and follow-up. Then compare your work with the material below.",
+          "recall": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+          "recallAnswer": "Concerns about misconduct should be recorded accurately and raised through appropriate protected channels where available. Distinguish direct evidence from suspicion, minimise unnecessary disclosure and assess risks to affected people. A responsible account seeks correction without inventing facts or using allegations as personal retaliation. A service can become inaccessible when applicants lack connectivity, literacy or reliable authentication. Preserve legitimate checks while providing authorised assistance and alternatives. Treating every failure as applicant fault hides a design problem and can deny entitlements to the people the programme was meant to serve. A project may promise jobs while imposing environmental and livelihood costs. Identify affected groups, evidence, legal processes and alternatives. Consultation should be meaningful, not merely a signature sheet. A decision needs reasons, safeguards, monitoring and remedies rather than a slogan that growth or conservation must always win.",
+          "studyWords": 298,
+          "deepReading": [
+            "ethics-3"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "revision"
+        },
+        {
+          "day": 55,
+          "topic": "Team misconduct",
+          "notes": [
+            "A colleague’s error and deliberate falsification require different responses. Protect anyone at risk, preserve relevant records and use a fair process to establish facts. Loyalty to a team does not require concealing harm; a supportive culture can encourage reporting and correction without prejudging allegations."
+          ],
+          "reading": "Original GS-IV study notes: Team misconduct.",
+          "task": "Write a case response with stakeholders, options, reasons and follow-up. Separate immediate correction, fact-finding and disciplinary decisions.",
+          "recall": "Separate immediate correction, fact-finding and disciplinary decisions.",
+          "recallAnswer": "A colleague’s error and deliberate falsification require different responses. Protect anyone at risk, preserve relevant records and use a fair process to establish facts. Loyalty to a team does not require concealing harm; a supportive culture can encourage reporting and correction without prejudging allegations.",
+          "studyWords": 200,
+          "deepReading": [
+            "ethics-3"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 56,
+          "topic": "Team misconduct — application",
+          "notes": [
+            "A colleague’s error and deliberate falsification require different responses. Protect anyone at risk, preserve relevant records and use a fair process to establish facts. Loyalty to a team does not require concealing harm; a supportive culture can encourage reporting and correction without prejudging allegations."
+          ],
+          "reading": "Original GS-IV study notes: Team misconduct.",
+          "task": "Write a case response with stakeholders, options, reasons and follow-up. Separate immediate correction, fact-finding and disciplinary decisions.",
+          "recall": "Separate immediate correction, fact-finding and disciplinary decisions.",
+          "recallAnswer": "A colleague’s error and deliberate falsification require different responses. Protect anyone at risk, preserve relevant records and use a fair process to establish facts. Loyalty to a team does not require concealing harm; a supportive culture can encourage reporting and correction without prejudging allegations.",
+          "studyWords": 200,
+          "deepReading": [
+            "ethics-3"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 57,
+          "topic": "The complete case answer",
+          "notes": [
+            "A strong case answer identifies the decision, stakeholders and value conflict, evaluates realistic options and sets out implementation. Give a reasoned recommendation with documentation, communication and review. Avoid an ending that promises instant structural reform without authority, resources or a practical sequence."
+          ],
+          "reading": "Original GS-IV study notes: The complete case answer.",
+          "task": "Write a case response with stakeholders, options, reasons and follow-up. Write a complete answer using facts, options, choice, action and review.",
+          "recall": "Write a complete answer using facts, options, choice, action and review.",
+          "recallAnswer": "A strong case answer identifies the decision, stakeholders and value conflict, evaluates realistic options and sets out implementation. Give a reasoned recommendation with documentation, communication and review. Avoid an ending that promises instant structural reform without authority, resources or a practical sequence.",
+          "studyWords": 198,
+          "deepReading": [
+            "ethics-3"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 58,
+          "topic": "The complete case answer — application",
+          "notes": [
+            "A strong case answer identifies the decision, stakeholders and value conflict, evaluates realistic options and sets out implementation. Give a reasoned recommendation with documentation, communication and review. Avoid an ending that promises instant structural reform without authority, resources or a practical sequence."
+          ],
+          "reading": "Original GS-IV study notes: The complete case answer.",
+          "task": "Write a case response with stakeholders, options, reasons and follow-up. Write a complete answer using facts, options, choice, action and review.",
+          "recall": "Write a complete answer using facts, options, choice, action and review.",
+          "recallAnswer": "A strong case answer identifies the decision, stakeholders and value conflict, evaluates realistic options and sets out implementation. Give a reasoned recommendation with documentation, communication and review. Avoid an ending that promises instant structural reform without authority, resources or a practical sequence.",
+          "studyWords": 198,
+          "deepReading": [
+            "ethics-3"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 59,
+          "topic": "Case Studies & Decisions: synthesis",
+          "notes": [
+            "Environmental trade-offs: A project may promise jobs while imposing environmental and livelihood costs. Identify affected groups, evidence, legal processes and alternatives. Consultation should be meaningful, not merely a signature sheet. A decision needs reasons, safeguards, monitoring and remedies rather than a slogan that growth or conservation must always win.",
+            "Team misconduct: A colleague’s error and deliberate falsification require different responses. Protect anyone at risk, preserve relevant records and use a fair process to establish facts. Loyalty to a team does not require concealing harm; a supportive culture can encourage reporting and correction without prejudging allegations.",
+            "The complete case answer: A strong case answer identifies the decision, stakeholders and value conflict, evaluates realistic options and sets out implementation. Give a reasoned recommendation with documentation, communication and review. Avoid an ending that promises instant structural reform without authority, resources or a practical sequence."
+          ],
+          "reading": "Revisit your notes for Environmental trade-offs; Team misconduct; The complete case answer. Re-read the assigned source sections only where your recall is weak.",
+          "task": "Close the notes and reconstruct the main distinctions from the last 3 topics. Write a case response with stakeholders, options, reasons and follow-up. Then compare your work with the material below.",
+          "recall": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+          "recallAnswer": "A project may promise jobs while imposing environmental and livelihood costs. Identify affected groups, evidence, legal processes and alternatives. Consultation should be meaningful, not merely a signature sheet. A decision needs reasons, safeguards, monitoring and remedies rather than a slogan that growth or conservation must always win. A colleague’s error and deliberate falsification require different responses. Protect anyone at risk, preserve relevant records and use a fair process to establish facts. Loyalty to a team does not require concealing harm; a supportive culture can encourage reporting and correction without prejudging allegations. A strong case answer identifies the decision, stakeholders and value conflict, evaluates realistic options and sets out implementation. Give a reasoned recommendation with documentation, communication and review. Avoid an ending that promises instant structural reform without authority, resources or a practical sequence.",
+          "studyWords": 297,
+          "deepReading": [
+            "ethics-3"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "revision"
+        },
+        {
+          "day": 60,
+          "topic": "Case Studies & Decisions: assessment & repair",
+          "notes": [
+            "Relief allocation: When supplies are scarce, identify urgent need, vulnerability and available alternatives. Publish understandable criteria and create a way for overlooked cases to be assessed. Pressure from influential groups should be documented and addressed through proper channels rather than allowed to replace evidence.",
+            "Exam integrity: An allegation of a paper leak requires protecting evidence and the examination’s credibility while avoiding unsupported accusations. Separate urgent containment from findings of guilt. Fair inquiry, communication and a reasoned decision on the affected process protect candidates as well as institutional trust.",
+            "Public misinformation: A harmful rumour requires timely verified information, coordination and proportionate action. Do not amplify private details or falsely claim certainty. Explain what is known, what is being checked and how people can obtain help, while ensuring that vulnerable groups are not unfairly blamed.",
+            "Whistleblowing and evidence: Concerns about misconduct should be recorded accurately and raised through appropriate protected channels where available. Distinguish direct evidence from suspicion, minimise unnecessary disclosure and assess risks to affected people. A responsible account seeks correction without inventing facts or using allegations as personal retaliation.",
+            "Digital exclusion: A service can become inaccessible when applicants lack connectivity, literacy or reliable authentication. Preserve legitimate checks while providing authorised assistance and alternatives. Treating every failure as applicant fault hides a design problem and can deny entitlements to the people the programme was meant to serve.",
+            "Environmental trade-offs: A project may promise jobs while imposing environmental and livelihood costs. Identify affected groups, evidence, legal processes and alternatives. Consultation should be meaningful, not merely a signature sheet. A decision needs reasons, safeguards, monitoring and remedies rather than a slogan that growth or conservation must always win.",
+            "Team misconduct: A colleague’s error and deliberate falsification require different responses. Protect anyone at risk, preserve relevant records and use a fair process to establish facts. Loyalty to a team does not require concealing harm; a supportive culture can encourage reporting and correction without prejudging allegations.",
+            "The complete case answer: A strong case answer identifies the decision, stakeholders and value conflict, evaluates realistic options and sets out implementation. Give a reasoned recommendation with documentation, communication and review. Avoid an ending that promises instant structural reform without authority, resources or a practical sequence."
+          ],
+          "reading": "Revisit your notes for Relief allocation; Exam integrity; Public misinformation; Whistleblowing and evidence; Digital exclusion; Environmental trade-offs; Team misconduct; The complete case answer. Re-read the assigned source sections only where your recall is weak.",
+          "task": "Use the official-paper link or your question bank for a timed case study and two short answers. Mark the gaps, explain your errors and schedule a second recall attempt.",
+          "recall": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+          "recallAnswer": "When supplies are scarce, identify urgent need, vulnerability and available alternatives. Publish understandable criteria and create a way for overlooked cases to be assessed. Pressure from influential groups should be documented and addressed through proper channels rather than allowed to replace evidence. An allegation of a paper leak requires protecting evidence and the examination’s credibility while avoiding unsupported accusations. Separate urgent containment from findings of guilt. Fair inquiry, communication and a reasoned decision on the affected process protect candidates as well as institutional trust. A harmful rumour requires timely verified information, coordination and proportionate action. Do not amplify private details or falsely claim certainty. Explain what is known, what is being checked and how people can obtain help, while ensuring that vulnerable groups are not unfairly blamed. Concerns about misconduct should be recorded accurately and raised through appropriate protected channels where available. Distinguish direct evidence from suspicion, minimise unnecessary disclosure and assess risks to affected people. A responsible account seeks correction without inventing facts or using allegations as personal retaliation. A service can become inaccessible when applicants lack connectivity, literacy or reliable authentication. Preserve legitimate checks while providing authorised assistance and alternatives. Treating every failure as applicant fault hides a design problem and can deny entitlements to the people the programme was meant to serve. A project may promise jobs while imposing environmental and livelihood costs. Identify affected groups, evidence, legal processes and alternatives. Consultation should be meaningful, not merely a signature sheet. A decision needs reasons, safeguards, monitoring and remedies rather than a slogan that growth or conservation must always win. A colleague’s error and deliberate falsification require different responses. Protect anyone at risk, preserve relevant records and use a fair process to establish facts. Loyalty to a team does not require concealing harm; a supportive culture can encourage reporting and correction without prejudging allegations. A strong case answer identifies the decision, stakeholders and value conflict, evaluates realistic options and sets out implementation. Give a reasoned recommendation with documentation, communication and review. Avoid an ending that promises instant structural reform without authority, resources or a practical sequence.",
+          "studyWords": 523,
+          "deepReading": [
+            "ethics-3"
+          ],
+          "sources": [
+            "arc"
+          ],
+          "mode": "test"
+        }
+      ]
+    }
+  ],
+  "dossiers": {
+    "ethics-1": {
+      "title": "Ethical reasoning: values, duties and consequences",
+      "sections": [
+        {
+          "heading": "Clarify the moral question",
+          "text": "An ethical problem is not solved merely by stating that honesty is good. Identify the decision, affected people and competing claims. Some dilemmas involve two defensible values, such as openness and privacy; others are clear misconduct presented as if it were a dilemma. Distinguish uncertainty about facts from disagreement about values before deciding how to act."
+        },
+        {
+          "heading": "Use more than one lens",
+          "text": "A consequences-based approach asks about benefits and harms; a duty-based approach asks about obligations and constraints; a virtue perspective asks what character and judgment a responsible person should develop. These lenses can illuminate different parts of a case. They should not become names inserted without application, nor excuses for ignoring lawful authority or the dignity of people affected."
+        },
+        {
+          "heading": "Make principles operational",
+          "text": "Explain the action a value requires. Integrity may require declaring a conflict; empathy may require listening before deciding; objectivity may require checking evidence consistently. Good intentions do not excuse avoidable harm or arbitrary methods. A strong answer shows how a principle guides a practical decision and how the decision will be communicated, recorded and reviewed."
+        }
+      ],
+      "comparison": {
+        "headers": [
+          "Concept",
+          "Distinction",
+          "Application"
+        ],
+        "rows": [
+          [
+            "Value",
+            "A quality or commitment considered important",
+            "Explain its practical implication."
+          ],
+          [
+            "Duty",
+            "An obligation attached to a role or relationship",
+            "Identify to whom it is owed."
+          ],
+          [
+            "Consequence",
+            "An effect of an action",
+            "Assess distribution and uncertainty."
+          ],
+          [
+            "Virtue",
+            "A cultivated disposition",
+            "Show it through conduct rather than praise."
+          ]
+        ]
+      },
+      "terms": [
+        {
+          "term": "Moral dilemma",
+          "meaning": "A conflict among serious moral claims."
+        },
+        {
+          "term": "Integrity",
+          "meaning": "Consistency of conduct with justified commitments."
+        },
+        {
+          "term": "Empathy",
+          "meaning": "Understanding another person’s perspective or experience."
+        }
+      ],
+      "timelineTitle": "Reason through the topic",
+      "timeline": [
+        {
+          "date": "Clarify",
+          "event": "Separate facts, assumptions and value conflicts."
+        },
+        {
+          "date": "Compare",
+          "event": "Assess duties, consequences and affected people."
+        },
+        {
+          "date": "Justify",
+          "event": "Choose and explain an accountable action."
+        }
+      ],
+      "trap": "Calling a choice difficult does not make a plainly corrupt action ethically defensible.",
+      "practice": {
+        "question": "An officer can help more people by bypassing a safeguard. How should the decision be examined?",
+        "answer": "Identify the safeguard’s purpose, the officer’s lawful discretion, risks to individuals and less harmful authorised alternatives. Seek an expedited legitimate route where possible and record reasons; do not assume that a claimed good outcome erases duties."
+      },
+      "mcq": null
+    },
+    "ethics-2": {
+      "title": "Public-service ethics: fairness, probity and accountability",
+      "sections": [
+        {
+          "heading": "Role obligations differ from private preference",
+          "text": "Public authority is exercised on behalf of others. Personal sympathy or political loyalty cannot replace justified criteria. Impartiality means treating relevantly similar cases consistently, while recognising legally and ethically relevant differences. Non-partisanship concerns service to the constitutional office rather than a party. Neither value requires indifference to disadvantage or refusal to listen to citizens."
+        },
+        {
+          "heading": "Design against conflicts",
+          "text": "A conflict of interest arises when a secondary interest could improperly influence a public duty. It can exist before any proven wrongdoing. Disclosure, recusal, independent review and clear records help manage it. A code of conduct supplies specific rules; a code of ethics articulates broader values. Organisational incentives and leadership matter because misconduct is not always prevented by issuing another circular."
+        },
+        {
+          "heading": "Accountability is a working relationship",
+          "text": "Transparency makes information accessible; answerability requires reasons; correction addresses the failure. A service promise without a complaint route is weak. Protect relevant privacy while giving enough information for scrutiny. In case studies, explain how a decision will be documented, reviewed and followed up. This makes probity an administrative practice rather than a ceremonial statement of honesty."
+        }
+      ],
+      "comparison": {
+        "headers": [
+          "Concept",
+          "Distinction",
+          "Application"
+        ],
+        "rows": [
+          [
+            "Impartiality",
+            "Use relevant and consistent criteria",
+            "Not blind sameness in every situation."
+          ],
+          [
+            "Conflict of interest",
+            "A risk of improper influence",
+            "Can exist without proven corruption."
+          ],
+          [
+            "Conduct code",
+            "Specific expected or prohibited acts",
+            "Needs interpretation and enforcement."
+          ],
+          [
+            "Ethics code",
+            "Broader values and commitments",
+            "Does not replace operational rules."
+          ]
+        ]
+      },
+      "terms": [
+        {
+          "term": "Probity",
+          "meaning": "Integrity and propriety in the use of entrusted authority."
+        },
+        {
+          "term": "Recusal",
+          "meaning": "Stepping aside from a decision because of a relevant conflict."
+        },
+        {
+          "term": "Answerability",
+          "meaning": "An obligation to explain and justify conduct."
+        }
+      ],
+      "timelineTitle": "Reason through the topic",
+      "timeline": [
+        {
+          "date": "Disclose",
+          "event": "Identify relevant interests and constraints."
+        },
+        {
+          "date": "Decide",
+          "event": "Use evidence, fair procedure and authorised discretion."
+        },
+        {
+          "date": "Review",
+          "event": "Record reasons and provide correction mechanisms."
+        }
+      ],
+      "trap": "A conflict of interest is not automatically proof of corruption, but ignoring it can undermine trust.",
+      "practice": {
+        "question": "A relative’s firm qualifies for a tender evaluated by your team. What should you do?",
+        "answer": "Disclose the relationship through the required channel, avoid influencing the evaluation, seek recusal or independent review, and preserve a record. Do not secretly favour the firm or automatically punish it without a lawful basis."
+      },
+      "mcq": null
+    },
+    "ethics-3": {
+      "title": "Case studies: choose, implement and learn",
+      "sections": [
+        {
+          "heading": "Start with the facts that matter",
+          "text": "List stakeholders and urgent risks, but do not spend the whole answer reproducing the story. Mark facts that are missing and explain what needs rapid verification. Distinguish immediate protection from a longer investigation. In a crisis, uncertainty may justify a reversible precaution while evidence is gathered; it does not justify inventing facts about blame."
+        },
+        {
+          "heading": "Evaluate real options",
+          "text": "Compare feasible courses of action using authority, rights, harms, fairness and practical capacity. The best option is often a sequence rather than a single dramatic act: protect people, secure evidence, obtain appropriate approval, communicate and review. Avoid presenting an obviously illegal or cruel option as equally reasonable merely to fill a table."
+        },
+        {
+          "heading": "Finish with implementation",
+          "text": "Name the responsible role, immediate action, documentation, communication and follow-up. Consider people excluded by the proposed remedy. Emotional intelligence helps maintain composure and recognise others’ concerns, but should not become manipulation. A good case answer ends with accountable implementation and learning, not a promise to solve every structural problem instantly."
+        }
+      ],
+      "comparison": {
+        "headers": [
+          "Concept",
+          "Distinction",
+          "Application"
+        ],
+        "rows": [
+          [
+            "Immediate response",
+            "Prevent urgent harm",
+            "Use proportionate and authorised steps."
+          ],
+          [
+            "Fact-finding",
+            "Establish what happened",
+            "Do not confuse allegations with findings."
+          ],
+          [
+            "Communication",
+            "Explain action and uncertainty",
+            "Protect privacy and avoid unsupported blame."
+          ],
+          [
+            "Follow-up",
+            "Review outcomes and correct weaknesses",
+            "A decision is not the end of responsibility."
+          ]
+        ]
+      },
+      "terms": [
+        {
+          "term": "Proportionality",
+          "meaning": "A response suited to the legitimate objective and level of risk."
+        },
+        {
+          "term": "Due process",
+          "meaning": "Fair procedures before consequential decisions."
+        },
+        {
+          "term": "Emotional intelligence",
+          "meaning": "Recognising and managing emotion in oneself and interactions."
+        }
+      ],
+      "timelineTitle": "Reason through the topic",
+      "timeline": [
+        {
+          "date": "Protect",
+          "event": "Address immediate risks and vulnerable people."
+        },
+        {
+          "date": "Verify",
+          "event": "Secure information and use fair procedures."
+        },
+        {
+          "date": "Follow through",
+          "event": "Communicate, document and review."
+        }
+      ],
+      "trap": "An ethical answer needs a feasible course of action, not only a list of admirable values.",
+      "practice": {
+        "question": "Relief supplies are limited and an influential person demands priority for their locality. How should you respond?",
+        "answer": "Use transparent need-based criteria, explain them consistently, document pressure, and seek additional supplies through proper channels. Protect urgent cases without allowing influence to replace evidence, and provide a route for overlooked needs to be assessed."
+      },
+      "mcq": null
+    }
+  },
+  "pyqs": [
+    {
+      "segment": "block-1",
+      "stage": "Mains",
+      "reference": "Original case exercise",
+      "prompt": "An officer can help more people by bypassing a safeguard. How should the decision be examined?",
+      "marks": 10,
+      "words": 150,
+      "answer": "Identify the safeguard’s purpose, the officer’s lawful discretion, risks to individuals and less harmful authorised alternatives. Seek an expedited legitimate route where possible and record reasons; do not assume that a claimed good outcome erases duties.",
+      "day": 1,
+      "paper": "GS IV"
+    },
+    {
+      "segment": "block-2",
+      "stage": "Mains",
+      "reference": "Original case exercise",
+      "prompt": "A relative’s firm qualifies for a tender evaluated by your team. What should you do?",
+      "marks": 10,
+      "words": 150,
+      "answer": "Disclose the relationship through the required channel, avoid influencing the evaluation, seek recusal or independent review, and preserve a record. Do not secretly favour the firm or automatically punish it without a lawful basis.",
+      "day": 21,
+      "paper": "GS IV"
+    },
+    {
+      "segment": "block-3",
+      "stage": "Mains",
+      "reference": "Original case exercise",
+      "prompt": "Relief supplies are limited and an influential person demands priority for their locality. How should you respond?",
+      "marks": 10,
+      "words": 150,
+      "answer": "Use transparent need-based criteria, explain them consistently, document pressure, and seek additional supplies through proper channels. Protect urgent cases without allowing influence to replace evidence, and provide a route for overlooked needs to be assessed.",
+      "day": 41,
+      "paper": "GS IV"
+    }
+  ],
+  "readers": {
+    "block-1": [
+      [
+        "Second ARC — Ethics in Governance",
+        "arc",
+        "https://darpg.gov.in/sites/default/files/ethics4.pdf"
+      ]
+    ],
+    "block-2": [
+      [
+        "Second ARC — Ethics in Governance",
+        "arc",
+        "https://darpg.gov.in/sites/default/files/ethics4.pdf"
+      ]
+    ],
+    "block-3": [
+      [
+        "Second ARC — Ethics in Governance",
+        "arc",
+        "https://darpg.gov.in/sites/default/files/ethics4.pdf"
+      ]
+    ]
+  },
+  "editionNote": "Daily material is original study guidance using the subject’s NCERT topic sequence or, for Ethics, original GS-IV lessons. Blocks deliberately revisit concepts through application and revision days. The shared block companion supports several daily topics. Consult current official sources for changing laws, policy settings and statistics. Practice questions here are original exercises, not claimed as actual UPSC PYQs."
+}

@@ -56,6 +56,7 @@ const pages: Record<string, string> = {
   "/signup": "signup.html",
   "/home": "home.html",
   "/study": "home.html",
+  "/library": "library.html",
   "/faculty": "faculty.html",
 };
 

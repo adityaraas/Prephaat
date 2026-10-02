@@ -1,0 +1,33 @@
+.resource-library { margin: 1.5rem 0; }
+.resource-heading { display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap; }
+.resource-heading h2 { margin: .25rem 0 .6rem; }
+.resource-kicker { color: var(--green); font-size: .7rem; font-weight: 800; letter-spacing: .12em; margin: 0; }
+.resource-total { padding: .5rem .8rem; border-radius: 2rem; background: #fff2be; font-size: .8rem; white-space: nowrap; }
+.resource-editions { color: #555; font-size: .85rem; margin: 1rem 0; }
+.resource-editions summary, .resource-card summary { cursor: pointer; font-weight: 700; line-height: 1.5; }
+.resource-controls { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .8rem; background: #f6f8f5; padding: 1rem; border-radius: 12px; }
+.resource-controls label { display: grid; gap: .4rem; font-size: .8rem; font-weight: 700; }
+.resource-controls .resource-query { grid-column: 1 / -1; }
+.resource-controls input, .resource-controls select { width: 100%; min-width: 0; padding: .7rem; background: white; color: var(--ink); border: 1px solid #c9d2c7; border-radius: 7px; font: inherit; }
+.resource-controls :focus-visible, .resource-library a:focus-visible, .resource-library button:focus-visible, .resource-library summary:focus-visible { outline: 3px solid var(--green); outline-offset: 3px; }
+.resource-guide:empty { display: none; }
+.resource-guide { border-left: 3px solid var(--green); padding: .2rem 1rem; margin-top: 1rem; font-size: .85rem; line-height: 1.6; }
+.resource-result-bar, .resource-pagination { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin: 1rem 0; font-size: .85rem; }
+.resource-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; align-items: start; }
+.resource-card { min-width: 0; background: white; border: 1px solid #dfe6dc; border-radius: 12px; padding: 1.15rem; scroll-margin-top: 110px; }
+.resource-card h3 { margin: .6rem 0; font-size: 1.05rem; line-height: 1.4; }
+.resource-card p { font-size: .85rem; line-height: 1.6; }
+.resource-card .resource-meta { font-size: .72rem; color: #52604e; margin: 0; }
+.resource-card .resource-papers { font-weight: 700; color: #256332; }
+.resource-card .resource-topics { color: #666; font-size: .75rem; }
+.resource-actions, .resource-chapters { display: flex; flex-wrap: wrap; gap: .5rem; margin: .9rem 0; }
+.resource-actions a, .resource-chapters a { color: #075d17; border: 1px solid #b8cdb6; border-radius: 6px; padding: .5rem .65rem; text-decoration: none; font-size: .78rem; }
+.resource-actions .resource-primary { background: var(--green); border-color: var(--green); color: white; }
+.resource-actions a:hover, .resource-chapters a:hover { text-decoration: underline; }
+.resource-card details { padding-top: .65rem; border-top: 1px solid var(--line); font-size: .8rem; }
+.resource-library button { border: 1px solid #bacab6; border-radius: 6px; padding: .6rem .8rem; background: white; color: #185b23; font: inherit; cursor: pointer; }
+.resource-library button:disabled { opacity: .4; cursor: default; }
+.resource-pagination[hidden] { display: none; }
+.library-page { max-width: 1150px; margin: 2rem auto; padding: 1.5rem; background: white; border-radius: 16px; }
+@media (max-width: 700px) { .resource-grid { grid-template-columns: 1fr; } .resource-controls { grid-template-columns: repeat(2, minmax(0, 1fr)); } .library-page { margin: .75rem; padding: 1rem; } }
+@media (max-width: 380px) { .resource-controls { grid-template-columns: 1fr; } }

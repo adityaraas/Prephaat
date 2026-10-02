@@ -1,0 +1,1931 @@
+{
+  "id": "polity",
+  "title": "Polity & Governance",
+  "headline": "Understand institutions. Follow how power works.",
+  "intro": "Move from constitutional ideas to institutions and citizen-facing governance, with concepts you can apply.",
+  "practiceOnly": true,
+  "readerTitle": "NCERT textbook reader",
+  "readerDescription": "Choose an official chapter from this study block. Use the book contents to match the topic: chapter numbering and retained content vary by edition.",
+  "sources": {
+    "keps1": {
+      "title": "NCERT Class 11: Political Theory",
+      "url": "https://ncert.nic.in/textbook.php?keps1=0-8",
+      "access": "Official book portal. The reading list uses topic names; legacy and current editions may organise or omit material differently."
+    },
+    "jess4": {
+      "title": "NCERT Class 10: Democratic Politics",
+      "url": "https://ncert.nic.in/textbook.php?jess4=0-5",
+      "access": "Official book portal. The reading list uses topic names; legacy and current editions may organise or omit material differently."
+    },
+    "keps2": {
+      "title": "NCERT Class 11: India Constitution at Work",
+      "url": "https://ncert.nic.in/textbook.php?keps2=0-10",
+      "access": "Official book portal. The reading list uses topic names; legacy and current editions may organise or omit material differently."
+    },
+    "leps2": {
+      "title": "NCERT Class 12: Politics in India Since Independence",
+      "url": "https://ncert.nic.in/textbook.php?leps2=0-8",
+      "access": "Official book portal. The reading list uses topic names; legacy and current editions may organise or omit material differently."
+    }
+  },
+  "segments": [
+    {
+      "id": "block-1",
+      "title": "Constitutional Foundations",
+      "icon": "polity",
+      "description": "Define the principle and explain it through a citizen-facing example. Build the foundation through the daily notes and use the block companion to connect concepts.",
+      "sources": [
+        "keps1",
+        "jess4"
+      ],
+      "days": [
+        {
+          "day": 1,
+          "topic": "Understanding Diversity + Diversity and Discrimination",
+          "notes": [
+            "India’s diversity of language, region, religion and livelihood is a political fact, not only a slogan. Unity is negotiated through the Constitution, not sameness.",
+            "Key distinctions to retain: Diversity vs inequality; Prejudice and stereotypes; Unity in the Constitution; Bihar’s linguistic–caste mosaic as example.",
+            "Discrimination is diversity plus power. Caste, gender, disability and minority status need legal remedies (rights, commissions), not only moral appeals.",
+            "Key distinctions to retain: Prejudice → discrimination; Caste and gender; Equality as a right; Dignity."
+          ],
+          "reading": "Class 6 · Social and Political Life — I: Understanding Diversity. Class 6 · Social and Political Life — I: Diversity and Discrimination.",
+          "task": "Define the principle and explain it through a citizen-facing example. Write five explained points on Understanding Diversity, then check them against the notes and source reading. Write five explained points on Diversity and Discrimination, then check them against the notes and source reading.",
+          "recall": "Explain Understanding Diversity in your own words and connect it to Diversity vs inequality.",
+          "recallAnswer": "India’s diversity of language, region, religion and livelihood is a political fact, not only a slogan. Unity is negotiated through the Constitution, not sameness. Discrimination is diversity plus power. Caste, gender, disability and minority status need legal remedies (rights, commissions), not only moral appeals.",
+          "studyWords": 245,
+          "deepReading": [
+            "polity-1"
+          ],
+          "sources": [
+            "keps1",
+            "jess4"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 2,
+          "topic": "What is Government? + Key Elements of a Democratic Government",
+          "notes": [
+            "Government makes laws, implements, and settles disputes. Levels: local, state, Union. Democracy means people can change rulers and demand answers.",
+            "Key distinctions to retain: Law, execution, courts; Three levels; Democracy vs monarchy; Why we need government.",
+            "Participation, accountability, resolution of conflict, equality and justice. Elections are necessary but not sufficient.",
+            "Key distinctions to retain: Participation; Accountability; Conflict resolution; Equality."
+          ],
+          "reading": "Class 6 · Social and Political Life — I: What is Government?. Class 6 · Social and Political Life — I: Key Elements of a Democratic Government.",
+          "task": "Define the principle and explain it through a citizen-facing example. Write five explained points on What is Government?, then check them against the notes and source reading. Write five explained points on Key Elements of a Democratic Government, then check them against the notes and source reading.",
+          "recall": "Explain What is Government? in your own words and connect it to Law, execution, courts.",
+          "recallAnswer": "Government makes laws, implements, and settles disputes. Levels: local, state, Union. Democracy means people can change rulers and demand answers. Participation, accountability, resolution of conflict, equality and justice. Elections are necessary but not sufficient.",
+          "studyWords": 226,
+          "deepReading": [
+            "polity-1"
+          ],
+          "sources": [
+            "keps1",
+            "jess4"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 3,
+          "topic": "Panchayati Raj + Rural Administration",
+          "notes": [
+            "Village democracy: gram sabha, gram panchayat, three tiers after 73rd Amendment. Funds, functions, functionaries decide if PRIs are real.",
+            "Key distinctions to retain: Gram sabha; Three tiers; Women’s reservation; Bihar PRIs.",
+            "Patwari, tehsildar, police station, land records. Administration is the face of the state in the village.",
+            "Key distinctions to retain: Land records; Police; Revenue officials; Access to justice."
+          ],
+          "reading": "Class 6 · Social and Political Life — I: Panchayati Raj. Class 6 · Social and Political Life — I: Rural Administration.",
+          "task": "Define the principle and explain it through a citizen-facing example. Write five explained points on Panchayati Raj, then check them against the notes and source reading. Write five explained points on Rural Administration, then check them against the notes and source reading.",
+          "recall": "Explain Panchayati Raj in your own words and connect it to Gram sabha.",
+          "recallAnswer": "Village democracy: gram sabha, gram panchayat, three tiers after 73rd Amendment. Funds, functions, functionaries decide if PRIs are real. Patwari, tehsildar, police station, land records. Administration is the face of the state in the village.",
+          "studyWords": 226,
+          "deepReading": [
+            "polity-1"
+          ],
+          "sources": [
+            "keps1",
+            "jess4"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 4,
+          "topic": "Urban Administration + Rural Livelihoods",
+          "notes": [
+            "Municipalities, wards, taxes, water and waste. 74th Amendment is the urban twin of panchayats.",
+            "Key distinctions to retain: Municipal functions; Wards; Urban services; 74th CAA.",
+            "Farm and non-farm work, landless labour, cooperatives. Livelihoods explain why welfare and MGNREGA exist.",
+            "Key distinctions to retain: Small farmers; Labour; Non-farm; Seasonal work."
+          ],
+          "reading": "Class 6 · Social and Political Life — I: Urban Administration. Class 6 · Social and Political Life — I: Rural Livelihoods.",
+          "task": "Define the principle and explain it through a citizen-facing example. Write five explained points on Urban Administration, then check them against the notes and source reading. Write five explained points on Rural Livelihoods, then check them against the notes and source reading.",
+          "recall": "Explain Urban Administration in your own words and connect it to Municipal functions.",
+          "recallAnswer": "Municipalities, wards, taxes, water and waste. 74th Amendment is the urban twin of panchayats. Farm and non-farm work, landless labour, cooperatives. Livelihoods explain why welfare and MGNREGA exist.",
+          "studyWords": 216,
+          "deepReading": [
+            "polity-1"
+          ],
+          "sources": [
+            "keps1",
+            "jess4"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 5,
+          "topic": "Urban Livelihoods + On Equality",
+          "notes": [
+            "Factories, shops, street vendors, gig work. Informal urban work is the majority story.",
+            "Key distinctions to retain: Vendors; Factories; Informal sector; Social security gap.",
+            "Equality in the Preamble and Article 14–18. Universal Adult Franchise. Midday meal as equality in practice. Inequality persists; law is a tool.",
+            "Key distinctions to retain: One person one vote; Untouchability abolished; Article 15; Implementation gap."
+          ],
+          "reading": "Class 6 · Social and Political Life — I: Urban Livelihoods. Class 7 · Social and Political Life — II: On Equality.",
+          "task": "Define the principle and explain it through a citizen-facing example. Write five explained points on Urban Livelihoods, then check them against the notes and source reading. Write five explained points on On Equality, then check them against the notes and source reading.",
+          "recall": "Explain Urban Livelihoods in your own words and connect it to Vendors.",
+          "recallAnswer": "Factories, shops, street vendors, gig work. Informal urban work is the majority story. Equality in the Preamble and Article 14–18. Universal Adult Franchise. Midday meal as equality in practice. Inequality persists; law is a tool.",
+          "studyWords": 227,
+          "deepReading": [
+            "polity-1"
+          ],
+          "sources": [
+            "keps1",
+            "jess4"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 6,
+          "topic": "Role of the Government in Health + How the State Government Works",
+          "notes": [
+            "Public vs private health, Kerala-type public investment vs out-of-pocket spend. Health is a governance outcome.",
+            "Key distinctions to retain: Public facilities; Private care costs; PHCs; Right to health debate.",
+            "MLAs, Chief Minister, Council of Ministers, Vidhan Sabha. Debates, questions, and the cabinet system at state level.",
+            "Key distinctions to retain: MLA; CM and cabinet; Legislative assembly; Constituency."
+          ],
+          "reading": "Class 7 · Social and Political Life — II: Role of the Government in Health. Class 7 · Social and Political Life — II: How the State Government Works.",
+          "task": "Define the principle and explain it through a citizen-facing example. Write five explained points on Role of the Government in Health, then check them against the notes and source reading. Write five explained points on How the State Government Works, then check them against the notes and source reading.",
+          "recall": "Explain Role of the Government in Health in your own words and connect it to Public facilities.",
+          "recallAnswer": "Public vs private health, Kerala-type public investment vs out-of-pocket spend. Health is a governance outcome. MLAs, Chief Minister, Council of Ministers, Vidhan Sabha. Debates, questions, and the cabinet system at state level.",
+          "studyWords": 224,
+          "deepReading": [
+            "polity-1"
+          ],
+          "sources": [
+            "keps1",
+            "jess4"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 7,
+          "topic": "Revision I: Constitutional Foundations",
+          "notes": [
+            "Urban Administration: Municipalities, wards, taxes, water and waste. 74th Amendment is the urban twin of panchayats.",
+            "Rural Livelihoods: Farm and non-farm work, landless labour, cooperatives. Livelihoods explain why welfare and MGNREGA exist.",
+            "Urban Livelihoods: Factories, shops, street vendors, gig work. Informal urban work is the majority story.",
+            "On Equality: Equality in the Preamble and Article 14–18. Universal Adult Franchise. Midday meal as equality in practice. Inequality persists; law is a tool.",
+            "Role of the Government in Health: Public vs private health, Kerala-type public investment vs out-of-pocket spend. Health is a governance outcome.",
+            "How the State Government Works: MLAs, Chief Minister, Council of Ministers, Vidhan Sabha. Debates, questions, and the cabinet system at state level."
+          ],
+          "reading": "Revisit your notes for Urban Administration; Rural Livelihoods; Urban Livelihoods; On Equality; Role of the Government in Health; How the State Government Works. Re-read the assigned source sections only where your recall is weak.",
+          "task": "Close the notes and reconstruct the main distinctions from the last 6 topics. Define the principle and explain it through a citizen-facing example. Then compare your work with the material below.",
+          "recall": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+          "recallAnswer": "Municipalities, wards, taxes, water and waste. 74th Amendment is the urban twin of panchayats. Farm and non-farm work, landless labour, cooperatives. Livelihoods explain why welfare and MGNREGA exist. Factories, shops, street vendors, gig work. Informal urban work is the majority story. Equality in the Preamble and Article 14–18. Universal Adult Franchise. Midday meal as equality in practice. Inequality persists; law is a tool. Public vs private health, Kerala-type public investment vs out-of-pocket spend. Health is a governance outcome. MLAs, Chief Minister, Council of Ministers, Vidhan Sabha. Debates, questions, and the cabinet system at state level.",
+          "studyWords": 281,
+          "deepReading": [
+            "polity-1"
+          ],
+          "sources": [
+            "keps1",
+            "jess4"
+          ],
+          "mode": "revision"
+        },
+        {
+          "day": 8,
+          "topic": "Growing up as Boys and Girls + Women Change the World",
+          "notes": [
+            "Gender is social. Housework is work. Equality needs law and culture change.",
+            "Key distinctions to retain: Stereotypes; Unpaid care; Girls’ education; Law + society.",
+            "Women’s movement, education, laws against violence, political reservation. History of struggle, not a finished file.",
+            "Key distinctions to retain: Movements; Laws; Literacy; Political voice."
+          ],
+          "reading": "Class 7 · Social and Political Life — II: Growing up as Boys and Girls. Class 7 · Social and Political Life — II: Women Change the World.",
+          "task": "Define the principle and explain it through a citizen-facing example. Write five explained points on Growing up as Boys and Girls, then check them against the notes and source reading. Write five explained points on Women Change the World, then check them against the notes and source reading.",
+          "recall": "Explain Growing up as Boys and Girls in your own words and connect it to Stereotypes.",
+          "recallAnswer": "Gender is social. Housework is work. Equality needs law and culture change. Women’s movement, education, laws against violence, political reservation. History of struggle, not a finished file.",
+          "studyWords": 215,
+          "deepReading": [
+            "polity-1"
+          ],
+          "sources": [
+            "keps1",
+            "jess4"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 9,
+          "topic": "Understanding Media + Markets Around Us",
+          "notes": [
+            "Media sets agenda, needs money, can be biased. Democracy needs independent information and media literacy.",
+            "Key distinctions to retain: Agenda setting; Ownership; Censorship vs freedom; Social media.",
+            "Weekly haats to malls and chains. Who has power in the market? Link later to competition law.",
+            "Key distinctions to retain: Weekly market; Wholesale; Shops; Unequal bargaining."
+          ],
+          "reading": "Class 7 · Social and Political Life — II: Understanding Media. Class 7 · Social and Political Life — II: Markets Around Us.",
+          "task": "Define the principle and explain it through a citizen-facing example. Write five explained points on Understanding Media, then check them against the notes and source reading. Write five explained points on Markets Around Us, then check them against the notes and source reading.",
+          "recall": "Explain Understanding Media in your own words and connect it to Agenda setting.",
+          "recallAnswer": "Media sets agenda, needs money, can be biased. Democracy needs independent information and media literacy. Weekly haats to malls and chains. Who has power in the market? Link later to competition law.",
+          "studyWords": 221,
+          "deepReading": [
+            "polity-1"
+          ],
+          "sources": [
+            "keps1",
+            "jess4"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 10,
+          "topic": "A Shirt in the Market + Struggles for Equality",
+          "notes": [
+            "Value chain from cotton farmer to brand. Putting-out, profits at the brand end, vulnerability at the farm end.",
+            "Key distinctions to retain: Value chain; Farmer; Exporter/brand; Labour.",
+            "Movements use the Constitution. Tawa Matsya Sangh-type examples: organisation + rights language.",
+            "Key distinctions to retain: Social movements; Constitution as resource; Collective action; Dignity."
+          ],
+          "reading": "Class 7 · Social and Political Life — II: A Shirt in the Market. Class 7 · Social and Political Life — II: Struggles for Equality.",
+          "task": "Define the principle and explain it through a citizen-facing example. Write five explained points on A Shirt in the Market, then check them against the notes and source reading. Write five explained points on Struggles for Equality, then check them against the notes and source reading.",
+          "recall": "Explain A Shirt in the Market in your own words and connect it to Value chain.",
+          "recallAnswer": "Value chain from cotton farmer to brand. Putting-out, profits at the brand end, vulnerability at the farm end. Movements use the Constitution. Tawa Matsya Sangh-type examples: organisation + rights language.",
+          "studyWords": 218,
+          "deepReading": [
+            "polity-1"
+          ],
+          "sources": [
+            "keps1",
+            "jess4"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 11,
+          "topic": "The Indian Constitution + Understanding Secularism",
+          "notes": [
+            "Why a long written Constitution: colonial past, diversity, rights. Key features: federal, parliamentary, independent judiciary, secular, socialist (42nd). Rule of law.",
+            "Key distinctions to retain: Need for Constitution; Federal + unitary bias; Parliamentary; Secular.",
+            "Indian secularism: principled distance, not wall of separation only. State can intervene against social evils. Freedom of religion with public order limits.",
+            "Key distinctions to retain: Principled distance; Freedom of religion; Reform intervention; Not theocracy."
+          ],
+          "reading": "Class 8 · Social and Political Life — III: The Indian Constitution. Class 8 · Social and Political Life — III: Understanding Secularism.",
+          "task": "Define the principle and explain it through a citizen-facing example. Write five explained points on The Indian Constitution, then check them against the notes and source reading. Write five explained points on Understanding Secularism, then check them against the notes and source reading.",
+          "recall": "Explain The Indian Constitution in your own words and connect it to Need for Constitution.",
+          "recallAnswer": "Why a long written Constitution: colonial past, diversity, rights. Key features: federal, parliamentary, independent judiciary, secular, socialist (42nd). Rule of law. Indian secularism: principled distance, not wall of separation only. State can intervene against social evils. Freedom of religion with public order limits.",
+          "studyWords": 236,
+          "deepReading": [
+            "polity-1"
+          ],
+          "sources": [
+            "keps1",
+            "jess4"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 12,
+          "topic": "Why Do We Need a Parliament? + Understanding Laws",
+          "notes": [
+            "Lok Sabha, Rajya Sabha, law-making, budget, executive control. People elect; Parliament represents and oversees.",
+            "Key distinctions to retain: Two Houses; Law-making; Question Hour; Money Bill idea.",
+            "How a bill becomes an Act, unpopular laws, role of people and courts. Law without legitimacy is brittle.",
+            "Key distinctions to retain: Bill to Act; Controversial laws; Rule of law; Citizen pressure."
+          ],
+          "reading": "Class 8 · Social and Political Life — III: Why Do We Need a Parliament?. Class 8 · Social and Political Life — III: Understanding Laws.",
+          "task": "Define the principle and explain it through a citizen-facing example. Write five explained points on Why Do We Need a Parliament?, then check them against the notes and source reading. Write five explained points on Understanding Laws, then check them against the notes and source reading.",
+          "recall": "Explain Why Do We Need a Parliament? in your own words and connect it to Two Houses.",
+          "recallAnswer": "Lok Sabha, Rajya Sabha, law-making, budget, executive control. People elect; Parliament represents and oversees. How a bill becomes an Act, unpopular laws, role of people and courts. Law without legitimacy is brittle.",
+          "studyWords": 225,
+          "deepReading": [
+            "polity-1"
+          ],
+          "sources": [
+            "keps1",
+            "jess4"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 13,
+          "topic": "Judiciary + Understanding Our Criminal Justice System",
+          "notes": [
+            "Independence, structure (SC–HC–district), judicial review, PIL. Access to justice is the weak link.",
+            "Key distinctions to retain: Independence; Integrated judiciary; Review; PIL.",
+            "Police, public prosecutor, defence, judge. FIR, investigation, fair trial. Article 22 and rights of accused.",
+            "Key distinctions to retain: FIR; Roles; Fair trial; Rights of accused."
+          ],
+          "reading": "Class 8 · Social and Political Life — III: Judiciary. Class 8 · Social and Political Life — III: Understanding Our Criminal Justice System.",
+          "task": "Define the principle and explain it through a citizen-facing example. Write five explained points on Judiciary, then check them against the notes and source reading. Write five explained points on Understanding Our Criminal Justice System, then check them against the notes and source reading.",
+          "recall": "Explain Judiciary in your own words and connect it to Independence.",
+          "recallAnswer": "Independence, structure (SC–HC–district), judicial review, PIL. Access to justice is the weak link. Police, public prosecutor, defence, judge. FIR, investigation, fair trial. Article 22 and rights of accused.",
+          "studyWords": 215,
+          "deepReading": [
+            "polity-1"
+          ],
+          "sources": [
+            "keps1",
+            "jess4"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 14,
+          "topic": "Revision II: Constitutional Foundations",
+          "notes": [
+            "The Indian Constitution: Why a long written Constitution: colonial past, diversity, rights. Key features: federal, parliamentary, independent judiciary, secular, socialist (42nd). Rule of law.",
+            "Understanding Secularism: Indian secularism: principled distance, not wall of separation only. State can intervene against social evils. Freedom of religion with public order limits.",
+            "Why Do We Need a Parliament?: Lok Sabha, Rajya Sabha, law-making, budget, executive control. People elect; Parliament represents and oversees.",
+            "Understanding Laws: How a bill becomes an Act, unpopular laws, role of people and courts. Law without legitimacy is brittle.",
+            "Judiciary: Independence, structure (SC–HC–district), judicial review, PIL. Access to justice is the weak link.",
+            "Understanding Our Criminal Justice System: Police, public prosecutor, defence, judge. FIR, investigation, fair trial. Article 22 and rights of accused."
+          ],
+          "reading": "Revisit your notes for The Indian Constitution; Understanding Secularism; Why Do We Need a Parliament?; Understanding Laws; Judiciary; Understanding Our Criminal Justice System. Re-read the assigned source sections only where your recall is weak.",
+          "task": "Close the notes and reconstruct the main distinctions from the last 6 topics. Define the principle and explain it through a citizen-facing example. Then compare your work with the material below.",
+          "recall": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+          "recallAnswer": "Why a long written Constitution: colonial past, diversity, rights. Key features: federal, parliamentary, independent judiciary, secular, socialist (42nd). Rule of law. Indian secularism: principled distance, not wall of separation only. State can intervene against social evils. Freedom of religion with public order limits. Lok Sabha, Rajya Sabha, law-making, budget, executive control. People elect; Parliament represents and oversees. How a bill becomes an Act, unpopular laws, role of people and courts. Law without legitimacy is brittle. Independence, structure (SC–HC–district), judicial review, PIL. Access to justice is the weak link. Police, public prosecutor, defence, judge. FIR, investigation, fair trial. Article 22 and rights of accused.",
+          "studyWords": 289,
+          "deepReading": [
+            "polity-1"
+          ],
+          "sources": [
+            "keps1",
+            "jess4"
+          ],
+          "mode": "revision"
+        },
+        {
+          "day": 15,
+          "topic": "Understanding Marginalisation + Confronting Marginalisation",
+          "notes": [
+            "Adivasis, minorities, development-displacement. Marginalisation is structural.",
+            "Key distinctions to retain: Adivasi rights; Minorities; Displacement; Stereotypes.",
+            "Safeguards: Articles 15, 17, 21, 32; SC/ST Prevention of Atrocities Act; Forest Rights Act. Law + movement.",
+            "Key distinctions to retain: Constitutional safeguards; PoA Act; FRA; Reservations idea."
+          ],
+          "reading": "Class 8 · Social and Political Life — III: Understanding Marginalisation. Class 8 · Social and Political Life — III: Confronting Marginalisation.",
+          "task": "Define the principle and explain it through a citizen-facing example. Write five explained points on Understanding Marginalisation, then check them against the notes and source reading. Write five explained points on Confronting Marginalisation, then check them against the notes and source reading.",
+          "recall": "Explain Understanding Marginalisation in your own words and connect it to Adivasi rights.",
+          "recallAnswer": "Adivasis, minorities, development-displacement. Marginalisation is structural. Safeguards: Articles 15, 17, 21, 32; SC/ST Prevention of Atrocities Act; Forest Rights Act. Law + movement.",
+          "studyWords": 210,
+          "deepReading": [
+            "polity-1"
+          ],
+          "sources": [
+            "keps1",
+            "jess4"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 16,
+          "topic": "Public Facilities + Law and Social Justice",
+          "notes": [
+            "Water, health, sanitation as public goods. Who provides, who pays, who is excluded. Chennai water as a case of urban stress.",
+            "Key distinctions to retain: Public goods; Water; Sanitation; Equity.",
+            "Why markets need labour and environment laws. Bhopal as a warning on enforcement. Minimum wages, safety.",
+            "Key distinctions to retain: Why regulate; Workers’ laws; Environment law; Enforcement gap."
+          ],
+          "reading": "Class 8 · Social and Political Life — III: Public Facilities. Class 8 · Social and Political Life — III: Law and Social Justice.",
+          "task": "Define the principle and explain it through a citizen-facing example. Write five explained points on Public Facilities, then check them against the notes and source reading. Write five explained points on Law and Social Justice, then check them against the notes and source reading.",
+          "recall": "Explain Public Facilities in your own words and connect it to Public goods.",
+          "recallAnswer": "Water, health, sanitation as public goods. Who provides, who pays, who is excluded. Chennai water as a case of urban stress. Why markets need labour and environment laws. Bhopal as a warning on enforcement. Minimum wages, safety.",
+          "studyWords": 225,
+          "deepReading": [
+            "polity-1"
+          ],
+          "sources": [
+            "keps1",
+            "jess4"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 17,
+          "topic": "What is Democracy? Why Democracy? + Constitutional Design",
+          "notes": [
+            "Features: free fair elections, one person one vote, rule of law, rights. Merits and arguments against. Democracy as a form plus a principle.",
+            "Key distinctions to retain: Features; Broader meaning; Arguments for/against; Accountable rule.",
+            "South Africa comparison, making of Indian Constitution, Preamble values, institutional design. Philosophy in the Preamble.",
+            "Key distinctions to retain: Constituent Assembly; Preamble; Institutional design; SA parallel."
+          ],
+          "reading": "Class 9 · Democratic Politics — I: What is Democracy? Why Democracy?. Class 9 · Democratic Politics — I: Constitutional Design.",
+          "task": "Define the principle and explain it through a citizen-facing example. Write five explained points on What is Democracy? Why Democracy?, then check them against the notes and source reading. Write five explained points on Constitutional Design, then check them against the notes and source reading.",
+          "recall": "Explain What is Democracy? Why Democracy? in your own words and connect it to Features.",
+          "recallAnswer": "Features: free fair elections, one person one vote, rule of law, rights. Merits and arguments against. Democracy as a form plus a principle. South Africa comparison, making of Indian Constitution, Preamble values, institutional design. Philosophy in the Preamble.",
+          "studyWords": 227,
+          "deepReading": [
+            "polity-1"
+          ],
+          "sources": [
+            "keps1",
+            "jess4"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 18,
+          "topic": "Electoral Politics + Working of Institutions + Democratic Rights",
+          "notes": [
+            "Why elections, our system (FPTP), Election Commission, challenges (money, muscle, booth). Democratic elections need a referee.",
+            "Key distinctions to retain: FPTP; EC; Reserved constituencies; Challenges.",
+            "President, PM, Parliament, Supreme Court through a policy case (e.g. OBC decision). Who takes decisions in a parliamentary system.",
+            "Key distinctions to retain: PM-centric executive; Parliament; President’s role; Judiciary.",
+            "Life without rights (Guantanamo-type contrast), Fundamental Rights, NHRC, expanding rights (education, information, food as later laws).",
+            "Key distinctions to retain: Six FRs clusters; NHRC; Rights in the news; Duties briefly."
+          ],
+          "reading": "Class 9 · Democratic Politics — I: Electoral Politics. Class 9 · Democratic Politics — I: Working of Institutions. Class 9 · Democratic Politics — I: Democratic Rights.",
+          "task": "Define the principle and explain it through a citizen-facing example. Write five explained points on Electoral Politics, then check them against the notes and source reading. Write five explained points on Working of Institutions, then check them against the notes and source reading. Write five explained points on Democratic Rights, then check them against the notes and source reading.",
+          "recall": "Explain Electoral Politics in your own words and connect it to FPTP.",
+          "recallAnswer": "Why elections, our system (FPTP), Election Commission, challenges (money, muscle, booth). Democratic elections need a referee. President, PM, Parliament, Supreme Court through a policy case (e.g. OBC decision). Who takes decisions in a parliamentary system. Life without rights (Guantanamo-type contrast), Fundamental Rights, NHRC, expanding rights (education, information, food as later laws).",
+          "studyWords": 251,
+          "deepReading": [
+            "polity-1"
+          ],
+          "sources": [
+            "keps1",
+            "jess4"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 19,
+          "topic": "Constitutional Foundations: synthesis",
+          "notes": [
+            "Law and Social Justice: Why markets need labour and environment laws. Bhopal as a warning on enforcement. Minimum wages, safety.",
+            "What is Democracy? Why Democracy?: Features: free fair elections, one person one vote, rule of law, rights. Merits and arguments against. Democracy as a form plus a principle.",
+            "Constitutional Design: South Africa comparison, making of Indian Constitution, Preamble values, institutional design. Philosophy in the Preamble.",
+            "Electoral Politics: Why elections, our system (FPTP), Election Commission, challenges (money, muscle, booth). Democratic elections need a referee.",
+            "Working of Institutions: President, PM, Parliament, Supreme Court through a policy case (e.g. OBC decision). Who takes decisions in a parliamentary system.",
+            "Democratic Rights: Life without rights (Guantanamo-type contrast), Fundamental Rights, NHRC, expanding rights (education, information, food as later laws)."
+          ],
+          "reading": "Revisit your notes for Law and Social Justice; What is Democracy? Why Democracy?; Constitutional Design; Electoral Politics; Working of Institutions; Democratic Rights. Re-read the assigned source sections only where your recall is weak.",
+          "task": "Close the notes and reconstruct the main distinctions from the last 6 topics. Define the principle and explain it through a citizen-facing example. Then compare your work with the material below.",
+          "recall": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+          "recallAnswer": "Why markets need labour and environment laws. Bhopal as a warning on enforcement. Minimum wages, safety. Features: free fair elections, one person one vote, rule of law, rights. Merits and arguments against. Democracy as a form plus a principle. South Africa comparison, making of Indian Constitution, Preamble values, institutional design. Philosophy in the Preamble. Why elections, our system (FPTP), Election Commission, challenges (money, muscle, booth). Democratic elections need a referee. President, PM, Parliament, Supreme Court through a policy case (e.g. OBC decision). Who takes decisions in a parliamentary system. Life without rights (Guantanamo-type contrast), Fundamental Rights, NHRC, expanding rights (education, information, food as later laws).",
+          "studyWords": 290,
+          "deepReading": [
+            "polity-1"
+          ],
+          "sources": [
+            "keps1",
+            "jess4"
+          ],
+          "mode": "revision"
+        },
+        {
+          "day": 20,
+          "topic": "Constitutional Foundations: assessment & repair",
+          "notes": [
+            "Struggles for Equality: Movements use the Constitution. Tawa Matsya Sangh-type examples: organisation + rights language.",
+            "The Indian Constitution: Why a long written Constitution: colonial past, diversity, rights. Key features: federal, parliamentary, independent judiciary, secular, socialist (42nd). Rule of law.",
+            "Understanding Secularism: Indian secularism: principled distance, not wall of separation only. State can intervene against social evils. Freedom of religion with public order limits.",
+            "Why Do We Need a Parliament?: Lok Sabha, Rajya Sabha, law-making, budget, executive control. People elect; Parliament represents and oversees.",
+            "Understanding Laws: How a bill becomes an Act, unpopular laws, role of people and courts. Law without legitimacy is brittle.",
+            "Judiciary: Independence, structure (SC–HC–district), judicial review, PIL. Access to justice is the weak link.",
+            "Understanding Our Criminal Justice System: Police, public prosecutor, defence, judge. FIR, investigation, fair trial. Article 22 and rights of accused.",
+            "Understanding Marginalisation: Adivasis, minorities, development-displacement. Marginalisation is structural.",
+            "Confronting Marginalisation: Safeguards: Articles 15, 17, 21, 32; SC/ST Prevention of Atrocities Act; Forest Rights Act. Law + movement.",
+            "Public Facilities: Water, health, sanitation as public goods. Who provides, who pays, who is excluded. Chennai water as a case of urban stress.",
+            "Law and Social Justice: Why markets need labour and environment laws. Bhopal as a warning on enforcement. Minimum wages, safety.",
+            "What is Democracy? Why Democracy?: Features: free fair elections, one person one vote, rule of law, rights. Merits and arguments against. Democracy as a form plus a principle.",
+            "Constitutional Design: South Africa comparison, making of Indian Constitution, Preamble values, institutional design. Philosophy in the Preamble.",
+            "Electoral Politics: Why elections, our system (FPTP), Election Commission, challenges (money, muscle, booth). Democratic elections need a referee.",
+            "Working of Institutions: President, PM, Parliament, Supreme Court through a policy case (e.g. OBC decision). Who takes decisions in a parliamentary system.",
+            "Democratic Rights: Life without rights (Guantanamo-type contrast), Fundamental Rights, NHRC, expanding rights (education, information, food as later laws)."
+          ],
+          "reading": "Revisit your notes for Struggles for Equality; The Indian Constitution; Understanding Secularism; Why Do We Need a Parliament?; Understanding Laws; Judiciary; Understanding Our Criminal Justice System; Understanding Marginalisation; Confronting Marginalisation; Public Facilities; Law and Social Justice; What is Democracy? Why Democracy?; Constitutional Design; Electoral Politics; Working of Institutions; Democratic Rights. Re-read the assigned source sections only where your recall is weak.",
+          "task": "Use the official-paper link or your question bank for a timed 20-question topic test and one short answer. Mark the gaps, explain your errors and schedule a second recall attempt.",
+          "recall": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+          "recallAnswer": "Movements use the Constitution. Tawa Matsya Sangh-type examples: organisation + rights language. Why a long written Constitution: colonial past, diversity, rights. Key features: federal, parliamentary, independent judiciary, secular, socialist (42nd). Rule of law. Indian secularism: principled distance, not wall of separation only. State can intervene against social evils. Freedom of religion with public order limits. Lok Sabha, Rajya Sabha, law-making, budget, executive control. People elect; Parliament represents and oversees. How a bill becomes an Act, unpopular laws, role of people and courts. Law without legitimacy is brittle. Independence, structure (SC–HC–district), judicial review, PIL. Access to justice is the weak link. Police, public prosecutor, defence, judge. FIR, investigation, fair trial. Article 22 and rights of accused. Adivasis, minorities, development-displacement. Marginalisation is structural. Safeguards: Articles 15, 17, 21, 32; SC/ST Prevention of Atrocities Act; Forest Rights Act. Law + movement. Water, health, sanitation as public goods. Who provides, who pays, who is excluded. Chennai water as a case of urban stress. Why markets need labour and environment laws. Bhopal as a warning on enforcement. Minimum wages, safety. Features: free fair elections, one person one vote, rule of law, rights. Merits and arguments against. Democracy as a form plus a principle. South Africa comparison, making of Indian Constitution, Preamble values, institutional design. Philosophy in the Preamble. Why elections, our system (FPTP), Election Commission, challenges (money, muscle, booth). Democratic elections need a referee. President, PM, Parliament, Supreme Court through a policy case (e.g. OBC decision). Who takes decisions in a parliamentary system. Life without rights (Guantanamo-type contrast), Fundamental Rights, NHRC, expanding rights (education, information, food as later laws).",
+          "studyWords": 477,
+          "deepReading": [
+            "polity-1"
+          ],
+          "sources": [
+            "keps1",
+            "jess4"
+          ],
+          "mode": "test"
+        }
+      ]
+    },
+    {
+      "id": "block-2",
+      "title": "Institutions & Federalism",
+      "icon": "polity",
+      "description": "Draw the decision and accountability chain for the institution. Build the foundation through the daily notes and use the block companion to connect concepts.",
+      "sources": [
+        "keps2"
+      ],
+      "days": [
+        {
+          "day": 21,
+          "topic": "Power-sharing",
+          "notes": [
+            "Belgium and Sri Lanka: why power-sharing prevents conflict. Forms: among organs, among governments, among social groups, among parties/movements.",
+            "Key distinctions to retain: Belgium; Sri Lanka; Four forms; Federal idea."
+          ],
+          "reading": "Class 10 · Democratic Politics — II: Power-sharing.",
+          "task": "Draw the decision and accountability chain for the institution. Write five explained points on Power-sharing, then check them against the notes and source reading.",
+          "recall": "Explain Power-sharing in your own words and connect it to Belgium.",
+          "recallAnswer": "Belgium and Sri Lanka: why power-sharing prevents conflict. Forms: among organs, among governments, among social groups, among parties/movements.",
+          "studyWords": 199,
+          "deepReading": [
+            "polity-2"
+          ],
+          "sources": [
+            "keps2"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 22,
+          "topic": "Federalism",
+          "notes": [
+            "What federalism is, India as holding-together federation, Union–State–local, linguistic states, 1992 local government, Centre–State bargaining.",
+            "Key distinctions to retain: Features; Lists; Linguistic states; Decentralisation."
+          ],
+          "reading": "Class 10 · Democratic Politics — II: Federalism.",
+          "task": "Draw the decision and accountability chain for the institution. Write five explained points on Federalism, then check them against the notes and source reading.",
+          "recall": "Explain Federalism in your own words and connect it to Features.",
+          "recallAnswer": "What federalism is, India as holding-together federation, Union–State–local, linguistic states, 1992 local government, Centre–State bargaining.",
+          "studyWords": 194,
+          "deepReading": [
+            "polity-2"
+          ],
+          "sources": [
+            "keps2"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 23,
+          "topic": "Gender, Religion and Caste",
+          "notes": [
+            "Gender division of labour, women’s political representation, communalism vs secularism, caste in politics — both as social division and as mobilisation.",
+            "Key distinctions to retain: Feminist politics; Communalism; Caste and parties; Secular state."
+          ],
+          "reading": "Class 10 · Democratic Politics — II: Gender, Religion and Caste.",
+          "task": "Draw the decision and accountability chain for the institution. Write five explained points on Gender, Religion and Caste, then check them against the notes and source reading.",
+          "recall": "Explain Gender, Religion and Caste in your own words and connect it to Feminist politics.",
+          "recallAnswer": "Gender division of labour, women’s political representation, communalism vs secularism, caste in politics — both as social division and as mobilisation.",
+          "studyWords": 203,
+          "deepReading": [
+            "polity-2"
+          ],
+          "sources": [
+            "keps2"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 24,
+          "topic": "Political Parties",
+          "notes": [
+            "Functions, national vs state parties, challenges (dynasty, money, internal democracy), party system. Need for reform.",
+            "Key distinctions to retain: Functions; System; Challenges; Reforms."
+          ],
+          "reading": "Class 10 · Democratic Politics — II: Political Parties.",
+          "task": "Draw the decision and accountability chain for the institution. Write five explained points on Political Parties, then check them against the notes and source reading.",
+          "recall": "Explain Political Parties in your own words and connect it to Functions.",
+          "recallAnswer": "Functions, national vs state parties, challenges (dynasty, money, internal democracy), party system. Need for reform.",
+          "studyWords": 193,
+          "deepReading": [
+            "polity-2"
+          ],
+          "sources": [
+            "keps2"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 25,
+          "topic": "Outcomes of Democracy",
+          "notes": [
+            "Accountable government, reduced inequality (incomplete), dignity. Democracy is a process; outcomes vary by citizen quality.",
+            "Key distinctions to retain: Accountability; Development debate; Inequality; Dignity."
+          ],
+          "reading": "Class 10 · Democratic Politics — II: Outcomes of Democracy.",
+          "task": "Draw the decision and accountability chain for the institution. Write five explained points on Outcomes of Democracy, then check them against the notes and source reading.",
+          "recall": "Explain Outcomes of Democracy in your own words and connect it to Accountability.",
+          "recallAnswer": "Accountable government, reduced inequality (incomplete), dignity. Democracy is a process; outcomes vary by citizen quality.",
+          "studyWords": 194,
+          "deepReading": [
+            "polity-2"
+          ],
+          "sources": [
+            "keps2"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 26,
+          "topic": "Political Reforms / Challenges to Democracy",
+          "notes": [
+            "Foundational, challenge of expansion, deepening. Legal plus political reforms; over-criminalisation of politics is itself a problem.",
+            "Key distinctions to retain: Challenges; Reform principles; Role of citizens; Avoid over-legislation."
+          ],
+          "reading": "Class 10 · Democratic Politics — II: Political Reforms / Challenges to Democracy.",
+          "task": "Draw the decision and accountability chain for the institution. Write five explained points on Political Reforms / Challenges to Democracy, then check them against the notes and source reading.",
+          "recall": "Explain Political Reforms / Challenges to Democracy in your own words and connect it to Challenges.",
+          "recallAnswer": "Foundational, challenge of expansion, deepening. Legal plus political reforms; over-criminalisation of politics is itself a problem.",
+          "studyWords": 198,
+          "deepReading": [
+            "polity-2"
+          ],
+          "sources": [
+            "keps2"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 27,
+          "topic": "Revision I: Institutions & Federalism",
+          "notes": [
+            "Power-sharing: Belgium and Sri Lanka: why power-sharing prevents conflict. Forms: among organs, among governments, among social groups, among parties/movements.",
+            "Federalism: What federalism is, India as holding-together federation, Union–State–local, linguistic states, 1992 local government, Centre–State bargaining.",
+            "Gender, Religion and Caste: Gender division of labour, women’s political representation, communalism vs secularism, caste in politics — both as social division and as mobilisation.",
+            "Political Parties: Functions, national vs state parties, challenges (dynasty, money, internal democracy), party system. Need for reform.",
+            "Outcomes of Democracy: Accountable government, reduced inequality (incomplete), dignity. Democracy is a process; outcomes vary by citizen quality.",
+            "Political Reforms / Challenges to Democracy: Foundational, challenge of expansion, deepening. Legal plus political reforms; over-criminalisation of politics is itself a problem."
+          ],
+          "reading": "Revisit your notes for Power-sharing; Federalism; Gender, Religion and Caste; Political Parties; Outcomes of Democracy; Political Reforms / Challenges to Democracy. Re-read the assigned source sections only where your recall is weak.",
+          "task": "Close the notes and reconstruct the main distinctions from the last 6 topics. Draw the decision and accountability chain for the institution. Then compare your work with the material below.",
+          "recall": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+          "recallAnswer": "Belgium and Sri Lanka: why power-sharing prevents conflict. Forms: among organs, among governments, among social groups, among parties/movements. What federalism is, India as holding-together federation, Union–State–local, linguistic states, 1992 local government, Centre–State bargaining. Gender division of labour, women’s political representation, communalism vs secularism, caste in politics — both as social division and as mobilisation. Functions, national vs state parties, challenges (dynasty, money, internal democracy), party system. Need for reform. Accountable government, reduced inequality (incomplete), dignity. Democracy is a process; outcomes vary by citizen quality. Foundational, challenge of expansion, deepening. Legal plus political reforms; over-criminalisation of politics is itself a problem.",
+          "studyWords": 287,
+          "deepReading": [
+            "polity-2"
+          ],
+          "sources": [
+            "keps2"
+          ],
+          "mode": "revision"
+        },
+        {
+          "day": 28,
+          "topic": "Constitution: Why and How",
+          "notes": [
+            "Functions of a constitution, Indian making process, sources, mode of promulgation. It is a living document.",
+            "Key distinctions to retain: Functions; Assembly; Sources; Objective Resolution."
+          ],
+          "reading": "Class 11 · Indian Constitution at Work: Constitution: Why and How.",
+          "task": "Draw the decision and accountability chain for the institution. Write five explained points on Constitution: Why and How, then check them against the notes and source reading.",
+          "recall": "Explain Constitution: Why and How in your own words and connect it to Functions.",
+          "recallAnswer": "Functions of a constitution, Indian making process, sources, mode of promulgation. It is a living document.",
+          "studyWords": 195,
+          "deepReading": [
+            "polity-2"
+          ],
+          "sources": [
+            "keps2"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 29,
+          "topic": "Rights in the Indian Constitution",
+          "notes": [
+            "WRIT jurisdiction, reasonable restrictions, expanding Article 21, relationship with DPSPs and duties.",
+            "Key distinctions to retain: WRITS; Restrictions; Art. 21 expansion; DPSP harmony."
+          ],
+          "reading": "Class 11 · Indian Constitution at Work: Rights in the Indian Constitution.",
+          "task": "Draw the decision and accountability chain for the institution. Write five explained points on Rights in the Indian Constitution, then check them against the notes and source reading.",
+          "recall": "Explain Rights in the Indian Constitution in your own words and connect it to WRITS.",
+          "recallAnswer": "WRIT jurisdiction, reasonable restrictions, expanding Article 21, relationship with DPSPs and duties.",
+          "studyWords": 193,
+          "deepReading": [
+            "polity-2"
+          ],
+          "sources": [
+            "keps2"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 30,
+          "topic": "Election and Representation",
+          "notes": [
+            "FPTP vs PR, reserved seats, free and fair, Election Commission’s powers, electoral reforms (NOTA, VVPATs in CA).",
+            "Key distinctions to retain: FPTP; Reservation; EC; Reforms."
+          ],
+          "reading": "Class 11 · Indian Constitution at Work: Election and Representation.",
+          "task": "Draw the decision and accountability chain for the institution. Write five explained points on Election and Representation, then check them against the notes and source reading.",
+          "recall": "Explain Election and Representation in your own words and connect it to FPTP.",
+          "recallAnswer": "FPTP vs PR, reserved seats, free and fair, Election Commission’s powers, electoral reforms (NOTA, VVPATs in CA).",
+          "studyWords": 195,
+          "deepReading": [
+            "polity-2"
+          ],
+          "sources": [
+            "keps2"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 31,
+          "topic": "Executive",
+          "notes": [
+            "Parliamentary executive, PM as real executive, President’s discretionary edges, permanent civil service, bureaucracy’s role.",
+            "Key distinctions to retain: PM; Council of Ministers; President; Civil service."
+          ],
+          "reading": "Class 11 · Indian Constitution at Work: Executive.",
+          "task": "Draw the decision and accountability chain for the institution. Write five explained points on Executive, then check them against the notes and source reading.",
+          "recall": "Explain Executive in your own words and connect it to PM.",
+          "recallAnswer": "Parliamentary executive, PM as real executive, President’s discretionary edges, permanent civil service, bureaucracy’s role.",
+          "studyWords": 195,
+          "deepReading": [
+            "polity-2"
+          ],
+          "sources": [
+            "keps2"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 32,
+          "topic": "Legislature",
+          "notes": [
+            "Two Houses, how a bill is passed, instruments of control, decline of debate, anti-defection.",
+            "Key distinctions to retain: Rajya Sabha role; Ordinary vs money bill; Committees; Tenth Schedule."
+          ],
+          "reading": "Class 11 · Indian Constitution at Work: Legislature.",
+          "task": "Draw the decision and accountability chain for the institution. Write five explained points on Legislature, then check them against the notes and source reading.",
+          "recall": "Explain Legislature in your own words and connect it to Rajya Sabha role.",
+          "recallAnswer": "Two Houses, how a bill is passed, instruments of control, decline of debate, anti-defection.",
+          "studyWords": 198,
+          "deepReading": [
+            "polity-2"
+          ],
+          "sources": [
+            "keps2"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 33,
+          "topic": "Judiciary",
+          "notes": [
+            "Independence, appointments (collegium debate), judicial review, activism vs overreach, tribunals.",
+            "Key distinctions to retain: Independence; Collegium; Review; PIL."
+          ],
+          "reading": "Class 11 · Indian Constitution at Work: Judiciary.",
+          "task": "Draw the decision and accountability chain for the institution. Write five explained points on Judiciary, then check them against the notes and source reading.",
+          "recall": "Explain Judiciary in your own words and connect it to Independence.",
+          "recallAnswer": "Independence, appointments (collegium debate), judicial review, activism vs overreach, tribunals.",
+          "studyWords": 188,
+          "deepReading": [
+            "polity-2"
+          ],
+          "sources": [
+            "keps2"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 34,
+          "topic": "Revision II: Institutions & Federalism",
+          "notes": [
+            "Constitution: Why and How: Functions of a constitution, Indian making process, sources, mode of promulgation. It is a living document.",
+            "Rights in the Indian Constitution: WRIT jurisdiction, reasonable restrictions, expanding Article 21, relationship with DPSPs and duties.",
+            "Election and Representation: FPTP vs PR, reserved seats, free and fair, Election Commission’s powers, electoral reforms (NOTA, VVPATs in CA).",
+            "Executive: Parliamentary executive, PM as real executive, President’s discretionary edges, permanent civil service, bureaucracy’s role.",
+            "Legislature: Two Houses, how a bill is passed, instruments of control, decline of debate, anti-defection.",
+            "Judiciary: Independence, appointments (collegium debate), judicial review, activism vs overreach, tribunals."
+          ],
+          "reading": "Revisit your notes for Constitution: Why and How; Rights in the Indian Constitution; Election and Representation; Executive; Legislature; Judiciary. Re-read the assigned source sections only where your recall is weak.",
+          "task": "Close the notes and reconstruct the main distinctions from the last 6 topics. Draw the decision and accountability chain for the institution. Then compare your work with the material below.",
+          "recall": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+          "recallAnswer": "Functions of a constitution, Indian making process, sources, mode of promulgation. It is a living document. WRIT jurisdiction, reasonable restrictions, expanding Article 21, relationship with DPSPs and duties. FPTP vs PR, reserved seats, free and fair, Election Commission’s powers, electoral reforms (NOTA, VVPATs in CA). Parliamentary executive, PM as real executive, President’s discretionary edges, permanent civil service, bureaucracy’s role. Two Houses, how a bill is passed, instruments of control, decline of debate, anti-defection. Independence, appointments (collegium debate), judicial review, activism vs overreach, tribunals.",
+          "studyWords": 268,
+          "deepReading": [
+            "polity-2"
+          ],
+          "sources": [
+            "keps2"
+          ],
+          "mode": "revision"
+        },
+        {
+          "day": 35,
+          "topic": "Federalism — application",
+          "notes": [
+            "Strong Centre, emergencies, Governor, inter-state council, GST Council as a new federal site, Sarkaria/Punchhi flavour.",
+            "Key distinctions to retain: Strong Centre; Governor; Finance; Cooperative federalism."
+          ],
+          "reading": "Class 11 · Indian Constitution at Work: Federalism.",
+          "task": "Draw the decision and accountability chain for the institution. Write five explained points on Federalism, then check them against the notes and source reading.",
+          "recall": "Explain Federalism in your own words and connect it to Strong Centre.",
+          "recallAnswer": "Strong Centre, emergencies, Governor, inter-state council, GST Council as a new federal site, Sarkaria/Punchhi flavour.",
+          "studyWords": 195,
+          "deepReading": [
+            "polity-2"
+          ],
+          "sources": [
+            "keps2"
+          ],
+          "mode": "application"
+        },
+        {
+          "day": 36,
+          "topic": "Local Governments",
+          "notes": [
+            "73rd/74th, 11th–12th Schedules, remaining weaknesses: funds and parallel bodies.",
+            "Key distinctions to retain: Amendments; Schedules; SEC/SFC; Gaps."
+          ],
+          "reading": "Class 11 · Indian Constitution at Work: Local Governments.",
+          "task": "Draw the decision and accountability chain for the institution. Write five explained points on Local Governments, then check them against the notes and source reading.",
+          "recall": "Explain Local Governments in your own words and connect it to Amendments.",
+          "recallAnswer": "73rd/74th, 11th–12th Schedules, remaining weaknesses: funds and parallel bodies.",
+          "studyWords": 187,
+          "deepReading": [
+            "polity-2"
+          ],
+          "sources": [
+            "keps2"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 37,
+          "topic": "Constitution as a Living Document",
+          "notes": [
+            "Amendment procedure, basic structure, 42nd/44th, how politics changes the text.",
+            "Key distinctions to retain: Art. 368; Basic structure; Important amendments; Flexibility."
+          ],
+          "reading": "Class 11 · Indian Constitution at Work: Constitution as a Living Document.",
+          "task": "Draw the decision and accountability chain for the institution. Write five explained points on Constitution as a Living Document, then check them against the notes and source reading.",
+          "recall": "Explain Constitution as a Living Document in your own words and connect it to Art. 368.",
+          "recallAnswer": "Amendment procedure, basic structure, 42nd/44th, how politics changes the text.",
+          "studyWords": 191,
+          "deepReading": [
+            "polity-2"
+          ],
+          "sources": [
+            "keps2"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 38,
+          "topic": "The Philosophy of the Constitution",
+          "notes": [
+            "Political equality, social justice, national unity, respect for diversity. Limitations and achievements.",
+            "Key distinctions to retain: Core principles; Social justice; Diversity; Critique."
+          ],
+          "reading": "Class 11 · Indian Constitution at Work: The Philosophy of the Constitution.",
+          "task": "Draw the decision and accountability chain for the institution. Write five explained points on The Philosophy of the Constitution, then check them against the notes and source reading.",
+          "recall": "Explain The Philosophy of the Constitution in your own words and connect it to Core principles.",
+          "recallAnswer": "Political equality, social justice, national unity, respect for diversity. Limitations and achievements.",
+          "studyWords": 192,
+          "deepReading": [
+            "polity-2"
+          ],
+          "sources": [
+            "keps2"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 39,
+          "topic": "Institutions & Federalism: synthesis",
+          "notes": [
+            "Legislature: Two Houses, how a bill is passed, instruments of control, decline of debate, anti-defection.",
+            "Judiciary: Independence, appointments (collegium debate), judicial review, activism vs overreach, tribunals.",
+            "Federalism: Strong Centre, emergencies, Governor, inter-state council, GST Council as a new federal site, Sarkaria/Punchhi flavour.",
+            "Local Governments: 73rd/74th, 11th–12th Schedules, remaining weaknesses: funds and parallel bodies.",
+            "Constitution as a Living Document: Amendment procedure, basic structure, 42nd/44th, how politics changes the text.",
+            "The Philosophy of the Constitution: Political equality, social justice, national unity, respect for diversity. Limitations and achievements."
+          ],
+          "reading": "Revisit your notes for Legislature; Judiciary; Federalism; Local Governments; Constitution as a Living Document; The Philosophy of the Constitution. Re-read the assigned source sections only where your recall is weak.",
+          "task": "Close the notes and reconstruct the main distinctions from the last 6 topics. Draw the decision and accountability chain for the institution. Then compare your work with the material below.",
+          "recall": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+          "recallAnswer": "Two Houses, how a bill is passed, instruments of control, decline of debate, anti-defection. Independence, appointments (collegium debate), judicial review, activism vs overreach, tribunals. Strong Centre, emergencies, Governor, inter-state council, GST Council as a new federal site, Sarkaria/Punchhi flavour. 73rd/74th, 11th–12th Schedules, remaining weaknesses: funds and parallel bodies. Amendment procedure, basic structure, 42nd/44th, how politics changes the text. Political equality, social justice, national unity, respect for diversity. Limitations and achievements.",
+          "studyWords": 255,
+          "deepReading": [
+            "polity-2"
+          ],
+          "sources": [
+            "keps2"
+          ],
+          "mode": "revision"
+        },
+        {
+          "day": 40,
+          "topic": "Institutions & Federalism: assessment & repair",
+          "notes": [
+            "Power-sharing: Belgium and Sri Lanka: why power-sharing prevents conflict. Forms: among organs, among governments, among social groups, among parties/movements.",
+            "Federalism: Strong Centre, emergencies, Governor, inter-state council, GST Council as a new federal site, Sarkaria/Punchhi flavour.",
+            "Gender, Religion and Caste: Gender division of labour, women’s political representation, communalism vs secularism, caste in politics — both as social division and as mobilisation.",
+            "Political Parties: Functions, national vs state parties, challenges (dynasty, money, internal democracy), party system. Need for reform.",
+            "Outcomes of Democracy: Accountable government, reduced inequality (incomplete), dignity. Democracy is a process; outcomes vary by citizen quality.",
+            "Political Reforms / Challenges to Democracy: Foundational, challenge of expansion, deepening. Legal plus political reforms; over-criminalisation of politics is itself a problem.",
+            "Constitution: Why and How: Functions of a constitution, Indian making process, sources, mode of promulgation. It is a living document.",
+            "Rights in the Indian Constitution: WRIT jurisdiction, reasonable restrictions, expanding Article 21, relationship with DPSPs and duties.",
+            "Election and Representation: FPTP vs PR, reserved seats, free and fair, Election Commission’s powers, electoral reforms (NOTA, VVPATs in CA).",
+            "Executive: Parliamentary executive, PM as real executive, President’s discretionary edges, permanent civil service, bureaucracy’s role.",
+            "Legislature: Two Houses, how a bill is passed, instruments of control, decline of debate, anti-defection.",
+            "Judiciary: Independence, appointments (collegium debate), judicial review, activism vs overreach, tribunals.",
+            "Local Governments: 73rd/74th, 11th–12th Schedules, remaining weaknesses: funds and parallel bodies.",
+            "Constitution as a Living Document: Amendment procedure, basic structure, 42nd/44th, how politics changes the text.",
+            "The Philosophy of the Constitution: Political equality, social justice, national unity, respect for diversity. Limitations and achievements."
+          ],
+          "reading": "Revisit your notes for Power-sharing; Federalism; Gender, Religion and Caste; Political Parties; Outcomes of Democracy; Political Reforms / Challenges to Democracy; Constitution: Why and How; Rights in the Indian Constitution; Election and Representation; Executive; Legislature; Judiciary; Local Governments; Constitution as a Living Document; The Philosophy of the Constitution. Re-read the assigned source sections only where your recall is weak.",
+          "task": "Use the official-paper link or your question bank for a timed 20-question topic test and one short answer. Mark the gaps, explain your errors and schedule a second recall attempt.",
+          "recall": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+          "recallAnswer": "Belgium and Sri Lanka: why power-sharing prevents conflict. Forms: among organs, among governments, among social groups, among parties/movements. Strong Centre, emergencies, Governor, inter-state council, GST Council as a new federal site, Sarkaria/Punchhi flavour. Gender division of labour, women’s political representation, communalism vs secularism, caste in politics — both as social division and as mobilisation. Functions, national vs state parties, challenges (dynasty, money, internal democracy), party system. Need for reform. Accountable government, reduced inequality (incomplete), dignity. Democracy is a process; outcomes vary by citizen quality. Foundational, challenge of expansion, deepening. Legal plus political reforms; over-criminalisation of politics is itself a problem. Functions of a constitution, Indian making process, sources, mode of promulgation. It is a living document. WRIT jurisdiction, reasonable restrictions, expanding Article 21, relationship with DPSPs and duties. FPTP vs PR, reserved seats, free and fair, Election Commission’s powers, electoral reforms (NOTA, VVPATs in CA). Parliamentary executive, PM as real executive, President’s discretionary edges, permanent civil service, bureaucracy’s role. Two Houses, how a bill is passed, instruments of control, decline of debate, anti-defection. Independence, appointments (collegium debate), judicial review, activism vs overreach, tribunals. 73rd/74th, 11th–12th Schedules, remaining weaknesses: funds and parallel bodies. Amendment procedure, basic structure, 42nd/44th, how politics changes the text. Political equality, social justice, national unity, respect for diversity. Limitations and achievements.",
+          "studyWords": 428,
+          "deepReading": [
+            "polity-2"
+          ],
+          "sources": [
+            "keps2"
+          ],
+          "mode": "test"
+        }
+      ]
+    },
+    {
+      "id": "block-3",
+      "title": "Governance & Participation",
+      "icon": "polity",
+      "description": "Map a service-delivery problem and propose an accountable remedy. Build the foundation through the daily notes and use the block companion to connect concepts.",
+      "sources": [
+        "leps2"
+      ],
+      "days": [
+        {
+          "day": 41,
+          "topic": "Rural Administration",
+          "notes": [
+            "Patwari, tehsildar, police station, land records. Administration is the face of the state in the village.",
+            "Key distinctions to retain: Land records; Police; Revenue officials; Access to justice."
+          ],
+          "reading": "Class 6 · Social and Political Life — I: Rural Administration.",
+          "task": "Map a service-delivery problem and propose an accountable remedy. Write five explained points on Rural Administration, then check them against the notes and source reading.",
+          "recall": "Explain Rural Administration in your own words and connect it to Land records.",
+          "recallAnswer": "Patwari, tehsildar, police station, land records. Administration is the face of the state in the village.",
+          "studyWords": 192,
+          "deepReading": [
+            "polity-3"
+          ],
+          "sources": [
+            "leps2"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 42,
+          "topic": "Urban Administration",
+          "notes": [
+            "Municipalities, wards, taxes, water and waste. 74th Amendment is the urban twin of panchayats.",
+            "Key distinctions to retain: Municipal functions; Wards; Urban services; 74th CAA."
+          ],
+          "reading": "Class 6 · Social and Political Life — I: Urban Administration.",
+          "task": "Map a service-delivery problem and propose an accountable remedy. Write five explained points on Urban Administration, then check them against the notes and source reading.",
+          "recall": "Explain Urban Administration in your own words and connect it to Municipal functions.",
+          "recallAnswer": "Municipalities, wards, taxes, water and waste. 74th Amendment is the urban twin of panchayats.",
+          "studyWords": 189,
+          "deepReading": [
+            "polity-3"
+          ],
+          "sources": [
+            "leps2"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 43,
+          "topic": "Rural Livelihoods + Urban Livelihoods",
+          "notes": [
+            "Farm and non-farm work, landless labour, cooperatives. Livelihoods explain why welfare and MGNREGA exist.",
+            "Key distinctions to retain: Small farmers; Labour; Non-farm; Seasonal work.",
+            "Factories, shops, street vendors, gig work. Informal urban work is the majority story.",
+            "Key distinctions to retain: Vendors; Factories; Informal sector; Social security gap."
+          ],
+          "reading": "Class 6 · Social and Political Life — I: Rural Livelihoods. Class 6 · Social and Political Life — I: Urban Livelihoods.",
+          "task": "Map a service-delivery problem and propose an accountable remedy. Write five explained points on Rural Livelihoods, then check them against the notes and source reading. Write five explained points on Urban Livelihoods, then check them against the notes and source reading.",
+          "recall": "Explain Rural Livelihoods in your own words and connect it to Small farmers.",
+          "recallAnswer": "Farm and non-farm work, landless labour, cooperatives. Livelihoods explain why welfare and MGNREGA exist. Factories, shops, street vendors, gig work. Informal urban work is the majority story.",
+          "studyWords": 212,
+          "deepReading": [
+            "polity-3"
+          ],
+          "sources": [
+            "leps2"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 44,
+          "topic": "On Equality",
+          "notes": [
+            "Equality in the Preamble and Article 14–18. Universal Adult Franchise. Midday meal as equality in practice. Inequality persists; law is a tool.",
+            "Key distinctions to retain: One person one vote; Untouchability abolished; Article 15; Implementation gap."
+          ],
+          "reading": "Class 7 · Social and Political Life — II: On Equality.",
+          "task": "Map a service-delivery problem and propose an accountable remedy. Write five explained points on On Equality, then check them against the notes and source reading.",
+          "recall": "Explain On Equality in your own words and connect it to One person one vote.",
+          "recallAnswer": "Equality in the Preamble and Article 14–18. Universal Adult Franchise. Midday meal as equality in practice. Inequality persists; law is a tool.",
+          "studyWords": 200,
+          "deepReading": [
+            "polity-3"
+          ],
+          "sources": [
+            "leps2"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 45,
+          "topic": "Role of the Government in Health + Understanding Media",
+          "notes": [
+            "Public vs private health, Kerala-type public investment vs out-of-pocket spend. Health is a governance outcome.",
+            "Key distinctions to retain: Public facilities; Private care costs; PHCs; Right to health debate.",
+            "Media sets agenda, needs money, can be biased. Democracy needs independent information and media literacy.",
+            "Key distinctions to retain: Agenda setting; Ownership; Censorship vs freedom; Social media."
+          ],
+          "reading": "Class 7 · Social and Political Life — II: Role of the Government in Health. Class 7 · Social and Political Life — II: Understanding Media.",
+          "task": "Map a service-delivery problem and propose an accountable remedy. Write five explained points on Role of the Government in Health, then check them against the notes and source reading. Write five explained points on Understanding Media, then check them against the notes and source reading.",
+          "recall": "Explain Role of the Government in Health in your own words and connect it to Public facilities.",
+          "recallAnswer": "Public vs private health, Kerala-type public investment vs out-of-pocket spend. Health is a governance outcome. Media sets agenda, needs money, can be biased. Democracy needs independent information and media literacy.",
+          "studyWords": 220,
+          "deepReading": [
+            "polity-3"
+          ],
+          "sources": [
+            "leps2"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 46,
+          "topic": "Struggles for Equality",
+          "notes": [
+            "Movements use the Constitution. Tawa Matsya Sangh-type examples: organisation + rights language.",
+            "Key distinctions to retain: Social movements; Constitution as resource; Collective action; Dignity."
+          ],
+          "reading": "Class 7 · Social and Political Life — II: Struggles for Equality.",
+          "task": "Map a service-delivery problem and propose an accountable remedy. Write five explained points on Struggles for Equality, then check them against the notes and source reading.",
+          "recall": "Explain Struggles for Equality in your own words and connect it to Social movements.",
+          "recallAnswer": "Movements use the Constitution. Tawa Matsya Sangh-type examples: organisation + rights language.",
+          "studyWords": 188,
+          "deepReading": [
+            "polity-3"
+          ],
+          "sources": [
+            "leps2"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 47,
+          "topic": "Revision I: Governance & Participation",
+          "notes": [
+            "Rural Livelihoods: Farm and non-farm work, landless labour, cooperatives. Livelihoods explain why welfare and MGNREGA exist.",
+            "Urban Livelihoods: Factories, shops, street vendors, gig work. Informal urban work is the majority story.",
+            "On Equality: Equality in the Preamble and Article 14–18. Universal Adult Franchise. Midday meal as equality in practice. Inequality persists; law is a tool.",
+            "Role of the Government in Health: Public vs private health, Kerala-type public investment vs out-of-pocket spend. Health is a governance outcome.",
+            "Understanding Media: Media sets agenda, needs money, can be biased. Democracy needs independent information and media literacy.",
+            "Struggles for Equality: Movements use the Constitution. Tawa Matsya Sangh-type examples: organisation + rights language."
+          ],
+          "reading": "Revisit your notes for Rural Livelihoods; Urban Livelihoods; On Equality; Role of the Government in Health; Understanding Media; Struggles for Equality. Re-read the assigned source sections only where your recall is weak.",
+          "task": "Close the notes and reconstruct the main distinctions from the last 6 topics. Map a service-delivery problem and propose an accountable remedy. Then compare your work with the material below.",
+          "recall": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+          "recallAnswer": "Farm and non-farm work, landless labour, cooperatives. Livelihoods explain why welfare and MGNREGA exist. Factories, shops, street vendors, gig work. Informal urban work is the majority story. Equality in the Preamble and Article 14–18. Universal Adult Franchise. Midday meal as equality in practice. Inequality persists; law is a tool. Public vs private health, Kerala-type public investment vs out-of-pocket spend. Health is a governance outcome. Media sets agenda, needs money, can be biased. Democracy needs independent information and media literacy. Movements use the Constitution. Tawa Matsya Sangh-type examples: organisation + rights language.",
+          "studyWords": 272,
+          "deepReading": [
+            "polity-3"
+          ],
+          "sources": [
+            "leps2"
+          ],
+          "mode": "revision"
+        },
+        {
+          "day": 48,
+          "topic": "Understanding Our Criminal Justice System + Public Facilities",
+          "notes": [
+            "Police, public prosecutor, defence, judge. FIR, investigation, fair trial. Article 22 and rights of accused.",
+            "Key distinctions to retain: FIR; Roles; Fair trial; Rights of accused.",
+            "Water, health, sanitation as public goods. Who provides, who pays, who is excluded. Chennai water as a case of urban stress.",
+            "Key distinctions to retain: Public goods; Water; Sanitation; Equity."
+          ],
+          "reading": "Class 8 · Social and Political Life — III: Understanding Our Criminal Justice System. Class 8 · Social and Political Life — III: Public Facilities.",
+          "task": "Map a service-delivery problem and propose an accountable remedy. Write five explained points on Understanding Our Criminal Justice System, then check them against the notes and source reading. Write five explained points on Public Facilities, then check them against the notes and source reading.",
+          "recall": "Explain Understanding Our Criminal Justice System in your own words and connect it to FIR.",
+          "recallAnswer": "Police, public prosecutor, defence, judge. FIR, investigation, fair trial. Article 22 and rights of accused. Water, health, sanitation as public goods. Who provides, who pays, who is excluded. Chennai water as a case of urban stress.",
+          "studyWords": 220,
+          "deepReading": [
+            "polity-3"
+          ],
+          "sources": [
+            "leps2"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 49,
+          "topic": "Law and Social Justice",
+          "notes": [
+            "Why markets need labour and environment laws. Bhopal as a warning on enforcement. Minimum wages, safety.",
+            "Key distinctions to retain: Why regulate; Workers’ laws; Environment law; Enforcement gap."
+          ],
+          "reading": "Class 8 · Social and Political Life — III: Law and Social Justice.",
+          "task": "Map a service-delivery problem and propose an accountable remedy. Write five explained points on Law and Social Justice, then check them against the notes and source reading.",
+          "recall": "Explain Law and Social Justice in your own words and connect it to Why regulate.",
+          "recallAnswer": "Why markets need labour and environment laws. Bhopal as a warning on enforcement. Minimum wages, safety.",
+          "studyWords": 192,
+          "deepReading": [
+            "polity-3"
+          ],
+          "sources": [
+            "leps2"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 50,
+          "topic": "Challenges of Nation-Building",
+          "notes": [
+            "Partition, integration of states, linguistic reorganisation. Nehru’s project of unity and planned development.",
+            "Key distinctions to retain: Partition; Princely states; States Reorganisation; Nation-building."
+          ],
+          "reading": "Class 12 · Politics in India since Independence + Contemporary World Politics (selected): Challenges of Nation-Building.",
+          "task": "Map a service-delivery problem and propose an accountable remedy. Write five explained points on Challenges of Nation-Building, then check them against the notes and source reading.",
+          "recall": "Explain Challenges of Nation-Building in your own words and connect it to Partition.",
+          "recallAnswer": "Partition, integration of states, linguistic reorganisation. Nehru’s project of unity and planned development.",
+          "studyWords": 187,
+          "deepReading": [
+            "polity-3"
+          ],
+          "sources": [
+            "leps2"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 51,
+          "topic": "Era of One-party Dominance + Politics of Planned Development",
+          "notes": [
+            "Congress system, opposition, 1952–67 elections. Dominance was electoral, not the absence of democracy.",
+            "Key distinctions to retain: Congress system; Opposition; 1952–67; Kothari idea.",
+            "Planning Commission, mixed economy, dams and industry as temples, land reforms mixed record.",
+            "Key distinctions to retain: Plans; Public sector; Land reform; Debate on model."
+          ],
+          "reading": "Class 12 · Politics in India since Independence + Contemporary World Politics (selected): Era of One-party Dominance. Class 12 · Politics in India since Independence + Contemporary World Politics (selected): Politics of Planned Development.",
+          "task": "Map a service-delivery problem and propose an accountable remedy. Write five explained points on Era of One-party Dominance, then check them against the notes and source reading. Write five explained points on Politics of Planned Development, then check them against the notes and source reading.",
+          "recall": "Explain Era of One-party Dominance in your own words and connect it to Congress system.",
+          "recallAnswer": "Congress system, opposition, 1952–67 elections. Dominance was electoral, not the absence of democracy. Planning Commission, mixed economy, dams and industry as temples, land reforms mixed record.",
+          "studyWords": 212,
+          "deepReading": [
+            "polity-3"
+          ],
+          "sources": [
+            "leps2"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 52,
+          "topic": "India’s External Relations",
+          "notes": [
+            "NAM, Panchsheel, 1962/1965/1971, nuclear 1974, look-east later CA. Foreign policy as GS-II.",
+            "Key distinctions to retain: NAM; Neighbours; Wars; Nuclear."
+          ],
+          "reading": "Class 12 · Politics in India since Independence + Contemporary World Politics (selected): India’s External Relations.",
+          "task": "Map a service-delivery problem and propose an accountable remedy. Write five explained points on India’s External Relations, then check them against the notes and source reading.",
+          "recall": "Explain India’s External Relations in your own words and connect it to NAM.",
+          "recallAnswer": "NAM, Panchsheel, 1962/1965/1971, nuclear 1974, look-east later CA. Foreign policy as GS-II.",
+          "studyWords": 184,
+          "deepReading": [
+            "polity-3"
+          ],
+          "sources": [
+            "leps2"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 53,
+          "topic": "Challenges to and Restoration of the Congress System + The Crisis of Democratic Order",
+          "notes": [
+            "1967, splits, 1971, populism. From dominance to competition.",
+            "Key distinctions to retain: 1967; Split; Garibi Hatao; Realignment.",
+            "JP movement, Emergency 1975–77, 42nd Amendment, lessons for constitutionalism. Handle factually.",
+            "Key distinctions to retain: Emergency; Rights suspended; 42nd vs 44th; Lessons."
+          ],
+          "reading": "Class 12 · Politics in India since Independence + Contemporary World Politics (selected): Challenges to and Restoration of the Congress System. Class 12 · Politics in India since Independence + Contemporary World Politics (selected): The Crisis of Democratic Order.",
+          "task": "Map a service-delivery problem and propose an accountable remedy. Write five explained points on Challenges to and Restoration of the Congress System, then check them against the notes and source reading. Write five explained points on The Crisis of Democratic Order, then check them against the notes and source reading.",
+          "recall": "Explain Challenges to and Restoration of the Congress System in your own words and connect it to 1967.",
+          "recallAnswer": "1967, splits, 1971, populism. From dominance to competition. JP movement, Emergency 1975–77, 42nd Amendment, lessons for constitutionalism. Handle factually.",
+          "studyWords": 203,
+          "deepReading": [
+            "polity-3"
+          ],
+          "sources": [
+            "leps2"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 54,
+          "topic": "Revision II: Governance & Participation",
+          "notes": [
+            "Challenges of Nation-Building: Partition, integration of states, linguistic reorganisation. Nehru’s project of unity and planned development.",
+            "Era of One-party Dominance: Congress system, opposition, 1952–67 elections. Dominance was electoral, not the absence of democracy.",
+            "Politics of Planned Development: Planning Commission, mixed economy, dams and industry as temples, land reforms mixed record.",
+            "India’s External Relations: NAM, Panchsheel, 1962/1965/1971, nuclear 1974, look-east later CA. Foreign policy as GS-II.",
+            "Challenges to and Restoration of the Congress System: 1967, splits, 1971, populism. From dominance to competition.",
+            "The Crisis of Democratic Order: JP movement, Emergency 1975–77, 42nd Amendment, lessons for constitutionalism. Handle factually."
+          ],
+          "reading": "Revisit your notes for Challenges of Nation-Building; Era of One-party Dominance; Politics of Planned Development; India’s External Relations; Challenges to and Restoration of the Congress System; The Crisis of Democratic Order. Re-read the assigned source sections only where your recall is weak.",
+          "task": "Close the notes and reconstruct the main distinctions from the last 6 topics. Map a service-delivery problem and propose an accountable remedy. Then compare your work with the material below.",
+          "recall": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+          "recallAnswer": "Partition, integration of states, linguistic reorganisation. Nehru’s project of unity and planned development. Congress system, opposition, 1952–67 elections. Dominance was electoral, not the absence of democracy. Planning Commission, mixed economy, dams and industry as temples, land reforms mixed record. NAM, Panchsheel, 1962/1965/1971, nuclear 1974, look-east later CA. Foreign policy as GS-II. 1967, splits, 1971, populism. From dominance to competition. JP movement, Emergency 1975–77, 42nd Amendment, lessons for constitutionalism. Handle factually.",
+          "studyWords": 261,
+          "deepReading": [
+            "polity-3"
+          ],
+          "sources": [
+            "leps2"
+          ],
+          "mode": "revision"
+        },
+        {
+          "day": 55,
+          "topic": "Rise of Popular Movements",
+          "notes": [
+            "Chipko, Dalit Panthers, farmers, women, NBA. Movements as extra-parliamentary democracy.",
+            "Key distinctions to retain: Environment; Dalit; Farmers; Women."
+          ],
+          "reading": "Class 12 · Politics in India since Independence + Contemporary World Politics (selected): Rise of Popular Movements.",
+          "task": "Map a service-delivery problem and propose an accountable remedy. Write five explained points on Rise of Popular Movements, then check them against the notes and source reading.",
+          "recall": "Explain Rise of Popular Movements in your own words and connect it to Environment.",
+          "recallAnswer": "Chipko, Dalit Panthers, farmers, women, NBA. Movements as extra-parliamentary democracy.",
+          "studyWords": 182,
+          "deepReading": [
+            "polity-3"
+          ],
+          "sources": [
+            "leps2"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 56,
+          "topic": "Regional Aspirations + Recent Developments in Indian Politics",
+          "notes": [
+            "Punjab, North-East, Jammu & Kashmir, Dravidian politics, Jharkhand–Chhattisgarh–Uttarakhand. Accommodation vs insurgency.",
+            "Key distinctions to retain: Punjab; NE; JK (historical syllabus); Statehood.",
+            "Mandal, mandir, coalition era, 2014 majority politics, GST and federal bargaining as CA overlay. Keep analytical, not partisan.",
+            "Key distinctions to retain: Mandal; Coalitions; Economic reforms politics; New majority phase."
+          ],
+          "reading": "Class 12 · Politics in India since Independence + Contemporary World Politics (selected): Regional Aspirations. Class 12 · Politics in India since Independence + Contemporary World Politics (selected): Recent Developments in Indian Politics.",
+          "task": "Map a service-delivery problem and propose an accountable remedy. Write five explained points on Regional Aspirations, then check them against the notes and source reading. Write five explained points on Recent Developments in Indian Politics, then check them against the notes and source reading.",
+          "recall": "Explain Regional Aspirations in your own words and connect it to Punjab.",
+          "recallAnswer": "Punjab, North-East, Jammu & Kashmir, Dravidian politics, Jharkhand–Chhattisgarh–Uttarakhand. Accommodation vs insurgency. Mandal, mandir, coalition era, 2014 majority politics, GST and federal bargaining as CA overlay. Keep analytical, not partisan.",
+          "studyWords": 215,
+          "deepReading": [
+            "polity-3"
+          ],
+          "sources": [
+            "leps2"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 57,
+          "topic": "Cold War and NAM (world politics)",
+          "notes": [
+            "Bipolarity, NAM’s space, UN, arms race. Useful for IR theory in GS-II.",
+            "Key distinctions to retain: Bipolarity; NAM; UN; Arenas of Cold War."
+          ],
+          "reading": "Class 12 · Politics in India since Independence + Contemporary World Politics (selected): Cold War and NAM (world politics).",
+          "task": "Map a service-delivery problem and propose an accountable remedy. Write five explained points on Cold War and NAM (world politics), then check them against the notes and source reading.",
+          "recall": "Explain Cold War and NAM (world politics) in your own words and connect it to Bipolarity.",
+          "recallAnswer": "Bipolarity, NAM’s space, UN, arms race. Useful for IR theory in GS-II.",
+          "studyWords": 187,
+          "deepReading": [
+            "polity-3"
+          ],
+          "sources": [
+            "leps2"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 58,
+          "topic": "US Hegemony & Alternative centres + UN and Security in the Contemporary World",
+          "notes": [
+            "Post-1991, EU, ASEAN, China, BRICS, multipolar talk. Read with current QUAD/BRICS news.",
+            "Key distinctions to retain: Hegemony; EU/ASEAN; China; Multilateralism.",
+            "UN organs, reform debate, new security (terrorism, human security, environment).",
+            "Key distinctions to retain: UNSC reform; Peacekeeping; New threats; India’s claim."
+          ],
+          "reading": "Class 12 · Politics in India since Independence + Contemporary World Politics (selected): US Hegemony & Alternative centres. Class 12 · Politics in India since Independence + Contemporary World Politics (selected): UN and Security in the Contemporary World.",
+          "task": "Map a service-delivery problem and propose an accountable remedy. Write five explained points on US Hegemony & Alternative centres, then check them against the notes and source reading. Write five explained points on UN and Security in the Contemporary World, then check them against the notes and source reading.",
+          "recall": "Explain US Hegemony & Alternative centres in your own words and connect it to Hegemony.",
+          "recallAnswer": "Post-1991, EU, ASEAN, China, BRICS, multipolar talk. Read with current QUAD/BRICS news. UN organs, reform debate, new security (terrorism, human security, environment).",
+          "studyWords": 205,
+          "deepReading": [
+            "polity-3"
+          ],
+          "sources": [
+            "leps2"
+          ],
+          "mode": "reading"
+        },
+        {
+          "day": 59,
+          "topic": "Governance & Participation: synthesis",
+          "notes": [
+            "Rise of Popular Movements: Chipko, Dalit Panthers, farmers, women, NBA. Movements as extra-parliamentary democracy.",
+            "Regional Aspirations: Punjab, North-East, Jammu & Kashmir, Dravidian politics, Jharkhand–Chhattisgarh–Uttarakhand. Accommodation vs insurgency.",
+            "Recent Developments in Indian Politics: Mandal, mandir, coalition era, 2014 majority politics, GST and federal bargaining as CA overlay. Keep analytical, not partisan.",
+            "Cold War and NAM (world politics): Bipolarity, NAM’s space, UN, arms race. Useful for IR theory in GS-II.",
+            "US Hegemony & Alternative centres: Post-1991, EU, ASEAN, China, BRICS, multipolar talk. Read with current QUAD/BRICS news.",
+            "UN and Security in the Contemporary World: UN organs, reform debate, new security (terrorism, human security, environment)."
+          ],
+          "reading": "Revisit your notes for Rise of Popular Movements; Regional Aspirations; Recent Developments in Indian Politics; Cold War and NAM (world politics); US Hegemony & Alternative centres; UN and Security in the Contemporary World. Re-read the assigned source sections only where your recall is weak.",
+          "task": "Close the notes and reconstruct the main distinctions from the last 6 topics. Map a service-delivery problem and propose an accountable remedy. Then compare your work with the material below.",
+          "recall": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+          "recallAnswer": "Chipko, Dalit Panthers, farmers, women, NBA. Movements as extra-parliamentary democracy. Punjab, North-East, Jammu & Kashmir, Dravidian politics, Jharkhand–Chhattisgarh–Uttarakhand. Accommodation vs insurgency. Mandal, mandir, coalition era, 2014 majority politics, GST and federal bargaining as CA overlay. Keep analytical, not partisan. Bipolarity, NAM’s space, UN, arms race. Useful for IR theory in GS-II. Post-1991, EU, ASEAN, China, BRICS, multipolar talk. Read with current QUAD/BRICS news. UN organs, reform debate, new security (terrorism, human security, environment).",
+          "studyWords": 266,
+          "deepReading": [
+            "polity-3"
+          ],
+          "sources": [
+            "leps2"
+          ],
+          "mode": "revision"
+        },
+        {
+          "day": 60,
+          "topic": "Governance & Participation: assessment & repair",
+          "notes": [
+            "Struggles for Equality: Movements use the Constitution. Tawa Matsya Sangh-type examples: organisation + rights language.",
+            "Understanding Our Criminal Justice System: Police, public prosecutor, defence, judge. FIR, investigation, fair trial. Article 22 and rights of accused.",
+            "Public Facilities: Water, health, sanitation as public goods. Who provides, who pays, who is excluded. Chennai water as a case of urban stress.",
+            "Law and Social Justice: Why markets need labour and environment laws. Bhopal as a warning on enforcement. Minimum wages, safety.",
+            "Challenges of Nation-Building: Partition, integration of states, linguistic reorganisation. Nehru’s project of unity and planned development.",
+            "Era of One-party Dominance: Congress system, opposition, 1952–67 elections. Dominance was electoral, not the absence of democracy.",
+            "Politics of Planned Development: Planning Commission, mixed economy, dams and industry as temples, land reforms mixed record.",
+            "India’s External Relations: NAM, Panchsheel, 1962/1965/1971, nuclear 1974, look-east later CA. Foreign policy as GS-II.",
+            "Challenges to and Restoration of the Congress System: 1967, splits, 1971, populism. From dominance to competition.",
+            "The Crisis of Democratic Order: JP movement, Emergency 1975–77, 42nd Amendment, lessons for constitutionalism. Handle factually.",
+            "Rise of Popular Movements: Chipko, Dalit Panthers, farmers, women, NBA. Movements as extra-parliamentary democracy.",
+            "Regional Aspirations: Punjab, North-East, Jammu & Kashmir, Dravidian politics, Jharkhand–Chhattisgarh–Uttarakhand. Accommodation vs insurgency.",
+            "Recent Developments in Indian Politics: Mandal, mandir, coalition era, 2014 majority politics, GST and federal bargaining as CA overlay. Keep analytical, not partisan.",
+            "Cold War and NAM (world politics): Bipolarity, NAM’s space, UN, arms race. Useful for IR theory in GS-II.",
+            "US Hegemony & Alternative centres: Post-1991, EU, ASEAN, China, BRICS, multipolar talk. Read with current QUAD/BRICS news.",
+            "UN and Security in the Contemporary World: UN organs, reform debate, new security (terrorism, human security, environment)."
+          ],
+          "reading": "Revisit your notes for Struggles for Equality; Understanding Our Criminal Justice System; Public Facilities; Law and Social Justice; Challenges of Nation-Building; Era of One-party Dominance; Politics of Planned Development; India’s External Relations; Challenges to and Restoration of the Congress System; The Crisis of Democratic Order; Rise of Popular Movements; Regional Aspirations; Recent Developments in Indian Politics; Cold War and NAM (world politics); US Hegemony & Alternative centres; UN and Security in the Contemporary World. Re-read the assigned source sections only where your recall is weak.",
+          "task": "Use the official-paper link or your question bank for a timed 20-question topic test and one short answer. Mark the gaps, explain your errors and schedule a second recall attempt.",
+          "recall": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+          "recallAnswer": "Movements use the Constitution. Tawa Matsya Sangh-type examples: organisation + rights language. Police, public prosecutor, defence, judge. FIR, investigation, fair trial. Article 22 and rights of accused. Water, health, sanitation as public goods. Who provides, who pays, who is excluded. Chennai water as a case of urban stress. Why markets need labour and environment laws. Bhopal as a warning on enforcement. Minimum wages, safety. Partition, integration of states, linguistic reorganisation. Nehru’s project of unity and planned development. Congress system, opposition, 1952–67 elections. Dominance was electoral, not the absence of democracy. Planning Commission, mixed economy, dams and industry as temples, land reforms mixed record. NAM, Panchsheel, 1962/1965/1971, nuclear 1974, look-east later CA. Foreign policy as GS-II. 1967, splits, 1971, populism. From dominance to competition. JP movement, Emergency 1975–77, 42nd Amendment, lessons for constitutionalism. Handle factually. Chipko, Dalit Panthers, farmers, women, NBA. Movements as extra-parliamentary democracy. Punjab, North-East, Jammu & Kashmir, Dravidian politics, Jharkhand–Chhattisgarh–Uttarakhand. Accommodation vs insurgency. Mandal, mandir, coalition era, 2014 majority politics, GST and federal bargaining as CA overlay. Keep analytical, not partisan. Bipolarity, NAM’s space, UN, arms race. Useful for IR theory in GS-II. Post-1991, EU, ASEAN, China, BRICS, multipolar talk. Read with current QUAD/BRICS news. UN organs, reform debate, new security (terrorism, human security, environment).",
+          "studyWords": 441,
+          "deepReading": [
+            "polity-3"
+          ],
+          "sources": [
+            "leps2"
+          ],
+          "mode": "test"
+        }
+      ]
+    }
+  ],
+  "dossiers": {
+    "polity-1": {
+      "title": "Constitutional foundations: authority with limits",
+      "sections": [
+        {
+          "heading": "Why a constitution matters",
+          "text": "A constitution establishes institutions, distributes power and expresses commitments about political life. Constitutionalism adds the idea that power should be limited and accountable. A written document alone cannot guarantee that idea in practice. Ask how rules, courts, representation and public conduct make authority answerable, and how citizens can seek a remedy when a commitment is violated."
+        },
+        {
+          "heading": "Connect rights and social conditions",
+          "text": "Formal equality means little if people cannot access institutions or challenge discrimination. Distinguish equal legal status from measures intended to address disadvantage. Fundamental rights, directive principles and duties have different constitutional roles; they should not be treated as one interchangeable list. Use the official constitutional text to check wording and provisions rather than relying on a remembered slogan."
+        },
+        {
+          "heading": "Explain democracy beyond an election",
+          "text": "Elections enable selection and removal of representatives, but democracy also needs public reasoning, accountability, liberties and participation between elections. Diversity does not automatically lead to conflict: institutions can accommodate differences through representation and power-sharing. A good answer explains how a mechanism works and recognises its limitations instead of merely calling an institution democratic."
+        }
+      ],
+      "comparison": {
+        "headers": [
+          "Concept",
+          "Distinction",
+          "Application"
+        ],
+        "rows": [
+          [
+            "Constitution",
+            "Basic institutional and normative framework",
+            "Read the text and context."
+          ],
+          [
+            "Constitutionalism",
+            "Limits on arbitrary power",
+            "A question of practice as well as form."
+          ],
+          [
+            "Equality",
+            "Equal status and protection",
+            "Examine barriers to effective access."
+          ],
+          [
+            "Representation",
+            "Acting politically on behalf of others",
+            "Accountability must continue after election."
+          ]
+        ]
+      },
+      "terms": [
+        {
+          "term": "Rule of law",
+          "meaning": "Public power exercised through law rather than arbitrary will."
+        },
+        {
+          "term": "Liberty",
+          "meaning": "Protected freedom subject to the constitutional framework."
+        },
+        {
+          "term": "Secularism",
+          "meaning": "An approach to state–religion relations and equal citizenship."
+        }
+      ],
+      "timelineTitle": "Reason through the topic",
+      "timeline": [
+        {
+          "date": "Identify",
+          "event": "Which value or constitutional provision is involved?"
+        },
+        {
+          "date": "Distinguish",
+          "event": "What kind of obligation or protection does it create?"
+        },
+        {
+          "date": "Apply",
+          "event": "How does it affect the concrete situation?"
+        }
+      ],
+      "trap": "Having elections is necessary for electoral democracy but does not settle every question about its quality.",
+      "practice": {
+        "question": "How can equal treatment and support for disadvantaged groups be compatible?",
+        "answer": "Identical treatment can preserve unequal starting conditions. Carefully designed measures can improve substantive access while remaining subject to constitutional justification, limits and review."
+      },
+      "mcq": [
+        "Which statement best describes constitutionalism?",
+        [
+          "A very long constitution",
+          "Government power limited by an accountable framework",
+          "Rule by any elected majority without limits",
+          "Only the existence of courts"
+        ],
+        1,
+        "Constitutionalism concerns limits and accountability, not merely the length or written form of a document."
+      ]
+    },
+    "polity-2": {
+      "title": "Institutions: separate functions, shared accountability",
+      "sections": [
+        {
+          "heading": "Follow the decision through institutions",
+          "text": "Instead of memorising an office in isolation, trace how a public decision is proposed, authorised, implemented and reviewed. Legislatures deliberate and authorise; executives administer; courts decide legal disputes and review according to their jurisdiction. Their functions overlap in defined ways. The presence of overlap does not mean there are no limits or that each institution can assume every role."
+        },
+        {
+          "heading": "Distinguish responsibility and independence",
+          "text": "Political executives in a parliamentary system are answerable through legislative mechanisms, while permanent administration operates under a different set of responsibilities. Judicial independence protects adjudication from improper pressure, but is not a claim that judicial institutions are beyond all accountability. Explain the particular mechanism—questions, committees, financial scrutiny or reasoned judgments—rather than simply praising checks and balances."
+        },
+        {
+          "heading": "Read federal relations in context",
+          "text": "Federalism distributes authority across levels of government. Legislative competence, administrative cooperation and fiscal resources are distinct dimensions. A function assigned on paper may be difficult to perform without staff or funds. Conflicts should be analysed through institutional arrangements and constitutional procedures. Verify current provisions and judgments before adding contemporary legal claims to an exam answer."
+        }
+      ],
+      "comparison": {
+        "headers": [
+          "Concept",
+          "Distinction",
+          "Application"
+        ],
+        "rows": [
+          [
+            "Legislature",
+            "Deliberation, law and scrutiny",
+            "Different procedures serve different purposes."
+          ],
+          [
+            "Executive",
+            "Implementation and political direction",
+            "Separate temporary leadership from permanent administration."
+          ],
+          [
+            "Judiciary",
+            "Adjudication and legal review",
+            "Jurisdiction and remedies matter."
+          ],
+          [
+            "Federalism",
+            "Distribution of authority across levels",
+            "Finance affects practical autonomy."
+          ]
+        ]
+      },
+      "terms": [
+        {
+          "term": "Collective responsibility",
+          "meaning": "A shared political responsibility of a council of ministers within the parliamentary framework."
+        },
+        {
+          "term": "Judicial review",
+          "meaning": "Review of public action against applicable legal standards."
+        },
+        {
+          "term": "Delegation",
+          "meaning": "Authority entrusted for a defined purpose within limits."
+        }
+      ],
+      "timelineTitle": "Reason through the topic",
+      "timeline": [
+        {
+          "date": "Authority",
+          "event": "Identify the competent institution."
+        },
+        {
+          "date": "Procedure",
+          "event": "Check how the decision is made."
+        },
+        {
+          "date": "Review",
+          "event": "Identify scrutiny, remedies and accountability."
+        }
+      ],
+      "trap": "Institutional independence and absence of accountability are not synonyms.",
+      "practice": {
+        "question": "Why can a legislative committee add value beyond a floor debate?",
+        "answer": "Committees can examine detailed evidence, question officials and scrutinise specific subjects with continuity. Their value depends on information, deliberation, follow-up and the powers available to them."
+      },
+      "mcq": [
+        "Which approach best examines an institution?",
+        [
+          "Only learn its office-holder",
+          "Trace powers, procedures and accountability",
+          "Assume independence means unlimited power",
+          "Ignore how it is funded"
+        ],
+        1,
+        "Institutions are understood through what they can do, how they act and how their actions are scrutinised."
+      ]
+    },
+    "polity-3": {
+      "title": "Governance: turn a right into a working service",
+      "sections": [
+        {
+          "heading": "The implementation chain",
+          "text": "A policy announcement is not the same as service delivery. Trace eligibility, application, verification, decision, payment or provision, and grievance resolution. Each step may exclude people through distance, documentation, language or discretion. Distinguish the legal promise, administrative design and actual outcome. An effective answer specifies where the failure occurs before proposing a reform."
+        },
+        {
+          "heading": "Local government and participation",
+          "text": "Decentralisation can improve responsiveness when functions, funds and staff support one another. Merely creating an elected local body does not ensure meaningful authority. Participation should include people who have less time, literacy or social influence. Public meetings, disclosure and social audit can help, but their effectiveness depends on access to information and a response to the issues raised."
+        },
+        {
+          "heading": "Technology is one part of the system",
+          "text": "Digitisation may reduce repeated paperwork and improve tracking, but can also create exclusion when authentication fails or connectivity is poor. Build an assisted or offline route and an appeal mechanism into the design. Accountability requires responsibility and correction, not only a dashboard. Use a citizen’s experience to connect institutional rules with measurable outcomes."
+        }
+      ],
+      "comparison": {
+        "headers": [
+          "Concept",
+          "Distinction",
+          "Application"
+        ],
+        "rows": [
+          [
+            "Output",
+            "An activity or service produced",
+            "For example, applications processed."
+          ],
+          [
+            "Outcome",
+            "A change experienced by people",
+            "For example, improved access to the intended benefit."
+          ],
+          [
+            "Transparency",
+            "Information made accessible",
+            "Does not automatically produce corrective action."
+          ],
+          [
+            "Accountability",
+            "Answerability and consequences or correction",
+            "Needs a functioning response mechanism."
+          ]
+        ]
+      },
+      "terms": [
+        {
+          "term": "Grievance redress",
+          "meaning": "A process for resolving complaints and correcting failures."
+        },
+        {
+          "term": "Social audit",
+          "meaning": "Public examination of implementation with community participation."
+        },
+        {
+          "term": "Decentralisation",
+          "meaning": "Transfer or distribution of functions and authority towards lower levels."
+        }
+      ],
+      "timelineTitle": "Reason through the topic",
+      "timeline": [
+        {
+          "date": "Map",
+          "event": "Follow a citizen through the service."
+        },
+        {
+          "date": "Diagnose",
+          "event": "Locate the source of delay or exclusion."
+        },
+        {
+          "date": "Repair",
+          "event": "Assign action, review and an appeal route."
+        }
+      ],
+      "trap": "A digital service is not accessible merely because it exists online.",
+      "practice": {
+        "question": "A beneficiary is eligible but online authentication repeatedly fails. What should a service design provide?",
+        "answer": "An authorised assisted or alternative verification route, a recorded complaint, time-bound review and protection against arbitrary denial. The objective is both integrity of delivery and meaningful access."
+      },
+      "mcq": [
+        "Which indicator is an outcome rather than a processing output?",
+        [
+          "Number of forms uploaded",
+          "Number of meetings held",
+          "Reduction in eligible households denied a benefit",
+          "Number of circulars issued"
+        ],
+        2,
+        "An outcome measures a change in people’s experience rather than only administrative activity."
+      ]
+    }
+  },
+  "pyqs": [
+    {
+      "segment": "block-1",
+      "stage": "Prelims",
+      "reference": "Original concept check",
+      "prompt": "Which statement best describes constitutionalism?",
+      "options": [
+        "A very long constitution",
+        "Government power limited by an accountable framework",
+        "Rule by any elected majority without limits",
+        "Only the existence of courts"
+      ],
+      "answer": "B — Constitutionalism concerns limits and accountability, not merely the length or written form of a document.",
+      "day": 1,
+      "paper": "GS II"
+    },
+    {
+      "segment": "block-1",
+      "stage": "Mains",
+      "reference": "Original answer-writing exercise",
+      "prompt": "How can equal treatment and support for disadvantaged groups be compatible?",
+      "marks": 10,
+      "words": 150,
+      "answer": "Identical treatment can preserve unequal starting conditions. Carefully designed measures can improve substantive access while remaining subject to constitutional justification, limits and review.",
+      "day": 1,
+      "paper": "GS II"
+    },
+    {
+      "segment": "block-2",
+      "stage": "Prelims",
+      "reference": "Original concept check",
+      "prompt": "Which approach best examines an institution?",
+      "options": [
+        "Only learn its office-holder",
+        "Trace powers, procedures and accountability",
+        "Assume independence means unlimited power",
+        "Ignore how it is funded"
+      ],
+      "answer": "B — Institutions are understood through what they can do, how they act and how their actions are scrutinised.",
+      "day": 21,
+      "paper": "GS II"
+    },
+    {
+      "segment": "block-2",
+      "stage": "Mains",
+      "reference": "Original answer-writing exercise",
+      "prompt": "Why can a legislative committee add value beyond a floor debate?",
+      "marks": 10,
+      "words": 150,
+      "answer": "Committees can examine detailed evidence, question officials and scrutinise specific subjects with continuity. Their value depends on information, deliberation, follow-up and the powers available to them.",
+      "day": 21,
+      "paper": "GS II"
+    },
+    {
+      "segment": "block-3",
+      "stage": "Prelims",
+      "reference": "Original concept check",
+      "prompt": "Which indicator is an outcome rather than a processing output?",
+      "options": [
+        "Number of forms uploaded",
+        "Number of meetings held",
+        "Reduction in eligible households denied a benefit",
+        "Number of circulars issued"
+      ],
+      "answer": "C — An outcome measures a change in people’s experience rather than only administrative activity.",
+      "day": 41,
+      "paper": "GS II"
+    },
+    {
+      "segment": "block-3",
+      "stage": "Mains",
+      "reference": "Original answer-writing exercise",
+      "prompt": "A beneficiary is eligible but online authentication repeatedly fails. What should a service design provide?",
+      "marks": 10,
+      "words": 150,
+      "answer": "An authorised assisted or alternative verification route, a recorded complaint, time-bound review and protection against arbitrary denial. The objective is both integrity of delivery and meaningful access.",
+      "day": 41,
+      "paper": "GS II"
+    }
+  ],
+  "readers": {
+    "block-1": [
+      [
+        "Political Theory — chapter 1",
+        "keps101",
+        "https://ncert.nic.in/textbook/pdf/keps101.pdf"
+      ],
+      [
+        "Political Theory — chapter 2",
+        "keps102",
+        "https://ncert.nic.in/textbook/pdf/keps102.pdf"
+      ],
+      [
+        "Political Theory — chapter 3",
+        "keps103",
+        "https://ncert.nic.in/textbook/pdf/keps103.pdf"
+      ],
+      [
+        "Political Theory — chapter 4",
+        "keps104",
+        "https://ncert.nic.in/textbook/pdf/keps104.pdf"
+      ],
+      [
+        "Political Theory — chapter 5",
+        "keps105",
+        "https://ncert.nic.in/textbook/pdf/keps105.pdf"
+      ],
+      [
+        "Political Theory — chapter 6",
+        "keps106",
+        "https://ncert.nic.in/textbook/pdf/keps106.pdf"
+      ],
+      [
+        "Political Theory — chapter 7",
+        "keps107",
+        "https://ncert.nic.in/textbook/pdf/keps107.pdf"
+      ],
+      [
+        "Political Theory — chapter 8",
+        "keps108",
+        "https://ncert.nic.in/textbook/pdf/keps108.pdf"
+      ],
+      [
+        "Democratic Politics — chapter 1",
+        "jess401",
+        "https://ncert.nic.in/textbook/pdf/jess401.pdf"
+      ],
+      [
+        "Democratic Politics — chapter 2",
+        "jess402",
+        "https://ncert.nic.in/textbook/pdf/jess402.pdf"
+      ],
+      [
+        "Democratic Politics — chapter 3",
+        "jess403",
+        "https://ncert.nic.in/textbook/pdf/jess403.pdf"
+      ],
+      [
+        "Democratic Politics — chapter 4",
+        "jess404",
+        "https://ncert.nic.in/textbook/pdf/jess404.pdf"
+      ],
+      [
+        "Democratic Politics — chapter 5",
+        "jess405",
+        "https://ncert.nic.in/textbook/pdf/jess405.pdf"
+      ]
+    ],
+    "block-2": [
+      [
+        "India Constitution at Work — chapter 1",
+        "keps201",
+        "https://ncert.nic.in/textbook/pdf/keps201.pdf"
+      ],
+      [
+        "India Constitution at Work — chapter 2",
+        "keps202",
+        "https://ncert.nic.in/textbook/pdf/keps202.pdf"
+      ],
+      [
+        "India Constitution at Work — chapter 3",
+        "keps203",
+        "https://ncert.nic.in/textbook/pdf/keps203.pdf"
+      ],
+      [
+        "India Constitution at Work — chapter 4",
+        "keps204",
+        "https://ncert.nic.in/textbook/pdf/keps204.pdf"
+      ],
+      [
+        "India Constitution at Work — chapter 5",
+        "keps205",
+        "https://ncert.nic.in/textbook/pdf/keps205.pdf"
+      ],
+      [
+        "India Constitution at Work — chapter 6",
+        "keps206",
+        "https://ncert.nic.in/textbook/pdf/keps206.pdf"
+      ],
+      [
+        "India Constitution at Work — chapter 7",
+        "keps207",
+        "https://ncert.nic.in/textbook/pdf/keps207.pdf"
+      ],
+      [
+        "India Constitution at Work — chapter 8",
+        "keps208",
+        "https://ncert.nic.in/textbook/pdf/keps208.pdf"
+      ],
+      [
+        "India Constitution at Work — chapter 9",
+        "keps209",
+        "https://ncert.nic.in/textbook/pdf/keps209.pdf"
+      ],
+      [
+        "India Constitution at Work — chapter 10",
+        "keps210",
+        "https://ncert.nic.in/textbook/pdf/keps210.pdf"
+      ]
+    ],
+    "block-3": [
+      [
+        "Politics in India Since Independence — chapter 1",
+        "leps201",
+        "https://ncert.nic.in/textbook/pdf/leps201.pdf"
+      ],
+      [
+        "Politics in India Since Independence — chapter 2",
+        "leps202",
+        "https://ncert.nic.in/textbook/pdf/leps202.pdf"
+      ],
+      [
+        "Politics in India Since Independence — chapter 3",
+        "leps203",
+        "https://ncert.nic.in/textbook/pdf/leps203.pdf"
+      ],
+      [
+        "Politics in India Since Independence — chapter 4",
+        "leps204",
+        "https://ncert.nic.in/textbook/pdf/leps204.pdf"
+      ],
+      [
+        "Politics in India Since Independence — chapter 5",
+        "leps205",
+        "https://ncert.nic.in/textbook/pdf/leps205.pdf"
+      ],
+      [
+        "Politics in India Since Independence — chapter 6",
+        "leps206",
+        "https://ncert.nic.in/textbook/pdf/leps206.pdf"
+      ],
+      [
+        "Politics in India Since Independence — chapter 7",
+        "leps207",
+        "https://ncert.nic.in/textbook/pdf/leps207.pdf"
+      ],
+      [
+        "Politics in India Since Independence — chapter 8",
+        "leps208",
+        "https://ncert.nic.in/textbook/pdf/leps208.pdf"
+      ]
+    ]
+  },
+  "editionNote": "Daily material is original study guidance using the subject’s NCERT topic sequence or, for Ethics, original GS-IV lessons. Blocks deliberately revisit concepts through application and revision days. The shared block companion supports several daily topics. Consult current official sources for changing laws, policy settings and statistics. Practice questions here are original exercises, not claimed as actual UPSC PYQs."
+}

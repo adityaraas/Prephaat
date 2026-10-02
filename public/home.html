@@ -3,16 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>PrepHaat · Civil Services Prep</title>
+    <title>Crack IAS · Civil Services Prep</title>
     <link rel="icon" href="/logo.svg" />
     <link rel="stylesheet" href="/study.css" />
+    <link rel="stylesheet" href="/resource-library.css" />
+    <link rel="stylesheet" href="/history.css" />
+    <link rel="stylesheet" href="/theme.css" />
+    <script src="/theme.js"></script>
   </head>
   <body>
     <header class="mast">
       <a class="brand" href="/home">
         <img src="/logo.svg" alt="" width="42" height="42" />
         <div>
-          <strong>PrepHaat</strong>
+          <strong>Crack IAS</strong>
           <span>UPSC · BPSC in quick bites</span>
         </div>
       </a>
@@ -28,14 +32,14 @@
         <p id="who" class="who"></p>
         <a id="faculty-link" href="/faculty">Faculty desk</a>
         <a href="/records">Records</a>
+        <a href="/library">Study library</a>
         <button type="button" id="logout" class="ghost">Sign out</button>
       </div>
     </header>
 
     <div class="tabs-wrap">
-      <button type="button" class="bored-nav" id="bored-chess-open" title="Play chess against the computer">
-        <span class="bored-icon" aria-hidden="true">♞</span>
-        <span class="bored-label">click me if you are bored</span>
+      <button type="button" class="bored-nav" id="bored-chess-open" title="Play chess" aria-label="Play chess against the computer" aria-haspopup="dialog" aria-controls="chess-overlay">
+        <svg class="chess-launch-icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 27h17M10 23h13M11 23c0-5 2-8 6-10l-7 3-4-3 8-8V2l5 3c6 2 8 8 5 14l-1 4"/><circle cx="17" cy="9" r="1" fill="currentColor" stroke="none"/></svg>
       </button>
       <nav class="tabs" id="tabs" aria-label="Subjects"></nav>
     </div>
@@ -132,6 +136,8 @@
       </div>
     </aside>
 
+    <script src="/resource-library.js"></script>
+    <script src="/history-plan.js"></script>
     <script src="/home.js"></script>
     <script src="/chess-play.js"></script>
     <script src="/chat.js"></script>
