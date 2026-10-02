@@ -17,16 +17,6 @@ export async function ensureAuthTables() {
   await sql`ALTER TABLE accounts ALTER COLUMN password_hash DROP NOT NULL`;
   await sql`ALTER TABLE accounts ADD COLUMN IF NOT EXISTS google_id VARCHAR(64) UNIQUE`;
 
-  await sql`CREATE TABLE IF NOT EXISTS password_reset_tokens (
-    token_hash TEXT PRIMARY KEY,
-    account_id INTEGER NOT NULL REFERENCES accounts(id) ON DELETE CASCADE,
-    expires_at TIMESTAMPTZ NOT NULL
-  )`;
-  await sql`CREATE INDEX IF NOT EXISTS password_reset_account_idx ON password_reset_tokens(account_id)`;
-  await sql`CREATE TABLE IF NOT EXISTS password_reset_limits (
-    key TEXT PRIMARY KEY, attempts INTEGER NOT NULL, expires_at TIMESTAMPTZ NOT NULL
-  )`;
-
   await sql`
     CREATE TABLE IF NOT EXISTS sessions (
       token TEXT PRIMARY KEY,

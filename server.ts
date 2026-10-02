@@ -27,7 +27,6 @@ import {
 } from "./google.ts";
 import { SURVEY_KEYS, signedGetUrl } from "./storage.ts";
 import { answerChat } from "./chat.ts";
-import { limitReset, requestPasswordReset, resetPassword, resetMessage, ResetError } from "./password-reset.ts";
 
 const PORT = Number(process.env.PORT) || 3000;
 const publicDir = join(import.meta.dirname, "public");
@@ -55,8 +54,6 @@ const mime: Record<string, string> = {
 const pages: Record<string, string> = {
   "/": "index.html",
   "/signup": "signup.html",
-  "/forgot-password": "forgot-password.html",
-  "/reset-password": "reset-password.html",
   "/home": "home.html",
   "/study": "home.html",
   "/library": "library.html",
@@ -175,31 +172,6 @@ async function requireFaculty(req: IncomingMessage, res: ServerResponse) {
 const server = createServer(async (req, res) => {
   try {
     const url = new URL(req.url ?? "/", `http://${req.headers.host ?? "localhost"}`);
-
-    if (req.method === "POST" && ["/api/forgot-password", "/api/reset-password"].includes(url.pathname)) {
-      try {
-        if (!(await limitReset(`ip:${req.socket.remoteAddress ?? "unknown"}`, 30))) {
-          send(res, 429, { error: "Too many attempts. Please try again in 15 minutes." }, undefined, { "Retry-After": "900" });
-          return;
-        }
-        let input: Record<string, unknown>;
-        try { input = asObject(await readJson(req)); }
-        catch { throw new ResetError("Enter valid reset details."); }
-        if (url.pathname === "/api/forgot-password") {
-          await requestPasswordReset(input.email);
-          send(res, 200, { message: resetMessage });
-        } else {
-          await resetPassword(input.token, input.password);
-          send(res, 200, { message: "Password updated. Sign in with your new password." }, undefined, { "Set-Cookie": sessionCookie("", 0) });
-        }
-      } catch (error) {
-        if (!(error instanceof ResetError)) console.error("Password reset operation failed");
-        send(res, error instanceof ResetError ? error.status : 503, {
-          error: error instanceof ResetError ? error.message : "Password reset is temporarily unavailable. Please try again later.",
-        });
-      }
-      return;
-    }
 
     if (req.method === "GET" && url.pathname === "/api/auth/google") {
       if (!googleConfigured()) {
