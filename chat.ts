@@ -52,7 +52,7 @@ export async function answerChat(history: ChatTurn[], message: string) {
   }
   contents.push({ role: "user", parts: [{ text }] });
 
-  const model = process.env.GEMINI_MODEL?.trim() || "gemini-2.5-flash";
+  const model = process.env.GEMINI_MODEL?.trim() || "gemini-3.6-flash ";
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent`;
   const res = await fetch(url, {
     method: "POST",

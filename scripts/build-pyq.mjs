@@ -132,7 +132,7 @@ async function buildUpscPrelims2024() {
     stage: "prelims",
     paper: "GS Paper I",
     official: "https://www.upsc.gov.in/examinations/previous-question-papers",
-    note: "Full GS Paper I set with PrepHaat solutions. Official PDFs stay on upsc.gov.in.",
+    note: "Full GS Paper I set with Crack IAS solutions. Official PDFs stay on upsc.gov.in.",
     questions: packed,
   });
 }
@@ -172,7 +172,7 @@ async function buildBpsc(file, year, cycle, paperDate) {
     stage: "prelims",
     paper: `${cycle} CCE GS (Prelims)`,
     official: "https://www.bpsc.bih.nic.in/",
-    note: `${paperDate}. Full GS booklet with official-key mapping and PrepHaat solutions.`,
+    note: `${paperDate}. Full GS booklet with official-key mapping and Crack IAS solutions.`,
     questions: packed,
   });
 }

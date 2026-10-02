@@ -98,7 +98,7 @@ const upscPrelims = [
       answer: 1,
       solution: "Correct option: B. The Ramsar Convention (1971) lists wetlands. India has many Ganga-basin sites relevant to Bihar/UP floodplain ecology.",
     },
-  ], "High-yield 2025-cycle GS items with PrepHaat solutions. Full booklet: upsc.gov.in."),
+  ], "High-yield 2025-cycle GS items with Crack IAS solutions. Full booklet: upsc.gov.in."),
   pre("upsc", 2023, "GS Paper I (selected)", [
     {
       topic: "Polity",

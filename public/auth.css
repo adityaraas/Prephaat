@@ -290,6 +290,9 @@ input:focus {
 .status.err { color: #c0392b; }
 .status.ok { color: #1f7a4d; }
 
+.reset-description { color: #62626e; line-height: 1.5; margin-bottom: 1.5rem; }
+.auth-form label:not(.sr-only) { display: block; margin-bottom: 0.5rem; font-size: 0.9rem; }
+
 footer {
   display: flex;
   justify-content: space-between;
