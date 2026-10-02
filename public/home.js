@@ -22,6 +22,7 @@ const pyqPaperEl = document.getElementById("pyq-paper");
 const pyqMeta = document.getElementById("pyq-meta");
 const surveyEl = document.getElementById("survey");
 const surveyBoard = document.getElementById("survey-board");
+const mappingEl = document.getElementById("mapping");
 
 let newsItems = [];
 let activeSource = "all";
@@ -190,6 +191,7 @@ async function requireSession() {
 function renderTabs() {
   const items = [
     { id: "current", label: "Current affairs" },
+    { id: "mapping", label: "Mapping" },
     { id: "quiz", label: "Quiz" },
     { id: "pyq", label: "PYQ" },
     { id: "survey", label: "Economic Survey" },
@@ -206,12 +208,14 @@ async function showTab(id) {
   const isQuiz = id === "quiz";
   const isPyq = id === "pyq";
   const isSurvey = id === "survey";
+  const isMapping = id === "mapping";
   feedEl.hidden = !isNews;
   methodEl.hidden = !isNews;
   quizEl.hidden = !isQuiz;
   pyqEl.hidden = !isPyq;
   surveyEl.hidden = !isSurvey;
-  subjectEl.hidden = isNews || isQuiz || isPyq || isSurvey;
+  mappingEl.hidden = !isMapping;
+  subjectEl.hidden = isNews || isQuiz || isPyq || isSurvey || isMapping;
   if (isQuiz) {
     renderQuizPick();
     renderTracker();
@@ -220,6 +224,8 @@ async function showTab(id) {
     await renderPyq();
   } else if (isSurvey) {
     await renderSurvey();
+  } else if (isMapping) {
+    MappingStudy.mount(document.getElementById("mapping-board"));
   } else if (!isNews) {
     await renderSubject(id);
   }

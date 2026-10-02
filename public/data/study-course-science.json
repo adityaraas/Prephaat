@@ -56,7 +56,9 @@
             "Rest and motion, SI units, measurement. Precision matters in science and in GS data.",
             "Key distinctions to retain: SI; Types of motion; Measurement; Accuracy.",
             "Rectilinear propagation, pinhole, mirrors. Later Class 10 optics builds here.",
-            "Key distinctions to retain: Straight line; Shadow; Reflection; Pinhole."
+            "Key distinctions to retain: Straight line; Shadow; Reflection; Pinhole.",
+            "Key term for review: Conservation — A quantity remains accounted for within the defined system and exchanges.",
+            "Study lens: Motion and Measurement of Distances + Light, Shadows and Reflections: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 6 · Science: Motion and Measurement of Distances. Class 6 · Science: Light, Shadows and Reflections.",
           "task": "Explain a familiar phenomenon using correct quantities and units. Write five explained points on Motion and Measurement of Distances, then check them against the notes and source reading. Write five explained points on Light, Shadows and Reflections, then check them against the notes and source reading.",
@@ -70,7 +72,34 @@
             "jesc1",
             "keph1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Motion and Measurement of Distances in your own words and connect it to SI.",
+              "back": "Rest and motion, SI units, measurement. Precision matters in science and in GS data. Rectilinear propagation, pinhole, mirrors. Later Class 10 optics builds here."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Motion and Measurement of Distances + Light, Shadows and Reflections.",
+              "back": "Rest and motion, SI units, measurement. Precision matters in science and in GS data."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Motion and Measurement of Distances + Light, Shadows and Reflections?",
+              "back": "Key distinctions to retain: SI; Types of motion; Measurement; Accuracy."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Conservation in the context of today's Motion and Measurement of Distances + Light, Shadows and Reflections study.",
+              "back": "A quantity remains accounted for within the defined system and exchanges."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Motion and Measurement of Distances + Light, Shadows and Reflections?",
+              "back": "Power and energy have different units and meanings."
+            }
+          ]
         },
         {
           "day": 2,
@@ -79,7 +108,9 @@
             "Cell, bulb, switch, conductors vs insulators. Safety.",
             "Key distinctions to retain: Circuit; Conductors; Open/closed; Safety.",
             "Poles, compass, Earth’s magnetism. Navigation history.",
-            "Key distinctions to retain: Poles; Compass; Attraction/repulsion; Earth magnet."
+            "Key distinctions to retain: Poles; Compass; Attraction/repulsion; Earth magnet.",
+            "Key term for review: Refraction — Change in propagation direction associated with a change in medium.",
+            "Study lens: Electricity and Circuits + Fun with Magnets: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 6 · Science: Electricity and Circuits. Class 6 · Science: Fun with Magnets.",
           "task": "Explain a familiar phenomenon using correct quantities and units. Write five explained points on Electricity and Circuits, then check them against the notes and source reading. Write five explained points on Fun with Magnets, then check them against the notes and source reading.",
@@ -93,7 +124,34 @@
             "jesc1",
             "keph1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Electricity and Circuits in your own words and connect it to Circuit.",
+              "back": "Cell, bulb, switch, conductors vs insulators. Safety. Poles, compass, Earth’s magnetism. Navigation history."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Electricity and Circuits + Fun with Magnets.",
+              "back": "Cell, bulb, switch, conductors vs insulators. Safety."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Electricity and Circuits + Fun with Magnets?",
+              "back": "Key distinctions to retain: Circuit; Conductors; Open/closed; Safety."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Refraction in the context of today's Electricity and Circuits + Fun with Magnets study.",
+              "back": "Change in propagation direction associated with a change in medium."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Electricity and Circuits + Fun with Magnets?",
+              "back": "Power and energy have different units and meanings."
+            }
+          ]
         },
         {
           "day": 3,
@@ -102,7 +160,9 @@
             "Temperature, conduction convection radiation, land–sea breeze. Climate physics starts here.",
             "Key distinctions to retain: Thermometer; Transfer of heat; Land breeze; Insulators.",
             "Indicators, natural acids, neutralisation. Everyday chemicals (baking soda, calamine).",
-            "Key distinctions to retain: Indicators; Neutralisation; Uses; Safety."
+            "Key distinctions to retain: Indicators; Neutralisation; Uses; Safety.",
+            "Key term for review: Resistance — Opposition to current under specified conditions.",
+            "Study lens: Heat + Acids, Bases and Salts: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 7 · Science: Heat. Class 7 · Science: Acids, Bases and Salts.",
           "task": "Explain a familiar phenomenon using correct quantities and units. Write five explained points on Heat, then check them against the notes and source reading. Write five explained points on Acids, Bases and Salts, then check them against the notes and source reading.",
@@ -116,7 +176,34 @@
             "jesc1",
             "keph1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Heat in your own words and connect it to Thermometer.",
+              "back": "Temperature, conduction convection radiation, land–sea breeze. Climate physics starts here. Indicators, natural acids, neutralisation. Everyday chemicals (baking soda, calamine)."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Heat + Acids, Bases and Salts.",
+              "back": "Temperature, conduction convection radiation, land–sea breeze. Climate physics starts here."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Heat + Acids, Bases and Salts?",
+              "back": "Key distinctions to retain: Thermometer; Transfer of heat; Land breeze; Insulators."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Resistance in the context of today's Heat + Acids, Bases and Salts study.",
+              "back": "Opposition to current under specified conditions."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Heat + Acids, Bases and Salts?",
+              "back": "Power and energy have different units and meanings."
+            }
+          ]
         },
         {
           "day": 4,
@@ -125,7 +212,9 @@
             "Rusting, crystallisation, chemical equations idea. Conservation of mass flavour.",
             "Key distinctions to retain: Rusting; Crystallisation; Chemical vs physical; Prevention of rust.",
             "Speed, distance–time graphs, oscillatory motion. Quantitative thinking.",
-            "Key distinctions to retain: Speed; Graphs; Pendulum; Uniform motion."
+            "Key distinctions to retain: Speed; Graphs; Pendulum; Uniform motion.",
+            "Key term for review: Conservation — A quantity remains accounted for within the defined system and exchanges.",
+            "Study lens: Physical and Chemical Changes + Motion and Time: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 7 · Science: Physical and Chemical Changes. Class 7 · Science: Motion and Time.",
           "task": "Explain a familiar phenomenon using correct quantities and units. Write five explained points on Physical and Chemical Changes, then check them against the notes and source reading. Write five explained points on Motion and Time, then check them against the notes and source reading.",
@@ -139,7 +228,34 @@
             "jesc1",
             "keph1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Physical and Chemical Changes in your own words and connect it to Rusting.",
+              "back": "Rusting, crystallisation, chemical equations idea. Conservation of mass flavour. Speed, distance–time graphs, oscillatory motion. Quantitative thinking."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Physical and Chemical Changes + Motion and Time.",
+              "back": "Rusting, crystallisation, chemical equations idea. Conservation of mass flavour."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Physical and Chemical Changes + Motion and Time?",
+              "back": "Key distinctions to retain: Rusting; Crystallisation; Chemical vs physical; Prevention of rust."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Conservation in the context of today's Physical and Chemical Changes + Motion and Time study.",
+              "back": "A quantity remains accounted for within the defined system and exchanges."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Physical and Chemical Changes + Motion and Time?",
+              "back": "Power and energy have different units and meanings."
+            }
+          ]
         },
         {
           "day": 5,
@@ -148,7 +264,9 @@
             "Heating effect, magnetic effect, electromagnet, fuse. Applications.",
             "Key distinctions to retain: Heating; Magnetic; Electromagnet; Fuse.",
             "Reflection laws, spherical mirrors idea, colours, Newton’s disc. Class 10 will deepen.",
-            "Key distinctions to retain: Laws of reflection; Images; Spectrum; Lenses intro."
+            "Key distinctions to retain: Laws of reflection; Images; Spectrum; Lenses intro.",
+            "Key term for review: Refraction — Change in propagation direction associated with a change in medium.",
+            "Study lens: Electric Current and its Effects + Light: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 7 · Science: Electric Current and its Effects. Class 7 · Science: Light.",
           "task": "Explain a familiar phenomenon using correct quantities and units. Write five explained points on Electric Current and its Effects, then check them against the notes and source reading. Write five explained points on Light, then check them against the notes and source reading.",
@@ -162,7 +280,34 @@
             "jesc1",
             "keph1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Electric Current and its Effects in your own words and connect it to Heating.",
+              "back": "Heating effect, magnetic effect, electromagnet, fuse. Applications. Reflection laws, spherical mirrors idea, colours, Newton’s disc. Class 10 will deepen."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Electric Current and its Effects + Light.",
+              "back": "Heating effect, magnetic effect, electromagnet, fuse. Applications."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Electric Current and its Effects + Light?",
+              "back": "Key distinctions to retain: Heating; Magnetic; Electromagnet; Fuse."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Refraction in the context of today's Electric Current and its Effects + Light study.",
+              "back": "Change in propagation direction associated with a change in medium."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Electric Current and its Effects + Light?",
+              "back": "Power and energy have different units and meanings."
+            }
+          ]
         },
         {
           "day": 6,
@@ -173,7 +318,9 @@
             "Contact/non-contact, pressure in fluids, atmosphere. Why dams are thick at base.",
             "Key distinctions to retain: Force; Pressure; Liquids; Atmosphere.",
             "Advantages, disadvantages, reducing friction. Applied physics.",
-            "Key distinctions to retain: Static/kinetic; Uses; Reduce; Fluid friction."
+            "Key distinctions to retain: Static/kinetic; Uses; Reduce; Fluid friction.",
+            "Key term for review: Resistance — Opposition to current under specified conditions.",
+            "Study lens: Combustion and Flame + Force and Pressure + Friction: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 8 · Science: Combustion and Flame. Class 8 · Science: Force and Pressure. Class 8 · Science: Friction.",
           "task": "Explain a familiar phenomenon using correct quantities and units. Write five explained points on Combustion and Flame, then check them against the notes and source reading. Write five explained points on Force and Pressure, then check them against the notes and source reading. Write five explained points on Friction, then check them against the notes and source reading.",
@@ -187,7 +334,34 @@
             "jesc1",
             "keph1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Combustion and Flame in your own words and connect it to Combustion types.",
+              "back": "Types of combustion, flame structure, fuel efficiency, fire control. Air pollution from fuels. Contact/non-contact, pressure in fluids, atmosphere. Why dams are thick at base. Advantages, disadvantages, reducing friction. Applied physics."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Combustion and Flame + Force and Pressure + Friction.",
+              "back": "Types of combustion, flame structure, fuel efficiency, fire control. Air pollution from fuels."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Combustion and Flame + Force and Pressure + Friction?",
+              "back": "Key distinctions to retain: Combustion types; Flame; Calorific value; Pollution."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Resistance in the context of today's Combustion and Flame + Force and Pressure + Friction study.",
+              "back": "Opposition to current under specified conditions."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Combustion and Flame + Force and Pressure + Friction?",
+              "back": "Power and energy have different units and meanings."
+            }
+          ]
         },
         {
           "day": 7,
@@ -198,7 +372,9 @@
             "Light: Reflection laws, spherical mirrors idea, colours, Newton’s disc. Class 10 will deepen.",
             "Combustion and Flame: Types of combustion, flame structure, fuel efficiency, fire control. Air pollution from fuels.",
             "Force and Pressure: Contact/non-contact, pressure in fluids, atmosphere. Why dams are thick at base.",
-            "Friction: Advantages, disadvantages, reducing friction. Applied physics."
+            "Friction: Advantages, disadvantages, reducing friction. Applied physics.",
+            "Key term for review: Conservation — A quantity remains accounted for within the defined system and exchanges.",
+            "Study lens: Revision I: Physical Science: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Revisit your notes for Motion and Time; Electric Current and its Effects; Light; Combustion and Flame; Force and Pressure; Friction. Re-read the assigned source sections only where your recall is weak.",
           "task": "Close the notes and reconstruct the main distinctions from the last 6 topics. Explain a familiar phenomenon using correct quantities and units. Then compare your work with the material below.",
@@ -212,7 +388,34 @@
             "jesc1",
             "keph1"
           ],
-          "mode": "revision"
+          "mode": "revision",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+              "back": "Speed, distance–time graphs, oscillatory motion. Quantitative thinking. Heating effect, magnetic effect, electromagnet, fuse. Applications. Reflection laws, spherical mirrors idea, colours, Newton’s disc. Class 10 will deepen. Types of combustion, flame structure, fuel efficiency, fire control. Air pollution from fuels. Contact/non-contact, pressure in fluids, atmosphere. Why dams are thick at base. Advantages, disadvantages, reducing friction. Applied physics."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Revision I: Physical Science.",
+              "back": "Motion and Time: Speed, distance–time graphs, oscillatory motion. Quantitative thinking."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Revision I: Physical Science?",
+              "back": "Electric Current and its Effects: Heating effect, magnetic effect, electromagnet, fuse. Applications."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Conservation in the context of today's Revision I: Physical Science study.",
+              "back": "A quantity remains accounted for within the defined system and exchanges."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Revision I: Physical Science?",
+              "back": "Power and energy have different units and meanings."
+            }
+          ]
         },
         {
           "day": 8,
@@ -221,7 +424,9 @@
             "Vibration, frequency, amplitude, human ear, noise pollution. Policy on noise.",
             "Key distinctions to retain: Vibration; Pitch/loudness; Ear; Noise.",
             "Electrolysis, electroplating, LED. Industrial applications.",
-            "Key distinctions to retain: Conducting liquids; Electrolysis; Electroplating; LED."
+            "Key distinctions to retain: Conducting liquids; Electrolysis; Electroplating; LED.",
+            "Key term for review: Refraction — Change in propagation direction associated with a change in medium.",
+            "Study lens: Sound + Chemical Effects of Electric Current: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 8 · Science: Sound. Class 8 · Science: Chemical Effects of Electric Current.",
           "task": "Explain a familiar phenomenon using correct quantities and units. Write five explained points on Sound, then check them against the notes and source reading. Write five explained points on Chemical Effects of Electric Current, then check them against the notes and source reading.",
@@ -235,7 +440,34 @@
             "jesc1",
             "keph1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Sound in your own words and connect it to Vibration.",
+              "back": "Vibration, frequency, amplitude, human ear, noise pollution. Policy on noise. Electrolysis, electroplating, LED. Industrial applications."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Sound + Chemical Effects of Electric Current.",
+              "back": "Vibration, frequency, amplitude, human ear, noise pollution. Policy on noise."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Sound + Chemical Effects of Electric Current?",
+              "back": "Key distinctions to retain: Vibration; Pitch/loudness; Ear; Noise."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Refraction in the context of today's Sound + Chemical Effects of Electric Current study.",
+              "back": "Change in propagation direction associated with a change in medium."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Sound + Chemical Effects of Electric Current?",
+              "back": "Power and energy have different units and meanings."
+            }
+          ]
         },
         {
           "day": 9,
@@ -244,7 +476,9 @@
             "Laws, regular/diffused, multiple mirrors, human eye, Braille. Care of eyes.",
             "Key distinctions to retain: Laws; Kaleidoscope; Eye; Braille.",
             "States, diffusion, latent heat, evaporation cooling. Kinetic theory flavour.",
-            "Key distinctions to retain: States; Latent heat; Evaporation; Diffusion."
+            "Key distinctions to retain: States; Latent heat; Evaporation; Diffusion.",
+            "Key term for review: Resistance — Opposition to current under specified conditions.",
+            "Study lens: Light + Matter in Our Surroundings — application: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 8 · Science: Light. Class 9 · Science: Matter in Our Surroundings.",
           "task": "Explain a familiar phenomenon using correct quantities and units. Write five explained points on Light, then check them against the notes and source reading. Write five explained points on Matter in Our Surroundings, then check them against the notes and source reading.",
@@ -258,7 +492,34 @@
             "jesc1",
             "keph1"
           ],
-          "mode": "application"
+          "mode": "application",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Light in your own words and connect it to Laws.",
+              "back": "Laws, regular/diffused, multiple mirrors, human eye, Braille. Care of eyes. States, diffusion, latent heat, evaporation cooling. Kinetic theory flavour."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Light + Matter in Our Surroundings — application.",
+              "back": "Laws, regular/diffused, multiple mirrors, human eye, Braille. Care of eyes."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Light + Matter in Our Surroundings — application?",
+              "back": "Key distinctions to retain: Laws; Kaleidoscope; Eye; Braille."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Resistance in the context of today's Light + Matter in Our Surroundings — application study.",
+              "back": "Opposition to current under specified conditions."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Light + Matter in Our Surroundings — application?",
+              "back": "Power and energy have different units and meanings."
+            }
+          ]
         },
         {
           "day": 10,
@@ -267,7 +528,9 @@
             "Mixtures, solutions, colloids, suspensions, separation, physical vs chemical.",
             "Key distinctions to retain: Mixture types; Concentration; Tyndall; Separation.",
             "Laws of chemical combination, atoms, molecules, mole idea, formulae.",
-            "Key distinctions to retain: Dalton; Ions; Mole; Formulae."
+            "Key distinctions to retain: Dalton; Ions; Mole; Formulae.",
+            "Key term for review: Conservation — A quantity remains accounted for within the defined system and exchanges.",
+            "Study lens: Is Matter Around Us Pure + Atoms and Molecules: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 9 · Science: Is Matter Around Us Pure. Class 9 · Science: Atoms and Molecules.",
           "task": "Explain a familiar phenomenon using correct quantities and units. Write five explained points on Is Matter Around Us Pure, then check them against the notes and source reading. Write five explained points on Atoms and Molecules, then check them against the notes and source reading.",
@@ -281,7 +544,34 @@
             "jesc1",
             "keph1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Is Matter Around Us Pure in your own words and connect it to Mixture types.",
+              "back": "Mixtures, solutions, colloids, suspensions, separation, physical vs chemical. Laws of chemical combination, atoms, molecules, mole idea, formulae."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Is Matter Around Us Pure + Atoms and Molecules.",
+              "back": "Mixtures, solutions, colloids, suspensions, separation, physical vs chemical."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Is Matter Around Us Pure + Atoms and Molecules?",
+              "back": "Key distinctions to retain: Mixture types; Concentration; Tyndall; Separation."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Conservation in the context of today's Is Matter Around Us Pure + Atoms and Molecules study.",
+              "back": "A quantity remains accounted for within the defined system and exchanges."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Is Matter Around Us Pure + Atoms and Molecules?",
+              "back": "Power and energy have different units and meanings."
+            }
+          ]
         },
         {
           "day": 11,
@@ -290,7 +580,9 @@
             "Thomson, Rutherford, Bohr, electrons protons neutrons, valency, isotopes. Nuclear energy later.",
             "Key distinctions to retain: Models; Isotopes; Valency; Atomic number.",
             "Displacement, velocity, acceleration, graphs, equations, uniform circular.",
-            "Key distinctions to retain: Scalar/vector; Graphs; Equations; Circular motion."
+            "Key distinctions to retain: Scalar/vector; Graphs; Equations; Circular motion.",
+            "Key term for review: Refraction — Change in propagation direction associated with a change in medium.",
+            "Study lens: Structure of the Atom + Motion: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 9 · Science: Structure of the Atom. Class 9 · Science: Motion.",
           "task": "Explain a familiar phenomenon using correct quantities and units. Write five explained points on Structure of the Atom, then check them against the notes and source reading. Write five explained points on Motion, then check them against the notes and source reading.",
@@ -304,7 +596,34 @@
             "jesc1",
             "keph1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Structure of the Atom in your own words and connect it to Models.",
+              "back": "Thomson, Rutherford, Bohr, electrons protons neutrons, valency, isotopes. Nuclear energy later. Displacement, velocity, acceleration, graphs, equations, uniform circular."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Structure of the Atom + Motion.",
+              "back": "Thomson, Rutherford, Bohr, electrons protons neutrons, valency, isotopes. Nuclear energy later."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Structure of the Atom + Motion?",
+              "back": "Key distinctions to retain: Models; Isotopes; Valency; Atomic number."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Refraction in the context of today's Structure of the Atom + Motion study.",
+              "back": "Change in propagation direction associated with a change in medium."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Structure of the Atom + Motion?",
+              "back": "Power and energy have different units and meanings."
+            }
+          ]
         },
         {
           "day": 12,
@@ -315,7 +634,9 @@
             "Universal law, free fall, mass vs weight, thrust, buoyancy, Archimedes. Satellites qualitatively.",
             "Key distinctions to retain: G; g; Buoyancy; Why ships float.",
             "Work, kinetic/potential, conservation, rate (power), commercial unit kWh.",
-            "Key distinctions to retain: W=Fs; KE/PE; Conservation; kWh."
+            "Key distinctions to retain: W=Fs; KE/PE; Conservation; kWh.",
+            "Key term for review: Resistance — Opposition to current under specified conditions.",
+            "Study lens: Force and Laws of Motion + Gravitation + Work and Energy: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 9 · Science: Force and Laws of Motion. Class 9 · Science: Gravitation. Class 9 · Science: Work and Energy.",
           "task": "Explain a familiar phenomenon using correct quantities and units. Write five explained points on Force and Laws of Motion, then check them against the notes and source reading. Write five explained points on Gravitation, then check them against the notes and source reading. Write five explained points on Work and Energy, then check them against the notes and source reading.",
@@ -329,7 +650,34 @@
             "jesc1",
             "keph1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Force and Laws of Motion in your own words and connect it to Three laws.",
+              "back": "Newton’s laws, inertia, momentum, action–reaction. Rockets and recoil as examples. Universal law, free fall, mass vs weight, thrust, buoyancy, Archimedes. Satellites qualitatively. Work, kinetic/potential, conservation, rate (power), commercial unit kWh."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Force and Laws of Motion + Gravitation + Work and Energy.",
+              "back": "Newton’s laws, inertia, momentum, action–reaction. Rockets and recoil as examples."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Force and Laws of Motion + Gravitation + Work and Energy?",
+              "back": "Key distinctions to retain: Three laws; Momentum; Impulse; Applications."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Resistance in the context of today's Force and Laws of Motion + Gravitation + Work and Energy study.",
+              "back": "Opposition to current under specified conditions."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Force and Laws of Motion + Gravitation + Work and Energy?",
+              "back": "Power and energy have different units and meanings."
+            }
+          ]
         },
         {
           "day": 13,
@@ -338,7 +686,9 @@
             "Wave, SONAR, human hearing, ultrasound applications (medicine, industry).",
             "Key distinctions to retain: Wave; SONAR; Ultrasound; Range of hearing.",
             "Types of reactions, redox, corrosion, rancidity. Balancing.",
-            "Key distinctions to retain: Combination/decomposition; Redox; Corrosion; Rancidity."
+            "Key distinctions to retain: Combination/decomposition; Redox; Corrosion; Rancidity.",
+            "Key term for review: Conservation — A quantity remains accounted for within the defined system and exchanges.",
+            "Study lens: Sound + Chemical Reactions and Equations — application: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 9 · Science: Sound. Class 10 · Science: Chemical Reactions and Equations.",
           "task": "Explain a familiar phenomenon using correct quantities and units. Write five explained points on Sound, then check them against the notes and source reading. Write five explained points on Chemical Reactions and Equations, then check them against the notes and source reading.",
@@ -352,7 +702,34 @@
             "jesc1",
             "keph1"
           ],
-          "mode": "application"
+          "mode": "application",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Sound in your own words and connect it to Wave.",
+              "back": "Wave, SONAR, human hearing, ultrasound applications (medicine, industry). Types of reactions, redox, corrosion, rancidity. Balancing."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Sound + Chemical Reactions and Equations — application.",
+              "back": "Wave, SONAR, human hearing, ultrasound applications (medicine, industry)."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Sound + Chemical Reactions and Equations — application?",
+              "back": "Key distinctions to retain: Wave; SONAR; Ultrasound; Range of hearing."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Conservation in the context of today's Sound + Chemical Reactions and Equations — application study.",
+              "back": "A quantity remains accounted for within the defined system and exchanges."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Sound + Chemical Reactions and Equations — application?",
+              "back": "Power and energy have different units and meanings."
+            }
+          ]
         },
         {
           "day": 14,
@@ -363,7 +740,9 @@
             "Gravitation: Universal law, free fall, mass vs weight, thrust, buoyancy, Archimedes. Satellites qualitatively.",
             "Work and Energy: Work, kinetic/potential, conservation, rate (power), commercial unit kWh.",
             "Sound: Wave, SONAR, human hearing, ultrasound applications (medicine, industry).",
-            "Chemical Reactions and Equations: Types of reactions, redox, corrosion, rancidity. Balancing."
+            "Chemical Reactions and Equations: Types of reactions, redox, corrosion, rancidity. Balancing.",
+            "Key term for review: Refraction — Change in propagation direction associated with a change in medium.",
+            "Study lens: Revision II: Physical Science: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Revisit your notes for Motion; Force and Laws of Motion; Gravitation; Work and Energy; Sound; Chemical Reactions and Equations. Re-read the assigned source sections only where your recall is weak.",
           "task": "Close the notes and reconstruct the main distinctions from the last 6 topics. Explain a familiar phenomenon using correct quantities and units. Then compare your work with the material below.",
@@ -377,7 +756,34 @@
             "jesc1",
             "keph1"
           ],
-          "mode": "revision"
+          "mode": "revision",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+              "back": "Displacement, velocity, acceleration, graphs, equations, uniform circular. Newton’s laws, inertia, momentum, action–reaction. Rockets and recoil as examples. Universal law, free fall, mass vs weight, thrust, buoyancy, Archimedes. Satellites qualitatively. Work, kinetic/potential, conservation, rate (power), commercial unit kWh. Wave, SONAR, human hearing, ultrasound applications (medicine, industry). Types of reactions, redox, corrosion, rancidity. Balancing."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Revision II: Physical Science.",
+              "back": "Motion: Displacement, velocity, acceleration, graphs, equations, uniform circular."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Revision II: Physical Science?",
+              "back": "Force and Laws of Motion: Newton’s laws, inertia, momentum, action–reaction. Rockets and recoil as examples."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Refraction in the context of today's Revision II: Physical Science study.",
+              "back": "Change in propagation direction associated with a change in medium."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Revision II: Physical Science?",
+              "back": "Power and energy have different units and meanings."
+            }
+          ]
         },
         {
           "day": 15,
@@ -386,7 +792,9 @@
             "pH, indicators, important salts (NaOH, bleaching powder, baking soda, washing soda, plaster of Paris). Everyday GS.",
             "Key distinctions to retain: pH; Tooth decay; Salts; Water of crystallisation.",
             "Reactivity series, ionic bonds, extraction, corrosion. Industry geography later.",
-            "Key distinctions to retain: Reactivity; Ionic; Extraction; Alloys."
+            "Key distinctions to retain: Reactivity; Ionic; Extraction; Alloys.",
+            "Key term for review: Resistance — Opposition to current under specified conditions.",
+            "Study lens: Acids, Bases and Salts + Metals and Non-metals — application: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 10 · Science: Acids, Bases and Salts. Class 10 · Science: Metals and Non-metals.",
           "task": "Explain a familiar phenomenon using correct quantities and units. Write five explained points on Acids, Bases and Salts, then check them against the notes and source reading. Write five explained points on Metals and Non-metals, then check them against the notes and source reading.",
@@ -400,7 +808,34 @@
             "jesc1",
             "keph1"
           ],
-          "mode": "application"
+          "mode": "application",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Acids, Bases and Salts in your own words and connect it to pH.",
+              "back": "pH, indicators, important salts (NaOH, bleaching powder, baking soda, washing soda, plaster of Paris). Everyday GS. Reactivity series, ionic bonds, extraction, corrosion. Industry geography later."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Acids, Bases and Salts + Metals and Non-metals — application.",
+              "back": "pH, indicators, important salts (NaOH, bleaching powder, baking soda, washing soda, plaster of Paris). Everyday GS."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Acids, Bases and Salts + Metals and Non-metals — application?",
+              "back": "Key distinctions to retain: pH; Tooth decay; Salts; Water of crystallisation."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Resistance in the context of today's Acids, Bases and Salts + Metals and Non-metals — application study.",
+              "back": "Opposition to current under specified conditions."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Acids, Bases and Salts + Metals and Non-metals — application?",
+              "back": "Power and energy have different units and meanings."
+            }
+          ]
         },
         {
           "day": 16,
@@ -409,7 +844,9 @@
             "Covalent, homologous series, ethanol, ethanoic acid, soaps vs detergents. Saturated/unsaturated.",
             "Key distinctions to retain: Covalent; Nomenclature idea; Ethanol/ethanoic; Soap/hard water.",
             "Mendeleev to modern periodic table, trends. Why classification matters.",
-            "Key distinctions to retain: Mendeleev; Modern table; Trends; Valency."
+            "Key distinctions to retain: Mendeleev; Modern table; Trends; Valency.",
+            "Key term for review: Conservation — A quantity remains accounted for within the defined system and exchanges.",
+            "Study lens: Carbon and its Compounds + Periodic Classification: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 10 · Science: Carbon and its Compounds. Class 10 · Science: Periodic Classification.",
           "task": "Explain a familiar phenomenon using correct quantities and units. Write five explained points on Carbon and its Compounds, then check them against the notes and source reading. Write five explained points on Periodic Classification, then check them against the notes and source reading.",
@@ -423,7 +860,34 @@
             "jesc1",
             "keph1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Carbon and its Compounds in your own words and connect it to Covalent.",
+              "back": "Covalent, homologous series, ethanol, ethanoic acid, soaps vs detergents. Saturated/unsaturated. Mendeleev to modern periodic table, trends. Why classification matters."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Carbon and its Compounds + Periodic Classification.",
+              "back": "Covalent, homologous series, ethanol, ethanoic acid, soaps vs detergents. Saturated/unsaturated."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Carbon and its Compounds + Periodic Classification?",
+              "back": "Key distinctions to retain: Covalent; Nomenclature idea; Ethanol/ethanoic; Soap/hard water."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Conservation in the context of today's Carbon and its Compounds + Periodic Classification study.",
+              "back": "A quantity remains accounted for within the defined system and exchanges."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Carbon and its Compounds + Periodic Classification?",
+              "back": "Power and energy have different units and meanings."
+            }
+          ]
         },
         {
           "day": 17,
@@ -432,7 +896,9 @@
             "Mirrors, lenses, lens formula, power of lens, human eye, defects, prism, atmospheric refraction, scattering (why sky is blue).",
             "Key distinctions to retain: Mirror/lens; Eye defects; Prism; Scattering.",
             "Ohm’s law, resistance, series/parallel, heating effect, electric power, household circuits, fuse, earthing.",
-            "Key distinctions to retain: Ohm; Combination; Power; Safety."
+            "Key distinctions to retain: Ohm; Combination; Power; Safety.",
+            "Key term for review: Refraction — Change in propagation direction associated with a change in medium.",
+            "Study lens: Light — Reflection and Refraction + Electricity: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 10 · Science: Light — Reflection and Refraction. Class 10 · Science: Electricity.",
           "task": "Explain a familiar phenomenon using correct quantities and units. Write five explained points on Light — Reflection and Refraction, then check them against the notes and source reading. Write five explained points on Electricity, then check them against the notes and source reading.",
@@ -446,7 +912,34 @@
             "jesc1",
             "keph1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Light — Reflection and Refraction in your own words and connect it to Mirror/lens.",
+              "back": "Mirrors, lenses, lens formula, power of lens, human eye, defects, prism, atmospheric refraction, scattering (why sky is blue). Ohm’s law, resistance, series/parallel, heating effect, electric power, household circuits, fuse, earthing."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Light — Reflection and Refraction + Electricity.",
+              "back": "Mirrors, lenses, lens formula, power of lens, human eye, defects, prism, atmospheric refraction, scattering (why sky is blue)."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Light — Reflection and Refraction + Electricity?",
+              "back": "Key distinctions to retain: Mirror/lens; Eye defects; Prism; Scattering."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Refraction in the context of today's Light — Reflection and Refraction + Electricity study.",
+              "back": "Change in propagation direction associated with a change in medium."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Light — Reflection and Refraction + Electricity?",
+              "back": "Power and energy have different units and meanings."
+            }
+          ]
         },
         {
           "day": 18,
@@ -457,7 +950,9 @@
             "Energy conservation, enthalpy flavour, why engines waste heat. Climate and energy policy sit on this.",
             "Key distinctions to retain: Laws of thermo (qualitative); Equilibrium; Energy efficiency; Climate.",
             "Fuels, pollutants, green chemistry idea. Link Class 8–10 pollution to industrial chemistry.",
-            "Key distinctions to retain: Fuels; Pollutants; Green chemistry; Smog."
+            "Key distinctions to retain: Fuels; Pollutants; Green chemistry; Smog.",
+            "Key term for review: Resistance — Opposition to current under specified conditions.",
+            "Study lens: Magnetic Effects of Electric Current + Thermodynamics & equilibrium (idea) + Hydrocarbons & environmental chemistry (idea): state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 10 · Science: Magnetic Effects of Electric Current. Class 11 · Selected plus-two (UPSC relevant): Thermodynamics & equilibrium (idea). Class 11 · Selected plus-two (UPSC relevant): Hydrocarbons & environmental chemistry (idea).",
           "task": "Explain a familiar phenomenon using correct quantities and units. Write five explained points on Magnetic Effects of Electric Current, then check them against the notes and source reading. Write five explained points on Thermodynamics & equilibrium (idea), then check them against the notes and source reading. Write five explained points on Hydrocarbons & environmental chemistry (idea), then check them against the notes and source reading.",
@@ -471,7 +966,34 @@
             "jesc1",
             "keph1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Magnetic Effects of Electric Current in your own words and connect it to Field lines.",
+              "back": "Field, Fleming, electric motor/generator idea, AC vs DC, domestic wiring. Energy conservation, enthalpy flavour, why engines waste heat. Climate and energy policy sit on this. Fuels, pollutants, green chemistry idea. Link Class 8–10 pollution to industrial chemistry."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Magnetic Effects of Electric Current + Thermodynamics & equilibrium (idea) + Hydrocarbons & environmental chemistry (idea).",
+              "back": "Field, Fleming, electric motor/generator idea, AC vs DC, domestic wiring."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Magnetic Effects of Electric Current + Thermodynamics & equilibrium (idea) + Hydrocarbons & environmental chemistry (idea)?",
+              "back": "Key distinctions to retain: Field lines; Motor/generator; AC/DC; Earthing."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Resistance in the context of today's Magnetic Effects of Electric Current + Thermodynamics & equilibrium (idea) + Hydrocarbons & environmental chemistry (idea) study.",
+              "back": "Opposition to current under specified conditions."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Magnetic Effects of Electric Current + Thermodynamics & equilibrium (idea) + Hydrocarbons & environmental chemistry (idea)?",
+              "back": "Power and energy have different units and meanings."
+            }
+          ]
         },
         {
           "day": 19,
@@ -482,7 +1004,9 @@
             "Electricity: Ohm’s law, resistance, series/parallel, heating effect, electric power, household circuits, fuse, earthing.",
             "Magnetic Effects of Electric Current: Field, Fleming, electric motor/generator idea, AC vs DC, domestic wiring.",
             "Thermodynamics & equilibrium (idea): Energy conservation, enthalpy flavour, why engines waste heat. Climate and energy policy sit on this.",
-            "Hydrocarbons & environmental chemistry (idea): Fuels, pollutants, green chemistry idea. Link Class 8–10 pollution to industrial chemistry."
+            "Hydrocarbons & environmental chemistry (idea): Fuels, pollutants, green chemistry idea. Link Class 8–10 pollution to industrial chemistry.",
+            "Key term for review: Conservation — A quantity remains accounted for within the defined system and exchanges.",
+            "Study lens: Physical Science: synthesis: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Revisit your notes for Periodic Classification; Light — Reflection and Refraction; Electricity; Magnetic Effects of Electric Current; Thermodynamics & equilibrium (idea); Hydrocarbons & environmental chemistry (idea). Re-read the assigned source sections only where your recall is weak.",
           "task": "Close the notes and reconstruct the main distinctions from the last 6 topics. Explain a familiar phenomenon using correct quantities and units. Then compare your work with the material below.",
@@ -496,7 +1020,34 @@
             "jesc1",
             "keph1"
           ],
-          "mode": "revision"
+          "mode": "revision",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+              "back": "Mendeleev to modern periodic table, trends. Why classification matters. Mirrors, lenses, lens formula, power of lens, human eye, defects, prism, atmospheric refraction, scattering (why sky is blue). Ohm’s law, resistance, series/parallel, heating effect, electric power, household circuits, fuse, earthing. Field, Fleming, electric motor/generator idea, AC vs DC, domestic wiring. Energy conservation, enthalpy flavour, why engines waste heat. Climate and energy policy sit on this. Fuels, pollutants, green chemistry idea. Link Class 8–10 pollution to industrial chemistry."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Physical Science: synthesis.",
+              "back": "Periodic Classification: Mendeleev to modern periodic table, trends. Why classification matters."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Physical Science: synthesis?",
+              "back": "Light — Reflection and Refraction: Mirrors, lenses, lens formula, power of lens, human eye, defects, prism, atmospheric refraction, scattering (why sky is blue)."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Conservation in the context of today's Physical Science: synthesis study.",
+              "back": "A quantity remains accounted for within the defined system and exchanges."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Physical Science: synthesis?",
+              "back": "Power and energy have different units and meanings."
+            }
+          ]
         },
         {
           "day": 20,
@@ -517,7 +1068,9 @@
             "Electricity: Ohm’s law, resistance, series/parallel, heating effect, electric power, household circuits, fuse, earthing.",
             "Magnetic Effects of Electric Current: Field, Fleming, electric motor/generator idea, AC vs DC, domestic wiring.",
             "Thermodynamics & equilibrium (idea): Energy conservation, enthalpy flavour, why engines waste heat. Climate and energy policy sit on this.",
-            "Hydrocarbons & environmental chemistry (idea): Fuels, pollutants, green chemistry idea. Link Class 8–10 pollution to industrial chemistry."
+            "Hydrocarbons & environmental chemistry (idea): Fuels, pollutants, green chemistry idea. Link Class 8–10 pollution to industrial chemistry.",
+            "Key term for review: Refraction — Change in propagation direction associated with a change in medium.",
+            "Study lens: Physical Science: assessment & repair: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Revisit your notes for Structure of the Atom; Motion; Force and Laws of Motion; Gravitation; Work and Energy; Sound; Chemical Reactions and Equations; Acids, Bases and Salts; Metals and Non-metals; Carbon and its Compounds; Periodic Classification; Light — Reflection and Refraction; Electricity; Magnetic Effects of Electric Current; Thermodynamics & equilibrium (idea); Hydrocarbons & environmental chemistry (idea). Re-read the assigned source sections only where your recall is weak.",
           "task": "Use the official-paper link or your question bank for a timed 20-question topic test and one short answer. Mark the gaps, explain your errors and schedule a second recall attempt.",
@@ -531,7 +1084,34 @@
             "jesc1",
             "keph1"
           ],
-          "mode": "test"
+          "mode": "test",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+              "back": "Thomson, Rutherford, Bohr, electrons protons neutrons, valency, isotopes. Nuclear energy later. Displacement, velocity, acceleration, graphs, equations, uniform circular. Newton’s laws, inertia, momentum, action–reaction. Rockets and recoil as examples. Universal law, free fall, mass vs weight, thrust, buoyancy, Archimedes. Satellites qualitatively. Work, kinetic/potential, conservation, rate (power), commercial unit kWh. Wave, SONAR, human hearing, ultrasound applications (medicine, industry). Types of reactions, redox, corrosion, rancidity. Balancing. pH, indicators, important salts (NaOH, bleaching powder, baking soda, washing soda, plaster of Paris). Everyday GS. Reactivity series, ionic bonds, extraction, corrosion. Industry geography later. Covalent, homologous series, ethanol, ethanoic acid, soaps vs detergents. Saturated/unsaturated. Mendeleev to modern periodic table, trends. Why classification matters. Mirrors, lenses, lens formula, power of lens, human eye, defects, prism, atmospheric refraction, scattering (why sky is blue). Ohm’s law, resistance, series/parallel, heating effect, electric power, household circuits, fuse, earthing. Field, Fleming, electric motor/generator idea, AC vs DC, domestic wiring. Energy conservation, enthalpy flavour, why engines waste heat. Climate and energy policy sit on this. Fuels, pollutants, green chemistry idea. Link Class 8–10 pollution to industrial chemistry."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Physical Science: assessment & repair.",
+              "back": "Structure of the Atom: Thomson, Rutherford, Bohr, electrons protons neutrons, valency, isotopes. Nuclear energy later."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Physical Science: assessment & repair?",
+              "back": "Motion: Displacement, velocity, acceleration, graphs, equations, uniform circular."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Refraction in the context of today's Physical Science: assessment & repair study.",
+              "back": "Change in propagation direction associated with a change in medium."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Physical Science: assessment & repair?",
+              "back": "Power and energy have different units and meanings."
+            }
+          ]
         }
       ]
     },
@@ -550,7 +1130,9 @@
           "topic": "Food: Where Does It Come From?",
           "notes": [
             "Sources of food, plant vs animal, ingredients vs sources. Food security later sits on this.",
-            "Key distinctions to retain: Ingredients; Herbivore–carnivore; Plant parts as food; Diversity of diets."
+            "Key distinctions to retain: Ingredients; Herbivore–carnivore; Plant parts as food; Diversity of diets.",
+            "Key term for review: Homeostasis — Regulation of internal conditions.",
+            "Study lens: Food: Where Does It Come From?: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 6 · Science: Food: Where Does It Come From?.",
           "task": "Draw a structure–function diagram and distinguish cause from effect. Write five explained points on Food: Where Does It Come From?, then check them against the notes and source reading.",
@@ -564,7 +1146,34 @@
             "kebo1",
             "lebo1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Food: Where Does It Come From? in your own words and connect it to Ingredients.",
+              "back": "Sources of food, plant vs animal, ingredients vs sources. Food security later sits on this."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Food: Where Does It Come From?.",
+              "back": "Sources of food, plant vs animal, ingredients vs sources. Food security later sits on this."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Food: Where Does It Come From??",
+              "back": "Key distinctions to retain: Ingredients; Herbivore–carnivore; Plant parts as food; Diversity of diets."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Homeostasis in the context of today's Food: Where Does It Come From? study.",
+              "back": "Regulation of internal conditions."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Food: Where Does It Come From??",
+              "back": "Evolution occurs across populations and generations, not as a purposeful change made by an individual."
+            }
+          ]
         },
         {
           "day": 22,
@@ -573,7 +1182,9 @@
             "Carbs, proteins, fats, vitamins, minerals, fibre, water. Deficiency diseases. Balanced diet.",
             "Key distinctions to retain: Nutrients; Tests (starch/protein); Deficiencies; Balanced diet.",
             "Herbs shrubs trees, root stem leaf flower. Photosynthesis preview. Transpiration.",
-            "Key distinctions to retain: Types; Venation; Photosynthesis; Transpiration."
+            "Key distinctions to retain: Types; Venation; Photosynthesis; Transpiration.",
+            "Key term for review: Gene — A unit of hereditary information in biological context.",
+            "Study lens: Components of Food + Getting to Know Plants: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 6 · Science: Components of Food. Class 6 · Science: Getting to Know Plants.",
           "task": "Draw a structure–function diagram and distinguish cause from effect. Write five explained points on Components of Food, then check them against the notes and source reading. Write five explained points on Getting to Know Plants, then check them against the notes and source reading.",
@@ -587,7 +1198,34 @@
             "kebo1",
             "lebo1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Components of Food in your own words and connect it to Nutrients.",
+              "back": "Carbs, proteins, fats, vitamins, minerals, fibre, water. Deficiency diseases. Balanced diet. Herbs shrubs trees, root stem leaf flower. Photosynthesis preview. Transpiration."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Components of Food + Getting to Know Plants.",
+              "back": "Carbs, proteins, fats, vitamins, minerals, fibre, water. Deficiency diseases. Balanced diet."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Components of Food + Getting to Know Plants?",
+              "back": "Key distinctions to retain: Nutrients; Tests (starch/protein); Deficiencies; Balanced diet."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Gene in the context of today's Components of Food + Getting to Know Plants study.",
+              "back": "A unit of hereditary information in biological context."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Components of Food + Getting to Know Plants?",
+              "back": "Evolution occurs across populations and generations, not as a purposeful change made by an individual."
+            }
+          ]
         },
         {
           "day": 23,
@@ -596,7 +1234,9 @@
             "Human skeleton, joints, gait of animals. Structure–function.",
             "Key distinctions to retain: Joints; Ball and socket; Exoskeleton; Muscles.",
             "Habitat, adaptation, life processes. Desert, mountain, aquatic adaptations.",
-            "Key distinctions to retain: Habitat; Adaptation; Stimuli; Growth/reproduction."
+            "Key distinctions to retain: Habitat; Adaptation; Stimuli; Growth/reproduction.",
+            "Key term for review: Population — Members of a species considered as a group in an area or system.",
+            "Study lens: Body Movements + The Living Organisms — Characteristics: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 6 · Science: Body Movements. Class 6 · Science: The Living Organisms — Characteristics.",
           "task": "Draw a structure–function diagram and distinguish cause from effect. Write five explained points on Body Movements, then check them against the notes and source reading. Write five explained points on The Living Organisms — Characteristics, then check them against the notes and source reading.",
@@ -610,7 +1250,34 @@
             "kebo1",
             "lebo1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Body Movements in your own words and connect it to Joints.",
+              "back": "Human skeleton, joints, gait of animals. Structure–function. Habitat, adaptation, life processes. Desert, mountain, aquatic adaptations."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Body Movements + The Living Organisms — Characteristics.",
+              "back": "Human skeleton, joints, gait of animals. Structure–function."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Body Movements + The Living Organisms — Characteristics?",
+              "back": "Key distinctions to retain: Joints; Ball and socket; Exoskeleton; Muscles."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Population in the context of today's Body Movements + The Living Organisms — Characteristics study.",
+              "back": "Members of a species considered as a group in an area or system."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Body Movements + The Living Organisms — Characteristics?",
+              "back": "Evolution occurs across populations and generations, not as a purposeful change made by an individual."
+            }
+          ]
         },
         {
           "day": 24,
@@ -619,7 +1286,9 @@
             "Photosynthesis equation idea, heterotrophs, human digestive system. Autotroph vs heterotroph.",
             "Key distinctions to retain: Photosynthesis; Stomata; Digestion organs; Ruminants.",
             "Aerobic vs anaerobic, human respiratory system, breathing vs respiration.",
-            "Key distinctions to retain: Aerobic; Anaerobic; Lungs; Yeast."
+            "Key distinctions to retain: Aerobic; Anaerobic; Lungs; Yeast.",
+            "Key term for review: Homeostasis — Regulation of internal conditions.",
+            "Study lens: Nutrition in Plants & Animals + Respiration in Organisms: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 7 · Science: Nutrition in Plants & Animals. Class 7 · Science: Respiration in Organisms.",
           "task": "Draw a structure–function diagram and distinguish cause from effect. Write five explained points on Nutrition in Plants & Animals, then check them against the notes and source reading. Write five explained points on Respiration in Organisms, then check them against the notes and source reading.",
@@ -633,14 +1302,43 @@
             "kebo1",
             "lebo1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Nutrition in Plants & Animals in your own words and connect it to Photosynthesis.",
+              "back": "Photosynthesis equation idea, heterotrophs, human digestive system. Autotroph vs heterotroph. Aerobic vs anaerobic, human respiratory system, breathing vs respiration."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Nutrition in Plants & Animals + Respiration in Organisms.",
+              "back": "Photosynthesis equation idea, heterotrophs, human digestive system. Autotroph vs heterotroph."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Nutrition in Plants & Animals + Respiration in Organisms?",
+              "back": "Key distinctions to retain: Photosynthesis; Stomata; Digestion organs; Ruminants."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Homeostasis in the context of today's Nutrition in Plants & Animals + Respiration in Organisms study.",
+              "back": "Regulation of internal conditions."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Nutrition in Plants & Animals + Respiration in Organisms?",
+              "back": "Evolution occurs across populations and generations, not as a purposeful change made by an individual."
+            }
+          ]
         },
         {
           "day": 25,
           "topic": "Transportation in Animals and Plants",
           "notes": [
             "Circulatory system, excretion, xylem–phloem. Structure–function.",
-            "Key distinctions to retain: Heart/blood; Excretion; Xylem; Transpiration pull."
+            "Key distinctions to retain: Heart/blood; Excretion; Xylem; Transpiration pull.",
+            "Key term for review: Gene — A unit of hereditary information in biological context.",
+            "Study lens: Transportation in Animals and Plants: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 7 · Science: Transportation in Animals and Plants.",
           "task": "Draw a structure–function diagram and distinguish cause from effect. Write five explained points on Transportation in Animals and Plants, then check them against the notes and source reading.",
@@ -654,7 +1352,34 @@
             "kebo1",
             "lebo1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Transportation in Animals and Plants in your own words and connect it to Heart/blood.",
+              "back": "Circulatory system, excretion, xylem–phloem. Structure–function."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Transportation in Animals and Plants.",
+              "back": "Circulatory system, excretion, xylem–phloem. Structure–function."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Transportation in Animals and Plants?",
+              "back": "Key distinctions to retain: Heart/blood; Excretion; Xylem; Transpiration pull."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Gene in the context of today's Transportation in Animals and Plants study.",
+              "back": "A unit of hereditary information in biological context."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Transportation in Animals and Plants?",
+              "back": "Evolution occurs across populations and generations, not as a purposeful change made by an individual."
+            }
+          ]
         },
         {
           "day": 26,
@@ -663,7 +1388,9 @@
             "Asexual and sexual, pollination, seed dispersal. Agriculture link.",
             "Key distinctions to retain: Asexual; Pollination; Fertilisation; Dispersal.",
             "Canopy, interdependence, deforestation. Environment chapter in science clothing.",
-            "Key distinctions to retain: Layers; Food web; Deforestation; Conservation."
+            "Key distinctions to retain: Layers; Food web; Deforestation; Conservation.",
+            "Key term for review: Population — Members of a species considered as a group in an area or system.",
+            "Study lens: Reproduction in Plants + Forests: Our Lifeline: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 7 · Science: Reproduction in Plants. Class 7 · Science: Forests: Our Lifeline.",
           "task": "Draw a structure–function diagram and distinguish cause from effect. Write five explained points on Reproduction in Plants, then check them against the notes and source reading. Write five explained points on Forests: Our Lifeline, then check them against the notes and source reading.",
@@ -677,7 +1404,34 @@
             "kebo1",
             "lebo1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Reproduction in Plants in your own words and connect it to Asexual.",
+              "back": "Asexual and sexual, pollination, seed dispersal. Agriculture link. Canopy, interdependence, deforestation. Environment chapter in science clothing."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Reproduction in Plants + Forests: Our Lifeline.",
+              "back": "Asexual and sexual, pollination, seed dispersal. Agriculture link."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Reproduction in Plants + Forests: Our Lifeline?",
+              "back": "Key distinctions to retain: Asexual; Pollination; Fertilisation; Dispersal."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Population in the context of today's Reproduction in Plants + Forests: Our Lifeline study.",
+              "back": "Members of a species considered as a group in an area or system."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Reproduction in Plants + Forests: Our Lifeline?",
+              "back": "Evolution occurs across populations and generations, not as a purposeful change made by an individual."
+            }
+          ]
         },
         {
           "day": 27,
@@ -688,7 +1442,9 @@
             "Respiration in Organisms: Aerobic vs anaerobic, human respiratory system, breathing vs respiration.",
             "Transportation in Animals and Plants: Circulatory system, excretion, xylem–phloem. Structure–function.",
             "Reproduction in Plants: Asexual and sexual, pollination, seed dispersal. Agriculture link.",
-            "Forests: Our Lifeline: Canopy, interdependence, deforestation. Environment chapter in science clothing."
+            "Forests: Our Lifeline: Canopy, interdependence, deforestation. Environment chapter in science clothing.",
+            "Key term for review: Homeostasis — Regulation of internal conditions.",
+            "Study lens: Revision I: Life Science: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Revisit your notes for The Living Organisms — Characteristics; Nutrition in Plants & Animals; Respiration in Organisms; Transportation in Animals and Plants; Reproduction in Plants; Forests: Our Lifeline. Re-read the assigned source sections only where your recall is weak.",
           "task": "Close the notes and reconstruct the main distinctions from the last 6 topics. Draw a structure–function diagram and distinguish cause from effect. Then compare your work with the material below.",
@@ -702,7 +1458,34 @@
             "kebo1",
             "lebo1"
           ],
-          "mode": "revision"
+          "mode": "revision",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+              "back": "Habitat, adaptation, life processes. Desert, mountain, aquatic adaptations. Photosynthesis equation idea, heterotrophs, human digestive system. Autotroph vs heterotroph. Aerobic vs anaerobic, human respiratory system, breathing vs respiration. Circulatory system, excretion, xylem–phloem. Structure–function. Asexual and sexual, pollination, seed dispersal. Agriculture link. Canopy, interdependence, deforestation. Environment chapter in science clothing."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Revision I: Life Science.",
+              "back": "The Living Organisms — Characteristics: Habitat, adaptation, life processes. Desert, mountain, aquatic adaptations."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Revision I: Life Science?",
+              "back": "Nutrition in Plants & Animals: Photosynthesis equation idea, heterotrophs, human digestive system. Autotroph vs heterotroph."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Homeostasis in the context of today's Revision I: Life Science study.",
+              "back": "Regulation of internal conditions."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Revision I: Life Science?",
+              "back": "Evolution occurs across populations and generations, not as a purposeful change made by an individual."
+            }
+          ]
         },
         {
           "day": 28,
@@ -711,7 +1494,9 @@
             "Bacteria, fungi, protozoa, algae, virus. Useful (nitrogen fix, vaccines, curd) vs harmful. Antibiotics and AMR later.",
             "Key distinctions to retain: Types; Useful microbes; Pathogens; Food preservation.",
             "Deforestation, biodiversity, endemic, Red Data, national parks, biosphere reserves. Direct environment syllabus.",
-            "Key distinctions to retain: Deforestation; Endemic; Protected areas; Migration."
+            "Key distinctions to retain: Deforestation; Endemic; Protected areas; Migration.",
+            "Key term for review: Gene — A unit of hereditary information in biological context.",
+            "Study lens: Microorganisms + Conservation of Plants and Animals: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 8 · Science: Microorganisms. Class 8 · Science: Conservation of Plants and Animals.",
           "task": "Draw a structure–function diagram and distinguish cause from effect. Write five explained points on Microorganisms, then check them against the notes and source reading. Write five explained points on Conservation of Plants and Animals, then check them against the notes and source reading.",
@@ -725,7 +1510,34 @@
             "kebo1",
             "lebo1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Microorganisms in your own words and connect it to Types.",
+              "back": "Bacteria, fungi, protozoa, algae, virus. Useful (nitrogen fix, vaccines, curd) vs harmful. Antibiotics and AMR later. Deforestation, biodiversity, endemic, Red Data, national parks, biosphere reserves. Direct environment syllabus."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Microorganisms + Conservation of Plants and Animals.",
+              "back": "Bacteria, fungi, protozoa, algae, virus. Useful (nitrogen fix, vaccines, curd) vs harmful. Antibiotics and AMR later."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Microorganisms + Conservation of Plants and Animals?",
+              "back": "Key distinctions to retain: Types; Useful microbes; Pathogens; Food preservation."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Gene in the context of today's Microorganisms + Conservation of Plants and Animals study.",
+              "back": "A unit of hereditary information in biological context."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Microorganisms + Conservation of Plants and Animals?",
+              "back": "Evolution occurs across populations and generations, not as a purposeful change made by an individual."
+            }
+          ]
         },
         {
           "day": 29,
@@ -734,7 +1546,9 @@
             "Cell theory, plant vs animal cell, organelles. Foundation of biology Prelims.",
             "Key distinctions to retain: Cell theory; Organelles; Plant vs animal; Unicellular.",
             "Sexual, asexual, IVF mention, metamorphosis. Human reproduction ethics later in GS-IV/S&T.",
-            "Key distinctions to retain: Modes; Fertilisation; Development; IVF idea."
+            "Key distinctions to retain: Modes; Fertilisation; Development; IVF idea.",
+            "Key term for review: Population — Members of a species considered as a group in an area or system.",
+            "Study lens: Cell — Structure and Functions + Reproduction in Animals: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 8 · Science: Cell — Structure and Functions. Class 8 · Science: Reproduction in Animals.",
           "task": "Draw a structure–function diagram and distinguish cause from effect. Write five explained points on Cell — Structure and Functions, then check them against the notes and source reading. Write five explained points on Reproduction in Animals, then check them against the notes and source reading.",
@@ -748,14 +1562,43 @@
             "kebo1",
             "lebo1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Cell — Structure and Functions in your own words and connect it to Cell theory.",
+              "back": "Cell theory, plant vs animal cell, organelles. Foundation of biology Prelims. Sexual, asexual, IVF mention, metamorphosis. Human reproduction ethics later in GS-IV/S&T."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Cell — Structure and Functions + Reproduction in Animals.",
+              "back": "Cell theory, plant vs animal cell, organelles. Foundation of biology Prelims."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Cell — Structure and Functions + Reproduction in Animals?",
+              "back": "Key distinctions to retain: Cell theory; Organelles; Plant vs animal; Unicellular."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Population in the context of today's Cell — Structure and Functions + Reproduction in Animals study.",
+              "back": "Members of a species considered as a group in an area or system."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Cell — Structure and Functions + Reproduction in Animals?",
+              "back": "Evolution occurs across populations and generations, not as a purposeful change made by an individual."
+            }
+          ]
         },
         {
           "day": 30,
           "topic": "Reaching the Age of Adolescence",
           "notes": [
             "Hormones, puberty, reproductive health, gender myths. Health education as public policy.",
-            "Key distinctions to retain: Hormones; Puberty; Reproductive health; Myths."
+            "Key distinctions to retain: Hormones; Puberty; Reproductive health; Myths.",
+            "Key term for review: Homeostasis — Regulation of internal conditions.",
+            "Study lens: Reaching the Age of Adolescence: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 8 · Science: Reaching the Age of Adolescence.",
           "task": "Draw a structure–function diagram and distinguish cause from effect. Write five explained points on Reaching the Age of Adolescence, then check them against the notes and source reading.",
@@ -769,7 +1612,34 @@
             "kebo1",
             "lebo1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Reaching the Age of Adolescence in your own words and connect it to Hormones.",
+              "back": "Hormones, puberty, reproductive health, gender myths. Health education as public policy."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Reaching the Age of Adolescence.",
+              "back": "Hormones, puberty, reproductive health, gender myths. Health education as public policy."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Reaching the Age of Adolescence?",
+              "back": "Key distinctions to retain: Hormones; Puberty; Reproductive health; Myths."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Homeostasis in the context of today's Reaching the Age of Adolescence study.",
+              "back": "Regulation of internal conditions."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Reaching the Age of Adolescence?",
+              "back": "Evolution occurs across populations and generations, not as a purposeful change made by an individual."
+            }
+          ]
         },
         {
           "day": 31,
@@ -778,7 +1648,9 @@
             "Cell organelles in more detail, osmosis, plasma membrane.",
             "Key distinctions to retain: Organelles; Osmosis; Prokaryote/eukaryote; Division intro.",
             "Plant and animal tissues. Meristem, xylem, phloem, epithelium, muscle, nerve.",
-            "Key distinctions to retain: Plant tissues; Animal tissues; Xylem/phloem; Muscle types."
+            "Key distinctions to retain: Plant tissues; Animal tissues; Xylem/phloem; Muscle types.",
+            "Key term for review: Gene — A unit of hereditary information in biological context.",
+            "Study lens: The Fundamental Unit of Life + Tissues: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 9 · Science: The Fundamental Unit of Life. Class 9 · Science: Tissues.",
           "task": "Draw a structure–function diagram and distinguish cause from effect. Write five explained points on The Fundamental Unit of Life, then check them against the notes and source reading. Write five explained points on Tissues, then check them against the notes and source reading.",
@@ -792,7 +1664,34 @@
             "kebo1",
             "lebo1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain The Fundamental Unit of Life in your own words and connect it to Organelles.",
+              "back": "Cell organelles in more detail, osmosis, plasma membrane. Plant and animal tissues. Meristem, xylem, phloem, epithelium, muscle, nerve."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on The Fundamental Unit of Life + Tissues.",
+              "back": "Cell organelles in more detail, osmosis, plasma membrane."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for The Fundamental Unit of Life + Tissues?",
+              "back": "Key distinctions to retain: Organelles; Osmosis; Prokaryote/eukaryote; Division intro."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Gene in the context of today's The Fundamental Unit of Life + Tissues study.",
+              "back": "A unit of hereditary information in biological context."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying The Fundamental Unit of Life + Tissues?",
+              "back": "Evolution occurs across populations and generations, not as a purposeful change made by an individual."
+            }
+          ]
         },
         {
           "day": 32,
@@ -801,7 +1700,9 @@
             "Health vs disease, infectious vs non-infectious, principles of treatment and prevention, immunization.",
             "Key distinctions to retain: Health; Pathogens; Antibiotics vs viruses; Vaccines.",
             "Crop variety, production management, animal husbandry, fish, bee-keeping. Farm science for GS-III.",
-            "Key distinctions to retain: Varietal improvement; Nutrient management; Husbandry; Storage."
+            "Key distinctions to retain: Varietal improvement; Nutrient management; Husbandry; Storage.",
+            "Key term for review: Population — Members of a species considered as a group in an area or system.",
+            "Study lens: Why Do We Fall Ill + Improvement in Food Resources: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 9 · Science: Why Do We Fall Ill. Class 9 · Science: Improvement in Food Resources.",
           "task": "Draw a structure–function diagram and distinguish cause from effect. Write five explained points on Why Do We Fall Ill, then check them against the notes and source reading. Write five explained points on Improvement in Food Resources, then check them against the notes and source reading.",
@@ -815,7 +1716,34 @@
             "kebo1",
             "lebo1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Why Do We Fall Ill in your own words and connect it to Health.",
+              "back": "Health vs disease, infectious vs non-infectious, principles of treatment and prevention, immunization. Crop variety, production management, animal husbandry, fish, bee-keeping. Farm science for GS-III."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Why Do We Fall Ill + Improvement in Food Resources.",
+              "back": "Health vs disease, infectious vs non-infectious, principles of treatment and prevention, immunization."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Why Do We Fall Ill + Improvement in Food Resources?",
+              "back": "Key distinctions to retain: Health; Pathogens; Antibiotics vs viruses; Vaccines."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Population in the context of today's Why Do We Fall Ill + Improvement in Food Resources study.",
+              "back": "Members of a species considered as a group in an area or system."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Why Do We Fall Ill + Improvement in Food Resources?",
+              "back": "Evolution occurs across populations and generations, not as a purposeful change made by an individual."
+            }
+          ]
         },
         {
           "day": 33,
@@ -824,7 +1752,9 @@
             "Nutrition, respiration, transport, excretion in plants and humans. Must-revise for Prelims.",
             "Key distinctions to retain: Photosynthesis; Respiration; Heart/nephron; Transpiration.",
             "Nervous system, hormones in animals, tropisms, plant hormones. Endocrine as chemical coordination.",
-            "Key distinctions to retain: Neuron; Brain; Hormones; Tropism."
+            "Key distinctions to retain: Neuron; Brain; Hormones; Tropism.",
+            "Key term for review: Homeostasis — Regulation of internal conditions.",
+            "Study lens: Life Processes + Control and Coordination: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 10 · Science: Life Processes. Class 10 · Science: Control and Coordination.",
           "task": "Draw a structure–function diagram and distinguish cause from effect. Write five explained points on Life Processes, then check them against the notes and source reading. Write five explained points on Control and Coordination, then check them against the notes and source reading.",
@@ -838,7 +1768,34 @@
             "kebo1",
             "lebo1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Life Processes in your own words and connect it to Photosynthesis.",
+              "back": "Nutrition, respiration, transport, excretion in plants and humans. Must-revise for Prelims. Nervous system, hormones in animals, tropisms, plant hormones. Endocrine as chemical coordination."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Life Processes + Control and Coordination.",
+              "back": "Nutrition, respiration, transport, excretion in plants and humans. Must-revise for Prelims."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Life Processes + Control and Coordination?",
+              "back": "Key distinctions to retain: Photosynthesis; Respiration; Heart/nephron; Transpiration."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Homeostasis in the context of today's Life Processes + Control and Coordination study.",
+              "back": "Regulation of internal conditions."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Life Processes + Control and Coordination?",
+              "back": "Evolution occurs across populations and generations, not as a purposeful change made by an individual."
+            }
+          ]
         },
         {
           "day": 34,
@@ -849,7 +1806,9 @@
             "Why Do We Fall Ill: Health vs disease, infectious vs non-infectious, principles of treatment and prevention, immunization.",
             "Improvement in Food Resources: Crop variety, production management, animal husbandry, fish, bee-keeping. Farm science for GS-III.",
             "Life Processes: Nutrition, respiration, transport, excretion in plants and humans. Must-revise for Prelims.",
-            "Control and Coordination: Nervous system, hormones in animals, tropisms, plant hormones. Endocrine as chemical coordination."
+            "Control and Coordination: Nervous system, hormones in animals, tropisms, plant hormones. Endocrine as chemical coordination.",
+            "Key term for review: Gene — A unit of hereditary information in biological context.",
+            "Study lens: Revision II: Life Science: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Revisit your notes for The Fundamental Unit of Life; Tissues; Why Do We Fall Ill; Improvement in Food Resources; Life Processes; Control and Coordination. Re-read the assigned source sections only where your recall is weak.",
           "task": "Close the notes and reconstruct the main distinctions from the last 6 topics. Draw a structure–function diagram and distinguish cause from effect. Then compare your work with the material below.",
@@ -863,14 +1822,43 @@
             "kebo1",
             "lebo1"
           ],
-          "mode": "revision"
+          "mode": "revision",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+              "back": "Cell organelles in more detail, osmosis, plasma membrane. Plant and animal tissues. Meristem, xylem, phloem, epithelium, muscle, nerve. Health vs disease, infectious vs non-infectious, principles of treatment and prevention, immunization. Crop variety, production management, animal husbandry, fish, bee-keeping. Farm science for GS-III. Nutrition, respiration, transport, excretion in plants and humans. Must-revise for Prelims. Nervous system, hormones in animals, tropisms, plant hormones. Endocrine as chemical coordination."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Revision II: Life Science.",
+              "back": "The Fundamental Unit of Life: Cell organelles in more detail, osmosis, plasma membrane."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Revision II: Life Science?",
+              "back": "Tissues: Plant and animal tissues. Meristem, xylem, phloem, epithelium, muscle, nerve."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Gene in the context of today's Revision II: Life Science study.",
+              "back": "A unit of hereditary information in biological context."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Revision II: Life Science?",
+              "back": "Evolution occurs across populations and generations, not as a purposeful change made by an individual."
+            }
+          ]
         },
         {
           "day": 35,
           "topic": "How do Organisms Reproduce",
           "notes": [
             "Asexual, sexual, human reproductive system, contraception, reproductive health. Population and health GS.",
-            "Key distinctions to retain: Asexual modes; Human system; Contraception; Health."
+            "Key distinctions to retain: Asexual modes; Human system; Contraception; Health.",
+            "Key term for review: Population — Members of a species considered as a group in an area or system.",
+            "Study lens: How do Organisms Reproduce: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 10 · Science: How do Organisms Reproduce.",
           "task": "Draw a structure–function diagram and distinguish cause from effect. Write five explained points on How do Organisms Reproduce, then check them against the notes and source reading.",
@@ -884,7 +1872,34 @@
             "kebo1",
             "lebo1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain How do Organisms Reproduce in your own words and connect it to Asexual modes.",
+              "back": "Asexual, sexual, human reproductive system, contraception, reproductive health. Population and health GS."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on How do Organisms Reproduce.",
+              "back": "Asexual, sexual, human reproductive system, contraception, reproductive health. Population and health GS."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for How do Organisms Reproduce?",
+              "back": "Key distinctions to retain: Asexual modes; Human system; Contraception; Health."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Population in the context of today's How do Organisms Reproduce study.",
+              "back": "Members of a species considered as a group in an area or system."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying How do Organisms Reproduce?",
+              "back": "Evolution occurs across populations and generations, not as a purposeful change made by an individual."
+            }
+          ]
         },
         {
           "day": 36,
@@ -893,7 +1908,9 @@
             "Mendel, sex determination, acquired vs inherited, evolution, speciation, fossils, human evolution sketch.",
             "Key distinctions to retain: Mendel; Sex chromosomes; Evolution evidence; Speciation.",
             "DNA/RNA as information, enzymes, why biotech can edit genes. Enough to read CRISPR news.",
-            "Key distinctions to retain: DNA/RNA; Enzymes; Cell cycle; Biotech hook."
+            "Key distinctions to retain: DNA/RNA; Enzymes; Cell cycle; Biotech hook.",
+            "Key term for review: Homeostasis — Regulation of internal conditions.",
+            "Study lens: Heredity and Evolution + Cell cycle, biomolecules (idea): state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 10 · Science: Heredity and Evolution. Class 11 · Selected plus-two (UPSC relevant): Cell cycle, biomolecules (idea).",
           "task": "Draw a structure–function diagram and distinguish cause from effect. Write five explained points on Heredity and Evolution, then check them against the notes and source reading. Write five explained points on Cell cycle, biomolecules (idea), then check them against the notes and source reading.",
@@ -907,7 +1924,34 @@
             "kebo1",
             "lebo1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Heredity and Evolution in your own words and connect it to Mendel.",
+              "back": "Mendel, sex determination, acquired vs inherited, evolution, speciation, fossils, human evolution sketch. DNA/RNA as information, enzymes, why biotech can edit genes. Enough to read CRISPR news."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Heredity and Evolution + Cell cycle, biomolecules (idea).",
+              "back": "Mendel, sex determination, acquired vs inherited, evolution, speciation, fossils, human evolution sketch."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Heredity and Evolution + Cell cycle, biomolecules (idea)?",
+              "back": "Key distinctions to retain: Mendel; Sex chromosomes; Evolution evidence; Speciation."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Homeostasis in the context of today's Heredity and Evolution + Cell cycle, biomolecules (idea) study.",
+              "back": "Regulation of internal conditions."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Heredity and Evolution + Cell cycle, biomolecules (idea)?",
+              "back": "Evolution occurs across populations and generations, not as a purposeful change made by an individual."
+            }
+          ]
         },
         {
           "day": 37,
@@ -916,7 +1960,9 @@
             "Photosynthesis light/dark reactions names, transpiration, mineral nutrition (N cycle link).",
             "Key distinctions to retain: Photosynthesis stages; Transpiration; N fixation; Deficiency symptoms idea.",
             "Neural, endocrine, immunity (innate/adaptive), which makes vaccine current affairs readable.",
-            "Key distinctions to retain: Immunity; Hormones; Neural; Public health."
+            "Key distinctions to retain: Immunity; Hormones; Neural; Public health.",
+            "Key term for review: Gene — A unit of hereditary information in biological context.",
+            "Study lens: Plant physiology (idea) + Human physiology (idea): state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 11 · Selected plus-two (UPSC relevant): Plant physiology (idea). Class 11 · Selected plus-two (UPSC relevant): Human physiology (idea).",
           "task": "Draw a structure–function diagram and distinguish cause from effect. Write five explained points on Plant physiology (idea), then check them against the notes and source reading. Write five explained points on Human physiology (idea), then check them against the notes and source reading.",
@@ -930,7 +1976,34 @@
             "kebo1",
             "lebo1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Plant physiology (idea) in your own words and connect it to Photosynthesis stages.",
+              "back": "Photosynthesis light/dark reactions names, transpiration, mineral nutrition (N cycle link). Neural, endocrine, immunity (innate/adaptive), which makes vaccine current affairs readable."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Plant physiology (idea) + Human physiology (idea).",
+              "back": "Photosynthesis light/dark reactions names, transpiration, mineral nutrition (N cycle link)."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Plant physiology (idea) + Human physiology (idea)?",
+              "back": "Key distinctions to retain: Photosynthesis stages; Transpiration; N fixation; Deficiency symptoms idea."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Gene in the context of today's Plant physiology (idea) + Human physiology (idea) study.",
+              "back": "A unit of hereditary information in biological context."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Plant physiology (idea) + Human physiology (idea)?",
+              "back": "Evolution occurs across populations and generations, not as a purposeful change made by an individual."
+            }
+          ]
         },
         {
           "day": 38,
@@ -939,7 +2012,9 @@
             "Immunity, AIDS, cancer, drugs, vaccines, public health. AMR as current file.",
             "Key distinctions to retain: Immunity; Communicable; Lifestyle; AMR.",
             "Antibiotics, sewage treatment, biogas, biocontrol. Industry + sanitation.",
-            "Key distinctions to retain: Antibiotics; STP microbes; Biogas; Biocontrol."
+            "Key distinctions to retain: Antibiotics; STP microbes; Biogas; Biocontrol.",
+            "Key term for review: Population — Members of a species considered as a group in an area or system.",
+            "Study lens: Human health and disease + Microbes in human welfare: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 12 · Selected plus-two (UPSC relevant): Human health and disease. Class 12 · Selected plus-two (UPSC relevant): Microbes in human welfare.",
           "task": "Draw a structure–function diagram and distinguish cause from effect. Write five explained points on Human health and disease, then check them against the notes and source reading. Write five explained points on Microbes in human welfare, then check them against the notes and source reading.",
@@ -953,7 +2028,34 @@
             "kebo1",
             "lebo1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Human health and disease in your own words and connect it to Immunity.",
+              "back": "Immunity, AIDS, cancer, drugs, vaccines, public health. AMR as current file. Antibiotics, sewage treatment, biogas, biocontrol. Industry + sanitation."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Human health and disease + Microbes in human welfare.",
+              "back": "Immunity, AIDS, cancer, drugs, vaccines, public health. AMR as current file."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Human health and disease + Microbes in human welfare?",
+              "back": "Key distinctions to retain: Immunity; Communicable; Lifestyle; AMR."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Population in the context of today's Human health and disease + Microbes in human welfare study.",
+              "back": "Members of a species considered as a group in an area or system."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Human health and disease + Microbes in human welfare?",
+              "back": "Evolution occurs across populations and generations, not as a purposeful change made by an individual."
+            }
+          ]
         },
         {
           "day": 39,
@@ -964,7 +2066,9 @@
             "Plant physiology (idea): Photosynthesis light/dark reactions names, transpiration, mineral nutrition (N cycle link).",
             "Human physiology (idea): Neural, endocrine, immunity (innate/adaptive), which makes vaccine current affairs readable.",
             "Human health and disease: Immunity, AIDS, cancer, drugs, vaccines, public health. AMR as current file.",
-            "Microbes in human welfare: Antibiotics, sewage treatment, biogas, biocontrol. Industry + sanitation."
+            "Microbes in human welfare: Antibiotics, sewage treatment, biogas, biocontrol. Industry + sanitation.",
+            "Key term for review: Homeostasis — Regulation of internal conditions.",
+            "Study lens: Life Science: synthesis: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Revisit your notes for Heredity and Evolution; Cell cycle, biomolecules (idea); Plant physiology (idea); Human physiology (idea); Human health and disease; Microbes in human welfare. Re-read the assigned source sections only where your recall is weak.",
           "task": "Close the notes and reconstruct the main distinctions from the last 6 topics. Draw a structure–function diagram and distinguish cause from effect. Then compare your work with the material below.",
@@ -978,7 +2082,34 @@
             "kebo1",
             "lebo1"
           ],
-          "mode": "revision"
+          "mode": "revision",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+              "back": "Mendel, sex determination, acquired vs inherited, evolution, speciation, fossils, human evolution sketch. DNA/RNA as information, enzymes, why biotech can edit genes. Enough to read CRISPR news. Photosynthesis light/dark reactions names, transpiration, mineral nutrition (N cycle link). Neural, endocrine, immunity (innate/adaptive), which makes vaccine current affairs readable. Immunity, AIDS, cancer, drugs, vaccines, public health. AMR as current file. Antibiotics, sewage treatment, biogas, biocontrol. Industry + sanitation."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Life Science: synthesis.",
+              "back": "Heredity and Evolution: Mendel, sex determination, acquired vs inherited, evolution, speciation, fossils, human evolution sketch."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Life Science: synthesis?",
+              "back": "Cell cycle, biomolecules (idea): DNA/RNA as information, enzymes, why biotech can edit genes. Enough to read CRISPR news."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Homeostasis in the context of today's Life Science: synthesis study.",
+              "back": "Regulation of internal conditions."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Life Science: synthesis?",
+              "back": "Evolution occurs across populations and generations, not as a purposeful change made by an individual."
+            }
+          ]
         },
         {
           "day": 40,
@@ -999,7 +2130,9 @@
             "Plant physiology (idea): Photosynthesis light/dark reactions names, transpiration, mineral nutrition (N cycle link).",
             "Human physiology (idea): Neural, endocrine, immunity (innate/adaptive), which makes vaccine current affairs readable.",
             "Human health and disease: Immunity, AIDS, cancer, drugs, vaccines, public health. AMR as current file.",
-            "Microbes in human welfare: Antibiotics, sewage treatment, biogas, biocontrol. Industry + sanitation."
+            "Microbes in human welfare: Antibiotics, sewage treatment, biogas, biocontrol. Industry + sanitation.",
+            "Key term for review: Gene — A unit of hereditary information in biological context.",
+            "Study lens: Life Science: assessment & repair: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Revisit your notes for Cell — Structure and Functions; Reproduction in Animals; Reaching the Age of Adolescence; The Fundamental Unit of Life; Tissues; Why Do We Fall Ill; Improvement in Food Resources; Life Processes; Control and Coordination; How do Organisms Reproduce; Heredity and Evolution; Cell cycle, biomolecules (idea); Plant physiology (idea); Human physiology (idea); Human health and disease; Microbes in human welfare. Re-read the assigned source sections only where your recall is weak.",
           "task": "Use the official-paper link or your question bank for a timed 20-question topic test and one short answer. Mark the gaps, explain your errors and schedule a second recall attempt.",
@@ -1013,7 +2146,34 @@
             "kebo1",
             "lebo1"
           ],
-          "mode": "test"
+          "mode": "test",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+              "back": "Cell theory, plant vs animal cell, organelles. Foundation of biology Prelims. Sexual, asexual, IVF mention, metamorphosis. Human reproduction ethics later in GS-IV/S&T. Hormones, puberty, reproductive health, gender myths. Health education as public policy. Cell organelles in more detail, osmosis, plasma membrane. Plant and animal tissues. Meristem, xylem, phloem, epithelium, muscle, nerve. Health vs disease, infectious vs non-infectious, principles of treatment and prevention, immunization. Crop variety, production management, animal husbandry, fish, bee-keeping. Farm science for GS-III. Nutrition, respiration, transport, excretion in plants and humans. Must-revise for Prelims. Nervous system, hormones in animals, tropisms, plant hormones. Endocrine as chemical coordination. Asexual, sexual, human reproductive system, contraception, reproductive health. Population and health GS. Mendel, sex determination, acquired vs inherited, evolution, speciation, fossils, human evolution sketch. DNA/RNA as information, enzymes, why biotech can edit genes. Enough to read CRISPR news. Photosynthesis light/dark reactions names, transpiration, mineral nutrition (N cycle link). Neural, endocrine, immunity (innate/adaptive), which makes vaccine current affairs readable. Immunity, AIDS, cancer, drugs, vaccines, public health. AMR as current file. Antibiotics, sewage treatment, biogas, biocontrol. Industry + sanitation."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Life Science: assessment & repair.",
+              "back": "Cell — Structure and Functions: Cell theory, plant vs animal cell, organelles. Foundation of biology Prelims."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Life Science: assessment & repair?",
+              "back": "Reproduction in Animals: Sexual, asexual, IVF mention, metamorphosis. Human reproduction ethics later in GS-IV/S&T."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Gene in the context of today's Life Science: assessment & repair study.",
+              "back": "A unit of hereditary information in biological context."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Life Science: assessment & repair?",
+              "back": "Evolution occurs across populations and generations, not as a purposeful change made by an individual."
+            }
+          ]
         }
       ]
     },
@@ -1032,7 +2192,9 @@
           "topic": "Fibre to Fabric",
           "notes": [
             "Plant and animal fibres, spinning, weaving. Link to industry geography later.",
-            "Key distinctions to retain: Cotton/jute; Wool/silk; Process; History of cloth."
+            "Key distinctions to retain: Cotton/jute; Wool/silk; Process; History of cloth.",
+            "Key term for review: Resolution — Ability to distinguish spatial, temporal or other detail.",
+            "Study lens: Fibre to Fabric: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 6 · Science: Fibre to Fabric.",
           "task": "Describe a technology’s mechanism, use, limitations and safeguards. Write five explained points on Fibre to Fabric, then check them against the notes and source reading.",
@@ -1046,7 +2208,34 @@
             "leph2",
             "kebt1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Fibre to Fabric in your own words and connect it to Cotton/jute.",
+              "back": "Plant and animal fibres, spinning, weaving. Link to industry geography later."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Fibre to Fabric.",
+              "back": "Plant and animal fibres, spinning, weaving. Link to industry geography later."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Fibre to Fabric?",
+              "back": "Key distinctions to retain: Cotton/jute; Wool/silk; Process; History of cloth."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Resolution in the context of today's Fibre to Fabric study.",
+              "back": "Ability to distinguish spatial, temporal or other detail."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Fibre to Fabric?",
+              "back": "A technology’s potential benefit is not the same as evidence that it has already delivered that benefit at scale."
+            }
+          ]
         },
         {
           "day": 42,
@@ -1055,7 +2244,9 @@
             "Properties: lustre, hardness, soluble, density, transparent. Classification is scientific method.",
             "Key distinctions to retain: Properties; Solubility; Density; Why classify.",
             "Handpicking, sieving, filtration, evaporation, condensation. Mixtures vs pure substances.",
-            "Key distinctions to retain: Methods; Solution; Evaporation; Water purification idea."
+            "Key distinctions to retain: Methods; Solution; Evaporation; Water purification idea.",
+            "Key term for review: Validation — Testing whether a method meets its intended requirements.",
+            "Study lens: Sorting Materials into Groups + Separation of Substances: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 6 · Science: Sorting Materials into Groups. Class 6 · Science: Separation of Substances.",
           "task": "Describe a technology’s mechanism, use, limitations and safeguards. Write five explained points on Sorting Materials into Groups, then check them against the notes and source reading. Write five explained points on Separation of Substances, then check them against the notes and source reading.",
@@ -1069,7 +2260,34 @@
             "leph2",
             "kebt1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Sorting Materials into Groups in your own words and connect it to Properties.",
+              "back": "Properties: lustre, hardness, soluble, density, transparent. Classification is scientific method. Handpicking, sieving, filtration, evaporation, condensation. Mixtures vs pure substances."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Sorting Materials into Groups + Separation of Substances.",
+              "back": "Properties: lustre, hardness, soluble, density, transparent. Classification is scientific method."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Sorting Materials into Groups + Separation of Substances?",
+              "back": "Key distinctions to retain: Properties; Solubility; Density; Why classify."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Validation in the context of today's Sorting Materials into Groups + Separation of Substances study.",
+              "back": "Testing whether a method meets its intended requirements."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Sorting Materials into Groups + Separation of Substances?",
+              "back": "A technology’s potential benefit is not the same as evidence that it has already delivered that benefit at scale."
+            }
+          ]
         },
         {
           "day": 43,
@@ -1078,7 +2296,9 @@
             "Reversible vs irreversible, physical vs chemical. Heating, burning, rusting.",
             "Key distinctions to retain: Reversible; Chemical change; Rust; Energy in changes.",
             "Cycle, drought, flood, conservation. Direct GS-III overlap.",
-            "Key distinctions to retain: Cycle; Drought/flood; Groundwater; Conserve."
+            "Key distinctions to retain: Cycle; Drought/flood; Groundwater; Conserve.",
+            "Key term for review: Semiconductor — A material whose electrical properties can be controlled for electronic uses.",
+            "Study lens: Changes Around Us + Water: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 6 · Science: Changes Around Us. Class 6 · Science: Water.",
           "task": "Describe a technology’s mechanism, use, limitations and safeguards. Write five explained points on Changes Around Us, then check them against the notes and source reading. Write five explained points on Water, then check them against the notes and source reading.",
@@ -1092,7 +2312,34 @@
             "leph2",
             "kebt1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Changes Around Us in your own words and connect it to Reversible.",
+              "back": "Reversible vs irreversible, physical vs chemical. Heating, burning, rusting. Cycle, drought, flood, conservation. Direct GS-III overlap."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Changes Around Us + Water.",
+              "back": "Reversible vs irreversible, physical vs chemical. Heating, burning, rusting."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Changes Around Us + Water?",
+              "back": "Key distinctions to retain: Reversible; Chemical change; Rust; Energy in changes."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Semiconductor in the context of today's Changes Around Us + Water study.",
+              "back": "A material whose electrical properties can be controlled for electronic uses."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Changes Around Us + Water?",
+              "back": "A technology’s potential benefit is not the same as evidence that it has already delivered that benefit at scale."
+            }
+          ]
         },
         {
           "day": 44,
@@ -1101,7 +2348,9 @@
             "Composition, oxygen for burning and breathing, atmosphere. Link later to pollution.",
             "Key distinctions to retain: Composition; Oxygen; Atmosphere; Uses.",
             "Vermicompost, plastics, 3Rs. Waste is a governance problem.",
-            "Key distinctions to retain: Biodegradable; Plastics; 3R; Landfill."
+            "Key distinctions to retain: Biodegradable; Plastics; 3R; Landfill.",
+            "Key term for review: Resolution — Ability to distinguish spatial, temporal or other detail.",
+            "Study lens: Air Around Us + Garbage In, Garbage Out: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 6 · Science: Air Around Us. Class 6 · Science: Garbage In, Garbage Out.",
           "task": "Describe a technology’s mechanism, use, limitations and safeguards. Write five explained points on Air Around Us, then check them against the notes and source reading. Write five explained points on Garbage In, Garbage Out, then check them against the notes and source reading.",
@@ -1115,7 +2364,34 @@
             "leph2",
             "kebt1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Air Around Us in your own words and connect it to Composition.",
+              "back": "Composition, oxygen for burning and breathing, atmosphere. Link later to pollution. Vermicompost, plastics, 3Rs. Waste is a governance problem."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Air Around Us + Garbage In, Garbage Out.",
+              "back": "Composition, oxygen for burning and breathing, atmosphere. Link later to pollution."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Air Around Us + Garbage In, Garbage Out?",
+              "back": "Key distinctions to retain: Composition; Oxygen; Atmosphere; Uses."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Resolution in the context of today's Air Around Us + Garbage In, Garbage Out study.",
+              "back": "Ability to distinguish spatial, temporal or other detail."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Air Around Us + Garbage In, Garbage Out?",
+              "back": "A technology’s potential benefit is not the same as evidence that it has already delivered that benefit at scale."
+            }
+          ]
         },
         {
           "day": 45,
@@ -1124,7 +2400,9 @@
             "Animal fibres in more depth. Sericulture as livelihood.",
             "Key distinctions to retain: Wool; Silk; Occupational health; Livelihood.",
             "Weather vs climate, climate and polar/tropical adaptations. Geography twin.",
-            "Key distinctions to retain: Weather/climate; Migration; Polar bear/penguin; Tropical."
+            "Key distinctions to retain: Weather/climate; Migration; Polar bear/penguin; Tropical.",
+            "Key term for review: Validation — Testing whether a method meets its intended requirements.",
+            "Study lens: Fibre to Fabric (wool/silk) + Weather, Climate and Adaptations: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 7 · Science: Fibre to Fabric (wool/silk). Class 7 · Science: Weather, Climate and Adaptations.",
           "task": "Describe a technology’s mechanism, use, limitations and safeguards. Write five explained points on Fibre to Fabric (wool/silk), then check them against the notes and source reading. Write five explained points on Weather, Climate and Adaptations, then check them against the notes and source reading.",
@@ -1138,7 +2416,34 @@
             "leph2",
             "kebt1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Fibre to Fabric (wool/silk) in your own words and connect it to Wool.",
+              "back": "Animal fibres in more depth. Sericulture as livelihood. Weather vs climate, climate and polar/tropical adaptations. Geography twin."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Fibre to Fabric (wool/silk) + Weather, Climate and Adaptations.",
+              "back": "Animal fibres in more depth. Sericulture as livelihood."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Fibre to Fabric (wool/silk) + Weather, Climate and Adaptations?",
+              "back": "Key distinctions to retain: Wool; Silk; Occupational health; Livelihood."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Validation in the context of today's Fibre to Fabric (wool/silk) + Weather, Climate and Adaptations study.",
+              "back": "Testing whether a method meets its intended requirements."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Fibre to Fabric (wool/silk) + Weather, Climate and Adaptations?",
+              "back": "A technology’s potential benefit is not the same as evidence that it has already delivered that benefit at scale."
+            }
+          ]
         },
         {
           "day": 46,
@@ -1147,7 +2452,9 @@
             "Air pressure, wind, thunderstorms, cyclones, safety. Disaster management science.",
             "Key distinctions to retain: Pressure; Thunderstorm; Cyclone; Safety.",
             "Profile, types, suitability for crops. Geography overlap.",
-            "Key distinctions to retain: Horizon; Types; Percolation; Soil and crops."
+            "Key distinctions to retain: Horizon; Types; Percolation; Soil and crops.",
+            "Key term for review: Semiconductor — A material whose electrical properties can be controlled for electronic uses.",
+            "Study lens: Winds, Storms and Cyclones + Soil: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 7 · Science: Winds, Storms and Cyclones. Class 7 · Science: Soil.",
           "task": "Describe a technology’s mechanism, use, limitations and safeguards. Write five explained points on Winds, Storms and Cyclones, then check them against the notes and source reading. Write five explained points on Soil, then check them against the notes and source reading.",
@@ -1161,7 +2468,34 @@
             "leph2",
             "kebt1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Winds, Storms and Cyclones in your own words and connect it to Pressure.",
+              "back": "Air pressure, wind, thunderstorms, cyclones, safety. Disaster management science. Profile, types, suitability for crops. Geography overlap."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Winds, Storms and Cyclones + Soil.",
+              "back": "Air pressure, wind, thunderstorms, cyclones, safety. Disaster management science."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Winds, Storms and Cyclones + Soil?",
+              "back": "Key distinctions to retain: Pressure; Thunderstorm; Cyclone; Safety."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Semiconductor in the context of today's Winds, Storms and Cyclones + Soil study.",
+              "back": "A material whose electrical properties can be controlled for electronic uses."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Winds, Storms and Cyclones + Soil?",
+              "back": "A technology’s potential benefit is not the same as evidence that it has already delivered that benefit at scale."
+            }
+          ]
         },
         {
           "day": 47,
@@ -1172,7 +2506,9 @@
             "Fibre to Fabric (wool/silk): Animal fibres in more depth. Sericulture as livelihood.",
             "Weather, Climate and Adaptations: Weather vs climate, climate and polar/tropical adaptations. Geography twin.",
             "Winds, Storms and Cyclones: Air pressure, wind, thunderstorms, cyclones, safety. Disaster management science.",
-            "Soil: Profile, types, suitability for crops. Geography overlap."
+            "Soil: Profile, types, suitability for crops. Geography overlap.",
+            "Key term for review: Resolution — Ability to distinguish spatial, temporal or other detail.",
+            "Study lens: Revision I: Technology & Applications: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Revisit your notes for Air Around Us; Garbage In, Garbage Out; Fibre to Fabric (wool/silk); Weather, Climate and Adaptations; Winds, Storms and Cyclones; Soil. Re-read the assigned source sections only where your recall is weak.",
           "task": "Close the notes and reconstruct the main distinctions from the last 6 topics. Describe a technology’s mechanism, use, limitations and safeguards. Then compare your work with the material below.",
@@ -1186,7 +2522,34 @@
             "leph2",
             "kebt1"
           ],
-          "mode": "revision"
+          "mode": "revision",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+              "back": "Composition, oxygen for burning and breathing, atmosphere. Link later to pollution. Vermicompost, plastics, 3Rs. Waste is a governance problem. Animal fibres in more depth. Sericulture as livelihood. Weather vs climate, climate and polar/tropical adaptations. Geography twin. Air pressure, wind, thunderstorms, cyclones, safety. Disaster management science. Profile, types, suitability for crops. Geography overlap."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Revision I: Technology & Applications.",
+              "back": "Air Around Us: Composition, oxygen for burning and breathing, atmosphere. Link later to pollution."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Revision I: Technology & Applications?",
+              "back": "Garbage In, Garbage Out: Vermicompost, plastics, 3Rs. Waste is a governance problem."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Resolution in the context of today's Revision I: Technology & Applications study.",
+              "back": "Ability to distinguish spatial, temporal or other detail."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Revision I: Technology & Applications?",
+              "back": "A technology’s potential benefit is not the same as evidence that it has already delivered that benefit at scale."
+            }
+          ]
         },
         {
           "day": 48,
@@ -1195,7 +2558,9 @@
             "Sewage, treatment plant, sanitation. Public health + urban GS.",
             "Key distinctions to retain: Sewage; WWTP steps; Sanitation; Waterborne disease.",
             "Agricultural practices, manure vs fertiliser, irrigation, weeds, storage. Green Revolution costs belong in economy notes.",
-            "Key distinctions to retain: Kharif/rabi; Fertiliser vs manure; Irrigation; Storage."
+            "Key distinctions to retain: Kharif/rabi; Fertiliser vs manure; Irrigation; Storage.",
+            "Key term for review: Validation — Testing whether a method meets its intended requirements.",
+            "Study lens: Wastewater Story + Crop Production and Management: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 7 · Science: Wastewater Story. Class 8 · Science: Crop Production and Management.",
           "task": "Describe a technology’s mechanism, use, limitations and safeguards. Write five explained points on Wastewater Story, then check them against the notes and source reading. Write five explained points on Crop Production and Management, then check them against the notes and source reading.",
@@ -1209,7 +2574,34 @@
             "leph2",
             "kebt1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Wastewater Story in your own words and connect it to Sewage.",
+              "back": "Sewage, treatment plant, sanitation. Public health + urban GS. Agricultural practices, manure vs fertiliser, irrigation, weeds, storage. Green Revolution costs belong in economy notes."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Wastewater Story + Crop Production and Management.",
+              "back": "Sewage, treatment plant, sanitation. Public health + urban GS."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Wastewater Story + Crop Production and Management?",
+              "back": "Key distinctions to retain: Sewage; WWTP steps; Sanitation; Waterborne disease."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Validation in the context of today's Wastewater Story + Crop Production and Management study.",
+              "back": "Testing whether a method meets its intended requirements."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Wastewater Story + Crop Production and Management?",
+              "back": "A technology’s potential benefit is not the same as evidence that it has already delivered that benefit at scale."
+            }
+          ]
         },
         {
           "day": 49,
@@ -1218,7 +2610,9 @@
             "Fossil fuels, refining, limited nature, conservation. Energy GS-III.",
             "Key distinctions to retain: Fossil fuels; Refining; Limited; Conserve.",
             "Lightning, earthquake, safety, seismic zones. Disaster science.",
-            "Key distinctions to retain: Charging; Lightning safety; Earthquake; Seismic zones."
+            "Key distinctions to retain: Charging; Lightning safety; Earthquake; Seismic zones.",
+            "Key term for review: Semiconductor — A material whose electrical properties can be controlled for electronic uses.",
+            "Study lens: Coal and Petroleum + Some Natural Phenomena: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 8 · Science: Coal and Petroleum. Class 8 · Science: Some Natural Phenomena.",
           "task": "Describe a technology’s mechanism, use, limitations and safeguards. Write five explained points on Coal and Petroleum, then check them against the notes and source reading. Write five explained points on Some Natural Phenomena, then check them against the notes and source reading.",
@@ -1232,7 +2626,34 @@
             "leph2",
             "kebt1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Coal and Petroleum in your own words and connect it to Fossil fuels.",
+              "back": "Fossil fuels, refining, limited nature, conservation. Energy GS-III. Lightning, earthquake, safety, seismic zones. Disaster science."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Coal and Petroleum + Some Natural Phenomena.",
+              "back": "Fossil fuels, refining, limited nature, conservation. Energy GS-III."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Coal and Petroleum + Some Natural Phenomena?",
+              "back": "Key distinctions to retain: Fossil fuels; Refining; Limited; Conserve."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Semiconductor in the context of today's Coal and Petroleum + Some Natural Phenomena study.",
+              "back": "A material whose electrical properties can be controlled for electronic uses."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Coal and Petroleum + Some Natural Phenomena?",
+              "back": "A technology’s potential benefit is not the same as evidence that it has already delivered that benefit at scale."
+            }
+          ]
         },
         {
           "day": 50,
@@ -1241,7 +2662,9 @@
             "Moon phases, planets, constellations, artificial satellites. Bridge to ISRO CA.",
             "Key distinctions to retain: Phases; Planets; Constellations; Satellites.",
             "Smog, acid rain, greenhouse, water pollution, Ganga action flavour. Law comes later.",
-            "Key distinctions to retain: Air pollutants; GHG; Water pollutants; Purification."
+            "Key distinctions to retain: Air pollutants; GHG; Water pollutants; Purification.",
+            "Key term for review: Resolution — Ability to distinguish spatial, temporal or other detail.",
+            "Study lens: Stars and the Solar System + Pollution of Air and Water: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 8 · Science: Stars and the Solar System. Class 8 · Science: Pollution of Air and Water.",
           "task": "Describe a technology’s mechanism, use, limitations and safeguards. Write five explained points on Stars and the Solar System, then check them against the notes and source reading. Write five explained points on Pollution of Air and Water, then check them against the notes and source reading.",
@@ -1255,7 +2678,34 @@
             "leph2",
             "kebt1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Stars and the Solar System in your own words and connect it to Phases.",
+              "back": "Moon phases, planets, constellations, artificial satellites. Bridge to ISRO CA. Smog, acid rain, greenhouse, water pollution, Ganga action flavour. Law comes later."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Stars and the Solar System + Pollution of Air and Water.",
+              "back": "Moon phases, planets, constellations, artificial satellites. Bridge to ISRO CA."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Stars and the Solar System + Pollution of Air and Water?",
+              "back": "Key distinctions to retain: Phases; Planets; Constellations; Satellites."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Resolution in the context of today's Stars and the Solar System + Pollution of Air and Water study.",
+              "back": "Ability to distinguish spatial, temporal or other detail."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Stars and the Solar System + Pollution of Air and Water?",
+              "back": "A technology’s potential benefit is not the same as evidence that it has already delivered that benefit at scale."
+            }
+          ]
         },
         {
           "day": 51,
@@ -1264,7 +2714,9 @@
             "Air, water, soil biogeochemical cycles, ozone. Class 9 environment block.",
             "Key distinctions to retain: Air/water/soil; Cycles C N water; Ozone hole idea; Greenhouse.",
             "Ecosystem, food chains, ozone, waste, biodegradable. Direct environment.",
-            "Key distinctions to retain: Trophic levels; Ozone; Waste; 10% law."
+            "Key distinctions to retain: Trophic levels; Ozone; Waste; 10% law.",
+            "Key term for review: Validation — Testing whether a method meets its intended requirements.",
+            "Study lens: Natural Resources + Our Environment: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 9 · Science: Natural Resources. Class 10 · Science: Our Environment.",
           "task": "Describe a technology’s mechanism, use, limitations and safeguards. Write five explained points on Natural Resources, then check them against the notes and source reading. Write five explained points on Our Environment, then check them against the notes and source reading.",
@@ -1278,7 +2730,34 @@
             "leph2",
             "kebt1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Natural Resources in your own words and connect it to Air/water/soil.",
+              "back": "Air, water, soil biogeochemical cycles, ozone. Class 9 environment block. Ecosystem, food chains, ozone, waste, biodegradable. Direct environment."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Natural Resources + Our Environment.",
+              "back": "Air, water, soil biogeochemical cycles, ozone. Class 9 environment block."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Natural Resources + Our Environment?",
+              "back": "Key distinctions to retain: Air/water/soil; Cycles C N water; Ozone hole idea; Greenhouse."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Validation in the context of today's Natural Resources + Our Environment study.",
+              "back": "Testing whether a method meets its intended requirements."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Natural Resources + Our Environment?",
+              "back": "A technology’s potential benefit is not the same as evidence that it has already delivered that benefit at scale."
+            }
+          ]
         },
         {
           "day": 52,
@@ -1287,7 +2766,9 @@
             "5Rs, forests, water (dams debate), coal/petroleum. Stakeholder conflicts (forest people vs industry).",
             "Key distinctions to retain: 5R; Forests; Water; Stakeholders.",
             "DNA/RNA as information, enzymes, why biotech can edit genes. Enough to read CRISPR news.",
-            "Key distinctions to retain: DNA/RNA; Enzymes; Cell cycle; Biotech hook."
+            "Key distinctions to retain: DNA/RNA; Enzymes; Cell cycle; Biotech hook.",
+            "Key term for review: Semiconductor — A material whose electrical properties can be controlled for electronic uses.",
+            "Study lens: Sustainable Management of Natural Resources + Cell cycle, biomolecules (idea): state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 10 · Science: Sustainable Management of Natural Resources. Class 11 · Selected plus-two (UPSC relevant): Cell cycle, biomolecules (idea).",
           "task": "Describe a technology’s mechanism, use, limitations and safeguards. Write five explained points on Sustainable Management of Natural Resources, then check them against the notes and source reading. Write five explained points on Cell cycle, biomolecules (idea), then check them against the notes and source reading.",
@@ -1301,7 +2782,34 @@
             "leph2",
             "kebt1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Sustainable Management of Natural Resources in your own words and connect it to 5R.",
+              "back": "5Rs, forests, water (dams debate), coal/petroleum. Stakeholder conflicts (forest people vs industry). DNA/RNA as information, enzymes, why biotech can edit genes. Enough to read CRISPR news."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Sustainable Management of Natural Resources + Cell cycle, biomolecules (idea).",
+              "back": "5Rs, forests, water (dams debate), coal/petroleum. Stakeholder conflicts (forest people vs industry)."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Sustainable Management of Natural Resources + Cell cycle, biomolecules (idea)?",
+              "back": "Key distinctions to retain: 5R; Forests; Water; Stakeholders."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Semiconductor in the context of today's Sustainable Management of Natural Resources + Cell cycle, biomolecules (idea) study.",
+              "back": "A material whose electrical properties can be controlled for electronic uses."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Sustainable Management of Natural Resources + Cell cycle, biomolecules (idea)?",
+              "back": "A technology’s potential benefit is not the same as evidence that it has already delivered that benefit at scale."
+            }
+          ]
         },
         {
           "day": 53,
@@ -1310,7 +2818,9 @@
             "Photosynthesis light/dark reactions names, transpiration, mineral nutrition (N cycle link).",
             "Key distinctions to retain: Photosynthesis stages; Transpiration; N fixation; Deficiency symptoms idea.",
             "Neural, endocrine, immunity (innate/adaptive), which makes vaccine current affairs readable.",
-            "Key distinctions to retain: Immunity; Hormones; Neural; Public health."
+            "Key distinctions to retain: Immunity; Hormones; Neural; Public health.",
+            "Key term for review: Resolution — Ability to distinguish spatial, temporal or other detail.",
+            "Study lens: Plant physiology (idea) + Human physiology (idea): state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 11 · Selected plus-two (UPSC relevant): Plant physiology (idea). Class 11 · Selected plus-two (UPSC relevant): Human physiology (idea).",
           "task": "Describe a technology’s mechanism, use, limitations and safeguards. Write five explained points on Plant physiology (idea), then check them against the notes and source reading. Write five explained points on Human physiology (idea), then check them against the notes and source reading.",
@@ -1324,7 +2834,34 @@
             "leph2",
             "kebt1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Plant physiology (idea) in your own words and connect it to Photosynthesis stages.",
+              "back": "Photosynthesis light/dark reactions names, transpiration, mineral nutrition (N cycle link). Neural, endocrine, immunity (innate/adaptive), which makes vaccine current affairs readable."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Plant physiology (idea) + Human physiology (idea).",
+              "back": "Photosynthesis light/dark reactions names, transpiration, mineral nutrition (N cycle link)."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Plant physiology (idea) + Human physiology (idea)?",
+              "back": "Key distinctions to retain: Photosynthesis stages; Transpiration; N fixation; Deficiency symptoms idea."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Resolution in the context of today's Plant physiology (idea) + Human physiology (idea) study.",
+              "back": "Ability to distinguish spatial, temporal or other detail."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Plant physiology (idea) + Human physiology (idea)?",
+              "back": "A technology’s potential benefit is not the same as evidence that it has already delivered that benefit at scale."
+            }
+          ]
         },
         {
           "day": 54,
@@ -1335,7 +2872,9 @@
             "Sustainable Management of Natural Resources: 5Rs, forests, water (dams debate), coal/petroleum. Stakeholder conflicts (forest people vs industry).",
             "Cell cycle, biomolecules (idea): DNA/RNA as information, enzymes, why biotech can edit genes. Enough to read CRISPR news.",
             "Plant physiology (idea): Photosynthesis light/dark reactions names, transpiration, mineral nutrition (N cycle link).",
-            "Human physiology (idea): Neural, endocrine, immunity (innate/adaptive), which makes vaccine current affairs readable."
+            "Human physiology (idea): Neural, endocrine, immunity (innate/adaptive), which makes vaccine current affairs readable.",
+            "Key term for review: Validation — Testing whether a method meets its intended requirements.",
+            "Study lens: Revision II: Technology & Applications: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Revisit your notes for Natural Resources; Our Environment; Sustainable Management of Natural Resources; Cell cycle, biomolecules (idea); Plant physiology (idea); Human physiology (idea). Re-read the assigned source sections only where your recall is weak.",
           "task": "Close the notes and reconstruct the main distinctions from the last 6 topics. Describe a technology’s mechanism, use, limitations and safeguards. Then compare your work with the material below.",
@@ -1349,7 +2888,34 @@
             "leph2",
             "kebt1"
           ],
-          "mode": "revision"
+          "mode": "revision",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+              "back": "Air, water, soil biogeochemical cycles, ozone. Class 9 environment block. Ecosystem, food chains, ozone, waste, biodegradable. Direct environment. 5Rs, forests, water (dams debate), coal/petroleum. Stakeholder conflicts (forest people vs industry). DNA/RNA as information, enzymes, why biotech can edit genes. Enough to read CRISPR news. Photosynthesis light/dark reactions names, transpiration, mineral nutrition (N cycle link). Neural, endocrine, immunity (innate/adaptive), which makes vaccine current affairs readable."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Revision II: Technology & Applications.",
+              "back": "Natural Resources: Air, water, soil biogeochemical cycles, ozone. Class 9 environment block."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Revision II: Technology & Applications?",
+              "back": "Our Environment: Ecosystem, food chains, ozone, waste, biodegradable. Direct environment."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Validation in the context of today's Revision II: Technology & Applications study.",
+              "back": "Testing whether a method meets its intended requirements."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Revision II: Technology & Applications?",
+              "back": "A technology’s potential benefit is not the same as evidence that it has already delivered that benefit at scale."
+            }
+          ]
         },
         {
           "day": 55,
@@ -1358,7 +2924,9 @@
             "Energy conservation, enthalpy flavour, why engines waste heat. Climate and energy policy sit on this.",
             "Key distinctions to retain: Laws of thermo (qualitative); Equilibrium; Energy efficiency; Climate.",
             "Fuels, pollutants, green chemistry idea. Link Class 8–10 pollution to industrial chemistry.",
-            "Key distinctions to retain: Fuels; Pollutants; Green chemistry; Smog."
+            "Key distinctions to retain: Fuels; Pollutants; Green chemistry; Smog.",
+            "Key term for review: Semiconductor — A material whose electrical properties can be controlled for electronic uses.",
+            "Study lens: Thermodynamics & equilibrium (idea) + Hydrocarbons & environmental chemistry (idea): state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 11 · Selected plus-two (UPSC relevant): Thermodynamics & equilibrium (idea). Class 11 · Selected plus-two (UPSC relevant): Hydrocarbons & environmental chemistry (idea).",
           "task": "Describe a technology’s mechanism, use, limitations and safeguards. Write five explained points on Thermodynamics & equilibrium (idea), then check them against the notes and source reading. Write five explained points on Hydrocarbons & environmental chemistry (idea), then check them against the notes and source reading.",
@@ -1372,7 +2940,34 @@
             "leph2",
             "kebt1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Thermodynamics & equilibrium (idea) in your own words and connect it to Laws of thermo (qualitative).",
+              "back": "Energy conservation, enthalpy flavour, why engines waste heat. Climate and energy policy sit on this. Fuels, pollutants, green chemistry idea. Link Class 8–10 pollution to industrial chemistry."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Thermodynamics & equilibrium (idea) + Hydrocarbons & environmental chemistry (idea).",
+              "back": "Energy conservation, enthalpy flavour, why engines waste heat. Climate and energy policy sit on this."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Thermodynamics & equilibrium (idea) + Hydrocarbons & environmental chemistry (idea)?",
+              "back": "Key distinctions to retain: Laws of thermo (qualitative); Equilibrium; Energy efficiency; Climate."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Semiconductor in the context of today's Thermodynamics & equilibrium (idea) + Hydrocarbons & environmental chemistry (idea) study.",
+              "back": "A material whose electrical properties can be controlled for electronic uses."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Thermodynamics & equilibrium (idea) + Hydrocarbons & environmental chemistry (idea)?",
+              "back": "A technology’s potential benefit is not the same as evidence that it has already delivered that benefit at scale."
+            }
+          ]
         },
         {
           "day": 56,
@@ -1381,7 +2976,9 @@
             "rDNA, PCR, GM crops, insulin, gene therapy idea, ethical/biosafety (GEAC). Write application + regulation.",
             "Key distinctions to retain: rDNA; PCR; GM; GEAC/ethics.",
             "Immunity, AIDS, cancer, drugs, vaccines, public health. AMR as current file.",
-            "Key distinctions to retain: Immunity; Communicable; Lifestyle; AMR."
+            "Key distinctions to retain: Immunity; Communicable; Lifestyle; AMR.",
+            "Key term for review: Resolution — Ability to distinguish spatial, temporal or other detail.",
+            "Study lens: Biotechnology: principles and applications + Human health and disease: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 12 · Selected plus-two (UPSC relevant): Biotechnology: principles and applications. Class 12 · Selected plus-two (UPSC relevant): Human health and disease.",
           "task": "Describe a technology’s mechanism, use, limitations and safeguards. Write five explained points on Biotechnology: principles and applications, then check them against the notes and source reading. Write five explained points on Human health and disease, then check them against the notes and source reading.",
@@ -1395,7 +2992,34 @@
             "leph2",
             "kebt1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Biotechnology: principles and applications in your own words and connect it to rDNA.",
+              "back": "rDNA, PCR, GM crops, insulin, gene therapy idea, ethical/biosafety (GEAC). Write application + regulation. Immunity, AIDS, cancer, drugs, vaccines, public health. AMR as current file."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Biotechnology: principles and applications + Human health and disease.",
+              "back": "rDNA, PCR, GM crops, insulin, gene therapy idea, ethical/biosafety (GEAC). Write application + regulation."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Biotechnology: principles and applications + Human health and disease?",
+              "back": "Key distinctions to retain: rDNA; PCR; GM; GEAC/ethics."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Resolution in the context of today's Biotechnology: principles and applications + Human health and disease study.",
+              "back": "Ability to distinguish spatial, temporal or other detail."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Biotechnology: principles and applications + Human health and disease?",
+              "back": "A technology’s potential benefit is not the same as evidence that it has already delivered that benefit at scale."
+            }
+          ]
         },
         {
           "day": 57,
@@ -1404,7 +3028,9 @@
             "Antibiotics, sewage treatment, biogas, biocontrol. Industry + sanitation.",
             "Key distinctions to retain: Antibiotics; STP microbes; Biogas; Biocontrol.",
             "Levels, patterns, loss, in-situ/ex-situ. Overlaps environment GS.",
-            "Key distinctions to retain: Levels; Hotspots; Threats; Conservation."
+            "Key distinctions to retain: Levels; Hotspots; Threats; Conservation.",
+            "Key term for review: Validation — Testing whether a method meets its intended requirements.",
+            "Study lens: Microbes in human welfare + Biodiversity and conservation (bio): state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 12 · Selected plus-two (UPSC relevant): Microbes in human welfare. Class 12 · Selected plus-two (UPSC relevant): Biodiversity and conservation (bio).",
           "task": "Describe a technology’s mechanism, use, limitations and safeguards. Write five explained points on Microbes in human welfare, then check them against the notes and source reading. Write five explained points on Biodiversity and conservation (bio), then check them against the notes and source reading.",
@@ -1418,7 +3044,34 @@
             "leph2",
             "kebt1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Microbes in human welfare in your own words and connect it to Antibiotics.",
+              "back": "Antibiotics, sewage treatment, biogas, biocontrol. Industry + sanitation. Levels, patterns, loss, in-situ/ex-situ. Overlaps environment GS."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Microbes in human welfare + Biodiversity and conservation (bio).",
+              "back": "Antibiotics, sewage treatment, biogas, biocontrol. Industry + sanitation."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Microbes in human welfare + Biodiversity and conservation (bio)?",
+              "back": "Key distinctions to retain: Antibiotics; STP microbes; Biogas; Biocontrol."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Validation in the context of today's Microbes in human welfare + Biodiversity and conservation (bio) study.",
+              "back": "Testing whether a method meets its intended requirements."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Microbes in human welfare + Biodiversity and conservation (bio)?",
+              "back": "A technology’s potential benefit is not the same as evidence that it has already delivered that benefit at scale."
+            }
+          ]
         },
         {
           "day": 58,
@@ -1427,7 +3080,9 @@
             "p-n, diode, transistor as switch, why chips are strategic. Enough for semiconductor mission news.",
             "Key distinctions to retain: Semiconductor; Diode; Chip supply chain; India mission.",
             "Radioactivity, fission/fusion, nuclear energy, waste, India’s three-stage programme flavour.",
-            "Key distinctions to retain: Radioactivity; Fission/fusion; Nuclear power; Waste."
+            "Key distinctions to retain: Radioactivity; Fission/fusion; Nuclear power; Waste.",
+            "Key term for review: Semiconductor — A material whose electrical properties can be controlled for electronic uses.",
+            "Study lens: Semiconductor electronics (idea) + Nuclei (idea): state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Class 12 · Selected plus-two (UPSC relevant): Semiconductor electronics (idea). Class 12 · Selected plus-two (UPSC relevant): Nuclei (idea).",
           "task": "Describe a technology’s mechanism, use, limitations and safeguards. Write five explained points on Semiconductor electronics (idea), then check them against the notes and source reading. Write five explained points on Nuclei (idea), then check them against the notes and source reading.",
@@ -1441,7 +3096,34 @@
             "leph2",
             "kebt1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Semiconductor electronics (idea) in your own words and connect it to Semiconductor.",
+              "back": "p-n, diode, transistor as switch, why chips are strategic. Enough for semiconductor mission news. Radioactivity, fission/fusion, nuclear energy, waste, India’s three-stage programme flavour."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Semiconductor electronics (idea) + Nuclei (idea).",
+              "back": "p-n, diode, transistor as switch, why chips are strategic. Enough for semiconductor mission news."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Semiconductor electronics (idea) + Nuclei (idea)?",
+              "back": "Key distinctions to retain: Semiconductor; Diode; Chip supply chain; India mission."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Semiconductor in the context of today's Semiconductor electronics (idea) + Nuclei (idea) study.",
+              "back": "A material whose electrical properties can be controlled for electronic uses."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Semiconductor electronics (idea) + Nuclei (idea)?",
+              "back": "A technology’s potential benefit is not the same as evidence that it has already delivered that benefit at scale."
+            }
+          ]
         },
         {
           "day": 59,
@@ -1452,7 +3134,9 @@
             "Microbes in human welfare: Antibiotics, sewage treatment, biogas, biocontrol. Industry + sanitation.",
             "Biodiversity and conservation (bio): Levels, patterns, loss, in-situ/ex-situ. Overlaps environment GS.",
             "Semiconductor electronics (idea): p-n, diode, transistor as switch, why chips are strategic. Enough for semiconductor mission news.",
-            "Nuclei (idea): Radioactivity, fission/fusion, nuclear energy, waste, India’s three-stage programme flavour."
+            "Nuclei (idea): Radioactivity, fission/fusion, nuclear energy, waste, India’s three-stage programme flavour.",
+            "Key term for review: Resolution — Ability to distinguish spatial, temporal or other detail.",
+            "Study lens: Technology & Applications: synthesis: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Revisit your notes for Biotechnology: principles and applications; Human health and disease; Microbes in human welfare; Biodiversity and conservation (bio); Semiconductor electronics (idea); Nuclei (idea). Re-read the assigned source sections only where your recall is weak.",
           "task": "Close the notes and reconstruct the main distinctions from the last 6 topics. Describe a technology’s mechanism, use, limitations and safeguards. Then compare your work with the material below.",
@@ -1466,7 +3150,34 @@
             "leph2",
             "kebt1"
           ],
-          "mode": "revision"
+          "mode": "revision",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+              "back": "rDNA, PCR, GM crops, insulin, gene therapy idea, ethical/biosafety (GEAC). Write application + regulation. Immunity, AIDS, cancer, drugs, vaccines, public health. AMR as current file. Antibiotics, sewage treatment, biogas, biocontrol. Industry + sanitation. Levels, patterns, loss, in-situ/ex-situ. Overlaps environment GS. p-n, diode, transistor as switch, why chips are strategic. Enough for semiconductor mission news. Radioactivity, fission/fusion, nuclear energy, waste, India’s three-stage programme flavour."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Technology & Applications: synthesis.",
+              "back": "Biotechnology: principles and applications: rDNA, PCR, GM crops, insulin, gene therapy idea, ethical/biosafety (GEAC). Write application + regulation."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Technology & Applications: synthesis?",
+              "back": "Human health and disease: Immunity, AIDS, cancer, drugs, vaccines, public health. AMR as current file."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Resolution in the context of today's Technology & Applications: synthesis study.",
+              "back": "Ability to distinguish spatial, temporal or other detail."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Technology & Applications: synthesis?",
+              "back": "A technology’s potential benefit is not the same as evidence that it has already delivered that benefit at scale."
+            }
+          ]
         },
         {
           "day": 60,
@@ -1487,7 +3198,9 @@
             "Microbes in human welfare: Antibiotics, sewage treatment, biogas, biocontrol. Industry + sanitation.",
             "Biodiversity and conservation (bio): Levels, patterns, loss, in-situ/ex-situ. Overlaps environment GS.",
             "Semiconductor electronics (idea): p-n, diode, transistor as switch, why chips are strategic. Enough for semiconductor mission news.",
-            "Nuclei (idea): Radioactivity, fission/fusion, nuclear energy, waste, India’s three-stage programme flavour."
+            "Nuclei (idea): Radioactivity, fission/fusion, nuclear energy, waste, India’s three-stage programme flavour.",
+            "Key term for review: Validation — Testing whether a method meets its intended requirements.",
+            "Study lens: Technology & Applications: assessment & repair: state the principle, explain the mechanism, connect it to an application, and include a limitation, risk or safety condition."
           ],
           "reading": "Revisit your notes for Stars and the Solar System; Pollution of Air and Water; Natural Resources; Our Environment; Sustainable Management of Natural Resources; Cell cycle, biomolecules (idea); Plant physiology (idea); Human physiology (idea); Thermodynamics & equilibrium (idea); Hydrocarbons & environmental chemistry (idea); Biotechnology: principles and applications; Human health and disease; Microbes in human welfare; Biodiversity and conservation (bio); Semiconductor electronics (idea); Nuclei (idea). Re-read the assigned source sections only where your recall is weak.",
           "task": "Use the official-paper link or your question bank for a timed 20-question topic test and one short answer. Mark the gaps, explain your errors and schedule a second recall attempt.",
@@ -1501,7 +3214,34 @@
             "leph2",
             "kebt1"
           ],
-          "mode": "test"
+          "mode": "test",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+              "back": "Moon phases, planets, constellations, artificial satellites. Bridge to ISRO CA. Smog, acid rain, greenhouse, water pollution, Ganga action flavour. Law comes later. Air, water, soil biogeochemical cycles, ozone. Class 9 environment block. Ecosystem, food chains, ozone, waste, biodegradable. Direct environment. 5Rs, forests, water (dams debate), coal/petroleum. Stakeholder conflicts (forest people vs industry). DNA/RNA as information, enzymes, why biotech can edit genes. Enough to read CRISPR news. Photosynthesis light/dark reactions names, transpiration, mineral nutrition (N cycle link). Neural, endocrine, immunity (innate/adaptive), which makes vaccine current affairs readable. Energy conservation, enthalpy flavour, why engines waste heat. Climate and energy policy sit on this. Fuels, pollutants, green chemistry idea. Link Class 8–10 pollution to industrial chemistry. rDNA, PCR, GM crops, insulin, gene therapy idea, ethical/biosafety (GEAC). Write application + regulation. Immunity, AIDS, cancer, drugs, vaccines, public health. AMR as current file. Antibiotics, sewage treatment, biogas, biocontrol. Industry + sanitation. Levels, patterns, loss, in-situ/ex-situ. Overlaps environment GS. p-n, diode, transistor as switch, why chips are strategic. Enough for semiconductor mission news. Radioactivity, fission/fusion, nuclear energy, waste, India’s three-stage programme flavour."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Technology & Applications: assessment & repair.",
+              "back": "Stars and the Solar System: Moon phases, planets, constellations, artificial satellites. Bridge to ISRO CA."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Technology & Applications: assessment & repair?",
+              "back": "Pollution of Air and Water: Smog, acid rain, greenhouse, water pollution, Ganga action flavour. Law comes later."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Validation in the context of today's Technology & Applications: assessment & repair study.",
+              "back": "Testing whether a method meets its intended requirements."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Technology & Applications: assessment & repair?",
+              "back": "A technology’s potential benefit is not the same as evidence that it has already delivered that benefit at scale."
+            }
+          ]
         }
       ]
     }

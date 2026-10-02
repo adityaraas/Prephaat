@@ -50,7 +50,9 @@
             "The Sun, planets, the Moon, asteroids. Earth is a unique mix of air, water and life. Latitudes of other planets help contrast.",
             "Key distinctions to retain: Solar family; Earth–Moon; Why Earth supports life; Stars vs planets.",
             "Axis, equator, tropics, poles, longitudes and time. Standard meridians and IST (82°30′ E).",
-            "Key distinctions to retain: Parallels and meridians; Heat zones; Local time vs IST; Grid references."
+            "Key distinctions to retain: Parallels and meridians; Heat zones; Local time vs IST; Grid references.",
+            "Key term for review: Relief — Variation in elevation and terrain.",
+            "Study lens: The Earth in the Solar System + Globe: Latitudes and Longitudes: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 6 · The Earth: Our Habitat: The Earth in the Solar System. Class 6 · The Earth: Our Habitat: Globe: Latitudes and Longitudes.",
           "task": "Draw a labelled process diagram and explain each arrow. Write five explained points on The Earth in the Solar System, then check them against the notes and source reading. Write five explained points on Globe: Latitudes and Longitudes, then check them against the notes and source reading.",
@@ -63,7 +65,34 @@
           "sources": [
             "kegy2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain The Earth in the Solar System in your own words and connect it to Solar family.",
+              "back": "The Sun, planets, the Moon, asteroids. Earth is a unique mix of air, water and life. Latitudes of other planets help contrast. Axis, equator, tropics, poles, longitudes and time. Standard meridians and IST (82°30′ E)."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on The Earth in the Solar System + Globe: Latitudes and Longitudes.",
+              "back": "The Sun, planets, the Moon, asteroids. Earth is a unique mix of air, water and life. Latitudes of other planets help contrast."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for The Earth in the Solar System + Globe: Latitudes and Longitudes?",
+              "back": "Key distinctions to retain: Solar family; Earth–Moon; Why Earth supports life; Stars vs planets."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Relief in the context of today's The Earth in the Solar System + Globe: Latitudes and Longitudes study.",
+              "back": "Variation in elevation and terrain."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying The Earth in the Solar System + Globe: Latitudes and Longitudes?",
+              "back": "The Coriolis effect deflects motion; it does not by itself initiate wind."
+            }
+          ]
         },
         {
           "day": 2,
@@ -72,7 +101,9 @@
             "Rotation (day–night) and revolution (seasons, leap year). Equinoxes and solstices. Tilt of 23½° is the seasonal key.",
             "Key distinctions to retain: Rotation vs revolution; Seasons; Leap year; Circle of illumination.",
             "Scale, direction, conventional signs, sketch vs plan vs map. Physical, political and thematic maps.",
-            "Key distinctions to retain: Scale types; North; Legends; Thematic maps."
+            "Key distinctions to retain: Scale types; North; Legends; Thematic maps.",
+            "Key term for review: Insolation — Incoming solar radiation.",
+            "Study lens: Motions of the Earth + Maps: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 6 · The Earth: Our Habitat: Motions of the Earth. Class 6 · The Earth: Our Habitat: Maps.",
           "task": "Draw a labelled process diagram and explain each arrow. Write five explained points on Motions of the Earth, then check them against the notes and source reading. Write five explained points on Maps, then check them against the notes and source reading.",
@@ -85,7 +116,34 @@
           "sources": [
             "kegy2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Motions of the Earth in your own words and connect it to Rotation vs revolution.",
+              "back": "Rotation (day–night) and revolution (seasons, leap year). Equinoxes and solstices. Tilt of 23½° is the seasonal key. Scale, direction, conventional signs, sketch vs plan vs map. Physical, political and thematic maps."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Motions of the Earth + Maps.",
+              "back": "Rotation (day–night) and revolution (seasons, leap year). Equinoxes and solstices. Tilt of 23½° is the seasonal key."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Motions of the Earth + Maps?",
+              "back": "Key distinctions to retain: Rotation vs revolution; Seasons; Leap year; Circle of illumination."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Insolation in the context of today's Motions of the Earth + Maps study.",
+              "back": "Incoming solar radiation."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Motions of the Earth + Maps?",
+              "back": "The Coriolis effect deflects motion; it does not by itself initiate wind."
+            }
+          ]
         },
         {
           "day": 3,
@@ -94,7 +152,9 @@
             "Lithosphere, hydrosphere, atmosphere, biosphere. Continents and oceans. Interaction of spheres is environment.",
             "Key distinctions to retain: Four spheres; Seven continents; Oceans; Biosphere as life zone.",
             "Mountains, plateaus, plains—internal (tectonic) vs external (erosion) processes. Young fold mountains vs old plateaus.",
-            "Key distinctions to retain: Endogenic vs exogenic; Himalaya type; Plateaus (Deccan); Plains and agriculture."
+            "Key distinctions to retain: Endogenic vs exogenic; Himalaya type; Plateaus (Deccan); Plains and agriculture.",
+            "Key term for review: Drainage basin — An area whose runoff feeds a common river system.",
+            "Study lens: Major Domains of the Earth + Major Landforms of the Earth: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 6 · The Earth: Our Habitat: Major Domains of the Earth. Class 6 · The Earth: Our Habitat: Major Landforms of the Earth.",
           "task": "Draw a labelled process diagram and explain each arrow. Write five explained points on Major Domains of the Earth, then check them against the notes and source reading. Write five explained points on Major Landforms of the Earth, then check them against the notes and source reading.",
@@ -107,7 +167,34 @@
           "sources": [
             "kegy2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Major Domains of the Earth in your own words and connect it to Four spheres.",
+              "back": "Lithosphere, hydrosphere, atmosphere, biosphere. Continents and oceans. Interaction of spheres is environment. Mountains, plateaus, plains—internal (tectonic) vs external (erosion) processes. Young fold mountains vs old plateaus."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Major Domains of the Earth + Major Landforms of the Earth.",
+              "back": "Lithosphere, hydrosphere, atmosphere, biosphere. Continents and oceans. Interaction of spheres is environment."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Major Domains of the Earth + Major Landforms of the Earth?",
+              "back": "Key distinctions to retain: Four spheres; Seven continents; Oceans; Biosphere as life zone."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Drainage basin in the context of today's Major Domains of the Earth + Major Landforms of the Earth study.",
+              "back": "An area whose runoff feeds a common river system."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Major Domains of the Earth + Major Landforms of the Earth?",
+              "back": "The Coriolis effect deflects motion; it does not by itself initiate wind."
+            }
+          ]
         },
         {
           "day": 4,
@@ -116,7 +203,9 @@
             "Location, neighbours, tropic of Cancer, standard meridian, political divisions. India’s size and latitudinal spread explain climate variety.",
             "Key distinctions to retain: Lat–long extent; Neighbours; Tropic of Cancer; States/UTs snapshot.",
             "Monsoon climate, forests (tropical to alpine), wildlife and protection. Climate drives vegetation.",
-            "Key distinctions to retain: Monsoon; Forest types (intro); Wildlife; Protection need."
+            "Key distinctions to retain: Monsoon; Forest types (intro); Wildlife; Protection need.",
+            "Key term for review: Relief — Variation in elevation and terrain.",
+            "Study lens: Our Country — India + India: Climate, Vegetation and Wildlife: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 6 · The Earth: Our Habitat: Our Country — India. Class 6 · The Earth: Our Habitat: India: Climate, Vegetation and Wildlife.",
           "task": "Draw a labelled process diagram and explain each arrow. Write five explained points on Our Country — India, then check them against the notes and source reading. Write five explained points on India: Climate, Vegetation and Wildlife, then check them against the notes and source reading.",
@@ -129,7 +218,34 @@
           "sources": [
             "kegy2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Our Country — India in your own words and connect it to Lat–long extent.",
+              "back": "Location, neighbours, tropic of Cancer, standard meridian, political divisions. India’s size and latitudinal spread explain climate variety. Monsoon climate, forests (tropical to alpine), wildlife and protection. Climate drives vegetation."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Our Country — India + India: Climate, Vegetation and Wildlife.",
+              "back": "Location, neighbours, tropic of Cancer, standard meridian, political divisions. India’s size and latitudinal spread explain climate variety."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Our Country — India + India: Climate, Vegetation and Wildlife?",
+              "back": "Key distinctions to retain: Lat–long extent; Neighbours; Tropic of Cancer; States/UTs snapshot."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Relief in the context of today's Our Country — India + India: Climate, Vegetation and Wildlife study.",
+              "back": "Variation in elevation and terrain."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Our Country — India + India: Climate, Vegetation and Wildlife?",
+              "back": "The Coriolis effect deflects motion; it does not by itself initiate wind."
+            }
+          ]
         },
         {
           "day": 5,
@@ -138,7 +254,9 @@
             "Natural, human and human-made components. Ecosystem as interaction. Balance and human impact.",
             "Key distinctions to retain: Biotic–abiotic; Ecosystem; Human environment; Need for balance.",
             "Crust, mantle, core; rocks (igneous, sedimentary, metamorphic) and the rock cycle. Minerals as building blocks.",
-            "Key distinctions to retain: Layers; Rock types; Rock cycle; Minerals."
+            "Key distinctions to retain: Layers; Rock types; Rock cycle; Minerals.",
+            "Key term for review: Insolation — Incoming solar radiation.",
+            "Study lens: Environment + Inside Our Earth: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 7 · Our Environment: Environment. Class 7 · Our Environment: Inside Our Earth.",
           "task": "Draw a labelled process diagram and explain each arrow. Write five explained points on Environment, then check them against the notes and source reading. Write five explained points on Inside Our Earth, then check them against the notes and source reading.",
@@ -151,7 +269,34 @@
           "sources": [
             "kegy2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Environment in your own words and connect it to Biotic–abiotic.",
+              "back": "Natural, human and human-made components. Ecosystem as interaction. Balance and human impact. Crust, mantle, core; rocks (igneous, sedimentary, metamorphic) and the rock cycle. Minerals as building blocks."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Environment + Inside Our Earth.",
+              "back": "Natural, human and human-made components. Ecosystem as interaction. Balance and human impact."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Environment + Inside Our Earth?",
+              "back": "Key distinctions to retain: Biotic–abiotic; Ecosystem; Human environment; Need for balance."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Insolation in the context of today's Environment + Inside Our Earth study.",
+              "back": "Incoming solar radiation."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Environment + Inside Our Earth?",
+              "back": "The Coriolis effect deflects motion; it does not by itself initiate wind."
+            }
+          ]
         },
         {
           "day": 6,
@@ -160,7 +305,9 @@
             "Lithospheric plates, earthquakes, volcanoes, and work of river, wind, ice, sea waves. Landforms have processes.",
             "Key distinctions to retain: Plate tectonics intro; Earthquake/volcano; River landforms; Wind–glacier–wave.",
             "Atmosphere composition, structure, weather vs climate, wind, moisture. Greenhouse idea at a simple level.",
-            "Key distinctions to retain: Gases; Layers; Pressure and winds; Rain types intro."
+            "Key distinctions to retain: Gases; Layers; Pressure and winds; Rain types intro.",
+            "Key term for review: Drainage basin — An area whose runoff feeds a common river system.",
+            "Study lens: Our Changing Earth + Air: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 7 · Our Environment: Our Changing Earth. Class 7 · Our Environment: Air.",
           "task": "Draw a labelled process diagram and explain each arrow. Write five explained points on Our Changing Earth, then check them against the notes and source reading. Write five explained points on Air, then check them against the notes and source reading.",
@@ -173,7 +320,34 @@
           "sources": [
             "kegy2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Our Changing Earth in your own words and connect it to Plate tectonics intro.",
+              "back": "Lithospheric plates, earthquakes, volcanoes, and work of river, wind, ice, sea waves. Landforms have processes. Atmosphere composition, structure, weather vs climate, wind, moisture. Greenhouse idea at a simple level."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Our Changing Earth + Air.",
+              "back": "Lithospheric plates, earthquakes, volcanoes, and work of river, wind, ice, sea waves. Landforms have processes."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Our Changing Earth + Air?",
+              "back": "Key distinctions to retain: Plate tectonics intro; Earthquake/volcano; River landforms; Wind–glacier–wave."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Drainage basin in the context of today's Our Changing Earth + Air study.",
+              "back": "An area whose runoff feeds a common river system."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Our Changing Earth + Air?",
+              "back": "The Coriolis effect deflects motion; it does not by itself initiate wind."
+            }
+          ]
         },
         {
           "day": 7,
@@ -184,7 +358,9 @@
             "Environment: Natural, human and human-made components. Ecosystem as interaction. Balance and human impact.",
             "Inside Our Earth: Crust, mantle, core; rocks (igneous, sedimentary, metamorphic) and the rock cycle. Minerals as building blocks.",
             "Our Changing Earth: Lithospheric plates, earthquakes, volcanoes, and work of river, wind, ice, sea waves. Landforms have processes.",
-            "Air: Atmosphere composition, structure, weather vs climate, wind, moisture. Greenhouse idea at a simple level."
+            "Air: Atmosphere composition, structure, weather vs climate, wind, moisture. Greenhouse idea at a simple level.",
+            "Key term for review: Relief — Variation in elevation and terrain.",
+            "Study lens: Revision I: Physical Geography: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Revisit your notes for Our Country — India; India: Climate, Vegetation and Wildlife; Environment; Inside Our Earth; Our Changing Earth; Air. Re-read the assigned source sections only where your recall is weak.",
           "task": "Close the notes and reconstruct the main distinctions from the last 6 topics. Draw a labelled process diagram and explain each arrow. Then compare your work with the material below.",
@@ -197,7 +373,34 @@
           "sources": [
             "kegy2"
           ],
-          "mode": "revision"
+          "mode": "revision",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+              "back": "Location, neighbours, tropic of Cancer, standard meridian, political divisions. India’s size and latitudinal spread explain climate variety. Monsoon climate, forests (tropical to alpine), wildlife and protection. Climate drives vegetation. Natural, human and human-made components. Ecosystem as interaction. Balance and human impact. Crust, mantle, core; rocks (igneous, sedimentary, metamorphic) and the rock cycle. Minerals as building blocks. Lithospheric plates, earthquakes, volcanoes, and work of river, wind, ice, sea waves. Landforms have processes. Atmosphere composition, structure, weather vs climate, wind, moisture. Greenhouse idea at a simple level."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Revision I: Physical Geography.",
+              "back": "Our Country — India: Location, neighbours, tropic of Cancer, standard meridian, political divisions. India’s size and latitudinal spread explain climate variety."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Revision I: Physical Geography?",
+              "back": "India: Climate, Vegetation and Wildlife: Monsoon climate, forests (tropical to alpine), wildlife and protection. Climate drives vegetation."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Relief in the context of today's Revision I: Physical Geography study.",
+              "back": "Variation in elevation and terrain."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Revision I: Physical Geography?",
+              "back": "The Coriolis effect deflects motion; it does not by itself initiate wind."
+            }
+          ]
         },
         {
           "day": 8,
@@ -206,7 +409,9 @@
             "Water cycle, salinity, tides, ocean currents, distribution of water. Freshwater is scarce.",
             "Key distinctions to retain: Hydrological cycle; Tides; Currents; Water conservation.",
             "Forests, grasslands, shrubs; factors of climate and soil. Conservation of flora and fauna.",
-            "Key distinctions to retain: Forest belts; Grasslands; Wildlife; Conservation."
+            "Key distinctions to retain: Forest belts; Grasslands; Wildlife; Conservation.",
+            "Key term for review: Insolation — Incoming solar radiation.",
+            "Study lens: Water + Natural Vegetation and Wildlife: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 7 · Our Environment: Water. Class 7 · Our Environment: Natural Vegetation and Wildlife.",
           "task": "Draw a labelled process diagram and explain each arrow. Write five explained points on Water, then check them against the notes and source reading. Write five explained points on Natural Vegetation and Wildlife, then check them against the notes and source reading.",
@@ -219,7 +424,34 @@
           "sources": [
             "kegy2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Water in your own words and connect it to Hydrological cycle.",
+              "back": "Water cycle, salinity, tides, ocean currents, distribution of water. Freshwater is scarce. Forests, grasslands, shrubs; factors of climate and soil. Conservation of flora and fauna."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Water + Natural Vegetation and Wildlife.",
+              "back": "Water cycle, salinity, tides, ocean currents, distribution of water. Freshwater is scarce."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Water + Natural Vegetation and Wildlife?",
+              "back": "Key distinctions to retain: Hydrological cycle; Tides; Currents; Water conservation."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Insolation in the context of today's Water + Natural Vegetation and Wildlife study.",
+              "back": "Incoming solar radiation."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Water + Natural Vegetation and Wildlife?",
+              "back": "The Coriolis effect deflects motion; it does not by itself initiate wind."
+            }
+          ]
         },
         {
           "day": 9,
@@ -228,7 +460,9 @@
             "Rural–urban settlements, transport modes, communication as development infrastructure.",
             "Key distinctions to retain: Site vs situation; Transport types; Urban problems; Communication.",
             "Amazon and Ganga–Brahmaputra: life in rainforests and river plains. Environment shapes livelihood.",
-            "Key distinctions to retain: Amazon; Ganga–Brahmaputra; Livelihoods; Threats."
+            "Key distinctions to retain: Amazon; Ganga–Brahmaputra; Livelihoods; Threats.",
+            "Key term for review: Drainage basin — An area whose runoff feeds a common river system.",
+            "Study lens: Human Environment — Settlement, Transport, Communication + Human Environment Interactions — Tropical and Subtropical Region: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 7 · Our Environment: Human Environment — Settlement, Transport, Communication. Class 7 · Our Environment: Human Environment Interactions — Tropical and Subtropical Region.",
           "task": "Draw a labelled process diagram and explain each arrow. Write five explained points on Human Environment — Settlement, Transport, Communication, then check them against the notes and source reading. Write five explained points on Human Environment Interactions — Tropical and Subtropical Region, then check them against the notes and source reading.",
@@ -241,7 +475,34 @@
           "sources": [
             "kegy2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Human Environment — Settlement, Transport, Communication in your own words and connect it to Site vs situation.",
+              "back": "Rural–urban settlements, transport modes, communication as development infrastructure. Amazon and Ganga–Brahmaputra: life in rainforests and river plains. Environment shapes livelihood."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Human Environment — Settlement, Transport, Communication + Human Environment Interactions — Tropical and Subtropical Region.",
+              "back": "Rural–urban settlements, transport modes, communication as development infrastructure."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Human Environment — Settlement, Transport, Communication + Human Environment Interactions — Tropical and Subtropical Region?",
+              "back": "Key distinctions to retain: Site vs situation; Transport types; Urban problems; Communication."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Drainage basin in the context of today's Human Environment — Settlement, Transport, Communication + Human Environment Interactions — Tropical and Subtropical Region study.",
+              "back": "An area whose runoff feeds a common river system."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Human Environment — Settlement, Transport, Communication + Human Environment Interactions — Tropical and Subtropical Region?",
+              "back": "The Coriolis effect deflects motion; it does not by itself initiate wind."
+            }
+          ]
         },
         {
           "day": 10,
@@ -250,7 +511,9 @@
             "Prairies and velds: climate, wheat–cattle economies, Chinook. Compare with Indian plains.",
             "Key distinctions to retain: Prairies; Velds; Wheat belts; Climate.",
             "Sahara (hot) and Ladakh (cold): adaptations, water, tourism and change.",
-            "Key distinctions to retain: Hot vs cold desert; Oasis; Ladakh; Adaptation."
+            "Key distinctions to retain: Hot vs cold desert; Oasis; Ladakh; Adaptation.",
+            "Key term for review: Relief — Variation in elevation and terrain.",
+            "Study lens: Life in the Temperate Grasslands + Life in the Deserts: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 7 · Our Environment: Life in the Temperate Grasslands. Class 7 · Our Environment: Life in the Deserts.",
           "task": "Draw a labelled process diagram and explain each arrow. Write five explained points on Life in the Temperate Grasslands, then check them against the notes and source reading. Write five explained points on Life in the Deserts, then check them against the notes and source reading.",
@@ -263,7 +526,34 @@
           "sources": [
             "kegy2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Life in the Temperate Grasslands in your own words and connect it to Prairies.",
+              "back": "Prairies and velds: climate, wheat–cattle economies, Chinook. Compare with Indian plains. Sahara (hot) and Ladakh (cold): adaptations, water, tourism and change."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Life in the Temperate Grasslands + Life in the Deserts.",
+              "back": "Prairies and velds: climate, wheat–cattle economies, Chinook. Compare with Indian plains."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Life in the Temperate Grasslands + Life in the Deserts?",
+              "back": "Key distinctions to retain: Prairies; Velds; Wheat belts; Climate."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Relief in the context of today's Life in the Temperate Grasslands + Life in the Deserts study.",
+              "back": "Variation in elevation and terrain."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Life in the Temperate Grasslands + Life in the Deserts?",
+              "back": "The Coriolis effect deflects motion; it does not by itself initiate wind."
+            }
+          ]
         },
         {
           "day": 11,
@@ -272,7 +562,9 @@
             "Physical vs human, dualism, and why geography integrates nature and society.",
             "Key distinctions to retain: Branches; Physical–human; Regional approach; Applied geography.",
             "Nebular hypothesis, Big Bang context, formation of crust, atmosphere, life. Geological time at a glance.",
-            "Key distinctions to retain: Solar origin; Differentiation of Earth; Atmosphere origin; Life."
+            "Key distinctions to retain: Solar origin; Differentiation of Earth; Atmosphere origin; Life.",
+            "Key term for review: Insolation — Incoming solar radiation.",
+            "Study lens: Geography as a Discipline + The Origin and Evolution of the Earth: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 11 · Fundamentals of Physical Geography: Geography as a Discipline. Class 11 · Fundamentals of Physical Geography: The Origin and Evolution of the Earth.",
           "task": "Draw a labelled process diagram and explain each arrow. Write five explained points on Geography as a Discipline, then check them against the notes and source reading. Write five explained points on The Origin and Evolution of the Earth, then check them against the notes and source reading.",
@@ -285,7 +577,34 @@
           "sources": [
             "kegy2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Geography as a Discipline in your own words and connect it to Branches.",
+              "back": "Physical vs human, dualism, and why geography integrates nature and society. Nebular hypothesis, Big Bang context, formation of crust, atmosphere, life. Geological time at a glance."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Geography as a Discipline + The Origin and Evolution of the Earth.",
+              "back": "Physical vs human, dualism, and why geography integrates nature and society."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Geography as a Discipline + The Origin and Evolution of the Earth?",
+              "back": "Key distinctions to retain: Branches; Physical–human; Regional approach; Applied geography."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Insolation in the context of today's Geography as a Discipline + The Origin and Evolution of the Earth study.",
+              "back": "Incoming solar radiation."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Geography as a Discipline + The Origin and Evolution of the Earth?",
+              "back": "The Coriolis effect deflects motion; it does not by itself initiate wind."
+            }
+          ]
         },
         {
           "day": 12,
@@ -294,7 +613,9 @@
             "Earthquake waves, shadow zones, crust–mantle–core, volcanoes. Evidence is geophysical.",
             "Key distinctions to retain: P, S, L waves; Shadow zone; Layers; Volcano types.",
             "Continental drift, seafloor spreading, plate tectonics, force behind plates.",
-            "Key distinctions to retain: Wegener; Mid-ocean ridges; Plates; Convection."
+            "Key distinctions to retain: Wegener; Mid-ocean ridges; Plates; Convection.",
+            "Key term for review: Drainage basin — An area whose runoff feeds a common river system.",
+            "Study lens: Interior of the Earth + Distribution of Oceans and Continents: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 11 · Fundamentals of Physical Geography: Interior of the Earth. Class 11 · Fundamentals of Physical Geography: Distribution of Oceans and Continents.",
           "task": "Draw a labelled process diagram and explain each arrow. Write five explained points on Interior of the Earth, then check them against the notes and source reading. Write five explained points on Distribution of Oceans and Continents, then check them against the notes and source reading.",
@@ -307,7 +628,34 @@
           "sources": [
             "kegy2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Interior of the Earth in your own words and connect it to P, S, L waves.",
+              "back": "Earthquake waves, shadow zones, crust–mantle–core, volcanoes. Evidence is geophysical. Continental drift, seafloor spreading, plate tectonics, force behind plates."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Interior of the Earth + Distribution of Oceans and Continents.",
+              "back": "Earthquake waves, shadow zones, crust–mantle–core, volcanoes. Evidence is geophysical."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Interior of the Earth + Distribution of Oceans and Continents?",
+              "back": "Key distinctions to retain: P, S, L waves; Shadow zone; Layers; Volcano types."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Drainage basin in the context of today's Interior of the Earth + Distribution of Oceans and Continents study.",
+              "back": "An area whose runoff feeds a common river system."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Interior of the Earth + Distribution of Oceans and Continents?",
+              "back": "The Coriolis effect deflects motion; it does not by itself initiate wind."
+            }
+          ]
         },
         {
           "day": 13,
@@ -316,7 +664,9 @@
             "Endogenic–exogenic, weathering, mass wasting, erosion–deposition. Landform = process + time + rock.",
             "Key distinctions to retain: Weathering types; Mass wasting; Cycle of erosion (idea); Soil formation link.",
             "Running water, groundwater, glaciers, waves, wind—each suite of landforms. Indian examples (Himalayan rivers, Thar, coasts).",
-            "Key distinctions to retain: Fluvial; Karst; Glacial; Aeolian & coastal."
+            "Key distinctions to retain: Fluvial; Karst; Glacial; Aeolian & coastal.",
+            "Key term for review: Relief — Variation in elevation and terrain.",
+            "Study lens: Geomorphic Processes + Landforms and their Evolution: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 11 · Fundamentals of Physical Geography: Geomorphic Processes. Class 11 · Fundamentals of Physical Geography: Landforms and their Evolution.",
           "task": "Draw a labelled process diagram and explain each arrow. Write five explained points on Geomorphic Processes, then check them against the notes and source reading. Write five explained points on Landforms and their Evolution, then check them against the notes and source reading.",
@@ -329,7 +679,34 @@
           "sources": [
             "kegy2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Geomorphic Processes in your own words and connect it to Weathering types.",
+              "back": "Endogenic–exogenic, weathering, mass wasting, erosion–deposition. Landform = process + time + rock. Running water, groundwater, glaciers, waves, wind—each suite of landforms. Indian examples (Himalayan rivers, Thar, coasts)."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Geomorphic Processes + Landforms and their Evolution.",
+              "back": "Endogenic–exogenic, weathering, mass wasting, erosion–deposition. Landform = process + time + rock."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Geomorphic Processes + Landforms and their Evolution?",
+              "back": "Key distinctions to retain: Weathering types; Mass wasting; Cycle of erosion (idea); Soil formation link."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Relief in the context of today's Geomorphic Processes + Landforms and their Evolution study.",
+              "back": "Variation in elevation and terrain."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Geomorphic Processes + Landforms and their Evolution?",
+              "back": "The Coriolis effect deflects motion; it does not by itself initiate wind."
+            }
+          ]
         },
         {
           "day": 14,
@@ -340,7 +717,9 @@
             "Interior of the Earth: Earthquake waves, shadow zones, crust–mantle–core, volcanoes. Evidence is geophysical.",
             "Distribution of Oceans and Continents: Continental drift, seafloor spreading, plate tectonics, force behind plates.",
             "Geomorphic Processes: Endogenic–exogenic, weathering, mass wasting, erosion–deposition. Landform = process + time + rock.",
-            "Landforms and their Evolution: Running water, groundwater, glaciers, waves, wind—each suite of landforms. Indian examples (Himalayan rivers, Thar, coasts)."
+            "Landforms and their Evolution: Running water, groundwater, glaciers, waves, wind—each suite of landforms. Indian examples (Himalayan rivers, Thar, coasts).",
+            "Key term for review: Insolation — Incoming solar radiation.",
+            "Study lens: Revision II: Physical Geography: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Revisit your notes for Geography as a Discipline; The Origin and Evolution of the Earth; Interior of the Earth; Distribution of Oceans and Continents; Geomorphic Processes; Landforms and their Evolution. Re-read the assigned source sections only where your recall is weak.",
           "task": "Close the notes and reconstruct the main distinctions from the last 6 topics. Draw a labelled process diagram and explain each arrow. Then compare your work with the material below.",
@@ -353,7 +732,34 @@
           "sources": [
             "kegy2"
           ],
-          "mode": "revision"
+          "mode": "revision",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+              "back": "Physical vs human, dualism, and why geography integrates nature and society. Nebular hypothesis, Big Bang context, formation of crust, atmosphere, life. Geological time at a glance. Earthquake waves, shadow zones, crust–mantle–core, volcanoes. Evidence is geophysical. Continental drift, seafloor spreading, plate tectonics, force behind plates. Endogenic–exogenic, weathering, mass wasting, erosion–deposition. Landform = process + time + rock. Running water, groundwater, glaciers, waves, wind—each suite of landforms. Indian examples (Himalayan rivers, Thar, coasts)."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Revision II: Physical Geography.",
+              "back": "Geography as a Discipline: Physical vs human, dualism, and why geography integrates nature and society."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Revision II: Physical Geography?",
+              "back": "The Origin and Evolution of the Earth: Nebular hypothesis, Big Bang context, formation of crust, atmosphere, life. Geological time at a glance."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Insolation in the context of today's Revision II: Physical Geography study.",
+              "back": "Incoming solar radiation."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Revision II: Physical Geography?",
+              "back": "The Coriolis effect deflects motion; it does not by itself initiate wind."
+            }
+          ]
         },
         {
           "day": 15,
@@ -362,7 +768,9 @@
             "Gases, layers up to exosphere, weather vs climate. Ozone.",
             "Key distinctions to retain: Composition; Troposphere–stratosphere; Ozone; Weather elements.",
             "Insolation, heat budget, inversion, temperature distribution. Why continents heat faster.",
-            "Key distinctions to retain: Insolation controls; Heat budget; Inversion; Isotherms."
+            "Key distinctions to retain: Insolation controls; Heat budget; Inversion; Isotherms.",
+            "Key term for review: Drainage basin — An area whose runoff feeds a common river system.",
+            "Study lens: Composition and Structure of Atmosphere + Solar Radiation, Heat Balance and Temperature: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 11 · Fundamentals of Physical Geography: Composition and Structure of Atmosphere. Class 11 · Fundamentals of Physical Geography: Solar Radiation, Heat Balance and Temperature.",
           "task": "Draw a labelled process diagram and explain each arrow. Write five explained points on Composition and Structure of Atmosphere, then check them against the notes and source reading. Write five explained points on Solar Radiation, Heat Balance and Temperature, then check them against the notes and source reading.",
@@ -375,7 +783,34 @@
           "sources": [
             "kegy2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Composition and Structure of Atmosphere in your own words and connect it to Composition.",
+              "back": "Gases, layers up to exosphere, weather vs climate. Ozone. Insolation, heat budget, inversion, temperature distribution. Why continents heat faster."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Composition and Structure of Atmosphere + Solar Radiation, Heat Balance and Temperature.",
+              "back": "Gases, layers up to exosphere, weather vs climate. Ozone."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Composition and Structure of Atmosphere + Solar Radiation, Heat Balance and Temperature?",
+              "back": "Key distinctions to retain: Composition; Troposphere–stratosphere; Ozone; Weather elements."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Drainage basin in the context of today's Composition and Structure of Atmosphere + Solar Radiation, Heat Balance and Temperature study.",
+              "back": "An area whose runoff feeds a common river system."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Composition and Structure of Atmosphere + Solar Radiation, Heat Balance and Temperature?",
+              "back": "The Coriolis effect deflects motion; it does not by itself initiate wind."
+            }
+          ]
         },
         {
           "day": 16,
@@ -384,7 +819,9 @@
             "Pressure belts, winds, jet streams, air masses, fronts, cyclones, anticyclones. Monsoon is a later India-book topic but the physics starts here.",
             "Key distinctions to retain: Tricellular model; Jet streams; Tropical vs extra-tropical cyclone; ENSO intro.",
             "Humidity, condensation, rainfall types, world precipitation pattern.",
-            "Key distinctions to retain: Absolute vs relative humidity; Clouds; Convectional/orographic/cyclonic rain; World rainfall."
+            "Key distinctions to retain: Absolute vs relative humidity; Clouds; Convectional/orographic/cyclonic rain; World rainfall.",
+            "Key term for review: Relief — Variation in elevation and terrain.",
+            "Study lens: Atmospheric Circulation and Weather Systems + Water in the Atmosphere: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 11 · Fundamentals of Physical Geography: Atmospheric Circulation and Weather Systems. Class 11 · Fundamentals of Physical Geography: Water in the Atmosphere.",
           "task": "Draw a labelled process diagram and explain each arrow. Write five explained points on Atmospheric Circulation and Weather Systems, then check them against the notes and source reading. Write five explained points on Water in the Atmosphere, then check them against the notes and source reading.",
@@ -397,7 +834,34 @@
           "sources": [
             "kegy2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Atmospheric Circulation and Weather Systems in your own words and connect it to Tricellular model.",
+              "back": "Pressure belts, winds, jet streams, air masses, fronts, cyclones, anticyclones. Monsoon is a later India-book topic but the physics starts here. Humidity, condensation, rainfall types, world precipitation pattern."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Atmospheric Circulation and Weather Systems + Water in the Atmosphere.",
+              "back": "Pressure belts, winds, jet streams, air masses, fronts, cyclones, anticyclones. Monsoon is a later India-book topic but the physics starts here."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Atmospheric Circulation and Weather Systems + Water in the Atmosphere?",
+              "back": "Key distinctions to retain: Tricellular model; Jet streams; Tropical vs extra-tropical cyclone; ENSO intro."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Relief in the context of today's Atmospheric Circulation and Weather Systems + Water in the Atmosphere study.",
+              "back": "Variation in elevation and terrain."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Atmospheric Circulation and Weather Systems + Water in the Atmosphere?",
+              "back": "The Coriolis effect deflects motion; it does not by itself initiate wind."
+            }
+          ]
         },
         {
           "day": 17,
@@ -406,7 +870,9 @@
             "Koeppen types, climate change causes and evidence. Link to IPCC language in current affairs.",
             "Key distinctions to retain: Koeppen; Forcing; Impacts; Mitigation vs adaptation.",
             "Relief of ocean floor, temperature, salinity. Horizontal and vertical distribution.",
-            "Key distinctions to retain: Continental shelf to trench; Salinity factors; Temperature; Hydrological cycle."
+            "Key distinctions to retain: Continental shelf to trench; Salinity factors; Temperature; Hydrological cycle.",
+            "Key term for review: Insolation — Incoming solar radiation.",
+            "Study lens: World Climate and Climate Change + Water (Oceans): locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 11 · Fundamentals of Physical Geography: World Climate and Climate Change. Class 11 · Fundamentals of Physical Geography: Water (Oceans).",
           "task": "Draw a labelled process diagram and explain each arrow. Write five explained points on World Climate and Climate Change, then check them against the notes and source reading. Write five explained points on Water (Oceans), then check them against the notes and source reading.",
@@ -419,7 +885,34 @@
           "sources": [
             "kegy2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain World Climate and Climate Change in your own words and connect it to Koeppen.",
+              "back": "Koeppen types, climate change causes and evidence. Link to IPCC language in current affairs. Relief of ocean floor, temperature, salinity. Horizontal and vertical distribution."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on World Climate and Climate Change + Water (Oceans).",
+              "back": "Koeppen types, climate change causes and evidence. Link to IPCC language in current affairs."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for World Climate and Climate Change + Water (Oceans)?",
+              "back": "Key distinctions to retain: Koeppen; Forcing; Impacts; Mitigation vs adaptation."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Insolation in the context of today's World Climate and Climate Change + Water (Oceans) study.",
+              "back": "Incoming solar radiation."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying World Climate and Climate Change + Water (Oceans)?",
+              "back": "The Coriolis effect deflects motion; it does not by itself initiate wind."
+            }
+          ]
         },
         {
           "day": 18,
@@ -428,7 +921,9 @@
             "Waves, tides, currents (warm/cold), El Niño as current–climate coupler.",
             "Key distinctions to retain: Tides; Currents map; Upwelling; ENSO.",
             "Genetic–species–ecosystem diversity, hotspots, IUCN, in-situ vs ex-situ. Normative conservation.",
-            "Key distinctions to retain: Levels of biodiversity; Hotspots; Threats; Conservation modes."
+            "Key distinctions to retain: Levels of biodiversity; Hotspots; Threats; Conservation modes.",
+            "Key term for review: Drainage basin — An area whose runoff feeds a common river system.",
+            "Study lens: Movements of Ocean Water + Biodiversity and Conservation: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 11 · Fundamentals of Physical Geography: Movements of Ocean Water. Class 11 · Fundamentals of Physical Geography: Biodiversity and Conservation.",
           "task": "Draw a labelled process diagram and explain each arrow. Write five explained points on Movements of Ocean Water, then check them against the notes and source reading. Write five explained points on Biodiversity and Conservation, then check them against the notes and source reading.",
@@ -441,7 +936,34 @@
           "sources": [
             "kegy2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Movements of Ocean Water in your own words and connect it to Tides.",
+              "back": "Waves, tides, currents (warm/cold), El Niño as current–climate coupler. Genetic–species–ecosystem diversity, hotspots, IUCN, in-situ vs ex-situ. Normative conservation."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Movements of Ocean Water + Biodiversity and Conservation.",
+              "back": "Waves, tides, currents (warm/cold), El Niño as current–climate coupler."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Movements of Ocean Water + Biodiversity and Conservation?",
+              "back": "Key distinctions to retain: Tides; Currents map; Upwelling; ENSO."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Drainage basin in the context of today's Movements of Ocean Water + Biodiversity and Conservation study.",
+              "back": "An area whose runoff feeds a common river system."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Movements of Ocean Water + Biodiversity and Conservation?",
+              "back": "The Coriolis effect deflects motion; it does not by itself initiate wind."
+            }
+          ]
         },
         {
           "day": 19,
@@ -452,7 +974,9 @@
             "World Climate and Climate Change: Koeppen types, climate change causes and evidence. Link to IPCC language in current affairs.",
             "Water (Oceans): Relief of ocean floor, temperature, salinity. Horizontal and vertical distribution.",
             "Movements of Ocean Water: Waves, tides, currents (warm/cold), El Niño as current–climate coupler.",
-            "Biodiversity and Conservation: Genetic–species–ecosystem diversity, hotspots, IUCN, in-situ vs ex-situ. Normative conservation."
+            "Biodiversity and Conservation: Genetic–species–ecosystem diversity, hotspots, IUCN, in-situ vs ex-situ. Normative conservation.",
+            "Key term for review: Relief — Variation in elevation and terrain.",
+            "Study lens: Physical Geography: synthesis: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Revisit your notes for Atmospheric Circulation and Weather Systems; Water in the Atmosphere; World Climate and Climate Change; Water (Oceans); Movements of Ocean Water; Biodiversity and Conservation. Re-read the assigned source sections only where your recall is weak.",
           "task": "Close the notes and reconstruct the main distinctions from the last 6 topics. Draw a labelled process diagram and explain each arrow. Then compare your work with the material below.",
@@ -465,7 +989,34 @@
           "sources": [
             "kegy2"
           ],
-          "mode": "revision"
+          "mode": "revision",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+              "back": "Pressure belts, winds, jet streams, air masses, fronts, cyclones, anticyclones. Monsoon is a later India-book topic but the physics starts here. Humidity, condensation, rainfall types, world precipitation pattern. Koeppen types, climate change causes and evidence. Link to IPCC language in current affairs. Relief of ocean floor, temperature, salinity. Horizontal and vertical distribution. Waves, tides, currents (warm/cold), El Niño as current–climate coupler. Genetic–species–ecosystem diversity, hotspots, IUCN, in-situ vs ex-situ. Normative conservation."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Physical Geography: synthesis.",
+              "back": "Atmospheric Circulation and Weather Systems: Pressure belts, winds, jet streams, air masses, fronts, cyclones, anticyclones. Monsoon is a later India-book topic but the physics starts here."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Physical Geography: synthesis?",
+              "back": "Water in the Atmosphere: Humidity, condensation, rainfall types, world precipitation pattern."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Relief in the context of today's Physical Geography: synthesis study.",
+              "back": "Variation in elevation and terrain."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Physical Geography: synthesis?",
+              "back": "The Coriolis effect deflects motion; it does not by itself initiate wind."
+            }
+          ]
         },
         {
           "day": 20,
@@ -486,7 +1037,9 @@
             "World Climate and Climate Change: Koeppen types, climate change causes and evidence. Link to IPCC language in current affairs.",
             "Water (Oceans): Relief of ocean floor, temperature, salinity. Horizontal and vertical distribution.",
             "Movements of Ocean Water: Waves, tides, currents (warm/cold), El Niño as current–climate coupler.",
-            "Biodiversity and Conservation: Genetic–species–ecosystem diversity, hotspots, IUCN, in-situ vs ex-situ. Normative conservation."
+            "Biodiversity and Conservation: Genetic–species–ecosystem diversity, hotspots, IUCN, in-situ vs ex-situ. Normative conservation.",
+            "Key term for review: Insolation — Incoming solar radiation.",
+            "Study lens: Physical Geography: assessment & repair: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Revisit your notes for Life in the Temperate Grasslands; Life in the Deserts; Geography as a Discipline; The Origin and Evolution of the Earth; Interior of the Earth; Distribution of Oceans and Continents; Geomorphic Processes; Landforms and their Evolution; Composition and Structure of Atmosphere; Solar Radiation, Heat Balance and Temperature; Atmospheric Circulation and Weather Systems; Water in the Atmosphere; World Climate and Climate Change; Water (Oceans); Movements of Ocean Water; Biodiversity and Conservation. Re-read the assigned source sections only where your recall is weak.",
           "task": "Use the official-paper link or your question bank for a timed 20-question topic test and one short answer. Mark the gaps, explain your errors and schedule a second recall attempt.",
@@ -499,7 +1052,34 @@
           "sources": [
             "kegy2"
           ],
-          "mode": "test"
+          "mode": "test",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+              "back": "Prairies and velds: climate, wheat–cattle economies, Chinook. Compare with Indian plains. Sahara (hot) and Ladakh (cold): adaptations, water, tourism and change. Physical vs human, dualism, and why geography integrates nature and society. Nebular hypothesis, Big Bang context, formation of crust, atmosphere, life. Geological time at a glance. Earthquake waves, shadow zones, crust–mantle–core, volcanoes. Evidence is geophysical. Continental drift, seafloor spreading, plate tectonics, force behind plates. Endogenic–exogenic, weathering, mass wasting, erosion–deposition. Landform = process + time + rock. Running water, groundwater, glaciers, waves, wind—each suite of landforms. Indian examples (Himalayan rivers, Thar, coasts). Gases, layers up to exosphere, weather vs climate. Ozone. Insolation, heat budget, inversion, temperature distribution. Why continents heat faster. Pressure belts, winds, jet streams, air masses, fronts, cyclones, anticyclones. Monsoon is a later India-book topic but the physics starts here. Humidity, condensation, rainfall types, world precipitation pattern. Koeppen types, climate change causes and evidence. Link to IPCC language in current affairs. Relief of ocean floor, temperature, salinity. Horizontal and vertical distribution. Waves, tides, currents (warm/cold), El Niño as current–climate coupler. Genetic–species–ecosystem diversity, hotspots, IUCN, in-situ vs ex-situ. Normative conservation."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Physical Geography: assessment & repair.",
+              "back": "Life in the Temperate Grasslands: Prairies and velds: climate, wheat–cattle economies, Chinook. Compare with Indian plains."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Physical Geography: assessment & repair?",
+              "back": "Life in the Deserts: Sahara (hot) and Ladakh (cold): adaptations, water, tourism and change."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Insolation in the context of today's Physical Geography: assessment & repair study.",
+              "back": "Incoming solar radiation."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Physical Geography: assessment & repair?",
+              "back": "The Coriolis effect deflects motion; it does not by itself initiate wind."
+            }
+          ]
         }
       ]
     },
@@ -518,7 +1098,9 @@
           "topic": "India — Size and Location",
           "notes": [
             "Lat–long, standard meridian, neighbours, central location in the Indian Ocean. Size shapes climate and time.",
-            "Key distinctions to retain: Extent; IST; Neighbours; Ocean location."
+            "Key distinctions to retain: Extent; IST; Neighbours; Ocean location.",
+            "Key term for review: Catchment — Land contributing water to a drainage outlet.",
+            "Study lens: India — Size and Location: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 9 · Contemporary India — I: India — Size and Location.",
           "task": "Mark the locations on a blank India map and explain a regional pattern. Write five explained points on India — Size and Location, then check them against the notes and source reading.",
@@ -532,14 +1114,43 @@
             "kegy1",
             "jess1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain India — Size and Location in your own words and connect it to Extent.",
+              "back": "Lat–long, standard meridian, neighbours, central location in the Indian Ocean. Size shapes climate and time."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on India — Size and Location.",
+              "back": "Lat–long, standard meridian, neighbours, central location in the Indian Ocean. Size shapes climate and time."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for India — Size and Location?",
+              "back": "Key distinctions to retain: Extent; IST; Neighbours; Ocean location."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Catchment in the context of today's India — Size and Location study.",
+              "back": "Land contributing water to a drainage outlet."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying India — Size and Location?",
+              "back": "High rainfall and high flood risk are related, but they are not interchangeable measures."
+            }
+          ]
         },
         {
           "day": 22,
           "topic": "Physical Features of India",
           "notes": [
             "Tectonic origin of Himalayas, Northern Plains, Peninsular Plateau, Desert, Coasts, Islands. The master map of India.",
-            "Key distinctions to retain: Himalayan ranges; Plains; Peninsular block; Coastal plains & islands."
+            "Key distinctions to retain: Himalayan ranges; Plains; Peninsular block; Coastal plains & islands.",
+            "Key term for review: Vulnerability — Susceptibility to harm and limited capacity to cope.",
+            "Study lens: Physical Features of India: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 9 · Contemporary India — I: Physical Features of India.",
           "task": "Mark the locations on a blank India map and explain a regional pattern. Write five explained points on Physical Features of India, then check them against the notes and source reading.",
@@ -553,14 +1164,43 @@
             "kegy1",
             "jess1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Physical Features of India in your own words and connect it to Himalayan ranges.",
+              "back": "Tectonic origin of Himalayas, Northern Plains, Peninsular Plateau, Desert, Coasts, Islands. The master map of India."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Physical Features of India.",
+              "back": "Tectonic origin of Himalayas, Northern Plains, Peninsular Plateau, Desert, Coasts, Islands. The master map of India."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Physical Features of India?",
+              "back": "Key distinctions to retain: Himalayan ranges; Plains; Peninsular block; Coastal plains & islands."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Vulnerability in the context of today's Physical Features of India study.",
+              "back": "Susceptibility to harm and limited capacity to cope."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Physical Features of India?",
+              "back": "High rainfall and high flood risk are related, but they are not interchangeable measures."
+            }
+          ]
         },
         {
           "day": 23,
           "topic": "Drainage",
           "notes": [
             "Himalayan vs peninsular rivers, Ganga system, Brahmaputra, west-flowing rivers, lakes, national river-linking debates at a basic level.",
-            "Key distinctions to retain: Indus, Ganga, Brahmaputra; Godavari–Krishna–Kaveri; Narmada–Tapi; Lakes."
+            "Key distinctions to retain: Indus, Ganga, Brahmaputra; Godavari–Krishna–Kaveri; Narmada–Tapi; Lakes.",
+            "Key term for review: Alluvium — Material deposited by running water.",
+            "Study lens: Drainage: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 9 · Contemporary India — I: Drainage.",
           "task": "Mark the locations on a blank India map and explain a regional pattern. Write five explained points on Drainage, then check them against the notes and source reading.",
@@ -574,7 +1214,34 @@
             "kegy1",
             "jess1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Drainage in your own words and connect it to Indus, Ganga, Brahmaputra.",
+              "back": "Himalayan vs peninsular rivers, Ganga system, Brahmaputra, west-flowing rivers, lakes, national river-linking debates at a basic level."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Drainage.",
+              "back": "Himalayan vs peninsular rivers, Ganga system, Brahmaputra, west-flowing rivers, lakes, national river-linking debates at a basic level."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Drainage?",
+              "back": "Key distinctions to retain: Indus, Ganga, Brahmaputra; Godavari–Krishna–Kaveri; Narmada–Tapi; Lakes."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Alluvium in the context of today's Drainage study.",
+              "back": "Material deposited by running water."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Drainage?",
+              "back": "High rainfall and high flood risk are related, but they are not interchangeable measures."
+            }
+          ]
         },
         {
           "day": 24,
@@ -583,7 +1250,9 @@
             "Monsoon mechanism, seasons, rainfall distribution, climate controls (latitude, relief, ENSO intro). Drought and flood.",
             "Key distinctions to retain: Controls; Monsoon onset/retreat; Seasons; Rainfall map.",
             "Forest types, biosphere reserves, fauna. Vegetation follows rainfall and altitude.",
-            "Key distinctions to retain: Tropical evergreen to alpine; Mangroves; Wildlife; Conservation."
+            "Key distinctions to retain: Tropical evergreen to alpine; Mangroves; Wildlife; Conservation.",
+            "Key term for review: Catchment — Land contributing water to a drainage outlet.",
+            "Study lens: Climate + Natural Vegetation and Wildlife: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 9 · Contemporary India — I: Climate. Class 9 · Contemporary India — I: Natural Vegetation and Wildlife.",
           "task": "Mark the locations on a blank India map and explain a regional pattern. Write five explained points on Climate, then check them against the notes and source reading. Write five explained points on Natural Vegetation and Wildlife, then check them against the notes and source reading.",
@@ -597,14 +1266,43 @@
             "kegy1",
             "jess1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Climate in your own words and connect it to Controls.",
+              "back": "Monsoon mechanism, seasons, rainfall distribution, climate controls (latitude, relief, ENSO intro). Drought and flood. Forest types, biosphere reserves, fauna. Vegetation follows rainfall and altitude."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Climate + Natural Vegetation and Wildlife.",
+              "back": "Monsoon mechanism, seasons, rainfall distribution, climate controls (latitude, relief, ENSO intro). Drought and flood."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Climate + Natural Vegetation and Wildlife?",
+              "back": "Key distinctions to retain: Controls; Monsoon onset/retreat; Seasons; Rainfall map."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Catchment in the context of today's Climate + Natural Vegetation and Wildlife study.",
+              "back": "Land contributing water to a drainage outlet."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Climate + Natural Vegetation and Wildlife?",
+              "back": "High rainfall and high flood risk are related, but they are not interchangeable measures."
+            }
+          ]
         },
         {
           "day": 25,
           "topic": "Population",
           "notes": [
             "Size, distribution, density, growth, age composition, NPP. Census as source.",
-            "Key distinctions to retain: Density patterns; Growth; Literacy; Census."
+            "Key distinctions to retain: Density patterns; Growth; Literacy; Census.",
+            "Key term for review: Vulnerability — Susceptibility to harm and limited capacity to cope.",
+            "Study lens: Population: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 9 · Contemporary India — I: Population.",
           "task": "Mark the locations on a blank India map and explain a regional pattern. Write five explained points on Population, then check them against the notes and source reading.",
@@ -618,14 +1316,43 @@
             "kegy1",
             "jess1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Population in your own words and connect it to Density patterns.",
+              "back": "Size, distribution, density, growth, age composition, NPP. Census as source."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Population.",
+              "back": "Size, distribution, density, growth, age composition, NPP. Census as source."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Population?",
+              "back": "Key distinctions to retain: Density patterns; Growth; Literacy; Census."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Vulnerability in the context of today's Population study.",
+              "back": "Susceptibility to harm and limited capacity to cope."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Population?",
+              "back": "High rainfall and high flood risk are related, but they are not interchangeable measures."
+            }
+          ]
         },
         {
           "day": 26,
           "topic": "Resources and Development",
           "notes": [
             "Resource planning, land degradation, soil types of India, soil conservation. Agenda 21 idea of sustainable planning.",
-            "Key distinctions to retain: Resource planning; Land use; Alluvial, black, red, laterite; Conservation."
+            "Key distinctions to retain: Resource planning; Land use; Alluvial, black, red, laterite; Conservation.",
+            "Key term for review: Alluvium — Material deposited by running water.",
+            "Study lens: Resources and Development: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 10 · Contemporary India — II: Resources and Development.",
           "task": "Mark the locations on a blank India map and explain a regional pattern. Write five explained points on Resources and Development, then check them against the notes and source reading.",
@@ -639,7 +1366,34 @@
             "kegy1",
             "jess1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Resources and Development in your own words and connect it to Resource planning.",
+              "back": "Resource planning, land degradation, soil types of India, soil conservation. Agenda 21 idea of sustainable planning."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Resources and Development.",
+              "back": "Resource planning, land degradation, soil types of India, soil conservation. Agenda 21 idea of sustainable planning."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Resources and Development?",
+              "back": "Key distinctions to retain: Resource planning; Land use; Alluvial, black, red, laterite; Conservation."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Alluvium in the context of today's Resources and Development study.",
+              "back": "Material deposited by running water."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Resources and Development?",
+              "back": "High rainfall and high flood risk are related, but they are not interchangeable measures."
+            }
+          ]
         },
         {
           "day": 27,
@@ -650,7 +1404,9 @@
             "Climate: Monsoon mechanism, seasons, rainfall distribution, climate controls (latitude, relief, ENSO intro). Drought and flood.",
             "Natural Vegetation and Wildlife: Forest types, biosphere reserves, fauna. Vegetation follows rainfall and altitude.",
             "Population: Size, distribution, density, growth, age composition, NPP. Census as source.",
-            "Resources and Development: Resource planning, land degradation, soil types of India, soil conservation. Agenda 21 idea of sustainable planning."
+            "Resources and Development: Resource planning, land degradation, soil types of India, soil conservation. Agenda 21 idea of sustainable planning.",
+            "Key term for review: Catchment — Land contributing water to a drainage outlet.",
+            "Study lens: Revision I: India & Bihar: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Revisit your notes for Physical Features of India; Drainage; Climate; Natural Vegetation and Wildlife; Population; Resources and Development. Re-read the assigned source sections only where your recall is weak.",
           "task": "Close the notes and reconstruct the main distinctions from the last 6 topics. Mark the locations on a blank India map and explain a regional pattern. Then compare your work with the material below.",
@@ -664,14 +1420,43 @@
             "kegy1",
             "jess1"
           ],
-          "mode": "revision"
+          "mode": "revision",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+              "back": "Tectonic origin of Himalayas, Northern Plains, Peninsular Plateau, Desert, Coasts, Islands. The master map of India. Himalayan vs peninsular rivers, Ganga system, Brahmaputra, west-flowing rivers, lakes, national river-linking debates at a basic level. Monsoon mechanism, seasons, rainfall distribution, climate controls (latitude, relief, ENSO intro). Drought and flood. Forest types, biosphere reserves, fauna. Vegetation follows rainfall and altitude. Size, distribution, density, growth, age composition, NPP. Census as source. Resource planning, land degradation, soil types of India, soil conservation. Agenda 21 idea of sustainable planning."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Revision I: India & Bihar.",
+              "back": "Physical Features of India: Tectonic origin of Himalayas, Northern Plains, Peninsular Plateau, Desert, Coasts, Islands. The master map of India."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Revision I: India & Bihar?",
+              "back": "Drainage: Himalayan vs peninsular rivers, Ganga system, Brahmaputra, west-flowing rivers, lakes, national river-linking debates at a basic level."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Catchment in the context of today's Revision I: India & Bihar study.",
+              "back": "Land contributing water to a drainage outlet."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Revision I: India & Bihar?",
+              "back": "High rainfall and high flood risk are related, but they are not interchangeable measures."
+            }
+          ]
         },
         {
           "day": 28,
           "topic": "Forest and Wildlife Resources",
           "notes": [
             "Biodiversity, Forest Acts, types of forests, community conservation (sacred groves), Chipko as a story of people.",
-            "Key distinctions to retain: IUCN categories intro; Forest types; Joint forest management; Sacred groves."
+            "Key distinctions to retain: IUCN categories intro; Forest types; Joint forest management; Sacred groves.",
+            "Key term for review: Vulnerability — Susceptibility to harm and limited capacity to cope.",
+            "Study lens: Forest and Wildlife Resources: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 10 · Contemporary India — II: Forest and Wildlife Resources.",
           "task": "Mark the locations on a blank India map and explain a regional pattern. Write five explained points on Forest and Wildlife Resources, then check them against the notes and source reading.",
@@ -685,7 +1470,34 @@
             "kegy1",
             "jess1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Forest and Wildlife Resources in your own words and connect it to IUCN categories intro.",
+              "back": "Biodiversity, Forest Acts, types of forests, community conservation (sacred groves), Chipko as a story of people."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Forest and Wildlife Resources.",
+              "back": "Biodiversity, Forest Acts, types of forests, community conservation (sacred groves), Chipko as a story of people."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Forest and Wildlife Resources?",
+              "back": "Key distinctions to retain: IUCN categories intro; Forest types; Joint forest management; Sacred groves."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Vulnerability in the context of today's Forest and Wildlife Resources study.",
+              "back": "Susceptibility to harm and limited capacity to cope."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Forest and Wildlife Resources?",
+              "back": "High rainfall and high flood risk are related, but they are not interchangeable measures."
+            }
+          ]
         },
         {
           "day": 29,
@@ -694,7 +1506,9 @@
             "Water scarcity is social as well as physical. Dams, multi-purpose projects, rainwater harvesting. Conflicts over rivers.",
             "Key distinctions to retain: Scarcity causes; Dams debate; Rainwater harvesting; Interstate rivers.",
             "Cropping patterns (rabi, kharif, zaid), major crops, institutional reforms, Green Revolution, food security.",
-            "Key distinctions to retain: Cropping seasons; Crops map; Technological/institutional reforms; Food security."
+            "Key distinctions to retain: Cropping seasons; Crops map; Technological/institutional reforms; Food security.",
+            "Key term for review: Alluvium — Material deposited by running water.",
+            "Study lens: Water Resources + Agriculture: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 10 · Contemporary India — II: Water Resources. Class 10 · Contemporary India — II: Agriculture.",
           "task": "Mark the locations on a blank India map and explain a regional pattern. Write five explained points on Water Resources, then check them against the notes and source reading. Write five explained points on Agriculture, then check them against the notes and source reading.",
@@ -708,14 +1522,43 @@
             "kegy1",
             "jess1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Water Resources in your own words and connect it to Scarcity causes.",
+              "back": "Water scarcity is social as well as physical. Dams, multi-purpose projects, rainwater harvesting. Conflicts over rivers. Cropping patterns (rabi, kharif, zaid), major crops, institutional reforms, Green Revolution, food security."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Water Resources + Agriculture.",
+              "back": "Water scarcity is social as well as physical. Dams, multi-purpose projects, rainwater harvesting. Conflicts over rivers."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Water Resources + Agriculture?",
+              "back": "Key distinctions to retain: Scarcity causes; Dams debate; Rainwater harvesting; Interstate rivers."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Alluvium in the context of today's Water Resources + Agriculture study.",
+              "back": "Material deposited by running water."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Water Resources + Agriculture?",
+              "back": "High rainfall and high flood risk are related, but they are not interchangeable measures."
+            }
+          ]
         },
         {
           "day": 30,
           "topic": "Minerals and Energy Resources",
           "notes": [
             "Distribution of coal, petroleum, atomic minerals, non-conventional energy. Conservation.",
-            "Key distinctions to retain: Mineral belts; Coalfields; Petroleum; Renewables."
+            "Key distinctions to retain: Mineral belts; Coalfields; Petroleum; Renewables.",
+            "Key term for review: Catchment — Land contributing water to a drainage outlet.",
+            "Study lens: Minerals and Energy Resources: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 10 · Contemporary India — II: Minerals and Energy Resources.",
           "task": "Mark the locations on a blank India map and explain a regional pattern. Write five explained points on Minerals and Energy Resources, then check them against the notes and source reading.",
@@ -729,14 +1572,43 @@
             "kegy1",
             "jess1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Minerals and Energy Resources in your own words and connect it to Mineral belts.",
+              "back": "Distribution of coal, petroleum, atomic minerals, non-conventional energy. Conservation."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Minerals and Energy Resources.",
+              "back": "Distribution of coal, petroleum, atomic minerals, non-conventional energy. Conservation."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Minerals and Energy Resources?",
+              "back": "Key distinctions to retain: Mineral belts; Coalfields; Petroleum; Renewables."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Catchment in the context of today's Minerals and Energy Resources study.",
+              "back": "Land contributing water to a drainage outlet."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Minerals and Energy Resources?",
+              "back": "High rainfall and high flood risk are related, but they are not interchangeable measures."
+            }
+          ]
         },
         {
           "day": 31,
           "topic": "Manufacturing Industries",
           "notes": [
             "Locational factors, agro-based and mineral-based, industrial pollution. Manufacturing as development.",
-            "Key distinctions to retain: Location; Textiles, steel, chemicals, auto, IT; Pollution; Industrial policy flavour."
+            "Key distinctions to retain: Location; Textiles, steel, chemicals, auto, IT; Pollution; Industrial policy flavour.",
+            "Key term for review: Vulnerability — Susceptibility to harm and limited capacity to cope.",
+            "Study lens: Manufacturing Industries: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 10 · Contemporary India — II: Manufacturing Industries.",
           "task": "Mark the locations on a blank India map and explain a regional pattern. Write five explained points on Manufacturing Industries, then check them against the notes and source reading.",
@@ -750,14 +1622,43 @@
             "kegy1",
             "jess1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Manufacturing Industries in your own words and connect it to Location.",
+              "back": "Locational factors, agro-based and mineral-based, industrial pollution. Manufacturing as development."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Manufacturing Industries.",
+              "back": "Locational factors, agro-based and mineral-based, industrial pollution. Manufacturing as development."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Manufacturing Industries?",
+              "back": "Key distinctions to retain: Location; Textiles, steel, chemicals, auto, IT; Pollution; Industrial policy flavour."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Vulnerability in the context of today's Manufacturing Industries study.",
+              "back": "Susceptibility to harm and limited capacity to cope."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Manufacturing Industries?",
+              "back": "High rainfall and high flood risk are related, but they are not interchangeable measures."
+            }
+          ]
         },
         {
           "day": 32,
           "topic": "Lifelines of National Economy",
           "notes": [
             "Road, rail, air, water, pipelines, trade. Golden Quadrilateral, ports. Communication and tourism as economy.",
-            "Key distinctions to retain: Transport modes; Ports; International trade; Tourism."
+            "Key distinctions to retain: Transport modes; Ports; International trade; Tourism.",
+            "Key term for review: Alluvium — Material deposited by running water.",
+            "Study lens: Lifelines of National Economy: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 10 · Contemporary India — II: Lifelines of National Economy.",
           "task": "Mark the locations on a blank India map and explain a regional pattern. Write five explained points on Lifelines of National Economy, then check them against the notes and source reading.",
@@ -771,7 +1672,34 @@
             "kegy1",
             "jess1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Lifelines of National Economy in your own words and connect it to Transport modes.",
+              "back": "Road, rail, air, water, pipelines, trade. Golden Quadrilateral, ports. Communication and tourism as economy."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Lifelines of National Economy.",
+              "back": "Road, rail, air, water, pipelines, trade. Golden Quadrilateral, ports. Communication and tourism as economy."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Lifelines of National Economy?",
+              "back": "Key distinctions to retain: Transport modes; Ports; International trade; Tourism."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Alluvium in the context of today's Lifelines of National Economy study.",
+              "back": "Material deposited by running water."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Lifelines of National Economy?",
+              "back": "High rainfall and high flood risk are related, but they are not interchangeable measures."
+            }
+          ]
         },
         {
           "day": 33,
@@ -780,7 +1708,9 @@
             "Size, extent, standard meridian, Indian Ocean centrality, neighbours. Repeat from 9 but at plus-two depth.",
             "Key distinctions to retain: Extent; IST; Ocean location; Strategic location.",
             "Geological divisions (Peninsular block, Himalayas, Indo-Ganga plain) and physiographic units in detail.",
-            "Key distinctions to retain: Shield; Himalayan origin; Plains; Coastal & islands."
+            "Key distinctions to retain: Shield; Himalayan origin; Plains; Coastal & islands.",
+            "Key term for review: Catchment — Land contributing water to a drainage outlet.",
+            "Study lens: India — Location + Structure and Physiography: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 11 · India: Physical Environment: India — Location. Class 11 · India: Physical Environment: Structure and Physiography.",
           "task": "Mark the locations on a blank India map and explain a regional pattern. Write five explained points on India — Location, then check them against the notes and source reading. Write five explained points on Structure and Physiography, then check them against the notes and source reading.",
@@ -794,7 +1724,34 @@
             "kegy1",
             "jess1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain India — Location in your own words and connect it to Extent.",
+              "back": "Size, extent, standard meridian, Indian Ocean centrality, neighbours. Repeat from 9 but at plus-two depth. Geological divisions (Peninsular block, Himalayas, Indo-Ganga plain) and physiographic units in detail."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on India — Location + Structure and Physiography.",
+              "back": "Size, extent, standard meridian, Indian Ocean centrality, neighbours. Repeat from 9 but at plus-two depth."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for India — Location + Structure and Physiography?",
+              "back": "Key distinctions to retain: Extent; IST; Ocean location; Strategic location."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Catchment in the context of today's India — Location + Structure and Physiography study.",
+              "back": "Land contributing water to a drainage outlet."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying India — Location + Structure and Physiography?",
+              "back": "High rainfall and high flood risk are related, but they are not interchangeable measures."
+            }
+          ]
         },
         {
           "day": 34,
@@ -805,7 +1762,9 @@
             "Manufacturing Industries: Locational factors, agro-based and mineral-based, industrial pollution. Manufacturing as development.",
             "Lifelines of National Economy: Road, rail, air, water, pipelines, trade. Golden Quadrilateral, ports. Communication and tourism as economy.",
             "India — Location: Size, extent, standard meridian, Indian Ocean centrality, neighbours. Repeat from 9 but at plus-two depth.",
-            "Structure and Physiography: Geological divisions (Peninsular block, Himalayas, Indo-Ganga plain) and physiographic units in detail."
+            "Structure and Physiography: Geological divisions (Peninsular block, Himalayas, Indo-Ganga plain) and physiographic units in detail.",
+            "Key term for review: Vulnerability — Susceptibility to harm and limited capacity to cope.",
+            "Study lens: Revision II: India & Bihar: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Revisit your notes for Agriculture; Minerals and Energy Resources; Manufacturing Industries; Lifelines of National Economy; India — Location; Structure and Physiography. Re-read the assigned source sections only where your recall is weak.",
           "task": "Close the notes and reconstruct the main distinctions from the last 6 topics. Mark the locations on a blank India map and explain a regional pattern. Then compare your work with the material below.",
@@ -819,14 +1778,43 @@
             "kegy1",
             "jess1"
           ],
-          "mode": "revision"
+          "mode": "revision",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+              "back": "Cropping patterns (rabi, kharif, zaid), major crops, institutional reforms, Green Revolution, food security. Distribution of coal, petroleum, atomic minerals, non-conventional energy. Conservation. Locational factors, agro-based and mineral-based, industrial pollution. Manufacturing as development. Road, rail, air, water, pipelines, trade. Golden Quadrilateral, ports. Communication and tourism as economy. Size, extent, standard meridian, Indian Ocean centrality, neighbours. Repeat from 9 but at plus-two depth. Geological divisions (Peninsular block, Himalayas, Indo-Ganga plain) and physiographic units in detail."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Revision II: India & Bihar.",
+              "back": "Agriculture: Cropping patterns (rabi, kharif, zaid), major crops, institutional reforms, Green Revolution, food security."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Revision II: India & Bihar?",
+              "back": "Minerals and Energy Resources: Distribution of coal, petroleum, atomic minerals, non-conventional energy. Conservation."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Vulnerability in the context of today's Revision II: India & Bihar study.",
+              "back": "Susceptibility to harm and limited capacity to cope."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Revision II: India & Bihar?",
+              "back": "High rainfall and high flood risk are related, but they are not interchangeable measures."
+            }
+          ]
         },
         {
           "day": 35,
           "topic": "Drainage System",
           "notes": [
             "Evolution of Himalayan vs peninsular drainage, river regimes, river basins, problems (floods, linking).",
-            "Key distinctions to retain: Antecedent rivers; Regimes; Basins; Kosi–flood idea."
+            "Key distinctions to retain: Antecedent rivers; Regimes; Basins; Kosi–flood idea.",
+            "Key term for review: Alluvium — Material deposited by running water.",
+            "Study lens: Drainage System: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 11 · India: Physical Environment: Drainage System.",
           "task": "Mark the locations on a blank India map and explain a regional pattern. Write five explained points on Drainage System, then check them against the notes and source reading.",
@@ -840,14 +1828,43 @@
             "kegy1",
             "jess1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Drainage System in your own words and connect it to Antecedent rivers.",
+              "back": "Evolution of Himalayan vs peninsular drainage, river regimes, river basins, problems (floods, linking)."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Drainage System.",
+              "back": "Evolution of Himalayan vs peninsular drainage, river regimes, river basins, problems (floods, linking)."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Drainage System?",
+              "back": "Key distinctions to retain: Antecedent rivers; Regimes; Basins; Kosi–flood idea."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Alluvium in the context of today's Drainage System study.",
+              "back": "Material deposited by running water."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Drainage System?",
+              "back": "High rainfall and high flood risk are related, but they are not interchangeable measures."
+            }
+          ]
         },
         {
           "day": 36,
           "topic": "Climate — application",
           "notes": [
             "Monsoon mechanism (Tibet heat, ITCZ, jets), seasons, Koeppen for India, variability, climate and life.",
-            "Key distinctions to retain: Mechanism; Breaks in monsoon; Rainfall distribution; Koeppen India."
+            "Key distinctions to retain: Mechanism; Breaks in monsoon; Rainfall distribution; Koeppen India.",
+            "Key term for review: Catchment — Land contributing water to a drainage outlet.",
+            "Study lens: Climate — application: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 11 · India: Physical Environment: Climate.",
           "task": "Mark the locations on a blank India map and explain a regional pattern. Write five explained points on Climate, then check them against the notes and source reading.",
@@ -861,14 +1878,43 @@
             "kegy1",
             "jess1"
           ],
-          "mode": "application"
+          "mode": "application",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Climate in your own words and connect it to Mechanism.",
+              "back": "Monsoon mechanism (Tibet heat, ITCZ, jets), seasons, Koeppen for India, variability, climate and life."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Climate — application.",
+              "back": "Monsoon mechanism (Tibet heat, ITCZ, jets), seasons, Koeppen for India, variability, climate and life."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Climate — application?",
+              "back": "Key distinctions to retain: Mechanism; Breaks in monsoon; Rainfall distribution; Koeppen India."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Catchment in the context of today's Climate — application study.",
+              "back": "Land contributing water to a drainage outlet."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Climate — application?",
+              "back": "High rainfall and high flood risk are related, but they are not interchangeable measures."
+            }
+          ]
         },
         {
           "day": 37,
           "topic": "Natural Vegetation",
           "notes": [
             "Forest types mapped to rainfall and altitude; conservation, social forestry.",
-            "Key distinctions to retain: Types; Mangrove; Degradation; Policy."
+            "Key distinctions to retain: Types; Mangrove; Degradation; Policy.",
+            "Key term for review: Vulnerability — Susceptibility to harm and limited capacity to cope.",
+            "Study lens: Natural Vegetation: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 11 · India: Physical Environment: Natural Vegetation.",
           "task": "Mark the locations on a blank India map and explain a regional pattern. Write five explained points on Natural Vegetation, then check them against the notes and source reading.",
@@ -882,7 +1928,34 @@
             "kegy1",
             "jess1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Natural Vegetation in your own words and connect it to Types.",
+              "back": "Forest types mapped to rainfall and altitude; conservation, social forestry."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Natural Vegetation.",
+              "back": "Forest types mapped to rainfall and altitude; conservation, social forestry."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Natural Vegetation?",
+              "back": "Key distinctions to retain: Types; Mangrove; Degradation; Policy."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Vulnerability in the context of today's Natural Vegetation study.",
+              "back": "Susceptibility to harm and limited capacity to cope."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Natural Vegetation?",
+              "back": "High rainfall and high flood risk are related, but they are not interchangeable measures."
+            }
+          ]
         },
         {
           "day": 38,
@@ -891,7 +1964,9 @@
             "Soil-forming factors, Indian soil types, erosion and conservation. Alluvial vs black vs red vs laterite vs arid vs forest.",
             "Key distinctions to retain: Factors; Types; Erosion; Conservation.",
             "Floods, droughts, cyclones, earthquakes, landslides. NDMA mindset: preparedness over panic. Bihar floods belong here.",
-            "Key distinctions to retain: Earthquake zones; Cyclone east coast; Floods; Mitigation."
+            "Key distinctions to retain: Earthquake zones; Cyclone east coast; Floods; Mitigation.",
+            "Key term for review: Alluvium — Material deposited by running water.",
+            "Study lens: Soils + Natural Hazards and Disasters: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 11 · India: Physical Environment: Soils. Class 11 · India: Physical Environment: Natural Hazards and Disasters.",
           "task": "Mark the locations on a blank India map and explain a regional pattern. Write five explained points on Soils, then check them against the notes and source reading. Write five explained points on Natural Hazards and Disasters, then check them against the notes and source reading.",
@@ -905,7 +1980,34 @@
             "kegy1",
             "jess1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Soils in your own words and connect it to Factors.",
+              "back": "Soil-forming factors, Indian soil types, erosion and conservation. Alluvial vs black vs red vs laterite vs arid vs forest. Floods, droughts, cyclones, earthquakes, landslides. NDMA mindset: preparedness over panic. Bihar floods belong here."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Soils + Natural Hazards and Disasters.",
+              "back": "Soil-forming factors, Indian soil types, erosion and conservation. Alluvial vs black vs red vs laterite vs arid vs forest."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Soils + Natural Hazards and Disasters?",
+              "back": "Key distinctions to retain: Factors; Types; Erosion; Conservation."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Alluvium in the context of today's Soils + Natural Hazards and Disasters study.",
+              "back": "Material deposited by running water."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Soils + Natural Hazards and Disasters?",
+              "back": "High rainfall and high flood risk are related, but they are not interchangeable measures."
+            }
+          ]
         },
         {
           "day": 39,
@@ -916,7 +2018,9 @@
             "Climate: Monsoon mechanism (Tibet heat, ITCZ, jets), seasons, Koeppen for India, variability, climate and life.",
             "Natural Vegetation: Forest types mapped to rainfall and altitude; conservation, social forestry.",
             "Soils: Soil-forming factors, Indian soil types, erosion and conservation. Alluvial vs black vs red vs laterite vs arid vs forest.",
-            "Natural Hazards and Disasters: Floods, droughts, cyclones, earthquakes, landslides. NDMA mindset: preparedness over panic. Bihar floods belong here."
+            "Natural Hazards and Disasters: Floods, droughts, cyclones, earthquakes, landslides. NDMA mindset: preparedness over panic. Bihar floods belong here.",
+            "Key term for review: Catchment — Land contributing water to a drainage outlet.",
+            "Study lens: India & Bihar: synthesis: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Revisit your notes for Structure and Physiography; Drainage System; Climate; Natural Vegetation; Soils; Natural Hazards and Disasters. Re-read the assigned source sections only where your recall is weak.",
           "task": "Close the notes and reconstruct the main distinctions from the last 6 topics. Mark the locations on a blank India map and explain a regional pattern. Then compare your work with the material below.",
@@ -930,7 +2034,34 @@
             "kegy1",
             "jess1"
           ],
-          "mode": "revision"
+          "mode": "revision",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+              "back": "Geological divisions (Peninsular block, Himalayas, Indo-Ganga plain) and physiographic units in detail. Evolution of Himalayan vs peninsular drainage, river regimes, river basins, problems (floods, linking). Monsoon mechanism (Tibet heat, ITCZ, jets), seasons, Koeppen for India, variability, climate and life. Forest types mapped to rainfall and altitude; conservation, social forestry. Soil-forming factors, Indian soil types, erosion and conservation. Alluvial vs black vs red vs laterite vs arid vs forest. Floods, droughts, cyclones, earthquakes, landslides. NDMA mindset: preparedness over panic. Bihar floods belong here."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on India & Bihar: synthesis.",
+              "back": "Structure and Physiography: Geological divisions (Peninsular block, Himalayas, Indo-Ganga plain) and physiographic units in detail."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for India & Bihar: synthesis?",
+              "back": "Drainage System: Evolution of Himalayan vs peninsular drainage, river regimes, river basins, problems (floods, linking)."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Catchment in the context of today's India & Bihar: synthesis study.",
+              "back": "Land contributing water to a drainage outlet."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying India & Bihar: synthesis?",
+              "back": "High rainfall and high flood risk are related, but they are not interchangeable measures."
+            }
+          ]
         },
         {
           "day": 40,
@@ -951,7 +2082,9 @@
             "Climate: Monsoon mechanism (Tibet heat, ITCZ, jets), seasons, Koeppen for India, variability, climate and life.",
             "Natural Vegetation: Forest types mapped to rainfall and altitude; conservation, social forestry.",
             "Soils: Soil-forming factors, Indian soil types, erosion and conservation. Alluvial vs black vs red vs laterite vs arid vs forest.",
-            "Natural Hazards and Disasters: Floods, droughts, cyclones, earthquakes, landslides. NDMA mindset: preparedness over panic. Bihar floods belong here."
+            "Natural Hazards and Disasters: Floods, droughts, cyclones, earthquakes, landslides. NDMA mindset: preparedness over panic. Bihar floods belong here.",
+            "Key term for review: Vulnerability — Susceptibility to harm and limited capacity to cope.",
+            "Study lens: India & Bihar: assessment & repair: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Revisit your notes for Natural Vegetation and Wildlife; Population; Resources and Development; Forest and Wildlife Resources; Water Resources; Agriculture; Minerals and Energy Resources; Manufacturing Industries; Lifelines of National Economy; India — Location; Structure and Physiography; Drainage System; Climate; Natural Vegetation; Soils; Natural Hazards and Disasters. Re-read the assigned source sections only where your recall is weak.",
           "task": "Use the official-paper link or your question bank for a timed 20-question topic test and one short answer. Mark the gaps, explain your errors and schedule a second recall attempt.",
@@ -965,7 +2098,34 @@
             "kegy1",
             "jess1"
           ],
-          "mode": "test"
+          "mode": "test",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+              "back": "Forest types, biosphere reserves, fauna. Vegetation follows rainfall and altitude. Size, distribution, density, growth, age composition, NPP. Census as source. Resource planning, land degradation, soil types of India, soil conservation. Agenda 21 idea of sustainable planning. Biodiversity, Forest Acts, types of forests, community conservation (sacred groves), Chipko as a story of people. Water scarcity is social as well as physical. Dams, multi-purpose projects, rainwater harvesting. Conflicts over rivers. Cropping patterns (rabi, kharif, zaid), major crops, institutional reforms, Green Revolution, food security. Distribution of coal, petroleum, atomic minerals, non-conventional energy. Conservation. Locational factors, agro-based and mineral-based, industrial pollution. Manufacturing as development. Road, rail, air, water, pipelines, trade. Golden Quadrilateral, ports. Communication and tourism as economy. Size, extent, standard meridian, Indian Ocean centrality, neighbours. Repeat from 9 but at plus-two depth. Geological divisions (Peninsular block, Himalayas, Indo-Ganga plain) and physiographic units in detail. Evolution of Himalayan vs peninsular drainage, river regimes, river basins, problems (floods, linking). Monsoon mechanism (Tibet heat, ITCZ, jets), seasons, Koeppen for India, variability, climate and life. Forest types mapped to rainfall and altitude; conservation, social forestry. Soil-forming factors, Indian soil types, erosion and conservation. Alluvial vs black vs red vs laterite vs arid vs forest. Floods, droughts, cyclones, earthquakes, landslides. NDMA mindset: preparedness over panic. Bihar floods belong here."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on India & Bihar: assessment & repair.",
+              "back": "Natural Vegetation and Wildlife: Forest types, biosphere reserves, fauna. Vegetation follows rainfall and altitude."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for India & Bihar: assessment & repair?",
+              "back": "Population: Size, distribution, density, growth, age composition, NPP. Census as source."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Vulnerability in the context of today's India & Bihar: assessment & repair study.",
+              "back": "Susceptibility to harm and limited capacity to cope."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying India & Bihar: assessment & repair?",
+              "back": "High rainfall and high flood risk are related, but they are not interchangeable measures."
+            }
+          ]
         }
       ]
     },
@@ -984,7 +2144,9 @@
           "topic": "Resources",
           "notes": [
             "Natural, human, human-made; renewable vs non-renewable; sustainable development. Resource is technology + need, not just stuff.",
-            "Key distinctions to retain: Classification; Localised vs ubiquitous; Sustainability; Conservation."
+            "Key distinctions to retain: Classification; Localised vs ubiquitous; Sustainability; Conservation.",
+            "Key term for review: Density — Population relative to area.",
+            "Study lens: Resources: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 8 · Resources and Development: Resources.",
           "task": "Compare two regions using population, livelihoods and access to services. Write five explained points on Resources, then check them against the notes and source reading.",
@@ -998,7 +2160,34 @@
             "legy1",
             "legy2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Resources in your own words and connect it to Classification.",
+              "back": "Natural, human, human-made; renewable vs non-renewable; sustainable development. Resource is technology + need, not just stuff."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Resources.",
+              "back": "Natural, human, human-made; renewable vs non-renewable; sustainable development. Resource is technology + need, not just stuff."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Resources?",
+              "back": "Key distinctions to retain: Classification; Localised vs ubiquitous; Sustainability; Conservation."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Density in the context of today's Resources study.",
+              "back": "Population relative to area."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Resources?",
+              "back": "A higher average income does not show that every resident is better off."
+            }
+          ]
         },
         {
           "day": 42,
@@ -1007,7 +2196,9 @@
             "Land use, soil formation and types, water scarcity, forest and wildlife conservation. Degradation is a policy issue.",
             "Key distinctions to retain: Land use; Soil types/conservation; Water stress; Wildlife law intro.",
             "Metallic–non-metallic minerals, distribution, conventional vs non-conventional energy. Mining has costs.",
-            "Key distinctions to retain: Iron, bauxite, mica; Coal, petroleum; Solar, wind, biogas; Conservation."
+            "Key distinctions to retain: Iron, bauxite, mica; Coal, petroleum; Solar, wind, biogas; Conservation.",
+            "Key term for review: Urbanisation — A growing urban share or expansion of urban ways and spaces.",
+            "Study lens: Land, Soil, Water, Natural Vegetation and Wildlife Resources + Mineral and Power Resources: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 8 · Resources and Development: Land, Soil, Water, Natural Vegetation and Wildlife Resources. Class 8 · Resources and Development: Mineral and Power Resources.",
           "task": "Compare two regions using population, livelihoods and access to services. Write five explained points on Land, Soil, Water, Natural Vegetation and Wildlife Resources, then check them against the notes and source reading. Write five explained points on Mineral and Power Resources, then check them against the notes and source reading.",
@@ -1021,7 +2212,34 @@
             "legy1",
             "legy2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Land, Soil, Water, Natural Vegetation and Wildlife Resources in your own words and connect it to Land use.",
+              "back": "Land use, soil formation and types, water scarcity, forest and wildlife conservation. Degradation is a policy issue. Metallic–non-metallic minerals, distribution, conventional vs non-conventional energy. Mining has costs."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Land, Soil, Water, Natural Vegetation and Wildlife Resources + Mineral and Power Resources.",
+              "back": "Land use, soil formation and types, water scarcity, forest and wildlife conservation. Degradation is a policy issue."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Land, Soil, Water, Natural Vegetation and Wildlife Resources + Mineral and Power Resources?",
+              "back": "Key distinctions to retain: Land use; Soil types/conservation; Water stress; Wildlife law intro."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Urbanisation in the context of today's Land, Soil, Water, Natural Vegetation and Wildlife Resources + Mineral and Power Resources study.",
+              "back": "A growing urban share or expansion of urban ways and spaces."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Land, Soil, Water, Natural Vegetation and Wildlife Resources + Mineral and Power Resources?",
+              "back": "A higher average income does not show that every resident is better off."
+            }
+          ]
         },
         {
           "day": 43,
@@ -1030,7 +2248,9 @@
             "Farm types, major crops, agricultural development, farm system. Green Revolution as a mixed blessing.",
             "Key distinctions to retain: Subsistence vs commercial; Crops; Inputs; Food security link.",
             "Classification, locational factors, case studies (textiles, steel, IT, Jamshedpur). Industry is geography + policy.",
-            "Key distinctions to retain: Locational factors; Agro vs mineral based; Steel; Information technology."
+            "Key distinctions to retain: Locational factors; Agro vs mineral based; Steel; Information technology.",
+            "Key term for review: Accessibility — Ease of reaching opportunities or services.",
+            "Study lens: Agriculture + Industries: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 8 · Resources and Development: Agriculture. Class 8 · Resources and Development: Industries.",
           "task": "Compare two regions using population, livelihoods and access to services. Write five explained points on Agriculture, then check them against the notes and source reading. Write five explained points on Industries, then check them against the notes and source reading.",
@@ -1044,7 +2264,34 @@
             "legy1",
             "legy2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Agriculture in your own words and connect it to Subsistence vs commercial.",
+              "back": "Farm types, major crops, agricultural development, farm system. Green Revolution as a mixed blessing. Classification, locational factors, case studies (textiles, steel, IT, Jamshedpur). Industry is geography + policy."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Agriculture + Industries.",
+              "back": "Farm types, major crops, agricultural development, farm system. Green Revolution as a mixed blessing."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Agriculture + Industries?",
+              "back": "Key distinctions to retain: Subsistence vs commercial; Crops; Inputs; Food security link."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Accessibility in the context of today's Agriculture + Industries study.",
+              "back": "Ease of reaching opportunities or services."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Agriculture + Industries?",
+              "back": "A higher average income does not show that every resident is better off."
+            }
+          ]
         },
         {
           "day": 44,
@@ -1053,7 +2300,9 @@
             "People as resource: distribution, density, age–sex, literacy. Population is both strength and planning challenge.",
             "Key distinctions to retain: Distribution; Density; Pyramid intro; Literacy.",
             "Human geography studies people–place relations: cultural, economic, political. Approaches from environmental determinism to possibilism.",
-            "Key distinctions to retain: Nature; Approaches; Fields; Relevance."
+            "Key distinctions to retain: Nature; Approaches; Fields; Relevance.",
+            "Key term for review: Density — Population relative to area.",
+            "Study lens: Human Resources + Human Geography: Nature and Scope: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 8 · Resources and Development: Human Resources. Class 12 · Fundamentals of Human Geography: Human Geography: Nature and Scope.",
           "task": "Compare two regions using population, livelihoods and access to services. Write five explained points on Human Resources, then check them against the notes and source reading. Write five explained points on Human Geography: Nature and Scope, then check them against the notes and source reading.",
@@ -1067,14 +2316,43 @@
             "legy1",
             "legy2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Human Resources in your own words and connect it to Distribution.",
+              "back": "People as resource: distribution, density, age–sex, literacy. Population is both strength and planning challenge. Human geography studies people–place relations: cultural, economic, political. Approaches from environmental determinism to possibilism."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Human Resources + Human Geography: Nature and Scope.",
+              "back": "People as resource: distribution, density, age–sex, literacy. Population is both strength and planning challenge."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Human Resources + Human Geography: Nature and Scope?",
+              "back": "Key distinctions to retain: Distribution; Density; Pyramid intro; Literacy."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Density in the context of today's Human Resources + Human Geography: Nature and Scope study.",
+              "back": "Population relative to area."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Human Resources + Human Geography: Nature and Scope?",
+              "back": "A higher average income does not show that every resident is better off."
+            }
+          ]
         },
         {
           "day": 45,
           "topic": "The World Population",
           "notes": [
             "Growth, distribution, density, demographic transition, Malthus vs reality. Migration types.",
-            "Key distinctions to retain: Factors of distribution; DTM; Migration; Population problems."
+            "Key distinctions to retain: Factors of distribution; DTM; Migration; Population problems.",
+            "Key term for review: Urbanisation — A growing urban share or expansion of urban ways and spaces.",
+            "Study lens: The World Population: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 12 · Fundamentals of Human Geography: The World Population.",
           "task": "Compare two regions using population, livelihoods and access to services. Write five explained points on The World Population, then check them against the notes and source reading.",
@@ -1088,7 +2366,34 @@
             "legy1",
             "legy2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain The World Population in your own words and connect it to Factors of distribution.",
+              "back": "Growth, distribution, density, demographic transition, Malthus vs reality. Migration types."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on The World Population.",
+              "back": "Growth, distribution, density, demographic transition, Malthus vs reality. Migration types."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for The World Population?",
+              "back": "Key distinctions to retain: Factors of distribution; DTM; Migration; Population problems."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Urbanisation in the context of today's The World Population study.",
+              "back": "A growing urban share or expansion of urban ways and spaces."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying The World Population?",
+              "back": "A higher average income does not show that every resident is better off."
+            }
+          ]
         },
         {
           "day": 46,
@@ -1097,7 +2402,9 @@
             "Age–sex, rural–urban, literacy, occupation, pyramids. Composition tells development.",
             "Key distinctions to retain: Pyramids; Sex ratio; Literacy; Rural–urban.",
             "HDI, income–health–education, Sen’s capabilities flavour. Growth is not development.",
-            "Key distinctions to retain: HDI; Pillars; India vs neighbours; Equity."
+            "Key distinctions to retain: HDI; Pillars; India vs neighbours; Equity.",
+            "Key term for review: Accessibility — Ease of reaching opportunities or services.",
+            "Study lens: Population Composition + Human Development: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 12 · Fundamentals of Human Geography: Population Composition. Class 12 · Fundamentals of Human Geography: Human Development.",
           "task": "Compare two regions using population, livelihoods and access to services. Write five explained points on Population Composition, then check them against the notes and source reading. Write five explained points on Human Development, then check them against the notes and source reading.",
@@ -1111,7 +2418,34 @@
             "legy1",
             "legy2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Population Composition in your own words and connect it to Pyramids.",
+              "back": "Age–sex, rural–urban, literacy, occupation, pyramids. Composition tells development. HDI, income–health–education, Sen’s capabilities flavour. Growth is not development."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Population Composition + Human Development.",
+              "back": "Age–sex, rural–urban, literacy, occupation, pyramids. Composition tells development."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Population Composition + Human Development?",
+              "back": "Key distinctions to retain: Pyramids; Sex ratio; Literacy; Rural–urban."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Accessibility in the context of today's Population Composition + Human Development study.",
+              "back": "Ease of reaching opportunities or services."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Population Composition + Human Development?",
+              "back": "A higher average income does not show that every resident is better off."
+            }
+          ]
         },
         {
           "day": 47,
@@ -1122,7 +2456,9 @@
             "Human Geography: Nature and Scope: Human geography studies people–place relations: cultural, economic, political. Approaches from environmental determinism to possibilism.",
             "The World Population: Growth, distribution, density, demographic transition, Malthus vs reality. Migration types.",
             "Population Composition: Age–sex, rural–urban, literacy, occupation, pyramids. Composition tells development.",
-            "Human Development: HDI, income–health–education, Sen’s capabilities flavour. Growth is not development."
+            "Human Development: HDI, income–health–education, Sen’s capabilities flavour. Growth is not development.",
+            "Key term for review: Density — Population relative to area.",
+            "Study lens: Revision I: Human Geography: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Revisit your notes for Industries; Human Resources; Human Geography: Nature and Scope; The World Population; Population Composition; Human Development. Re-read the assigned source sections only where your recall is weak.",
           "task": "Close the notes and reconstruct the main distinctions from the last 6 topics. Compare two regions using population, livelihoods and access to services. Then compare your work with the material below.",
@@ -1136,7 +2472,34 @@
             "legy1",
             "legy2"
           ],
-          "mode": "revision"
+          "mode": "revision",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+              "back": "Classification, locational factors, case studies (textiles, steel, IT, Jamshedpur). Industry is geography + policy. People as resource: distribution, density, age–sex, literacy. Population is both strength and planning challenge. Human geography studies people–place relations: cultural, economic, political. Approaches from environmental determinism to possibilism. Growth, distribution, density, demographic transition, Malthus vs reality. Migration types. Age–sex, rural–urban, literacy, occupation, pyramids. Composition tells development. HDI, income–health–education, Sen’s capabilities flavour. Growth is not development."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Revision I: Human Geography.",
+              "back": "Industries: Classification, locational factors, case studies (textiles, steel, IT, Jamshedpur). Industry is geography + policy."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Revision I: Human Geography?",
+              "back": "Human Resources: People as resource: distribution, density, age–sex, literacy. Population is both strength and planning challenge."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Density in the context of today's Revision I: Human Geography study.",
+              "back": "Population relative to area."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Revision I: Human Geography?",
+              "back": "A higher average income does not show that every resident is better off."
+            }
+          ]
         },
         {
           "day": 48,
@@ -1145,7 +2508,9 @@
             "Hunting, gathering, pastoralism, mining, agriculture types (intensive, extensive, plantation, Mediterranean).",
             "Key distinctions to retain: Agriculture types; Pastoralism; Mining; Plantation.",
             "Manufacturing systems, industry classification, high-tech industry, traditional large-scale.",
-            "Key distinctions to retain: Cottage to high-tech; Location; Footloose industry; Agglomeration."
+            "Key distinctions to retain: Cottage to high-tech; Location; Footloose industry; Agglomeration.",
+            "Key term for review: Urbanisation — A growing urban share or expansion of urban ways and spaces.",
+            "Study lens: Primary Activities + Secondary Activities: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 12 · Fundamentals of Human Geography: Primary Activities. Class 12 · Fundamentals of Human Geography: Secondary Activities.",
           "task": "Compare two regions using population, livelihoods and access to services. Write five explained points on Primary Activities, then check them against the notes and source reading. Write five explained points on Secondary Activities, then check them against the notes and source reading.",
@@ -1159,7 +2524,34 @@
             "legy1",
             "legy2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Primary Activities in your own words and connect it to Agriculture types.",
+              "back": "Hunting, gathering, pastoralism, mining, agriculture types (intensive, extensive, plantation, Mediterranean). Manufacturing systems, industry classification, high-tech industry, traditional large-scale."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Primary Activities + Secondary Activities.",
+              "back": "Hunting, gathering, pastoralism, mining, agriculture types (intensive, extensive, plantation, Mediterranean)."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Primary Activities + Secondary Activities?",
+              "back": "Key distinctions to retain: Agriculture types; Pastoralism; Mining; Plantation."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Urbanisation in the context of today's Primary Activities + Secondary Activities study.",
+              "back": "A growing urban share or expansion of urban ways and spaces."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Primary Activities + Secondary Activities?",
+              "back": "A higher average income does not show that every resident is better off."
+            }
+          ]
         },
         {
           "day": 49,
@@ -1168,7 +2560,9 @@
             "Services, trade, transport, communication, IT, knowledge economy. Quinary as decision-making.",
             "Key distinctions to retain: Services; Digital economy; Outsourcing; Quinary.",
             "World rail, road, sea, air, pipelines, internet. Suez, Panama, trans-Siberian as classics.",
-            "Key distinctions to retain: Modes; Canals; Ports; ICT."
+            "Key distinctions to retain: Modes; Canals; Ports; ICT.",
+            "Key term for review: Accessibility — Ease of reaching opportunities or services.",
+            "Study lens: Tertiary and Quaternary Activities + Transport and Communication: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 12 · Fundamentals of Human Geography: Tertiary and Quaternary Activities. Class 12 · Fundamentals of Human Geography: Transport and Communication.",
           "task": "Compare two regions using population, livelihoods and access to services. Write five explained points on Tertiary and Quaternary Activities, then check them against the notes and source reading. Write five explained points on Transport and Communication, then check them against the notes and source reading.",
@@ -1182,14 +2576,43 @@
             "legy1",
             "legy2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Tertiary and Quaternary Activities in your own words and connect it to Services.",
+              "back": "Services, trade, transport, communication, IT, knowledge economy. Quinary as decision-making. World rail, road, sea, air, pipelines, internet. Suez, Panama, trans-Siberian as classics."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Tertiary and Quaternary Activities + Transport and Communication.",
+              "back": "Services, trade, transport, communication, IT, knowledge economy. Quinary as decision-making."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Tertiary and Quaternary Activities + Transport and Communication?",
+              "back": "Key distinctions to retain: Services; Digital economy; Outsourcing; Quinary."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Accessibility in the context of today's Tertiary and Quaternary Activities + Transport and Communication study.",
+              "back": "Ease of reaching opportunities or services."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Tertiary and Quaternary Activities + Transport and Communication?",
+              "back": "A higher average income does not show that every resident is better off."
+            }
+          ]
         },
         {
           "day": 50,
           "topic": "International Trade",
           "notes": [
             "Basis of trade, WTO, ports as gateways, concerns of developing countries.",
-            "Key distinctions to retain: Comparative advantage idea; WTO; Balance of trade; Ports."
+            "Key distinctions to retain: Comparative advantage idea; WTO; Balance of trade; Ports.",
+            "Key term for review: Density — Population relative to area.",
+            "Study lens: International Trade: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 12 · Fundamentals of Human Geography: International Trade.",
           "task": "Compare two regions using population, livelihoods and access to services. Write five explained points on International Trade, then check them against the notes and source reading.",
@@ -1203,7 +2626,34 @@
             "legy1",
             "legy2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain International Trade in your own words and connect it to Comparative advantage idea.",
+              "back": "Basis of trade, WTO, ports as gateways, concerns of developing countries."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on International Trade.",
+              "back": "Basis of trade, WTO, ports as gateways, concerns of developing countries."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for International Trade?",
+              "back": "Key distinctions to retain: Comparative advantage idea; WTO; Balance of trade; Ports."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Density in the context of today's International Trade study.",
+              "back": "Population relative to area."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying International Trade?",
+              "back": "A higher average income does not show that every resident is better off."
+            }
+          ]
         },
         {
           "day": 51,
@@ -1212,7 +2662,9 @@
             "Rural patterns, urban types, megacities, problems of urbanisation.",
             "Key distinctions to retain: Compact vs dispersed; Urban functions; Megacity; Problems.",
             "Census India: density belts, growth phases, language, religion, rural–urban. Bihar’s density and out-migration belong here.",
-            "Key distinctions to retain: Density; Growth phases; Composition; Bihar link."
+            "Key distinctions to retain: Density; Growth phases; Composition; Bihar link.",
+            "Key term for review: Urbanisation — A growing urban share or expansion of urban ways and spaces.",
+            "Study lens: Human Settlements + Population: Distribution, Density, Growth and Composition: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 12 · Fundamentals of Human Geography: Human Settlements. Class 12 · India: People and Economy: Population: Distribution, Density, Growth and Composition.",
           "task": "Compare two regions using population, livelihoods and access to services. Write five explained points on Human Settlements, then check them against the notes and source reading. Write five explained points on Population: Distribution, Density, Growth and Composition, then check them against the notes and source reading.",
@@ -1226,7 +2678,34 @@
             "legy1",
             "legy2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Human Settlements in your own words and connect it to Compact vs dispersed.",
+              "back": "Rural patterns, urban types, megacities, problems of urbanisation. Census India: density belts, growth phases, language, religion, rural–urban. Bihar’s density and out-migration belong here."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Human Settlements + Population: Distribution, Density, Growth and Composition.",
+              "back": "Rural patterns, urban types, megacities, problems of urbanisation."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Human Settlements + Population: Distribution, Density, Growth and Composition?",
+              "back": "Key distinctions to retain: Compact vs dispersed; Urban functions; Megacity; Problems."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Urbanisation in the context of today's Human Settlements + Population: Distribution, Density, Growth and Composition study.",
+              "back": "A growing urban share or expansion of urban ways and spaces."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Human Settlements + Population: Distribution, Density, Growth and Composition?",
+              "back": "A higher average income does not show that every resident is better off."
+            }
+          ]
         },
         {
           "day": 52,
@@ -1235,7 +2714,9 @@
             "Inter-state streams, Gulf migration, rural–urban. Remittances and social costs. Bihar as origin.",
             "Key distinctions to retain: Streams; Push–pull; Remittances; Women and migration.",
             "Indian HDI variation across states. Health, education, income gaps. Planning for capability.",
-            "Key distinctions to retain: State variation; Indicators; Gender; Policy."
+            "Key distinctions to retain: State variation; Indicators; Gender; Policy.",
+            "Key term for review: Accessibility — Ease of reaching opportunities or services.",
+            "Study lens: Migration: Types, Causes and Consequences + Human Development: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 12 · India: People and Economy: Migration: Types, Causes and Consequences. Class 12 · India: People and Economy: Human Development.",
           "task": "Compare two regions using population, livelihoods and access to services. Write five explained points on Migration: Types, Causes and Consequences, then check them against the notes and source reading. Write five explained points on Human Development, then check them against the notes and source reading.",
@@ -1249,7 +2730,34 @@
             "legy1",
             "legy2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Migration: Types, Causes and Consequences in your own words and connect it to Streams.",
+              "back": "Inter-state streams, Gulf migration, rural–urban. Remittances and social costs. Bihar as origin. Indian HDI variation across states. Health, education, income gaps. Planning for capability."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Migration: Types, Causes and Consequences + Human Development.",
+              "back": "Inter-state streams, Gulf migration, rural–urban. Remittances and social costs. Bihar as origin."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Migration: Types, Causes and Consequences + Human Development?",
+              "back": "Key distinctions to retain: Streams; Push–pull; Remittances; Women and migration."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Accessibility in the context of today's Migration: Types, Causes and Consequences + Human Development study.",
+              "back": "Ease of reaching opportunities or services."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Migration: Types, Causes and Consequences + Human Development?",
+              "back": "A higher average income does not show that every resident is better off."
+            }
+          ]
         },
         {
           "day": 53,
@@ -1258,7 +2766,9 @@
             "Indian villages, urbanisation, smart cities debate, slums, conurbations (Delhi, Mumbai).",
             "Key distinctions to retain: Rural types; Urbanisation level; Metropolitan; Problems.",
             "Land-use change, cropping intensity, Green–White–Blue revolutions, agricultural problems, food security.",
-            "Key distinctions to retain: Land-use; Cropping patterns; Revolutions; Challenges."
+            "Key distinctions to retain: Land-use; Cropping patterns; Revolutions; Challenges.",
+            "Key term for review: Density — Population relative to area.",
+            "Study lens: Human Settlements + Land Resources and Agriculture — application: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 12 · India: People and Economy: Human Settlements. Class 12 · India: People and Economy: Land Resources and Agriculture.",
           "task": "Compare two regions using population, livelihoods and access to services. Write five explained points on Human Settlements, then check them against the notes and source reading. Write five explained points on Land Resources and Agriculture, then check them against the notes and source reading.",
@@ -1272,7 +2782,34 @@
             "legy1",
             "legy2"
           ],
-          "mode": "application"
+          "mode": "application",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Human Settlements in your own words and connect it to Rural types.",
+              "back": "Indian villages, urbanisation, smart cities debate, slums, conurbations (Delhi, Mumbai). Land-use change, cropping intensity, Green–White–Blue revolutions, agricultural problems, food security."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Human Settlements + Land Resources and Agriculture — application.",
+              "back": "Indian villages, urbanisation, smart cities debate, slums, conurbations (Delhi, Mumbai)."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Human Settlements + Land Resources and Agriculture — application?",
+              "back": "Key distinctions to retain: Rural types; Urbanisation level; Metropolitan; Problems."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Density in the context of today's Human Settlements + Land Resources and Agriculture — application study.",
+              "back": "Population relative to area."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Human Settlements + Land Resources and Agriculture — application?",
+              "back": "A higher average income does not show that every resident is better off."
+            }
+          ]
         },
         {
           "day": 54,
@@ -1282,7 +2819,9 @@
             "Population: Distribution, Density, Growth and Composition: Census India: density belts, growth phases, language, religion, rural–urban. Bihar’s density and out-migration belong here.",
             "Migration: Types, Causes and Consequences: Inter-state streams, Gulf migration, rural–urban. Remittances and social costs. Bihar as origin.",
             "Human Development: Indian HDI variation across states. Health, education, income gaps. Planning for capability.",
-            "Land Resources and Agriculture: Land-use change, cropping intensity, Green–White–Blue revolutions, agricultural problems, food security."
+            "Land Resources and Agriculture: Land-use change, cropping intensity, Green–White–Blue revolutions, agricultural problems, food security.",
+            "Key term for review: Urbanisation — A growing urban share or expansion of urban ways and spaces.",
+            "Study lens: Revision II: Human Geography: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Revisit your notes for Human Settlements; Population: Distribution, Density, Growth and Composition; Migration: Types, Causes and Consequences; Human Development; Land Resources and Agriculture. Re-read the assigned source sections only where your recall is weak.",
           "task": "Close the notes and reconstruct the main distinctions from the last 5 topics. Compare two regions using population, livelihoods and access to services. Then compare your work with the material below.",
@@ -1296,14 +2835,43 @@
             "legy1",
             "legy2"
           ],
-          "mode": "revision"
+          "mode": "revision",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+              "back": "Indian villages, urbanisation, smart cities debate, slums, conurbations (Delhi, Mumbai). Census India: density belts, growth phases, language, religion, rural–urban. Bihar’s density and out-migration belong here. Inter-state streams, Gulf migration, rural–urban. Remittances and social costs. Bihar as origin. Indian HDI variation across states. Health, education, income gaps. Planning for capability. Land-use change, cropping intensity, Green–White–Blue revolutions, agricultural problems, food security."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Revision II: Human Geography.",
+              "back": "Human Settlements: Indian villages, urbanisation, smart cities debate, slums, conurbations (Delhi, Mumbai)."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Revision II: Human Geography?",
+              "back": "Population: Distribution, Density, Growth and Composition: Census India: density belts, growth phases, language, religion, rural–urban. Bihar’s density and out-migration belong here."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Urbanisation in the context of today's Revision II: Human Geography study.",
+              "back": "A growing urban share or expansion of urban ways and spaces."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Revision II: Human Geography?",
+              "back": "A higher average income does not show that every resident is better off."
+            }
+          ]
         },
         {
           "day": 55,
           "topic": "Water Resources",
           "notes": [
             "Surface–groundwater, irrigation, watershed, inter-state disputes, pollution. Eastern India’s flood-and-scarcity paradox.",
-            "Key distinctions to retain: Irrigation types; Groundwater stress; Disputes; Conservation."
+            "Key distinctions to retain: Irrigation types; Groundwater stress; Disputes; Conservation.",
+            "Key term for review: Accessibility — Ease of reaching opportunities or services.",
+            "Study lens: Water Resources: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 12 · India: People and Economy: Water Resources.",
           "task": "Compare two regions using population, livelihoods and access to services. Write five explained points on Water Resources, then check them against the notes and source reading.",
@@ -1317,7 +2885,34 @@
             "legy1",
             "legy2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Water Resources in your own words and connect it to Irrigation types.",
+              "back": "Surface–groundwater, irrigation, watershed, inter-state disputes, pollution. Eastern India’s flood-and-scarcity paradox."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Water Resources.",
+              "back": "Surface–groundwater, irrigation, watershed, inter-state disputes, pollution. Eastern India’s flood-and-scarcity paradox."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Water Resources?",
+              "back": "Key distinctions to retain: Irrigation types; Groundwater stress; Disputes; Conservation."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Accessibility in the context of today's Water Resources study.",
+              "back": "Ease of reaching opportunities or services."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Water Resources?",
+              "back": "A higher average income does not show that every resident is better off."
+            }
+          ]
         },
         {
           "day": 56,
@@ -1326,7 +2921,9 @@
             "Distribution, energy mix, nuclear, renewables, conservation. Jharkhand–Odisha–Chhattisgarh mineral belt vs Bihar’s limited minerals.",
             "Key distinctions to retain: Mineral belts; Energy mix; Renewables; Conservation.",
             "Industrial regions of India, liberalisation impact, pollution. Location still follows raw material, power, market, policy.",
-            "Key distinctions to retain: Regions; Iron-steel; Cotton; Liberalisation."
+            "Key distinctions to retain: Regions; Iron-steel; Cotton; Liberalisation.",
+            "Key term for review: Density — Population relative to area.",
+            "Study lens: Mineral and Energy Resources + Manufacturing Industries: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 12 · India: People and Economy: Mineral and Energy Resources. Class 12 · India: People and Economy: Manufacturing Industries.",
           "task": "Compare two regions using population, livelihoods and access to services. Write five explained points on Mineral and Energy Resources, then check them against the notes and source reading. Write five explained points on Manufacturing Industries, then check them against the notes and source reading.",
@@ -1340,7 +2937,34 @@
             "legy1",
             "legy2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Mineral and Energy Resources in your own words and connect it to Mineral belts.",
+              "back": "Distribution, energy mix, nuclear, renewables, conservation. Jharkhand–Odisha–Chhattisgarh mineral belt vs Bihar’s limited minerals. Industrial regions of India, liberalisation impact, pollution. Location still follows raw material, power, market, policy."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Mineral and Energy Resources + Manufacturing Industries.",
+              "back": "Distribution, energy mix, nuclear, renewables, conservation. Jharkhand–Odisha–Chhattisgarh mineral belt vs Bihar’s limited minerals."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Mineral and Energy Resources + Manufacturing Industries?",
+              "back": "Key distinctions to retain: Mineral belts; Energy mix; Renewables; Conservation."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Density in the context of today's Mineral and Energy Resources + Manufacturing Industries study.",
+              "back": "Population relative to area."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Mineral and Energy Resources + Manufacturing Industries?",
+              "back": "A higher average income does not show that every resident is better off."
+            }
+          ]
         },
         {
           "day": 57,
@@ -1349,7 +2973,9 @@
             "Five-year plans to NITI, hill-area, drought, command area, ITDP. Sustainable development as method.",
             "Key distinctions to retain: Planning history; NITI; Targeted area programmes; Sustainability.",
             "Indian rail gauges history, NH, ports, airways, ISRO communication. Lifelines at national scale.",
-            "Key distinctions to retain: Rail; Road; Ports; Pipelines."
+            "Key distinctions to retain: Rail; Road; Ports; Pipelines.",
+            "Key term for review: Urbanisation — A growing urban share or expansion of urban ways and spaces.",
+            "Study lens: Planning and Sustainable Development in Indian Context + Transport and Communication: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 12 · India: People and Economy: Planning and Sustainable Development in Indian Context. Class 12 · India: People and Economy: Transport and Communication.",
           "task": "Compare two regions using population, livelihoods and access to services. Write five explained points on Planning and Sustainable Development in Indian Context, then check them against the notes and source reading. Write five explained points on Transport and Communication, then check them against the notes and source reading.",
@@ -1363,7 +2989,34 @@
             "legy1",
             "legy2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Planning and Sustainable Development in Indian Context in your own words and connect it to Planning history.",
+              "back": "Five-year plans to NITI, hill-area, drought, command area, ITDP. Sustainable development as method. Indian rail gauges history, NH, ports, airways, ISRO communication. Lifelines at national scale."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Planning and Sustainable Development in Indian Context + Transport and Communication.",
+              "back": "Five-year plans to NITI, hill-area, drought, command area, ITDP. Sustainable development as method."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Planning and Sustainable Development in Indian Context + Transport and Communication?",
+              "back": "Key distinctions to retain: Planning history; NITI; Targeted area programmes; Sustainability."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Urbanisation in the context of today's Planning and Sustainable Development in Indian Context + Transport and Communication study.",
+              "back": "A growing urban share or expansion of urban ways and spaces."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Planning and Sustainable Development in Indian Context + Transport and Communication?",
+              "back": "A higher average income does not show that every resident is better off."
+            }
+          ]
         },
         {
           "day": 58,
@@ -1372,7 +3025,9 @@
             "India’s trade composition, direction, seaports and airports as gateways.",
             "Key distinctions to retain: Exports–imports; Direction; Ports; Trade policy flavour.",
             "Pollution, urban waste, rural–urban migration, problems of slums. Geography as applied civic science.",
-            "Key distinctions to retain: Pollution; Urban waste; Slums; Solutions."
+            "Key distinctions to retain: Pollution; Urban waste; Slums; Solutions.",
+            "Key term for review: Accessibility — Ease of reaching opportunities or services.",
+            "Study lens: International Trade + Geographical Perspective on Selected Issues — application: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Class 12 · India: People and Economy: International Trade. Class 12 · India: People and Economy: Geographical Perspective on Selected Issues.",
           "task": "Compare two regions using population, livelihoods and access to services. Write five explained points on International Trade, then check them against the notes and source reading. Write five explained points on Geographical Perspective on Selected Issues, then check them against the notes and source reading.",
@@ -1386,7 +3041,34 @@
             "legy1",
             "legy2"
           ],
-          "mode": "application"
+          "mode": "application",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain International Trade in your own words and connect it to Exports–imports.",
+              "back": "India’s trade composition, direction, seaports and airports as gateways. Pollution, urban waste, rural–urban migration, problems of slums. Geography as applied civic science."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on International Trade + Geographical Perspective on Selected Issues — application.",
+              "back": "India’s trade composition, direction, seaports and airports as gateways."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for International Trade + Geographical Perspective on Selected Issues — application?",
+              "back": "Key distinctions to retain: Exports–imports; Direction; Ports; Trade policy flavour."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Accessibility in the context of today's International Trade + Geographical Perspective on Selected Issues — application study.",
+              "back": "Ease of reaching opportunities or services."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying International Trade + Geographical Perspective on Selected Issues — application?",
+              "back": "A higher average income does not show that every resident is better off."
+            }
+          ]
         },
         {
           "day": 59,
@@ -1397,7 +3079,9 @@
             "Planning and Sustainable Development in Indian Context: Five-year plans to NITI, hill-area, drought, command area, ITDP. Sustainable development as method.",
             "Transport and Communication: Indian rail gauges history, NH, ports, airways, ISRO communication. Lifelines at national scale.",
             "International Trade: India’s trade composition, direction, seaports and airports as gateways.",
-            "Geographical Perspective on Selected Issues: Pollution, urban waste, rural–urban migration, problems of slums. Geography as applied civic science."
+            "Geographical Perspective on Selected Issues: Pollution, urban waste, rural–urban migration, problems of slums. Geography as applied civic science.",
+            "Key term for review: Density — Population relative to area.",
+            "Study lens: Human Geography: synthesis: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Revisit your notes for Mineral and Energy Resources; Manufacturing Industries; Planning and Sustainable Development in Indian Context; Transport and Communication; International Trade; Geographical Perspective on Selected Issues. Re-read the assigned source sections only where your recall is weak.",
           "task": "Close the notes and reconstruct the main distinctions from the last 6 topics. Compare two regions using population, livelihoods and access to services. Then compare your work with the material below.",
@@ -1411,7 +3095,34 @@
             "legy1",
             "legy2"
           ],
-          "mode": "revision"
+          "mode": "revision",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+              "back": "Distribution, energy mix, nuclear, renewables, conservation. Jharkhand–Odisha–Chhattisgarh mineral belt vs Bihar’s limited minerals. Industrial regions of India, liberalisation impact, pollution. Location still follows raw material, power, market, policy. Five-year plans to NITI, hill-area, drought, command area, ITDP. Sustainable development as method. Indian rail gauges history, NH, ports, airways, ISRO communication. Lifelines at national scale. India’s trade composition, direction, seaports and airports as gateways. Pollution, urban waste, rural–urban migration, problems of slums. Geography as applied civic science."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Human Geography: synthesis.",
+              "back": "Mineral and Energy Resources: Distribution, energy mix, nuclear, renewables, conservation. Jharkhand–Odisha–Chhattisgarh mineral belt vs Bihar’s limited minerals."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Human Geography: synthesis?",
+              "back": "Manufacturing Industries: Industrial regions of India, liberalisation impact, pollution. Location still follows raw material, power, market, policy."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Density in the context of today's Human Geography: synthesis study.",
+              "back": "Population relative to area."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Human Geography: synthesis?",
+              "back": "A higher average income does not show that every resident is better off."
+            }
+          ]
         },
         {
           "day": 60,
@@ -1429,7 +3140,9 @@
             "Mineral and Energy Resources: Distribution, energy mix, nuclear, renewables, conservation. Jharkhand–Odisha–Chhattisgarh mineral belt vs Bihar’s limited minerals.",
             "Manufacturing Industries: Industrial regions of India, liberalisation impact, pollution. Location still follows raw material, power, market, policy.",
             "Planning and Sustainable Development in Indian Context: Five-year plans to NITI, hill-area, drought, command area, ITDP. Sustainable development as method.",
-            "Geographical Perspective on Selected Issues: Pollution, urban waste, rural–urban migration, problems of slums. Geography as applied civic science."
+            "Geographical Perspective on Selected Issues: Pollution, urban waste, rural–urban migration, problems of slums. Geography as applied civic science.",
+            "Key term for review: Urbanisation — A growing urban share or expansion of urban ways and spaces.",
+            "Study lens: Human Geography: assessment & repair: locate it first, explain the physical or human process, identify its spatial pattern, then connect one consequence for people or ecosystems."
           ],
           "reading": "Revisit your notes for Tertiary and Quaternary Activities; Transport and Communication; International Trade; Human Settlements; Population: Distribution, Density, Growth and Composition; Migration: Types, Causes and Consequences; Human Development; Land Resources and Agriculture; Water Resources; Mineral and Energy Resources; Manufacturing Industries; Planning and Sustainable Development in Indian Context; Geographical Perspective on Selected Issues. Re-read the assigned source sections only where your recall is weak.",
           "task": "Use the official-paper link or your question bank for a timed 20-question topic test and one short answer. Mark the gaps, explain your errors and schedule a second recall attempt.",
@@ -1443,7 +3156,34 @@
             "legy1",
             "legy2"
           ],
-          "mode": "test"
+          "mode": "test",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+              "back": "Services, trade, transport, communication, IT, knowledge economy. Quinary as decision-making. Indian rail gauges history, NH, ports, airways, ISRO communication. Lifelines at national scale. India’s trade composition, direction, seaports and airports as gateways. Indian villages, urbanisation, smart cities debate, slums, conurbations (Delhi, Mumbai). Census India: density belts, growth phases, language, religion, rural–urban. Bihar’s density and out-migration belong here. Inter-state streams, Gulf migration, rural–urban. Remittances and social costs. Bihar as origin. Indian HDI variation across states. Health, education, income gaps. Planning for capability. Land-use change, cropping intensity, Green–White–Blue revolutions, agricultural problems, food security. Surface–groundwater, irrigation, watershed, inter-state disputes, pollution. Eastern India’s flood-and-scarcity paradox. Distribution, energy mix, nuclear, renewables, conservation. Jharkhand–Odisha–Chhattisgarh mineral belt vs Bihar’s limited minerals. Industrial regions of India, liberalisation impact, pollution. Location still follows raw material, power, market, policy. Five-year plans to NITI, hill-area, drought, command area, ITDP. Sustainable development as method. Pollution, urban waste, rural–urban migration, problems of slums. Geography as applied civic science."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Human Geography: assessment & repair.",
+              "back": "Tertiary and Quaternary Activities: Services, trade, transport, communication, IT, knowledge economy. Quinary as decision-making."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Human Geography: assessment & repair?",
+              "back": "Transport and Communication: Indian rail gauges history, NH, ports, airways, ISRO communication. Lifelines at national scale."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Urbanisation in the context of today's Human Geography: assessment & repair study.",
+              "back": "A growing urban share or expansion of urban ways and spaces."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Human Geography: assessment & repair?",
+              "back": "A higher average income does not show that every resident is better off."
+            }
+          ]
         }
       ]
     }

@@ -69,3 +69,17 @@ button,input,select,textarea{letter-spacing:normal}
 @media(max-width:1100px){.tabs{grid-template-columns:repeat(4,minmax(0,1fr))}}
 @media(max-width:700px){.tabs-wrap{grid-template-columns:48px minmax(0,1fr);gap:12px;padding:14px 16px}.tabs{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}.tabs button{min-height:76px;padding:10px 5px;font-size:11px}.tabs button>.site-icon{width:20px;height:20px;flex-basis:20px}.bored-nav{width:48px;height:48px;min-width:48px;min-height:48px}.chess-launch-icon{width:27px;height:27px}}
 @media(max-width:420px){.tabs-wrap{grid-template-columns:44px minmax(0,1fr);gap:10px;padding:12px}.tabs{grid-template-columns:repeat(2,minmax(0,1fr))}.bored-nav{width:44px;height:44px;min-width:44px;min-height:44px}}
+
+/* Mango & Leaf: a warm, lively default with bright accents kept to navigation and actions. */
+:root:not([data-theme]),[data-theme="mango"]{--site-bg:#fffaf0;--site-card:#ffffff;--site-ink:#28251f;--site-muted:#756d61;--site-line:#eee3cf;--site-primary:#2f7d32;--site-primary-hover:#246529;--site-soft:#fff1bd;--site-accent:#e87925;--site-header:#ffdf70;--site-on-header:#29351f;--site-header-muted:#596347;--site-focus:#dc6c1d;--site-hero:#f5c84c;--site-shadow:0 8px 26px #61482012}
+:root:not([data-theme]) .mast,[data-theme="mango"] .mast{background:var(--site-header);color:var(--site-on-header);border-bottom:1px solid #e6c557;box-shadow:0 4px 18px #755b1a18}
+:root:not([data-theme]) .mast .brand,:root:not([data-theme]) .mast .brand strong,:root:not([data-theme]) .mast-right a,[data-theme="mango"] .mast .brand,[data-theme="mango"] .mast .brand strong,[data-theme="mango"] .mast-right a{color:var(--site-on-header)}
+:root:not([data-theme]) .mast .brand span,:root:not([data-theme]) .mast .who,[data-theme="mango"] .mast .brand span,[data-theme="mango"] .mast .who{color:var(--site-header-muted)}
+:root:not([data-theme]) .mast .ghost,[data-theme="mango"] .mast .ghost{background:#ffffff70;border-color:#76601f35;color:var(--site-on-header)}
+:root:not([data-theme]) .tabs button:not(.on),[data-theme="mango"] .tabs button:not(.on){background:#fffdf7;border-color:var(--site-line)}
+:root:not([data-theme]) .tabs button:nth-child(3n+1) .site-icon,[data-theme="mango"] .tabs button:nth-child(3n+1) .site-icon{color:var(--site-primary)}
+:root:not([data-theme]) .tabs button:nth-child(3n+2) .site-icon,[data-theme="mango"] .tabs button:nth-child(3n+2) .site-icon{color:var(--site-accent)}
+:root:not([data-theme]) .tabs button:nth-child(3n) .site-icon,[data-theme="mango"] .tabs button:nth-child(3n) .site-icon{color:#b78a18}
+:root:not([data-theme]) .tabs button.on .site-icon,[data-theme="mango"] .tabs button.on .site-icon{color:#fff}
+:root:not([data-theme]) .module,[data-theme="mango"] .module{border-left:3px solid var(--site-accent)}
+:root:not([data-theme]) .badge,:root:not([data-theme]) .tag,[data-theme="mango"] .badge,[data-theme="mango"] .tag{background:#fff4cf;color:#685018;border-color:#f0dfac}

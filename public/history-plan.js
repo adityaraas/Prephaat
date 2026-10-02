@@ -13,6 +13,8 @@ const HistoryPlan = (() => {
   }
   async function mount(root, subject = 'history') {
     if (!root) return;
+    let flashcardIndex = 0;
+    let flashcardRevealed = false;
     try {
       const data = await load(subject);
       const title = data.title || 'History';
@@ -36,6 +38,9 @@ const HistoryPlan = (() => {
       const paint = (focus = false) => {
         const segment = data.segments.find(s => s.days.some(d => d.day === day));
         const lesson = allDays.find(d => d.day === day);
+        const flashcards = lesson.flashcards || [];
+        if (flashcardIndex >= flashcards.length) flashcardIndex = 0;
+        const flashcard = flashcards[flashcardIndex];
         root.innerHTML = `<section class="intro"><div><p class="eyebrow">${esc(title.toUpperCase())} STUDY ROOM</p><h1>${data.headline ? esc(data.headline) : "A little history.<br>A clearer picture, every day."}</h1><p>${esc(data.intro || "Ancient foundations to the freedom struggle. Read, recall and practise in a focused 60-day course.")}</p></div><div class="progress-box"><strong id="progress-count">${completed.size}<span> / 60 days</span></strong><progress aria-label="Days completed" max="60" value="${completed.size}"></progress><p>About 2 hours per day</p></div></section>
           <nav class="periods" aria-label="${esc(title)} study blocks">${data.segments.map((s,i) => `<button type="button" data-period="${s.id}" aria-pressed="${s.id === segment.id}"><span>${typeof SiteTheme !== 'undefined' ? SiteTheme.icon(s.icon || (s.id === 'ancient' ? 'history' : s.id)) : `0${i+1}`}</span><strong>${esc(s.title)}${subject === "history" ? " History" : ""}</strong><small>Days ${s.days[0].day}–${s.days.at(-1).day}</small></button>`).join('')}</nav>
           <div class="study-layout"><aside class="day-panel"><p class="eyebrow">${esc(segment.title)} · ${segment.days.length} DAYS</p><h2>Your daily chapters</h2><nav class="day-list" aria-label="Study days">${segment.days.map(d => `<button type="button" data-day="${d.day}" ${d.day === day ? 'aria-current="step"' : ''}><span class="day-number">${completed.has(d.day) ? '✓' : String(d.day).padStart(2,'0')}</span><span>${esc(d.topic)}${completed.has(d.day) ? '<small>Completed</small>' : ''}</span></button>`).join('')}</nav><p class="save-note" id="save-status">${storageAvailable ? 'Progress saved on this browser and device.' : 'Browser storage unavailable. Progress lasts only for this visit.'}</p></aside>
@@ -45,6 +50,7 @@ const HistoryPlan = (() => {
           <section class="ncert-reader"><p class="eyebrow">READ THE ORIGINAL</p><h3>${esc(data.readerTitle || "NCERT textbook reader")}</h3><p>${esc(data.readerDescription || "Open an official NCERT chapter here. Choose the chapter that matches today’s topic; these Class 12 themes supplement the wider reading plan.")}</p><label for="ncert-reader-choice">Chapter</label><select id="ncert-reader-choice">${data.readers[segment.id].map(([title,code])=>`<option value="${esc(code)}">${esc(title)}</option>`).join('')}</select><button type="button" class="reader-load" data-reader="load">Read on this page</button><div id="ncert-reader-frame"></div><p class="note-label">The document loads from its official provider when you open it. If your browser cannot display the PDF, use the direct chapter link shown below it.</p></section>
           <div class="reading"><h3>Today’s book reading</h3><p>${esc(lesson.reading)}</p>${lesson.sources.map(id => {const s=data.sources[id];return `<div class="book-link">${link(s.url,s.title)}<small>${esc(s.access)}</small></div>`;}).join('')}</div>
           <div class="practice"><h3>Recall &amp; practise</h3><p>${esc(lesson.task)}</p><p><strong>Self-check:</strong> ${esc(lesson.recall)}</p><details><summary>Check your recall</summary><p>${esc(lesson.recallAnswer)}</p></details></div>
+          ${flashcards.length ? `<section class="flashcards" aria-labelledby="flashcards-title"><p class="eyebrow">RETRIEVAL PRACTICE</p><h3 id="flashcards-title">Day ${day} flashcards</h3><div class="flashcard" aria-live="polite"><p class="flashcard-meta">${esc(flashcard.label)} · Card ${flashcardIndex + 1} of ${flashcards.length}</p><p class="flashcard-text">${esc(flashcardRevealed ? flashcard.back : flashcard.front)}</p>${flashcardRevealed ? '<span class="flashcard-side">Answer</span>' : '<span class="flashcard-side">Prompt</span>'}</div><div class="flashcard-controls"><button type="button" data-flashcard-action="previous" ${flashcardIndex === 0 ? 'disabled' : ''}>Previous card</button><button type="button" class="flashcard-reveal" data-flashcard-action="reveal" aria-expanded="${flashcardRevealed}">${flashcardRevealed ? 'Hide answer' : 'Reveal answer'}</button><button type="button" data-flashcard-action="next" ${flashcardIndex === flashcards.length - 1 ? 'disabled' : ''}>Next card</button></div><p class="flashcard-hint">Try to answer from memory before revealing the back.</p></section>` : ''}
           <label class="complete"><input type="checkbox" id="complete-day" ${completed.has(day) ? 'checked' : ''}> I have finished Day ${day}</label></article>
           <section class="pyq-section" aria-labelledby="pyq-heading"><p class="eyebrow">CONNECT YOUR READING TO THE EXAM</p><h2 id="pyq-heading">02 / ${data.practiceOnly ? "Exam practice" : "UPSC PYQ examples"}</h2><p>${data.practiceOnly ? "Original practice questions and worked approaches for this study block. These are not actual UPSC PYQs; the official archive is linked below for past papers." : `Selected ${esc(segment.title.toLowerCase())} history questions. Prompts are paraphrased; use the official paper for exact wording. Explanations and answer outlines are our study aids, not UPSC model answers.`}</p>${data.pyqs.filter(q => q.segment === segment.id).map(q => `<article class="pyq"><div class="pyq-meta"><span>${esc(q.stage)} · ${data.practiceOnly ? "Original practice" : q.year} · ${esc(q.paper || "GS I")}</span><span>${esc(q.reference)}</span></div><h3>${esc(q.prompt)}</h3>${q.options ? `<ol type="A">${q.options.map(o=>`<li>${esc(o)}</li>`).join('')}</ol>` : `<p class="note-label">${q.marks} marks · ${q.words} words</p>`}<details><summary>${q.stage === 'Prelims' ? 'Show answer & explanation' : 'Show answer-writing approach'}</summary><p>${esc(q.answer)}</p></details>${q.url ? `<p>${link(q.url,'Official UPSC question paper')}</p>` : ''}<button class="text-button" type="button" data-day="${q.day}">Study the related topic · Day ${q.day} →</button></article>`).join('')}${data.practiceOnly ? `<p>${link('https://www.upsc.gov.in/examinations/previous-question-papers','Official UPSC past-paper archive')}</p><button type="button" class="reader-load" data-open-quiz="${esc(subject)}">Open ${esc(title)} quiz</button>` : ''}</section>
           <nav class="lesson-nav" aria-label="Previous and next study day"><button type="button" data-day="${day-1}" ${day===1?'disabled':''}>← Previous day</button><span>Day ${day} of 60</span><button type="button" data-day="${day+1}" ${day===60?'disabled':''}>Next day →</button></nav>
@@ -54,6 +60,8 @@ const HistoryPlan = (() => {
       const go = next => {
         if (!allDays.some(d => d.day === next)) return;
         day = next;
+        flashcardIndex = 0;
+        flashcardRevealed = false;
         history.replaceState(null,'',`#${dayPrefix}${day}`);
         paint(true);
       };
@@ -61,6 +69,14 @@ const HistoryPlan = (() => {
       root.onclick = event => {
         const button = event.target.closest('button');
         if (!button || button.disabled) return;
+        if (button.dataset.flashcardAction) {
+          if (button.dataset.flashcardAction === 'reveal') flashcardRevealed = !flashcardRevealed;
+          if (button.dataset.flashcardAction === 'previous') { flashcardIndex = Math.max(0, flashcardIndex - 1); flashcardRevealed = false; }
+          if (button.dataset.flashcardAction === 'next') { flashcardIndex = Math.min(flashcards.length - 1, flashcardIndex + 1); flashcardRevealed = false; }
+          paint();
+          root.querySelector(`[data-flashcard-action="${button.dataset.flashcardAction}"]`)?.focus();
+          return;
+        }
         if (button.dataset.day) go(Number(button.dataset.day));
         if (button.dataset.period) go(data.segments.find(s=>s.id===button.dataset.period).days[0].day);
         if (button.dataset.reader === 'load') {

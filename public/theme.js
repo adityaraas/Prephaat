@@ -1,5 +1,5 @@
 const SiteTheme = (() => {
-  const themes = ['forest', 'navy', 'plum'];
+  const themes = ['mango', 'forest', 'navy', 'plum'];
   try { const saved = localStorage.getItem('crack-ias-theme'); if (themes.includes(saved)) document.documentElement.dataset.theme = saved; } catch {}
   const paths = {
     history: '<path d="M3 21h18M5 18h14M6 9v9m4-9v9m4-9v9m4-9v9M3 7l9-4 9 4H3Z"/>',
@@ -23,10 +23,10 @@ const SiteTheme = (() => {
     if (!host || document.getElementById('site-theme')) return;
     const label = document.createElement('label');
     label.className = 'theme-picker';
-    label.innerHTML = `${icon('palette')}<span class="sr-only">Color theme</span><select id="site-theme" aria-label="Color theme"><option value="forest">Forest & Ivory</option><option value="navy">Navy & Teal</option><option value="plum">Plum & Sand</option></select><span class="sr-only" id="theme-status" role="status"></span>`;
+    label.innerHTML = `${icon('palette')}<span class="sr-only">Color theme</span><select id="site-theme" aria-label="Color theme"><option value="mango">Mango & Leaf</option><option value="forest">Forest & Ivory</option><option value="navy">Navy & Teal</option><option value="plum">Plum & Sand</option></select><span class="sr-only" id="theme-status" role="status"></span>`;
     host.append(label);
     const select = label.querySelector('select');
-    select.value = document.documentElement.dataset.theme || 'forest';
+    select.value = document.documentElement.dataset.theme || 'mango';
     select.addEventListener('change', () => {
       document.documentElement.dataset.theme = select.value;
       try { localStorage.setItem('crack-ias-theme', select.value); label.querySelector('#theme-status').textContent = 'Theme saved.'; }

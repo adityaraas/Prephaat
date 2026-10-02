@@ -56,6 +56,17 @@
 #history-plan .book-link{padding:12px 0;border-top:1px solid #dce1d2;font-size:13px}
 #history-plan .book-link small{display:block;color:var(--muted);font-size:11px;margin-top:5px}
 #history-plan .practice{padding-bottom:20px}
+#history-plan .flashcards{margin:30px 0 24px;padding:22px;background:linear-gradient(135deg,#f0f3e9,#faf9f2);border:1px solid var(--line);border-radius:12px}
+#history-plan .flashcards .eyebrow{margin-bottom:6px}
+#history-plan .flashcards h3{margin:0 0 14px}
+#history-plan .flashcard{position:relative;display:flex;min-height:170px;flex-direction:column;justify-content:center;padding:26px 30px;background:var(--paper);border:1px solid var(--line);border-radius:10px;box-shadow:0 8px 22px #23392f0b}
+#history-plan .flashcard-meta{margin:0 0 12px;color:var(--green);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+#history-plan .flashcard-text{max-width:680px;margin:0 0 25px;font-family:'Libre Baskerville',Georgia,serif;font-size:clamp(16px,2vw,21px);line-height:1.65}
+#history-plan .flashcard-side{position:absolute;right:18px;bottom:12px;color:var(--muted);font-size:10px;text-transform:uppercase;letter-spacing:.1em}
+#history-plan .flashcard-controls{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:14px}
+#history-plan .flashcard-controls button{border:1px solid var(--line);border-radius:7px;padding:9px 13px;background:var(--paper);font-size:12px}
+#history-plan .flashcard-controls .flashcard-reveal{background:var(--green);border-color:var(--green);color:#fff;font-weight:700}
+#history-plan .flashcard-hint{margin:10px 0 0;color:var(--muted);font-size:11px}
 #history-plan .complete{display:flex;align-items:center;gap:12px;font-size:14px;font-weight:700;border-top:1px solid var(--line);padding-top:22px;cursor:pointer}
 #history-plan .complete input{width:19px;height:19px;accent-color:var(--green)}
 #history-plan .pyq-section{margin-top:40px}
@@ -93,6 +104,7 @@
 #history-plan .save-note{margin-bottom:0}
 #history-plan .study-layout{gap:22px}
 }
+@media(max-width:480px){#history-plan .flashcards{padding:16px}#history-plan .flashcard{min-height:200px;padding:22px 18px}#history-plan .flashcard-controls{gap:6px}#history-plan .flashcard-controls button{padding:9px 8px;font-size:11px}}
 @media(max-width:480px){#history-plan{padding-inline:16px}
 #history-plan .masthead{padding:16px}
 #history-plan .brand{font-size:16px}

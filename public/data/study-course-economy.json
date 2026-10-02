@@ -49,7 +49,9 @@
           "topic": "Introduction & Collection of Data",
           "notes": [
             "Why statistics, primary vs secondary data, census vs sample, NSSO/NSO as sources. Bad data makes bad policy.",
-            "Key distinctions to retain: Primary/secondary; Census/sample; NSSO; Errors."
+            "Key distinctions to retain: Primary/secondary; Census/sample; NSSO; Errors.",
+            "Key term for review: Marginal — The change associated with one additional unit.",
+            "Study lens: Introduction & Collection of Data: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 11 · Statistics for Economics (exam toolkit): Introduction & Collection of Data.",
           "task": "Use a labelled diagram or numerical example and state its assumptions. Write five explained points on Introduction & Collection of Data, then check them against the notes and source reading.",
@@ -63,14 +65,43 @@
             "leec2",
             "kest1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Introduction & Collection of Data in your own words and connect it to Primary/secondary.",
+              "back": "Why statistics, primary vs secondary data, census vs sample, NSSO/NSO as sources. Bad data makes bad policy."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Introduction & Collection of Data.",
+              "back": "Why statistics, primary vs secondary data, census vs sample, NSSO/NSO as sources. Bad data makes bad policy."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Introduction & Collection of Data?",
+              "back": "Key distinctions to retain: Primary/secondary; Census/sample; NSSO; Errors."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Marginal in the context of today's Introduction & Collection of Data study.",
+              "back": "The change associated with one additional unit."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Introduction & Collection of Data?",
+              "back": "A model’s equilibrium is not automatically a socially desirable outcome."
+            }
+          ]
         },
         {
           "day": 2,
           "topic": "Introduction & Collection of Data — application",
           "notes": [
             "Why statistics, primary vs secondary data, census vs sample, NSSO/NSO as sources. Bad data makes bad policy.",
-            "Key distinctions to retain: Primary/secondary; Census/sample; NSSO; Errors."
+            "Key distinctions to retain: Primary/secondary; Census/sample; NSSO; Errors.",
+            "Key term for review: Elasticity — Responsiveness measured relative to a change in another variable.",
+            "Study lens: Introduction & Collection of Data — application: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 11 · Statistics for Economics (exam toolkit): Introduction & Collection of Data.",
           "task": "Use a labelled diagram or numerical example and state its assumptions. Write five explained points on Introduction & Collection of Data, then check them against the notes and source reading.",
@@ -84,14 +115,43 @@
             "leec2",
             "kest1"
           ],
-          "mode": "application"
+          "mode": "application",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Introduction & Collection of Data in your own words and connect it to Primary/secondary.",
+              "back": "Why statistics, primary vs secondary data, census vs sample, NSSO/NSO as sources. Bad data makes bad policy."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Introduction & Collection of Data — application.",
+              "back": "Why statistics, primary vs secondary data, census vs sample, NSSO/NSO as sources. Bad data makes bad policy."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Introduction & Collection of Data — application?",
+              "back": "Key distinctions to retain: Primary/secondary; Census/sample; NSSO; Errors."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Elasticity in the context of today's Introduction & Collection of Data — application study.",
+              "back": "Responsiveness measured relative to a change in another variable."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Introduction & Collection of Data — application?",
+              "back": "A model’s equilibrium is not automatically a socially desirable outcome."
+            }
+          ]
         },
         {
           "day": 3,
           "topic": "Organisation and Presentation of Data",
           "notes": [
             "Variables, frequency, tables, bar, pie, histogram. Presentation is argument.",
-            "Key distinctions to retain: Classification; Frequency; Graphs; Honesty in charts."
+            "Key distinctions to retain: Classification; Frequency; Graphs; Honesty in charts.",
+            "Key term for review: Externality — An effect on others not fully reflected in the transaction.",
+            "Study lens: Organisation and Presentation of Data: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 11 · Statistics for Economics (exam toolkit): Organisation and Presentation of Data.",
           "task": "Use a labelled diagram or numerical example and state its assumptions. Write five explained points on Organisation and Presentation of Data, then check them against the notes and source reading.",
@@ -105,14 +165,43 @@
             "leec2",
             "kest1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Organisation and Presentation of Data in your own words and connect it to Classification.",
+              "back": "Variables, frequency, tables, bar, pie, histogram. Presentation is argument."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Organisation and Presentation of Data.",
+              "back": "Variables, frequency, tables, bar, pie, histogram. Presentation is argument."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Organisation and Presentation of Data?",
+              "back": "Key distinctions to retain: Classification; Frequency; Graphs; Honesty in charts."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Externality in the context of today's Organisation and Presentation of Data study.",
+              "back": "An effect on others not fully reflected in the transaction."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Organisation and Presentation of Data?",
+              "back": "A model’s equilibrium is not automatically a socially desirable outcome."
+            }
+          ]
         },
         {
           "day": 4,
           "topic": "Organisation and Presentation of Data — application",
           "notes": [
             "Variables, frequency, tables, bar, pie, histogram. Presentation is argument.",
-            "Key distinctions to retain: Classification; Frequency; Graphs; Honesty in charts."
+            "Key distinctions to retain: Classification; Frequency; Graphs; Honesty in charts.",
+            "Key term for review: Marginal — The change associated with one additional unit.",
+            "Study lens: Organisation and Presentation of Data — application: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 11 · Statistics for Economics (exam toolkit): Organisation and Presentation of Data.",
           "task": "Use a labelled diagram or numerical example and state its assumptions. Write five explained points on Organisation and Presentation of Data, then check them against the notes and source reading.",
@@ -126,14 +215,43 @@
             "leec2",
             "kest1"
           ],
-          "mode": "application"
+          "mode": "application",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Organisation and Presentation of Data in your own words and connect it to Classification.",
+              "back": "Variables, frequency, tables, bar, pie, histogram. Presentation is argument."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Organisation and Presentation of Data — application.",
+              "back": "Variables, frequency, tables, bar, pie, histogram. Presentation is argument."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Organisation and Presentation of Data — application?",
+              "back": "Key distinctions to retain: Classification; Frequency; Graphs; Honesty in charts."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Marginal in the context of today's Organisation and Presentation of Data — application study.",
+              "back": "The change associated with one additional unit."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Organisation and Presentation of Data — application?",
+              "back": "A model’s equilibrium is not automatically a socially desirable outcome."
+            }
+          ]
         },
         {
           "day": 5,
           "topic": "Measures of Central Tendency & Dispersion",
           "notes": [
             "Mean, median, mode; range, quartile deviation, mean deviation, SD, Lorenz curve / Gini flavour. Averages hide inequality.",
-            "Key distinctions to retain: Mean/median/mode; SD; Lorenz; When not to use mean."
+            "Key distinctions to retain: Mean/median/mode; SD; Lorenz; When not to use mean.",
+            "Key term for review: Elasticity — Responsiveness measured relative to a change in another variable.",
+            "Study lens: Measures of Central Tendency & Dispersion: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 11 · Statistics for Economics (exam toolkit): Measures of Central Tendency & Dispersion.",
           "task": "Use a labelled diagram or numerical example and state its assumptions. Write five explained points on Measures of Central Tendency & Dispersion, then check them against the notes and source reading.",
@@ -147,14 +265,43 @@
             "leec2",
             "kest1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Measures of Central Tendency & Dispersion in your own words and connect it to Mean/median/mode.",
+              "back": "Mean, median, mode; range, quartile deviation, mean deviation, SD, Lorenz curve / Gini flavour. Averages hide inequality."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Measures of Central Tendency & Dispersion.",
+              "back": "Mean, median, mode; range, quartile deviation, mean deviation, SD, Lorenz curve / Gini flavour. Averages hide inequality."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Measures of Central Tendency & Dispersion?",
+              "back": "Key distinctions to retain: Mean/median/mode; SD; Lorenz; When not to use mean."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Elasticity in the context of today's Measures of Central Tendency & Dispersion study.",
+              "back": "Responsiveness measured relative to a change in another variable."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Measures of Central Tendency & Dispersion?",
+              "back": "A model’s equilibrium is not automatically a socially desirable outcome."
+            }
+          ]
         },
         {
           "day": 6,
           "topic": "Correlation & Index Numbers",
           "notes": [
             "Correlation is not causation. CPI, WPI, GDP deflator as index numbers for inflation. Base year matters.",
-            "Key distinctions to retain: Correlation; CPI vs WPI; Base year; Inflation measurement."
+            "Key distinctions to retain: Correlation; CPI vs WPI; Base year; Inflation measurement.",
+            "Key term for review: Externality — An effect on others not fully reflected in the transaction.",
+            "Study lens: Correlation & Index Numbers: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 11 · Statistics for Economics (exam toolkit): Correlation & Index Numbers.",
           "task": "Use a labelled diagram or numerical example and state its assumptions. Write five explained points on Correlation & Index Numbers, then check them against the notes and source reading.",
@@ -168,7 +315,34 @@
             "leec2",
             "kest1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Correlation & Index Numbers in your own words and connect it to Correlation.",
+              "back": "Correlation is not causation. CPI, WPI, GDP deflator as index numbers for inflation. Base year matters."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Correlation & Index Numbers.",
+              "back": "Correlation is not causation. CPI, WPI, GDP deflator as index numbers for inflation. Base year matters."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Correlation & Index Numbers?",
+              "back": "Key distinctions to retain: Correlation; CPI vs WPI; Base year; Inflation measurement."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Externality in the context of today's Correlation & Index Numbers study.",
+              "back": "An effect on others not fully reflected in the transaction."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Correlation & Index Numbers?",
+              "back": "A model’s equilibrium is not automatically a socially desirable outcome."
+            }
+          ]
         },
         {
           "day": 7,
@@ -177,7 +351,9 @@
             "Introduction & Collection of Data: Why statistics, primary vs secondary data, census vs sample, NSSO/NSO as sources. Bad data makes bad policy.",
             "Organisation and Presentation of Data: Variables, frequency, tables, bar, pie, histogram. Presentation is argument.",
             "Measures of Central Tendency & Dispersion: Mean, median, mode; range, quartile deviation, mean deviation, SD, Lorenz curve / Gini flavour. Averages hide inequality.",
-            "Correlation & Index Numbers: Correlation is not causation. CPI, WPI, GDP deflator as index numbers for inflation. Base year matters."
+            "Correlation & Index Numbers: Correlation is not causation. CPI, WPI, GDP deflator as index numbers for inflation. Base year matters.",
+            "Key term for review: Marginal — The change associated with one additional unit.",
+            "Study lens: Revision I: Microeconomics & Data: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Revisit your notes for Introduction & Collection of Data; Organisation and Presentation of Data; Measures of Central Tendency & Dispersion; Correlation & Index Numbers. Re-read the assigned source sections only where your recall is weak.",
           "task": "Close the notes and reconstruct the main distinctions from the last 4 topics. Use a labelled diagram or numerical example and state its assumptions. Then compare your work with the material below.",
@@ -191,14 +367,43 @@
             "leec2",
             "kest1"
           ],
-          "mode": "revision"
+          "mode": "revision",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+              "back": "Why statistics, primary vs secondary data, census vs sample, NSSO/NSO as sources. Bad data makes bad policy. Variables, frequency, tables, bar, pie, histogram. Presentation is argument. Mean, median, mode; range, quartile deviation, mean deviation, SD, Lorenz curve / Gini flavour. Averages hide inequality. Correlation is not causation. CPI, WPI, GDP deflator as index numbers for inflation. Base year matters."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Revision I: Microeconomics & Data.",
+              "back": "Introduction & Collection of Data: Why statistics, primary vs secondary data, census vs sample, NSSO/NSO as sources. Bad data makes bad policy."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Revision I: Microeconomics & Data?",
+              "back": "Organisation and Presentation of Data: Variables, frequency, tables, bar, pie, histogram. Presentation is argument."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Marginal in the context of today's Revision I: Microeconomics & Data study.",
+              "back": "The change associated with one additional unit."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Revision I: Microeconomics & Data?",
+              "back": "A model’s equilibrium is not automatically a socially desirable outcome."
+            }
+          ]
         },
         {
           "day": 8,
           "topic": "Correlation & Index Numbers — application",
           "notes": [
             "Correlation is not causation. CPI, WPI, GDP deflator as index numbers for inflation. Base year matters.",
-            "Key distinctions to retain: Correlation; CPI vs WPI; Base year; Inflation measurement."
+            "Key distinctions to retain: Correlation; CPI vs WPI; Base year; Inflation measurement.",
+            "Key term for review: Elasticity — Responsiveness measured relative to a change in another variable.",
+            "Study lens: Correlation & Index Numbers — application: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 11 · Statistics for Economics (exam toolkit): Correlation & Index Numbers.",
           "task": "Use a labelled diagram or numerical example and state its assumptions. Write five explained points on Correlation & Index Numbers, then check them against the notes and source reading.",
@@ -212,14 +417,43 @@
             "leec2",
             "kest1"
           ],
-          "mode": "application"
+          "mode": "application",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Correlation & Index Numbers in your own words and connect it to Correlation.",
+              "back": "Correlation is not causation. CPI, WPI, GDP deflator as index numbers for inflation. Base year matters."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Correlation & Index Numbers — application.",
+              "back": "Correlation is not causation. CPI, WPI, GDP deflator as index numbers for inflation. Base year matters."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Correlation & Index Numbers — application?",
+              "back": "Key distinctions to retain: Correlation; CPI vs WPI; Base year; Inflation measurement."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Elasticity in the context of today's Correlation & Index Numbers — application study.",
+              "back": "Responsiveness measured relative to a change in another variable."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Correlation & Index Numbers — application?",
+              "back": "A model’s equilibrium is not automatically a socially desirable outcome."
+            }
+          ]
         },
         {
           "day": 9,
           "topic": "Introduction (Micro)",
           "notes": [
             "Central problems: what, how, for whom. PPC, opportunity cost, positive vs normative. Micro is the household and firm; macro is the aggregate.",
-            "Key distinctions to retain: Scarcity; PPC; Opportunity cost; Micro vs macro."
+            "Key distinctions to retain: Scarcity; PPC; Opportunity cost; Micro vs macro.",
+            "Key term for review: Externality — An effect on others not fully reflected in the transaction.",
+            "Study lens: Introduction (Micro): define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 12 · Introductory Microeconomics: Introduction (Micro).",
           "task": "Use a labelled diagram or numerical example and state its assumptions. Write five explained points on Introduction (Micro), then check them against the notes and source reading.",
@@ -233,14 +467,43 @@
             "leec2",
             "kest1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Introduction (Micro) in your own words and connect it to Scarcity.",
+              "back": "Central problems: what, how, for whom. PPC, opportunity cost, positive vs normative. Micro is the household and firm; macro is the aggregate."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Introduction (Micro).",
+              "back": "Central problems: what, how, for whom. PPC, opportunity cost, positive vs normative. Micro is the household and firm; macro is the aggregate."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Introduction (Micro)?",
+              "back": "Key distinctions to retain: Scarcity; PPC; Opportunity cost; Micro vs macro."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Externality in the context of today's Introduction (Micro) study.",
+              "back": "An effect on others not fully reflected in the transaction."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Introduction (Micro)?",
+              "back": "A model’s equilibrium is not automatically a socially desirable outcome."
+            }
+          ]
         },
         {
           "day": 10,
           "topic": "Theory of Consumer Behaviour",
           "notes": [
             "Utility, indifference (idea), demand curve, elasticity. Why demand slopes down.",
-            "Key distinctions to retain: Utility; Demand; Elasticity; Consumer equilibrium idea."
+            "Key distinctions to retain: Utility; Demand; Elasticity; Consumer equilibrium idea.",
+            "Key term for review: Marginal — The change associated with one additional unit.",
+            "Study lens: Theory of Consumer Behaviour: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 12 · Introductory Microeconomics: Theory of Consumer Behaviour.",
           "task": "Use a labelled diagram or numerical example and state its assumptions. Write five explained points on Theory of Consumer Behaviour, then check them against the notes and source reading.",
@@ -254,14 +517,43 @@
             "leec2",
             "kest1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Theory of Consumer Behaviour in your own words and connect it to Utility.",
+              "back": "Utility, indifference (idea), demand curve, elasticity. Why demand slopes down."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Theory of Consumer Behaviour.",
+              "back": "Utility, indifference (idea), demand curve, elasticity. Why demand slopes down."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Theory of Consumer Behaviour?",
+              "back": "Key distinctions to retain: Utility; Demand; Elasticity; Consumer equilibrium idea."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Marginal in the context of today's Theory of Consumer Behaviour study.",
+              "back": "The change associated with one additional unit."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Theory of Consumer Behaviour?",
+              "back": "A model’s equilibrium is not automatically a socially desirable outcome."
+            }
+          ]
         },
         {
           "day": 11,
           "topic": "Theory of Consumer Behaviour — application",
           "notes": [
             "Utility, indifference (idea), demand curve, elasticity. Why demand slopes down.",
-            "Key distinctions to retain: Utility; Demand; Elasticity; Consumer equilibrium idea."
+            "Key distinctions to retain: Utility; Demand; Elasticity; Consumer equilibrium idea.",
+            "Key term for review: Elasticity — Responsiveness measured relative to a change in another variable.",
+            "Study lens: Theory of Consumer Behaviour — application: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 12 · Introductory Microeconomics: Theory of Consumer Behaviour.",
           "task": "Use a labelled diagram or numerical example and state its assumptions. Write five explained points on Theory of Consumer Behaviour, then check them against the notes and source reading.",
@@ -275,14 +567,43 @@
             "leec2",
             "kest1"
           ],
-          "mode": "application"
+          "mode": "application",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Theory of Consumer Behaviour in your own words and connect it to Utility.",
+              "back": "Utility, indifference (idea), demand curve, elasticity. Why demand slopes down."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Theory of Consumer Behaviour — application.",
+              "back": "Utility, indifference (idea), demand curve, elasticity. Why demand slopes down."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Theory of Consumer Behaviour — application?",
+              "back": "Key distinctions to retain: Utility; Demand; Elasticity; Consumer equilibrium idea."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Elasticity in the context of today's Theory of Consumer Behaviour — application study.",
+              "back": "Responsiveness measured relative to a change in another variable."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Theory of Consumer Behaviour — application?",
+              "back": "A model’s equilibrium is not automatically a socially desirable outcome."
+            }
+          ]
         },
         {
           "day": 12,
           "topic": "Production and Costs",
           "notes": [
             "Short run vs long run, TP–AP–MP, cost curves (idea). Production needs time to adjust capital.",
-            "Key distinctions to retain: Factors; Returns; Costs; Short vs long run."
+            "Key distinctions to retain: Factors; Returns; Costs; Short vs long run.",
+            "Key term for review: Externality — An effect on others not fully reflected in the transaction.",
+            "Study lens: Production and Costs: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 12 · Introductory Microeconomics: Production and Costs.",
           "task": "Use a labelled diagram or numerical example and state its assumptions. Write five explained points on Production and Costs, then check them against the notes and source reading.",
@@ -296,14 +617,43 @@
             "leec2",
             "kest1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Production and Costs in your own words and connect it to Factors.",
+              "back": "Short run vs long run, TP–AP–MP, cost curves (idea). Production needs time to adjust capital."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Production and Costs.",
+              "back": "Short run vs long run, TP–AP–MP, cost curves (idea). Production needs time to adjust capital."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Production and Costs?",
+              "back": "Key distinctions to retain: Factors; Returns; Costs; Short vs long run."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Externality in the context of today's Production and Costs study.",
+              "back": "An effect on others not fully reflected in the transaction."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Production and Costs?",
+              "back": "A model’s equilibrium is not automatically a socially desirable outcome."
+            }
+          ]
         },
         {
           "day": 13,
           "topic": "Production and Costs — application",
           "notes": [
             "Short run vs long run, TP–AP–MP, cost curves (idea). Production needs time to adjust capital.",
-            "Key distinctions to retain: Factors; Returns; Costs; Short vs long run."
+            "Key distinctions to retain: Factors; Returns; Costs; Short vs long run.",
+            "Key term for review: Marginal — The change associated with one additional unit.",
+            "Study lens: Production and Costs — application: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 12 · Introductory Microeconomics: Production and Costs.",
           "task": "Use a labelled diagram or numerical example and state its assumptions. Write five explained points on Production and Costs, then check them against the notes and source reading.",
@@ -317,7 +667,34 @@
             "leec2",
             "kest1"
           ],
-          "mode": "application"
+          "mode": "application",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Production and Costs in your own words and connect it to Factors.",
+              "back": "Short run vs long run, TP–AP–MP, cost curves (idea). Production needs time to adjust capital."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Production and Costs — application.",
+              "back": "Short run vs long run, TP–AP–MP, cost curves (idea). Production needs time to adjust capital."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Production and Costs — application?",
+              "back": "Key distinctions to retain: Factors; Returns; Costs; Short vs long run."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Marginal in the context of today's Production and Costs — application study.",
+              "back": "The change associated with one additional unit."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Production and Costs — application?",
+              "back": "A model’s equilibrium is not automatically a socially desirable outcome."
+            }
+          ]
         },
         {
           "day": 14,
@@ -326,7 +703,9 @@
             "Correlation & Index Numbers: Correlation is not causation. CPI, WPI, GDP deflator as index numbers for inflation. Base year matters.",
             "Introduction (Micro): Central problems: what, how, for whom. PPC, opportunity cost, positive vs normative. Micro is the household and firm; macro is the aggregate.",
             "Theory of Consumer Behaviour: Utility, indifference (idea), demand curve, elasticity. Why demand slopes down.",
-            "Production and Costs: Short run vs long run, TP–AP–MP, cost curves (idea). Production needs time to adjust capital."
+            "Production and Costs: Short run vs long run, TP–AP–MP, cost curves (idea). Production needs time to adjust capital.",
+            "Key term for review: Elasticity — Responsiveness measured relative to a change in another variable.",
+            "Study lens: Revision II: Microeconomics & Data: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Revisit your notes for Correlation & Index Numbers; Introduction (Micro); Theory of Consumer Behaviour; Production and Costs. Re-read the assigned source sections only where your recall is weak.",
           "task": "Close the notes and reconstruct the main distinctions from the last 4 topics. Use a labelled diagram or numerical example and state its assumptions. Then compare your work with the material below.",
@@ -340,14 +719,43 @@
             "leec2",
             "kest1"
           ],
-          "mode": "revision"
+          "mode": "revision",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+              "back": "Correlation is not causation. CPI, WPI, GDP deflator as index numbers for inflation. Base year matters. Central problems: what, how, for whom. PPC, opportunity cost, positive vs normative. Micro is the household and firm; macro is the aggregate. Utility, indifference (idea), demand curve, elasticity. Why demand slopes down. Short run vs long run, TP–AP–MP, cost curves (idea). Production needs time to adjust capital."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Revision II: Microeconomics & Data.",
+              "back": "Correlation & Index Numbers: Correlation is not causation. CPI, WPI, GDP deflator as index numbers for inflation. Base year matters."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Revision II: Microeconomics & Data?",
+              "back": "Introduction (Micro): Central problems: what, how, for whom. PPC, opportunity cost, positive vs normative. Micro is the household and firm; macro is the aggregate."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Elasticity in the context of today's Revision II: Microeconomics & Data study.",
+              "back": "Responsiveness measured relative to a change in another variable."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Revision II: Microeconomics & Data?",
+              "back": "A model’s equilibrium is not automatically a socially desirable outcome."
+            }
+          ]
         },
         {
           "day": 15,
           "topic": "The Theory of the Firm & Perfect Competition",
           "notes": [
             "Revenue, profit maximisation idea, features of perfect competition. Real markets are imperfect—use this as a benchmark.",
-            "Key distinctions to retain: MR=MC idea; Perfect competition; Supply curve; Efficiency claim."
+            "Key distinctions to retain: MR=MC idea; Perfect competition; Supply curve; Efficiency claim.",
+            "Key term for review: Externality — An effect on others not fully reflected in the transaction.",
+            "Study lens: The Theory of the Firm & Perfect Competition: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 12 · Introductory Microeconomics: The Theory of the Firm & Perfect Competition.",
           "task": "Use a labelled diagram or numerical example and state its assumptions. Write five explained points on The Theory of the Firm & Perfect Competition, then check them against the notes and source reading.",
@@ -361,14 +769,43 @@
             "leec2",
             "kest1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain The Theory of the Firm & Perfect Competition in your own words and connect it to MR=MC idea.",
+              "back": "Revenue, profit maximisation idea, features of perfect competition. Real markets are imperfect—use this as a benchmark."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on The Theory of the Firm & Perfect Competition.",
+              "back": "Revenue, profit maximisation idea, features of perfect competition. Real markets are imperfect—use this as a benchmark."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for The Theory of the Firm & Perfect Competition?",
+              "back": "Key distinctions to retain: MR=MC idea; Perfect competition; Supply curve; Efficiency claim."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Externality in the context of today's The Theory of the Firm & Perfect Competition study.",
+              "back": "An effect on others not fully reflected in the transaction."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying The Theory of the Firm & Perfect Competition?",
+              "back": "A model’s equilibrium is not automatically a socially desirable outcome."
+            }
+          ]
         },
         {
           "day": 16,
           "topic": "Market Equilibrium & Imperfect markets (overview)",
           "notes": [
             "Demand–supply equilibrium, price ceiling/floor (MSP as a floor flavour), monopoly/oligopoly as real GS examples (digital markets, telecom).",
-            "Key distinctions to retain: Equilibrium; Controls; MSP as floor; Imperfect competition."
+            "Key distinctions to retain: Equilibrium; Controls; MSP as floor; Imperfect competition.",
+            "Key term for review: Marginal — The change associated with one additional unit.",
+            "Study lens: Market Equilibrium & Imperfect markets (overview): define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 12 · Introductory Microeconomics: Market Equilibrium & Imperfect markets (overview).",
           "task": "Use a labelled diagram or numerical example and state its assumptions. Write five explained points on Market Equilibrium & Imperfect markets (overview), then check them against the notes and source reading.",
@@ -382,14 +819,43 @@
             "leec2",
             "kest1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Market Equilibrium & Imperfect markets (overview) in your own words and connect it to Equilibrium.",
+              "back": "Demand–supply equilibrium, price ceiling/floor (MSP as a floor flavour), monopoly/oligopoly as real GS examples (digital markets, telecom)."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Market Equilibrium & Imperfect markets (overview).",
+              "back": "Demand–supply equilibrium, price ceiling/floor (MSP as a floor flavour), monopoly/oligopoly as real GS examples (digital markets, telecom)."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Market Equilibrium & Imperfect markets (overview)?",
+              "back": "Key distinctions to retain: Equilibrium; Controls; MSP as floor; Imperfect competition."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Marginal in the context of today's Market Equilibrium & Imperfect markets (overview) study.",
+              "back": "The change associated with one additional unit."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Market Equilibrium & Imperfect markets (overview)?",
+              "back": "A model’s equilibrium is not automatically a socially desirable outcome."
+            }
+          ]
         },
         {
           "day": 17,
           "topic": "Market Equilibrium & Imperfect markets (overview) — application",
           "notes": [
             "Demand–supply equilibrium, price ceiling/floor (MSP as a floor flavour), monopoly/oligopoly as real GS examples (digital markets, telecom).",
-            "Key distinctions to retain: Equilibrium; Controls; MSP as floor; Imperfect competition."
+            "Key distinctions to retain: Equilibrium; Controls; MSP as floor; Imperfect competition.",
+            "Key term for review: Elasticity — Responsiveness measured relative to a change in another variable.",
+            "Study lens: Market Equilibrium & Imperfect markets (overview) — application: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 12 · Introductory Microeconomics: Market Equilibrium & Imperfect markets (overview).",
           "task": "Use a labelled diagram or numerical example and state its assumptions. Write five explained points on Market Equilibrium & Imperfect markets (overview), then check them against the notes and source reading.",
@@ -403,14 +869,43 @@
             "leec2",
             "kest1"
           ],
-          "mode": "application"
+          "mode": "application",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Market Equilibrium & Imperfect markets (overview) in your own words and connect it to Equilibrium.",
+              "back": "Demand–supply equilibrium, price ceiling/floor (MSP as a floor flavour), monopoly/oligopoly as real GS examples (digital markets, telecom)."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Market Equilibrium & Imperfect markets (overview) — application.",
+              "back": "Demand–supply equilibrium, price ceiling/floor (MSP as a floor flavour), monopoly/oligopoly as real GS examples (digital markets, telecom)."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Market Equilibrium & Imperfect markets (overview) — application?",
+              "back": "Key distinctions to retain: Equilibrium; Controls; MSP as floor; Imperfect competition."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Elasticity in the context of today's Market Equilibrium & Imperfect markets (overview) — application study.",
+              "back": "Responsiveness measured relative to a change in another variable."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Market Equilibrium & Imperfect markets (overview) — application?",
+              "back": "A model’s equilibrium is not automatically a socially desirable outcome."
+            }
+          ]
         },
         {
           "day": 18,
           "topic": "Non-competitive Markets (idea)",
           "notes": [
             "Monopoly, monopolistic competition, oligopoly. Why regulators (CCI, TRAI) exist. Link to GS-II/III regulation.",
-            "Key distinctions to retain: Monopoly; Oligopoly; Product differentiation; Regulation."
+            "Key distinctions to retain: Monopoly; Oligopoly; Product differentiation; Regulation.",
+            "Key term for review: Externality — An effect on others not fully reflected in the transaction.",
+            "Study lens: Non-competitive Markets (idea): define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 12 · Introductory Microeconomics: Non-competitive Markets (idea).",
           "task": "Use a labelled diagram or numerical example and state its assumptions. Write five explained points on Non-competitive Markets (idea), then check them against the notes and source reading.",
@@ -424,7 +919,34 @@
             "leec2",
             "kest1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Non-competitive Markets (idea) in your own words and connect it to Monopoly.",
+              "back": "Monopoly, monopolistic competition, oligopoly. Why regulators (CCI, TRAI) exist. Link to GS-II/III regulation."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Non-competitive Markets (idea).",
+              "back": "Monopoly, monopolistic competition, oligopoly. Why regulators (CCI, TRAI) exist. Link to GS-II/III regulation."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Non-competitive Markets (idea)?",
+              "back": "Key distinctions to retain: Monopoly; Oligopoly; Product differentiation; Regulation."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Externality in the context of today's Non-competitive Markets (idea) study.",
+              "back": "An effect on others not fully reflected in the transaction."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Non-competitive Markets (idea)?",
+              "back": "A model’s equilibrium is not automatically a socially desirable outcome."
+            }
+          ]
         },
         {
           "day": 19,
@@ -433,7 +955,9 @@
             "Production and Costs: Short run vs long run, TP–AP–MP, cost curves (idea). Production needs time to adjust capital.",
             "The Theory of the Firm & Perfect Competition: Revenue, profit maximisation idea, features of perfect competition. Real markets are imperfect—use this as a benchmark.",
             "Market Equilibrium & Imperfect markets (overview): Demand–supply equilibrium, price ceiling/floor (MSP as a floor flavour), monopoly/oligopoly as real GS examples (digital markets, telecom).",
-            "Non-competitive Markets (idea): Monopoly, monopolistic competition, oligopoly. Why regulators (CCI, TRAI) exist. Link to GS-II/III regulation."
+            "Non-competitive Markets (idea): Monopoly, monopolistic competition, oligopoly. Why regulators (CCI, TRAI) exist. Link to GS-II/III regulation.",
+            "Key term for review: Marginal — The change associated with one additional unit.",
+            "Study lens: Microeconomics & Data: synthesis: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Revisit your notes for Production and Costs; The Theory of the Firm & Perfect Competition; Market Equilibrium & Imperfect markets (overview); Non-competitive Markets (idea). Re-read the assigned source sections only where your recall is weak.",
           "task": "Close the notes and reconstruct the main distinctions from the last 4 topics. Use a labelled diagram or numerical example and state its assumptions. Then compare your work with the material below.",
@@ -447,7 +971,34 @@
             "leec2",
             "kest1"
           ],
-          "mode": "revision"
+          "mode": "revision",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+              "back": "Short run vs long run, TP–AP–MP, cost curves (idea). Production needs time to adjust capital. Revenue, profit maximisation idea, features of perfect competition. Real markets are imperfect—use this as a benchmark. Demand–supply equilibrium, price ceiling/floor (MSP as a floor flavour), monopoly/oligopoly as real GS examples (digital markets, telecom). Monopoly, monopolistic competition, oligopoly. Why regulators (CCI, TRAI) exist. Link to GS-II/III regulation."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Microeconomics & Data: synthesis.",
+              "back": "Production and Costs: Short run vs long run, TP–AP–MP, cost curves (idea). Production needs time to adjust capital."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Microeconomics & Data: synthesis?",
+              "back": "The Theory of the Firm & Perfect Competition: Revenue, profit maximisation idea, features of perfect competition. Real markets are imperfect—use this as a benchmark."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Marginal in the context of today's Microeconomics & Data: synthesis study.",
+              "back": "The change associated with one additional unit."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Microeconomics & Data: synthesis?",
+              "back": "A model’s equilibrium is not automatically a socially desirable outcome."
+            }
+          ]
         },
         {
           "day": 20,
@@ -462,7 +1013,9 @@
             "Production and Costs: Short run vs long run, TP–AP–MP, cost curves (idea). Production needs time to adjust capital.",
             "The Theory of the Firm & Perfect Competition: Revenue, profit maximisation idea, features of perfect competition. Real markets are imperfect—use this as a benchmark.",
             "Market Equilibrium & Imperfect markets (overview): Demand–supply equilibrium, price ceiling/floor (MSP as a floor flavour), monopoly/oligopoly as real GS examples (digital markets, telecom).",
-            "Non-competitive Markets (idea): Monopoly, monopolistic competition, oligopoly. Why regulators (CCI, TRAI) exist. Link to GS-II/III regulation."
+            "Non-competitive Markets (idea): Monopoly, monopolistic competition, oligopoly. Why regulators (CCI, TRAI) exist. Link to GS-II/III regulation.",
+            "Key term for review: Elasticity — Responsiveness measured relative to a change in another variable.",
+            "Study lens: Microeconomics & Data: assessment & repair: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Revisit your notes for Introduction & Collection of Data; Organisation and Presentation of Data; Measures of Central Tendency & Dispersion; Correlation & Index Numbers; Introduction (Micro); Theory of Consumer Behaviour; Production and Costs; The Theory of the Firm & Perfect Competition; Market Equilibrium & Imperfect markets (overview); Non-competitive Markets (idea). Re-read the assigned source sections only where your recall is weak.",
           "task": "Use the official-paper link or your question bank for a timed 20-question topic test and one short answer. Mark the gaps, explain your errors and schedule a second recall attempt.",
@@ -476,7 +1029,34 @@
             "leec2",
             "kest1"
           ],
-          "mode": "test"
+          "mode": "test",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+              "back": "Why statistics, primary vs secondary data, census vs sample, NSSO/NSO as sources. Bad data makes bad policy. Variables, frequency, tables, bar, pie, histogram. Presentation is argument. Mean, median, mode; range, quartile deviation, mean deviation, SD, Lorenz curve / Gini flavour. Averages hide inequality. Correlation is not causation. CPI, WPI, GDP deflator as index numbers for inflation. Base year matters. Central problems: what, how, for whom. PPC, opportunity cost, positive vs normative. Micro is the household and firm; macro is the aggregate. Utility, indifference (idea), demand curve, elasticity. Why demand slopes down. Short run vs long run, TP–AP–MP, cost curves (idea). Production needs time to adjust capital. Revenue, profit maximisation idea, features of perfect competition. Real markets are imperfect—use this as a benchmark. Demand–supply equilibrium, price ceiling/floor (MSP as a floor flavour), monopoly/oligopoly as real GS examples (digital markets, telecom). Monopoly, monopolistic competition, oligopoly. Why regulators (CCI, TRAI) exist. Link to GS-II/III regulation."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Microeconomics & Data: assessment & repair.",
+              "back": "Introduction & Collection of Data: Why statistics, primary vs secondary data, census vs sample, NSSO/NSO as sources. Bad data makes bad policy."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Microeconomics & Data: assessment & repair?",
+              "back": "Organisation and Presentation of Data: Variables, frequency, tables, bar, pie, histogram. Presentation is argument."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Elasticity in the context of today's Microeconomics & Data: assessment & repair study.",
+              "back": "Responsiveness measured relative to a change in another variable."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Microeconomics & Data: assessment & repair?",
+              "back": "A model’s equilibrium is not automatically a socially desirable outcome."
+            }
+          ]
         }
       ]
     },
@@ -494,7 +1074,9 @@
           "topic": "Money and Credit",
           "notes": [
             "Money as medium of exchange, modern forms, banks, cheques, formal vs informal credit. Cheap formal credit is development; informal high-interest credit traps the poor. RBI oversees banks.",
-            "Key distinctions to retain: Functions of money; Banks; Formal vs informal; Terms of credit."
+            "Key distinctions to retain: Functions of money; Banks; Formal vs informal; Terms of credit.",
+            "Key term for review: GDP — Value of final production within an economy over a period.",
+            "Study lens: Money and Credit: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 10 · Understanding Economic Development: Money and Credit.",
           "task": "Separate stocks from flows and trace one policy-transmission channel. Write five explained points on Money and Credit, then check them against the notes and source reading.",
@@ -507,14 +1089,43 @@
           "sources": [
             "leec1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Money and Credit in your own words and connect it to Functions of money.",
+              "back": "Money as medium of exchange, modern forms, banks, cheques, formal vs informal credit. Cheap formal credit is development; informal high-interest credit traps the poor. RBI oversees banks."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Money and Credit.",
+              "back": "Money as medium of exchange, modern forms, banks, cheques, formal vs informal credit. Cheap formal credit is development; informal high-interest credit traps the poor. RBI oversees banks."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Money and Credit?",
+              "back": "Key distinctions to retain: Functions of money; Banks; Formal vs informal; Terms of credit."
+            },
+            {
+              "label": "Key term",
+              "front": "Define GDP in the context of today's Money and Credit study.",
+              "back": "Value of final production within an economy over a period."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Money and Credit?",
+              "back": "Disinflation is a slower rise in prices; it is not necessarily a fall in the price level."
+            }
+          ]
         },
         {
           "day": 22,
           "topic": "Money and Credit — application",
           "notes": [
             "Money as medium of exchange, modern forms, banks, cheques, formal vs informal credit. Cheap formal credit is development; informal high-interest credit traps the poor. RBI oversees banks.",
-            "Key distinctions to retain: Functions of money; Banks; Formal vs informal; Terms of credit."
+            "Key distinctions to retain: Functions of money; Banks; Formal vs informal; Terms of credit.",
+            "Key term for review: Fiscal policy — Government decisions about revenue, spending and borrowing.",
+            "Study lens: Money and Credit — application: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 10 · Understanding Economic Development: Money and Credit.",
           "task": "Separate stocks from flows and trace one policy-transmission channel. Write five explained points on Money and Credit, then check them against the notes and source reading.",
@@ -527,14 +1138,43 @@
           "sources": [
             "leec1"
           ],
-          "mode": "application"
+          "mode": "application",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Money and Credit in your own words and connect it to Functions of money.",
+              "back": "Money as medium of exchange, modern forms, banks, cheques, formal vs informal credit. Cheap formal credit is development; informal high-interest credit traps the poor. RBI oversees banks."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Money and Credit — application.",
+              "back": "Money as medium of exchange, modern forms, banks, cheques, formal vs informal credit. Cheap formal credit is development; informal high-interest credit traps the poor. RBI oversees banks."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Money and Credit — application?",
+              "back": "Key distinctions to retain: Functions of money; Banks; Formal vs informal; Terms of credit."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Fiscal policy in the context of today's Money and Credit — application study.",
+              "back": "Government decisions about revenue, spending and borrowing."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Money and Credit — application?",
+              "back": "Disinflation is a slower rise in prices; it is not necessarily a fall in the price level."
+            }
+          ]
         },
         {
           "day": 23,
           "topic": "Money and Credit — application",
           "notes": [
             "Money as medium of exchange, modern forms, banks, cheques, formal vs informal credit. Cheap formal credit is development; informal high-interest credit traps the poor. RBI oversees banks.",
-            "Key distinctions to retain: Functions of money; Banks; Formal vs informal; Terms of credit."
+            "Key distinctions to retain: Functions of money; Banks; Formal vs informal; Terms of credit.",
+            "Key term for review: Monetary transmission — Channels through which policy affects financial conditions and activity.",
+            "Study lens: Money and Credit — application: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 10 · Understanding Economic Development: Money and Credit.",
           "task": "Separate stocks from flows and trace one policy-transmission channel. Write five explained points on Money and Credit, then check them against the notes and source reading.",
@@ -547,14 +1187,43 @@
           "sources": [
             "leec1"
           ],
-          "mode": "application"
+          "mode": "application",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Money and Credit in your own words and connect it to Functions of money.",
+              "back": "Money as medium of exchange, modern forms, banks, cheques, formal vs informal credit. Cheap formal credit is development; informal high-interest credit traps the poor. RBI oversees banks."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Money and Credit — application.",
+              "back": "Money as medium of exchange, modern forms, banks, cheques, formal vs informal credit. Cheap formal credit is development; informal high-interest credit traps the poor. RBI oversees banks."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Money and Credit — application?",
+              "back": "Key distinctions to retain: Functions of money; Banks; Formal vs informal; Terms of credit."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Monetary transmission in the context of today's Money and Credit — application study.",
+              "back": "Channels through which policy affects financial conditions and activity."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Money and Credit — application?",
+              "back": "Disinflation is a slower rise in prices; it is not necessarily a fall in the price level."
+            }
+          ]
         },
         {
           "day": 24,
           "topic": "Globalisation and the Indian Economy",
           "notes": [
             "MNCs, trade liberalisation, WTO, SEZs, winners and losers among producers and workers. Globalisation is technology + policy, not fate. Connect to 1991 reforms at plus-two.",
-            "Key distinctions to retain: MNC production; Liberalisation of trade; WTO; Impact on workers/small producers."
+            "Key distinctions to retain: MNC production; Liberalisation of trade; WTO; Impact on workers/small producers.",
+            "Key term for review: GDP — Value of final production within an economy over a period.",
+            "Study lens: Globalisation and the Indian Economy: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 10 · Understanding Economic Development: Globalisation and the Indian Economy.",
           "task": "Separate stocks from flows and trace one policy-transmission channel. Write five explained points on Globalisation and the Indian Economy, then check them against the notes and source reading.",
@@ -567,14 +1236,43 @@
           "sources": [
             "leec1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Globalisation and the Indian Economy in your own words and connect it to MNC production.",
+              "back": "MNCs, trade liberalisation, WTO, SEZs, winners and losers among producers and workers. Globalisation is technology + policy, not fate. Connect to 1991 reforms at plus-two."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Globalisation and the Indian Economy.",
+              "back": "MNCs, trade liberalisation, WTO, SEZs, winners and losers among producers and workers. Globalisation is technology + policy, not fate. Connect to 1991 reforms at plus-two."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Globalisation and the Indian Economy?",
+              "back": "Key distinctions to retain: MNC production; Liberalisation of trade; WTO; Impact on workers/small producers."
+            },
+            {
+              "label": "Key term",
+              "front": "Define GDP in the context of today's Globalisation and the Indian Economy study.",
+              "back": "Value of final production within an economy over a period."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Globalisation and the Indian Economy?",
+              "back": "Disinflation is a slower rise in prices; it is not necessarily a fall in the price level."
+            }
+          ]
         },
         {
           "day": 25,
           "topic": "Globalisation and the Indian Economy — application",
           "notes": [
             "MNCs, trade liberalisation, WTO, SEZs, winners and losers among producers and workers. Globalisation is technology + policy, not fate. Connect to 1991 reforms at plus-two.",
-            "Key distinctions to retain: MNC production; Liberalisation of trade; WTO; Impact on workers/small producers."
+            "Key distinctions to retain: MNC production; Liberalisation of trade; WTO; Impact on workers/small producers.",
+            "Key term for review: Fiscal policy — Government decisions about revenue, spending and borrowing.",
+            "Study lens: Globalisation and the Indian Economy — application: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 10 · Understanding Economic Development: Globalisation and the Indian Economy.",
           "task": "Separate stocks from flows and trace one policy-transmission channel. Write five explained points on Globalisation and the Indian Economy, then check them against the notes and source reading.",
@@ -587,14 +1285,43 @@
           "sources": [
             "leec1"
           ],
-          "mode": "application"
+          "mode": "application",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Globalisation and the Indian Economy in your own words and connect it to MNC production.",
+              "back": "MNCs, trade liberalisation, WTO, SEZs, winners and losers among producers and workers. Globalisation is technology + policy, not fate. Connect to 1991 reforms at plus-two."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Globalisation and the Indian Economy — application.",
+              "back": "MNCs, trade liberalisation, WTO, SEZs, winners and losers among producers and workers. Globalisation is technology + policy, not fate. Connect to 1991 reforms at plus-two."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Globalisation and the Indian Economy — application?",
+              "back": "Key distinctions to retain: MNC production; Liberalisation of trade; WTO; Impact on workers/small producers."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Fiscal policy in the context of today's Globalisation and the Indian Economy — application study.",
+              "back": "Government decisions about revenue, spending and borrowing."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Globalisation and the Indian Economy — application?",
+              "back": "Disinflation is a slower rise in prices; it is not necessarily a fall in the price level."
+            }
+          ]
         },
         {
           "day": 26,
           "topic": "National Income Accounting",
           "notes": [
             "GDP, GNP, NNP, factor cost vs market price, real vs nominal, value added. What GDP misses (home work, environment).",
-            "Key distinctions to retain: Circular flow; Methods of calculating NI; Real vs nominal; Limitations of GDP."
+            "Key distinctions to retain: Circular flow; Methods of calculating NI; Real vs nominal; Limitations of GDP.",
+            "Key term for review: Monetary transmission — Channels through which policy affects financial conditions and activity.",
+            "Study lens: National Income Accounting: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 12 · Introductory Macroeconomics: National Income Accounting.",
           "task": "Separate stocks from flows and trace one policy-transmission channel. Write five explained points on National Income Accounting, then check them against the notes and source reading.",
@@ -607,7 +1334,34 @@
           "sources": [
             "leec1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain National Income Accounting in your own words and connect it to Circular flow.",
+              "back": "GDP, GNP, NNP, factor cost vs market price, real vs nominal, value added. What GDP misses (home work, environment)."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on National Income Accounting.",
+              "back": "GDP, GNP, NNP, factor cost vs market price, real vs nominal, value added. What GDP misses (home work, environment)."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for National Income Accounting?",
+              "back": "Key distinctions to retain: Circular flow; Methods of calculating NI; Real vs nominal; Limitations of GDP."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Monetary transmission in the context of today's National Income Accounting study.",
+              "back": "Channels through which policy affects financial conditions and activity."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying National Income Accounting?",
+              "back": "Disinflation is a slower rise in prices; it is not necessarily a fall in the price level."
+            }
+          ]
         },
         {
           "day": 27,
@@ -615,7 +1369,9 @@
           "notes": [
             "Money and Credit: Money as medium of exchange, modern forms, banks, cheques, formal vs informal credit. Cheap formal credit is development; informal high-interest credit traps the poor. RBI oversees banks.",
             "Globalisation and the Indian Economy: MNCs, trade liberalisation, WTO, SEZs, winners and losers among producers and workers. Globalisation is technology + policy, not fate. Connect to 1991 reforms at plus-two.",
-            "National Income Accounting: GDP, GNP, NNP, factor cost vs market price, real vs nominal, value added. What GDP misses (home work, environment)."
+            "National Income Accounting: GDP, GNP, NNP, factor cost vs market price, real vs nominal, value added. What GDP misses (home work, environment).",
+            "Key term for review: GDP — Value of final production within an economy over a period.",
+            "Study lens: Revision I: Macroeconomics & Finance: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Revisit your notes for Money and Credit; Globalisation and the Indian Economy; National Income Accounting. Re-read the assigned source sections only where your recall is weak.",
           "task": "Close the notes and reconstruct the main distinctions from the last 3 topics. Separate stocks from flows and trace one policy-transmission channel. Then compare your work with the material below.",
@@ -628,14 +1384,43 @@
           "sources": [
             "leec1"
           ],
-          "mode": "revision"
+          "mode": "revision",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+              "back": "Money as medium of exchange, modern forms, banks, cheques, formal vs informal credit. Cheap formal credit is development; informal high-interest credit traps the poor. RBI oversees banks. MNCs, trade liberalisation, WTO, SEZs, winners and losers among producers and workers. Globalisation is technology + policy, not fate. Connect to 1991 reforms at plus-two. GDP, GNP, NNP, factor cost vs market price, real vs nominal, value added. What GDP misses (home work, environment)."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Revision I: Macroeconomics & Finance.",
+              "back": "Money and Credit: Money as medium of exchange, modern forms, banks, cheques, formal vs informal credit. Cheap formal credit is development; informal high-interest credit traps the poor. RBI oversees banks."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Revision I: Macroeconomics & Finance?",
+              "back": "Globalisation and the Indian Economy: MNCs, trade liberalisation, WTO, SEZs, winners and losers among producers and workers. Globalisation is technology + policy, not fate. Connect to 1991 reforms at plus-two."
+            },
+            {
+              "label": "Key term",
+              "front": "Define GDP in the context of today's Revision I: Macroeconomics & Finance study.",
+              "back": "Value of final production within an economy over a period."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Revision I: Macroeconomics & Finance?",
+              "back": "Disinflation is a slower rise in prices; it is not necessarily a fall in the price level."
+            }
+          ]
         },
         {
           "day": 28,
           "topic": "National Income Accounting — application",
           "notes": [
             "GDP, GNP, NNP, factor cost vs market price, real vs nominal, value added. What GDP misses (home work, environment).",
-            "Key distinctions to retain: Circular flow; Methods of calculating NI; Real vs nominal; Limitations of GDP."
+            "Key distinctions to retain: Circular flow; Methods of calculating NI; Real vs nominal; Limitations of GDP.",
+            "Key term for review: Fiscal policy — Government decisions about revenue, spending and borrowing.",
+            "Study lens: National Income Accounting — application: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 12 · Introductory Macroeconomics: National Income Accounting.",
           "task": "Separate stocks from flows and trace one policy-transmission channel. Write five explained points on National Income Accounting, then check them against the notes and source reading.",
@@ -648,14 +1433,43 @@
           "sources": [
             "leec1"
           ],
-          "mode": "application"
+          "mode": "application",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain National Income Accounting in your own words and connect it to Circular flow.",
+              "back": "GDP, GNP, NNP, factor cost vs market price, real vs nominal, value added. What GDP misses (home work, environment)."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on National Income Accounting — application.",
+              "back": "GDP, GNP, NNP, factor cost vs market price, real vs nominal, value added. What GDP misses (home work, environment)."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for National Income Accounting — application?",
+              "back": "Key distinctions to retain: Circular flow; Methods of calculating NI; Real vs nominal; Limitations of GDP."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Fiscal policy in the context of today's National Income Accounting — application study.",
+              "back": "Government decisions about revenue, spending and borrowing."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying National Income Accounting — application?",
+              "back": "Disinflation is a slower rise in prices; it is not necessarily a fall in the price level."
+            }
+          ]
         },
         {
           "day": 29,
           "topic": "Money and Banking",
           "notes": [
             "Functions of money, money supply measures, credit creation, RBI instruments (repo, CRR, SLR, OMOs). Monetary policy vs inflation targeting in current affairs.",
-            "Key distinctions to retain: Functions; Credit creation; RBI tools; Money supply."
+            "Key distinctions to retain: Functions; Credit creation; RBI tools; Money supply.",
+            "Key term for review: Monetary transmission — Channels through which policy affects financial conditions and activity.",
+            "Study lens: Money and Banking: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 12 · Introductory Macroeconomics: Money and Banking.",
           "task": "Separate stocks from flows and trace one policy-transmission channel. Write five explained points on Money and Banking, then check them against the notes and source reading.",
@@ -668,14 +1482,43 @@
           "sources": [
             "leec1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Money and Banking in your own words and connect it to Functions.",
+              "back": "Functions of money, money supply measures, credit creation, RBI instruments (repo, CRR, SLR, OMOs). Monetary policy vs inflation targeting in current affairs."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Money and Banking.",
+              "back": "Functions of money, money supply measures, credit creation, RBI instruments (repo, CRR, SLR, OMOs). Monetary policy vs inflation targeting in current affairs."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Money and Banking?",
+              "back": "Key distinctions to retain: Functions; Credit creation; RBI tools; Money supply."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Monetary transmission in the context of today's Money and Banking study.",
+              "back": "Channels through which policy affects financial conditions and activity."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Money and Banking?",
+              "back": "Disinflation is a slower rise in prices; it is not necessarily a fall in the price level."
+            }
+          ]
         },
         {
           "day": 30,
           "topic": "Money and Banking — application",
           "notes": [
             "Functions of money, money supply measures, credit creation, RBI instruments (repo, CRR, SLR, OMOs). Monetary policy vs inflation targeting in current affairs.",
-            "Key distinctions to retain: Functions; Credit creation; RBI tools; Money supply."
+            "Key distinctions to retain: Functions; Credit creation; RBI tools; Money supply.",
+            "Key term for review: GDP — Value of final production within an economy over a period.",
+            "Study lens: Money and Banking — application: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 12 · Introductory Macroeconomics: Money and Banking.",
           "task": "Separate stocks from flows and trace one policy-transmission channel. Write five explained points on Money and Banking, then check them against the notes and source reading.",
@@ -688,14 +1531,43 @@
           "sources": [
             "leec1"
           ],
-          "mode": "application"
+          "mode": "application",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Money and Banking in your own words and connect it to Functions.",
+              "back": "Functions of money, money supply measures, credit creation, RBI instruments (repo, CRR, SLR, OMOs). Monetary policy vs inflation targeting in current affairs."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Money and Banking — application.",
+              "back": "Functions of money, money supply measures, credit creation, RBI instruments (repo, CRR, SLR, OMOs). Monetary policy vs inflation targeting in current affairs."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Money and Banking — application?",
+              "back": "Key distinctions to retain: Functions; Credit creation; RBI tools; Money supply."
+            },
+            {
+              "label": "Key term",
+              "front": "Define GDP in the context of today's Money and Banking — application study.",
+              "back": "Value of final production within an economy over a period."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Money and Banking — application?",
+              "back": "Disinflation is a slower rise in prices; it is not necessarily a fall in the price level."
+            }
+          ]
         },
         {
           "day": 31,
           "topic": "Money and Banking — application",
           "notes": [
             "Functions of money, money supply measures, credit creation, RBI instruments (repo, CRR, SLR, OMOs). Monetary policy vs inflation targeting in current affairs.",
-            "Key distinctions to retain: Functions; Credit creation; RBI tools; Money supply."
+            "Key distinctions to retain: Functions; Credit creation; RBI tools; Money supply.",
+            "Key term for review: Fiscal policy — Government decisions about revenue, spending and borrowing.",
+            "Study lens: Money and Banking — application: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 12 · Introductory Macroeconomics: Money and Banking.",
           "task": "Separate stocks from flows and trace one policy-transmission channel. Write five explained points on Money and Banking, then check them against the notes and source reading.",
@@ -708,14 +1580,43 @@
           "sources": [
             "leec1"
           ],
-          "mode": "application"
+          "mode": "application",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Money and Banking in your own words and connect it to Functions.",
+              "back": "Functions of money, money supply measures, credit creation, RBI instruments (repo, CRR, SLR, OMOs). Monetary policy vs inflation targeting in current affairs."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Money and Banking — application.",
+              "back": "Functions of money, money supply measures, credit creation, RBI instruments (repo, CRR, SLR, OMOs). Monetary policy vs inflation targeting in current affairs."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Money and Banking — application?",
+              "back": "Key distinctions to retain: Functions; Credit creation; RBI tools; Money supply."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Fiscal policy in the context of today's Money and Banking — application study.",
+              "back": "Government decisions about revenue, spending and borrowing."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Money and Banking — application?",
+              "back": "Disinflation is a slower rise in prices; it is not necessarily a fall in the price level."
+            }
+          ]
         },
         {
           "day": 32,
           "topic": "Determination of Income and Employment",
           "notes": [
             "Keynesian idea: output can be demand-constrained. Consumption, savings, investment, multiplier. Simple AD–AS story without drowning in graphs.",
-            "Key distinctions to retain: Effective demand; Consumption function; Multiplier; Deficient demand."
+            "Key distinctions to retain: Effective demand; Consumption function; Multiplier; Deficient demand.",
+            "Key term for review: Monetary transmission — Channels through which policy affects financial conditions and activity.",
+            "Study lens: Determination of Income and Employment: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 12 · Introductory Macroeconomics: Determination of Income and Employment.",
           "task": "Separate stocks from flows and trace one policy-transmission channel. Write five explained points on Determination of Income and Employment, then check them against the notes and source reading.",
@@ -728,14 +1629,43 @@
           "sources": [
             "leec1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Determination of Income and Employment in your own words and connect it to Effective demand.",
+              "back": "Keynesian idea: output can be demand-constrained. Consumption, savings, investment, multiplier. Simple AD–AS story without drowning in graphs."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Determination of Income and Employment.",
+              "back": "Keynesian idea: output can be demand-constrained. Consumption, savings, investment, multiplier. Simple AD–AS story without drowning in graphs."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Determination of Income and Employment?",
+              "back": "Key distinctions to retain: Effective demand; Consumption function; Multiplier; Deficient demand."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Monetary transmission in the context of today's Determination of Income and Employment study.",
+              "back": "Channels through which policy affects financial conditions and activity."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Determination of Income and Employment?",
+              "back": "Disinflation is a slower rise in prices; it is not necessarily a fall in the price level."
+            }
+          ]
         },
         {
           "day": 33,
           "topic": "Determination of Income and Employment — application",
           "notes": [
             "Keynesian idea: output can be demand-constrained. Consumption, savings, investment, multiplier. Simple AD–AS story without drowning in graphs.",
-            "Key distinctions to retain: Effective demand; Consumption function; Multiplier; Deficient demand."
+            "Key distinctions to retain: Effective demand; Consumption function; Multiplier; Deficient demand.",
+            "Key term for review: GDP — Value of final production within an economy over a period.",
+            "Study lens: Determination of Income and Employment — application: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 12 · Introductory Macroeconomics: Determination of Income and Employment.",
           "task": "Separate stocks from flows and trace one policy-transmission channel. Write five explained points on Determination of Income and Employment, then check them against the notes and source reading.",
@@ -748,7 +1678,34 @@
           "sources": [
             "leec1"
           ],
-          "mode": "application"
+          "mode": "application",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Determination of Income and Employment in your own words and connect it to Effective demand.",
+              "back": "Keynesian idea: output can be demand-constrained. Consumption, savings, investment, multiplier. Simple AD–AS story without drowning in graphs."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Determination of Income and Employment — application.",
+              "back": "Keynesian idea: output can be demand-constrained. Consumption, savings, investment, multiplier. Simple AD–AS story without drowning in graphs."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Determination of Income and Employment — application?",
+              "back": "Key distinctions to retain: Effective demand; Consumption function; Multiplier; Deficient demand."
+            },
+            {
+              "label": "Key term",
+              "front": "Define GDP in the context of today's Determination of Income and Employment — application study.",
+              "back": "Value of final production within an economy over a period."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Determination of Income and Employment — application?",
+              "back": "Disinflation is a slower rise in prices; it is not necessarily a fall in the price level."
+            }
+          ]
         },
         {
           "day": 34,
@@ -756,7 +1713,9 @@
           "notes": [
             "National Income Accounting: GDP, GNP, NNP, factor cost vs market price, real vs nominal, value added. What GDP misses (home work, environment).",
             "Money and Banking: Functions of money, money supply measures, credit creation, RBI instruments (repo, CRR, SLR, OMOs). Monetary policy vs inflation targeting in current affairs.",
-            "Determination of Income and Employment: Keynesian idea: output can be demand-constrained. Consumption, savings, investment, multiplier. Simple AD–AS story without drowning in graphs."
+            "Determination of Income and Employment: Keynesian idea: output can be demand-constrained. Consumption, savings, investment, multiplier. Simple AD–AS story without drowning in graphs.",
+            "Key term for review: Fiscal policy — Government decisions about revenue, spending and borrowing.",
+            "Study lens: Revision II: Macroeconomics & Finance: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Revisit your notes for National Income Accounting; Money and Banking; Determination of Income and Employment. Re-read the assigned source sections only where your recall is weak.",
           "task": "Close the notes and reconstruct the main distinctions from the last 3 topics. Separate stocks from flows and trace one policy-transmission channel. Then compare your work with the material below.",
@@ -769,14 +1728,43 @@
           "sources": [
             "leec1"
           ],
-          "mode": "revision"
+          "mode": "revision",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+              "back": "GDP, GNP, NNP, factor cost vs market price, real vs nominal, value added. What GDP misses (home work, environment). Functions of money, money supply measures, credit creation, RBI instruments (repo, CRR, SLR, OMOs). Monetary policy vs inflation targeting in current affairs. Keynesian idea: output can be demand-constrained. Consumption, savings, investment, multiplier. Simple AD–AS story without drowning in graphs."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Revision II: Macroeconomics & Finance.",
+              "back": "National Income Accounting: GDP, GNP, NNP, factor cost vs market price, real vs nominal, value added. What GDP misses (home work, environment)."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Revision II: Macroeconomics & Finance?",
+              "back": "Money and Banking: Functions of money, money supply measures, credit creation, RBI instruments (repo, CRR, SLR, OMOs). Monetary policy vs inflation targeting in current affairs."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Fiscal policy in the context of today's Revision II: Macroeconomics & Finance study.",
+              "back": "Government decisions about revenue, spending and borrowing."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Revision II: Macroeconomics & Finance?",
+              "back": "Disinflation is a slower rise in prices; it is not necessarily a fall in the price level."
+            }
+          ]
         },
         {
           "day": 35,
           "topic": "Government Budget and the Economy",
           "notes": [
             "Revenue vs capital, deficits (fiscal, revenue, primary), FRBM idea, subsidies, tax vs non-tax. Budget is GS-III every year.",
-            "Key distinctions to retain: Components; Deficits; Fiscal policy; Public goods."
+            "Key distinctions to retain: Components; Deficits; Fiscal policy; Public goods.",
+            "Key term for review: Monetary transmission — Channels through which policy affects financial conditions and activity.",
+            "Study lens: Government Budget and the Economy: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 12 · Introductory Macroeconomics: Government Budget and the Economy.",
           "task": "Separate stocks from flows and trace one policy-transmission channel. Write five explained points on Government Budget and the Economy, then check them against the notes and source reading.",
@@ -789,14 +1777,43 @@
           "sources": [
             "leec1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Government Budget and the Economy in your own words and connect it to Components.",
+              "back": "Revenue vs capital, deficits (fiscal, revenue, primary), FRBM idea, subsidies, tax vs non-tax. Budget is GS-III every year."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Government Budget and the Economy.",
+              "back": "Revenue vs capital, deficits (fiscal, revenue, primary), FRBM idea, subsidies, tax vs non-tax. Budget is GS-III every year."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Government Budget and the Economy?",
+              "back": "Key distinctions to retain: Components; Deficits; Fiscal policy; Public goods."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Monetary transmission in the context of today's Government Budget and the Economy study.",
+              "back": "Channels through which policy affects financial conditions and activity."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Government Budget and the Economy?",
+              "back": "Disinflation is a slower rise in prices; it is not necessarily a fall in the price level."
+            }
+          ]
         },
         {
           "day": 36,
           "topic": "Government Budget and the Economy — application",
           "notes": [
             "Revenue vs capital, deficits (fiscal, revenue, primary), FRBM idea, subsidies, tax vs non-tax. Budget is GS-III every year.",
-            "Key distinctions to retain: Components; Deficits; Fiscal policy; Public goods."
+            "Key distinctions to retain: Components; Deficits; Fiscal policy; Public goods.",
+            "Key term for review: GDP — Value of final production within an economy over a period.",
+            "Study lens: Government Budget and the Economy — application: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 12 · Introductory Macroeconomics: Government Budget and the Economy.",
           "task": "Separate stocks from flows and trace one policy-transmission channel. Write five explained points on Government Budget and the Economy, then check them against the notes and source reading.",
@@ -809,14 +1826,43 @@
           "sources": [
             "leec1"
           ],
-          "mode": "application"
+          "mode": "application",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Government Budget and the Economy in your own words and connect it to Components.",
+              "back": "Revenue vs capital, deficits (fiscal, revenue, primary), FRBM idea, subsidies, tax vs non-tax. Budget is GS-III every year."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Government Budget and the Economy — application.",
+              "back": "Revenue vs capital, deficits (fiscal, revenue, primary), FRBM idea, subsidies, tax vs non-tax. Budget is GS-III every year."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Government Budget and the Economy — application?",
+              "back": "Key distinctions to retain: Components; Deficits; Fiscal policy; Public goods."
+            },
+            {
+              "label": "Key term",
+              "front": "Define GDP in the context of today's Government Budget and the Economy — application study.",
+              "back": "Value of final production within an economy over a period."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Government Budget and the Economy — application?",
+              "back": "Disinflation is a slower rise in prices; it is not necessarily a fall in the price level."
+            }
+          ]
         },
         {
           "day": 37,
           "topic": "Open Economy — Macroeconomics",
           "notes": [
             "BoP, current vs capital account, exchange rates (flexible, fixed, managed), CAD. Link to RBI and trade policy.",
-            "Key distinctions to retain: BoP accounts; Exchange rate; CAD; Foreign exchange market."
+            "Key distinctions to retain: BoP accounts; Exchange rate; CAD; Foreign exchange market.",
+            "Key term for review: Fiscal policy — Government decisions about revenue, spending and borrowing.",
+            "Study lens: Open Economy — Macroeconomics: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 12 · Introductory Macroeconomics: Open Economy — Macroeconomics.",
           "task": "Separate stocks from flows and trace one policy-transmission channel. Write five explained points on Open Economy — Macroeconomics, then check them against the notes and source reading.",
@@ -829,14 +1875,43 @@
           "sources": [
             "leec1"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Open Economy — Macroeconomics in your own words and connect it to BoP accounts.",
+              "back": "BoP, current vs capital account, exchange rates (flexible, fixed, managed), CAD. Link to RBI and trade policy."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Open Economy — Macroeconomics.",
+              "back": "BoP, current vs capital account, exchange rates (flexible, fixed, managed), CAD. Link to RBI and trade policy."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Open Economy — Macroeconomics?",
+              "back": "Key distinctions to retain: BoP accounts; Exchange rate; CAD; Foreign exchange market."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Fiscal policy in the context of today's Open Economy — Macroeconomics study.",
+              "back": "Government decisions about revenue, spending and borrowing."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Open Economy — Macroeconomics?",
+              "back": "Disinflation is a slower rise in prices; it is not necessarily a fall in the price level."
+            }
+          ]
         },
         {
           "day": 38,
           "topic": "Open Economy — Macroeconomics — application",
           "notes": [
             "BoP, current vs capital account, exchange rates (flexible, fixed, managed), CAD. Link to RBI and trade policy.",
-            "Key distinctions to retain: BoP accounts; Exchange rate; CAD; Foreign exchange market."
+            "Key distinctions to retain: BoP accounts; Exchange rate; CAD; Foreign exchange market.",
+            "Key term for review: Monetary transmission — Channels through which policy affects financial conditions and activity.",
+            "Study lens: Open Economy — Macroeconomics — application: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 12 · Introductory Macroeconomics: Open Economy — Macroeconomics.",
           "task": "Separate stocks from flows and trace one policy-transmission channel. Write five explained points on Open Economy — Macroeconomics, then check them against the notes and source reading.",
@@ -849,7 +1924,34 @@
           "sources": [
             "leec1"
           ],
-          "mode": "application"
+          "mode": "application",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Open Economy — Macroeconomics in your own words and connect it to BoP accounts.",
+              "back": "BoP, current vs capital account, exchange rates (flexible, fixed, managed), CAD. Link to RBI and trade policy."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Open Economy — Macroeconomics — application.",
+              "back": "BoP, current vs capital account, exchange rates (flexible, fixed, managed), CAD. Link to RBI and trade policy."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Open Economy — Macroeconomics — application?",
+              "back": "Key distinctions to retain: BoP accounts; Exchange rate; CAD; Foreign exchange market."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Monetary transmission in the context of today's Open Economy — Macroeconomics — application study.",
+              "back": "Channels through which policy affects financial conditions and activity."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Open Economy — Macroeconomics — application?",
+              "back": "Disinflation is a slower rise in prices; it is not necessarily a fall in the price level."
+            }
+          ]
         },
         {
           "day": 39,
@@ -857,7 +1959,9 @@
           "notes": [
             "Determination of Income and Employment: Keynesian idea: output can be demand-constrained. Consumption, savings, investment, multiplier. Simple AD–AS story without drowning in graphs.",
             "Government Budget and the Economy: Revenue vs capital, deficits (fiscal, revenue, primary), FRBM idea, subsidies, tax vs non-tax. Budget is GS-III every year.",
-            "Open Economy — Macroeconomics: BoP, current vs capital account, exchange rates (flexible, fixed, managed), CAD. Link to RBI and trade policy."
+            "Open Economy — Macroeconomics: BoP, current vs capital account, exchange rates (flexible, fixed, managed), CAD. Link to RBI and trade policy.",
+            "Key term for review: GDP — Value of final production within an economy over a period.",
+            "Study lens: Macroeconomics & Finance: synthesis: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Revisit your notes for Determination of Income and Employment; Government Budget and the Economy; Open Economy — Macroeconomics. Re-read the assigned source sections only where your recall is weak.",
           "task": "Close the notes and reconstruct the main distinctions from the last 3 topics. Separate stocks from flows and trace one policy-transmission channel. Then compare your work with the material below.",
@@ -870,7 +1974,34 @@
           "sources": [
             "leec1"
           ],
-          "mode": "revision"
+          "mode": "revision",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+              "back": "Keynesian idea: output can be demand-constrained. Consumption, savings, investment, multiplier. Simple AD–AS story without drowning in graphs. Revenue vs capital, deficits (fiscal, revenue, primary), FRBM idea, subsidies, tax vs non-tax. Budget is GS-III every year. BoP, current vs capital account, exchange rates (flexible, fixed, managed), CAD. Link to RBI and trade policy."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Macroeconomics & Finance: synthesis.",
+              "back": "Determination of Income and Employment: Keynesian idea: output can be demand-constrained. Consumption, savings, investment, multiplier. Simple AD–AS story without drowning in graphs."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Macroeconomics & Finance: synthesis?",
+              "back": "Government Budget and the Economy: Revenue vs capital, deficits (fiscal, revenue, primary), FRBM idea, subsidies, tax vs non-tax. Budget is GS-III every year."
+            },
+            {
+              "label": "Key term",
+              "front": "Define GDP in the context of today's Macroeconomics & Finance: synthesis study.",
+              "back": "Value of final production within an economy over a period."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Macroeconomics & Finance: synthesis?",
+              "back": "Disinflation is a slower rise in prices; it is not necessarily a fall in the price level."
+            }
+          ]
         },
         {
           "day": 40,
@@ -882,7 +2013,9 @@
             "Money and Banking: Functions of money, money supply measures, credit creation, RBI instruments (repo, CRR, SLR, OMOs). Monetary policy vs inflation targeting in current affairs.",
             "Determination of Income and Employment: Keynesian idea: output can be demand-constrained. Consumption, savings, investment, multiplier. Simple AD–AS story without drowning in graphs.",
             "Government Budget and the Economy: Revenue vs capital, deficits (fiscal, revenue, primary), FRBM idea, subsidies, tax vs non-tax. Budget is GS-III every year.",
-            "Open Economy — Macroeconomics: BoP, current vs capital account, exchange rates (flexible, fixed, managed), CAD. Link to RBI and trade policy."
+            "Open Economy — Macroeconomics: BoP, current vs capital account, exchange rates (flexible, fixed, managed), CAD. Link to RBI and trade policy.",
+            "Key term for review: Fiscal policy — Government decisions about revenue, spending and borrowing.",
+            "Study lens: Macroeconomics & Finance: assessment & repair: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Revisit your notes for Money and Credit; Globalisation and the Indian Economy; National Income Accounting; Money and Banking; Determination of Income and Employment; Government Budget and the Economy; Open Economy — Macroeconomics. Re-read the assigned source sections only where your recall is weak.",
           "task": "Use the official-paper link or your question bank for a timed 20-question topic test and one short answer. Mark the gaps, explain your errors and schedule a second recall attempt.",
@@ -895,7 +2028,34 @@
           "sources": [
             "leec1"
           ],
-          "mode": "test"
+          "mode": "test",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+              "back": "Money as medium of exchange, modern forms, banks, cheques, formal vs informal credit. Cheap formal credit is development; informal high-interest credit traps the poor. RBI oversees banks. MNCs, trade liberalisation, WTO, SEZs, winners and losers among producers and workers. Globalisation is technology + policy, not fate. Connect to 1991 reforms at plus-two. GDP, GNP, NNP, factor cost vs market price, real vs nominal, value added. What GDP misses (home work, environment). Functions of money, money supply measures, credit creation, RBI instruments (repo, CRR, SLR, OMOs). Monetary policy vs inflation targeting in current affairs. Keynesian idea: output can be demand-constrained. Consumption, savings, investment, multiplier. Simple AD–AS story without drowning in graphs. Revenue vs capital, deficits (fiscal, revenue, primary), FRBM idea, subsidies, tax vs non-tax. Budget is GS-III every year. BoP, current vs capital account, exchange rates (flexible, fixed, managed), CAD. Link to RBI and trade policy."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Macroeconomics & Finance: assessment & repair.",
+              "back": "Money and Credit: Money as medium of exchange, modern forms, banks, cheques, formal vs informal credit. Cheap formal credit is development; informal high-interest credit traps the poor. RBI oversees banks."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Macroeconomics & Finance: assessment & repair?",
+              "back": "Globalisation and the Indian Economy: MNCs, trade liberalisation, WTO, SEZs, winners and losers among producers and workers. Globalisation is technology + policy, not fate. Connect to 1991 reforms at plus-two."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Fiscal policy in the context of today's Macroeconomics & Finance: assessment & repair study.",
+              "back": "Government decisions about revenue, spending and borrowing."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Macroeconomics & Finance: assessment & repair?",
+              "back": "Disinflation is a slower rise in prices; it is not necessarily a fall in the price level."
+            }
+          ]
         }
       ]
     },
@@ -914,7 +2074,9 @@
           "topic": "The Story of Village Palampur",
           "notes": [
             "A model village to teach factors of production: land, labour, physical capital, human capital. Multiple cropping, HYV, small vs large farmers, and non-farm work (dairy, transport, shop). Modern farming needs cheap working capital—often debt.",
-            "Key distinctions to retain: Four factors; HYV + irrigation; Small farmer credit; Non-farm activities."
+            "Key distinctions to retain: Four factors; HYV + irrigation; Small farmer credit; Non-farm activities.",
+            "Key term for review: Productivity — Output relative to an input.",
+            "Study lens: The Story of Village Palampur: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 9 · Economics: The Story of Village Palampur.",
           "task": "Evaluate an intervention through jobs, capabilities and distribution. Write five explained points on The Story of Village Palampur, then check them against the notes and source reading.",
@@ -928,14 +2090,43 @@
             "keec1",
             "jess2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain The Story of Village Palampur in your own words and connect it to Four factors.",
+              "back": "A model village to teach factors of production: land, labour, physical capital, human capital. Multiple cropping, HYV, small vs large farmers, and non-farm work (dairy, transport, shop). Modern farming needs cheap working capital—often debt."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on The Story of Village Palampur.",
+              "back": "A model village to teach factors of production: land, labour, physical capital, human capital. Multiple cropping, HYV, small vs large farmers, and non-farm work (dairy, transport, shop). Modern farming needs cheap working capital—often debt."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for The Story of Village Palampur?",
+              "back": "Key distinctions to retain: Four factors; HYV + irrigation; Small farmer credit; Non-farm activities."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Productivity in the context of today's The Story of Village Palampur study.",
+              "back": "Output relative to an input."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying The Story of Village Palampur?",
+              "back": "Being employed does not establish that a person has adequate income or social protection."
+            }
+          ]
         },
         {
           "day": 42,
           "topic": "People as Resource",
           "notes": [
             "Population becomes human capital through education and health. Unemployment (seasonal, disguised, educated) wastes that capital. Women’s work is undercounted. Investment in people raises productivity.",
-            "Key distinctions to retain: Human capital; Education & health; Unemployment types; Gendered work."
+            "Key distinctions to retain: Human capital; Education & health; Unemployment types; Gendered work.",
+            "Key term for review: Remittance — Resources sent by a migrant to another household or place.",
+            "Study lens: People as Resource: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 9 · Economics: People as Resource.",
           "task": "Evaluate an intervention through jobs, capabilities and distribution. Write five explained points on People as Resource, then check them against the notes and source reading.",
@@ -949,14 +2140,43 @@
             "keec1",
             "jess2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain People as Resource in your own words and connect it to Human capital.",
+              "back": "Population becomes human capital through education and health. Unemployment (seasonal, disguised, educated) wastes that capital. Women’s work is undercounted. Investment in people raises productivity."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on People as Resource.",
+              "back": "Population becomes human capital through education and health. Unemployment (seasonal, disguised, educated) wastes that capital. Women’s work is undercounted. Investment in people raises productivity."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for People as Resource?",
+              "back": "Key distinctions to retain: Human capital; Education & health; Unemployment types; Gendered work."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Remittance in the context of today's People as Resource study.",
+              "back": "Resources sent by a migrant to another household or place."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying People as Resource?",
+              "back": "Being employed does not establish that a person has adequate income or social protection."
+            }
+          ]
         },
         {
           "day": 43,
           "topic": "Poverty as a Challenge",
           "notes": [
             "Poverty as capability failure, not only income. Estimates, social groups, interstate variation. Causes: colonial drain, low growth earlier, inequality, social exclusion. Anti-poverty: growth + targeted schemes (historical MGNREGA-type idea).",
-            "Key distinctions to retain: Social groups; Causes; Poverty line idea; Anti-poverty strategy."
+            "Key distinctions to retain: Social groups; Causes; Poverty line idea; Anti-poverty strategy.",
+            "Key term for review: Inclusive development — Development attentive to participation and distribution of benefits.",
+            "Study lens: Poverty as a Challenge: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 9 · Economics: Poverty as a Challenge.",
           "task": "Evaluate an intervention through jobs, capabilities and distribution. Write five explained points on Poverty as a Challenge, then check them against the notes and source reading.",
@@ -970,14 +2190,43 @@
             "keec1",
             "jess2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Poverty as a Challenge in your own words and connect it to Social groups.",
+              "back": "Poverty as capability failure, not only income. Estimates, social groups, interstate variation. Causes: colonial drain, low growth earlier, inequality, social exclusion. Anti-poverty: growth + targeted schemes (historical MGNREGA-type idea)."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Poverty as a Challenge.",
+              "back": "Poverty as capability failure, not only income. Estimates, social groups, interstate variation. Causes: colonial drain, low growth earlier, inequality, social exclusion. Anti-poverty: growth + targeted schemes (historical MGNREGA-type idea)."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Poverty as a Challenge?",
+              "back": "Key distinctions to retain: Social groups; Causes; Poverty line idea; Anti-poverty strategy."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Inclusive development in the context of today's Poverty as a Challenge study.",
+              "back": "Development attentive to participation and distribution of benefits."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Poverty as a Challenge?",
+              "back": "Being employed does not establish that a person has adequate income or social protection."
+            }
+          ]
         },
         {
           "day": 44,
           "topic": "Food Security in India",
           "notes": [
             "Availability, access, absorption. Buffer stocks, PDS, cooperatives. Hunger can exist with granaries if access fails. Revise NFSA in current affairs on top of this chapter.",
-            "Key distinctions to retain: Three dimensions; PDS; Buffer stock; Vulnerable groups."
+            "Key distinctions to retain: Three dimensions; PDS; Buffer stock; Vulnerable groups.",
+            "Key term for review: Productivity — Output relative to an input.",
+            "Study lens: Food Security in India: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 9 · Economics: Food Security in India.",
           "task": "Evaluate an intervention through jobs, capabilities and distribution. Write five explained points on Food Security in India, then check them against the notes and source reading.",
@@ -991,14 +2240,43 @@
             "keec1",
             "jess2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Food Security in India in your own words and connect it to Three dimensions.",
+              "back": "Availability, access, absorption. Buffer stocks, PDS, cooperatives. Hunger can exist with granaries if access fails. Revise NFSA in current affairs on top of this chapter."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Food Security in India.",
+              "back": "Availability, access, absorption. Buffer stocks, PDS, cooperatives. Hunger can exist with granaries if access fails. Revise NFSA in current affairs on top of this chapter."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Food Security in India?",
+              "back": "Key distinctions to retain: Three dimensions; PDS; Buffer stock; Vulnerable groups."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Productivity in the context of today's Food Security in India study.",
+              "back": "Output relative to an input."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Food Security in India?",
+              "back": "Being employed does not establish that a person has adequate income or social protection."
+            }
+          ]
         },
         {
           "day": 45,
           "topic": "Development",
           "notes": [
             "Different people, different development goals. Income vs HDI (health, education). Sustainability: groundwater, environment. National development is comparison plus justice, not only average income.",
-            "Key distinctions to retain: Goals; Per capita income; HDI; Sustainability."
+            "Key distinctions to retain: Goals; Per capita income; HDI; Sustainability.",
+            "Key term for review: Remittance — Resources sent by a migrant to another household or place.",
+            "Study lens: Development: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 10 · Understanding Economic Development: Development.",
           "task": "Evaluate an intervention through jobs, capabilities and distribution. Write five explained points on Development, then check them against the notes and source reading.",
@@ -1012,14 +2290,43 @@
             "keec1",
             "jess2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Development in your own words and connect it to Goals.",
+              "back": "Different people, different development goals. Income vs HDI (health, education). Sustainability: groundwater, environment. National development is comparison plus justice, not only average income."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Development.",
+              "back": "Different people, different development goals. Income vs HDI (health, education). Sustainability: groundwater, environment. National development is comparison plus justice, not only average income."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Development?",
+              "back": "Key distinctions to retain: Goals; Per capita income; HDI; Sustainability."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Remittance in the context of today's Development study.",
+              "back": "Resources sent by a migrant to another household or place."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Development?",
+              "back": "Being employed does not establish that a person has adequate income or social protection."
+            }
+          ]
         },
         {
           "day": 46,
           "topic": "Sectors of the Indian Economy",
           "notes": [
             "Primary, secondary, tertiary; organised vs unorganised; public vs private. Tertiary’s rising share vs still-large farm employment—structural change is incomplete. MGNREGA and labour protection appear as policy.",
-            "Key distinctions to retain: Three sectors; GDP vs employment; Organised/unorganised; Public/private."
+            "Key distinctions to retain: Three sectors; GDP vs employment; Organised/unorganised; Public/private.",
+            "Key term for review: Inclusive development — Development attentive to participation and distribution of benefits.",
+            "Study lens: Sectors of the Indian Economy: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 10 · Understanding Economic Development: Sectors of the Indian Economy.",
           "task": "Evaluate an intervention through jobs, capabilities and distribution. Write five explained points on Sectors of the Indian Economy, then check them against the notes and source reading.",
@@ -1033,7 +2340,34 @@
             "keec1",
             "jess2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Sectors of the Indian Economy in your own words and connect it to Three sectors.",
+              "back": "Primary, secondary, tertiary; organised vs unorganised; public vs private. Tertiary’s rising share vs still-large farm employment—structural change is incomplete. MGNREGA and labour protection appear as policy."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Sectors of the Indian Economy.",
+              "back": "Primary, secondary, tertiary; organised vs unorganised; public vs private. Tertiary’s rising share vs still-large farm employment—structural change is incomplete. MGNREGA and labour protection appear as policy."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Sectors of the Indian Economy?",
+              "back": "Key distinctions to retain: Three sectors; GDP vs employment; Organised/unorganised; Public/private."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Inclusive development in the context of today's Sectors of the Indian Economy study.",
+              "back": "Development attentive to participation and distribution of benefits."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Sectors of the Indian Economy?",
+              "back": "Being employed does not establish that a person has adequate income or social protection."
+            }
+          ]
         },
         {
           "day": 47,
@@ -1044,7 +2378,9 @@
             "Poverty as a Challenge: Poverty as capability failure, not only income. Estimates, social groups, interstate variation. Causes: colonial drain, low growth earlier, inequality, social exclusion. Anti-poverty: growth + targeted schemes (historical MGNREGA-type idea).",
             "Food Security in India: Availability, access, absorption. Buffer stocks, PDS, cooperatives. Hunger can exist with granaries if access fails. Revise NFSA in current affairs on top of this chapter.",
             "Development: Different people, different development goals. Income vs HDI (health, education). Sustainability: groundwater, environment. National development is comparison plus justice, not only average income.",
-            "Sectors of the Indian Economy: Primary, secondary, tertiary; organised vs unorganised; public vs private. Tertiary’s rising share vs still-large farm employment—structural change is incomplete. MGNREGA and labour protection appear as policy."
+            "Sectors of the Indian Economy: Primary, secondary, tertiary; organised vs unorganised; public vs private. Tertiary’s rising share vs still-large farm employment—structural change is incomplete. MGNREGA and labour protection appear as policy.",
+            "Key term for review: Productivity — Output relative to an input.",
+            "Study lens: Revision I: Development & Livelihoods: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Revisit your notes for The Story of Village Palampur; People as Resource; Poverty as a Challenge; Food Security in India; Development; Sectors of the Indian Economy. Re-read the assigned source sections only where your recall is weak.",
           "task": "Close the notes and reconstruct the main distinctions from the last 6 topics. Evaluate an intervention through jobs, capabilities and distribution. Then compare your work with the material below.",
@@ -1058,14 +2394,43 @@
             "keec1",
             "jess2"
           ],
-          "mode": "revision"
+          "mode": "revision",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+              "back": "A model village to teach factors of production: land, labour, physical capital, human capital. Multiple cropping, HYV, small vs large farmers, and non-farm work (dairy, transport, shop). Modern farming needs cheap working capital—often debt. Population becomes human capital through education and health. Unemployment (seasonal, disguised, educated) wastes that capital. Women’s work is undercounted. Investment in people raises productivity. Poverty as capability failure, not only income. Estimates, social groups, interstate variation. Causes: colonial drain, low growth earlier, inequality, social exclusion. Anti-poverty: growth + targeted schemes (historical MGNREGA-type idea). Availability, access, absorption. Buffer stocks, PDS, cooperatives. Hunger can exist with granaries if access fails. Revise NFSA in current affairs on top of this chapter. Different people, different development goals. Income vs HDI (health, education). Sustainability: groundwater, environment. National development is comparison plus justice, not only average income. Primary, secondary, tertiary; organised vs unorganised; public vs private. Tertiary’s rising share vs still-large farm employment—structural change is incomplete. MGNREGA and labour protection appear as policy."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Revision I: Development & Livelihoods.",
+              "back": "The Story of Village Palampur: A model village to teach factors of production: land, labour, physical capital, human capital. Multiple cropping, HYV, small vs large farmers, and non-farm work (dairy, transport, shop). Modern farming needs cheap working capital—often debt."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Revision I: Development & Livelihoods?",
+              "back": "People as Resource: Population becomes human capital through education and health. Unemployment (seasonal, disguised, educated) wastes that capital. Women’s work is undercounted. Investment in people raises productivity."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Productivity in the context of today's Revision I: Development & Livelihoods study.",
+              "back": "Output relative to an input."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Revision I: Development & Livelihoods?",
+              "back": "Being employed does not establish that a person has adequate income or social protection."
+            }
+          ]
         },
         {
           "day": 48,
           "topic": "Globalisation and the Indian Economy",
           "notes": [
             "MNCs, trade liberalisation, WTO, SEZs, winners and losers among producers and workers. Globalisation is technology + policy, not fate. Connect to 1991 reforms at plus-two.",
-            "Key distinctions to retain: MNC production; Liberalisation of trade; WTO; Impact on workers/small producers."
+            "Key distinctions to retain: MNC production; Liberalisation of trade; WTO; Impact on workers/small producers.",
+            "Key term for review: Remittance — Resources sent by a migrant to another household or place.",
+            "Study lens: Globalisation and the Indian Economy: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 10 · Understanding Economic Development: Globalisation and the Indian Economy.",
           "task": "Evaluate an intervention through jobs, capabilities and distribution. Write five explained points on Globalisation and the Indian Economy, then check them against the notes and source reading.",
@@ -1079,7 +2444,34 @@
             "keec1",
             "jess2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Globalisation and the Indian Economy in your own words and connect it to MNC production.",
+              "back": "MNCs, trade liberalisation, WTO, SEZs, winners and losers among producers and workers. Globalisation is technology + policy, not fate. Connect to 1991 reforms at plus-two."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Globalisation and the Indian Economy.",
+              "back": "MNCs, trade liberalisation, WTO, SEZs, winners and losers among producers and workers. Globalisation is technology + policy, not fate. Connect to 1991 reforms at plus-two."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Globalisation and the Indian Economy?",
+              "back": "Key distinctions to retain: MNC production; Liberalisation of trade; WTO; Impact on workers/small producers."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Remittance in the context of today's Globalisation and the Indian Economy study.",
+              "back": "Resources sent by a migrant to another household or place."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Globalisation and the Indian Economy?",
+              "back": "Being employed does not establish that a person has adequate income or social protection."
+            }
+          ]
         },
         {
           "day": 49,
@@ -1088,7 +2480,9 @@
             "COPRA, consumer forums, rights to safety, information, choice, redressal. Markets need rules. ISI/Agmark as quality marks.",
             "Key distinctions to retain: COPRA; Rights; Redressal; Quality marks.",
             "Stagnant agriculture, deindustrialisation, poor infrastructure, drain, low literacy. The colonial structure is the starting point of planning.",
-            "Key distinctions to retain: Agrarian stagnation; Deindustrialisation; Demographic condition; Infrastructure."
+            "Key distinctions to retain: Agrarian stagnation; Deindustrialisation; Demographic condition; Infrastructure.",
+            "Key term for review: Inclusive development — Development attentive to participation and distribution of benefits.",
+            "Study lens: Consumer Rights + Indian Economy on the Eve of Independence: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 10 · Understanding Economic Development: Consumer Rights. Class 11 · Indian Economic Development: Indian Economy on the Eve of Independence.",
           "task": "Evaluate an intervention through jobs, capabilities and distribution. Write five explained points on Consumer Rights, then check them against the notes and source reading. Write five explained points on Indian Economy on the Eve of Independence, then check them against the notes and source reading.",
@@ -1102,14 +2496,43 @@
             "keec1",
             "jess2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Consumer Rights in your own words and connect it to COPRA.",
+              "back": "COPRA, consumer forums, rights to safety, information, choice, redressal. Markets need rules. ISI/Agmark as quality marks. Stagnant agriculture, deindustrialisation, poor infrastructure, drain, low literacy. The colonial structure is the starting point of planning."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Consumer Rights + Indian Economy on the Eve of Independence.",
+              "back": "COPRA, consumer forums, rights to safety, information, choice, redressal. Markets need rules. ISI/Agmark as quality marks."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Consumer Rights + Indian Economy on the Eve of Independence?",
+              "back": "Key distinctions to retain: COPRA; Rights; Redressal; Quality marks."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Inclusive development in the context of today's Consumer Rights + Indian Economy on the Eve of Independence study.",
+              "back": "Development attentive to participation and distribution of benefits."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Consumer Rights + Indian Economy on the Eve of Independence?",
+              "back": "Being employed does not establish that a person has adequate income or social protection."
+            }
+          ]
         },
         {
           "day": 50,
           "topic": "Indian Economy 1950–1990",
           "notes": [
             "Planning Commission, mixed economy, land reforms, Green Revolution, industry (IPR 1956), public sector. Achievements and the licence-permit costs. Food self-sufficiency vs inefficiency debate.",
-            "Key distinctions to retain: Plans; Land reforms; Green Revolution; Public sector."
+            "Key distinctions to retain: Plans; Land reforms; Green Revolution; Public sector.",
+            "Key term for review: Productivity — Output relative to an input.",
+            "Study lens: Indian Economy 1950–1990: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 11 · Indian Economic Development: Indian Economy 1950–1990.",
           "task": "Evaluate an intervention through jobs, capabilities and distribution. Write five explained points on Indian Economy 1950–1990, then check them against the notes and source reading.",
@@ -1123,14 +2546,43 @@
             "keec1",
             "jess2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Indian Economy 1950–1990 in your own words and connect it to Plans.",
+              "back": "Planning Commission, mixed economy, land reforms, Green Revolution, industry (IPR 1956), public sector. Achievements and the licence-permit costs. Food self-sufficiency vs inefficiency debate."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Indian Economy 1950–1990.",
+              "back": "Planning Commission, mixed economy, land reforms, Green Revolution, industry (IPR 1956), public sector. Achievements and the licence-permit costs. Food self-sufficiency vs inefficiency debate."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Indian Economy 1950–1990?",
+              "back": "Key distinctions to retain: Plans; Land reforms; Green Revolution; Public sector."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Productivity in the context of today's Indian Economy 1950–1990 study.",
+              "back": "Output relative to an input."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Indian Economy 1950–1990?",
+              "back": "Being employed does not establish that a person has adequate income or social protection."
+            }
+          ]
         },
         {
           "day": 51,
           "topic": "Liberalisation, Privatisation and Globalisation",
           "notes": [
             "1991 crisis, LPG, WTO era, NITI replacing Planning Commission in later current affairs. Outcomes: growth, inequality, services boom, farm distress unfinished.",
-            "Key distinctions to retain: 1991; LPG; WTO; Outcomes."
+            "Key distinctions to retain: 1991; LPG; WTO; Outcomes.",
+            "Key term for review: Remittance — Resources sent by a migrant to another household or place.",
+            "Study lens: Liberalisation, Privatisation and Globalisation: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 11 · Indian Economic Development: Liberalisation, Privatisation and Globalisation.",
           "task": "Evaluate an intervention through jobs, capabilities and distribution. Write five explained points on Liberalisation, Privatisation and Globalisation, then check them against the notes and source reading.",
@@ -1144,14 +2596,43 @@
             "keec1",
             "jess2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Liberalisation, Privatisation and Globalisation in your own words and connect it to 1991.",
+              "back": "1991 crisis, LPG, WTO era, NITI replacing Planning Commission in later current affairs. Outcomes: growth, inequality, services boom, farm distress unfinished."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Liberalisation, Privatisation and Globalisation.",
+              "back": "1991 crisis, LPG, WTO era, NITI replacing Planning Commission in later current affairs. Outcomes: growth, inequality, services boom, farm distress unfinished."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Liberalisation, Privatisation and Globalisation?",
+              "back": "Key distinctions to retain: 1991; LPG; WTO; Outcomes."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Remittance in the context of today's Liberalisation, Privatisation and Globalisation study.",
+              "back": "Resources sent by a migrant to another household or place."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Liberalisation, Privatisation and Globalisation?",
+              "back": "Being employed does not establish that a person has adequate income or social protection."
+            }
+          ]
         },
         {
           "day": 52,
           "topic": "Poverty",
           "notes": [
             "Measurement debates, causes, policy (growth vs targeted), multidimensional poverty in later data. Link Class 9 to technical estimates.",
-            "Key distinctions to retain: Measurement; Causes; Programmes; MDPI flavour."
+            "Key distinctions to retain: Measurement; Causes; Programmes; MDPI flavour.",
+            "Key term for review: Inclusive development — Development attentive to participation and distribution of benefits.",
+            "Study lens: Poverty: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 11 · Indian Economic Development: Poverty.",
           "task": "Evaluate an intervention through jobs, capabilities and distribution. Write five explained points on Poverty, then check them against the notes and source reading.",
@@ -1165,14 +2646,43 @@
             "keec1",
             "jess2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Poverty in your own words and connect it to Measurement.",
+              "back": "Measurement debates, causes, policy (growth vs targeted), multidimensional poverty in later data. Link Class 9 to technical estimates."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Poverty.",
+              "back": "Measurement debates, causes, policy (growth vs targeted), multidimensional poverty in later data. Link Class 9 to technical estimates."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Poverty?",
+              "back": "Key distinctions to retain: Measurement; Causes; Programmes; MDPI flavour."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Inclusive development in the context of today's Poverty study.",
+              "back": "Development attentive to participation and distribution of benefits."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Poverty?",
+              "back": "Being employed does not establish that a person has adequate income or social protection."
+            }
+          ]
         },
         {
           "day": 53,
           "topic": "Human Capital Formation",
           "notes": [
             "Education and health as investment. India’s education structure, still-large quality gaps, gender. Human capital vs human development.",
-            "Key distinctions to retain: Sources of human capital; Education; Health; India’s gaps."
+            "Key distinctions to retain: Sources of human capital; Education; Health; India’s gaps.",
+            "Key term for review: Productivity — Output relative to an input.",
+            "Study lens: Human Capital Formation: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 11 · Indian Economic Development: Human Capital Formation.",
           "task": "Evaluate an intervention through jobs, capabilities and distribution. Write five explained points on Human Capital Formation, then check them against the notes and source reading.",
@@ -1186,7 +2696,34 @@
             "keec1",
             "jess2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Human Capital Formation in your own words and connect it to Sources of human capital.",
+              "back": "Education and health as investment. India’s education structure, still-large quality gaps, gender. Human capital vs human development."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Human Capital Formation.",
+              "back": "Education and health as investment. India’s education structure, still-large quality gaps, gender. Human capital vs human development."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Human Capital Formation?",
+              "back": "Key distinctions to retain: Sources of human capital; Education; Health; India’s gaps."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Productivity in the context of today's Human Capital Formation study.",
+              "back": "Output relative to an input."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Human Capital Formation?",
+              "back": "Being employed does not establish that a person has adequate income or social protection."
+            }
+          ]
         },
         {
           "day": 54,
@@ -1197,7 +2734,9 @@
             "Indian Economy 1950–1990: Planning Commission, mixed economy, land reforms, Green Revolution, industry (IPR 1956), public sector. Achievements and the licence-permit costs. Food self-sufficiency vs inefficiency debate.",
             "Liberalisation, Privatisation and Globalisation: 1991 crisis, LPG, WTO era, NITI replacing Planning Commission in later current affairs. Outcomes: growth, inequality, services boom, farm distress unfinished.",
             "Poverty: Measurement debates, causes, policy (growth vs targeted), multidimensional poverty in later data. Link Class 9 to technical estimates.",
-            "Human Capital Formation: Education and health as investment. India’s education structure, still-large quality gaps, gender. Human capital vs human development."
+            "Human Capital Formation: Education and health as investment. India’s education structure, still-large quality gaps, gender. Human capital vs human development.",
+            "Key term for review: Remittance — Resources sent by a migrant to another household or place.",
+            "Study lens: Revision II: Development & Livelihoods: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Revisit your notes for Consumer Rights; Indian Economy on the Eve of Independence; Indian Economy 1950–1990; Liberalisation, Privatisation and Globalisation; Poverty; Human Capital Formation. Re-read the assigned source sections only where your recall is weak.",
           "task": "Close the notes and reconstruct the main distinctions from the last 6 topics. Evaluate an intervention through jobs, capabilities and distribution. Then compare your work with the material below.",
@@ -1211,14 +2750,43 @@
             "keec1",
             "jess2"
           ],
-          "mode": "revision"
+          "mode": "revision",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+              "back": "COPRA, consumer forums, rights to safety, information, choice, redressal. Markets need rules. ISI/Agmark as quality marks. Stagnant agriculture, deindustrialisation, poor infrastructure, drain, low literacy. The colonial structure is the starting point of planning. Planning Commission, mixed economy, land reforms, Green Revolution, industry (IPR 1956), public sector. Achievements and the licence-permit costs. Food self-sufficiency vs inefficiency debate. 1991 crisis, LPG, WTO era, NITI replacing Planning Commission in later current affairs. Outcomes: growth, inequality, services boom, farm distress unfinished. Measurement debates, causes, policy (growth vs targeted), multidimensional poverty in later data. Link Class 9 to technical estimates. Education and health as investment. India’s education structure, still-large quality gaps, gender. Human capital vs human development."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Revision II: Development & Livelihoods.",
+              "back": "Consumer Rights: COPRA, consumer forums, rights to safety, information, choice, redressal. Markets need rules. ISI/Agmark as quality marks."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Revision II: Development & Livelihoods?",
+              "back": "Indian Economy on the Eve of Independence: Stagnant agriculture, deindustrialisation, poor infrastructure, drain, low literacy. The colonial structure is the starting point of planning."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Remittance in the context of today's Revision II: Development & Livelihoods study.",
+              "back": "Resources sent by a migrant to another household or place."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Revision II: Development & Livelihoods?",
+              "back": "Being employed does not establish that a person has adequate income or social protection."
+            }
+          ]
         },
         {
           "day": 55,
           "topic": "Rural Development",
           "notes": [
             "Credit (cooperatives, SHGs, NABARD), agriculture marketing, organic farming, diversification (animal husbandry, fisheries). Rural is not only crop.",
-            "Key distinctions to retain: Credit; Marketing; Diversification; Organic."
+            "Key distinctions to retain: Credit; Marketing; Diversification; Organic.",
+            "Key term for review: Inclusive development — Development attentive to participation and distribution of benefits.",
+            "Study lens: Rural Development: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 11 · Indian Economic Development: Rural Development.",
           "task": "Evaluate an intervention through jobs, capabilities and distribution. Write five explained points on Rural Development, then check them against the notes and source reading.",
@@ -1232,14 +2800,43 @@
             "keec1",
             "jess2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Rural Development in your own words and connect it to Credit.",
+              "back": "Credit (cooperatives, SHGs, NABARD), agriculture marketing, organic farming, diversification (animal husbandry, fisheries). Rural is not only crop."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Rural Development.",
+              "back": "Credit (cooperatives, SHGs, NABARD), agriculture marketing, organic farming, diversification (animal husbandry, fisheries). Rural is not only crop."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Rural Development?",
+              "back": "Key distinctions to retain: Credit; Marketing; Diversification; Organic."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Inclusive development in the context of today's Rural Development study.",
+              "back": "Development attentive to participation and distribution of benefits."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Rural Development?",
+              "back": "Being employed does not establish that a person has adequate income or social protection."
+            }
+          ]
         },
         {
           "day": 56,
           "topic": "Employment: Growth, Informalisation",
           "notes": [
             "Workforce, self vs hired, informalisation, jobless growth worry, government as employer. Quality of jobs matters as much as count.",
-            "Key distinctions to retain: Labour force vs workforce; Informal sector; Unemployment types; Job quality."
+            "Key distinctions to retain: Labour force vs workforce; Informal sector; Unemployment types; Job quality.",
+            "Key term for review: Productivity — Output relative to an input.",
+            "Study lens: Employment: Growth, Informalisation: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 11 · Indian Economic Development: Employment: Growth, Informalisation.",
           "task": "Evaluate an intervention through jobs, capabilities and distribution. Write five explained points on Employment: Growth, Informalisation, then check them against the notes and source reading.",
@@ -1253,14 +2850,43 @@
             "keec1",
             "jess2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Employment: Growth, Informalisation in your own words and connect it to Labour force vs workforce.",
+              "back": "Workforce, self vs hired, informalisation, jobless growth worry, government as employer. Quality of jobs matters as much as count."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Employment: Growth, Informalisation.",
+              "back": "Workforce, self vs hired, informalisation, jobless growth worry, government as employer. Quality of jobs matters as much as count."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Employment: Growth, Informalisation?",
+              "back": "Key distinctions to retain: Labour force vs workforce; Informal sector; Unemployment types; Job quality."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Productivity in the context of today's Employment: Growth, Informalisation study.",
+              "back": "Output relative to an input."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Employment: Growth, Informalisation?",
+              "back": "Being employed does not establish that a person has adequate income or social protection."
+            }
+          ]
         },
         {
           "day": 57,
           "topic": "Infrastructure",
           "notes": [
             "Energy, transport, communication, health, education as infrastructure. Public–private mix, energy shortages, health as right vs commodity.",
-            "Key distinctions to retain: Energy; Transport; Health infrastructure; PPP debates."
+            "Key distinctions to retain: Energy; Transport; Health infrastructure; PPP debates.",
+            "Key term for review: Remittance — Resources sent by a migrant to another household or place.",
+            "Study lens: Infrastructure: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 11 · Indian Economic Development: Infrastructure.",
           "task": "Evaluate an intervention through jobs, capabilities and distribution. Write five explained points on Infrastructure, then check them against the notes and source reading.",
@@ -1274,7 +2900,34 @@
             "keec1",
             "jess2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Infrastructure in your own words and connect it to Energy.",
+              "back": "Energy, transport, communication, health, education as infrastructure. Public–private mix, energy shortages, health as right vs commodity."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Infrastructure.",
+              "back": "Energy, transport, communication, health, education as infrastructure. Public–private mix, energy shortages, health as right vs commodity."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Infrastructure?",
+              "back": "Key distinctions to retain: Energy; Transport; Health infrastructure; PPP debates."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Remittance in the context of today's Infrastructure study.",
+              "back": "Resources sent by a migrant to another household or place."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Infrastructure?",
+              "back": "Being employed does not establish that a person has adequate income or social protection."
+            }
+          ]
         },
         {
           "day": 58,
@@ -1283,7 +2936,9 @@
             "Carrying capacity, pollution, Chipko to contemporary climate. Development that keeps future options open. India’s dual burden: poverty and pollution.",
             "Key distinctions to retain: Absorptive capacity; Pollution; Strategies; Global issues.",
             "India, Pakistan, China: growth paths, demographic transition, HDI, reforms timing. China is not a photocopyable model; institutions differ.",
-            "Key distinctions to retain: Indicators; China reforms; Pakistan; Lessons."
+            "Key distinctions to retain: Indicators; China reforms; Pakistan; Lessons.",
+            "Key term for review: Inclusive development — Development attentive to participation and distribution of benefits.",
+            "Study lens: Environment and Sustainable Development + Comparative Development Experiences of India and Neighbours: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Class 11 · Indian Economic Development: Environment and Sustainable Development. Class 11 · Indian Economic Development: Comparative Development Experiences of India and Neighbours.",
           "task": "Evaluate an intervention through jobs, capabilities and distribution. Write five explained points on Environment and Sustainable Development, then check them against the notes and source reading. Write five explained points on Comparative Development Experiences of India and Neighbours, then check them against the notes and source reading.",
@@ -1297,7 +2952,34 @@
             "keec1",
             "jess2"
           ],
-          "mode": "reading"
+          "mode": "reading",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Explain Environment and Sustainable Development in your own words and connect it to Absorptive capacity.",
+              "back": "Carrying capacity, pollution, Chipko to contemporary climate. Development that keeps future options open. India’s dual burden: poverty and pollution. India, Pakistan, China: growth paths, demographic transition, HDI, reforms timing. China is not a photocopyable model; institutions differ."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Environment and Sustainable Development + Comparative Development Experiences of India and Neighbours.",
+              "back": "Carrying capacity, pollution, Chipko to contemporary climate. Development that keeps future options open. India’s dual burden: poverty and pollution."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Environment and Sustainable Development + Comparative Development Experiences of India and Neighbours?",
+              "back": "Key distinctions to retain: Absorptive capacity; Pollution; Strategies; Global issues."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Inclusive development in the context of today's Environment and Sustainable Development + Comparative Development Experiences of India and Neighbours study.",
+              "back": "Development attentive to participation and distribution of benefits."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Environment and Sustainable Development + Comparative Development Experiences of India and Neighbours?",
+              "back": "Being employed does not establish that a person has adequate income or social protection."
+            }
+          ]
         },
         {
           "day": 59,
@@ -1308,7 +2990,9 @@
             "Employment: Growth, Informalisation: Workforce, self vs hired, informalisation, jobless growth worry, government as employer. Quality of jobs matters as much as count.",
             "Infrastructure: Energy, transport, communication, health, education as infrastructure. Public–private mix, energy shortages, health as right vs commodity.",
             "Environment and Sustainable Development: Carrying capacity, pollution, Chipko to contemporary climate. Development that keeps future options open. India’s dual burden: poverty and pollution.",
-            "Comparative Development Experiences of India and Neighbours: India, Pakistan, China: growth paths, demographic transition, HDI, reforms timing. China is not a photocopyable model; institutions differ."
+            "Comparative Development Experiences of India and Neighbours: India, Pakistan, China: growth paths, demographic transition, HDI, reforms timing. China is not a photocopyable model; institutions differ.",
+            "Key term for review: Productivity — Output relative to an input.",
+            "Study lens: Development & Livelihoods: synthesis: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Revisit your notes for Human Capital Formation; Rural Development; Employment: Growth, Informalisation; Infrastructure; Environment and Sustainable Development; Comparative Development Experiences of India and Neighbours. Re-read the assigned source sections only where your recall is weak.",
           "task": "Close the notes and reconstruct the main distinctions from the last 6 topics. Evaluate an intervention through jobs, capabilities and distribution. Then compare your work with the material below.",
@@ -1322,7 +3006,34 @@
             "keec1",
             "jess2"
           ],
-          "mode": "revision"
+          "mode": "revision",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+              "back": "Education and health as investment. India’s education structure, still-large quality gaps, gender. Human capital vs human development. Credit (cooperatives, SHGs, NABARD), agriculture marketing, organic farming, diversification (animal husbandry, fisheries). Rural is not only crop. Workforce, self vs hired, informalisation, jobless growth worry, government as employer. Quality of jobs matters as much as count. Energy, transport, communication, health, education as infrastructure. Public–private mix, energy shortages, health as right vs commodity. Carrying capacity, pollution, Chipko to contemporary climate. Development that keeps future options open. India’s dual burden: poverty and pollution. India, Pakistan, China: growth paths, demographic transition, HDI, reforms timing. China is not a photocopyable model; institutions differ."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Development & Livelihoods: synthesis.",
+              "back": "Human Capital Formation: Education and health as investment. India’s education structure, still-large quality gaps, gender. Human capital vs human development."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Development & Livelihoods: synthesis?",
+              "back": "Rural Development: Credit (cooperatives, SHGs, NABARD), agriculture marketing, organic farming, diversification (animal husbandry, fisheries). Rural is not only crop."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Productivity in the context of today's Development & Livelihoods: synthesis study.",
+              "back": "Output relative to an input."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Development & Livelihoods: synthesis?",
+              "back": "Being employed does not establish that a person has adequate income or social protection."
+            }
+          ]
         },
         {
           "day": 60,
@@ -1343,7 +3054,9 @@
             "Employment: Growth, Informalisation: Workforce, self vs hired, informalisation, jobless growth worry, government as employer. Quality of jobs matters as much as count.",
             "Infrastructure: Energy, transport, communication, health, education as infrastructure. Public–private mix, energy shortages, health as right vs commodity.",
             "Environment and Sustainable Development: Carrying capacity, pollution, Chipko to contemporary climate. Development that keeps future options open. India’s dual burden: poverty and pollution.",
-            "Comparative Development Experiences of India and Neighbours: India, Pakistan, China: growth paths, demographic transition, HDI, reforms timing. China is not a photocopyable model; institutions differ."
+            "Comparative Development Experiences of India and Neighbours: India, Pakistan, China: growth paths, demographic transition, HDI, reforms timing. China is not a photocopyable model; institutions differ.",
+            "Key term for review: Remittance — Resources sent by a migrant to another household or place.",
+            "Study lens: Development & Livelihoods: assessment & repair: define and measure the issue, trace the cause-and-effect channel, identify who gains or bears costs, and note a short- versus long-run trade-off."
           ],
           "reading": "Revisit your notes for Poverty as a Challenge; Food Security in India; Development; Sectors of the Indian Economy; Globalisation and the Indian Economy; Consumer Rights; Indian Economy on the Eve of Independence; Indian Economy 1950–1990; Liberalisation, Privatisation and Globalisation; Poverty; Human Capital Formation; Rural Development; Employment: Growth, Informalisation; Infrastructure; Environment and Sustainable Development; Comparative Development Experiences of India and Neighbours. Re-read the assigned source sections only where your recall is weak.",
           "task": "Use the official-paper link or your question bank for a timed 20-question topic test and one short answer. Mark the gaps, explain your errors and schedule a second recall attempt.",
@@ -1357,7 +3070,34 @@
             "keec1",
             "jess2"
           ],
-          "mode": "test"
+          "mode": "test",
+          "flashcards": [
+            {
+              "label": "Recall",
+              "front": "Which two distinctions remain hardest to explain, and what evidence or example resolves each?",
+              "back": "Poverty as capability failure, not only income. Estimates, social groups, interstate variation. Causes: colonial drain, low growth earlier, inequality, social exclusion. Anti-poverty: growth + targeted schemes (historical MGNREGA-type idea). Availability, access, absorption. Buffer stocks, PDS, cooperatives. Hunger can exist with granaries if access fails. Revise NFSA in current affairs on top of this chapter. Different people, different development goals. Income vs HDI (health, education). Sustainability: groundwater, environment. National development is comparison plus justice, not only average income. Primary, secondary, tertiary; organised vs unorganised; public vs private. Tertiary’s rising share vs still-large farm employment—structural change is incomplete. MGNREGA and labour protection appear as policy. MNCs, trade liberalisation, WTO, SEZs, winners and losers among producers and workers. Globalisation is technology + policy, not fate. Connect to 1991 reforms at plus-two. COPRA, consumer forums, rights to safety, information, choice, redressal. Markets need rules. ISI/Agmark as quality marks. Stagnant agriculture, deindustrialisation, poor infrastructure, drain, low literacy. The colonial structure is the starting point of planning. Planning Commission, mixed economy, land reforms, Green Revolution, industry (IPR 1956), public sector. Achievements and the licence-permit costs. Food self-sufficiency vs inefficiency debate. 1991 crisis, LPG, WTO era, NITI replacing Planning Commission in later current affairs. Outcomes: growth, inequality, services boom, farm distress unfinished. Measurement debates, causes, policy (growth vs targeted), multidimensional poverty in later data. Link Class 9 to technical estimates. Education and health as investment. India’s education structure, still-large quality gaps, gender. Human capital vs human development. Credit (cooperatives, SHGs, NABARD), agriculture marketing, organic farming, diversification (animal husbandry, fisheries). Rural is not only crop. Workforce, self vs hired, informalisation, jobless growth worry, government as employer. Quality of jobs matters as much as count. Energy, transport, communication, health, education as infrastructure. Public–private mix, energy shortages, health as right vs commodity. Carrying capacity, pollution, Chipko to contemporary climate. Development that keeps future options open. India’s dual burden: poverty and pollution. India, Pakistan, China: growth paths, demographic transition, HDI, reforms timing. China is not a photocopyable model; institutions differ."
+            },
+            {
+              "label": "Core point",
+              "front": "Name a central idea from today's notes on Development & Livelihoods: assessment & repair.",
+              "back": "Poverty as a Challenge: Poverty as capability failure, not only income. Estimates, social groups, interstate variation. Causes: colonial drain, low growth earlier, inequality, social exclusion. Anti-poverty: growth + targeted schemes (historical MGNREGA-type idea)."
+            },
+            {
+              "label": "Distinction",
+              "front": "What distinction or caution matters for Development & Livelihoods: assessment & repair?",
+              "back": "Food Security in India: Availability, access, absorption. Buffer stocks, PDS, cooperatives. Hunger can exist with granaries if access fails. Revise NFSA in current affairs on top of this chapter."
+            },
+            {
+              "label": "Key term",
+              "front": "Define Remittance in the context of today's Development & Livelihoods: assessment & repair study.",
+              "back": "Resources sent by a migrant to another household or place."
+            },
+            {
+              "label": "Exam trap",
+              "front": "What common misconception should you avoid when studying Development & Livelihoods: assessment & repair?",
+              "back": "Being employed does not establish that a person has adequate income or social protection."
+            }
+          ]
         }
       ]
     }
