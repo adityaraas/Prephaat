@@ -224,6 +224,7 @@ async function requireSession() {
 function renderTabs() {
   const items = [
     { id: "current", label: "Current affairs" },
+    { id: "editorials", label: "Editorials" },
     { id: "mapping", label: "Mapping" },
     { id: "quiz", label: "Test yourself" },
     { id: "pyq", label: "PYQ" },
@@ -238,6 +239,8 @@ async function showTab(id) {
     button.classList.toggle("on", button.dataset.tab === id);
   }
   const isNews = id === "current";
+  const isEditorials = id === "editorials";
+  document.getElementById("editorials").hidden = !isEditorials;
   const isQuiz = id === "quiz";
   const isPyq = id === "pyq";
   const isSurvey = id === "survey";
@@ -248,8 +251,10 @@ async function showTab(id) {
   pyqEl.hidden = !isPyq;
   surveyEl.hidden = !isSurvey;
   mappingEl.hidden = !isMapping;
-  subjectEl.hidden = isNews || isQuiz || isPyq || isSurvey || isMapping;
-  if (isQuiz) {
+  subjectEl.hidden = isNews || isEditorials || isQuiz || isPyq || isSurvey || isMapping;
+  if (isEditorials) {
+    await EditorialDesk.mount(document.getElementById("editorials-board"));
+  } else if (isQuiz) {
     renderQuizPick();
     renderTracker();
     loadHistory();
@@ -1646,7 +1651,7 @@ document.getElementById("logout").addEventListener("click", async () => {
   renderSyllabus();
   bindSearch();
   rebuildSearchIndex();
-  showTab(testPage || window.location.hash === "#quiz" ? "quiz" : "current");
+  showTab(window.location.hash.startsWith("#editorials") ? "editorials" : window.location.hash === "#quiz" ? "quiz" : "current");
 
   if (newsRes.ok) {
     const payload = await newsRes.json();

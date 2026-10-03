@@ -7,3 +7,6 @@ node_modules/
 .fly/
 public/survey/*.pdf
 tmp/resources/
+.cache/
+tmp/editorial-*.html
+tmp/editorial-*.xml

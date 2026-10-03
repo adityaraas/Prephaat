@@ -27,6 +27,7 @@ import {
 } from "./google.ts";
 import { SURVEY_KEYS, signedGetUrl } from "./storage.ts";
 import { answerChat } from "./chat.ts";
+import { EditorialError, getEditorialAnalysis, getEditorialCatalog } from "./editorials.ts";
 
 const PORT = Number(process.env.PORT) || 3000;
 const publicDir = join(import.meta.dirname, "public");
@@ -289,6 +290,25 @@ const server = createServer(async (req, res) => {
         sources: payload.sources,
         updatedAt: payload.at,
       });
+      return;
+    }
+
+    if (req.method === "GET" && url.pathname === "/api/editorials") {
+      if (!(await requireAccount(req, res))) return;
+      send(res, 200, await getEditorialCatalog());
+      return;
+    }
+
+    const editorialMatch = url.pathname.match(/^\/api\/editorials\/([a-f0-9]{20})\/analysis$/);
+    if (req.method === "POST" && editorialMatch) {
+      if (!(await requireAccount(req, res))) return;
+      try {
+        send(res, 200, { analysis: await getEditorialAnalysis(editorialMatch[1]) });
+      } catch (error) {
+        send(res, error instanceof EditorialError ? error.status : 503, {
+          error: error instanceof EditorialError ? error.message : "Could not load this study note. Please try again.",
+        });
+      }
       return;
     }
 
