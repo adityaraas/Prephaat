@@ -1,9 +1,5 @@
-const articlesEl = document.getElementById("articles");
 const feedEl = document.getElementById("feed");
-const feedMeta = document.getElementById("feed-meta");
-const sourceFilters = document.getElementById("source-filters");
 const subjectEl = document.getElementById("subject");
-const methodEl = document.getElementById("paper-method");
 const quizEl = document.getElementById("quiz");
 const trackerEl = document.getElementById("tracker");
 const quizPick = document.getElementById("quiz-pick");
@@ -26,7 +22,6 @@ const surveyBoard = document.getElementById("survey-board");
 const mappingEl = document.getElementById("mapping");
 
 let newsItems = [];
-let activeSource = "all";
 let studyData = null;
 let resourceData = null;
 let syllabusData = null;
@@ -246,13 +241,16 @@ async function showTab(id) {
   const isSurvey = id === "survey";
   const isMapping = id === "mapping";
   feedEl.hidden = !isNews;
-  methodEl.hidden = !isNews;
   quizEl.hidden = !isQuiz;
   pyqEl.hidden = !isPyq;
   surveyEl.hidden = !isSurvey;
   mappingEl.hidden = !isMapping;
   subjectEl.hidden = isNews || isEditorials || isQuiz || isPyq || isSurvey || isMapping;
-  if (isEditorials) {
+  if (isNews) {
+    await MonthlyCurrentAffairs.mount(document.getElementById("monthly-current-affairs"));
+    newsItems = MonthlyCurrentAffairs.getSearchItems();
+    rebuildSearchIndex();
+  } else if (isEditorials) {
     await EditorialDesk.mount(document.getElementById("editorials-board"));
   } else if (isQuiz) {
     renderQuizPick();
@@ -603,45 +601,6 @@ function extraModulesHtml(id, heading = "More material") {
     .join("")}`;
 }
 
-function renderMethod() {
-  const steps = studyData.howToReadPaper.steps
-    .map((step) => `<li>${escapeHtml(step)}</li>`)
-    .join("");
-  methodEl.innerHTML = `<h2>${escapeHtml(studyData.howToReadPaper.title)}</h2><ol>${steps}</ol>${extraModulesHtml("current", "CA notebooks")}`;
-}
-
-function renderFilters() {
-  const sources = ["all", ...new Set(newsItems.map((item) => item.source))];
-  sourceFilters.innerHTML = sources
-    .map(
-      (source) =>
-        `<button type="button" data-source="${escapeHtml(source)}" class="${source === activeSource ? "on" : ""}">${source === "all" ? "All desks" : escapeHtml(source)}</button>`
-    )
-    .join("");
-}
-
-function renderArticles() {
-  const list = newsItems.filter((item) => activeSource === "all" || item.source === activeSource);
-  if (!list.length) {
-    articlesEl.innerHTML = `<p class="empty">No stories loaded. Check the network, then refresh. Subject notes below still work.</p>`;
-    return;
-  }
-  articlesEl.innerHTML = list
-    .map((item) => {
-      const date = item.published ? new Date(item.published).toLocaleString("en-IN", { dateStyle: "medium" }) : "";
-      const tags = (item.tags || []).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("");
-      return `
-        <article class="article" data-hit="news:${escapeHtml(item.title)}">
-          <span class="badge">${escapeHtml(item.source)} · ${escapeHtml(item.section)}</span>
-          <span class="meta">${escapeHtml(date)}</span>
-          <h3><a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a></h3>
-          <p>${escapeHtml(item.summary)}</p>
-          <div class="tags">${tags}</div>
-        </article>`;
-    })
-    .join("");
-}
-
 async function renderSubject(id) {
   const subject = studyData.subjects.find((entry) => entry.id === id);
   if (!subject) return;
@@ -944,7 +903,7 @@ function rebuildSearchIndex() {
   pushSearchDoc({
     kind: "Page",
     title: "Current affairs",
-    snippet: "Live newspaper feed and CA notebooks",
+    snippet: "Monthly current affairs, why in news, ten-line summaries and UPSC syllabus links",
     tab: "current",
   });
   pushSearchDoc({
@@ -974,15 +933,6 @@ function rebuildSearchIndex() {
       quizSubject: subject.id,
     });
   }
-  if (studyData?.howToReadPaper) {
-    pushSearchDoc({
-      kind: "Method",
-      title: studyData.howToReadPaper.title,
-      snippet: (studyData.howToReadPaper.steps || []).slice(0, 2).join(" "),
-      body: (studyData.howToReadPaper.steps || []).join(" "),
-      tab: "current",
-    });
-  }
   for (const subject of studyData?.subjects ?? []) {
     pushSearchDoc({
       kind: "Subject",
@@ -1005,7 +955,7 @@ function rebuildSearchIndex() {
     }
   }
   for (const [id, extras] of Object.entries(extraNotes || {})) {
-    if (HistoryPlan.subjects.includes(id)) continue;
+    if (id === "current" || HistoryPlan.subjects.includes(id)) continue;
     if (!Array.isArray(extras)) continue;
     const tab = id === "current" ? "current" : id;
     for (const mod of extras) {
@@ -1031,7 +981,7 @@ function rebuildSearchIndex() {
     });
   }
   for (const id of NCERT_IDS) {
-    if (HistoryPlan.subjects.includes(id)) continue;
+    if (id === "current" || HistoryPlan.subjects.includes(id)) continue;
     const pack = ncertCache[id];
     for (const book of pack?.books || []) {
       for (const ch of book.chapters || []) {
@@ -1070,6 +1020,7 @@ function rebuildSearchIndex() {
       snippet: clipText(item.summary || item.source),
       body,
       tab: "current",
+      currentAffairId: item.id,
       hit: `news:${item.title}`,
     });
   }
@@ -1268,6 +1219,7 @@ async function openSearchResult(item) {
   if (item.quizSubject) quizSubject = item.quizSubject;
   if (item.courseDay) history.replaceState(null, "", `#${item.tab === "history" ? "" : item.tab + "-"}day-${item.courseDay}`);
   await showTab(item.tab);
+  if (item.currentAffairId) MonthlyCurrentAffairs.openItem(item.currentAffairId);
   if (item.courseDay) document.getElementById("lesson-title")?.focus();
   if (item.quizSubject) loadQuiz(item.quizSubject);
   window.setTimeout(() => scrollHit(item.hit), 60);
@@ -1428,13 +1380,6 @@ surveyEl.addEventListener("click", async (event) => {
   renderSurveyQuiz();
 });
 
-sourceFilters.addEventListener("click", (event) => {
-  const button = event.target.closest("button[data-source]");
-  if (!button) return;
-  activeSource = button.dataset.source;
-  renderFilters();
-  renderArticles();
-});
 
 quizPick.addEventListener("click", (event) => {
   const button = event.target.closest("button[data-quiz-test]");
@@ -1616,15 +1561,12 @@ document.querySelector(".syllabus-tabs").addEventListener("click", (event) => {
   renderSyllabus();
 });
 
-document.getElementById("logout").addEventListener("click", async () => {
-  await fetch("/api/logout", { method: "POST" });
-  window.location.href = "/";
-});
+
 
 (async () => {
   const session = await requireSession();
   if (!session) return;
-  document.getElementById("who").textContent = session.account.name;
+  SiteProfile.setAccount(session.account);
 
   // Start the paper before loading unrelated dashboard data or account trackers.
   if (testPage) {
@@ -1635,10 +1577,9 @@ document.getElementById("logout").addEventListener("click", async () => {
     return;
   }
 
-  const [subjectsRes, syllabusRes, newsRes, extraRes, resources] = await Promise.all([
+  const [subjectsRes, syllabusRes, extraRes, resources] = await Promise.all([
     fetch("/data/subjects.json"),
     fetch("/data/syllabus.json"),
-    fetch("/api/current-affairs"),
     fetch("/data/extra-notes.json"),
     ResourceLibrary.load().catch(() => null),
   ]);
@@ -1647,24 +1588,11 @@ document.getElementById("logout").addEventListener("click", async () => {
   extraNotes = extraRes.ok ? await extraRes.json() : {};
   syllabusData = await syllabusRes.json();
   renderTabs();
-  renderMethod();
   renderSyllabus();
   bindSearch();
   rebuildSearchIndex();
   showTab(window.location.hash.startsWith("#editorials") ? "editorials" : window.location.hash === "#quiz" ? "quiz" : "current");
 
-  if (newsRes.ok) {
-    const payload = await newsRes.json();
-    newsItems = payload.items ?? [];
-    const age = payload.updatedAt ? `Updated ${new Date(payload.updatedAt).toLocaleTimeString("en-IN")}` : "";
-    const live = (payload.sources ?? []).join(", ") || "no live feeds";
-    feedMeta.textContent = `${newsItems.length} stories · ${live} · ${age}`;
-  } else {
-    feedMeta.textContent = "Live feeds need a signed-in session.";
-  }
-  renderFilters();
-  renderArticles();
-  rebuildSearchIndex();
   warmSearchIndex();
   await loadTracker();
   loadHistory();

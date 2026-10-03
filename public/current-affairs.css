@@ -1,0 +1,52 @@
+#feed { padding: 0; overflow: hidden; }
+#monthly-current-affairs { padding: 32px; }
+.ca-eyebrow { font-size: 10px; font-weight: 800; letter-spacing: .15em; color: var(--site-accent); }
+.ca-hero { padding: 20px 0 30px; border-bottom: 1px solid var(--site-line); margin-bottom: 28px; }
+.ca-hero h2 { font-family: var(--site-serif); font-weight: 400; font-size: clamp(32px, 4vw, 46px); line-height: 1.15; letter-spacing: -.04em; margin: 15px 0 20px; }
+.ca-hero p { color: var(--site-muted); font-size: 14px; line-height: 1.8; }
+.ca-range { display: flex; flex-wrap: wrap; gap: 10px 18px; margin-top: 24px; color: var(--site-muted); font-size: 11px; }
+.ca-range span:first-child { color: var(--site-primary); font-weight: 800; }
+.ca-layout { display: grid; grid-template-columns: 190px minmax(0, 1fr); gap: 28px; align-items: start; }
+.ca-months { position: sticky; top: 120px; }
+.ca-months h3 { font-size: 13px; margin: 0 0 16px; }
+.ca-months nav { display: grid; gap: 6px; max-height: 60vh; overflow-y: auto; padding-right: 5px; }
+.ca-months button { display: flex; flex-direction: column; gap: 6px; text-align: left; padding: 13px 14px; border: 1px solid transparent; border-radius: 10px; background: transparent; color: var(--site-muted); font: inherit; font-size: 12px; cursor: pointer; }
+.ca-months button small { font-size: 10px; opacity: .8; }
+.ca-months button:hover { background: var(--site-soft); }
+.ca-months button[aria-pressed=true] { background: var(--site-primary); color: white; }
+.ca-months > p { color: var(--site-muted); font-size: 10px; line-height: 1.8; margin-top: 18px; }
+.ca-main { min-width: 0; }
+.ca-controls { display: grid; grid-template-columns: minmax(0, 1fr) 110px; gap: 12px; }
+.ca-controls label { font-size: 10px; font-weight: 700; color: var(--site-muted); }
+.ca-controls input[type=search], .ca-controls select { display: block; width: 100%; box-sizing: border-box; min-width: 0; margin-top: 8px; padding: 12px; border: 1px solid var(--site-line); border-radius: 8px; background: var(--site-card); color: var(--site-ink); font: inherit; font-size: 12px; }
+.ca-controls .ca-all { grid-column: 1 / -1; display: flex; align-items: center; gap: 6px; font-size: 11px; font-weight: 400; }
+.ca-all input { accent-color: var(--site-primary); }
+.ca-month-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 10px; margin: 26px 0 17px; scroll-margin-top: 115px; }
+.ca-month-head h3 { margin: 0; font-size: 22px; letter-spacing: -.04em; }
+.ca-month-head p { margin: 0; color: var(--site-muted); font-size: 11px; }
+.ca-story { border: 1px solid var(--site-line); border-radius: 14px; margin-bottom: 18px; background: var(--site-card); scroll-margin-top: 115px; }
+.ca-story > summary { padding: 21px; list-style: none; cursor: pointer; }
+.ca-story > summary::-webkit-details-marker { display: none; }
+.ca-story-meta { display: flex; flex-wrap: wrap; gap: 12px; color: var(--site-muted); font-size: 10px; }
+.ca-story-meta span { color: var(--site-primary); font-weight: 700; }
+.ca-story h3 { font-size: 20px; letter-spacing: -.035em; line-height: 1.45; margin: 14px 0 18px; }
+.ca-open-hint { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 10px; color: var(--site-muted); }
+.ca-open-hint span { font-size: 16px; color: var(--site-primary); }
+.ca-story[open] .ca-open-hint span { transform: rotate(45deg); }
+.ca-story-content { padding: 0 21px 22px; border-top: 1px solid var(--site-line); }
+.ca-story-content h4 { font-size: 14px; margin: 0 0 12px; }
+.ca-story-content p { font-size: 13px; line-height: 1.9; margin: 0; }
+.ca-news-trigger { margin: 22px 0; padding: 18px; border-left: 3px solid var(--site-primary); border-radius: 0 10px 10px 0; background: var(--site-soft); }
+.ca-summary { margin-bottom: 26px; }
+.ca-summary ol { list-style: none; counter-reset: ca-lines; display: grid; gap: 0; padding: 0; margin: 0; }
+.ca-summary li { counter-increment: ca-lines; display: flex; align-items: baseline; gap: 13px; padding: 12px 0; border-bottom: 1px solid var(--site-line); font-size: 13px; line-height: 1.8; }
+.ca-summary li::before { content: counter(ca-lines, decimal-leading-zero); flex: 0 0 20px; color: var(--site-accent); font-size: 10px; font-weight: 700; }
+.ca-relevance { margin: 25px 0; }
+.ca-syllabus { display: grid; grid-template-columns: 54px minmax(0, 1fr); gap: 13px; padding: 15px 0; }
+.ca-syllabus > span { align-self: start; padding: 9px 5px; border-radius: 7px; background: var(--highlight-soft); color: var(--highlight-ink); font-weight: 800; font-size: 10px; text-align: center; }
+.ca-syllabus h5 { font-size: 13px; margin: 0 0 8px; }
+.ca-source { font-size: 11px; font-weight: 700; }
+.ca-story-content .ca-source-note { font-size: 10px; color: var(--site-muted); margin-top: 12px; }
+.ca-empty { padding: 25px; background: var(--site-soft); border-radius: 12px; color: var(--site-muted); font-size: 13px; line-height: 1.8; }
+@media(max-width:800px) { #monthly-current-affairs { padding: 24px; } .ca-layout { grid-template-columns: 150px minmax(0, 1fr); gap: 20px; } }
+@media(max-width:600px) { #monthly-current-affairs { padding: 18px; } .ca-layout { grid-template-columns: 1fr; gap: 20px; } .ca-months { position: static; } .ca-months nav { display: flex; overflow-x: auto; max-height: none; padding: 0 0 8px; } .ca-months button { flex: 0 0 145px; } .ca-months > p { display: none; } .ca-hero { padding-top: 10px; } .ca-story > summary { padding: 18px; } .ca-story-content { padding-inline: 18px; } }

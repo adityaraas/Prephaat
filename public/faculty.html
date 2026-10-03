@@ -7,7 +7,8 @@
     <link rel="icon" href="/logo.svg" />
     <link rel="stylesheet" href="/study.css" />
     <link rel="stylesheet" href="/theme.css" />
-    <script src="/theme.js"></script>
+    <link rel="stylesheet" href="/profile.css?v=20261003-1" />
+    <script src="/theme.js?v=20261003-1"></script>
   </head>
   <body>
     <header class="mast">
@@ -19,8 +20,16 @@
         </div>
       </a>
       <div class="mast-right">
-        <a href="/home">Student view</a>
-        <button type="button" id="logout" class="ghost">Sign out</button>
+        <details class="profile-menu" id="profile-menu">
+          <summary class="profile-trigger"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="4"/><path d="M7 9h4M7 13h4M15 9h2M15 13h2"/></svg><span>My Profile</span><svg class="profile-chevron" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m4 6 4 4 4-4"/></svg></summary>
+          <div class="profile-popover">
+            <div class="profile-identity"><span class="profile-avatar" id="profile-avatar" aria-hidden="true">MP</span><div><p id="who" class="who">My account</p><p id="profile-email" class="profile-email"></p></div></div>
+            <details class="profile-user-details"><summary>User details</summary><dl><dt>Name</dt><dd id="profile-name">&mdash;</dd><dt>Email</dt><dd id="profile-detail-email">&mdash;</dd><dt>Account</dt><dd id="profile-role">&mdash;</dd></dl></details>
+            <nav class="profile-links" aria-label="Profile navigation"><a id="faculty-link" href="/faculty">Faculty Desk <span aria-hidden="true">&nearr;</span></a><a href="/records">Records <span aria-hidden="true">&nearr;</span></a><a href="/library">Study Library <span aria-hidden="true">&nearr;</span></a><a href="/home">Study Desk <span aria-hidden="true">&nearr;</span></a></nav>
+            <div id="profile-preferences" class="profile-preferences"></div>
+            <button type="button" id="logout" class="profile-signout">Sign out</button><p id="profile-status" class="profile-email" role="status"></p>
+          </div>
+        </details>
       </div>
     </header>
     <div class="layout">
@@ -66,6 +75,7 @@
         <div id="mine"></div>
       </section>
     </div>
-    <script src="/faculty.js"></script>
+    <script src="/profile.js?v=20261003-1"></script>
+    <script src="/faculty.js?v=20261003-1"></script>
   </body>
 </html>

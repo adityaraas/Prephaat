@@ -113,13 +113,11 @@ mineEl.addEventListener("click", async (event) => {
   }
 });
 
-document.getElementById("logout").addEventListener("click", async () => {
-  await fetch("/api/logout", { method: "POST" });
-  window.location.href = "/";
-});
+
 
 (async () => {
   const session = await me();
   if (!session) return;
+  SiteProfile.setAccount(session.account);
   if (session.account.role === "faculty") showFaculty();
 })();
