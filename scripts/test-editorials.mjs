@@ -90,4 +90,27 @@ assert.match(host.querySelector('#ed-note').innerHTML, /Read the original editor
 location.hash = '#editorials/' + '0'.repeat(20);
 await context.desk.mount(host);
 assert.match(host.innerHTML, /Beyond the headline/);
+
+// A temporary static-file failure must not poison every subsequent retry.
+let preparedAttempts = 0;
+const retryContext = vm.createContext({
+  window: { location }, history: { replaceState(_, __, hash) { location.hash = hash; } },
+  localStorage: { getItem: () => null, setItem() {} }, AbortSignal,
+  fetch: async url => {
+    if (url === '/data/editorials.json') return { ok: true, json: async () => catalog };
+    if (url === '/data/editorial-analysis.json') {
+      preparedAttempts++;
+      return preparedAttempts === 1 ? { ok: false, status: 503 } : { ok: true, json: async () => pack };
+    }
+    return { ok: false, status: 502, json: async () => { throw new SyntaxError('HTML proxy response'); } };
+  },
+});
+vm.runInContext(readFileSync('public/editorials.js', 'utf8') + '\nglobalThis.desk = EditorialDesk;', retryContext);
+location.hash = '#editorials/' + id;
+await retryContext.desk.mount(host);
+assert.match(host.querySelector('#ed-note').innerHTML, /Could not load this study note/);
+assert(!host.querySelector('#ed-note').innerHTML.includes('HTML proxy response'));
+await retryContext.desk.mount(host);
+assert.equal(preparedAttempts, 2);
+assert.match(host.querySelector('#ed-note').innerHTML, /Original practice question/);
 console.log(`PASS: ${catalog.items.length} dated source links; ${Object.keys(pack).length} valid study notes; extraction, access restrictions, filters, detail sections, practice drafts, caching and failure states.`);

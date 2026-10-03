@@ -6,9 +6,9 @@ const EditorialDesk = (() => {
   const notes = new Map();
   let preparedNotes;
   function loadPreparedNotes() {
-    preparedNotes ??= fetch("/data/editorial-analysis.json")
-      .then((response) => response.ok ? response.json() : {})
-      .catch(() => ({}));
+    preparedNotes ??= fetch("/data/editorial-analysis.json", { signal: AbortSignal.timeout(15000), cache: "no-store" })
+      .then((response) => { if (!response.ok) throw new Error("Prepared notes could not load"); return response.json(); })
+      .catch(() => { preparedNotes = undefined; return {}; });
     return preparedNotes;
   }
   let saved = [];
@@ -76,8 +76,9 @@ const EditorialDesk = (() => {
       let analysis = notes.get(id) || (await loadPreparedNotes())[id];
       if (!analysis) {
         const response = await fetch(`/api/editorials/${id}/analysis`, { method: "POST", signal: AbortSignal.timeout(115000) });
-        const data = await response.json();
+        const data = await response.json().catch(() => ({}));
         if (!response.ok) throw new Error(response.status === 404 ? "This study note is not available yet. Please try another editorial or read the original." : data.error || "Could not load this study note.");
+        if (!data.analysis) throw new Error("This study note could not be loaded. Please try again.");
         analysis = data.analysis;
         notes.set(id, analysis);
       }

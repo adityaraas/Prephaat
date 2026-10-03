@@ -15,6 +15,7 @@ export type EditorialAnalysis = {
 const dataPath = new URL("./public/data/editorials.json", import.meta.url);
 const cacheDir = join(import.meta.dirname, ".cache", "editorial-analysis");
 const pending = new Map<string, Promise<EditorialAnalysis>>();
+const completed = new Map<string, EditorialAnalysis>();
 let catalog: { generatedAt: string; range: { start: string; end: string }; coverage: unknown[]; items: Editorial[] } | undefined;
 export async function getEditorialCatalog() {
   catalog ??= JSON.parse(await readFile(dataPath, "utf8"));
@@ -81,11 +82,15 @@ async function createAnalysis(item: Editorial): Promise<EditorialAnalysis> {
   const article = parseArticle(html);
   if (article.published && article.published !== item.published) throw new EditorialError("The publisher’s article date does not match this archive entry. Please read the original editorial.", 422);
   if (!article.accessible || article.body.split(/\s+/).length < 100) throw new EditorialError("The full editorial is not publicly available for analysis. Open the publisher link to read it.", 422);
-  const model = process.env.EDITORIAL_MODEL?.trim() || "gemini-3-flash-preview";
-  let response: Response;
-  try {
-    response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent`, {
-      method: "POST", signal: AbortSignal.timeout(90000),
+  const models = [...new Set([process.env.EDITORIAL_MODEL?.trim() || "gemini-3.1-flash-lite-preview", "gemini-3.1-flash-lite-preview", "gemini-3-flash-preview"])];
+  // One shared deadline includes fallbacks, so the client can wait for the result.
+  const signal = AbortSignal.timeout(85000);
+  let analysis: EditorialAnalysis | undefined;
+  let failure = new EditorialError("Study notes are temporarily unavailable. Please try again.");
+  for (const model of models) {
+    try {
+      const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent`, {
+      method: "POST", signal,
       headers: { "Content-Type": "application/json", "x-goog-api-key": key },
       body: JSON.stringify({ systemInstruction: { parts: [{ text: SYSTEM }] },
         contents: [{ role: "user", parts: [{ text: JSON.stringify({ title: item.title, publisher: item.source, date: item.published, article: article.body.slice(0, 28000) }) }] }],
@@ -93,29 +98,49 @@ async function createAnalysis(item: Editorial): Promise<EditorialAnalysis> {
           ...(model.startsWith("gemini-3") ? { thinkingConfig: { thinkingLevel: "low" } } : {}),
         },
       }),
-    });
-  } catch { throw new EditorialError("The study note took too long to load. Please try again."); }
-  if (!response.ok) throw new EditorialError(response.status === 429 ? "Study notes are busy right now. Please try again shortly." : "Study notes are temporarily unavailable. Please try again.");
-  const result: any = await response.json();
-  const output = result.candidates?.[0]?.content?.parts?.filter((part: any) => !part.thought).map((part: any) => part.text ?? "").join("");
-  let raw: any;
-  try { raw = JSON.parse(output); } catch { throw new EditorialError("The study note was incomplete. Please try again."); }
-  const analysis = { ...validateAnalysis(raw), generatedAt: new Date().toISOString(), sourceUrl: item.url, sourcePublished: item.published } as EditorialAnalysis;
-  await mkdir(cacheDir, { recursive: true });
-  const temporary = join(cacheDir, `${item.id}.${randomBytes(5).toString("hex")}.tmp`);
-  await writeFile(temporary, JSON.stringify(analysis));
-  await rename(temporary, join(cacheDir, `${item.id}.json`));
+      });
+      if (!response.ok) {
+        failure = new EditorialError(response.status === 429 ? "Study notes are busy right now. Please try again shortly." : "Study notes are temporarily unavailable. Please try again.");
+        console.warn(`[editorials] Model ${model} returned HTTP ${response.status}`);
+        if ([404, 429, 500, 502, 503, 504].includes(response.status)) continue;
+        throw failure;
+      }
+      const result: any = await response.json();
+      const output = result.candidates?.[0]?.content?.parts?.filter((part: any) => !part.thought).map((part: any) => part.text ?? "").join("");
+      analysis = { ...validateAnalysis(JSON.parse(output)), generatedAt: new Date().toISOString(), sourceUrl: item.url, sourcePublished: item.published } as EditorialAnalysis;
+      break;
+    } catch (error) {
+      if (signal.aborted) throw new EditorialError("The study note took too long to load. Please try again.");
+      if (error === failure) throw error;
+      failure = error instanceof EditorialError ? error : new EditorialError("The study note was incomplete. Please try again.");
+      console.warn(`[editorials] Model ${model} did not produce a complete study note`);
+    }
+  }
+  if (!analysis) throw failure;
+  completed.set(item.id, analysis);
+  try {
+    await mkdir(cacheDir, { recursive: true });
+    const temporary = join(cacheDir, `${item.id}.${randomBytes(5).toString("hex")}.tmp`);
+    await writeFile(temporary, JSON.stringify(analysis));
+    await rename(temporary, join(cacheDir, `${item.id}.json`));
+  } catch {
+    // Persistence is optional on ephemeral/read-only deployment filesystems.
+    console.warn(`[editorials] Could not persist note ${item.id}; retained in memory`);
+  }
   return analysis;
 }
 export async function getEditorialAnalysis(id: string) {
   const item = (await getEditorialCatalog()).items.find((entry) => entry.id === id);
   if (!item) throw new EditorialError("Editorial not found.", 404);
+  if (completed.has(id)) return completed.get(id)!;
   // Prebuilt notes ship with the archive; newly requested notes are cached locally.
   try {
     const pack = JSON.parse(await readFile(new URL("./public/data/editorial-analysis.json", import.meta.url), "utf8"));
     if (pack[id]) return pack[id] as EditorialAnalysis;
   } catch {}
   try { return JSON.parse(await readFile(join(cacheDir, `${id}.json`), "utf8")) as EditorialAnalysis; } catch {}
+  // Another request may have finished while this request checked disk caches.
+  if (completed.has(id)) return completed.get(id)!;
   if (pending.has(id)) return pending.get(id)!;
   if (pending.size >= 3) throw new EditorialError("Study notes are busy right now. Please try again shortly.", 429);
   const job = createAnalysis(item).finally(() => pending.delete(id));
