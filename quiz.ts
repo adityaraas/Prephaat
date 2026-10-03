@@ -1,4 +1,5 @@
 import { sql } from "./db.ts";
+import { readFileSync } from "node:fs";
 import { isQuizSubject, pickQuiz, publicQuestion, QUIZ_BANK, type QuizSubject } from "./quiz-bank.ts";
 
 const LABELS: Record<string, string> = {
@@ -17,6 +18,77 @@ export { isQuizSubject, type QuizSubject } from "./quiz-bank.ts";
 
 export function subjectLabel(subject: string) {
   return LABELS[subject] ?? subject;
+}
+
+type ExamQuestion = { id: string; q: string; n?: number; year?: number; options?: string[]; answer?: number; topic?: string; solution?: string; marks?: number };
+const PYQ = JSON.parse(readFileSync(new URL("./public/data/pyq-upsc.json", import.meta.url), "utf8")) as { papers: Array<{ exam: string; stage: string; year: number; paper: string; questions: ExamQuestion[] }> };
+const SUBJECT_TESTS = ["history", "geography", "polity", "economy", "science", "environment"];
+const topicSubject: Record<string, string> = { "History & Culture": "history", History: "history", Ancient: "history", Medieval: "history", Modern: "history", Culture: "history", Geography: "geography", Polity: "polity", Economy: "economy", Environment: "environment", Disaster: "environment", Science: "science", "S&T": "science", "Science & Technology": "science" };
+const prelimQuestions = PYQ.papers.filter((paper) => paper.exam === "upsc" && paper.stage === "prelims").flatMap((paper) => paper.questions.map((question) => ({ ...question, year: paper.year })));
+const mainsQuestions = PYQ.papers.filter((paper) => paper.exam === "upsc" && paper.stage === "mains").flatMap((paper) => paper.questions.map((question) => ({ ...question, topic: question.topic ?? paper.paper })));
+
+export function startTest(stage: string, testId: string, subject = "") {
+  if (stage === "prelims") {
+    let questions: any[];
+    let title: string;
+    let durationSeconds: number;
+    if (/^mock-[1-5]$/.test(testId)) {
+      const variant = Number(testId.split("-")[1]);
+      // Build five distinct 100-question forms from the available UPSC PYQs across years.
+      questions = prelimQuestions.map((q, index) => ({ q, rank: (index * (37 + variant * 2) + variant * 53) % 997 })).sort((a, b) => a.rank - b.rank).slice(0, 100).map(({ q }) => q);
+      title = `Full-length Prelims mock ${variant}`;
+      durationSeconds = 7200;
+    } else if (/^subject-(history|geography|polity|economy|science|environment)-[1-5]$/.test(testId)) {
+      const [, id, formText] = testId.match(/^subject-(history|geography|polity|economy|science|environment)-([1-5])$/)!;
+      const form = Number(formText);
+      const source = QUIZ_BANK.filter((q) => q.subject === id);
+      if (!source.length) throw new Error("No questions available for this subject yet");
+      const count = Math.min(10, source.length);
+      questions = Array.from({ length: count }, (_, index) => source[(index + form - 1) % source.length]);
+      title = `${subjectLabel(id)} subject test ${form}`;
+      durationSeconds = 1200;
+      subject = id;
+    } else throw new Error("Unknown test paper");
+    return { stage, testId, subject: subject || "mock", title, durationSeconds, marksPerCorrect: 2, negativeMarks: 2 / 3, questions: questions.map((q) => "prompt" in q ? publicQuestion(q) : ({ id: q.id, prompt: q.q, options: q.options, topic: q.topic })) };
+  }
+  if (stage === "mains" && /^mains-(gs|subject-(history|geography|polity|economy|science|environment))$/.test(testId)) {
+    const filterSubject = testId.includes("subject-") ? testId.split("subject-")[1] : "";
+    const selected = mainsQuestions.filter((q) => !filterSubject || topicSubject[q.topic ?? ""] === filterSubject);
+    if (!selected.length) throw new Error("No Mains questions found for this paper yet");
+    const questions = selected.map((q) => ({ id: q.id, prompt: q.q, topic: q.topic, marks: q.marks ?? 10, wordLimit: q.marks === 15 ? 250 : 150 }));
+    return { stage, testId, subject: filterSubject || "mains", title: filterSubject ? `${subjectLabel(filterSubject)} Mains practice` : "Mixed GS Mains practice", durationSeconds: Math.max(900, questions.length * 540), questions };
+  }
+  throw new Error("Unknown test paper");
+}
+
+export function gradeTest(stage: string, testId: string, subject: string, ids: string[], answers: Record<string, number>, responses: Record<string, string>, awarded: Record<string, number>) {
+  const test = startTest(stage, testId, subject);
+  const allowed = new Map(test.questions.map((q: any) => [q.id, q]));
+  if (!ids.length || ids.some((id) => !allowed.has(id))) throw new Error("Invalid question list");
+  if (stage === "prelims") {
+    const questions = new Map<string, any>();
+    for (const q of prelimQuestions) questions.set(q.id, { ...q, prompt: q.q, explain: q.solution ?? "" });
+    for (const q of QUIZ_BANK) questions.set(q.id, q);
+    const results = ids.map((id) => {
+      const q = questions.get(id); if (!q || !allowed.has(id)) throw new Error("Invalid question");
+      const chosen = Number.isInteger(Number(answers[id])) ? Number(answers[id]) : -1;
+      const ok = chosen >= 0 && chosen === q.answer;
+      const marks = ok ? 2 : chosen >= 0 ? -2 / 3 : 0;
+      return { id, prompt: q.prompt, options: q.options, chosen, correctIndex: q.answer, ok, explain: q.explain ?? "", marks_awarded: marks, response: "", max_marks: 2, word_limit: 0, topic: q.topic ?? subjectLabel(subject) };
+    });
+    const correct = results.filter((r) => r.ok).length;
+    const wrong = results.filter((r) => r.chosen >= 0 && !r.ok).length;
+    return { stage, testId, subject, title: test.title, correct, wrong, total: results.length, score: results.reduce((sum, r) => sum + r.marks_awarded, 0), maxScore: results.length * 2, results };
+  }
+  const results = ids.map((id) => {
+    const q: any = allowed.get(id);
+    const source = mainsQuestions.find((item) => item.id === id);
+    const response = String(responses[id] ?? "").slice(0, 20000);
+    const mark = Math.max(0, Math.min(Number(q.marks), Number(awarded[id]) || 0));
+    const wordCount = response.trim() ? response.trim().split(/\s+/).length : 0;
+    return { id, prompt: q.prompt, options: [], chosen: -1, correctIndex: -1, ok: false, explain: source?.solution ?? "", response, marks_awarded: mark, max_marks: Number(q.marks), marks: Number(q.marks), word_limit: Number(q.wordLimit), wordLimit: Number(q.wordLimit), topic: q.topic, wordCount };
+  });
+  return { stage, testId, subject, title: test.title, correct: 0, wrong: 0, total: results.length, score: results.reduce((sum, r) => sum + r.marks_awarded, 0), maxScore: results.reduce((sum, r) => sum + Number((allowed.get(r.id) as any).marks), 0), results };
 }
 
 export function startQuiz(subject: string) {
@@ -69,16 +141,21 @@ export async function saveAttempt(
     correctIndex: number;
     ok: boolean;
     explain: string;
-  }>
+    response?: string;
+    marks_awarded?: number;
+    max_marks?: number;
+    word_limit?: number;
+    topic?: string;
+  }>, stage = "prelims", testId = `subject-${subject}-1`, score = correct, maxScore = total
 ) {
   const [row] = await sql<Array<{ id: number }>>`
-    INSERT INTO quiz_attempts (account_id, subject, correct, total)
-    VALUES (${accountId}, ${subject}, ${correct}, ${total})
+    INSERT INTO quiz_attempts (account_id, subject, correct, total, stage, test_id, score, max_score)
+    VALUES (${accountId}, ${subject}, ${correct}, ${total}, ${stage}, ${testId}, ${score}, ${maxScore})
     RETURNING id
   `;
   for (const item of results) {
     await sql`
-      INSERT INTO quiz_answers (attempt_id, question_id, prompt, options, chosen, correct_index, ok, explain)
+      INSERT INTO quiz_answers (attempt_id, question_id, prompt, options, chosen, correct_index, ok, explain, response, marks_awarded, max_marks, word_limit, topic)
       VALUES (
         ${row.id},
         ${item.id},
@@ -87,7 +164,7 @@ export async function saveAttempt(
         ${item.chosen},
         ${item.correctIndex},
         ${item.ok},
-        ${item.explain}
+        ${item.explain}, ${item.response ?? ""}, ${item.marks_awarded ?? 0}, ${item.max_marks ?? 2}, ${item.word_limit ?? 0}, ${item.topic ?? ""}
       )
     `;
   }
@@ -95,8 +172,8 @@ export async function saveAttempt(
 }
 
 export async function listAttempts(accountId: number) {
-  return sql<Array<{ id: number; subject: string; correct: number; total: number; created_at: Date }>>`
-    SELECT id, subject, correct, total, created_at
+  return sql<Array<{ id: number; subject: string; correct: number; total: number; stage: string; test_id: string; score: number; max_score: number; created_at: Date }>>`
+    SELECT id, subject, correct, total, stage, test_id, score, max_score, created_at
     FROM quiz_attempts
     WHERE account_id = ${accountId}
     ORDER BY id DESC
@@ -105,8 +182,8 @@ export async function listAttempts(accountId: number) {
 }
 
 export async function getAttempt(accountId: number, attemptId: number) {
-  const [attempt] = await sql<Array<{ id: number; subject: string; correct: number; total: number; created_at: Date }>>`
-    SELECT id, subject, correct, total, created_at
+  const [attempt] = await sql<Array<{ id: number; subject: string; correct: number; total: number; stage: string; test_id: string; score: number; max_score: number; created_at: Date }>>`
+    SELECT id, subject, correct, total, stage, test_id, score, max_score, created_at
     FROM quiz_attempts
     WHERE id = ${attemptId} AND account_id = ${accountId}
   `;
@@ -120,29 +197,46 @@ export async function getAttempt(accountId: number, attemptId: number) {
       correct_index: number;
       ok: boolean;
       explain: string;
+      response: string;
+      marks_awarded: number;
+      max_marks: number;
+      word_limit: number;
+      topic: string;
     }>
   >`
-    SELECT question_id, prompt, options, chosen, correct_index, ok, explain
+    SELECT question_id, prompt, options, chosen, correct_index, ok, explain, response, marks_awarded, max_marks, word_limit, topic
     FROM quiz_answers
     WHERE attempt_id = ${attemptId}
     ORDER BY id
   `;
+  const mappedResults = answers.map((row) => ({
+    id: row.question_id,
+    prompt: row.prompt,
+    options: row.options,
+    chosen: row.chosen,
+    correctIndex: row.correct_index,
+    ok: row.ok,
+    explain: row.explain,
+    response: row.response,
+    marks_awarded: Number(row.marks_awarded),
+    marks: Number(row.max_marks),
+    wordLimit: Number(row.word_limit),
+    topic: row.topic,
+  }));
+  const label = attempt.test_id.startsWith("mock-") ? `Full-length Prelims ${attempt.test_id.slice(-1)}` : attempt.test_id.replace(/^subject-/, "").replaceAll("-", " ");
   return {
     id: attempt.id,
     subject: attempt.subject,
-    title: subjectLabel(attempt.subject),
+    stage: attempt.stage,
+    testId: attempt.test_id,
+    title: label,
     correct: attempt.correct,
     total: attempt.total,
+    score: Number(attempt.score),
+    maxScore: Number(attempt.max_score),
     created_at: attempt.created_at,
-    results: answers.map((row) => ({
-      id: row.question_id,
-      prompt: row.prompt,
-      options: row.options,
-      chosen: row.chosen,
-      correctIndex: row.correct_index,
-      ok: row.ok,
-      explain: row.explain,
-    })),
+    wrong: mappedResults.filter((row) => row.chosen >= 0 && !row.ok).length,
+    results: mappedResults,
   };
 }
 

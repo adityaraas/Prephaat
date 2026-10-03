@@ -10,6 +10,7 @@ const quizPick = document.getElementById("quiz-pick");
 const quizBoard = document.getElementById("quiz-board");
 const quizTimerEl = document.getElementById("quiz-timer");
 const quizHistoryEl = document.getElementById("quiz-history");
+const quizStagesEl = document.getElementById("quiz-stages");
 const tabsEl = document.getElementById("tabs");
 const syllabusContent = document.getElementById("syllabus-content");
 const syllabusBox = document.getElementById("syllabus-box");
@@ -31,8 +32,25 @@ let resourceData = null;
 let syllabusData = null;
 let activeExam = "upsc";
 let tracker = null;
+const testParams = new URLSearchParams(window.location.search);
+const testPage = window.location.pathname === "/test" || testParams.has("testId");
+if (testPage) {
+  document.body.classList.add("test-page");
+  document.title = "Test workspace | Crack IAS";
+}
+window.addEventListener("beforeunload", (event) => {
+  if (activeQuiz && !quizLocked && !quizReview) {
+    event.preventDefault();
+    event.returnValue = "";
+  }
+});
 let activeQuiz = null;
 let quizAnswers = {};
+let quizResponses = {};
+let quizAwarded = {};
+let quizStage = "prelims";
+let quizPage = 0;
+let quizReview = null;
 let extraNotes = {};
 let pyqIndex = null;
 let pyqBanks = {};
@@ -119,18 +137,18 @@ function renderTimer() {
   const ss = String(left % 60).padStart(2, "0");
   const pct = Math.max(0, (left / seconds) * 100);
   quizTimerEl.innerHTML = `
-    <div class="timer-wrap ${left <= 60 ? "low" : ""}">
-      <div class="timer">${mm}:${ss}</div>
-      <div class="timer-bar"><span style="width:${pct}%"></span></div>
-      <span>auto-submit</span>
+    <div class="timer-wrap ${left <= 300 ? "low" : ""}">
+      <div class="timer-copy"><span>TIME REMAINING</span><strong class="timer">${mm}:${ss}</strong></div>
+      <div class="timer-track"><div class="timer-bar"><span style="width:${pct}%"></span></div></div>
+      <span class="timer-hint">Your test submits automatically when time ends</span>
     </div>`;
   if (left <= 10 && left > 0) playTone(520, 0.04, "sine");
 }
 
-function startQuizTimer() {
+function startQuizTimer(resume = false) {
   stopQuizTimer();
   quizLocked = false;
-  quizEndsAt = Date.now() + (Number(activeQuiz?.durationSeconds) || QUIZ_SECONDS) * 1000;
+  if (!resume || !quizEndsAt) quizEndsAt = Date.now() + (Number(activeQuiz?.durationSeconds) || QUIZ_SECONDS) * 1000;
   renderTimer();
   quizTimerId = window.setInterval(() => {
     renderTimer();
@@ -148,27 +166,42 @@ async function submitQuiz(fromTimer = false) {
   quizTimerEl.innerHTML = fromTimer
     ? `<div class="timer-wrap low"><div class="timer">00:00</div><span>time up — scoring</span></div>`
     : "";
+  try {
   const res = await fetch("/api/quiz", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
       subject: activeQuiz.subject,
+      stage: activeQuiz.stage,
+      testId: activeQuiz.testId,
       ids: activeQuiz.questions.map((q) => q.id),
       answers: quizAnswers,
+      responses: quizResponses,
+      awarded: quizAwarded,
     }),
   });
   const data = await res.json();
   if (!res.ok) {
     quizLocked = false;
-    quizBoard.insertAdjacentHTML("afterbegin", `<p class="empty">${escapeHtml(data.error ?? "Submit failed")}</p>`);
+    renderQuizBoard();
+    quizBoard.insertAdjacentHTML("afterbegin", `<p class="empty test-error">${escapeHtml(data.error ?? "Submit failed. Your answers are still here; try again.")}</p>`);
+    if (!fromTimer && quizEndsAt > Date.now()) startQuizTimer(true);
     return;
   }
   playTone(523, 0.1, "sine");
   setTimeout(() => playTone(659, 0.12, "sine"), 90);
   tracker = data.tracker;
   renderTracker();
-  renderQuizBoard({ ...data, id: data.attemptId });
+  quizReview = { ...data, id: data.attemptId };
+  quizLocked = true;
+  renderQuizBoard(quizReview);
   loadHistory();
+  } catch {
+    quizLocked = false;
+    renderQuizBoard();
+    quizBoard.insertAdjacentHTML("afterbegin", `<p class="empty test-error">Could not save this test. Your answers are still here; check your connection and try again.</p>`);
+    if (!fromTimer && quizEndsAt > Date.now()) startQuizTimer(true);
+  }
 }
 
 function escapeHtml(value) {
@@ -192,7 +225,7 @@ function renderTabs() {
   const items = [
     { id: "current", label: "Current affairs" },
     { id: "mapping", label: "Mapping" },
-    { id: "quiz", label: "Quiz" },
+    { id: "quiz", label: "Test yourself" },
     { id: "pyq", label: "PYQ" },
     { id: "survey", label: "Economic Survey" },
     ...studyData.subjects.map(subject => ({ id: subject.id, label: subject.title })),
@@ -705,46 +738,90 @@ function renderTracker() {
 }
 
 function renderQuizPick() {
-  quizPick.innerHTML = quizSubjects
-    .map(
-      (item) =>
-        `<button type="button" data-quiz-subject="${item.id}" class="${item.id === quizSubject ? "on" : ""}">${escapeHtml(item.title)}</button>`
-    )
-    .join("");
+  quizStagesEl.innerHTML = ["prelims", "mains"].map((stage) => `<button type="button" data-quiz-stage="${stage}" class="${quizStage === stage ? "on" : ""}">${stage === "prelims" ? "Prelims" : "Mains"}</button>`).join("");
+  const subjects = ["history", "geography", "polity", "economy", "science", "environment"];
+  const cards = quizStage === "prelims"
+    ? [...Array.from({ length: 5 }, (_, i) => ({ id: `mock-${i + 1}`, title: `Full-length Prelims ${i + 1}`, meta: "100 questions · 2 hours · 200 marks" })), ...subjects.flatMap((id) => Array.from({ length: 5 }, (_, i) => ({ id: `subject-${id}-${i + 1}`, title: `${quizSubjects.find((s) => s.id === id)?.title} · Test ${i + 1}`, meta: "10 questions · 20 minutes · UPSC negative marking" })))]
+    : [{ id: "mains-gs", title: "Mixed GS Mains practice", meta: "UPSC previous-year questions · 10/15 marks · no negative marking" }, ...subjects.map((id) => ({ id: `mains-subject-${id}`, title: `${quizSubjects.find((s) => s.id === id)?.title} Mains`, meta: "Previous-year questions · 3 per page · self-marked" }))];
+  quizPick.innerHTML = cards.map((card) => `<article class="test-card"><span class="test-badge">${quizStage === "prelims" ? "PRELIMS" : "MAINS"} &middot; ${card.id.startsWith("mock-") ? "FULL MOCK" : "PRACTICE"}</span><h3>${escapeHtml(card.title)}</h3><p>${escapeHtml(card.meta)}</p><a class="test-start" href="/home?stage=${quizStage}&testId=${encodeURIComponent(card.id)}">Start Test <span aria-hidden="true">&nearr;</span></a></article>`).join("");
+}
+
+function threeLineExplanation(question, mains = false) {
+  const detail = String(question.explain ?? "").replace(/\s+/g, " ").trim();
+  const sentences = detail.match(/[^.!?]+[.!?]?/g)?.map((line) => line.trim()).filter(Boolean) ?? [];
+  const answer = !mains && question.correctIndex >= 0 ? question.options?.[question.correctIndex] : "Use the indicative points as a checklist.";
+  const why = sentences[0] || (mains ? "Address every part of the directive with a clear argument." : "This is the option supported by the core concept being tested.");
+  const revise = sentences.slice(1).join(" ") || `Syllabus link: ${question.topic || "General studies"}. Revise the core concept and one relevant example.`;
+  return `<div class="three-line-explanation"><p><strong>${mains ? "1. Answer approach" : "1. Correct answer"}</strong> ${escapeHtml(answer)}</p><p><strong>2. Why</strong> ${escapeHtml(why)}</p><p><strong>3. Revise</strong> ${escapeHtml(revise)}</p></div>`;
 }
 
 function renderQuizBoard(review = null) {
+  review = review || quizReview;
   if (!activeQuiz && !review) {
     quizTimerEl.innerHTML = "";
-    quizBoard.innerHTML = `<p class="empty">10 questions · 10 minutes · options A–D. Start a subject quiz; every paper is saved so you can reopen mistakes.</p><p><button type="button" class="cta" id="start-quiz">Start quiz</button></p>`;
+    quizBoard.innerHTML = `<p class="empty">Select a paper above. Questions appear three at a time; use the question navigator to jump around. Completed attempts and your answer analysis are saved to your account.</p>`;
     return;
   }
-  const questions = (review?.results ?? activeQuiz.questions)
-    .map((q, index) => {
-      const chosen = review ? q.chosen : quizAnswers[q.id];
-      const options = q.options
-        .map((opt, optIndex) => {
-          let cls = "q-opt";
-          if (review) {
-            if (optIndex === q.correctIndex) cls += " good";
-            else if (optIndex === chosen && chosen !== q.correctIndex) cls += " bad";
-          } else if (chosen === optIndex) cls += " picked";
-          const letter = OPTION_LETTERS[optIndex] ?? String(optIndex + 1);
-          return `<button type="button" class="${cls}" data-qid="${escapeHtml(q.id)}" data-opt="${optIndex}"><span class="opt-key">${letter}</span><span class="opt-text">${escapeHtml(opt)}</span></button>`;
-        })
-        .join("");
-      const mark = review ? (q.ok ? `<span class="tag">Correct</span>` : `<span class="tag">Your mistake</span>`) : "";
-      const explain = review ? `<p class="explain">${escapeHtml(q.explain)}</p>` : "";
-      return `<div class="q"><h3>${index + 1}. ${escapeHtml(q.prompt)} ${mark}</h3>${options}${explain}</div>`;
-    })
-    .join("");
+  const allQuestions = review?.results ?? activeQuiz.questions;
+  const pageStart = quizPage * 3;
+  const mains = activeQuiz?.stage === "mains" || review?.stage === "mains";
+  const questions = allQuestions.slice(pageStart, pageStart + 3).map((q, localIndex) => {
+    const index = pageStart + localIndex;
+    const chosen = review ? q.chosen : quizAnswers[q.id];
+    if (mains) {
+      const response = review ? q.response : (quizResponses[q.id] ?? "");
+      const marks = q.marks ?? 10;
+      const wordLimit = q.wordLimit ?? (marks === 15 ? 250 : 150);
+      const awarded = review ? q.marks_awarded : (quizAwarded[q.id] ?? "");
+      const count = response.trim() ? response.trim().split(/\s+/).length : 0;
+      return `<div class="q mains-q"><h3>${index + 1}. ${escapeHtml(q.prompt)}</h3><p class="meta">${escapeHtml(q.topic ?? "UPSC GS")} · ${marks} marks · ${wordLimit} words ${review ? `· Awarded ${Number(q.marks_awarded).toFixed(1)}/${marks}` : ""}</p>${review ? `<div class="mains-answer">${escapeHtml(response || "No answer submitted.")}</div><h4>Indicative answer points</h4>${threeLineExplanation(q, true)}` : `<textarea data-response="${escapeHtml(q.id)}" rows="7" placeholder="Structure your answer with an introduction, analysis and conclusion...">${escapeHtml(response)}</textarea><div class="answer-meta"><span>${count} words / ${wordLimit}</span><label>Self-mark (0–${marks}) <input type="number" min="0" max="${marks}" step="0.5" data-awarded="${escapeHtml(q.id)}" value="${escapeHtml(awarded)}"></label></div>`}</div>`;
+    }
+    const options = q.options.map((opt, optIndex) => {
+      let cls = "q-opt";
+      if (review) {
+        if (optIndex === q.correctIndex) cls += " good";
+        else if (optIndex === chosen && chosen !== q.correctIndex) cls += " bad";
+      } else if (chosen === optIndex) cls += " picked";
+      const letter = OPTION_LETTERS[optIndex] ?? String(optIndex + 1);
+      return `<button type="button" class="${cls}" data-qid="${escapeHtml(q.id)}" data-opt="${optIndex}"><span class="opt-key">${letter}</span><span class="opt-text">${escapeHtml(opt)}</span></button>`;
+    }).join("");
+    const mark = review ? (q.ok ? '<span class="tag">Correct · +2</span>' : q.chosen < 0 ? '<span class="tag">Unattempted · 0</span>' : '<span class="tag">Incorrect · −⅔</span>') : "";
+    const explain = review ? threeLineExplanation(q) : "";
+    return `<div class="q"><h3>${index + 1}. ${escapeHtml(q.prompt)} ${mark}</h3>${options}${explain}</div>`;
+  });
+  const nav = allQuestions.map((q, index) => {
+    const answered = mains ? Boolean(quizResponses[q.id]?.trim()) : Number.isInteger(quizAnswers[q.id]);
+    const current = index >= pageStart && index < pageStart + 3;
+    return `<button type="button" class="question-dot ${review ? (mains ? "answered" : q.ok ? "correct" : "mistake") : answered ? "answered" : ""} ${current ? "current" : ""}" data-jump="${index}" aria-label="Question ${index + 1}" title="Question ${index + 1}: ${escapeHtml(q.prompt)}"><span>Q${index + 1}</span><span class="question-preview">${escapeHtml(q.prompt)}</span></button>`;
+  }).join("");
+  const topicStats = !mains && review ? Object.values((review.results ?? []).reduce((groups, q) => {
+    const topic = q.topic || "General studies";
+    groups[topic] = groups[topic] || { total: 0, correct: 0, wrong: 0 };
+    groups[topic].total += 1;
+    if (q.ok) groups[topic].correct += 1;
+    else if (q.chosen >= 0) groups[topic].wrong += 1;
+    return groups;
+  }, {})).map((item) => `<span>${escapeHtml(item.topic ?? "Topic")}: ${item.correct ?? 0}/${item.total ?? 0} correct</span>`).join(" · ") : "";
+  const groups = Object.values((review?.results ?? []).reduce((items, q) => {
+    const topic = q.topic || "General studies";
+    items[topic] ||= { topic, total: 0, correct: 0, wrong: 0, marks: 0, max: 0 };
+    items[topic].total += 1;
+    items[topic].correct += q.ok ? 1 : 0;
+    items[topic].wrong += q.chosen >= 0 && !q.ok ? 1 : 0;
+    items[topic].marks += Number(q.marks_awarded ?? 0);
+    items[topic].max += Number(q.marks ?? 2);
+    return items;
+  }, {}));
+  const strongest = [...groups].sort((a, b) => (mains ? b.marks / (b.max || 1) - a.marks / (a.max || 1) : b.correct / (b.total || 1) - a.correct / (a.total || 1)))[0];
+  const focus = [...groups].sort((a, b) => (mains ? a.marks / (a.max || 1) - b.marks / (b.max || 1) : (b.wrong - a.wrong) || (a.correct / (a.total || 1) - b.correct / (b.total || 1))))[0];
+  const answeredCount = review?.results?.filter((q) => mains ? Boolean(q.response?.trim()) : q.chosen >= 0).length ?? 0;
+  const analysisSummary = review ? `<ol class="analysis-lines"><li><strong>Result:</strong> ${Number(review.score).toFixed(1)} of ${Number(review.maxScore).toFixed(1)} marks; ${mains ? `${answeredCount}/${review.total} answers written` : `${review.correct} correct, ${review.wrong} incorrect, ${review.total - answeredCount} skipped`}.</li><li><strong>Strongest area:</strong> ${strongest ? `${escapeHtml(strongest.topic)} (${mains ? `${Math.round(strongest.marks / (strongest.max || 1) * 100)}% self-score` : `${strongest.correct}/${strongest.total} correct`})` : "Keep practising across the paper."}</li><li><strong>Next focus:</strong> ${focus ? `${escapeHtml(focus.topic)}; review its marked questions and three-line explanations.` : "Review the answer notes and revisit weak topics."}</li></ol>` : "";
   const footer = review
-    ? `<p class="stat">${review.correct}/${review.total}</p><p class="meta">${review.id ? "Saved in your result file." : ""} Points added to today’s ${escapeHtml(review.title)} bag.</p><p><button type="button" class="cta" id="start-quiz">New 10-question paper</button></p>`
-    : `<p><button type="button" class="cta" id="submit-quiz">Submit &amp; save result</button></p>`;
-  const heading = review?.title ? `${escapeHtml(review.title)} result` : `${escapeHtml(activeQuiz.title)} quiz`;
-  quizBoard.innerHTML = `<h2>${heading}</h2>${questions}${footer}`;
+    ? `<section class="test-analysis"><h3>Test analysis</h3><p class="stat">${Number(review.score).toFixed(1)} / ${Number(review.maxScore).toFixed(1)} marks</p>${analysisSummary}<p>${mains ? "Mains has no negative marking. Marks are based on your self-assessment." : `${review.correct} correct · ${review.wrong} incorrect · ${review.total - review.correct - review.wrong} unattempted · negative marking applied.`}</p>${topicStats ? `<p><strong>Topic accuracy:</strong> ${topicStats}</p>` : ""}<p>Review question feedback above. ${review.id ? "This attempt is saved in your history." : ""}</p><button type="button" class="cta" id="new-test">Choose another test</button></section>`
+    : `<div class="test-controls"><button type="button" class="ghost" data-page="prev" ${quizPage === 0 ? "disabled" : ""}>Previous</button><span>Page ${quizPage + 1} of ${Math.ceil(allQuestions.length / 3)}</span><button type="button" class="ghost" data-page="next" ${pageStart + 3 >= allQuestions.length ? "disabled" : ""}>Next</button><button type="button" class="cta" id="submit-quiz">Submit &amp; save test</button><button type="button" class="ghost quit-test" id="quit-test">Quit test</button></div>`;
+  const heading = review?.title ? `${escapeHtml(review.title)} analysis` : escapeHtml(activeQuiz.title);
+  quizBoard.innerHTML = `<h2>${heading}</h2><p class="meta">${mains ? "UPSC Mains: 10/15 marks; no penalty" : "UPSC Prelims: +2 correct, -2/3 incorrect, 0 unanswered"}</p><div class="test-layout"><aside class="test-sidebar"><strong>Question navigator</strong><p class="navigator-legend"><span>Green: answered</span><span>Red: incorrect in review</span></p><div class="question-nav">${nav}</div></aside><div class="test-main">${questions.join("")}${footer}</div></div>`;
 }
-
 async function loadHistory() {
   const res = await fetch("/api/quiz/attempts");
   if (!res.ok || !quizHistoryEl) return;
@@ -757,7 +834,7 @@ async function loadHistory() {
   quizHistoryEl.innerHTML = `<h3>Saved results</h3><div class="filters">${rows
     .map((row) => {
       const when = new Date(row.created_at).toLocaleString("en-IN", { dateStyle: "medium", timeStyle: "short" });
-      return `<button type="button" data-attempt="${row.id}">${escapeHtml(row.title)} ${row.correct}/${row.total} · ${escapeHtml(when)}</button>`;
+      return `<button type="button" data-attempt="${row.id}">${escapeHtml(row.testId ?? row.title)} ${Number(row.score ?? row.correct).toFixed(1)}/${Number(row.maxScore ?? row.total).toFixed(0)} · ${escapeHtml(when)}</button>`;
     })
     .join("")}</div>`;
 }
@@ -768,7 +845,9 @@ async function openAttempt(id) {
   const res = await fetch(`/api/quiz/attempts/${id}`);
   const data = await res.json();
   if (!res.ok) return;
-  activeQuiz = { subject: data.subject, title: data.title, questions: data.results };
+  activeQuiz = { subject: data.subject, stage: data.stage, testId: data.testId, title: data.title, questions: data.results };
+  quizPage = 0;
+  quizReview = data;
   renderQuizBoard(data);
 }
 
@@ -780,6 +859,7 @@ async function loadTracker() {
 
 async function loadQuiz(subject) {
   quizSubject = subject;
+  quizReview = null;
   quizAnswers = {};
   quizLocked = false;
   const res = await fetch(`/api/quiz?subject=${encodeURIComponent(subject)}`);
@@ -793,6 +873,34 @@ async function loadQuiz(subject) {
   renderQuizPick();
   renderQuizBoard();
   startQuizTimer();
+}
+
+async function loadTest(testId) {
+  stopQuizTimer();
+  activeQuiz = null;
+  quizReview = null;
+  quizAnswers = {};
+  quizResponses = {};
+  quizAwarded = {};
+  quizPage = 0;
+  quizLocked = false;
+  quizTimerEl.innerHTML = `<div class="timer-wrap"><strong>Loading test…</strong></div>`;
+  quizBoard.innerHTML = `<p class="empty">Loading the selected test and questions...</p>`;
+  try {
+  const res = await fetch(`/api/quiz?stage=${quizStage}&testId=${encodeURIComponent(testId)}`);
+  const data = await res.json();
+  if (!res.ok) {
+    quizTimerEl.innerHTML = "";
+    quizBoard.innerHTML = `<p class="empty test-error">${escapeHtml(data.error ?? "Could not load test. Please choose another paper.")}</p>`;
+    return;
+  }
+  activeQuiz = data;
+  renderQuizBoard();
+  startQuizTimer();
+  } catch {
+    quizTimerEl.innerHTML = "";
+    quizBoard.innerHTML = `<p class="empty test-error">Could not load this test. Check your connection and try again.</p>`;
+  }
 }
 
 function renderSyllabus() {
@@ -1324,9 +1432,20 @@ sourceFilters.addEventListener("click", (event) => {
 });
 
 quizPick.addEventListener("click", (event) => {
-  const button = event.target.closest("button[data-quiz-subject]");
+  const button = event.target.closest("button[data-quiz-test]");
   if (!button) return;
-  loadQuiz(button.dataset.quizSubject);
+  loadTest(button.dataset.quizTest);
+});
+
+quizStagesEl?.addEventListener("click", (event) => {
+  const button = event.target.closest("[data-quiz-stage]");
+  if (!button) return;
+  quizStage = button.dataset.quizStage;
+  activeQuiz = null;
+  quizReview = null;
+  stopQuizTimer();
+  renderQuizPick();
+  renderQuizBoard();
 });
 
 quizHistoryEl?.addEventListener("click", (event) => {
@@ -1335,9 +1454,31 @@ quizHistoryEl?.addEventListener("click", (event) => {
 });
 
 quizBoard.addEventListener("click", async (event) => {
-  const start = event.target.closest("#start-quiz");
-  if (start) {
-    loadQuiz(quizSubject);
+  const jump = event.target.closest("[data-jump]");
+  if (jump && (!quizLocked || quizReview)) {
+    quizPage = Math.floor(Number(jump.dataset.jump) / 3);
+    renderQuizBoard();
+    return;
+  }
+  const page = event.target.closest("[data-page]");
+  if (page && (!quizLocked || quizReview)) {
+    quizPage = Math.max(0, quizPage + (page.dataset.page === "next" ? 1 : -1));
+    renderQuizBoard();
+    return;
+  }
+  if (event.target.closest("#quit-test")) {
+    if (!window.confirm("Quit this test? Your unsubmitted answers will be discarded.")) return;
+    stopQuizTimer();
+    activeQuiz = null;
+    window.location.href = "/home#quiz";
+    return;
+  }
+  if (event.target.closest("#new-test")) {
+    if (testPage) { window.location.href = "/home#quiz"; return; }
+    activeQuiz = null;
+    quizReview = null;
+    stopQuizTimer();
+    renderQuizBoard();
     return;
   }
   const submit = event.target.closest("#submit-quiz");
@@ -1352,6 +1493,17 @@ quizBoard.addEventListener("click", async (event) => {
     quizAnswers[opt.dataset.qid] = Number(opt.dataset.opt);
     renderQuizBoard();
   }
+});
+
+quizBoard.addEventListener("input", (event) => {
+  const response = event.target.closest("[data-response]");
+  if (response) {
+    quizResponses[response.dataset.response] = response.value;
+    const count = response.value.trim() ? response.value.trim().split(/\s+/).length : 0;
+    response.parentElement.querySelector(".answer-meta span").textContent = `${count} words / ${activeQuiz.questions.find((q) => q.id === response.dataset.response)?.wordLimit ?? 150}`;
+  }
+  const awarded = event.target.closest("[data-awarded]");
+  if (awarded) quizAwarded[awarded.dataset.awarded] = awarded.value;
 });
 
 subjectEl.addEventListener("click", (event) => {
@@ -1469,6 +1621,15 @@ document.getElementById("logout").addEventListener("click", async () => {
   if (!session) return;
   document.getElementById("who").textContent = session.account.name;
 
+  // Start the paper before loading unrelated dashboard data or account trackers.
+  if (testPage) {
+    quizEl.hidden = false;
+    quizStage = testParams.get("stage") === "mains" ? "mains" : "prelims";
+    quizBoard.innerHTML = '<p class="empty">Choose a test to begin. <a href="/home#quiz">Browse tests</a></p>';
+    if (testParams.get("testId")) await loadTest(testParams.get("testId"));
+    return;
+  }
+
   const [subjectsRes, syllabusRes, newsRes, extraRes, resources] = await Promise.all([
     fetch("/data/subjects.json"),
     fetch("/data/syllabus.json"),
@@ -1485,7 +1646,7 @@ document.getElementById("logout").addEventListener("click", async () => {
   renderSyllabus();
   bindSearch();
   rebuildSearchIndex();
-  showTab("current");
+  showTab(testPage || window.location.hash === "#quiz" ? "quiz" : "current");
 
   if (newsRes.ok) {
     const payload = await newsRes.json();

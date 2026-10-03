@@ -14,7 +14,7 @@ import {
   verifyPassword,
 } from "./auth.ts";
 import { getCurrentAffairs } from "./current-affairs.ts";
-import { getAttempt, getTracker, gradeQuiz, isQuizSubject, listAttempts, saveAttempt, startQuiz, subjectLabel } from "./quiz.ts";
+import { getAttempt, getTracker, gradeQuiz, gradeTest, isQuizSubject, listAttempts, saveAttempt, startQuiz, startTest, subjectLabel } from "./quiz.ts";
 import { addMaterial, deleteMaterial, listFacultyMaterials, listPublishedMaterials, promoteToFaculty } from "./materials.ts";
 import {
   clearGoogleStateCookie,
@@ -55,6 +55,7 @@ const pages: Record<string, string> = {
   "/": "index.html",
   "/signup": "signup.html",
   "/home": "home.html",
+  "/test": "home.html",
   "/study": "home.html",
   "/library": "library.html",
   "/faculty": "faculty.html",
@@ -294,7 +295,8 @@ const server = createServer(async (req, res) => {
     if (req.method === "GET" && url.pathname === "/api/quiz") {
       if (!(await requireAccount(req, res))) return;
       try {
-        send(res, 200, startQuiz(url.searchParams.get("subject") ?? ""));
+        const stage = url.searchParams.get("stage");
+        send(res, 200, stage ? startTest(stage, url.searchParams.get("testId") ?? "", url.searchParams.get("subject") ?? "") : startQuiz(url.searchParams.get("subject") ?? ""));
       } catch (err) {
         send(res, 400, { error: err instanceof Error ? err.message : "Could not start quiz" });
       }
@@ -312,6 +314,15 @@ const server = createServer(async (req, res) => {
             ? (body.answers as Record<string, number>)
             : {};
         const ids = Array.isArray(body.ids) ? body.ids.map(String) : undefined;
+        if (body.stage === "prelims" || body.stage === "mains") {
+          const responses = body.responses && typeof body.responses === "object" && !Array.isArray(body.responses) ? body.responses as Record<string, string> : {};
+          const awarded = body.awarded && typeof body.awarded === "object" && !Array.isArray(body.awarded) ? body.awarded as Record<string, number> : {};
+          const graded = gradeTest(String(body.stage), String(body.testId ?? ""), subject, ids ?? [], answers, responses, awarded);
+          const attemptId = await saveAttempt(account.id, subject as any, graded.correct, graded.total, graded.results, graded.stage, graded.testId, graded.score, graded.maxScore);
+          const tracker = await getTracker(account.id);
+          send(res, 200, { ...graded, attemptId, tracker });
+          return;
+        }
         const graded = gradeQuiz(subject, answers, ids);
         if (!isQuizSubject(subject)) throw new Error("Unknown subject");
         const attemptId = await saveAttempt(account.id, subject, graded.correct, graded.total, graded.results);
@@ -339,8 +350,12 @@ const server = createServer(async (req, res) => {
           id: row.id,
           subject: row.subject,
           title: subjectLabel(row.subject),
+          stage: row.stage,
+          testId: row.test_id,
           correct: row.correct,
           total: row.total,
+          score: Number(row.score),
+          maxScore: Number(row.max_score),
           created_at: row.created_at,
         })),
       });
