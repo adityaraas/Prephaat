@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Crack IAS · Civil Services Prep</title>
     <link rel="icon" href="/logo.svg" />
-    <link rel="stylesheet" href="/study.css" />
+    <link rel="stylesheet" href="/study.css?v=20261003-1" />
     <link rel="stylesheet" href="/resource-library.css" />
     <link rel="stylesheet" href="/history.css" />
     <link rel="stylesheet" href="/mapping.css" />
@@ -113,10 +113,13 @@
       </main>
     </div>
 
-    <aside class="syllabus-corner" id="syllabus-box">
-      <div class="syllabus-bar" id="syllabus-drag">
-        <span>Syllabus · drag anywhere</span>
-        <button type="button" class="syllabus-toggle" id="syllabus-toggle" aria-expanded="true" aria-label="Collapse syllabus">–</button>
+    <aside class="syllabus-corner closed" id="syllabus-box">
+      <div class="syllabus-bar">
+        <span>Syllabus</span>
+        <button type="button" class="syllabus-toggle" id="syllabus-toggle" aria-expanded="false" aria-controls="syllabus-body" aria-label="Open syllabus" title="Syllabus">
+          <svg class="syllabus-open-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M12 5c-3-2-6-2-9-1v15c3-1 6-1 9 1 3-2 6-2 9-1V4c-3-1-6-1-9 1Z"/><path d="M12 5v15"/></svg>
+          <svg class="syllabus-close-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg>
+        </button>
       </div>
       <div class="syllabus-body" id="syllabus-body">
         <div class="syllabus-tabs">
@@ -153,7 +156,7 @@
     <script src="/editorials.js?v=20261003-3"></script>
     <script src="/profile.js?v=20261003-1"></script>
     <script src="/current-affairs.js?v=20261003-1"></script>
-    <script src="/home.js?v=20261003-4"></script>
+    <script src="/home.js?v=20261003-5"></script>
     <script src="/chess-play.js"></script>
     <script src="/chat.js"></script>
   </body>

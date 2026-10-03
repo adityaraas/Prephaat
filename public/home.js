@@ -1202,7 +1202,7 @@ async function openSearchResult(item) {
     }
     syllabusBox.classList.remove("closed");
     document.getElementById("syllabus-toggle").setAttribute("aria-expanded", "true");
-    document.getElementById("syllabus-toggle").textContent = "–";
+    document.getElementById("syllabus-toggle").setAttribute("aria-label", "Collapse syllabus");
     renderSyllabus();
     scrollHit(item.hit);
     return;
@@ -1479,77 +1479,8 @@ document.getElementById("syllabus-toggle").addEventListener("click", (event) => 
   event.stopPropagation();
   const closed = syllabusBox.classList.toggle("closed");
   document.getElementById("syllabus-toggle").setAttribute("aria-expanded", String(!closed));
-  document.getElementById("syllabus-toggle").textContent = closed ? "+" : "–";
+  document.getElementById("syllabus-toggle").setAttribute("aria-label", closed ? "Open syllabus" : "Collapse syllabus");
 });
-
-(function enableSyllabusDrag() {
-  const handle = document.getElementById("syllabus-drag");
-  const key = "syllabus-pos";
-  let startX = 0;
-  let startY = 0;
-  let originLeft = 0;
-  let originTop = 0;
-  let dragging = false;
-  let moved = false;
-
-  function clamp(left, top) {
-    const maxLeft = Math.max(8, window.innerWidth - syllabusBox.offsetWidth - 8);
-    const maxTop = Math.max(8, window.innerHeight - syllabusBox.offsetHeight - 8);
-    return {
-      left: Math.min(maxLeft, Math.max(8, left)),
-      top: Math.min(maxTop, Math.max(8, top)),
-    };
-  }
-
-  function apply(left, top) {
-    const pos = clamp(left, top);
-    syllabusBox.style.left = `${pos.left}px`;
-    syllabusBox.style.top = `${pos.top}px`;
-    syllabusBox.style.right = "auto";
-    syllabusBox.style.bottom = "auto";
-    localStorage.setItem(key, JSON.stringify(pos));
-  }
-
-  try {
-    const saved = JSON.parse(localStorage.getItem(key) || "");
-    if (saved && Number.isFinite(saved.left) && Number.isFinite(saved.top)) {
-      apply(saved.left, saved.top);
-    }
-  } catch {
-    /* keep default corner */
-  }
-
-  handle.addEventListener("pointerdown", (event) => {
-    if (event.target.closest("#syllabus-toggle")) return;
-    const rect = syllabusBox.getBoundingClientRect();
-    dragging = true;
-    moved = false;
-    startX = event.clientX;
-    startY = event.clientY;
-    originLeft = rect.left;
-    originTop = rect.top;
-    syllabusBox.classList.add("dragging");
-    handle.setPointerCapture(event.pointerId);
-  });
-
-  handle.addEventListener("pointermove", (event) => {
-    if (!dragging) return;
-    const dx = event.clientX - startX;
-    const dy = event.clientY - startY;
-    if (Math.abs(dx) + Math.abs(dy) > 3) moved = true;
-    apply(originLeft + dx, originTop + dy);
-  });
-
-  handle.addEventListener("pointerup", () => {
-    dragging = false;
-    syllabusBox.classList.remove("dragging");
-  });
-
-  window.addEventListener("resize", () => {
-    const rect = syllabusBox.getBoundingClientRect();
-    apply(rect.left, rect.top);
-  });
-})();
 
 document.querySelector(".syllabus-tabs").addEventListener("click", (event) => {
   const button = event.target.closest("button[data-exam]");

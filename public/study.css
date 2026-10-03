@@ -792,9 +792,8 @@ a.survey-dl { text-decoration: none; display: inline-block; padding: 0.5rem 0.85
   position: fixed;
   right: 1rem;
   bottom: 1rem;
-  width: min(340px, calc(100% - 1.5rem));
+  width: min(300px, calc(100% - 2rem));
   z-index: 20;
-  touch-action: none;
 }
 
 .syllabus-bar {
@@ -806,14 +805,22 @@ a.survey-dl { text-decoration: none; display: inline-block; padding: 0.5rem 0.85
   background: var(--ink);
   color: var(--yellow);
   padding: 0.45rem 0.45rem 0.45rem 0.9rem;
-  cursor: grab;
   font-weight: 800;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   font-size: 0.72rem;
 }
 
-.syllabus-corner.dragging .syllabus-bar { cursor: grabbing; }
+#syllabus-box .syllabus-toggle { border-radius: 50%; display: grid; place-items: center; }
+#syllabus-toggle svg { width: 22px; height: 22px; }
+#syllabus-box .syllabus-open-icon { display: none; }
+#syllabus-box.closed { width: 52px; border-radius: 50%; }
+#syllabus-box.closed .syllabus-bar { padding: 0; border-radius: 50%; background: transparent; }
+#syllabus-box.closed .syllabus-bar > span { display: none; }
+#syllabus-box.closed #syllabus-toggle { width: 52px; height: 52px; background: var(--site-primary, var(--ink)); color: white; box-shadow: 0 6px 18px #0002; }
+#syllabus-box.closed .syllabus-open-icon { display: block; }
+#syllabus-box.closed .syllabus-close-icon { display: none; }
+#syllabus-toggle:focus-visible { outline: 3px solid var(--site-accent, var(--yellow)); outline-offset: 3px; }
 
 .syllabus-toggle {
   width: 32px;
