@@ -7,6 +7,8 @@ type StudyNews = News & { whyInNews: string; summary: string[]; syllabus: Array<
 const end = process.argv.find(arg => arg.startsWith("--end="))?.slice(6) ?? new Date().toISOString().slice(0, 10);
 const from = new Date(`${end}T00:00:00Z`); from.setUTCMonth(from.getUTCMonth() - 18);
 const start = from.toISOString().slice(0, 10);
+const target = Number(process.argv.find(arg=>arg.startsWith('--per-month='))?.slice(12) ?? '10');
+if(!Number.isInteger(target)||target<6||target>30)throw new Error('Use --per-month=6 through 30');
 const months: string[] = [];
 for (let date = new Date(`${start.slice(0, 7)}-01T00:00:00Z`); date.toISOString().slice(0, 7) <= end.slice(0, 7); date.setUTCMonth(date.getUTCMonth() + 1)) months.push(date.toISOString().slice(0, 7));
 await mkdir(".cache", { recursive: true });
@@ -84,7 +86,7 @@ for (const month of [...months].reverse().filter(month => !process.argv.some(arg
   const seenTopics = new Set<string>();
   const selected: Array<{ news: News; body: string }> = [];
   let attempts = 0;
-  while (selected.length < 6 && pool.length && attempts < 40) {
+  while (selected.length < target && pool.length && attempts < 80) {
     pool.sort((a, b) => {
       const score = (item: News) => item.topics.filter(topic => !seenTopics.has(topic)).length * 30 +
         (/supreme court|constitution|monetary|rbi|gdp|inflation|trade|tariff|climate|cop\d|isro|satellite|parliament|election|census|biodiversity|nuclear|treaty|federal|budget|employment/i.test(item.title) ? 12 : 0) + (parseInt(item.id.slice(0, 3), 16) % 10);

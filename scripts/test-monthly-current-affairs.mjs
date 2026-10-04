@@ -35,7 +35,7 @@ const nodes = new Map();
 const handlers = {};
 const buttons = archive.months.map(month => ({ dataset: { caMonth: month.id }, setAttribute() {} }));
 const host = { dataset: {}, innerHTML: '',
-  querySelector(selector) { if (!nodes.has(selector)) nodes.set(selector, { innerHTML: '', textContent: '', open: false, scrollIntoView() {} }); return nodes.get(selector); },
+  querySelector(selector) { if (!nodes.has(selector)) nodes.set(selector, { innerHTML: '', textContent: '', focus() {}, scrollIntoView() {} }); return nodes.get(selector); },
   querySelectorAll() { return buttons; }, addEventListener(event, handler) { handlers[event] = handler; },
 };
 const location = { hash: '#current' }; let fetches = 0;
@@ -45,7 +45,7 @@ const context = vm.createContext({ window: { location }, history: { replaceState
 vm.runInContext(readFileSync('public/current-affairs.js', 'utf8') + '\nglobalThis.monthly = MonthlyCurrentAffairs;', context);
 await context.monthly.mount(host);
 assert.match(host.innerHTML, /Last 18 months/);
-assert.match(host.querySelector('#ca-stories').innerHTML, /Why in news\?/);
+assert.match(host.querySelector('#ca-stories').innerHTML, /Read the brief/);
 const oldest = archive.months.at(-1);
 handlers.click({ target: { closest: selector => selector === '[data-ca-month]' ? { dataset: { caMonth: oldest.id } } : null } });
 assert.match(host.querySelector('#ca-stories').innerHTML, new RegExp(oldest.items[0].id));
@@ -53,7 +53,24 @@ assert.equal(location.hash, '#current/' + oldest.id);
 handlers.input({ target: { id: 'ca-search', value: 'a-query-that-does-not-match-any-topic' } });
 assert.match(host.querySelector('#ca-stories').innerHTML, /No issues match/);
 context.monthly.openItem(all[0].id);
-assert.equal(host.querySelector('#ca-' + all[0].id).open, true);
+const brief=host.querySelector('#ca-stories').innerHTML;
+assert.match(brief,/What happened\?/);assert.match(brief,/Key takeaways/);assert.match(brief,/Why in news\?/);
+assert(brief.indexOf('What happened?')<brief.indexOf('Key takeaways'));
+assert(brief.indexOf('Key takeaways')<brief.indexOf('Why it matters for the exam'));
+assert.match(brief,/<details class="ca-full-notes"><summary>Go deeper/);
+assert.equal((brief.match(/<li>/g)||[]).length,10);
+assert.equal(location.hash,`#current/${all[0].published.slice(0,7)}/${all[0].id}`);
+handlers.click({target:{closest:selector=>selector==='#ca-back'?{}:null}});
+assert.match(host.querySelector('#ca-stories').innerHTML,/ca-card-grid/);
+handlers.click({target:{closest:selector=>selector==='[data-ca-open]'?{dataset:{caOpen:all[0].id}}:null}});
+assert.match(host.querySelector('#ca-stories').innerHTML,/QUICK CURRENT AFFAIRS BRIEF/);
+await context.monthly.mount(host);
+assert.match(host.querySelector('#ca-stories').innerHTML,/QUICK CURRENT AFFAIRS BRIEF/);
+handlers.change({target:{id:'ca-all-months',checked:true}});
+assert.match(host.querySelector('#ca-month-title').textContent,/Across the archive/);
+const selectedPaper=all[0].syllabus[0].paper;
+handlers.change({target:{id:'ca-paper',value:selectedPaper}});
+assert.equal(host.querySelector('#ca-count').textContent,`${all.filter(item=>item.syllabus.some(link=>link.paper===selectedPaper)).length} selected UPSC issues`);
 assert.equal(context.monthly.getSearchItems().length, all.length);
 assert.equal(fetches, 1, 'Month changes and opening a story should not depend on live APIs or model calls');
-console.log(`PASS: ${all.length} sourced issues across ${archive.months.length} contiguous month buckets; every issue has 10 summary lines, a news trigger and UPSC links. Month switching, search, deep linking and static loading passed.`);
+console.log(`PASS: ${all.length} sourced issues across ${archive.months.length} contiguous month buckets; brief-first detail, retained 10-point notes, card opening, back navigation, month switching, search, deep links and static loading.`);
