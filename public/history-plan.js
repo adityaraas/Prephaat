@@ -47,6 +47,7 @@ const HistoryPlan = (() => {
           <div class="lesson-column"><article class="lesson" aria-labelledby="lesson-title"><p class="eyebrow">DAY ${day} / 60 · ${esc(segment.title).toUpperCase()}${subject === "history" ? " HISTORY" : ""}</p><h2 id="lesson-title" tabindex="-1">${esc(lesson.topic)}</h2><p class="lesson-deck">${esc(segment.description)}</p><div class="routine"><span>60 min · Read</span><span>25 min · Notes</span><span>25 min · Practice</span><span>10 min · Recall</span></div>
           <h3>01 / Study material</h3><p class="note-label">${lesson.studyWords}+ words of on-page explanations, plus comparisons, terms and practice. Original study notes aligned with your reading plan.</p><h4 class="quick-recap">Start here · Today’s essentials</h4>${lesson.notes.map((n,i) => `<div class="note"><span>${String(i+1).padStart(2,'0')}</span><p>${esc(n)}</p></div>`).join('')}
           ${subject === 'geography' && typeof GeographyVisuals !== 'undefined' ? GeographyVisuals.render(lesson) : ''}
+          ${subject !== 'geography' && typeof StudyVisuals !== 'undefined' ? StudyVisuals.render(subject, lesson, segment) : ''}
           ${deepReading(lesson)}
           <section class="ncert-reader"><p class="eyebrow">READ THE ORIGINAL</p><h3>${esc(data.readerTitle || "NCERT textbook reader")}</h3><p>${esc(data.readerDescription || "Open an official NCERT chapter here. Choose the chapter that matches today’s topic; these Class 12 themes supplement the wider reading plan.")}</p><label for="ncert-reader-choice">Chapter</label><select id="ncert-reader-choice">${data.readers[segment.id].map(([title,code])=>`<option value="${esc(code)}">${esc(title)}</option>`).join('')}</select><button type="button" class="reader-load" data-reader="load">Read on this page</button><div id="ncert-reader-frame"></div><p class="note-label">The document loads from its official provider when you open it. If your browser cannot display the PDF, use the direct chapter link shown below it.</p></section>
           <div class="reading"><h3>Today’s book reading</h3><p>${esc(lesson.reading)}</p>${lesson.sources.map(id => {const s=data.sources[id];return `<div class="book-link">${link(s.url,s.title)}<small>${esc(s.access)}</small></div>`;}).join('')}</div>
@@ -69,6 +70,7 @@ const HistoryPlan = (() => {
       paint();
       root.onclick = event => {
         if (subject === 'geography' && typeof GeographyVisuals !== 'undefined' && GeographyVisuals.handleClick(event, root)) return;
+        if (subject !== 'geography' && typeof StudyVisuals !== 'undefined' && StudyVisuals.handleClick(event, root)) return;
         const button = event.target.closest('button');
         if (!button || button.disabled) return;
         if (button.dataset.flashcardAction) {
@@ -94,6 +96,7 @@ const HistoryPlan = (() => {
       };
       root.onchange = event => {
         if (subject === 'geography' && typeof GeographyVisuals !== 'undefined' && GeographyVisuals.handleChange(event, root)) return;
+        if (subject !== 'geography' && typeof StudyVisuals !== 'undefined' && StudyVisuals.handleChange(event, root)) return;
         if (event.target.id === 'ncert-reader-choice') {
           root.querySelector('#ncert-reader-frame').innerHTML = '';
           return;
