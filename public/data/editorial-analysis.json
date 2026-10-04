@@ -92,7 +92,27 @@
     "takeaway": "The pharmaceutical market in India suffers from a structural flaw where hospitals are incentivized to choose expensive drugs for profit. Correcting this requires moving beyond simple price ceilings to regulating supply chain markups and ensuring patient choice.",
     "generatedAt": "2026-10-03T08:51:36.784Z",
     "sourceUrl": "https://www.thehindu.com/opinion/editorial/bitter-pills-on-courts-intervention-drug-pricing/article71528814.ece",
-    "sourcePublished": "2026-10-01"
+    "sourcePublished": "2026-10-01",
+    "diagram": {
+      "title": "Trade margins in medicine",
+      "center": "Trade margins in medicine",
+      "caption": "Simplified original concept map. Branches explain connected dimensions, not a timeline or a claim that one factor guarantees an outcome.",
+      "nodes": [
+        {
+          "label": "Procurement price",
+          "detail": "The hospital acquires a medicine at one price."
+        },
+        {
+          "label": "Patient price",
+          "detail": "The patient is charged a higher selling price."
+        },
+        {
+          "label": "Incentive",
+          "detail": "A larger margin can reward selection of costly brands; regulation must also preserve supply."
+        }
+      ]
+    },
+    "diagramAsset": "editorials/diagrams/v1/47721a02e72869f6fd3b.svg"
   },
   "a4e625e7fa5dc5422259": {
     "context": "The editorial considers how an emerging El Nino threat could affect ecosystems during a dry post-monsoon period. It asks whether weather forecasts alone can adequately guide ecological protection.",
@@ -185,7 +205,27 @@
     "takeaway": "Effective climate resilience in India requires moving beyond predicting 'when it will rain' to understanding 'how the land and sea will react' through a unified, micro-level ecological monitoring network.",
     "generatedAt": "2026-10-03T08:51:52.957Z",
     "sourceUrl": "https://indianexpress.com/article/opinion/editorials/el-nino-calls-for-wider-monitoring-of-ecological-stress-10904459/",
-    "sourcePublished": "2026-10-03"
+    "sourcePublished": "2026-10-03",
+    "diagram": {
+      "title": "Ecological thresholds",
+      "center": "Ecological thresholds",
+      "caption": "Simplified original concept map. Branches explain connected dimensions, not a timeline or a claim that one factor guarantees an outcome.",
+      "nodes": [
+        {
+          "label": "Pressure",
+          "detail": "Heat, water stress or habitat damage place pressure on an ecosystem."
+        },
+        {
+          "label": "Threshold",
+          "detail": "Beyond a critical limit, responses can become abrupt rather than gradual."
+        },
+        {
+          "label": "Monitoring",
+          "detail": "Local measurements can reveal warning signals that broad averages miss."
+        }
+      ]
+    },
+    "diagramAsset": "editorials/diagrams/v1/a4e625e7fa5dc5422259.svg"
   },
   "9a3c4d1c7a937704e182": {
     "context": "The editorial examines why expanding renewable generation does not automatically deliver reliable electricity. Transmission constraints, storage needs and the timing of demand shape whether new capacity can actually be used.",
@@ -278,7 +318,27 @@
     "takeaway": "The next frontier of India's energy journey is not just building more solar parks, but ensuring the electricity they generate can actually reach the grid and be stored for when it is most needed.",
     "generatedAt": "2026-10-03T08:52:06.798Z",
     "sourceUrl": "https://indianexpress.com/article/opinion/editorials/india-green-energy-corridor-renewable-power-10902986/",
-    "sourcePublished": "2026-10-02"
+    "sourcePublished": "2026-10-02",
+    "diagram": {
+      "title": "Renewable energy curtailment",
+      "center": "Renewable energy curtailment",
+      "caption": "Simplified original concept map. Branches explain connected dimensions, not a timeline or a claim that one factor guarantees an outcome.",
+      "nodes": [
+        {
+          "label": "Generation",
+          "detail": "Wind or solar plants can produce electricity when conditions allow."
+        },
+        {
+          "label": "Bottleneck",
+          "detail": "Network limits or balancing requirements can prevent all available output from being used."
+        },
+        {
+          "label": "Response",
+          "detail": "Transmission, storage and flexible demand help align supply with use."
+        }
+      ]
+    },
+    "diagramAsset": "editorials/diagrams/v1/9a3c4d1c7a937704e182.svg"
   },
   "e306ba4d9525f58dfa9e": {
     "context": "The editorial uses Netanyahu's visit to the UAE to examine shifting Gulf security partnerships and tensions surrounding Israel's regional relationships.",
@@ -371,7 +431,27 @@
     "takeaway": "The deepening Israel-UAE relationship is a pragmatic response to immediate security threats and shifting global power dynamics, yet it remains a 'top-down' peace that is constantly tested by the unresolved and volatile 'bottom-up' realities of the Palestinian conflict.",
     "generatedAt": "2026-10-03T08:52:38.607Z",
     "sourceUrl": "https://indianexpress.com/article/opinion/editorials/netanyahus-surprise-visit-and-a-gulf-too-wide-10901338/",
-    "sourcePublished": "2026-10-01"
+    "sourcePublished": "2026-10-01",
+    "diagram": {
+      "title": "Diplomacy and hard security",
+      "center": "Diplomacy and hard security",
+      "caption": "Simplified original concept map. Branches explain connected dimensions, not a timeline or a claim that one factor guarantees an outcome.",
+      "nodes": [
+        {
+          "label": "Diplomatic channel",
+          "detail": "An agreement opens communication and cooperation."
+        },
+        {
+          "label": "Security interest",
+          "detail": "States still assess threats, capabilities and domestic political constraints."
+        },
+        {
+          "label": "Limits",
+          "detail": "Diplomatic normalisation does not automatically resolve conflicts or align every security interest."
+        }
+      ]
+    },
+    "diagramAsset": "editorials/diagrams/v1/e306ba4d9525f58dfa9e.svg"
   },
   "2f25556fe7fa5fab64e6": {
     "context": "A tigress's reintroduction into Buxa Tiger Reserve prompts the editorial to examine why conservation sometimes requires expensive restoration after a species has disappeared locally.",
@@ -464,7 +544,27 @@
     "takeaway": "Tiger reintroduction in Buxa is a high-stakes ecological experiment that highlights the tension between technical conservation fixes and the need for holistic, community-inclusive habitat management.",
     "generatedAt": "2026-10-03T08:53:48.306Z",
     "sourceUrl": "https://www.thehindu.com/opinion/editorial/rescue-act-on-tiger-reintroduction-in-west-bengals-buxa/article71537248.ece",
-    "sourcePublished": "2026-10-03"
+    "sourcePublished": "2026-10-03",
+    "diagram": {
+      "title": "Ecological corridors",
+      "center": "Ecological corridors",
+      "caption": "Simplified original concept map. Branches explain connected dimensions, not a timeline or a claim that one factor guarantees an outcome.",
+      "nodes": [
+        {
+          "label": "Habitat patches",
+          "detail": "Animals may live in separated suitable habitats."
+        },
+        {
+          "label": "Connection",
+          "detail": "A corridor permits movement between patches and can support gene flow."
+        },
+        {
+          "label": "Conservation",
+          "detail": "Connectivity works alongside prey, habitat quality and reduced conflict; a corridor alone is insufficient."
+        }
+      ]
+    },
+    "diagramAsset": "editorials/diagrams/v1/2f25556fe7fa5fab64e6.svg"
   },
   "c6c259be039acb852c9a": {
     "context": "Recent violence against women prompts the editorial to reassess safety reforms introduced after the Nirbhaya case. It examines the distance between announced safeguards and women's experience of public spaces.",
@@ -555,7 +655,27 @@
     "takeaway": "True safety for women in India requires moving beyond 'numb outrage' and symbolic infrastructure toward a system of rigorous administrative accountability and a societal rejection of patriarchal control.",
     "generatedAt": "2026-10-03T08:53:57.266Z",
     "sourceUrl": "https://www.thehindu.com/opinion/editorial/other-than-outrage-on-women-unsafe-public-spaces/article71533047.ece",
-    "sourcePublished": "2026-10-02"
+    "sourcePublished": "2026-10-02",
+    "diagram": {
+      "title": "Outcome-based policing",
+      "center": "Outcome-based policing",
+      "caption": "Simplified original concept map. Branches explain connected dimensions, not a timeline or a claim that one factor guarantees an outcome.",
+      "nodes": [
+        {
+          "label": "Inputs",
+          "detail": "Money, staff and equipment are resources for policing."
+        },
+        {
+          "label": "Outputs",
+          "detail": "Patrols, complaints processed and response times describe activities and delivery."
+        },
+        {
+          "label": "Outcomes",
+          "detail": "Evaluate safety and access to justice; consider reporting changes before interpreting crime counts."
+        }
+      ]
+    },
+    "diagramAsset": "editorials/diagrams/v1/c6c259be039acb852c9a.svg"
   },
   "95f68eb819e6433fb835": {
     "context": "The editorial reviews the gap between the IMD's monsoon forecasts and a deficient rainfall outcome. It connects forecasting quality with agricultural preparedness and uneven regional exposure to climate variability.",
@@ -647,7 +767,27 @@
     "takeaway": "While the IMD remains a critical institution, the widening gap between its conservative forecasts and the reality of climate-driven rainfall deficits necessitates a shift toward more granular, transparent, and bold meteorological reporting to safeguard India's food security.",
     "generatedAt": "2026-10-03T08:54:07.124Z",
     "sourceUrl": "https://www.thehindu.com/opinion/editorial/seasons-end-on-the-india-meteorological-department-forecasts-rainfall-deficit/article71533150.ece",
-    "sourcePublished": "2026-10-02"
+    "sourcePublished": "2026-10-02",
+    "diagram": {
+      "title": "Rainfall averages and local drought",
+      "center": "Rainfall averages and local drought",
+      "caption": "Simplified original concept map. Branches explain connected dimensions, not a timeline or a claim that one factor guarantees an outcome.",
+      "nodes": [
+        {
+          "label": "Average",
+          "detail": "A seasonal total compresses rainfall over time and space."
+        },
+        {
+          "label": "Distribution",
+          "detail": "Long dry spells or uneven regional rainfall can coexist with a near-normal total."
+        },
+        {
+          "label": "Agricultural effect",
+          "detail": "Soil moisture, crop stage and irrigation influence whether rainfall shortfall causes crop stress."
+        }
+      ]
+    },
+    "diagramAsset": "editorials/diagrams/v1/95f68eb819e6433fb835.svg"
   },
   "ecbecb7ecff0797027f2": {
     "context": "The editorial examines industrial and labour survey findings showing that manufacturing expansion has not generated mass employment on the scale India needs.",
@@ -734,7 +874,27 @@
     "takeaway": "India's industrial growth is currently 'job-poor' because it lacks the scale and labor-intensity required to transform its demographic dividend into economic value, necessitating a shift toward supporting larger, more productive manufacturing units.",
     "generatedAt": "2026-10-03T08:54:16.079Z",
     "sourceUrl": "https://indianexpress.com/article/opinion/editorials/india-manufacturing-growth-employment-challenge-10902984/",
-    "sourcePublished": "2026-10-02"
+    "sourcePublished": "2026-10-02",
+    "diagram": {
+      "title": "Capital intensity and jobs",
+      "center": "Capital intensity and jobs",
+      "caption": "Simplified original concept map. Branches explain connected dimensions, not a timeline or a claim that one factor guarantees an outcome.",
+      "nodes": [
+        {
+          "label": "Production inputs",
+          "detail": "Firms combine labour and capital to produce output."
+        },
+        {
+          "label": "Capital intensity",
+          "detail": "More machinery per worker can raise output without an equal rise in employment."
+        },
+        {
+          "label": "Interpretation",
+          "detail": "Check output, employment, productivity and job quality together; output growth alone is not a jobs measure."
+        }
+      ]
+    },
+    "diagramAsset": "editorials/diagrams/v1/ecbecb7ecff0797027f2.svg"
   },
   "4284e15679ad2488f465": {
     "context": "The article discusses the Special Intensive Revision (SIR) exercise by the Election Commission of India, which has led to the removal of 13.4 crore electors. It highlights public protests and procedural concerns regarding the disenfranchisement of citizens through flawed deletion criteria.",
@@ -821,7 +981,27 @@
     "takeaway": "The integrity of Indian democracy relies on an inclusive electoral roll; however, the current SIR exercise risks undermining this by prioritizing data 'cleaning' over the fundamental right to vote.",
     "generatedAt": "2026-10-03T09:02:44.057Z",
     "sourceUrl": "https://www.thehindu.com/opinion/editorial/obstacle-race-on-special-intensive-revision-exercise/article71537443.ece",
-    "sourcePublished": "2026-10-03"
+    "sourcePublished": "2026-10-03",
+    "diagram": {
+      "title": "Electoral inclusion and verification",
+      "center": "Electoral inclusion and verification",
+      "caption": "Simplified original concept map. Branches explain connected dimensions, not a timeline or a claim that one factor guarantees an outcome.",
+      "nodes": [
+        {
+          "label": "Accuracy",
+          "detail": "Verification aims to keep electoral records accurate."
+        },
+        {
+          "label": "Exclusion risk",
+          "detail": "Documentation barriers and errors can prevent eligible voters from remaining on the roll."
+        },
+        {
+          "label": "Safeguards",
+          "detail": "Accessible notice, reasons, correction opportunities and review help balance accuracy and inclusion."
+        }
+      ]
+    },
+    "diagramAsset": "editorials/diagrams/v1/4284e15679ad2488f465.svg"
   },
   "dee7aa421d2cb6bbe531": {
     "context": "The geopolitical landscape in West Asia is shifting as Iran seeks negotiations while the US maintains a hardline stance. This transition follows US sanctions and the diminishing effectiveness of Iran's control over the Strait of Hormuz, creating a strategic deadlock before US midterm elections.",
@@ -903,7 +1083,27 @@
     "takeaway": "The shifting balance of power in West Asia, driven by energy infrastructure resilience and economic warfare, has brought Iran to the table, but US domestic politics currently prevents a definitive endgame.",
     "generatedAt": "2026-10-03T09:02:51.026Z",
     "sourceUrl": "https://indianexpress.com/article/opinion/editorials/us-iran-talks-strait-hormuz-10899693/",
-    "sourcePublished": "2026-09-30"
+    "sourcePublished": "2026-09-30",
+    "diagram": {
+      "title": "Coercive diplomacy",
+      "center": "Coercive diplomacy",
+      "caption": "Simplified original concept map. Branches explain connected dimensions, not a timeline or a claim that one factor guarantees an outcome.",
+      "nodes": [
+        {
+          "label": "Pressure",
+          "detail": "Economic or strategic pressure attempts to influence another actor."
+        },
+        {
+          "label": "Response",
+          "detail": "The target can comply, resist, adapt or retaliate."
+        },
+        {
+          "label": "Exit",
+          "detail": "Clear objectives and a credible diplomatic off-ramp matter; pressure does not guarantee the intended outcome."
+        }
+      ]
+    },
+    "diagramAsset": "editorials/diagrams/v1/dee7aa421d2cb6bbe531.svg"
   },
   "4eb4d1447875fae302b0": {
     "context": "Singapore has launched a government-led gamification initiative to combat digital doomscrolling by offering small financial rewards for daily reading. This policy intervention seeks to transform passive digital consumption into active literacy habits through behavioral nudges and structured incentives.",
@@ -990,7 +1190,27 @@
     "takeaway": "Singapore's experiment tests whether state-sponsored behavioral nudges can reclaim human attention from digital platforms, potentially setting a global precedent for cognitive public policy.",
     "generatedAt": "2026-10-03T13:35:53.127Z",
     "sourceUrl": "https://indianexpress.com/article/opinion/editorials/can-singapore-turn-doomscrollers-become-doomreaders-10904461/",
-    "sourcePublished": "2026-10-03"
+    "sourcePublished": "2026-10-03",
+    "diagram": {
+      "title": "Nudge theory and reading habits",
+      "center": "Nudge theory and reading habits",
+      "caption": "Simplified original concept map. Branches explain connected dimensions, not a timeline or a claim that one factor guarantees an outcome.",
+      "nodes": [
+        {
+          "label": "Choice architecture",
+          "detail": "The environment changes which option is easy or prominent."
+        },
+        {
+          "label": "Behaviour",
+          "detail": "A prompt or reward can encourage a reading choice without removing alternatives."
+        },
+        {
+          "label": "Evaluation",
+          "detail": "Measure sustained reading and autonomy, not just clicks; a nudge is not a guarantee of lasting habit change."
+        }
+      ]
+    },
+    "diagramAsset": "editorials/diagrams/v1/4eb4d1447875fae302b0.svg"
   },
   "6dfca37a4f2da6e9288d": {
     "context": "Following a mid-air incident where a pilot attacked their colleague on a Flydubai flight, the aviation industry faces scrutiny regarding internal security threats. The event highlights the limitations of post-9/11 security protocols, which primarily focused on external threats, necessitating a re-evaluation of cockpit safety and crew vetting.",
@@ -1073,7 +1293,27 @@
     "takeaway": "The Flydubai incident shifts the aviation security paradigm from 'fortifying the door' to 'vetting the person,' requiring a delicate balance between technological surveillance and the human element of trust.",
     "generatedAt": "2026-10-03T13:46:16.173Z",
     "sourceUrl": "https://indianexpress.com/article/opinion/editorials/captain-smit-machchhars-courage-and-a-question-for-aviation-10904460/",
-    "sourcePublished": "2026-10-03"
+    "sourcePublished": "2026-10-03",
+    "diagram": {
+      "title": "Layered aviation safety",
+      "center": "Layered aviation safety",
+      "caption": "Simplified original concept map. Branches explain connected dimensions, not a timeline or a claim that one factor guarantees an outcome.",
+      "nodes": [
+        {
+          "label": "People",
+          "detail": "Training, communication and reporting help crews identify concerns."
+        },
+        {
+          "label": "Processes",
+          "detail": "Checks, access controls and escalation routes reduce reliance on one individual."
+        },
+        {
+          "label": "Review",
+          "detail": "Continuous learning and fair oversight support safety; no single screening measure removes all risk."
+        }
+      ]
+    },
+    "diagramAsset": "editorials/diagrams/v1/6dfca37a4f2da6e9288d.svg"
   },
   "927ad3470fb0627698e2": {
     "context": "The editorial examines the recent legislative and executive push to mandate the singing of all six stanzas of Vande Mataram, contrasting this with the historical inclusive compact that favored only the first two stanzas to respect India's diverse religious fabric.",
@@ -1155,7 +1395,27 @@
     "takeaway": "True national unity is built on voluntary solidarity and respect for diversity, not on the legal compulsion of majoritarian cultural expressions.",
     "generatedAt": "2026-10-03T09:24:30.474Z",
     "sourceUrl": "https://www.thehindu.com/opinion/editorial/a-nations-song-on-vande-matarams-rendition/article71504906.ece",
-    "sourcePublished": "2026-09-25"
+    "sourcePublished": "2026-09-25",
+    "diagram": {
+      "title": "Constitutional pluralism",
+      "center": "Constitutional pluralism",
+      "caption": "Simplified original concept map. Branches explain connected dimensions, not a timeline or a claim that one factor guarantees an outcome.",
+      "nodes": [
+        {
+          "label": "Shared civic life",
+          "detail": "Common institutions and symbols can support belonging."
+        },
+        {
+          "label": "Diverse convictions",
+          "detail": "Citizens can hold different beliefs and conscientious commitments."
+        },
+        {
+          "label": "Accommodation",
+          "detail": "Reasoned accommodation and equal treatment help sustain civic unity without assuming uniform belief."
+        }
+      ]
+    },
+    "diagramAsset": "editorials/diagrams/v1/927ad3470fb0627698e2.svg"
   },
   "7934da53b4aa8450a47d": {
     "context": "The recurring nature of sexual violence in Delhi, highlighted by a recent gang rape in a public park, underscores the persistent insecurity women face despite the legislative and institutional reforms initiated after the 2012 Nirbhaya incident.",
@@ -1247,6 +1507,26 @@
     "takeaway": "Urban safety for women is a litmus test for India's development; it requires moving beyond symbolic rhetoric toward rigorous infrastructure maintenance and dismantling paternalistic social norms.",
     "generatedAt": "2026-10-03T09:31:55.870Z",
     "sourceUrl": "https://indianexpress.com/article/opinion/editorials/delhi-women-safety-nirbhaya-fund-crime-10892874/",
-    "sourcePublished": "2026-09-25"
+    "sourcePublished": "2026-09-25",
+    "diagram": {
+      "title": "Safety and agency",
+      "center": "Safety and agency",
+      "caption": "Simplified original concept map. Branches explain connected dimensions, not a timeline or a claim that one factor guarantees an outcome.",
+      "nodes": [
+        {
+          "label": "Protection",
+          "detail": "Public institutions have responsibilities for safer spaces and responsive services."
+        },
+        {
+          "label": "Agency",
+          "detail": "Women retain the freedom to study, work, travel and participate in public life."
+        },
+        {
+          "label": "Accountability",
+          "detail": "Assess perpetrators and institutional failures rather than shifting the burden to restrictions on women."
+        }
+      ]
+    },
+    "diagramAsset": "editorials/diagrams/v1/7934da53b4aa8450a47d.svg"
   }
 }

@@ -27,7 +27,7 @@ import {
 } from "./google.ts";
 import { SURVEY_KEYS, signedGetUrl } from "./storage.ts";
 import { answerChat } from "./chat.ts";
-import { EditorialError, getEditorialAnalysis, getEditorialCatalog } from "./editorials.ts";
+import { EditorialError, getEditorialAnalysis, getEditorialCatalog, getEditorialDiagramKey } from "./editorials.ts";
 
 const PORT = Number(process.env.PORT) || 3000;
 const publicDir = join(import.meta.dirname, "public");
@@ -479,6 +479,19 @@ const server = createServer(async (req, res) => {
         send(res, 201, { user: formatUser(row) });
       } catch (err) {
         send(res, 400, { error: err instanceof Error ? err.message : "Invalid input" });
+      }
+      return;
+    }
+
+    if (req.method === "GET" && /^\/api\/editorials\/[a-f0-9]{20}\/diagram$/.test(url.pathname)) {
+      if (!(await requireAccount(req,res))) return;
+      const id=url.pathname.split('/')[3];
+      const expected=await getEditorialDiagramKey(id);
+      if(!expected){send(res,404,{error:'Diagram not found'});return;}
+      try {
+        res.writeHead(302,{Location:await signedGetUrl(expected), 'Cache-Control':'no-store'});res.end();
+      } catch {
+        res.writeHead(302,{Location:`/editorial-diagrams/${id}.svg`});res.end();
       }
       return;
     }

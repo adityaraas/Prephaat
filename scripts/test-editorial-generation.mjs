@@ -9,11 +9,12 @@ const candidates = (await getEditorialCatalog()).items.filter(item => !pack[item
 assert.equal(candidates.length, 6);
 const originalFetch = globalThis.fetch;
 const originalMkdir = fs.mkdir;
-const envNames = ['EDITORIAL_MODEL', 'GEMINI_API_KEY', 'GOOGLE_GEMINI_API_KEY', 'GOOGLE_GENERATIVE_AI_API_KEY', 'GOOGLE_AI_API_KEY'];
+const envNames = ['EDITORIAL_DIAGRAM_STORAGE','EDITORIAL_MODEL', 'GEMINI_API_KEY', 'GOOGLE_GEMINI_API_KEY', 'GOOGLE_GENERATIVE_AI_API_KEY', 'GOOGLE_AI_API_KEY'];
 const originalEnv = new Map(envNames.map(name => [name, process.env[name]]));
 let modelCalls = [], mode = 'quota';
 try {
   for (const name of envNames) delete process.env[name];
+  process.env.EDITORIAL_DIAGRAM_STORAGE='off';
   assert.equal((await getEditorialAnalysis(Object.keys(pack)[0])).sourceUrl, Object.values(pack)[0].sourceUrl, 'Prepared notes work without a production API key');
   await assert.rejects(getEditorialAnalysis(candidates[5].id), /temporarily unavailable/);
   process.env.GEMINI_API_KEY = 'test-only-not-a-real-key';
@@ -34,7 +35,7 @@ try {
       if (mode === 'malformed') return Response.json({ candidates: [{ content: { parts: [{ text: '{incomplete' }] } }] });
       return new Response('{}', { status: mode === 'quota' ? 429 : 404 });
     }
-    return Response.json({ candidates: [{ content: { parts: [{ text: JSON.stringify(Object.values(pack)[0]) }] } }] });
+    return Response.json({ candidates: [{ content: { parts: [{ text: JSON.stringify({...Object.values(pack)[0],summary:'The article examines medicine pricing and affordability.',keyTakeaways:['Margins affect incentives.','Patients face limited choices.','Regulation must preserve supply.']}) }] } }] });
   };
   for (const [index, scenario] of ['quota', 'not-found', 'malformed'].entries()) {
     mode = scenario; modelCalls = [];
@@ -42,6 +43,7 @@ try {
     const results = await Promise.all([getEditorialAnalysis(item.id), getEditorialAnalysis(item.id)]);
     assert.equal(results[0], results[1], 'Concurrent opens share one generation');
     assert.equal(results[0].sourceUrl, item.url);
+    assert.equal(results[0].keyTakeaways.length,3);assert.match(results[0].summary,/medicine pricing/);assert.equal(results[0].diagram.nodes.length,3);
     assert.equal(modelCalls.length, 2, 'A failed configured model falls back once');
     assert(modelCalls[1].includes('gemini-3.1-flash-lite-preview'));
     const cached = await getEditorialAnalysis(item.id);

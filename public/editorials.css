@@ -59,6 +59,16 @@
 .ed-practice textarea { width: 100%; box-sizing: border-box; resize: vertical; padding: 16px; border: 1px solid var(--highlight-line); background: var(--site-card); color: var(--site-ink); border-radius: 10px; font: inherit; font-size: 14px; line-height: 1.8; margin-top: 10px; }
 .ed-practice summary { cursor: pointer; font-size: 12px; font-weight: 700; padding: 15px 0; }
 .ed-takeaway { padding: 24px 0; }
+.ed-note-section .ed-summary-text { font-size:17px; line-height:1.85; }
+.ed-key-takeaways { display:grid; gap:12px; }
+.ed-key-takeaways > div { display:flex; gap:16px; align-items:flex-start; padding:16px 20px; border-radius:12px; background:var(--site-soft); }
+.ed-key-takeaways span { color:var(--site-primary); font-weight:800; padding-top:4px; }
+.ed-key-takeaways p { margin:0; }
+.ed-diagram { margin:20px 0; }
+.ed-diagram svg { display:block; width:100%; height:auto; }
+.ed-diagram figcaption { margin-top:12px; color:var(--site-muted); font-size:12px; line-height:1.7; }
+.ed-diagram-download { display:inline-block; padding:10px 16px; border:1px solid var(--highlight-line); border-radius:10px; color:var(--site-primary); font-size:13px; }
+.ed-diagram-text summary { cursor:pointer; color:var(--site-primary); font-size:13px; padding:12px 0; }
 .ed-takeaway p { font-family: var(--site-serif); font-size: 23px; line-height: 1.6; }
 .ed-loading { padding: 35px; background: var(--site-soft); border-radius: 12px; line-height: 1.8; }
 .ed-loading p { font-size: 13px; color: var(--site-muted); }

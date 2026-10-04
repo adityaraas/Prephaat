@@ -61,6 +61,7 @@ const context = vm.createContext({
     return pack[id] ? { ok: true, json: async () => ({ analysis: pack[id] }) } : { ok: false, status: 404, json: async () => ({ error: 'Not found' }) };
   },
 });
+vm.runInContext(readFileSync('public/editorial-visuals.js', 'utf8'), context);
 vm.runInContext(readFileSync('public/editorials.js', 'utf8') + '\nglobalThis.desk = EditorialDesk;', context);
 await context.desk.mount(host);
 assert.match(host.innerHTML, /partial archive/);
@@ -74,6 +75,9 @@ const id = Object.keys(pack)[0];
 location.hash = '#editorials/' + id;
 await context.desk.mount(host);
 const noteHtml = host.querySelector('#ed-note').innerHTML;
+const readingOrder=['ed-summary','ed-diagram','ed-concepts','ed-context','ed-syllabus','ed-perspectives','ed-balance','ed-prelims','ed-question'];
+for(let index=1;index<readingOrder.length;index++)assert(noteHtml.indexOf(`id="${readingOrder[index-1]}"`)<noteHtml.indexOf(`id="${readingOrder[index]}"`),'Summary, takeaways and diagram must precede exam pointers');
+assert.match(noteHtml,/Important takeaways/);assert.match(noteHtml,/<svg/);assert.match(noteHtml,/Open stored diagram/);
 for (const section of ['ed-context', 'ed-concepts', 'ed-syllabus', 'ed-perspectives', 'ed-balance', 'ed-prelims', 'ed-question']) assert(noteHtml.includes(`id="${section}"`));
 assert.match(noteHtml, /Original practice question/);
 assert(!calls.some(call => call.url.startsWith('/api/')), 'Catalog and prepared notes must work even when new API routes return 404');
