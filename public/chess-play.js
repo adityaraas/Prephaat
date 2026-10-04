@@ -14,11 +14,12 @@
   const BISHOP = [[1, 1], [1, -1], [-1, 1], [-1, -1]];
   const ROOK = [[1, 0], [-1, 0], [0, 1], [0, -1]];
 
-  const overlay = document.getElementById("chess-overlay");
-  const boardEl = document.getElementById("chess-board");
-  const statusEl = document.getElementById("chess-status");
-  const openBtn = document.getElementById("bored-chess-open");
-  if (!overlay || !boardEl || !openBtn) return;
+  const document = globalThis.document;
+  const overlay = document?.getElementById("chess-overlay");
+  const boardEl = document?.getElementById("chess-board");
+  const statusEl = document?.getElementById("chess-status");
+  const openBtn = document?.getElementById("bored-chess-open");
+  if (document && (!overlay || !boardEl || !openBtn)) return;
 
   let board = [];
   let turn = "w";
@@ -33,6 +34,26 @@
   let squares = [];
   let dragFrom = -1;
   let skipClick = false;
+  let generation = 0, worker = null, drag = null, dragFrame = 0;
+  let history = [], started = false;
+  const timers = new Set();
+  const pieceNames = { k: "king", q: "queen", r: "rook", b: "bishop", n: "knight", p: "pawn" };
+  function later(callback, delay) {
+    const token = generation;
+    const id = setTimeout(() => { timers.delete(id); if (token === generation) callback(); }, delay);
+    timers.add(id);
+  }
+  function cancelPending() {
+    generation++;
+    for (const timer of timers) clearTimeout(timer);
+    timers.clear();
+    worker?.terminate(); worker = null;
+    cancelDrag();
+    boardEl?.querySelectorAll(".chess-flyer").forEach(el => el.remove());
+    thinking = false; animating = false; skipClick = false;
+  }
+  function coordinate(sq) { return String.fromCharCode(97 + fileOf(sq)) + (rankOf(sq) + 1); }
+
 
   function fileOf(sq) {
     return sq % 8;
@@ -54,6 +75,8 @@
   }
 
   function startPos() {
+    cancelPending();
+    history = []; started = true;
     const empty = () => ({ t: "", c: "" });
     const p = (t, c) => ({ t, c });
     board = [];
@@ -323,6 +346,7 @@
   }
 
   function search(depth, alpha, beta, color) {
+    if (depth === 0) return evaluate();
     const moves = legalMoves(color);
     if (!moves.length) {
       if (inCheck(color)) return color === "b" ? -99999 - depth : 99999 + depth;
@@ -373,6 +397,28 @@
       }
     }
     return best[(Math.random() * best.length) | 0] || moves[0];
+  }
+
+  if (!document) {
+    globalThis.onmessage = ({ data }) => {
+      board = data.board; castle = data.castle; ep = data.ep;
+      globalThis.postMessage(computerMove());
+    };
+    return;
+  }
+
+  async function responsiveComputerMove(token) {
+    const moves = legalMoves("b");
+    let best = null, bestScore = -Infinity;
+    for (const move of moves) {
+      if (token !== generation) return null;
+      const undo = applyMove(move);
+      const score = search(1, -Infinity, Infinity, "w");
+      revert(undo);
+      if (score > bestScore) { bestScore = score; best = move; }
+      await new Promise(resolve => setTimeout(resolve, 0));
+    }
+    return best;
   }
 
   function finishIfOver() {
@@ -426,6 +472,12 @@
     legalFrom = selected >= 0 && turn === "w" ? legalMoves("w").filter((m) => m.from === selected) : [];
     const legalTo = new Set(legalFrom.map((m) => m.to));
     statusEl.textContent = statusText();
+    boardEl.setAttribute("aria-busy", String(thinking || animating));
+    document.getElementById("chess-undo").disabled = !history.length || animating;
+    const log = document.getElementById("chess-moves");
+    log.textContent = history.length ? history.map((entry, index) => `${index % 2 === 0 ? Math.floor(index / 2) + 1 + ". " : ""}${entry.label}`).join("  ") : "Your moves will appear here.";
+    log.scrollTop = log.scrollHeight;
+    const checkedKing = inCheck(turn) ? findKing(turn) : -1;
     for (let sq = 0; sq < 64; sq++) {
       const btn = squares[sq];
       const pc = board[sq];
@@ -435,12 +487,16 @@
         "chess-sq",
         light ? "light" : "dark",
         selected === sq ? "sel" : "",
+        checkedKing === sq ? "check" : "",
         legalTo.has(sq) ? "legal" : "",
         legalTo.has(sq) && pc.t ? "busy" : "",
         lastMove && (lastMove.from === sq || lastMove.to === sq) ? "last" : "",
       ]
         .filter(Boolean)
         .join(" ");
+      btn.setAttribute("aria-label", `${coordinate(sq)}${pc.t ? ", " + (pc.c === "w" ? "White " : "Black ") + pieceNames[pc.t] : ", empty"}${legalTo.has(sq) ? ", legal destination" : ""}`);
+      btn.setAttribute("aria-pressed", String(selected === sq));
+      piece.style.opacity = "";
       if (!pc.t || sq === hideSq) {
         piece.textContent = "";
         piece.className = "chess-piece";
@@ -456,8 +512,10 @@
     const fromBtn = squareEl(move.from);
     const toBtn = squareEl(move.to);
     const source = fromBtn?.querySelector(".chess-piece");
-    if (!fromBtn || !toBtn || !source?.textContent) {
-      applyMove(move);
+    const token = generation;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches || !fromBtn || !toBtn || !source?.textContent) {
+      commitMove(move);
+      animating = false;
       lastMove = { from: move.from, to: move.to };
       paint();
       done();
@@ -480,56 +538,69 @@
     boardEl.appendChild(flyer);
     requestAnimationFrame(() => {
       requestAnimationFrame(() => {
+        if (token !== generation) return;
         flyer.style.transform = `translate(${toR.left - fromR.left}px, ${toR.top - fromR.top}px)`;
       });
     });
     let finished = false;
     const finish = () => {
-      if (finished) return;
+      if (finished || token !== generation) return;
       finished = true;
       flyer.remove();
-      applyMove(move);
+      commitMove(move);
       lastMove = { from: move.from, to: move.to };
       animating = false;
       paint();
       done();
     };
     flyer.addEventListener("transitionend", finish, { once: true });
-    window.setTimeout(finish, 280);
+    later(finish, 240);
+  }
+
+  function commitMove(move) {
+    const piece = board[move.from];
+    const capture = board[move.to].t || move.ep;
+    const label = move.castle ? (move.to > move.from ? "O-O" : "O-O-O") : `${piece.t === "p" ? "" : piece.t.toUpperCase()}${coordinate(move.from)}${capture ? "×" : "–"}${coordinate(move.to)}${move.promo ? "=Q" : ""}`;
+    history.push({ undo: applyMove(move), move, label });
   }
 
   function afterUserMove() {
-    if (finishIfOver()) {
-      paint();
-      return;
-    }
-    thinking = true;
-    paint();
-    window.setTimeout(() => {
-      const reply = computerMove();
-      thinking = false;
-      if (!reply) {
-        turn = "w";
-        finishIfOver();
-        paint();
-        return;
-      }
-      animateMove(reply, () => {
-        turn = "w";
-        finishIfOver();
-        paint();
-      });
-    }, 160);
+    if (finishIfOver()) { paint(); return; }
+    thinking = true; paint();
+    const token = generation;
+    const replyReady = reply => {
+      if (token !== generation) return;
+      worker?.terminate(); worker = null; thinking = false;
+      if (!reply) { finishIfOver(); paint(); return; }
+      animateMove(reply, () => { turn = "w"; finishIfOver(); paint(); });
+    };
+    later(() => {
+      try {
+        worker = new Worker("/chess-play.js?v=20261003-2");
+        worker.onmessage = event => replyReady(event.data);
+        worker.onerror = () => {
+          if (token !== generation) return;
+          worker?.terminate(); worker = null;
+          responsiveComputerMove(token).then(replyReady);
+        };
+        worker.postMessage({ board, castle, ep });
+      } catch { responsiveComputerMove(token).then(replyReady); }
+    }, 100);
   }
 
-  function playUser(to) {
+  function playUser(to, dropped = false) {
     const move = legalFrom.find((m) => m.to === to);
     if (!move || animating) return;
     selected = -1;
     legalFrom = [];
     turn = "b";
+    if (dropped) {
+      commitMove(move);
+      lastMove = { from: move.from, to: move.to };
+      paint(); afterUserMove();
+      return;
+    }
     animating = true;
-    skipClick = true;
     animateMove(move, afterUserMove);
   }
 
@@ -549,10 +620,19 @@
   }
 
   function openGame() {
-    startPos();
+    if (!started) startPos();
     overlay.hidden = false;
+    document.body.classList.add("chess-is-open");
     ensureBoard();
     paint();
+    document.getElementById("chess-close").focus();
+  }
+
+  function closeGame() {
+    cancelDrag();
+    overlay.hidden = true;
+    document.body.classList.remove("chess-is-open");
+    openBtn.focus();
   }
 
   openBtn.addEventListener("click", openGame);
@@ -560,14 +640,27 @@
     startPos();
     paint();
   });
-  document.getElementById("chess-close").addEventListener("click", () => {
-    overlay.hidden = true;
+  document.getElementById("chess-close").addEventListener("click", closeGame);
+  document.getElementById("chess-undo").addEventListener("click", () => {
+    if (animating || !history.length) return;
+    cancelPending();
+    const count = turn === "b" ? 1 : Math.min(2, history.length);
+    for (let i = 0; i < count; i++) revert(history.pop().undo);
+    turn = "w"; over = ""; selected = -1; legalFrom = [];
+    lastMove = history.at(-1)?.move || null; paint();
   });
   overlay.addEventListener("click", (event) => {
-    if (event.target === overlay) overlay.hidden = true;
+    if (event.target === overlay) closeGame();
   });
   document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape" && !overlay.hidden) overlay.hidden = true;
+    if (overlay.hidden) return;
+    if (event.key === "Escape") closeGame();
+    if (event.key === "Tab") {
+      const controls = [...overlay.querySelectorAll("button:not(:disabled)")];
+      const first = controls[0], last = controls.at(-1);
+      if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+      else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+    }
   });
   boardEl.addEventListener("click", (event) => {
     if (skipClick) {
@@ -577,27 +670,59 @@
     const btn = event.target.closest("[data-sq]");
     if (btn) onSquare(Number(btn.dataset.sq));
   });
-  boardEl.addEventListener("pointerdown", (event) => {
+  function cancelDrag() {
+    cancelAnimationFrame(dragFrame); dragFrame = 0;
+    drag?.flyer?.remove();
+    if (drag) squareEl(drag.from)?.querySelector(".chess-piece")?.style.removeProperty("opacity");
+    boardEl?.querySelectorAll(".drop-target").forEach(el => el.classList.remove("drop-target"));
+    drag = null; dragFrom = -1;
+  }
+  boardEl.addEventListener("pointerdown", event => {
+    if (event.button !== 0 || over || thinking || animating || turn !== "w") return;
     const btn = event.target.closest("[data-sq]");
-    if (!btn || over || thinking || animating || turn !== "w") return;
+    if (!btn) return;
     const sq = Number(btn.dataset.sq);
-    if (!(board[sq].t && board[sq].c === "w")) return;
+    if (board[sq].c !== "w") return;
+    selected = sq; paint();
     dragFrom = sq;
-    selected = sq;
-    paint();
-    try {
-      btn.setPointerCapture(event.pointerId);
-    } catch {
-      /* ignore */
+    drag = { from: sq, x: event.clientX, y: event.clientY, pointerId: event.pointerId, flyer: null };
+    btn.setPointerCapture(event.pointerId);
+  });
+  boardEl.addEventListener("pointermove", event => {
+    if (!drag || event.pointerId !== drag.pointerId) return;
+    if (!drag.flyer && Math.hypot(event.clientX - drag.x, event.clientY - drag.y) < 5) return;
+    if (!drag.flyer) {
+      const source = squareEl(drag.from).querySelector(".chess-piece");
+      const rect = squareEl(drag.from).getBoundingClientRect();
+      drag.flyer = source.cloneNode(true);
+      drag.flyer.classList.add("chess-flyer", "chess-drag-piece");
+      drag.flyer.style.width = `${rect.width}px`; drag.flyer.style.height = `${rect.height}px`;
+      boardEl.appendChild(drag.flyer); source.style.opacity = "0";
+    }
+    drag.x = event.clientX; drag.y = event.clientY;
+    if (!dragFrame) dragFrame = requestAnimationFrame(() => {
+      dragFrame = 0;
+      if (!drag) return;
+      const rect = boardEl.getBoundingClientRect();
+      drag.flyer.style.transform = `translate3d(${drag.x - rect.left - drag.flyer.offsetWidth / 2}px, ${drag.y - rect.top - drag.flyer.offsetHeight / 2}px, 0)`;
+      const target = document.elementFromPoint(drag.x, drag.y)?.closest("[data-sq]");
+      boardEl.querySelectorAll(".drop-target").forEach(el => el.classList.remove("drop-target"));
+      if (target && legalFrom.some(move => move.to === Number(target.dataset.sq))) target.classList.add("drop-target");
+    });
+  });
+  boardEl.addEventListener("pointerup", event => {
+    if (!drag || event.pointerId !== drag.pointerId) return;
+    const dragged = Boolean(drag.flyer);
+    const btn = document.elementFromPoint(event.clientX, event.clientY)?.closest("[data-sq]");
+    const sq = btn ? Number(btn.dataset.sq) : -1;
+    cancelDrag();
+    if (dragged) {
+      skipClick = true;
+      // The synthetic click follows pointerup; never suppress the next real click.
+      later(() => { skipClick = false; }, 0);
+      if (legalFrom.some(move => move.to === sq)) playUser(sq, true); else paint();
     }
   });
-  boardEl.addEventListener("pointerup", (event) => {
-    if (dragFrom < 0) return;
-    const from = dragFrom;
-    dragFrom = -1;
-    const under = document.elementFromPoint(event.clientX, event.clientY);
-    const btn = under?.closest?.("[data-sq]");
-    const sq = btn ? Number(btn.dataset.sq) : from;
-    if (sq !== from && legalFrom.some((m) => m.to === sq)) playUser(sq);
-  });
+  boardEl.addEventListener("pointercancel", () => { cancelDrag(); paint(); });
+  boardEl.addEventListener("lostpointercapture", () => { if (drag) { cancelDrag(); paint(); } });
 })();

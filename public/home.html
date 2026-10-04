@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="/editorials.css" />
     <link rel="stylesheet" href="/current-affairs.css?v=20261003-1" />
     <link rel="stylesheet" href="/profile.css?v=20261003-1" />
+    <link rel="stylesheet" href="/chess.css?v=20261003-1" />
     <script src="/theme.js?v=20261003-1"></script>
   </head>
   <body>
@@ -55,19 +56,23 @@
     </div>
 
     <div class="chess-overlay" id="chess-overlay" hidden>
-      <div class="chess-sheet" role="dialog" aria-labelledby="chess-title">
+      <div class="chess-sheet" role="dialog" aria-modal="true" aria-labelledby="chess-title" aria-describedby="chess-status">
         <div class="chess-top">
           <div>
-            <h2 id="chess-title">Chess · you vs computer</h2>
-            <p class="meta" id="chess-status">You play White. Click a piece, then a square.</p>
+            <span class="chess-eyebrow">A MOMENT TO THINK</span>
+            <h2 id="chess-title">Your next move.</h2>
+            <p class="meta" id="chess-status" role="status" aria-live="polite">You play White. Click or drag a piece.</p>
           </div>
           <div class="chess-actions">
+            <button type="button" class="ghost" id="chess-undo" disabled>Undo</button>
             <button type="button" class="ghost" id="chess-new">New game</button>
             <button type="button" class="ghost" id="chess-close">Close</button>
           </div>
         </div>
         <div class="chess-board" id="chess-board"></div>
-        <p class="meta chess-hint">Computer plays Black. Pawns promote to queens.</p>
+        <div class="chess-files" aria-hidden="true"><span>a</span><span>b</span><span>c</span><span>d</span><span>e</span><span>f</span><span>g</span><span>h</span></div>
+        <div class="chess-moves" id="chess-moves" aria-label="Move history">Your moves will appear here.</div>
+        <p class="meta chess-hint">You play White. Click or drag to move. Pawns promote to queens.</p>
       </div>
     </div>
 
@@ -157,7 +162,7 @@
     <script src="/profile.js?v=20261003-1"></script>
     <script src="/current-affairs.js?v=20261003-1"></script>
     <script src="/home.js?v=20261003-5"></script>
-    <script src="/chess-play.js"></script>
+    <script src="/chess-play.js?v=20261003-2"></script>
     <script src="/chat.js"></script>
   </body>
 </html>
