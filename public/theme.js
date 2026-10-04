@@ -2,6 +2,7 @@ const SiteTheme = (() => {
   const themes = ['mango', 'forest', 'navy', 'plum'];
   try { const saved = localStorage.getItem('crack-ias-theme'); if (themes.includes(saved)) document.documentElement.dataset.theme = saved; } catch {}
   const paths = {
+    preparation: '<rect x="3" y="4" width="18" height="17" rx="3"/><path d="M7 2v4m10-4v4M3 9h18m-13 6 3 3 5-6"/>',
     editorials: '<path d="M4 4h16v16H4zM8 8h8M8 12h8M8 16h5"/>',
     history: '<path d="M3 21h18M5 18h14M6 9v9m4-9v9m4-9v9m4-9v9M3 7l9-4 9 4H3Z"/>',
     current: '<path d="M5 4h14v16H5zM8 8h8M8 12h3m3 0h2M8 16h3m3 0h2"/>',

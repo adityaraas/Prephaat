@@ -8,6 +8,7 @@ for (const stage of ['prelims', 'mains']) {
   const context = {
     requireSession: async () => ({ account: { name: 'Test learner' } }),
     SiteProfile: { setAccount() {} },
+    PrepDesk: { setAccount() {} },
     document: { getElementById: () => ({ textContent: '' }) },
     testPage: true,
     testParams: new URLSearchParams({ stage, testId: stage === 'prelims' ? 'mock-1' : 'mains-gs' }),

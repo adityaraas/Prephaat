@@ -39,7 +39,9 @@ const host = { dataset: {}, innerHTML: '',
   querySelectorAll() { return buttons; }, addEventListener(event, handler) { handlers[event] = handler; },
 };
 const location = { hash: '#current' }; let fetches = 0;
+let savedRevision;
 const context = vm.createContext({ window: { location }, history: { replaceState(_, __, hash) { location.hash = hash; } }, AbortSignal,
+  PrepDesk:{addRevision(entry){savedRevision=entry;return true;}},
   fetch: async () => { fetches++; return { ok: true, json: async () => archive }; },
 });
 vm.runInContext(readFileSync('public/current-affairs.js', 'utf8') + '\nglobalThis.monthly = MonthlyCurrentAffairs;', context);
@@ -54,6 +56,9 @@ handlers.input({ target: { id: 'ca-search', value: 'a-query-that-does-not-match-
 assert.match(host.querySelector('#ca-stories').innerHTML, /No issues match/);
 context.monthly.openItem(all[0].id);
 const brief=host.querySelector('#ca-stories').innerHTML;
+handlers.click({target:{closest:selector=>selector==='[data-ca-revision]'?{dataset:{caRevision:all[0].id}}:null}});
+assert.equal(savedRevision.id,'news:'+all[0].id);
+assert.equal(savedRevision.url,`/home#current/${all[0].published.slice(0,7)}/${all[0].id}`);
 assert.match(brief,/What happened\?/);assert.match(brief,/Key takeaways/);assert.match(brief,/Why in news\?/);
 assert(brief.indexOf('What happened?')<brief.indexOf('Key takeaways'));
 assert(brief.indexOf('Key takeaways')<brief.indexOf('Why it matters for the exam'));

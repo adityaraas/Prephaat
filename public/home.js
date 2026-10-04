@@ -218,6 +218,7 @@ async function requireSession() {
 
 function renderTabs() {
   const items = [
+    { id: "preparation", label: "Preparation Desk" },
     { id: "current", label: "Current affairs" },
     { id: "editorials", label: "Editorials" },
     { id: "mapping", label: "Mapping" },
@@ -230,6 +231,8 @@ function renderTabs() {
 }
 
 async function showTab(id) {
+  const isPreparation=id==='preparation';
+  document.getElementById('preparation').hidden=!isPreparation;
   for (const button of tabsEl.querySelectorAll("button")) {
     button.classList.toggle("on", button.dataset.tab === id);
   }
@@ -245,8 +248,10 @@ async function showTab(id) {
   pyqEl.hidden = !isPyq;
   surveyEl.hidden = !isSurvey;
   mappingEl.hidden = !isMapping;
-  subjectEl.hidden = isNews || isEditorials || isQuiz || isPyq || isSurvey || isMapping;
-  if (isNews) {
+  subjectEl.hidden = isPreparation || isNews || isEditorials || isQuiz || isPyq || isSurvey || isMapping;
+  if (isPreparation) {
+    PrepDesk.mount(document.getElementById('preparation-desk'));
+  } else if (isNews) {
     await MonthlyCurrentAffairs.mount(document.getElementById("monthly-current-affairs"));
     newsItems = MonthlyCurrentAffairs.getSearchItems();
     rebuildSearchIndex();
@@ -781,7 +786,7 @@ function renderQuizBoard(review = null) {
   const answeredCount = review?.results?.filter((q) => mains ? Boolean(q.response?.trim()) : q.chosen >= 0).length ?? 0;
   const analysisSummary = review ? `<ol class="analysis-lines"><li><strong>Result:</strong> ${Number(review.score).toFixed(1)} of ${Number(review.maxScore).toFixed(1)} marks; ${mains ? `${answeredCount}/${review.total} answers written` : `${review.correct} correct, ${review.wrong} incorrect, ${review.total - answeredCount} skipped`}.</li><li><strong>Strongest area:</strong> ${strongest ? `${escapeHtml(strongest.topic)} (${mains ? `${Math.round(strongest.marks / (strongest.max || 1) * 100)}% self-score` : `${strongest.correct}/${strongest.total} correct`})` : "Keep practising across the paper."}</li><li><strong>Next focus:</strong> ${focus ? `${escapeHtml(focus.topic)}; review its marked questions and three-line explanations.` : "Review the answer notes and revisit weak topics."}</li></ol>` : "";
   const footer = review
-    ? `<section class="test-analysis"><h3>Test analysis</h3><p class="stat">${Number(review.score).toFixed(1)} / ${Number(review.maxScore).toFixed(1)} marks</p>${analysisSummary}<p>${mains ? "Mains has no negative marking. Marks are based on your self-assessment." : `${review.correct} correct · ${review.wrong} incorrect · ${review.total - review.correct - review.wrong} unattempted · negative marking applied.`}</p>${topicStats ? `<p><strong>Topic accuracy:</strong> ${topicStats}</p>` : ""}<p>Review question feedback above. ${review.id ? "This attempt is saved in your history." : ""}</p><button type="button" class="cta" id="new-test">Choose another test</button></section>`
+    ? `<section class="test-analysis"><h3>Test analysis</h3><p class="stat">${Number(review.score).toFixed(1)} / ${Number(review.maxScore).toFixed(1)} marks</p>${analysisSummary}<p>${mains ? "Mains has no negative marking. Marks are based on your self-assessment." : `${review.correct} correct · ${review.wrong} incorrect · ${review.total - review.correct - review.wrong} unattempted · negative marking applied.`}</p>${topicStats ? `<p><strong>Topic accuracy:</strong> ${topicStats}</p>` : ""}<p>Review question feedback above. ${review.id ? "This attempt is saved in your history." : ""}</p>${mains?'<a href="/home#preparation/writing">Open my writing workspace</a>':'<button type="button" class="prep-save-revision" id="save-test-mistakes">Save wrong / skipped questions to my notebook</button><p id="test-mistake-status" class="meta" role="status"></p><a href="/home#preparation/mistakes">Open mistake notebook</a>'}<button type="button" class="cta" id="new-test">Choose another test</button></section>`
     : `<div class="test-controls"><button type="button" class="ghost" data-page="prev" ${quizPage === 0 ? "disabled" : ""}>Previous</button><span>Page ${quizPage + 1} of ${Math.ceil(allQuestions.length / 3)}</span><button type="button" class="ghost" data-page="next" ${pageStart + 3 >= allQuestions.length ? "disabled" : ""}>Next</button><button type="button" class="cta" id="submit-quiz">Submit &amp; save test</button><button type="button" class="ghost quit-test" id="quit-test">Quit test</button></div>`;
   const heading = review?.title ? `${escapeHtml(review.title)} analysis` : escapeHtml(activeQuiz.title);
   quizBoard.innerHTML = `<h2>${heading}</h2><p class="meta">${mains ? "UPSC Mains: 10/15 marks; no penalty" : "UPSC Prelims: +2 correct, -2/3 incorrect, 0 unanswered"}</p><div class="test-layout"><aside class="test-sidebar"><strong>Question navigator</strong><p class="navigator-legend"><span>Green: answered</span><span>Red: incorrect in review</span></p><div class="question-nav">${nav}</div></aside><div class="test-main">${questions.join("")}${footer}</div></div>`;
@@ -1286,8 +1291,18 @@ async function warmSearchIndex() {
 
 tabsEl.addEventListener("click", (event) => {
   const button = event.target.closest("button[data-tab]");
-  if (button) showTab(button.dataset.tab);
+  if (button) { history.replaceState(null,'',`#${button.dataset.tab}`); showTab(button.dataset.tab); }
 });
+function tabFromHash() {
+  const hash=window.location.hash.slice(1);
+  if(hash.startsWith('preparation'))return 'preparation';
+  if(hash.startsWith('editorials'))return 'editorials';
+  if(hash.startsWith('current'))return 'current';
+  if(/^day-\d+$/.test(hash))return 'history';
+  const subject=studyData?.subjects.find(subject=>hash===subject.id||hash.startsWith(subject.id+'-day-'));
+  return subject?.id || (['quiz','pyq','survey','mapping'].includes(hash)?hash:'preparation');
+}
+window.addEventListener('hashchange',()=>{if(studyData&&!testPage)showTab(tabFromHash());});
 
 pyqEl.addEventListener("click", (event) => {
   const examBtn = event.target.closest("[data-pyq-exam]");
@@ -1404,6 +1419,11 @@ quizHistoryEl?.addEventListener("click", (event) => {
 });
 
 quizBoard.addEventListener("click", async (event) => {
+  if(event.target.closest('#save-test-mistakes')) {
+    const count=PrepDesk.importReview(quizReview);
+    document.getElementById('test-mistake-status').textContent=quizReview?.stage==='mains'?'Use the writing workspace to review your Mains response.':`${count} new mistakes saved. Open the notebook to add your correction.`;
+    return;
+  }
   const jump = event.target.closest("[data-jump]");
   if (jump && (!quizLocked || quizReview)) {
     quizPage = Math.floor(Number(jump.dataset.jump) / 3);
@@ -1498,6 +1518,7 @@ document.querySelector(".syllabus-tabs").addEventListener("click", (event) => {
   const session = await requireSession();
   if (!session) return;
   SiteProfile.setAccount(session.account);
+  PrepDesk.setAccount(session.account);
 
   // Start the paper before loading unrelated dashboard data or account trackers.
   if (testPage) {
@@ -1522,7 +1543,7 @@ document.querySelector(".syllabus-tabs").addEventListener("click", (event) => {
   renderSyllabus();
   bindSearch();
   rebuildSearchIndex();
-  showTab(window.location.hash.startsWith("#editorials") ? "editorials" : window.location.hash === "#quiz" ? "quiz" : "current");
+  showTab(tabFromHash());
 
   warmSearchIndex();
   await loadTracker();

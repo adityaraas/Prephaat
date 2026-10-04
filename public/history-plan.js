@@ -48,6 +48,7 @@ const HistoryPlan = (() => {
           <h3>01 / Study material</h3><p class="note-label">${lesson.studyWords}+ words of on-page explanations, plus comparisons, terms and practice. Original study notes aligned with your reading plan.</p><h4 class="quick-recap">Start here · Today’s essentials</h4>${lesson.notes.map((n,i) => `<div class="note"><span>${String(i+1).padStart(2,'0')}</span><p>${esc(n)}</p></div>`).join('')}
           ${subject === 'geography' && typeof GeographyVisuals !== 'undefined' ? GeographyVisuals.render(lesson) : ''}
           ${subject !== 'geography' && typeof StudyVisuals !== 'undefined' ? StudyVisuals.render(subject, lesson, segment) : ''}
+          <button type="button" class="prep-save-revision" data-save-lesson="${lesson.day}">Add this lesson to my revision queue</button><p id="lesson-revision-status" role="status"></p>
           ${deepReading(lesson)}
           <section class="ncert-reader"><p class="eyebrow">READ THE ORIGINAL</p><h3>${esc(data.readerTitle || "NCERT textbook reader")}</h3><p>${esc(data.readerDescription || "Open an official NCERT chapter here. Choose the chapter that matches today’s topic; these Class 12 themes supplement the wider reading plan.")}</p><label for="ncert-reader-choice">Chapter</label><select id="ncert-reader-choice">${data.readers[segment.id].map(([title,code])=>`<option value="${esc(code)}">${esc(title)}</option>`).join('')}</select><button type="button" class="reader-load" data-reader="load">Read on this page</button><div id="ncert-reader-frame"></div><p class="note-label">The document loads from its official provider when you open it. If your browser cannot display the PDF, use the direct chapter link shown below it.</p></section>
           <div class="reading"><h3>Today’s book reading</h3><p>${esc(lesson.reading)}</p>${lesson.sources.map(id => {const s=data.sources[id];return `<div class="book-link">${link(s.url,s.title)}<small>${esc(s.access)}</small></div>`;}).join('')}</div>
@@ -73,6 +74,12 @@ const HistoryPlan = (() => {
         if (subject !== 'geography' && typeof StudyVisuals !== 'undefined' && StudyVisuals.handleClick(event, root)) return;
         const button = event.target.closest('button');
         if (!button || button.disabled) return;
+        if (button.dataset.saveLesson && typeof PrepDesk !== 'undefined') {
+          const lesson=allDays.find(item=>item.day===Number(button.dataset.saveLesson));
+          const added=PrepDesk.addRevision({id:`lesson:${subject}:${lesson.day}`,title:`${title}: ${lesson.topic}`,url:`/home#${dayPrefix}${lesson.day}`});
+          root.querySelector('#lesson-revision-status').textContent=added?'Added to your revision queue.':'Already in your revision queue.';
+          return;
+        }
         if (button.dataset.flashcardAction) {
           if (button.dataset.flashcardAction === 'reveal') flashcardRevealed = !flashcardRevealed;
           if (button.dataset.flashcardAction === 'previous') { flashcardIndex = Math.max(0, flashcardIndex - 1); flashcardRevealed = false; }
