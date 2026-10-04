@@ -69,6 +69,18 @@ body {
   line-height: 1.05;
 }
 
+.prep-intro .hero-copy { margin:3.5rem auto 0; max-width:620px; position:relative; }
+.prep-kicker { margin:0 0 18px; font-size:11px; font-weight:800; letter-spacing:.16em; color:#e7b58a; }
+.prep-intro .hero-copy h1 { font-size:clamp(2.2rem,4vw,3.6rem); font-weight:800; line-height:1.1; }
+.prep-intro-copy { max-width:490px; margin:22px auto 0; font-size:15px; line-height:1.8; color:var(--site-header-muted,#d7d4d0); }
+.prep-routine { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; padding:0; margin:30px auto 0; max-width:620px; list-style:none; position:relative; }
+.prep-routine li { display:flex; gap:12px; padding:20px 16px; border:1px solid rgba(255,255,255,.14); border-radius:14px; background:rgba(255,255,255,.045); }
+.prep-routine li > span { padding-top:3px; font-size:11px; font-weight:800; color:#e7b58a; }
+.prep-routine h2 { margin:0 0 9px; font-size:16px; font-weight:750; line-height:1.4; color:var(--site-on-header,#fff); }
+.prep-routine p { margin:0; color:var(--site-header-muted,#d7d4d0); font-size:13px; line-height:1.75; }
+@media(max-width:900px) { .prep-intro .hero-copy { margin-top:2rem; } }
+@media(max-width:540px) { .prep-routine { grid-template-columns:1fr; } .prep-routine li { padding:16px; } .prep-intro .hero-copy h1 { font-size:clamp(2rem,8vw,2.8rem); } }
+
 .phone {
   width: min(280px, 70%);
   margin: 2.4rem auto 0;
