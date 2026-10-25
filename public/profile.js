@@ -1,6 +1,7 @@
 const SiteProfile = (() => {
   const menu = document.getElementById("profile-menu");
   function setAccount(account) {
+    if (typeof StudyProgress !== 'undefined') StudyProgress.setAccount(account);
     const values = { who: account.name, "profile-name": account.name, "profile-email": account.email,
       "profile-detail-email": account.email, "profile-role": account.role === "faculty" ? "Faculty" : "Student",
       "profile-avatar": String(account.name || "My Profile").trim().split(/\s+/).slice(0, 2).map((word) => word[0]).join("").toUpperCase() };

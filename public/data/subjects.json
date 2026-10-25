@@ -11,6 +11,22 @@
   },
   "subjects": [
     {
+      "id": "governance",
+      "title": "Governance",
+      "overview": "Read Vision IAS Governance Mains 2025: governance tools, civil services, development organisations, public policy and pressure groups.",
+      "papers": "Mains GS II · BPSC GS II",
+      "sources": ["Vision IAS Governance Value Added Material — Mains 2025"],
+      "modules": []
+    },
+    {
+      "id": "ir",
+      "title": "International Relations",
+      "overview": "Study the complete International Relations Prelims Smasher 2026: conflict zones, institutions, connectivity, international groupings, reports, bilateral initiatives and defence exercises.",
+      "papers": "Prelims GS · Mains GS II",
+      "sources": ["Vajiram & Ravi International Relations Prelims Smasher 2026"],
+      "modules": []
+    },
+    {
       "id": "history",
       "title": "History",
       "emoji": "📜",
@@ -210,7 +226,7 @@
     },
     {
       "id": "economy",
-      "title": "Economy",
+      "title": "Economics",
       "emoji": "📈",
       "papers": "Prelims GS · Mains GS-III · BPSC GS-II",
       "overview": "Economy is concepts + this year’s Survey and Budget. If you cannot explain inflation, deficit, repo and GST in plain Hindi/English, facts will not save you. Then add Bihar: agriculture, migration, low industrial base, and schemes after 2005.",
@@ -316,7 +332,7 @@
       "emoji": "🌿",
       "papers": "Prelims GS · Mains GS-III",
       "overview": "Environment is ecology science plus law plus climate politics. Prelims: definitions and conventions. Mains: development vs conservation, and Bihar’s flood–heat–agriculture triangle. Use Shankar selectively; NCERT + current affairs do most of the work.",
-      "sources": ["NCERT", "MoEFCC, IPCC summaries", "Down To Earth / The Hindu Environment"],
+      "sources": ["Drishti Environment & Ecology Quick Book — supplied web preview", "NCERT", "MoEFCC, IPCC summaries", "Down To Earth / The Hindu Environment"],
       "modules": [
         {
           "title": "Core ecology",

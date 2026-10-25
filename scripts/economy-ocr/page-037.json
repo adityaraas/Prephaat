@@ -1,0 +1,475 @@
+{
+  "page": 37,
+  "lines": [
+    {
+      "text": "Adverse Impact on Economy:",
+      "bbox": [
+        55.6,
+        68.0,
+        179.6,
+        79.2
+      ],
+      "confidence": 0.9096
+    },
+    {
+      "text": " Higher costs of procurement due to a statutory MsP will increase the food prices,",
+      "bbox": [
+        58.8,
+        84.0,
+        406.0,
+        94.4
+      ],
+      "confidence": 0.9514
+    },
+    {
+      "text": "leading to inflation in the economy",
+      "bbox": [
+        65.2,
+        96.4,
+        206.4,
+        108.0
+      ],
+      "confidence": 0.9047
+    },
+    {
+      "text": ". Higher prices of commodities would adversely affect exports of agricultural",
+      "bbox": [
+        56.0,
+        112.4,
+        406.0,
+        122.8
+      ],
+      "confidence": 0.9048
+    },
+    {
+      "text": "commodities",
+      "bbox": [
+        66.4,
+        125.6,
+        120.8,
+        134.8
+      ],
+      "confidence": 0.8837
+    },
+    {
+      "text": "Financing needs would amount to half of the Government's Budget.",
+      "bbox": [
+        55.2,
+        140.0,
+        330.0,
+        151.2
+      ],
+      "confidence": 0.9306
+    },
+    {
+      "text": "Unsustainable Food grain Management Policy:The Food subsidy bill has already",
+      "bbox": [
+        55.2,
+        156.0,
+        405.6,
+        166.8
+      ],
+      "confidence": 0.9349
+    },
+    {
+      "text": "become quite unsustainable at around Rs 2 lakh crores. The excess procurement of food",
+      "bbox": [
+        56.0,
+        170.0,
+        405.6,
+        179.2
+      ],
+      "confidence": 0.8952
+    },
+    {
+      "text": "grains by the FCI has led to surplus buffer stocks leading to higher storage costs and",
+      "bbox": [
+        54.8,
+        181.2,
+        406.8,
+        193.2
+      ],
+      "confidence": 0.923
+    },
+    {
+      "text": "wastages. Legalization of MsP would further worsen the scenario.",
+      "bbox": [
+        54.8,
+        194.4,
+        318.0,
+        205.2
+      ],
+      "confidence": 0.9278
+    },
+    {
+      "text": "Administrative Challenge: lack of government machinery to the procure all crops that",
+      "bbox": [
+        55.6,
+        210.4,
+        406.4,
+        220.8
+      ],
+      "confidence": 0.8985
+    },
+    {
+      "text": "are under the MSP system.",
+      "bbox": [
+        55.6,
+        223.6,
+        163.6,
+        232.8
+      ],
+      "confidence": 0.8831
+    },
+    {
+      "text": "Violation of WTo Agreement on Agriculture (AoA):Legalization of MSP would further",
+      "bbox": [
+        55.2,
+        238.8,
+        406.0,
+        248.8
+      ],
+      "confidence": 0.8766
+    },
+    {
+      "text": "violate the limit on the subsidies under AoA and it can be challenged by other countries.",
+      "bbox": [
+        56.0,
+        252.0,
+        404.8,
+        261.2
+      ],
+      "confidence": 0.8778
+    },
+    {
+      "text": "India's questfor Permanent solution on public stockholding could be in jeopardy.",
+      "bbox": [
+        55.6,
+        264.4,
+        378.4,
+        274.8
+      ],
+      "confidence": 0.9232
+    },
+    {
+      "text": "Promote Inequality: Only 6 per cent of farmers are able to benefit from the MsP.",
+      "bbox": [
+        55.6,
+        280.0,
+        406.0,
+        290.4
+      ],
+      "confidence": 0.902
+    },
+    {
+      "text": "Similarly,most of the Rice and Wheat are procurement from states such as Punjab",
+      "bbox": [
+        56.0,
+        293.6,
+        404.4,
+        302.4
+      ],
+      "confidence": 0.8896
+    },
+    {
+      "text": "Haryana, MP etc. Hence, legalisation of MsP could worsen socio-economic inequality and",
+      "bbox": [
+        55.2,
+        304.8,
+        406.0,
+        315.6
+      ],
+      "confidence": 0.9126
+    },
+    {
+      "text": "promote regional disparity.",
+      "bbox": [
+        55.6,
+        318.4,
+        164.8,
+        329.2
+      ],
+      "confidence": 0.8904
+    },
+    {
+      "text": "Environmental cost: Encourage farmers to grow more rice and wheat leading to further",
+      "bbox": [
+        55.6,
+        334.0,
+        406.0,
+        344.4
+      ],
+      "confidence": 0.9137
+    },
+    {
+      "text": "environmental problems.",
+      "bbox": [
+        55.6,
+        346.8,
+        158.0,
+        356.8
+      ],
+      "confidence": 0.9229
+    },
+    {
+      "text": "27. COUNTERING AGRARIAN CRISIS IN THE",
+      "bbox": [
+        56.4,
+        373.6,
+        374.8,
+        385.2
+      ],
+      "confidence": 0.8692
+    },
+    {
+      "text": "GREEN REVOLUTION STATES",
+      "bbox": [
+        81.2,
+        393.2,
+        298.4,
+        406.0
+      ],
+      "confidence": 0.883
+    },
+    {
+      "text": "The Green Revolution in Punjab and Haryana has led to unintended consequences in the",
+      "bbox": [
+        55.6,
+        414.4,
+        406.0,
+        424.8
+      ],
+      "confidence": 0.9324
+    },
+    {
+      "text": "form of - Environmentally unsustainable Rice-Wheat cropping system (more than 80% of",
+      "bbox": [
+        55.2,
+        426.0,
+        406.4,
+        438.0
+      ],
+      "confidence": 0.9249
+    },
+    {
+      "text": "area) and decline in the annual growth rate of income levels to below 1% (National -3%).",
+      "bbox": [
+        54.8,
+        438.8,
+        405.6,
+        451.2
+      ],
+      "confidence": 0.9385
+    },
+    {
+      "text": "The agricultural income per hectare in Punjab is only around Rs 1.5 lakhs in comparison",
+      "bbox": [
+        55.6,
+        452.8,
+        406.0,
+        462.8
+      ],
+      "confidence": 0.8883
+    },
+    {
+      "text": "to other states Andhra Pradesh and Tamil Nadu (Rs 2.25 lakhs). This is clearly on account",
+      "bbox": [
+        55.2,
+        465.2,
+        406.4,
+        476.0
+      ],
+      "confidence": 0.8873
+    },
+    {
+      "text": "of 3 reasons-Rising input costs,lower productivity and lower prices received bythe",
+      "bbox": [
+        56.0,
+        478.8,
+        406.0,
+        488.0
+      ],
+      "confidence": 0.8833
+    },
+    {
+      "text": "farmers through the Rice-Wheat Cropping system.",
+      "bbox": [
+        54.0,
+        490.4,
+        257.2,
+        502.0
+      ],
+      "confidence": 0.9503
+    },
+    {
+      "text": "Punjab and Haryana are blessed with better irrigation facilities (more than 90%),higher",
+      "bbox": [
+        55.2,
+        506.4,
+        406.0,
+        516.8
+      ],
+      "confidence": 0.8869
+    },
+    {
+      "text": "average land holding size (3.62 ha), higher fertiliser consumption (212 kgs/ha)",
+      "bbox": [
+        55.2,
+        518.4,
+        405.6,
+        530.0
+      ],
+      "confidence": 0.9185
+    },
+    {
+      "text": "accompanied by strong agricultural infrastructure. These opportunities have to be",
+      "bbox": [
+        55.2,
+        531.2,
+        406.0,
+        543.6
+      ],
+      "confidence": 0.9435
+    },
+    {
+      "text": "leveraged to address the second-generation problems caused by the Green Revolution",
+      "bbox": [
+        55.2,
+        544.8,
+        406.0,
+        555.6
+      ],
+      "confidence": 0.9193
+    },
+    {
+      "text": "and doublethe income level ofthefarmers.",
+      "bbox": [
+        56.0,
+        558.4,
+        230.4,
+        567.6
+      ],
+      "confidence": 0.8829
+    },
+    {
+      "text": "RECOMMENDATIONS OF MONTEK SINGH AHLUWALIA COMMITTEE",
+      "bbox": [
+        56.0,
+        574.4,
+        406.0,
+        584.8
+      ],
+      "confidence": 0.8991
+    },
+    {
+      "text": "APPOINTEDBYPUNJABGOVERNMENT",
+      "bbox": [
+        55.2,
+        590.0,
+        252.8,
+        600.4
+      ],
+      "confidence": 0.87
+    },
+    {
+      "text": ". Reduce area under Paddy and diversify towards high-value crops such as fruits and",
+      "bbox": [
+        56.4,
+        607.6,
+        406.4,
+        618.0
+      ],
+      "confidence": 0.8962
+    },
+    {
+      "text": "vegetables (Dalwai Panel- Increase in agri.diversification by 1 ha leads to increase in",
+      "bbox": [
+        66.4,
+        620.8,
+        406.4,
+        630.8
+      ],
+      "confidence": 0.9043
+    },
+    {
+      "text": "income by Rs 1 lakh).",
+      "bbox": [
+        65.6,
+        633.2,
+        150.8,
+        643.6
+      ],
+      "confidence": 0.9097
+    },
+    {
+      "text": ". Special package from the Centre to compensating any possible loss.",
+      "bbox": [
+        56.4,
+        649.2,
+        336.0,
+        659.6
+      ],
+      "confidence": 0.9136
+    },
+    {
+      "text": ". Focus on Secondary Agriculture- Boost to Food Processing Industries, Employment,",
+      "bbox": [
+        56.0,
+        664.8,
+        405.2,
+        675.2
+      ],
+      "confidence": 0.9078
+    },
+    {
+      "text": "Forward-Backward Linkages, Reduce Post-harvest losses.",
+      "bbox": [
+        64.8,
+        676.8,
+        294.0,
+        687.6
+      ],
+      "confidence": 0.9402
+    },
+    {
+      "text": "Promote cultivation of Pulses and Oilseeds through guaranteed procurement under",
+      "bbox": [
+        59.2,
+        692.4,
+        406.0,
+        703.2
+      ],
+      "confidence": 0.927
+    },
+    {
+      "text": "PM-AASHA.",
+      "bbox": [
+        66.0,
+        706.0,
+        112.8,
+        715.2
+      ],
+      "confidence": 0.8564
+    },
+    {
+      "text": "RAU'S IAS FOCUS SPECIAL EDITIONS I ECONOMY",
+      "bbox": [
+        140.8,
+        754.0,
+        350.8,
+        765.6
+      ],
+      "confidence": 0.8954
+    },
+    {
+      "text": "30",
+      "bbox": [
+        455.6,
+        752.0,
+        479.2,
+        769.6
+      ],
+      "confidence": 0.6661
+    }
+  ]
+}

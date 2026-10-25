@@ -1,0 +1,4821 @@
+{
+  "version": 1,
+  "title": "Drishti Quick Book — Environment & Ecology (web preview)",
+  "sourcePageCount": 25,
+  "printedPages": {
+    "9": 11,
+    "10": 18,
+    "11": 32,
+    "12": 49,
+    "13": 50,
+    "14": 60,
+    "15": 87,
+    "16": 96,
+    "17": 97,
+    "18": 102,
+    "19": 104,
+    "20": 110,
+    "21": 141,
+    "22": 151,
+    "23": 234
+  },
+  "notice": "This supplied web preview contains selected pages from the larger book. The reader includes all 15 sample content pages; the full-book contents also list chapters absent from this file. Figures, statistics and species status retain the source edition.",
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Biogeochemical Cycles",
+      "topics": [
+        {
+          "id": "environment-1-1",
+          "number": "1.1",
+          "title": "Biogeochemical cycles",
+          "elements": [
+            {
+              "type": "body",
+              "page": 9,
+              "parts": [
+                {
+                  "text": "Biogeochemical cycle is a pathway by which a chemical substance moves through both biotic and abiotic components of Earth.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "Biogeochemical cycles are of two types:",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "Gaseous Nutrient Cycle: In this case, the reservoir is the air or the oceans (via evaporation), and it includes Oxygen, Carbon and Nitrogen cycles.",
+                  "bullet": true,
+                  "level": 2
+                },
+                {
+                  "text": "Sedimentary Nutrient Cycle: In this case, the reservoir is Earth’s crust and it includes the cycles of Phosphorus, Sulphur and Calcium, which are present as sediments of Earth.",
+                  "bullet": true,
+                  "level": 2
+                }
+              ],
+              "lineIds": [
+                "p9-b10-l1",
+                "p9-b11-l0",
+                "p9-b11-l1",
+                "p9-b12-l1",
+                "p9-b13-l1",
+                "p9-b14-l0",
+                "p9-b14-l1",
+                "p9-b15-l1",
+                "p9-b16-l0",
+                "p9-b16-l1",
+                "p9-b16-l2"
+              ],
+              "id": "environment-1-1-p9-0"
+            }
+          ],
+          "pages": [
+            9
+          ],
+          "lineIds": [
+            "p9-b9-l0"
+          ]
+        },
+        {
+          "id": "environment-1-2",
+          "number": "1.2",
+          "title": "Carbon Cycle",
+          "elements": [
+            {
+              "type": "body",
+              "page": 9,
+              "parts": [
+                {
+                  "text": "Carbon cycle is the continuous exchange of carbon between the atmosphere and Earth through different processes such as photosynthesis, respiration, burning of fossil fuels, decomposition, etc.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "Cycling of carbon between organisms and atmosphere is a consequence of two reciprocal processes of photosynthesis and respiration.",
+                  "bullet": true,
+                  "level": 1
+                }
+              ],
+              "lineIds": [
+                "p9-b18-l1",
+                "p9-b19-l0",
+                "p9-b19-l1",
+                "p9-b19-l2",
+                "p9-b20-l1",
+                "p9-b21-l0",
+                "p9-b21-l1"
+              ],
+              "id": "environment-1-2-p9-0"
+            },
+            {
+              "type": "figure",
+              "image": "/environment-source/page-009-figure-1.png",
+              "width": 506,
+              "height": 450,
+              "caption": "Carbon cycle: exchange between the atmosphere, organisms, soil, water and fossil fuels",
+              "page": 9,
+              "lineIds": [],
+              "id": "environment-1-2-p9-1"
+            },
+            {
+              "type": "body",
+              "page": 9,
+              "parts": [
+                {
+                  "text": "Carbon in the atmosphere increases due to burning of fossil fuels, deforestation, forest fires, volcanic eruptions and decomposition of dead organic matters.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "Some carbon also enters into long term cycle due to accumulation as undecomposed organic matter or as insoluble carbonates in the aquatic system.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "It also gets dissolved in the ocean and remains there for a long time.",
+                  "bullet": true,
+                  "level": 1
+                }
+              ],
+              "lineIds": [
+                "p9-b23-l1",
+                "p9-b24-l0",
+                "p9-b25-l0",
+                "p9-b25-l1",
+                "p9-b26-l1",
+                "p9-b27-l0",
+                "p9-b27-l1",
+                "p9-b28-l1",
+                "p9-b29-l0"
+              ],
+              "id": "environment-1-2-p9-2"
+            }
+          ],
+          "pages": [
+            9
+          ],
+          "lineIds": [
+            "p9-b17-l0"
+          ]
+        },
+        {
+          "id": "environment-1-3",
+          "number": "1.3",
+          "title": "Nitrogen Cycle",
+          "elements": [
+            {
+              "type": "body",
+              "page": 9,
+              "parts": [
+                {
+                  "text": "Nitrogen cycle refers to circulation of nitrogen in various chemical forms through the atmospheric, terrestrial and marine ecosystems.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "Our atmosphere contains nearly 78% of nitrogen, but it cannot be used directly by the majority of living organisms.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "There are five main processes which are essential for nitrogen cycle, viz., Nitrogen Fixation, Nitrification, Assimilation, Ammonification, and Denitrification.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "Nitrogen Fixation: It is the conversion of gaseous nitrogen into ammonia, a form in which it can be used by plants.",
+                  "bullet": true,
+                  "level": 2
+                },
+                {
+                  "text": "Atmospheric Fixation: Lightening, combustion and volcanic activities help in the fixation of nitrogen.",
+                  "bullet": true,
+                  "level": 2
+                },
+                {
+                  "text": "Industrial Fixation: At high temperature and high pressure, molecular nitrogen is broken into atomic nitrogen which then combines with hydrogen to form ammonia.",
+                  "bullet": true,
+                  "level": 2
+                },
+                {
+                  "text": "Bacterial Fixation: There are two types of bacteria which helps to fix Nitrogen:",
+                  "bullet": true,
+                  "level": 2
+                },
+                {
+                  "text": "(i) Symbiotic bacteria, e.g., Rhizobium in the root nodules of leguminous plants.",
+                  "bullet": false,
+                  "level": 1
+                },
+                {
+                  "text": "(ii) Free living or Non-symbiotic, e.g., Nostoc, Azobacter, and Cyanobacteria can combine atmospheric or dissolved Nitrogen with hydrogen to form ammonia.",
+                  "bullet": false,
+                  "level": 1
+                },
+                {
+                  "text": "Nitrification: It is a process in which ammonia is converted into nitrates and nitrites by bacteria, e.g., Nitrosomonas and Nitrosococcus convert",
+                  "bullet": true,
+                  "level": 2
+                }
+              ],
+              "lineIds": [
+                "p9-b31-l1",
+                "p9-b32-l0",
+                "p9-b32-l1",
+                "p9-b33-l1",
+                "p9-b34-l0",
+                "p9-b34-l1",
+                "p9-b35-l1",
+                "p9-b36-l0",
+                "p9-b36-l1",
+                "p9-b37-l1",
+                "p9-b38-l0",
+                "p9-b38-l1",
+                "p9-b39-l1",
+                "p9-b40-l0",
+                "p9-b40-l1",
+                "p9-b41-l1",
+                "p9-b42-l0",
+                "p9-b42-l1",
+                "p9-b42-l2",
+                "p9-b43-l1",
+                "p9-b44-l0",
+                "p9-b44-l1",
+                "p9-b45-l0",
+                "p9-b45-l1",
+                "p9-b46-l0",
+                "p9-b46-l1",
+                "p9-b46-l2",
+                "p9-b47-l1",
+                "p9-b48-l0",
+                "p9-b48-l1"
+              ],
+              "id": "environment-1-3-p9-0"
+            }
+          ],
+          "pages": [
+            9
+          ],
+          "lineIds": [
+            "p9-b30-l0"
+          ]
+        }
+      ],
+      "practice": [],
+      "guide": "Read the definitions, compare the examples, and trace the processes in the source diagrams. These are selected pages from the supplied preview."
+    },
+    {
+      "id": 2,
+      "title": "Terrestrial Ecosystems",
+      "topics": [
+        {
+          "id": "environment-2-1",
+          "number": "2.1",
+          "title": "Temperate forests — continued source extract",
+          "elements": [
+            {
+              "type": "body",
+              "page": 10,
+              "parts": [
+                {
+                  "text": "Occur mostly in northwest, central and eastern Europe, eastern North America, northern China, Korea, Japan, far eastern Russia and Australia.",
+                  "bullet": true,
+                  "level": 2
+                },
+                {
+                  "text": "Temperature: Ranging between 10-20°C with a 6-month long winter.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "Rainfall: Annual rainfall of about 75 to 150 cm.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "Soil: Brown soils which are rich in nutrients.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "Vegetation",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "Trees of these forests shed their leaves in autumn and new foliage grows in the spring.",
+                  "bullet": true,
+                  "level": 2
+                },
+                {
+                  "text": "They utilize their broad and flat leaves to collect sunlight spreading out as they grow.",
+                  "bullet": true,
+                  "level": 2
+                },
+                {
+                  "text": "They generally have a thick bark to protect them during the cold winter months.",
+                  "bullet": true,
+                  "level": 2
+                },
+                {
+                  "text": "Common trees are oak, heath, chestnut, birch, pine, etc.",
+                  "bullet": true,
+                  "level": 2
+                },
+                {
+                  "text": "Fauna",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "Prominent grazers include deer, bison, etc.",
+                  "bullet": true,
+                  "level": 2
+                },
+                {
+                  "text": "Because of the relatively harsh winters and scarce food supplies, many animals migrate to warmer climates or animals, like bears and mice, dig out a den or burrow and sleep during the cold months.",
+                  "bullet": true,
+                  "level": 2
+                }
+              ],
+              "lineIds": [
+                "p10-b5-l1",
+                "p10-b6-l0",
+                "p10-b6-l1",
+                "p10-b7-l1",
+                "p10-b8-l0",
+                "p10-b9-l1",
+                "p10-b10-l1",
+                "p10-b11-l1",
+                "p10-b12-l1",
+                "p10-b13-l0",
+                "p10-b14-l1",
+                "p10-b15-l0",
+                "p10-b16-l1",
+                "p10-b17-l0",
+                "p10-b18-l1",
+                "p10-b19-l0",
+                "p10-b20-l1",
+                "p10-b21-l1",
+                "p10-b22-l1",
+                "p10-b23-l0",
+                "p10-b23-l1",
+                "p10-b23-l2"
+              ],
+              "id": "environment-2-1-p10-0"
+            }
+          ],
+          "pages": [
+            10
+          ],
+          "lineIds": []
+        },
+        {
+          "id": "environment-2-2",
+          "number": "2.2",
+          "title": "Boreal or North Coniferous Forests",
+          "elements": [
+            {
+              "type": "body",
+              "page": 10,
+              "parts": [
+                {
+                  "text": "Distribution",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "Latitude: 50-60° North",
+                  "bullet": true,
+                  "level": 2
+                },
+                {
+                  "text": "It does not occur in the southern hemisphere as there is no land at this latitude.",
+                  "bullet": true,
+                  "level": 2
+                },
+                {
+                  "text": "These are also known as ‘Taiga’ and extend as a continuous belt across North America and North Eurasia below the Arctic tundra.",
+                  "bullet": true,
+                  "level": 2
+                },
+                {
+                  "text": "Temperature: The climate is cold with long, harsh winter, with a mean annual temperature below 0°C.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "Precipitation: Primarily in the form of snow, 40-100 cm annually.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "Vegetation",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "Coniferous forests are characterized by evergreen, drought resistant and woody conifers, e.g., spruce, fir and pine trees.",
+                  "bullet": true,
+                  "level": 2
+                },
+                {
+                  "text": "The trees here have distinctive features such as spire shape to promote shedding of snow, narrow shaped leaves to protect moisture loss and waxy coating to protect from dry winds.",
+                  "bullet": true,
+                  "level": 2
+                },
+                {
+                  "text": "Fire is crucial to a healthy boreal forest. Fires open the forest canopy to sunlight, which stimulates new growth.",
+                  "bullet": true,
+                  "level": 2
+                }
+              ],
+              "lineIds": [
+                "p10-b25-l1",
+                "p10-b26-l1",
+                "p10-b27-l1",
+                "p10-b28-l0",
+                "p10-b29-l1",
+                "p10-b30-l0",
+                "p10-b30-l1",
+                "p10-b31-l1",
+                "p10-b32-l0",
+                "p10-b33-l1",
+                "p10-b34-l0",
+                "p10-b35-l1",
+                "p10-b36-l1",
+                "p10-b37-l0",
+                "p10-b37-l1",
+                "p10-b38-l1",
+                "p10-b39-l0",
+                "p10-b39-l1",
+                "p10-b39-l2",
+                "p10-b40-l1",
+                "p10-b41-l0",
+                "p10-b41-l1"
+              ],
+              "id": "environment-2-2-p10-0"
+            },
+            {
+              "type": "figure",
+              "image": "/environment-source/page-010-figure-1.png",
+              "width": 1047,
+              "height": 634,
+              "caption": "Temperate and boreal forest environments — source illustration",
+              "page": 10,
+              "lineIds": [],
+              "id": "environment-2-2-p10-1"
+            }
+          ],
+          "pages": [
+            10
+          ],
+          "lineIds": [
+            "p10-b24-l0"
+          ]
+        }
+      ],
+      "practice": [],
+      "guide": "Read the definitions, compare the examples, and trace the processes in the source diagrams. These are selected pages from the supplied preview."
+    },
+    {
+      "id": 3,
+      "title": "Desertification",
+      "topics": [
+        {
+          "id": "environment-3-1",
+          "number": "3.1",
+          "title": "Desertification in India (2003–05 to 2011–13)",
+          "elements": [
+            {
+              "type": "body",
+              "page": 11,
+              "parts": [
+                {
+                  "text": "Desertification in India (2003-05 to 2011-13)",
+                  "bullet": false,
+                  "level": 1
+                }
+              ],
+              "lineIds": [
+                "p11-b5-l0"
+              ],
+              "id": "environment-3-1-p11-0"
+            },
+            {
+              "type": "comparison",
+              "page": 11,
+              "headers": [
+                {
+                  "text": "State",
+                  "lineIds": [
+                    "p11-b6-l0"
+                  ]
+                },
+                {
+                  "text": "Area under Desertification",
+                  "lineIds": [
+                    "p11-b6-l1",
+                    "p11-b6-l2"
+                  ]
+                },
+                {
+                  "text": "Percentage Change",
+                  "lineIds": [
+                    "p11-b7-l0",
+                    "p11-b8-l0"
+                  ]
+                },
+                {
+                  "text": "Cause",
+                  "lineIds": [
+                    "p11-b8-l1"
+                  ]
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Erstwhile state of Jammu & Kashmir",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b9-l0",
+                      "p11-b9-l1",
+                      "p11-b9-l2"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "35.86%",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b10-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "1.94",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b10-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Forest shattering",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b10-l2",
+                      "p11-b10-l3"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Himachal Pradesh",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b11-l0",
+                      "p11-b11-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "43.01%",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b12-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "4.55",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b12-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Vegetation degradation, frost shattering",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b12-l2",
+                      "p11-b12-l3",
+                      "p11-b12-l4"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Uttarakhand",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b13-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "12.12%",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b13-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "1.25",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b13-l2"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Vegetation degradation",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b13-l3",
+                      "p11-b13-l4"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Punjab",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b14-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "2.87%",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b14-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "1.02",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b14-l2"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Settlement, vegetation degradation",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b14-l3",
+                      "p11-b14-l4",
+                      "p11-b14-l5"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Haryana",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b15-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "7.67%",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b15-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "0.55",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b15-l2"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Wind erosion, settlement",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b15-l3",
+                      "p11-b15-l4"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Delhi",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b16-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "60.6%",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b16-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "11.03",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b16-l2"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Settlement, vegetation degradation",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b16-l3",
+                      "p11-b16-l4",
+                      "p11-b16-l5"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Rajasthan",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b17-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "62.9%",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b17-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "–0.29",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b17-l2"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Wind erosion, vegetation degradation",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b17-l3",
+                      "p11-b17-l4",
+                      "p11-b17-l5"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Uttar Pradesh",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b18-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "6.35%",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b18-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "–1.27",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b18-l2"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Water erosion, vegetation degradation",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b18-l3",
+                      "p11-b18-l4",
+                      "p11-b18-l5"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Bihar",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b19-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "7.38%",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b19-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "0.38",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b19-l2"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Water erosion, vegetation degradation",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b19-l3",
+                      "p11-b19-l4",
+                      "p11-b19-l5"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Jharkhand",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b20-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "68.98%",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b20-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "1.01",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b20-l2"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Water erosion, vegetation degradation",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b20-l3",
+                      "p11-b20-l4",
+                      "p11-b20-l5"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "West Bengal",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b21-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "19.54%",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b21-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "0.59",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b21-l2"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Water erosion, vegetation degradation",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b21-l3",
+                      "p11-b21-l4",
+                      "p11-b21-l5"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Odisha",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b22-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "34.06%",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b22-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "–0.12",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b22-l2"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Water erosion, vegetation degradation",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b22-l3",
+                      "p11-b22-l4",
+                      "p11-b22-l5"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Chhattisgarh",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b23-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "16.36%",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b23-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "0.26",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b23-l2"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Vegetation degradation, water erosion",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b23-l3",
+                      "p11-b23-l4",
+                      "p11-b23-l5"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Madhya Pradesh",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b24-l0",
+                      "p11-b24-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "12.34%",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b25-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "0.1",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b25-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Vegetation degradation, water erosion",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b25-l2",
+                      "p11-b25-l3",
+                      "p11-b25-l4"
+                    ]
+                  }
+                ]
+              ],
+              "id": "environment-3-1-p11-1"
+            },
+            {
+              "type": "comparison",
+              "page": 11,
+              "headers": [
+                {
+                  "text": "State",
+                  "lineIds": []
+                },
+                {
+                  "text": "Area under desertification",
+                  "lineIds": []
+                },
+                {
+                  "text": "Percentage change",
+                  "lineIds": []
+                },
+                {
+                  "text": "Cause",
+                  "lineIds": []
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Gujarat",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b26-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "52.29%",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b26-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "0.94",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b26-l2"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Water erosion, salinity",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b26-l3",
+                      "p11-b26-l4"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Maharashtra",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b27-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "44.93%",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b27-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "1.55",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b27-l2"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Water erosion, vegetation degradation",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b27-l3",
+                      "p11-b27-l4",
+                      "p11-b27-l5"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Goa",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b28-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "52.13%",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b28-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "1.76",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b28-l2"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Vegetation degradation, water erosion",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b28-l3",
+                      "p11-b28-l4",
+                      "p11-b28-l5"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Telangana",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b29-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "31.34%",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b29-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "–0.52",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b29-l2"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Water erosion, vegetation degradation",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b29-l3",
+                      "p11-b29-l4",
+                      "p11-b29-l5"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Karnataka",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b30-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "36.24%",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b30-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "0.05",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b30-l2"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Water erosion, vegetation degradation",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b30-l3",
+                      "p11-b30-l4",
+                      "p11-b30-l5"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Andhra Pradessh",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b31-l0",
+                      "p11-b31-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "14.35%",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b32-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "0.19",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b32-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Vegetation degradation, water erosion",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b32-l2",
+                      "p11-b32-l3",
+                      "p11-b32-l4"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Kerala",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b33-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "9.77%",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b33-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "0.63",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b33-l2"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Vegetation degradation, settlement",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b33-l3",
+                      "p11-b33-l4",
+                      "p11-b33-l5"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Tamil Nadu",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b34-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "11.87%",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b34-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "0.21",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b34-l2"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Vegetation degradation, settlement",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b34-l3",
+                      "p11-b34-l4",
+                      "p11-b34-l5"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Sikkim",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b35-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "11.1%",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b35-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "0.04",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b35-l2"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Vegetation degradation",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b35-l3",
+                      "p11-b35-l4"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Assam",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b36-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "9.14%",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b36-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "1.84",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b36-l2"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Vegetation degradation, water logging",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b36-l3",
+                      "p11-b36-l4",
+                      "p11-b36-l5"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Meghalaya",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b37-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "22.06%",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b37-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "0.71",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b37-l2"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Vegetation degradation, water logging",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b37-l3",
+                      "p11-b37-l4",
+                      "p11-b37-l5"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Manipur",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b38-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "26.96%",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b38-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "0.4",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b38-l2"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Vegetation degradation",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b38-l3",
+                      "p11-b38-l4"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Tripura",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b39-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "41.69%",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b39-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "10.48",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b39-l2"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Vegetation degradation, water logging",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b39-l3",
+                      "p11-b39-l4",
+                      "p11-b39-l5"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Mizoram",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b40-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "8.89%",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b40-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "4.34",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b40-l2"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Vegetation degradation, water logging",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p11-b40-l3",
+                      "p11-b40-l4",
+                      "p11-b40-l5"
+                    ]
+                  }
+                ]
+              ],
+              "id": "environment-3-1-p11-2"
+            }
+          ],
+          "pages": [
+            11
+          ],
+          "lineIds": []
+        },
+        {
+          "id": "environment-3-2",
+          "number": "3.2",
+          "title": "Combating Desertification in India",
+          "elements": [
+            {
+              "type": "body",
+              "page": 11,
+              "parts": [
+                {
+                  "text": "The concern for combating and reversing land degradation and desertification gets reflected in many of our national Acts/policies.",
+                  "bullet": true,
+                  "level": 1
+                }
+              ],
+              "lineIds": [
+                "p11-b42-l1",
+                "p11-b43-l0",
+                "p11-b43-l1"
+              ],
+              "id": "environment-3-2-p11-0"
+            }
+          ],
+          "pages": [
+            11
+          ],
+          "lineIds": [
+            "p11-b41-l0"
+          ]
+        }
+      ],
+      "practice": [],
+      "guide": "Read the definitions, compare the examples, and trace the processes in the source diagrams. These are selected pages from the supplied preview."
+    },
+    {
+      "id": 4,
+      "title": "Aquatic Ecosystems",
+      "topics": [
+        {
+          "id": "environment-4-1",
+          "number": "4.1",
+          "title": "Ramsar Convention — continued source extract",
+          "elements": [
+            {
+              "type": "body",
+              "page": 12,
+              "parts": [
+                {
+                  "text": "The Ramsar Convention works closely with five other organisations known as International Organization Partners (IOPs). These are Birdlife International, the International Union for Conservation of Nature (IUCN), the International Water Management Institute (IWMI), Wetlands International and World Wildlife Fund (WWF) International.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "World Wetlands Day is celebrated every year on 2nd February. It marks the date of the adoption of the Convention on Wetlands on 2nd February 1971.",
+                  "bullet": true,
+                  "level": 1
+                }
+              ],
+              "lineIds": [
+                "p12-b5-l1",
+                "p12-b6-l0",
+                "p12-b6-l1",
+                "p12-b6-l2",
+                "p12-b6-l3",
+                "p12-b6-l4",
+                "p12-b6-l5",
+                "p12-b7-l1",
+                "p12-b8-l0",
+                "p12-b8-l1"
+              ],
+              "id": "environment-4-1-p12-0"
+            }
+          ],
+          "pages": [
+            12
+          ],
+          "lineIds": []
+        },
+        {
+          "id": "environment-4-2",
+          "number": "4.2",
+          "title": "Montreux Record",
+          "elements": [
+            {
+              "type": "body",
+              "page": 12,
+              "parts": [
+                {
+                  "text": "Montreux Record, under the Ramsar Convention, is a register of wetland sites of international importance where changes in ecological character have occurred, are occurring, or are likely to occur as a result of technological developments, pollution or other human interference.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "It is maintained as part of the Ramsar List.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "Sites may be added to and removed from the Record only with the approval of the Contracting Parties in which they lie.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "Currently, two wetlands of India are in Montreux record viz. Keoladeo National Park, Rajasthan and Loktak Lake, Manipur. Further, Chilka Lake, Odisha was placed in the record but was later removed from it.",
+                  "bullet": true,
+                  "level": 1
+                }
+              ],
+              "lineIds": [
+                "p12-b10-l1",
+                "p12-b11-l0",
+                "p12-b12-l0",
+                "p12-b12-l1",
+                "p12-b12-l2",
+                "p12-b12-l3",
+                "p12-b13-l1",
+                "p12-b14-l1",
+                "p12-b15-l0",
+                "p12-b15-l1",
+                "p12-b16-l1",
+                "p12-b17-l0",
+                "p12-b17-l1",
+                "p12-b17-l2",
+                "p12-b17-l3"
+              ],
+              "id": "environment-4-2-p12-0"
+            },
+            {
+              "type": "figure",
+              "image": "/environment-source/page-012-figure-1.png",
+              "width": 998,
+              "height": 958,
+              "caption": "Ramsar Convention and international wetland conservation — source infographic",
+              "page": 12,
+              "lineIds": [],
+              "id": "environment-4-2-p12-1"
+            },
+            {
+              "type": "figure",
+              "image": "/environment-source/page-013-figure-1.png",
+              "width": 1050,
+              "height": 1094,
+              "caption": "Wetland conservation organisations — source infographic",
+              "page": 13,
+              "lineIds": [],
+              "id": "environment-4-2-p13-2"
+            }
+          ],
+          "pages": [
+            12,
+            13
+          ],
+          "lineIds": [
+            "p12-b9-l0"
+          ]
+        },
+        {
+          "id": "environment-4-3",
+          "number": "4.3",
+          "title": "Wetlands International",
+          "elements": [
+            {
+              "type": "body",
+              "page": 13,
+              "parts": [
+                {
+                  "text": "It is a global organisation that works to sustain and restore wetlands and their resources for people and biodiversity.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "It is an independent, not-for-profit, global organisation, supported by government and NGO membership from around the world. It is based mostly in the developing world. It has 20 regional, national or project offices in all continents. Its head office is in Ede, Netherlands.",
+                  "bullet": true,
+                  "level": 1
+                }
+              ],
+              "lineIds": [
+                "p13-b7-l1",
+                "p13-b8-l0",
+                "p13-b8-l1",
+                "p13-b9-l1",
+                "p13-b10-l0",
+                "p13-b10-l1",
+                "p13-b10-l2",
+                "p13-b11-l0",
+                "p13-b11-l1"
+              ],
+              "id": "environment-4-3-p13-0"
+            }
+          ],
+          "pages": [
+            13
+          ],
+          "lineIds": [
+            "p13-b6-l0"
+          ]
+        },
+        {
+          "id": "environment-4-4",
+          "number": "4.4",
+          "title": "BirdLife International",
+          "elements": [
+            {
+              "type": "body",
+              "page": 13,
+              "parts": [
+                {
+                  "text": "It is a global partnership of conservation organisations that strives to conserve birds, their habitats and global biodiversity, working with people towards sustainability in the use of natural resources.",
+                  "bullet": true,
+                  "level": 1
+                }
+              ],
+              "lineIds": [
+                "p13-b13-l1",
+                "p13-b14-l0",
+                "p13-b14-l1",
+                "p13-b14-l2"
+              ],
+              "id": "environment-4-4-p13-0"
+            }
+          ],
+          "pages": [
+            13
+          ],
+          "lineIds": [
+            "p13-b12-l0"
+          ]
+        }
+      ],
+      "practice": [],
+      "guide": "Read the definitions, compare the examples, and trace the processes in the source diagrams. These are selected pages from the supplied preview."
+    },
+    {
+      "id": 5,
+      "title": "Biodiversity",
+      "topics": [
+        {
+          "id": "environment-5-1",
+          "number": "5.1",
+          "title": "Biodiversity",
+          "elements": [
+            {
+              "type": "body",
+              "page": 14,
+              "parts": [
+                {
+                  "text": "Biodiversity or “biological diversity,” is defined as the variety of life on Earth, in all its forms and all its interactions. The number and variety of plants, animals and other organisms that exist is known as biodiversity.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "According to 1992 United Nations Earth Summit, biological diversity is the variability among living organisms from all sources, including, inter alia, terrestrial, marine, and other aquatic ecosystems, and the ecological complexes of which they are a part. This includes diversity within species, between species and ecosystems.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "The United Nations designated 2011–2020 as the United Nations Decade on Biodiversity. To increase the understanding and awareness of biodiversity issues, May 22 was proclaimed as the International Day for Biological Diversity.",
+                  "bullet": true,
+                  "level": 1
+                }
+              ],
+              "lineIds": [
+                "p14-b10-l1",
+                "p14-b11-l0",
+                "p14-b11-l1",
+                "p14-b11-l2",
+                "p14-b11-l3",
+                "p14-b12-l1",
+                "p14-b13-l0",
+                "p14-b13-l1",
+                "p14-b13-l2",
+                "p14-b13-l3",
+                "p14-b13-l4",
+                "p14-b13-l5",
+                "p14-b14-l1",
+                "p14-b15-l0",
+                "p14-b15-l1",
+                "p14-b15-l2",
+                "p14-b15-l3"
+              ],
+              "id": "environment-5-1-p14-0"
+            }
+          ],
+          "pages": [
+            14
+          ],
+          "lineIds": [
+            "p14-b9-l0"
+          ]
+        },
+        {
+          "id": "environment-5-2",
+          "number": "5.2",
+          "title": "Types of Biodiversity",
+          "elements": [
+            {
+              "type": "body",
+              "page": 14,
+              "parts": [
+                {
+                  "text": "Biological Diversity Genetic Diversity Species Diversity Ecosystem Diversity",
+                  "bullet": false,
+                  "level": 1
+                }
+              ],
+              "lineIds": [
+                "p14-b17-l0",
+                "p14-b18-l0",
+                "p14-b18-l1",
+                "p14-b19-l0",
+                "p14-b19-l1",
+                "p14-b20-l0",
+                "p14-b21-l0"
+              ],
+              "id": "environment-5-2-p14-0"
+            },
+            {
+              "type": "figure",
+              "image": "/environment-source/page-014-figure-1.png",
+              "width": 506,
+              "height": 303,
+              "caption": "Biological diversity — source illustration",
+              "page": 14,
+              "lineIds": [],
+              "id": "environment-5-2-p14-1"
+            }
+          ],
+          "pages": [
+            14
+          ],
+          "lineIds": [
+            "p14-b16-l0"
+          ]
+        },
+        {
+          "id": "environment-5-3",
+          "number": "5.3",
+          "title": "Genetic Diversity",
+          "elements": [
+            {
+              "type": "body",
+              "page": 14,
+              "parts": [
+                {
+                  "text": "Genetic diversity refers to the variety of genes contained within species of plants, animals and microorganisms.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "New genetic variation in individuals occurs by gene and chromosomal mutation. In case of organisms with sexual reproduction, it may be spread across the population by recombination.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "Vavilov Center of Diversity",
+                  "bullet": false,
+                  "level": 1
+                },
+                {
+                  "text": "A Vavilov Center of Diversity is a region of the world first indicated by the Russian agro-botanist Nikolai Vavilov to be an original center for the domestication of plants.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "Vavilov centers are regions where a high diversity of crop’s wild relatives can be found, representing the natural relatives of domesticated crop plants.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "Vavilov identified eight such centers of origin of cultivated plants around the world in 1935.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "India has a high genetic diversity and is regarded as a Vavilov’s center of high crop genetic diversity.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "Vavilov proposed eight centers of origin of cultivated plants, fundamental and ancient centers of agriculture in the world.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "The Eight centers are as following: 1. China; 2. India; 2a. Indo-Malayan region; 3. Central Asia, including Pakistan, Punjab, Kashmir, Afghanistan and Turkestan; 4. Near East; 5. Mediterranean; 6. Ethiopia; 7. Southern Mexico and Central America; 8. South America (8. Ecuador, Peru, Bolivia, 8a. Chile, 8b. Brazil-Paraguay).",
+                  "bullet": false,
+                  "level": 1
+                }
+              ],
+              "lineIds": [
+                "p14-b24-l1",
+                "p14-b25-l0",
+                "p14-b25-l1",
+                "p14-b26-l1",
+                "p14-b27-l0",
+                "p14-b27-l1",
+                "p14-b27-l2",
+                "p14-b28-l0",
+                "p14-b29-l1",
+                "p14-b30-l0",
+                "p14-b30-l1",
+                "p14-b31-l1",
+                "p14-b32-l0",
+                "p14-b32-l1",
+                "p14-b33-l1",
+                "p14-b34-l0",
+                "p14-b35-l1",
+                "p14-b36-l0",
+                "p14-b37-l1",
+                "p14-b38-l0",
+                "p14-b39-l0",
+                "p14-b39-l1",
+                "p14-b39-l2",
+                "p14-b39-l3",
+                "p14-b39-l4"
+              ],
+              "id": "environment-5-3-p14-0"
+            },
+            {
+              "type": "figure",
+              "image": "/environment-source/page-014-figure-2.png",
+              "width": 478,
+              "height": 317,
+              "caption": "Centres of crop diversity — source illustration",
+              "page": 14,
+              "lineIds": [],
+              "id": "environment-5-3-p14-1"
+            }
+          ],
+          "pages": [
+            14
+          ],
+          "lineIds": [
+            "p14-b23-l0"
+          ]
+        }
+      ],
+      "practice": [],
+      "guide": "Read the definitions, compare the examples, and trace the processes in the source diagrams. These are selected pages from the supplied preview."
+    },
+    {
+      "id": 6,
+      "title": "International Union for Conservation of Nature",
+      "topics": [
+        {
+          "id": "environment-6-2",
+          "number": "6.2",
+          "title": "The International Union for Conservation of Nature (IUCN)",
+          "elements": [
+            {
+              "type": "body",
+              "page": 15,
+              "parts": [
+                {
+                  "text": "IUCN is an organization working in the field of nature conservation and sustainable use of natural resources. It is located in Gland, Switzerland and is also known as the World Conservation Union.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "IUCN was founded in October, 1948 as the International Union for the Protection of Nature (or IUPN) following an international conference in Fontainebleau, France. The organisation changed its name to the IUCN in 1956.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "It is a membership union, composed of both government and civil society organisations.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "It is involved in data gathering and analysis, research, field projects and education on conservation, sustainable development and biodiversity.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "IUCN Red List: In 1964, IUCN established the IUCN Red List of Threatened Species, which put forth a comprehensive data source on the global extinction risk of species and their conservation status in the world.",
+                  "bullet": true,
+                  "level": 1
+                }
+              ],
+              "lineIds": [
+                "p15-b10-l1",
+                "p15-b11-l0",
+                "p15-b11-l1",
+                "p15-b11-l2",
+                "p15-b12-l1",
+                "p15-b13-l0",
+                "p15-b13-l1",
+                "p15-b13-l2",
+                "p15-b13-l3",
+                "p15-b14-l1",
+                "p15-b15-l0",
+                "p15-b16-l1",
+                "p15-b17-l0",
+                "p15-b17-l1",
+                "p15-b18-l1",
+                "p15-b19-l0",
+                "p15-b19-l1",
+                "p15-b19-l2",
+                "p15-b19-l3"
+              ],
+              "id": "environment-6-2-p15-0"
+            },
+            {
+              "type": "figure",
+              "image": "/environment-source/page-015-figure-1.png",
+              "width": 1050,
+              "height": 306,
+              "caption": "IUCN conservation framework — source infographic",
+              "page": 15,
+              "lineIds": [],
+              "id": "environment-6-2-p15-1"
+            },
+            {
+              "type": "body",
+              "page": 15,
+              "parts": [
+                {
+                  "text": "IUCN Protected Areas",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "In 1978, IUCN developed a preliminary system of Protected Area Management Categories to help make sense of the world’s growing protected area network, aiming both to define and record the resources.",
+                  "bullet": true,
+                  "level": 2
+                },
+                {
+                  "text": "Protected Areas Categories",
+                  "bullet": true,
+                  "level": 2
+                },
+                {
+                  "text": "Ia (Strict Nature Reserve)",
+                  "bullet": true,
+                  "level": 2
+                },
+                {
+                  "text": "Ib (Wilderness Area)",
+                  "bullet": true,
+                  "level": 2
+                },
+                {
+                  "text": "II (National Park)",
+                  "bullet": true,
+                  "level": 2
+                },
+                {
+                  "text": "III (Natural Monument or Feature)",
+                  "bullet": true,
+                  "level": 2
+                },
+                {
+                  "text": "IV (Habitat/Species Management Area)",
+                  "bullet": true,
+                  "level": 2
+                },
+                {
+                  "text": "V (Protected Landscape/Seascape)",
+                  "bullet": true,
+                  "level": 2
+                },
+                {
+                  "text": "VI (Protected area with sustainable use of natural resources)",
+                  "bullet": true,
+                  "level": 2
+                },
+                {
+                  "text": "These categories are recognised by international bodies such as the United Nations and by many national governments as the global standard for defining and recording protected areas and as such are increasingly being incorporated into government legislation.",
+                  "bullet": true,
+                  "level": 2
+                },
+                {
+                  "text": "The IUCN Red List of Ecosystems Categories and Criteria",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "It is a global standard for assessing the status of ecosystems, applicable at local, national, regional and global levels.",
+                  "bullet": true,
+                  "level": 2
+                },
+                {
+                  "text": "Assessments determine whether an ecosystem is not facing imminent risk of collapse, or whether it is vulnerable, endangered, or critically endangered.",
+                  "bullet": true,
+                  "level": 2
+                },
+                {
+                  "text": "People in Nature (PiN)",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "It is an IUCN knowledge basket on the interrelationships between people and nature.",
+                  "bullet": true,
+                  "level": 2
+                }
+              ],
+              "lineIds": [
+                "p15-b21-l1",
+                "p15-b22-l1",
+                "p15-b23-l0",
+                "p15-b23-l1",
+                "p15-b23-l2",
+                "p15-b23-l3",
+                "p15-b24-l1",
+                "p15-b25-l1",
+                "p15-b26-l1",
+                "p15-b27-l1",
+                "p15-b28-l1",
+                "p15-b29-l1",
+                "p15-b30-l1",
+                "p15-b31-l1",
+                "p15-b32-l0",
+                "p15-b33-l1",
+                "p15-b34-l0",
+                "p15-b34-l1",
+                "p15-b34-l2",
+                "p15-b34-l3",
+                "p15-b34-l4",
+                "p15-b35-l1",
+                "p15-b36-l0",
+                "p15-b37-l1",
+                "p15-b38-l0",
+                "p15-b38-l1",
+                "p15-b39-l1",
+                "p15-b40-l0",
+                "p15-b40-l1",
+                "p15-b41-l1",
+                "p15-b42-l1",
+                "p15-b43-l0"
+              ],
+              "id": "environment-6-2-p15-2"
+            }
+          ],
+          "pages": [
+            15
+          ],
+          "lineIds": [
+            "p15-b9-l0",
+            "p15-b9-l1"
+          ]
+        }
+      ],
+      "practice": [],
+      "guide": "Read the definitions, compare the examples, and trace the processes in the source diagrams. These are selected pages from the supplied preview."
+    },
+    {
+      "id": 7,
+      "title": "Biodiversity in India",
+      "topics": [
+        {
+          "id": "environment-7-1",
+          "number": "7.1",
+          "title": "Animal kingdom",
+          "elements": [
+            {
+              "type": "figure",
+              "image": "/environment-source/page-016-figure-1.png",
+              "width": 1346,
+              "height": 990,
+              "caption": "Animal kingdom: vertebrates and invertebrates, classification, characteristics and examples",
+              "page": 16,
+              "lineIds": [],
+              "id": "environment-7-1-p16-0"
+            }
+          ],
+          "pages": [
+            16
+          ],
+          "lineIds": []
+        },
+        {
+          "id": "environment-7-2",
+          "number": "7.2",
+          "title": "Indian species: distribution and IUCN status",
+          "elements": [
+            {
+              "type": "body",
+              "page": 17,
+              "parts": [
+                {
+                  "text": "Indian Species: Distribution and IUCN Status",
+                  "bullet": false,
+                  "level": 1
+                }
+              ],
+              "lineIds": [
+                "p17-b5-l0"
+              ],
+              "id": "environment-7-2-p17-0"
+            },
+            {
+              "type": "comparison",
+              "page": 17,
+              "headers": [
+                {
+                  "text": "Species",
+                  "lineIds": [
+                    "p17-b6-l0"
+                  ]
+                },
+                {
+                  "text": "Habitat and Distribution",
+                  "lineIds": [
+                    "p17-b6-l1",
+                    "p17-b6-l2"
+                  ]
+                },
+                {
+                  "text": "IUCN Status",
+                  "lineIds": [
+                    "p17-b7-l0",
+                    "p17-b7-l1"
+                  ]
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Kondana Rat",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p17-b9-l0"
+                    ],
+                    "figures": [
+                      {
+                        "type": "figure",
+                        "image": "/environment-source/page-017-figure-1.png",
+                        "width": 237,
+                        "height": 188,
+                        "caption": "Kondana Rat — source species photograph",
+                        "page": 17,
+                        "lineIds": []
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Sinhagarh Plateau, Maharashtra",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p17-b10-l0",
+                      "p17-b10-l1",
+                      "p17-b10-l2"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "EN",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p17-b11-l0"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Namdapha Flying Squirrel",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p17-b13-l1"
+                    ],
+                    "figures": [
+                      {
+                        "type": "figure",
+                        "image": "/environment-source/page-017-figure-2.png",
+                        "width": 237,
+                        "height": 198,
+                        "caption": "Namdapha Flying Squirrel — source species photograph",
+                        "page": 17,
+                        "lineIds": []
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Namdapha National Park, Arunachal Pradesh",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p17-b14-l0",
+                      "p17-b14-l1",
+                      "p17-b14-l2",
+                      "p17-b14-l3"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "CR",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p17-b15-l0"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Malabar Civet",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p17-b17-l1"
+                    ],
+                    "figures": [
+                      {
+                        "type": "figure",
+                        "image": "/environment-source/page-017-figure-3.png",
+                        "width": 237,
+                        "height": 178,
+                        "caption": "Malabar Civet — source species photograph",
+                        "page": 17,
+                        "lineIds": []
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Western Ghat",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p17-b18-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "CR",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p17-b18-l1"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Jerdon’s Courser",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p17-b20-l1"
+                    ],
+                    "figures": [
+                      {
+                        "type": "figure",
+                        "image": "/environment-source/page-017-figure-4.png",
+                        "width": 239,
+                        "height": 179,
+                        "caption": "Jerdon’s Courser — source species photograph",
+                        "page": 17,
+                        "lineIds": []
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Endemic to Andhra Pradesh",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p17-b21-l0",
+                      "p17-b21-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "CR",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p17-b21-l2"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Forest Owlet",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p17-b23-l1"
+                    ],
+                    "figures": [
+                      {
+                        "type": "figure",
+                        "image": "/environment-source/page-017-figure-5.png",
+                        "width": 237,
+                        "height": 201,
+                        "caption": "Forest Owlet — source species photograph",
+                        "page": 17,
+                        "lineIds": []
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Central deciduous forest region",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p17-b24-l0",
+                      "p17-b24-l1",
+                      "p17-b24-l2"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "EN",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p17-b25-l0"
+                    ]
+                  }
+                ]
+              ],
+              "id": "environment-7-2-p17-1"
+            },
+            {
+              "type": "comparison",
+              "page": 17,
+              "headers": [
+                {
+                  "text": "Species",
+                  "lineIds": []
+                },
+                {
+                  "text": "Habitat and distribution",
+                  "lineIds": []
+                },
+                {
+                  "text": "IUCN status in source",
+                  "lineIds": []
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Pink headed Duck",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p17-b27-l1"
+                    ],
+                    "figures": [
+                      {
+                        "type": "figure",
+                        "image": "/environment-source/page-017-figure-6.png",
+                        "width": 270,
+                        "height": 180,
+                        "caption": "Pink headed Duck — source species photograph",
+                        "page": 17,
+                        "lineIds": []
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Since 1949, it has not been seen in wild in India. Presently found only in Myanmar.",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p17-b28-l0",
+                      "p17-b28-l1",
+                      "p17-b28-l2",
+                      "p17-b28-l3",
+                      "p17-b28-l4",
+                      "p17-b28-l5",
+                      "p17-b28-l6"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "CR",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p17-b29-l0"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Bengal Florican",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p17-b31-l1"
+                    ],
+                    "figures": [
+                      {
+                        "type": "figure",
+                        "image": "/environment-source/page-017-figure-7.png",
+                        "width": 270,
+                        "height": 203,
+                        "caption": "Bengal Florican — source species photograph",
+                        "page": 17,
+                        "lineIds": []
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Grasslands of Cambodia, India and Nepal",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p17-b32-l0",
+                      "p17-b32-l1",
+                      "p17-b32-l2"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "CR",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p17-b33-l0"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Himalayan Quail",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p17-b35-l1"
+                    ],
+                    "figures": [
+                      {
+                        "type": "figure",
+                        "image": "/environment-source/page-017-figure-8.png",
+                        "width": 270,
+                        "height": 213,
+                        "caption": "Himalayan Quail — source species photograph",
+                        "page": 17,
+                        "lineIds": []
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Tall grasslands in Western Himalayas",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p17-b36-l0",
+                      "p17-b36-l1",
+                      "p17-b36-l2"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "CR",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p17-b37-l0"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "White Bellied Heron",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p17-b39-l1"
+                    ],
+                    "figures": [
+                      {
+                        "type": "figure",
+                        "image": "/environment-source/page-017-figure-9.png",
+                        "width": 270,
+                        "height": 235,
+                        "caption": "White Bellied Heron — source species photograph",
+                        "page": 17,
+                        "lineIds": []
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Rivers with sand in North Eastern States",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p17-b40-l0",
+                      "p17-b40-l1",
+                      "p17-b40-l2"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "CR",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p17-b41-l0"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Spoon Billed Sandpiper",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p17-b43-l1"
+                    ],
+                    "figures": [
+                      {
+                        "type": "figure",
+                        "image": "/environment-source/page-017-figure-10.png",
+                        "width": 270,
+                        "height": 215,
+                        "caption": "Spoon Billed Sandpiper — source species photograph",
+                        "page": 17,
+                        "lineIds": []
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Coastal areas in West Bengal, Odisha, Kerala and Tamil Nadu.",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p17-b44-l0",
+                      "p17-b44-l1",
+                      "p17-b44-l2",
+                      "p17-b44-l3",
+                      "p17-b44-l4"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "CR",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p17-b45-l0"
+                    ]
+                  }
+                ]
+              ],
+              "id": "environment-7-2-p17-2"
+            },
+            {
+              "type": "comparison",
+              "page": 18,
+              "headers": [
+                {
+                  "text": "Species",
+                  "lineIds": []
+                },
+                {
+                  "text": "Habitat and distribution",
+                  "lineIds": []
+                },
+                {
+                  "text": "IUCN status in source",
+                  "lineIds": []
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Snow Leopard",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p18-b6-l1"
+                    ],
+                    "figures": [
+                      {
+                        "type": "figure",
+                        "image": "/environment-source/page-018-figure-1.png",
+                        "width": 271,
+                        "height": 204,
+                        "caption": "Snow Leopard — source species photograph",
+                        "page": 18,
+                        "lineIds": []
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "High in the moun-tains of Central Asia, Pamir, Karakoram, Hin-du Kush and Hi-malayan Range. Jammu & Kash-mir, Himachal Pradesh., Sikkim, Uttarakhand.",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p18-b7-l0",
+                      "p18-b7-l1",
+                      "p18-b7-l2",
+                      "p18-b7-l3",
+                      "p18-b7-l4",
+                      "p18-b7-l5",
+                      "p18-b7-l6",
+                      "p18-b7-l7",
+                      "p18-b7-l8",
+                      "p18-b7-l9"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "VU",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p18-b8-l0"
+                    ]
+                  }
+                ]
+              ],
+              "id": "environment-7-2-p18-3"
+            }
+          ],
+          "pages": [
+            17,
+            18
+          ],
+          "lineIds": []
+        },
+        {
+          "id": "environment-7-3",
+          "number": "7.3",
+          "title": "Species Diversity",
+          "elements": [
+            {
+              "type": "figure",
+              "image": "/environment-source/page-018-figure-2.png",
+              "width": 506,
+              "height": 506,
+              "caption": "Species diversity in different zones — source chart",
+              "page": 18,
+              "lineIds": [],
+              "id": "environment-7-3-p18-0"
+            },
+            {
+              "type": "body",
+              "page": 18,
+              "parts": [
+                {
+                  "text": "More than 70% of all the species recorded are animals, while plants (including algae, fungi, bryophytes, gymnosperms and angiosperms) comprise not more than 22% of the total.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "Among animals, insects are the most species-rich taxonomic group, making up more than 70% of the total.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "The number of fungi species in the world is more than the combined total of the species of fishes, amphibians, reptiles and mammals.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "Species diversity is maximum at tropics than at poles.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "The largely tropical Amazonian rain forest in South America has the greatest biodiversity on earth.",
+                  "bullet": true,
+                  "level": 1
+                }
+              ],
+              "lineIds": [
+                "p18-b11-l1",
+                "p18-b12-l0",
+                "p18-b12-l1",
+                "p18-b12-l2",
+                "p18-b13-l1",
+                "p18-b14-l0",
+                "p18-b14-l1",
+                "p18-b15-l1",
+                "p18-b16-l0",
+                "p18-b16-l1",
+                "p18-b17-l1",
+                "p18-b18-l1",
+                "p18-b19-l0"
+              ],
+              "id": "environment-7-3-p18-1"
+            },
+            {
+              "type": "figure",
+              "image": "/environment-source/page-018-figure-3.png",
+              "width": 506,
+              "height": 476,
+              "caption": "Endemism — source reference graphic",
+              "page": 18,
+              "lineIds": [],
+              "id": "environment-7-3-p18-2"
+            }
+          ],
+          "pages": [
+            18
+          ],
+          "lineIds": [
+            "p18-b9-l0"
+          ]
+        },
+        {
+          "id": "environment-7-4",
+          "number": "7.4",
+          "title": "Species Diversity in Different Zones",
+          "elements": [
+            {
+              "type": "figure",
+              "image": "/environment-source/page-018-figure-4.png",
+              "width": 507,
+              "height": 315,
+              "caption": "Endemism — source reference graphic",
+              "page": 18,
+              "lineIds": [],
+              "id": "environment-7-4-p18-0"
+            },
+            {
+              "type": "body",
+              "page": 18,
+              "parts": [
+                {
+                  "text": "Endemism It is the ecological state of a species being unique to a defined geographic location, such as an island, nation, country or other defined zone, or habitat type. Organisms that are indigenous to a place are not endemic to it if they are also found elsewhere.",
+                  "bullet": false,
+                  "level": 1
+                }
+              ],
+              "lineIds": [
+                "p18-b23-l0",
+                "p18-b24-l0",
+                "p18-b24-l1",
+                "p18-b24-l2",
+                "p18-b24-l3"
+              ],
+              "id": "environment-7-4-p18-1"
+            }
+          ],
+          "pages": [
+            18
+          ],
+          "lineIds": [
+            "p18-b21-l0"
+          ]
+        },
+        {
+          "id": "environment-7-5",
+          "number": "7.5",
+          "title": "Wildlife Diseases",
+          "elements": [
+            {
+              "type": "comparison",
+              "page": 18,
+              "headers": [
+                {
+                  "text": "Disease",
+                  "lineIds": [
+                    "p18-b26-l0"
+                  ]
+                },
+                {
+                  "text": "Agent",
+                  "lineIds": [
+                    "p18-b26-l1"
+                  ]
+                },
+                {
+                  "text": "Susceptible Animals",
+                  "lineIds": [
+                    "p18-b26-l2"
+                  ]
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Anthrax",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p18-b27-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Bacteria: Bacillus anthracis",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p18-b27-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Hoofed animals: Deer, Cattle, Goats, and Sheep.",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p18-b27-l2"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Black quarter (black-leg)",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p18-b28-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Bacteria: Clostridium chauvoei",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p18-b28-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Cattle: Buffaloes, Sheep and Goats.",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p18-b28-l2"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Foot and mouth disease",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p18-b29-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Virus: Coxsackie virus",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p18-b29-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Cloven-footed animals: Gaur, Nilgai, Chetal, Sambar, Yak, Mithun.",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p18-b29-l2"
+                    ]
+                  }
+                ]
+              ],
+              "id": "environment-7-5-p18-0"
+            }
+          ],
+          "pages": [
+            18
+          ],
+          "lineIds": [
+            "p18-b25-l0"
+          ]
+        },
+        {
+          "id": "environment-7-6",
+          "number": "7.6",
+          "title": "Plant kingdom",
+          "elements": [
+            {
+              "type": "figure",
+              "image": "/environment-source/page-019-figure-1.png",
+              "width": 1341,
+              "height": 987,
+              "caption": "Plant kingdom: cryptogams, phanerogams, characteristics, habitats and examples",
+              "page": 19,
+              "lineIds": [],
+              "id": "environment-7-6-p19-0"
+            }
+          ],
+          "pages": [
+            19
+          ],
+          "lineIds": []
+        },
+        {
+          "id": "environment-7-7",
+          "number": "7.7",
+          "title": "Insectivorous plants — continued source extract",
+          "elements": [
+            {
+              "type": "body",
+              "page": 20,
+              "parts": [
+                {
+                  "text": "They are adapted for capturing and digesting insects and other animals by means of ingenious pitfalls and traps.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "The organic matter obtained from insects and small animals supplements their deficiency of nutrients.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "Drosera or Sundew, Aldrovanda, Nepenthes, Utricularia or Bladderworts are some of the examples of insectivorous plants.",
+                  "bullet": true,
+                  "level": 1
+                }
+              ],
+              "lineIds": [
+                "p20-b5-l1",
+                "p20-b6-l0",
+                "p20-b6-l1",
+                "p20-b7-l1",
+                "p20-b8-l0",
+                "p20-b9-l1",
+                "p20-b10-l0",
+                "p20-b10-l1"
+              ],
+              "id": "environment-7-7-p20-0"
+            },
+            {
+              "type": "figure",
+              "image": "/environment-source/page-020-figure-1.png",
+              "width": 506,
+              "height": 294,
+              "caption": "Invasive alien species — source illustration",
+              "page": 20,
+              "lineIds": [],
+              "id": "environment-7-7-p20-1"
+            }
+          ],
+          "pages": [
+            20
+          ],
+          "lineIds": []
+        },
+        {
+          "id": "environment-7-8",
+          "number": "7.8",
+          "title": "Invasive Alien Species",
+          "elements": [
+            {
+              "type": "body",
+              "page": 20,
+              "parts": [
+                {
+                  "text": "These are plants or animals that are introduced by man, accidentally or intentionally, outside of their natural geographic range into an area where they are not naturally present.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "They are often introduced as a result of the globalisation of economies, for instance by trade via ships, shipment of wood products infested with insects, or the transport of ornamental plants that establish themselves into the wild and spread.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "If these species become problematic, they are termed an invasive alien species.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "An invasive species can be an amphibian like the cane toad, plant, insect, fish, fungus, bacteria, living as competitors, predators, pathogens and parasites.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "Invasive species alter the environment they invade and are difficult and expensive to control after they colonise a landscape, having phenotypic plasticity, i.e., the ability to adapt to environmental stress.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "Invasive plant species transform the soil structure and micro environment to their advantage by producing allelochemicals which cause the destruction of native species and local biodiversity.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "Some of the instances of alien invasive species are needle bush, desho grass (Pennisetum pedicellatum), giant salvinia, water hyacinth, prickly poppy, palmyra, and toddy palm.",
+                  "bullet": true,
+                  "level": 1
+                }
+              ],
+              "lineIds": [
+                "p20-b13-l1",
+                "p20-b14-l0",
+                "p20-b15-l0",
+                "p20-b15-l1",
+                "p20-b16-l1",
+                "p20-b17-l0",
+                "p20-b17-l1",
+                "p20-b17-l2",
+                "p20-b17-l3",
+                "p20-b18-l1",
+                "p20-b19-l0",
+                "p20-b20-l1",
+                "p20-b21-l0",
+                "p20-b21-l1",
+                "p20-b22-l1",
+                "p20-b23-l0",
+                "p20-b23-l1",
+                "p20-b23-l2",
+                "p20-b24-l1",
+                "p20-b25-l0",
+                "p20-b25-l1",
+                "p20-b25-l2",
+                "p20-b26-l1",
+                "p20-b27-l0",
+                "p20-b27-l1",
+                "p20-b27-l2"
+              ],
+              "id": "environment-7-8-p20-0"
+            }
+          ],
+          "pages": [
+            20
+          ],
+          "lineIds": [
+            "p20-b12-l0"
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "type": "practice",
+          "page": 20,
+          "questions": [
+            {
+              "number": 1,
+              "lineIds": [
+                "p20-b29-l1",
+                "p20-b29-l3",
+                "p20-b29-l4",
+                "p20-b29-l6",
+                "p20-b29-l7",
+                "p20-b29-l9",
+                "p20-b30-l0",
+                "p20-b30-l1",
+                "p20-b30-l2",
+                "p20-b30-l3"
+              ],
+              "prompt": "Consider the following statements: 1. In India, Red Panda is naturally found in the western Himalayas only. 2. In India, slow loris lives in the dense forests of the North East. Which of the statements given above is/are correct? ",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "1 only"
+                },
+                {
+                  "label": "b",
+                  "text": "2 only"
+                },
+                {
+                  "label": "c",
+                  "text": "Both 1 and 2"
+                },
+                {
+                  "label": "d",
+                  "text": "Neither 1 nor 2"
+                }
+              ],
+              "answer": "b"
+            },
+            {
+              "number": 2,
+              "lineIds": [
+                "p20-b30-l5",
+                "p20-b30-l7",
+                "p20-b30-l9",
+                "p20-b30-l10",
+                "p20-b30-l12",
+                "p20-b31-l0",
+                "p20-b31-l1",
+                "p20-b31-l2",
+                "p20-b31-l3"
+              ],
+              "prompt": "Consider the following: 1. Black-necked Crane 2. Cheetah 3. Flying Squirrel 4. Snow Leopard Which of the above are naturally found in India? ",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "1, 2 and 3 only"
+                },
+                {
+                  "label": "b",
+                  "text": "1, 3 and 4 only"
+                },
+                {
+                  "label": "c",
+                  "text": "2 and 4 only"
+                },
+                {
+                  "label": "d",
+                  "text": "1, 2, 3 and 4"
+                }
+              ],
+              "answer": "b"
+            },
+            {
+              "number": 3,
+              "lineIds": [
+                "p20-b31-l5",
+                "p20-b31-l6",
+                "p20-b31-l8",
+                "p20-b31-l9",
+                "p20-b31-l11",
+                "p20-b31-l12",
+                "p20-b31-l14",
+                "p20-b32-l0",
+                "p20-b32-l1",
+                "p20-b32-l2",
+                "p20-b32-l3"
+              ],
+              "prompt": "In which of the following states is Lion-tailed Macaque found in its natural habitat? 1. Tamil Nadu 2. Kerala 3. Karnataka 4. Andhra Pradesh Select the correct answer using the code given below: ",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "1, 2 and 3 only"
+                },
+                {
+                  "label": "b",
+                  "text": "2 only"
+                },
+                {
+                  "label": "c",
+                  "text": "1, 3 and 4 only"
+                },
+                {
+                  "label": "d",
+                  "text": "1, 2, 3 and 4"
+                }
+              ],
+              "answer": "a"
+            },
+            {
+              "number": 4,
+              "lineIds": [
+                "p20-b33-l1",
+                "p20-b33-l2",
+                "p20-b33-l3",
+                "p20-b33-l4",
+                "p20-b33-l5",
+                "p20-b34-l0",
+                "p20-b35-l0",
+                "p20-b36-l0",
+                "p20-b37-l0"
+              ],
+              "prompt": "A sandy and saline area is the natural Habitat of an Indian animal species. The animal has no predators in that area but its existence is threatened due to the destruction of its habitat. Which one of the following could be that animal? ",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Indian wild buffalo"
+                },
+                {
+                  "label": "b",
+                  "text": "Indian wild ass"
+                },
+                {
+                  "label": "c",
+                  "text": "Indian wild boar"
+                },
+                {
+                  "label": "d",
+                  "text": "Indian gazelle"
+                }
+              ],
+              "answer": "b"
+            },
+            {
+              "number": 5,
+              "lineIds": [
+                "p20-b37-l2",
+                "p20-b37-l3",
+                "p20-b38-l1",
+                "p20-b39-l1",
+                "p20-b40-l1",
+                "p20-b40-l2",
+                "p20-b40-l4",
+                "p20-b41-l0",
+                "p20-b41-l1",
+                "p20-b42-l0",
+                "p20-b42-l1"
+              ],
+              "prompt": "Concerning ‘Dugong’, a mammal found in India, which of the following statements is/are correct? 1. It is a herbivorous marine animal. 2. It is found along the entire coast of India. 3. It is given legal protection under Schedule I of the Wildlife (Protection) Act, 1972. Select the correct answer using the code given below: ",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "1 and 2 only"
+                },
+                {
+                  "label": "b",
+                  "text": "2 only"
+                },
+                {
+                  "label": "c",
+                  "text": "1 and 3 only"
+                },
+                {
+                  "label": "d",
+                  "text": "3 only"
+                }
+              ],
+              "answer": "c"
+            }
+          ],
+          "lineIds": [
+            "p20-b28-l0",
+            "p20-b43-l0",
+            "p20-b44-l1",
+            "p20-b44-l2",
+            "p20-b44-l3",
+            "p20-b44-l4",
+            "p20-b44-l5"
+          ],
+          "answerKey": "Answer 1. (b) 2. (b) 3. (a) 4. (b) 5. (c)",
+          "topic": "environment-7-8",
+          "pages": [
+            20
+          ],
+          "title": "Source practice questions"
+        }
+      ],
+      "guide": "Read the definitions, compare the examples, and trace the processes in the source diagrams. These are selected pages from the supplied preview."
+    },
+    {
+      "id": 8,
+      "title": "Pollution",
+      "topics": [
+        {
+          "id": "environment-8-1",
+          "number": "8.1",
+          "title": "Smog",
+          "elements": [
+            {
+              "type": "figure",
+              "image": "/environment-source/page-021-figure-1.png",
+              "width": 1050,
+              "height": 739,
+              "caption": "Smog and photochemical air pollution — source infographic",
+              "page": 21,
+              "lineIds": [],
+              "id": "environment-8-1-p21-0"
+            },
+            {
+              "type": "body",
+              "page": 21,
+              "parts": [
+                {
+                  "text": "Smog in simple terms is the combination of smoke and fog.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "Smog typically exists in urban areas where factories burn fossil fuels such as coal, which creates smoke and Sulfur dioxide that mixes with fog droplets to create a thick blanket of haze close to the ground.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "It is often associated with low temperature, calm wind and heavy traffic.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "Both smog and photochemical smog are forms of air pollution.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "Photochemical Smog",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "Photochemical smog is a mixture of pollutants that form when nitrogen oxides and volatile organic compounds react to sunlight, creating a haze.",
+                  "bullet": true,
+                  "level": 2
+                },
+                {
+                  "text": "It is associated with drier and sunny areas.",
+                  "bullet": true,
+                  "level": 2
+                },
+                {
+                  "text": "Ozone is one of the primary components of photochemical smog.",
+                  "bullet": true,
+                  "level": 2
+                },
+                {
+                  "text": "Nitrogen Dioxide + Sunlight + Hydrocarbons = Ozone N2 + O2 → 2NO (Reactions in the atmosphere) 2NO + O2 → 2NO2 UV Radiation NO2 NO + O O + O2 → O3 NO + O3 → NO2 + O2 HC + NO + O2 → NO2 + PAN",
+                  "bullet": true,
+                  "level": 2
+                },
+                {
+                  "text": "Effects of Smog",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "It causes a light brownish coloration of the atmosphere which reduces visibility.",
+                  "bullet": true,
+                  "level": 2
+                },
+                {
+                  "text": "It hinders the photosynthetic process in plants.",
+                  "bullet": true,
+                  "level": 2
+                },
+                {
+                  "text": "It causes irritation to the eyes, respiratory distress, decrease of natural vitamin D leading to rickets.",
+                  "bullet": true,
+                  "level": 2
+                },
+                {
+                  "text": "Heavy Smog shield earth from harmful ultraviolet radiation.",
+                  "bullet": true,
+                  "level": 2
+                }
+              ],
+              "lineIds": [
+                "p21-b7-l1",
+                "p21-b8-l0",
+                "p21-b9-l1",
+                "p21-b10-l0",
+                "p21-b10-l1",
+                "p21-b10-l2",
+                "p21-b11-l1",
+                "p21-b12-l0",
+                "p21-b13-l1",
+                "p21-b14-l0",
+                "p21-b15-l1",
+                "p21-b16-l1",
+                "p21-b17-l0",
+                "p21-b17-l1",
+                "p21-b18-l1",
+                "p21-b19-l1",
+                "p21-b20-l0",
+                "p21-b21-l1",
+                "p21-b22-l0",
+                "p21-b23-l2",
+                "p21-b24-l0",
+                "p21-b25-l3",
+                "p21-b25-l6",
+                "p21-b25-l10",
+                "p21-b25-l11",
+                "p21-b26-l3",
+                "p21-b26-l7",
+                "p21-b26-l11",
+                "p21-b27-l1",
+                "p21-b28-l1",
+                "p21-b29-l0",
+                "p21-b30-l1",
+                "p21-b31-l1",
+                "p21-b32-l0",
+                "p21-b33-l1",
+                "p21-b34-l0"
+              ],
+              "id": "environment-8-1-p21-1"
+            }
+          ],
+          "pages": [
+            21
+          ],
+          "lineIds": [
+            "p21-b6-l0"
+          ]
+        },
+        {
+          "id": "environment-8-2",
+          "number": "8.2",
+          "title": "Nitrates",
+          "elements": [
+            {
+              "type": "body",
+              "page": 22,
+              "parts": [
+                {
+                  "text": "Nitrates",
+                  "bullet": false,
+                  "level": 1
+                },
+                {
+                  "text": "The most common contaminant identified in ground water is dissolved nitrogen in the form of nitrate (NO3 –).",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "Nearly 80% of the sewage generated in India flows untreated into its rivers, lakes and ponds, turning the water sources too polluted to use.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "Nitrate pollution is also caused by heavy use of nitrogenous fertilisers, where nitrate seeps into the groundwater.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "According to WHO, nitrate in drinking water can cause methemoglobinemia or the decreased ability of blood to carry vital Oxygen around the body.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "(i) Reverse Osmosis (ii) Ion Exchange (iii) Bio-remediation (iv) Blending",
+                  "bullet": false,
+                  "level": 1
+                }
+              ],
+              "lineIds": [
+                "p22-b5-l0",
+                "p22-b6-l1",
+                "p22-b7-l0",
+                "p22-b8-l0",
+                "p22-b9-l1",
+                "p22-b10-l0",
+                "p22-b11-l1",
+                "p22-b12-l0",
+                "p22-b13-l1",
+                "p22-b14-l0",
+                "p22-b15-l1",
+                "p22-b16-l0",
+                "p22-b17-l0",
+                "p22-b18-l0"
+              ],
+              "id": "environment-8-2-p22-0"
+            }
+          ],
+          "pages": [
+            22
+          ],
+          "lineIds": []
+        },
+        {
+          "id": "environment-8-3",
+          "number": "8.3",
+          "title": "Marine Pollution",
+          "elements": [
+            {
+              "type": "body",
+              "page": 22,
+              "parts": [
+                {
+                  "text": "Pollution in the marine ecosystem largely arises out of economic activities on land, in coastal areas and on the high seas.",
+                  "bullet": false,
+                  "level": 1
+                }
+              ],
+              "lineIds": [
+                "p22-b20-l0",
+                "p22-b20-l1"
+              ],
+              "id": "environment-8-3-p22-0"
+            },
+            {
+              "type": "figure",
+              "image": "/environment-source/page-022-figure-1.png",
+              "width": 1050,
+              "height": 784,
+              "caption": "Marine pollution: sources and effects — source infographic",
+              "page": 22,
+              "lineIds": [],
+              "id": "environment-8-3-p22-1"
+            }
+          ],
+          "pages": [
+            22
+          ],
+          "lineIds": [
+            "p22-b19-l0"
+          ]
+        },
+        {
+          "id": "environment-8-4",
+          "number": "8.4",
+          "title": "Controlling Oil Spill",
+          "elements": [
+            {
+              "type": "body",
+              "page": 22,
+              "parts": [
+                {
+                  "text": "Floating barriers such as “booms” is used to clean oil from the surface of water and to prevent slicks from spreading.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "Sorbents are sponges that can collect the oil. They are used to absorb the oil in the areas of oil spill.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "Bio-remediation may be used to accelerate the process of bio-degradation of the oil after a spill.",
+                  "bullet": true,
+                  "level": 1
+                },
+                {
+                  "text": "Oil zapper, a mixture of bacteria, can degrade the pollutants of oil-contaminated sites leaving behind no harmful residues.",
+                  "bullet": true,
+                  "level": 1
+                }
+              ],
+              "lineIds": [
+                "p22-b23-l1",
+                "p22-b24-l0",
+                "p22-b24-l1",
+                "p22-b25-l1",
+                "p22-b26-l0",
+                "p22-b27-l1",
+                "p22-b28-l0",
+                "p22-b28-l1",
+                "p22-b29-l1",
+                "p22-b30-l0",
+                "p22-b30-l1"
+              ],
+              "id": "environment-8-4-p22-0"
+            }
+          ],
+          "pages": [
+            22
+          ],
+          "lineIds": [
+            "p22-b22-l0"
+          ]
+        }
+      ],
+      "practice": [],
+      "guide": "Read the definitions, compare the examples, and trace the processes in the source diagrams. These are selected pages from the supplied preview."
+    },
+    {
+      "id": 9,
+      "title": "Environmental Movements and Conventions",
+      "topics": [
+        {
+          "id": "environment-9-1",
+          "number": "9.1",
+          "title": "Major environmental movements in India",
+          "elements": [
+            {
+              "type": "body",
+              "page": 23,
+              "parts": [
+                {
+                  "text": "Major Environmental Movements in India",
+                  "bullet": false,
+                  "level": 1
+                }
+              ],
+              "lineIds": [
+                "p23-b5-l0"
+              ],
+              "id": "environment-9-1-p23-0"
+            },
+            {
+              "type": "comparison",
+              "page": 23,
+              "headers": [
+                {
+                  "text": "Movement",
+                  "lineIds": []
+                },
+                {
+                  "text": "Details",
+                  "lineIds": []
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Bishnoi Movement",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p23-b6-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "This movement was started by sage Sombaji around 1700 AD against deforestation. After that Amrita Devi forwarded the movement.",
+                        "bullet": true,
+                        "level": 1
+                      },
+                      {
+                        "text": "363 people from the Bishnoi community were killed in the protest.",
+                        "bullet": true,
+                        "level": 1
+                      },
+                      {
+                        "text": "When the king of this region came to know the protest and killing then he rushed to the village and apologized, and declared the region as protected area.",
+                        "bullet": true,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p23-b7-l1",
+                      "p23-b8-l0",
+                      "p23-b9-l1",
+                      "p23-b10-l1",
+                      "p23-b11-l0"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Chipko Movement",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p23-b12-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "It was launched from Gopeshwar in Chamoli district, Uttarakhand in 1973.",
+                        "bullet": true,
+                        "level": 1
+                      },
+                      {
+                        "text": "The movement was to prevent illegal cutting of trees in the Himalayan region (Uttarakhand).",
+                        "bullet": true,
+                        "level": 1
+                      },
+                      {
+                        "text": "The name of the movement comes from the word ‘embrace’, as the villagers hugged the trees, and prevented it from falling.",
+                        "bullet": true,
+                        "level": 1
+                      },
+                      {
+                        "text": "Sunderlal Bahuguna and Chandi Prasad Bhatt were the leaders of this movement.",
+                        "bullet": true,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p23-b13-l1",
+                      "p23-b14-l1",
+                      "p23-b15-l1",
+                      "p23-b16-l0",
+                      "p23-b17-l1"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Silent Valley Movement",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p23-b18-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Silent Valley is situated in Palghat district in Kundali hills and contains India’s last substantial stretch of tropical evergreen forest.",
+                        "bullet": true,
+                        "level": 1
+                      },
+                      {
+                        "text": "The environmentalists and the local people strongly objected to the hydel power project being set up here in 1973.",
+                        "bullet": true,
+                        "level": 1
+                      },
+                      {
+                        "text": "Under pressure, the government had to declare it the national reserve forests in 1985.",
+                        "bullet": true,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p23-b19-l1",
+                      "p23-b20-l0",
+                      "p23-b21-l1",
+                      "p23-b22-l1"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Appiko Movement",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p23-b23-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "In 1983, on the lines of the Chipko Movement, Pandurang Hegde launched a movement which is come to known as the Appiko Movement in Karnataka.",
+                        "bullet": true,
+                        "level": 1
+                      },
+                      {
+                        "text": "Its main objectives were afforestation as well as development, conservation and proper utilization of forests in the best manner.",
+                        "bullet": true,
+                        "level": 1
+                      },
+                      {
+                        "text": "The meaning of “appiko” is to express one’s affection for a tree by embracing it.",
+                        "bullet": true,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p23-b24-l1",
+                      "p23-b25-l0",
+                      "p23-b26-l1",
+                      "p23-b27-l0",
+                      "p23-b28-l1"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Jungle Bachao Andola",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p23-b29-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "The tribal community of Singhbhum district of Jharkhand agitated against the forest policy of the Government in 1982.",
+                        "bullet": true,
+                        "level": 1
+                      },
+                      {
+                        "text": "The Government wanted to replace the natural soil, forests with the high-priced teak.",
+                        "bullet": true,
+                        "level": 1
+                      },
+                      {
+                        "text": "Many environmentalists refer to this movement as “Greed Game Political Populism”.",
+                        "bullet": true,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p23-b30-l1",
+                      "p23-b31-l1",
+                      "p23-b32-l1"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Narmada Bachao Movement",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p23-b33-l0",
+                      "p23-b33-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "The environmentalists and the local people started protest against the building of Dams on the Narmada for the production of hydro-electricity since 1985 which was popularly known as Narmada Bachao Aandolan.",
+                        "bullet": true,
+                        "level": 1
+                      },
+                      {
+                        "text": "Medha Patkar has been the leader of this aandolan who got support from the Arundhati Roy, Baba Amte and Aamir Khan.",
+                        "bullet": true,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p23-b34-l1",
+                      "p23-b35-l0",
+                      "p23-b36-l1",
+                      "p23-b37-l0"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "Tehri Dam Conflict",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p23-b38-l0"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "This movement led by Sunderlal Bahuguna, was started by the local people around 1980s and 1990s because the dam project would be constructed in the seismic sensitive region and it causes submergence of forest areas along with Tehri town.",
+                        "bullet": true,
+                        "level": 1
+                      },
+                      {
+                        "text": "Despite the protest, the construction of the dam is being carried out.",
+                        "bullet": true,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p23-b39-l1",
+                      "p23-b40-l0",
+                      "p23-b40-l1",
+                      "p23-b41-l1"
+                    ]
+                  }
+                ]
+              ],
+              "id": "environment-9-1-p23-1"
+            },
+            {
+              "type": "body",
+              "page": 23,
+              "parts": [
+                {
+                  "text": "International Conventions/Protocols/Commissions",
+                  "bullet": false,
+                  "level": 1
+                }
+              ],
+              "lineIds": [
+                "p23-b42-l0"
+              ],
+              "id": "environment-9-1-p23-2"
+            },
+            {
+              "type": "comparison",
+              "page": 23,
+              "headers": [
+                {
+                  "text": "Convention/Protocols/Commission",
+                  "lineIds": [
+                    "p23-b43-l0"
+                  ]
+                },
+                {
+                  "text": "Key Points",
+                  "lineIds": [
+                    "p23-b43-l1"
+                  ]
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "parts": [
+                      {
+                        "text": "United Nations Conference On Environment and Development (UNCED) [Earth Summit]",
+                        "bullet": false,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p23-b44-l0",
+                      "p23-b44-l1"
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Rio de Janeiro, 1992.",
+                        "bullet": true,
+                        "level": 1
+                      },
+                      {
+                        "text": "It consisted of 27 principles intended to guide future sustainable development around the world. Outcome Documents",
+                        "bullet": true,
+                        "level": 1
+                      },
+                      {
+                        "text": "Rio Declaration on Environment and Development",
+                        "bullet": true,
+                        "level": 1
+                      },
+                      {
+                        "text": "Agenda 21",
+                        "bullet": true,
+                        "level": 1
+                      },
+                      {
+                        "text": "Forest Principles Legally Binding Documents",
+                        "bullet": true,
+                        "level": 1
+                      },
+                      {
+                        "text": "Convention on Biological Diversity",
+                        "bullet": true,
+                        "level": 1
+                      },
+                      {
+                        "text": "Framework Convention on Climate Change (UNFCCC)",
+                        "bullet": true,
+                        "level": 1
+                      }
+                    ],
+                    "lineIds": [
+                      "p23-b45-l1",
+                      "p23-b46-l1",
+                      "p23-b46-l2",
+                      "p23-b47-l1",
+                      "p23-b48-l1",
+                      "p23-b49-l1",
+                      "p23-b49-l2",
+                      "p23-b50-l1",
+                      "p23-b51-l1"
+                    ]
+                  }
+                ]
+              ],
+              "id": "environment-9-1-p23-3"
+            }
+          ],
+          "pages": [
+            23
+          ],
+          "lineIds": []
+        }
+      ],
+      "practice": [],
+      "guide": "Read the definitions, compare the examples, and trace the processes in the source diagrams. These are selected pages from the supplied preview."
+    }
+  ],
+  "audit": [
+    {
+      "page": 9,
+      "printedPage": 11,
+      "sourceLines": 60,
+      "representedLines": 60
+    },
+    {
+      "page": 10,
+      "printedPage": 18,
+      "sourceLines": 45,
+      "representedLines": 45
+    },
+    {
+      "page": 11,
+      "printedPage": 32,
+      "sourceLines": 178,
+      "representedLines": 178
+    },
+    {
+      "page": 12,
+      "printedPage": 49,
+      "sourceLines": 26,
+      "representedLines": 26
+    },
+    {
+      "page": 13,
+      "printedPage": 50,
+      "sourceLines": 15,
+      "representedLines": 15
+    },
+    {
+      "page": 14,
+      "printedPage": 60,
+      "sourceLines": 52,
+      "representedLines": 52
+    },
+    {
+      "page": 15,
+      "printedPage": 87,
+      "sourceLines": 53,
+      "representedLines": 53
+    },
+    {
+      "page": 16,
+      "printedPage": 96,
+      "sourceLines": 0,
+      "representedLines": 0
+    },
+    {
+      "page": 17,
+      "printedPage": 97,
+      "sourceLines": 60,
+      "representedLines": 60
+    },
+    {
+      "page": 18,
+      "printedPage": 102,
+      "sourceLines": 45,
+      "representedLines": 45
+    },
+    {
+      "page": 19,
+      "printedPage": 104,
+      "sourceLines": 0,
+      "representedLines": 0
+    },
+    {
+      "page": 20,
+      "printedPage": 110,
+      "sourceLines": 92,
+      "representedLines": 92
+    },
+    {
+      "page": 21,
+      "printedPage": 141,
+      "sourceLines": 37,
+      "representedLines": 37
+    },
+    {
+      "page": 22,
+      "printedPage": 151,
+      "sourceLines": 29,
+      "representedLines": 29
+    },
+    {
+      "page": 23,
+      "printedPage": 234,
+      "sourceLines": 53,
+      "representedLines": 53
+    }
+  ]
+}

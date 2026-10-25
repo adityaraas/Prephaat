@@ -1,0 +1,57 @@
+/* Selected sections share a full-width workspace, from edge to edge. */
+.layout {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0 0 5rem;
+}
+
+.layout > main {
+  width: 100%;
+  min-width: 0;
+}
+
+.layout > main > .panel {
+  width: 100%;
+  min-height: 65vh;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  padding: clamp(16px, 2vw, 32px);
+}
+
+.tabs-wrap .tabs {
+  max-width: none;
+}
+
+.layout #subject:has(#history-plan),
+.layout #subject:has(#ir-source-material),
+.layout #subject:has(#economy-source-material),
+.layout #preparation,
+.layout #feed,
+.layout #editorials {
+  padding: 0;
+}
+
+.layout #history-plan {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0 clamp(16px, 2vw, 32px) 40px;
+  border-radius: 0;
+}
+
+.layout #mapping-board {
+  max-width: none;
+}
+
+.layout #history-plan .reading-prose p {
+  max-width: none;
+}
+
+@media (max-width: 600px) {
+  .layout #history-plan {
+    padding: 0 12px 28px;
+  }
+}

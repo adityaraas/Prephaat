@@ -1,0 +1,465 @@
+{
+  "page": 36,
+  "lines": [
+    {
+      "text": ". Lack of enthusiasm of the private sector to undertake the procurement.",
+      "bbox": [
+        56.8,
+        68.0,
+        352.0,
+        78.8
+      ],
+      "confidence": 0.942
+    },
+    {
+      "text": "· PM-AASHA is implemented by undertaking procurement from the APMCs. But, APMCs",
+      "bbox": [
+        55.6,
+        82.8,
+        406.8,
+        95.2
+      ],
+      "confidence": 0.9209
+    },
+    {
+      "text": "suffer from inherent flaws such as lack of accessibility, poor infrastructure, lack of",
+      "bbox": [
+        65.6,
+        96.0,
+        406.8,
+        107.2
+      ],
+      "confidence": 0.929
+    },
+    {
+      "text": "warehouses etc.",
+      "bbox": [
+        66.0,
+        109.2,
+        132.4,
+        119.6
+      ],
+      "confidence": 0.919
+    },
+    {
+      "text": "25. MINIMUM SUPPORT PRICE (MSP) REGIME",
+      "bbox": [
+        55.6,
+        135.6,
+        385.6,
+        149.2
+      ],
+      "confidence": 0.8837
+    },
+    {
+      "text": "The Cabinet Committee on Economic Affairs (CCEA) notifies MsP based on the",
+      "bbox": [
+        55.2,
+        156.8,
+        405.6,
+        166.8
+      ],
+      "confidence": 0.8827
+    },
+    {
+      "text": "recommendations of the Commission on Agricultural Costs and Prices (CACP). As of now,",
+      "bbox": [
+        55.2,
+        170.0,
+        405.6,
+        180.4
+      ],
+      "confidence": 0.9254
+    },
+    {
+      "text": "CACP recommends MSPs of 22 commodities.",
+      "bbox": [
+        56.0,
+        183.2,
+        234.8,
+        192.0
+      ],
+      "confidence": 0.9032
+    },
+    {
+      "text": "HOWARETHEMSPSFIXED?",
+      "bbox": [
+        55.6,
+        199.2,
+        196.4,
+        209.6
+      ],
+      "confidence": 0.9169
+    },
+    {
+      "text": "Different methodologies may be used to calculate the MsPs. These are",
+      "bbox": [
+        55.6,
+        216.4,
+        336.8,
+        226.8
+      ],
+      "confidence": 0.9194
+    },
+    {
+      "text": ": A2 Approach, which includes cost of inputs such as seeds, fertilizer, labour;",
+      "bbox": [
+        56.0,
+        232.4,
+        367.2,
+        242.8
+      ],
+      "confidence": 0.9217
+    },
+    {
+      "text": "A2+FLApproach,whichincludesA2andtheimpliedcostoffamilylabour(FL);and",
+      "bbox": [
+        58.8,
+        248.4,
+        394.4,
+        257.6
+      ],
+      "confidence": 0.9292
+    },
+    {
+      "text": ". c2 Approach, which includes the implied rent on land and interest on capital assets",
+      "bbox": [
+        56.0,
+        263.6,
+        406.4,
+        274.0
+      ],
+      "confidence": 0.8912
+    },
+    {
+      "text": "and A2+FL.",
+      "bbox": [
+        66.4,
+        276.8,
+        112.0,
+        286.4
+      ],
+      "confidence": 0.869
+    },
+    {
+      "text": "The National Commission on Farmers led by M.S.Swaminathan had recommended for",
+      "bbox": [
+        54.8,
+        291.6,
+        406.0,
+        302.0
+      ],
+      "confidence": 0.9165
+    },
+    {
+      "text": "the adoption of C2 Approach for fixing the MsP. However, presently, the MSPs are fixed",
+      "bbox": [
+        55.2,
+        304.0,
+        406.0,
+        314.8
+      ],
+      "confidence": 0.9021
+    },
+    {
+      "text": "at least 50% more than cost of production as calculated according to A2+FL approach.",
+      "bbox": [
+        55.2,
+        316.8,
+        396.4,
+        328.0
+      ],
+      "confidence": 0.9272
+    },
+    {
+      "text": "LIMITATIONSINTHEMSPREGIME",
+      "bbox": [
+        56.0,
+        334.8,
+        228.4,
+        344.0
+      ],
+      "confidence": 0.9043
+    },
+    {
+      "text": "Promoted Cultivation of Water Intensive Crops: Even though, the Government",
+      "bbox": [
+        55.2,
+        351.2,
+        406.4,
+        361.6
+      ],
+      "confidence": 0.9061
+    },
+    {
+      "text": "declares Msp for 22 crops, the procurement is quite strong only for Rice and Wheat.",
+      "bbox": [
+        56.0,
+        364.8,
+        388.8,
+        374.0
+      ],
+      "confidence": 0.8643
+    },
+    {
+      "text": "Lack of Safeguards: The present MsP regime is not geared to pay compensation to the",
+      "bbox": [
+        55.6,
+        380.0,
+        406.0,
+        390.4
+      ],
+      "confidence": 0.9168
+    },
+    {
+      "text": "farmers when they are forced to sell the commodities below the Msp.",
+      "bbox": [
+        55.2,
+        392.0,
+        333.2,
+        402.8
+      ],
+      "confidence": 0.8921
+    },
+    {
+      "text": "Flawed Approach: Some of the economists have pointed out that the MsP should be",
+      "bbox": [
+        55.2,
+        407.2,
+        406.4,
+        418.4
+      ],
+      "confidence": 0.9177
+    },
+    {
+      "text": "declared based on the C2 Approach as recommended bySwaminathan Committee.",
+      "bbox": [
+        56.0,
+        421.6,
+        386.8,
+        430.8
+      ],
+      "confidence": 0.9021
+    },
+    {
+      "text": "Benefitted only Large Farmers: The Shanta Kumar Committee on FCl reforms has",
+      "bbox": [
+        55.6,
+        436.0,
+        406.4,
+        446.8
+      ],
+      "confidence": 0.8989
+    },
+    {
+      "text": "highlighted that the MsP procurement has benefitted only 6% of farmers in India.",
+      "bbox": [
+        55.6,
+        448.8,
+        379.2,
+        460.0
+      ],
+      "confidence": 0.9023
+    },
+    {
+      "text": "Undue delay in the announcement of the Msps have not able to able to send the price",
+      "bbox": [
+        55.6,
+        464.0,
+        406.0,
+        475.2
+      ],
+      "confidence": 0.9269
+    },
+    {
+      "text": "signals to the farmers on time.",
+      "bbox": [
+        55.2,
+        477.2,
+        178.0,
+        488.4
+      ],
+      "confidence": 0.8938
+    },
+    {
+      "text": "26. LEGALIZATION OF MSP - CHALLENGES",
+      "bbox": [
+        56.4,
+        504.8,
+        366.0,
+        516.0
+      ],
+      "confidence": 0.8658
+    },
+    {
+      "text": "Present Status of Msp: Presently, MsP does not enjoy statutory recognition. This means",
+      "bbox": [
+        55.6,
+        525.2,
+        406.4,
+        535.6
+      ],
+      "confidence": 0.9213
+    },
+    {
+      "text": "that, there is no onus on the private sector to buy at MsP. Legalization of MsP would",
+      "bbox": [
+        55.6,
+        538.0,
+        406.0,
+        548.4
+      ],
+      "confidence": 0.9004
+    },
+    {
+      "text": "ensurethatprivatesectorwouldbuy commoditiesat MsP.Failureto do sowould attract",
+      "bbox": [
+        55.6,
+        551.6,
+        406.0,
+        560.8
+      ],
+      "confidence": 0.8978
+    },
+    {
+      "text": "penalty.",
+      "bbox": [
+        54.8,
+        562.8,
+        88.8,
+        575.2
+      ],
+      "confidence": 0.8031
+    },
+    {
+      "text": "CHALLENGESAND CONCERNS",
+      "bbox": [
+        56.0,
+        580.0,
+        209.2,
+        590.4
+      ],
+      "confidence": 0.9132
+    },
+    {
+      "text": "Goes against Interest of Farmers:",
+      "bbox": [
+        55.6,
+        597.6,
+        198.0,
+        608.0
+      ],
+      "confidence": 0.9095
+    },
+    {
+      "text": ". In the event of bumper harvest, prices of the commodities would fall below Msp.",
+      "bbox": [
+        56.4,
+        613.6,
+        405.2,
+        623.6
+      ],
+      "confidence": 0.9086
+    },
+    {
+      "text": "During such times, the private sector may not procure the commodities fearing",
+      "bbox": [
+        66.0,
+        625.6,
+        406.4,
+        637.2
+      ],
+      "confidence": 0.9391
+    },
+    {
+      "text": "penalty.",
+      "bbox": [
+        65.6,
+        639.2,
+        100.4,
+        650.0
+      ],
+      "confidence": 0.8055
+    },
+    {
+      "text": "Higher procurement of Food grains by FCl → Surplus stock → Dumping of surplus in",
+      "bbox": [
+        58.8,
+        655.6,
+        406.0,
+        664.8
+      ],
+      "confidence": 0.9172
+    },
+    {
+      "text": "open market → Decrease in prices> Traders would buy commodities from FCl and",
+      "bbox": [
+        66.0,
+        667.2,
+        406.4,
+        678.4
+      ],
+      "confidence": 0.8873
+    },
+    {
+      "text": "not farmers.",
+      "bbox": [
+        66.0,
+        680.8,
+        118.0,
+        690.0
+      ],
+      "confidence": 0.9128
+    },
+    {
+      "text": "• Legalization of MSP> Encourage over-production of Rice and Wheat> Environmental",
+      "bbox": [
+        56.8,
+        695.6,
+        407.2,
+        707.2
+      ],
+      "confidence": 0.9231
+    },
+    {
+      "text": "cost (such as Decline in Soil fertility, depletion of ground water etc.) →> Decline in",
+      "bbox": [
+        66.4,
+        708.8,
+        406.8,
+        719.2
+      ],
+      "confidence": 0.9039
+    },
+    {
+      "text": "income levels of farmers.",
+      "bbox": [
+        66.4,
+        722.0,
+        167.2,
+        731.2
+      ],
+      "confidence": 0.9039
+    },
+    {
+      "text": "RAU'S IAS FOCUS SPECIAL EDITIONS I ECONOMY",
+      "bbox": [
+        140.8,
+        754.0,
+        350.8,
+        765.6
+      ],
+      "confidence": 0.9306
+    },
+    {
+      "text": "29",
+      "bbox": [
+        455.6,
+        751.6,
+        478.8,
+        769.2
+      ],
+      "confidence": 0.6664
+    }
+  ]
+}

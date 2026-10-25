@@ -609,6 +609,26 @@ function extraModulesHtml(id, heading = "More material") {
 async function renderSubject(id) {
   const subject = studyData.subjects.find((entry) => entry.id === id);
   if (!subject) return;
+  if (id === 'governance') {
+    subjectEl.innerHTML = '<div id="governance-source-material"></div>';
+    await IRReader.mount(document.getElementById('governance-source-material'), 'governance');
+    return;
+  }
+  if (id === 'ir') {
+    subjectEl.innerHTML = '<div id="ir-source-material"></div>';
+    await IRReader.mount(document.getElementById('ir-source-material'));
+    return;
+  }
+  if (id === 'economy' && !/^#economy-day-\d+$/.test(location.hash)) {
+    subjectEl.innerHTML = '<div id="economy-source-material"></div>';
+    await IRReader.mount(document.getElementById('economy-source-material'), 'economy');
+    return;
+  }
+  if (id === 'environment' && !/^#environment-day-\d+$/.test(location.hash)) {
+    subjectEl.innerHTML = '<div id="environment-source-material"></div>';
+    await IRReader.mount(document.getElementById('environment-source-material'), 'environment');
+    return;
+  }
   if (HistoryPlan.subjects.includes(id)) {
     subjectEl.innerHTML = '<div id="history-plan"></div>';
     await HistoryPlan.mount(document.getElementById("history-plan"), id);

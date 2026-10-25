@@ -1,0 +1,485 @@
+{
+  "page": 40,
+  "lines": [
+    {
+      "text": "CHALLENGES OF AGRICULTURAL STORAGE",
+      "bbox": [
+        56.0,
+        69.6,
+        272.4,
+        80.0
+      ],
+      "confidence": 0.8798
+    },
+    {
+      "text": ": Inadequate capacity relative to production: India has a storage capacity of 47 per",
+      "bbox": [
+        56.0,
+        86.8,
+        406.0,
+        97.2
+      ],
+      "confidence": 0.9011
+    },
+    {
+      "text": "cent of its total foodgrains production this leads to large gap between production of",
+      "bbox": [
+        66.0,
+        99.2,
+        406.8,
+        110.4
+      ],
+      "confidence": 0.9179
+    },
+    {
+      "text": "agricultural commodities and their safe & scientific storage leading to crop wastage.",
+      "bbox": [
+        66.0,
+        112.0,
+        400.0,
+        124.0
+      ],
+      "confidence": 0.9181
+    },
+    {
+      "text": ". skewed regional distribution of storage infrastructure: At the regional level, only",
+      "bbox": [
+        56.0,
+        127.6,
+        405.2,
+        138.4
+      ],
+      "confidence": 0.9194
+    },
+    {
+      "text": "a few southern states have a storage capacity of 90 per cent and above. In northern",
+      "bbox": [
+        65.2,
+        140.4,
+        406.4,
+        152.0
+      ],
+      "confidence": 0.9497
+    },
+    {
+      "text": "states like Uttar Pradesh and Bihar, it is below 50 per cent.",
+      "bbox": [
+        65.6,
+        153.2,
+        299.6,
+        164.0
+      ],
+      "confidence": 0.9402
+    },
+    {
+      "text": ". Lack of adequate cold storage infrastructure: India is the world's largest producer",
+      "bbox": [
+        56.0,
+        168.8,
+        405.2,
+        179.6
+      ],
+      "confidence": 0.9134
+    },
+    {
+      "text": "of perishable commodities like horticultural crops, dairy and meat products. However,",
+      "bbox": [
+        67.2,
+        182.8,
+        405.6,
+        191.6
+      ],
+      "confidence": 0.9247
+    },
+    {
+      "text": "India has only about 7 thousand cold storages and about 10,o00 reefer vans. Most of",
+      "bbox": [
+        65.6,
+        194.0,
+        406.8,
+        204.8
+      ],
+      "confidence": 0.9354
+    },
+    {
+      "text": "these are operated by small cold storage and transport service providers. 60% of cold",
+      "bbox": [
+        65.6,
+        206.4,
+        406.4,
+        218.4
+      ],
+      "confidence": 0.9447
+    },
+    {
+      "text": "storage capacity is concentrated in Up and West Bengal and is used for one single",
+      "bbox": [
+        65.6,
+        220.0,
+        406.0,
+        231.2
+      ],
+      "confidence": 0.9347
+    },
+    {
+      "text": "product i.e, potatoes), with very low capacity in other states. This leads to damage to",
+      "bbox": [
+        66.0,
+        232.8,
+        406.0,
+        244.0
+      ],
+      "confidence": 0.9177
+    },
+    {
+      "text": "perishable food products and resulting inflation.",
+      "bbox": [
+        65.6,
+        245.2,
+        261.2,
+        256.8
+      ],
+      "confidence": 0.896
+    },
+    {
+      "text": " Lack of end-to-end storage infrastructure: Even the limited Agri-storage",
+      "bbox": [
+        58.8,
+        260.0,
+        406.4,
+        273.2
+      ],
+      "confidence": 0.9391
+    },
+    {
+      "text": "infrastructure India has is concentrated near urban and semi-urban areas and not",
+      "bbox": [
+        66.4,
+        274.8,
+        406.0,
+        284.0
+      ],
+      "confidence": 0.9096
+    },
+    {
+      "text": "available close to farmgate.",
+      "bbox": [
+        66.4,
+        287.2,
+        176.4,
+        297.6
+      ],
+      "confidence": 0.8846
+    },
+    {
+      "text": ": Lack of scientific storage: There is a over-reliance of cover and plinth storage where",
+      "bbox": [
+        55.6,
+        300.8,
+        406.4,
+        313.6
+      ],
+      "confidence": 0.9377
+    },
+    {
+      "text": "there is an open storage on a platform covered with tarpaulin. This leads to crop",
+      "bbox": [
+        66.0,
+        315.2,
+        406.0,
+        325.6
+      ],
+      "confidence": 0.9168
+    },
+    {
+      "text": "wastage.",
+      "bbox": [
+        64.8,
+        327.6,
+        104.0,
+        339.6
+      ],
+      "confidence": 0.8194
+    },
+    {
+      "text": "Governance issues: Issues like high cost of credit, delay in land procurement,",
+      "bbox": [
+        59.2,
+        342.8,
+        405.6,
+        354.0
+      ],
+      "confidence": 0.9253
+    },
+    {
+      "text": "multiplicity of schemes and authorities for incentivising warehousing.",
+      "bbox": [
+        65.2,
+        355.2,
+        342.4,
+        367.6
+      ],
+      "confidence": 0.8991
+    },
+    {
+      "text": ". Limited coverage of WDRA: The number of storages under the regulatory ambit of",
+      "bbox": [
+        56.0,
+        372.0,
+        406.8,
+        382.4
+      ],
+      "confidence": 0.8902
+    },
+    {
+      "text": "WDRA is limited. WDRA compliance ensures certification of storage capacity and",
+      "bbox": [
+        65.2,
+        384.0,
+        406.8,
+        396.0
+      ],
+      "confidence": 0.955
+    },
+    {
+      "text": "access to NegotiableWarehousing Receiptsfacilitybyfarmers.",
+      "bbox": [
+        66.4,
+        398.0,
+        315.2,
+        408.0
+      ],
+      "confidence": 0.9381
+    },
+    {
+      "text": "GOVERNMENTINITIATIVESFOR PROMOTINGWAREHOUSING",
+      "bbox": [
+        56.0,
+        414.0,
+        366.4,
+        424.4
+      ],
+      "confidence": 0.9002
+    },
+    {
+      "text": "At present, multiple government agencies, like the Food Corporation of India (FCl),",
+      "bbox": [
+        55.2,
+        431.2,
+        405.6,
+        442.0
+      ],
+      "confidence": 0.9254
+    },
+    {
+      "text": "Central Warehouse Corporation, Warehouse Development Regulatory Authority.",
+      "bbox": [
+        54.8,
+        443.2,
+        405.2,
+        455.6
+      ],
+      "confidence": 0.9127
+    },
+    {
+      "text": "Railways, and the civil supply departments of states are involved in grain management.",
+      "bbox": [
+        55.6,
+        457.2,
+        401.2,
+        467.2
+      ],
+      "confidence": 0.9222
+    },
+    {
+      "text": "WAY FORWARD",
+      "bbox": [
+        55.6,
+        473.6,
+        136.0,
+        484.0
+      ],
+      "confidence": 0.8222
+    },
+    {
+      "text": ": End-to-End storage & cold chain infrastructure: Incentivising development of storage",
+      "bbox": [
+        56.0,
+        490.4,
+        406.4,
+        502.8
+      ],
+      "confidence": 0.9259
+    },
+    {
+      "text": "infrastructure and cold storages near farm-gates by incentivising FpOs, Cooperatives",
+      "bbox": [
+        65.2,
+        503.6,
+        406.8,
+        515.6
+      ],
+      "confidence": 0.9439
+    },
+    {
+      "text": "and Panchayats to operate such infrastructurein rural areas.",
+      "bbox": [
+        66.8,
+        517.2,
+        310.0,
+        526.4
+      ],
+      "confidence": 0.9177
+    },
+    {
+      "text": ": Phasing out CAP: There is a need to phase out cover & plinth storage structures and",
+      "bbox": [
+        55.2,
+        531.2,
+        406.8,
+        543.2
+      ],
+      "confidence": 0.9285
+    },
+    {
+      "text": "move towards scientific modern infrastructure.",
+      "bbox": [
+        65.6,
+        545.2,
+        255.2,
+        555.2
+      ],
+      "confidence": 0.9155
+    },
+    {
+      "text": "Technological interventions aimed at modernization of existing stores by introducing",
+      "bbox": [
+        57.6,
+        559.6,
+        406.4,
+        572.0
+      ],
+      "confidence": 0.9526
+    },
+    {
+      "text": "temperature-controlled storage, dehumidification of storage infrastructure, access to",
+      "bbox": [
+        65.6,
+        573.2,
+        406.4,
+        584.0
+      ],
+      "confidence": 0.9312
+    },
+    {
+      "text": "renewable energy (solar energy) by warehousing sector should be incentivized.",
+      "bbox": [
+        65.6,
+        586.0,
+        380.8,
+        597.6
+      ],
+      "confidence": 0.9349
+    },
+    {
+      "text": ". Development of multipurpose storage infrastructure and not just focused on one",
+      "bbox": [
+        55.2,
+        600.8,
+        407.2,
+        612.8
+      ],
+      "confidence": 0.9171
+    },
+    {
+      "text": "commodity.",
+      "bbox": [
+        66.0,
+        615.6,
+        114.8,
+        624.8
+      ],
+      "confidence": 0.7955
+    },
+    {
+      "text": ": Merging various smaller schemes into one comprehensive scheme for warehousing",
+      "bbox": [
+        55.6,
+        629.6,
+        406.4,
+        641.6
+      ],
+      "confidence": 0.924
+    },
+    {
+      "text": "and cold- storage development in India.",
+      "bbox": [
+        66.0,
+        644.0,
+        225.6,
+        653.2
+      ],
+      "confidence": 0.9162
+    },
+    {
+      "text": ". Encouraging private players to invest in warehousing and cold storage space",
+      "bbox": [
+        55.6,
+        659.2,
+        406.4,
+        669.6
+      ],
+      "confidence": 0.9229
+    },
+    {
+      "text": "particularly in rural areas.",
+      "bbox": [
+        65.2,
+        669.6,
+        171.6,
+        683.6
+      ],
+      "confidence": 0.921
+    },
+    {
+      "text": ". Third party assessment of storage infrastructure should be introduced to assess the",
+      "bbox": [
+        56.4,
+        686.4,
+        406.4,
+        697.6
+      ],
+      "confidence": 0.9138
+    },
+    {
+      "text": "quality of storage and food wastage.",
+      "bbox": [
+        66.0,
+        700.0,
+        212.0,
+        711.6
+      ],
+      "confidence": 0.9226
+    },
+    {
+      "text": "RAU'S IAS FOCUS SPECIAL EDITIONS I ECONOMY",
+      "bbox": [
+        140.8,
+        754.0,
+        350.8,
+        765.6
+      ],
+      "confidence": 0.9285
+    },
+    {
+      "text": "33",
+      "bbox": [
+        455.6,
+        752.0,
+        479.2,
+        769.6
+      ],
+      "confidence": 0.6663
+    }
+  ]
+}

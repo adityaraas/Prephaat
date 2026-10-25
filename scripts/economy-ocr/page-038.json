@@ -1,0 +1,615 @@
+{
+  "page": 38,
+  "lines": [
+    {
+      "text": ". Rationalise subsidies and divert the savings towards diversification and improving the",
+      "bbox": [
+        56.8,
+        68.4,
+        406.4,
+        78.8
+      ],
+      "confidence": 0.8997
+    },
+    {
+      "text": "supply chain management.",
+      "bbox": [
+        66.4,
+        81.2,
+        176.0,
+        91.6
+      ],
+      "confidence": 0.866
+    },
+    {
+      "text": "The Government has to now focus on Rainbow revolution - horticulture, animal",
+      "bbox": [
+        55.2,
+        96.4,
+        406.4,
+        106.8
+      ],
+      "confidence": 0.9316
+    },
+    {
+      "text": "husbandry, poultry, fisheries, food grains etc. in these states.",
+      "bbox": [
+        55.2,
+        109.2,
+        298.0,
+        120.0
+      ],
+      "confidence": 0.9296
+    },
+    {
+      "text": "28. INVERSE FORK-TO-FARM STRATEGY",
+      "bbox": [
+        56.0,
+        135.6,
+        348.8,
+        148.0
+      ],
+      "confidence": 0.9307
+    },
+    {
+      "text": "To ensure higher prices for the farmers, the Dalwai Panel has recommended that the",
+      "bbox": [
+        55.6,
+        156.8,
+        405.6,
+        167.2
+      ],
+      "confidence": 0.9403
+    },
+    {
+      "text": "agricultural marketing should guide the flow of produce from farm-to-fork, through the",
+      "bbox": [
+        55.6,
+        170.0,
+        406.0,
+        180.4
+      ],
+      "confidence": 0.9171
+    },
+    {
+      "text": "flow of informationfromfork-to-farm.Hence,in a way,there is a need to focus on",
+      "bbox": [
+        56.0,
+        183.6,
+        405.6,
+        192.4
+      ],
+      "confidence": 0.8866
+    },
+    {
+      "text": "Inverse\"Fork-to-Farm\"strategy.",
+      "bbox": [
+        55.2,
+        194.0,
+        187.2,
+        206.4
+      ],
+      "confidence": 0.9037
+    },
+    {
+      "text": "FARM-TO-FORKSTRATEGY",
+      "bbox": [
+        160.4,
+        215.2,
+        269.2,
+        223.2
+      ],
+      "confidence": 0.9223
+    },
+    {
+      "text": "FORK-TO-FARM STRATEGY",
+      "bbox": [
+        290.8,
+        214.4,
+        400.8,
+        223.6
+      ],
+      "confidence": 0.851
+    },
+    {
+      "text": "Approach used",
+      "bbox": [
+        67.2,
+        232.8,
+        132.4,
+        244.8
+      ],
+      "confidence": 0.8363
+    },
+    {
+      "text": "ProductionledApproach",
+      "bbox": [
+        164.8,
+        234.0,
+        264.8,
+        244.0
+      ],
+      "confidence": 0.9073
+    },
+    {
+      "text": "Market led Approach",
+      "bbox": [
+        303.2,
+        234.0,
+        388.0,
+        244.0
+      ],
+      "confidence": 0.8668
+    },
+    {
+      "text": "Sale of agricultural commodities in",
+      "bbox": [
+        146.0,
+        253.2,
+        284.0,
+        262.4
+      ],
+      "confidence": 0.9281
+    },
+    {
+      "text": "Undertakecultivationof",
+      "bbox": [
+        297.6,
+        261.6,
+        394.4,
+        269.6
+      ],
+      "confidence": 0.9406
+    },
+    {
+      "text": "the market to ensure remunerative",
+      "bbox": [
+        144.8,
+        265.6,
+        284.8,
+        275.2
+      ],
+      "confidence": 0.8851
+    },
+    {
+      "text": "Strategy",
+      "bbox": [
+        80.4,
+        272.8,
+        118.4,
+        284.8
+      ],
+      "confidence": 0.8667
+    },
+    {
+      "text": "crops based upon prevailing",
+      "bbox": [
+        288.8,
+        273.2,
+        403.2,
+        284.4
+      ],
+      "confidence": 0.9229
+    },
+    {
+      "text": "prices for",
+      "bbox": [
+        195.2,
+        277.6,
+        235.6,
+        289.2
+      ],
+      "confidence": 0.81
+    },
+    {
+      "text": "demand.",
+      "bbox": [
+        327.2,
+        286.4,
+        364.0,
+        296.0
+      ],
+      "confidence": 0.873
+    },
+    {
+      "text": "farmers",
+      "bbox": [
+        197.2,
+        292.4,
+        232.8,
+        304.4
+      ],
+      "confidence": 0.8687
+    },
+    {
+      "text": "From Market toFarm",
+      "bbox": [
+        302.4,
+        312.4,
+        388.4,
+        323.2
+      ],
+      "confidence": 0.8829
+    },
+    {
+      "text": "Flow of",
+      "bbox": [
+        83.6,
+        319.2,
+        116.8,
+        328.8
+      ],
+      "confidence": 0.8158
+    },
+    {
+      "text": "From farm to Market (Production",
+      "bbox": [
+        148.8,
+        319.6,
+        281.6,
+        328.8
+      ],
+      "confidence": 0.9066
+    },
+    {
+      "text": "(Demand related",
+      "bbox": [
+        311.6,
+        326.4,
+        379.6,
+        335.6
+      ],
+      "confidence": 0.8614
+    },
+    {
+      "text": "Information",
+      "bbox": [
+        72.8,
+        332.4,
+        125.6,
+        342.0
+      ],
+      "confidence": 0.8723
+    },
+    {
+      "text": "related information)",
+      "bbox": [
+        174.0,
+        332.0,
+        256.0,
+        342.4
+      ],
+      "confidence": 0.8769
+    },
+    {
+      "text": "Information)",
+      "bbox": [
+        318.8,
+        338.0,
+        372.8,
+        349.6
+      ],
+      "confidence": 0.8764
+    },
+    {
+      "text": "Integration of",
+      "bbox": [
+        69.6,
+        358.0,
+        130.0,
+        367.6
+      ],
+      "confidence": 0.8694
+    },
+    {
+      "text": "Higher Integration.",
+      "bbox": [
+        307.2,
+        357.2,
+        384.0,
+        369.2
+      ],
+      "confidence": 0.9301
+    },
+    {
+      "text": "Poor Integration",
+      "bbox": [
+        180.8,
+        370.0,
+        248.4,
+        381.6
+      ],
+      "confidence": 0.9059
+    },
+    {
+      "text": "demand with",
+      "bbox": [
+        70.4,
+        370.8,
+        128.4,
+        380.0
+      ],
+      "confidence": 0.8646
+    },
+    {
+      "text": "Production based upon",
+      "bbox": [
+        298.4,
+        370.0,
+        392.4,
+        381.2
+      ],
+      "confidence": 0.9271
+    },
+    {
+      "text": "Supply",
+      "bbox": [
+        83.2,
+        382.0,
+        115.6,
+        395.6
+      ],
+      "confidence": 0.8492
+    },
+    {
+      "text": "demand.",
+      "bbox": [
+        326.8,
+        383.2,
+        364.4,
+        394.0
+      ],
+      "confidence": 0.8287
+    },
+    {
+      "text": "Prices received by",
+      "bbox": [
+        60.4,
+        400.8,
+        138.8,
+        413.2
+      ],
+      "confidence": 0.8709
+    },
+    {
+      "text": "May be lower",
+      "bbox": [
+        187.6,
+        408.4,
+        242.4,
+        419.2
+      ],
+      "confidence": 0.8646
+    },
+    {
+      "text": "Higher",
+      "bbox": [
+        331.2,
+        408.0,
+        360.4,
+        419.6
+      ],
+      "confidence": 0.8556
+    },
+    {
+      "text": "Farmer",
+      "bbox": [
+        82.4,
+        414.4,
+        116.8,
+        425.2
+      ],
+      "confidence": 0.854
+    },
+    {
+      "text": "Hence, Dalwai Committee has recommended adoption of inverse \"Fork-to-Farm\" strategy",
+      "bbox": [
+        54.8,
+        432.8,
+        406.0,
+        446.0
+      ],
+      "confidence": 0.9217
+    },
+    {
+      "text": "to bring about a strategic shift from production-based push into markets towards a",
+      "bbox": [
+        55.2,
+        446.8,
+        406.4,
+        457.6
+      ],
+      "confidence": 0.89
+    },
+    {
+      "text": "demand-based pull.This approachfocuses on reverse flowof informationfrom markets",
+      "bbox": [
+        55.6,
+        460.0,
+        406.4,
+        470.0
+      ],
+      "confidence": 0.9061
+    },
+    {
+      "text": "to farmers would also enable the farmer to take informed decisions about what to",
+      "bbox": [
+        56.0,
+        473.2,
+        406.0,
+        482.4
+      ],
+      "confidence": 0.9235
+    },
+    {
+      "text": "market, when to market and to whom.",
+      "bbox": [
+        56.0,
+        486.0,
+        209.2,
+        495.2
+      ],
+      "confidence": 0.9027
+    },
+    {
+      "text": "BENEFITS OFFORK-TO-FARMSTRATEGY",
+      "bbox": [
+        56.0,
+        502.0,
+        257.2,
+        512.4
+      ],
+      "confidence": 0.9177
+    },
+    {
+      "text": "This approach focuses on reverse flow of information from markets to farmers would",
+      "bbox": [
+        55.2,
+        518.0,
+        406.0,
+        529.6
+      ],
+      "confidence": 0.9159
+    },
+    {
+      "text": "also enable the farmer to take informed decisions about what to market, when to",
+      "bbox": [
+        55.2,
+        531.2,
+        406.4,
+        542.4
+      ],
+      "confidence": 0.9385
+    },
+    {
+      "text": "market and to whom.",
+      "bbox": [
+        56.0,
+        545.6,
+        148.0,
+        554.8
+      ],
+      "confidence": 0.8503
+    },
+    {
+      "text": "The new strategy would benefit Indian agriculture in a multi-faceted manner:",
+      "bbox": [
+        55.2,
+        560.8,
+        361.6,
+        570.8
+      ],
+      "confidence": 0.9256
+    },
+    {
+      "text": ". Promote diversification of Indian Agriculture towards high value crops and allied",
+      "bbox": [
+        55.2,
+        574.8,
+        406.8,
+        586.8
+      ],
+      "confidence": 0.8845
+    },
+    {
+      "text": "sector.",
+      "bbox": [
+        66.0,
+        590.0,
+        93.2,
+        598.4
+      ],
+      "confidence": 0.761
+    },
+    {
+      "text": "Enable Agriculture to cater to shift in consumption pattern towards protein-based",
+      "bbox": [
+        59.6,
+        604.4,
+        406.0,
+        615.2
+      ],
+      "confidence": 0.9297
+    },
+    {
+      "text": "foods such as Pulses, Egg, Fish, Meat etc.",
+      "bbox": [
+        65.2,
+        617.2,
+        229.2,
+        628.0
+      ],
+      "confidence": 0.9332
+    },
+    {
+      "text": ". Ensure higher prices for the farmers and reduce risk.",
+      "bbox": [
+        56.0,
+        633.2,
+        276.8,
+        643.6
+      ],
+      "confidence": 0.9214
+    },
+    {
+      "text": "Ensure both Food security as well as nutritional security.",
+      "bbox": [
+        58.0,
+        648.4,
+        290.0,
+        659.6
+      ],
+      "confidence": 0.9374
+    },
+    {
+      "text": "Prevent Inflation in Agri commodities",
+      "bbox": [
+        57.2,
+        665.2,
+        214.4,
+        674.4
+      ],
+      "confidence": 0.8989
+    },
+    {
+      "text": " Enable us to boost exports according to international demand and capture newer",
+      "bbox": [
+        58.4,
+        680.0,
+        406.4,
+        690.4
+      ],
+      "confidence": 0.9207
+    },
+    {
+      "text": "markets.",
+      "bbox": [
+        66.4,
+        693.6,
+        102.0,
+        702.0
+      ],
+      "confidence": 0.8871
+    },
+    {
+      "text": "RAU'S IAS FOCUS SPECIAL EDITIONS I ECONOMY",
+      "bbox": [
+        140.4,
+        753.6,
+        350.8,
+        765.6
+      ],
+      "confidence": 0.9324
+    },
+    {
+      "text": "31",
+      "bbox": [
+        455.2,
+        751.6,
+        479.2,
+        769.2
+      ],
+      "confidence": 0.662
+    }
+  ]
+}

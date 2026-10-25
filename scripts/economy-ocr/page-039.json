@@ -1,0 +1,475 @@
+{
+  "page": 39,
+  "lines": [
+    {
+      "text": "29. WORLD'S LARGEST GRAIN STORAGE PLAN",
+      "bbox": [
+        56.8,
+        72.0,
+        394.4,
+        82.0
+      ],
+      "confidence": 0.906
+    },
+    {
+      "text": "UNDER COOPERATIVE SECTOR",
+      "bbox": [
+        81.6,
+        91.6,
+        310.4,
+        103.2
+      ],
+      "confidence": 0.896
+    },
+    {
+      "text": "To address the challenges of inadequate storage capacity of foodgrains, skewed",
+      "bbox": [
+        55.2,
+        112.0,
+        406.8,
+        123.6
+      ],
+      "confidence": 0.9201
+    },
+    {
+      "text": "distribution of godowns across states the Union Cabinet has approved constitution of",
+      "bbox": [
+        55.6,
+        124.8,
+        406.8,
+        135.6
+      ],
+      "confidence": 0.9441
+    },
+    {
+      "text": "Inter-Ministerial Committee (under Union Minister for Cooperation) for World's Largest",
+      "bbox": [
+        55.2,
+        137.2,
+        406.4,
+        148.4
+      ],
+      "confidence": 0.9312
+    },
+    {
+      "text": "Grain storage plan in cooperative sector:",
+      "bbox": [
+        55.2,
+        150.4,
+        219.6,
+        161.6
+      ],
+      "confidence": 0.9406
+    },
+    {
+      "text": "Modify guidelines of agricultural warehousing schemes of various ministries for",
+      "bbox": [
+        55.2,
+        166.0,
+        406.4,
+        177.6
+      ],
+      "confidence": 0.932
+    },
+    {
+      "text": "facilitating creation of storage infrastructure (godowns) at selected viable PAcS.",
+      "bbox": [
+        55.2,
+        179.2,
+        370.8,
+        189.6
+      ],
+      "confidence": 0.8917
+    },
+    {
+      "text": "No extra budget but utilizing available outlays in existing schemes",
+      "bbox": [
+        54.4,
+        193.6,
+        392.0,
+        206.0
+      ],
+      "confidence": 0.9487
+    },
+    {
+      "text": "for",
+      "bbox": [
+        386.4,
+        194.4,
+        406.4,
+        204.4
+      ],
+      "confidence": 0.7487
+    },
+    {
+      "text": "promoting storage under Ministry of",
+      "bbox": [
+        55.2,
+        207.2,
+        203.6,
+        218.4
+      ],
+      "confidence": 0.9256
+    },
+    {
+      "text": "Agriculture & Farmers Welfare (MIDH, Agriculture Infrastructure Fund etc.), Ministry of",
+      "bbox": [
+        55.2,
+        222.0,
+        406.8,
+        234.4
+      ],
+      "confidence": 0.9301
+    },
+    {
+      "text": "Food Processing",
+      "bbox": [
+        54.8,
+        234.4,
+        122.0,
+        247.2
+      ],
+      "confidence": 0.9249
+    },
+    {
+      "text": "Industries (PM Krishi SampadaYojana, PMFME)&Ministry of Consumer Affairs,Food &",
+      "bbox": [
+        55.2,
+        250.8,
+        406.0,
+        261.6
+      ],
+      "confidence": 0.9048
+    },
+    {
+      "text": "Public Distribution (Procurement underFood SecurityAct and Minimum Support Prices).",
+      "bbox": [
+        56.0,
+        264.8,
+        404.8,
+        274.0
+      ],
+      "confidence": 0.9228
+    },
+    {
+      "text": "BENEFITSOFTHEPLAN",
+      "bbox": [
+        56.0,
+        281.2,
+        174.4,
+        291.6
+      ],
+      "confidence": 0.8905
+    },
+    {
+      "text": "Creation of decentralized storage capacity at local level reducing food waste, ensuring",
+      "bbox": [
+        61.6,
+        297.6,
+        406.0,
+        308.8
+      ],
+      "confidence": 0.9356
+    },
+    {
+      "text": "food security and preventing distress sale of produce by farmers and better prices and",
+      "bbox": [
+        65.6,
+        310.4,
+        406.8,
+        322.0
+      ],
+      "confidence": 0.9422
+    },
+    {
+      "text": "incomes for farmers.",
+      "bbox": [
+        66.0,
+        324.4,
+        152.0,
+        333.6
+      ],
+      "confidence": 0.8747
+    },
+    {
+      "text": ". Reduced cost of transportation of foodgrains to procurement centres and again",
+      "bbox": [
+        56.4,
+        339.2,
+        406.4,
+        350.8
+      ],
+      "confidence": 0.9488
+    },
+    {
+      "text": "transporting stocks back from warehouses to Fps.",
+      "bbox": [
+        65.6,
+        352.0,
+        266.0,
+        362.0
+      ],
+      "confidence": 0.9078
+    },
+    {
+      "text": ".Benefits to farmers credit cycle:",
+      "bbox": [
+        56.8,
+        367.6,
+        203.2,
+        378.0
+      ],
+      "confidence": 0.8949
+    },
+    {
+      "text": "o Farmers can sell their crops to PAcs by receiving some advance payment at MSP",
+      "bbox": [
+        64.8,
+        382.8,
+        406.4,
+        394.8
+      ],
+      "confidence": 0.8887
+    },
+    {
+      "text": "and get the balance after PACS sells foodgrains in the market.",
+      "bbox": [
+        77.2,
+        396.4,
+        322.8,
+        406.4
+      ],
+      "confidence": 0.8805
+    },
+    {
+      "text": "o FarmerscanstorecropsinwarehousesmanagedbyPACSandgetfinanceforthe",
+      "bbox": [
+        66.0,
+        412.0,
+        406.0,
+        421.2
+      ],
+      "confidence": 0.901
+    },
+    {
+      "text": "next crop.",
+      "bbox": [
+        76.8,
+        425.6,
+        119.2,
+        434.8
+      ],
+      "confidence": 0.8322
+    },
+    {
+      "text": "o Farmers cansell theirentirecroptoPACSat MSP,",
+      "bbox": [
+        65.6,
+        440.0,
+        274.0,
+        450.4
+      ],
+      "confidence": 0.889
+    },
+    {
+      "text": ". Strengthening of Primary Agricultural Credit Societies (PAcS): Not just addresses",
+      "bbox": [
+        56.4,
+        456.4,
+        405.6,
+        465.2
+      ],
+      "confidence": 0.9002
+    },
+    {
+      "text": "shortage of agricultural storage infrastructure but would also enables PAcs to",
+      "bbox": [
+        66.0,
+        468.0,
+        406.4,
+        478.8
+      ],
+      "confidence": 0.9345
+    },
+    {
+      "text": "undertakeotheractivitiessuchas:",
+      "bbox": [
+        67.2,
+        482.4,
+        202.0,
+        490.4
+      ],
+      "confidence": 0.9349
+    },
+    {
+      "text": "o Functioning as procurement centers for state agencies/FCl.",
+      "bbox": [
+        66.8,
+        497.2,
+        311.2,
+        507.6
+      ],
+      "confidence": 0.9328
+    },
+    {
+      "text": "o Serving as Fair Price Shops (FPS).",
+      "bbox": [
+        66.0,
+        512.0,
+        207.6,
+        522.8
+      ],
+      "confidence": 0.8727
+    },
+    {
+      "text": "o Setting up custom hiring centers.",
+      "bbox": [
+        66.4,
+        528.0,
+        209.6,
+        538.4
+      ],
+      "confidence": 0.894
+    },
+    {
+      "text": "o Setting up common processing units for agricultural produce.",
+      "bbox": [
+        65.6,
+        544.0,
+        321.6,
+        554.4
+      ],
+      "confidence": 0.9035
+    },
+    {
+      "text": "o PAcS are important pillars of rural economy and this move will enhance incomes of",
+      "bbox": [
+        66.4,
+        558.8,
+        406.4,
+        570.0
+      ],
+      "confidence": 0.9135
+    },
+    {
+      "text": "farmer members of PAcS and transform them into multipurpose societies.",
+      "bbox": [
+        76.4,
+        571.6,
+        374.0,
+        582.4
+      ],
+      "confidence": 0.9145
+    },
+    {
+      "text": "Thus, the above plan can help address the rural economy, ensure better incomes for",
+      "bbox": [
+        55.6,
+        587.6,
+        405.6,
+        598.0
+      ],
+      "confidence": 0.9271
+    },
+    {
+      "text": "farmers and strengthen the cooperative sector.",
+      "bbox": [
+        54.8,
+        600.4,
+        245.6,
+        611.6
+      ],
+      "confidence": 0.9126
+    },
+    {
+      "text": "3O. AGRICULTURE STORAGE",
+      "bbox": [
+        56.8,
+        627.6,
+        265.2,
+        639.2
+      ],
+      "confidence": 0.8528
+    },
+    {
+      "text": "A robust end to end and scientific storage infrastructure for Agriculture produce is",
+      "bbox": [
+        55.6,
+        648.4,
+        405.6,
+        658.4
+      ],
+      "confidence": 0.9495
+    },
+    {
+      "text": "essential for:",
+      "bbox": [
+        56.0,
+        661.6,
+        108.4,
+        671.2
+      ],
+      "confidence": 0.8874
+    },
+    {
+      "text": ". Reducing food wastage",
+      "bbox": [
+        55.6,
+        675.6,
+        159.6,
+        687.6
+      ],
+      "confidence": 0.8905
+    },
+    {
+      "text": "Check volatility in prices and food inflation.",
+      "bbox": [
+        60.4,
+        692.8,
+        236.4,
+        702.0
+      ],
+      "confidence": 0.9323
+    },
+    {
+      "text": "Promote value addition and agri-exports.",
+      "bbox": [
+        58.8,
+        708.8,
+        230.0,
+        718.0
+      ],
+      "confidence": 0.9092
+    },
+    {
+      "text": " Reduce distress selling by farmers and securing incomes for farmers.",
+      "bbox": [
+        57.6,
+        723.2,
+        340.8,
+        733.6
+      ],
+      "confidence": 0.9256
+    },
+    {
+      "text": "RAU'S IAS FOCUS SPECIAL EDITIONS I ECONOMY",
+      "bbox": [
+        140.8,
+        754.0,
+        350.8,
+        765.6
+      ],
+      "confidence": 0.9317
+    },
+    {
+      "text": "32",
+      "bbox": [
+        455.6,
+        752.0,
+        479.2,
+        769.6
+      ],
+      "confidence": 0.6656
+    }
+  ]
+}

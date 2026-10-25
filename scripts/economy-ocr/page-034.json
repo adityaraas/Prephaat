@@ -1,0 +1,465 @@
+{
+  "page": 34,
+  "lines": [
+    {
+      "text": "22. E-NAM: PLATFORM OF PLATFORMS",
+      "bbox": [
+        56.8,
+        72.0,
+        338.4,
+        82.0
+      ],
+      "confidence": 0.8737
+    },
+    {
+      "text": "The Government has launched the Platform of Platforms under the E-NAM portal. The",
+      "bbox": [
+        56.0,
+        92.0,
+        405.6,
+        101.2
+      ],
+      "confidence": 0.9126
+    },
+    {
+      "text": "new\"Platform of platforms\"would enable the farmers and traders to avail various goods",
+      "bbox": [
+        56.0,
+        105.2,
+        405.6,
+        114.4
+      ],
+      "confidence": 0.9203
+    },
+    {
+      "text": "and services across the agricultural value chain.",
+      "bbox": [
+        56.0,
+        118.4,
+        245.2,
+        127.6
+      ],
+      "confidence": 0.9348
+    },
+    {
+      "text": "It brings together different service providers on the single platform to streamline the",
+      "bbox": [
+        55.6,
+        133.2,
+        405.6,
+        143.2
+      ],
+      "confidence": 0.9312
+    },
+    {
+      "text": "supply chain, reduce post-harvest losses and ensure higher price realisation for farmers.",
+      "bbox": [
+        56.4,
+        146.4,
+        404.8,
+        155.6
+      ],
+      "confidence": 0.9257
+    },
+    {
+      "text": "For example, it provides for the following:",
+      "bbox": [
+        55.2,
+        158.0,
+        222.4,
+        169.6
+      ],
+      "confidence": 0.9632
+    },
+    {
+      "text": "FPo Module: Enables FPOs to upload pictures of their produce directly from collection",
+      "bbox": [
+        55.2,
+        173.6,
+        406.0,
+        184.8
+      ],
+      "confidence": 0.961
+    },
+    {
+      "text": "centres without the need to come to Mandis.",
+      "bbox": [
+        55.6,
+        187.2,
+        235.2,
+        196.8
+      ],
+      "confidence": 0.9303
+    },
+    {
+      "text": "Logistics Module: Link large logistic aggregator platforms with the traders for the",
+      "bbox": [
+        55.2,
+        202.0,
+        406.8,
+        213.6
+      ],
+      "confidence": 0.8981
+    },
+    {
+      "text": "seamless transportation of Agri-produce.",
+      "bbox": [
+        55.2,
+        215.2,
+        219.6,
+        225.6
+      ],
+      "confidence": 0.9222
+    },
+    {
+      "text": "Warehousing based Trading Module: Farmers can sell their produce directly from the",
+      "bbox": [
+        55.2,
+        230.8,
+        405.6,
+        241.6
+      ],
+      "confidence": 0.9297
+    },
+    {
+      "text": "warehouses registered under warehousing Development and Regulating Authority",
+      "bbox": [
+        55.2,
+        244.0,
+        404.8,
+        254.0
+      ],
+      "confidence": 0.916
+    },
+    {
+      "text": "(WDRA).",
+      "bbox": [
+        54.8,
+        256.4,
+        89.2,
+        267.2
+      ],
+      "confidence": 0.8167
+    },
+    {
+      "text": "Fintech Module: A large number of fintech companies can get integrated with the E-NAM",
+      "bbox": [
+        55.2,
+        271.6,
+        406.4,
+        282.8
+      ],
+      "confidence": 0.9238
+    },
+    {
+      "text": "to provide for services such as",
+      "bbox": [
+        55.6,
+        285.2,
+        177.6,
+        295.6
+      ],
+      "confidence": 0.9341
+    },
+    {
+      "text": "PriceInformationtofarmers",
+      "bbox": [
+        57.2,
+        300.4,
+        180.4,
+        309.6
+      ],
+      "confidence": 0.9359
+    },
+    {
+      "text": ".LinkFarmerswithbulkbuyers",
+      "bbox": [
+        55.6,
+        316.4,
+        186.4,
+        325.6
+      ],
+      "confidence": 0.9067
+    },
+    {
+      "text": "Generatecreditscoreforthefarmers",
+      "bbox": [
+        59.2,
+        332.4,
+        214.8,
+        340.4
+      ],
+      "confidence": 0.9143
+    },
+    {
+      "text": ".Link Farmers with the Banks toget credit",
+      "bbox": [
+        55.6,
+        347.2,
+        229.6,
+        356.8
+      ],
+      "confidence": 0.8601
+    },
+    {
+      "text": "Integration with other platforms: Platforms that provide services across the",
+      "bbox": [
+        54.8,
+        361.6,
+        406.8,
+        373.6
+      ],
+      "confidence": 0.9195
+    },
+    {
+      "text": "agricultural supply chain can also get integrated with the E-NAM:",
+      "bbox": [
+        55.6,
+        374.8,
+        312.4,
+        386.4
+      ],
+      "confidence": 0.9255
+    },
+    {
+      "text": ". Inputs:Credit, Seeds,Fertilisers,Machineries, Price information etc",
+      "bbox": [
+        56.4,
+        392.0,
+        331.6,
+        401.2
+      ],
+      "confidence": 0.8984
+    },
+    {
+      "text": ". Information Dissemination: Advisory Services, crop forecasting, weather updates,",
+      "bbox": [
+        56.8,
+        406.8,
+        405.2,
+        417.2
+      ],
+      "confidence": 0.9342
+    },
+    {
+      "text": "capacity building for farmers etc.",
+      "bbox": [
+        65.6,
+        419.6,
+        198.4,
+        430.4
+      ],
+      "confidence": 0.9157
+    },
+    {
+      "text": "· Post-harvest services: Cleaning, Grading, Sorting & Packaging Service Provider",
+      "bbox": [
+        55.6,
+        434.8,
+        376.0,
+        446.4
+      ],
+      "confidence": 0.9226
+    },
+    {
+      "text": "E-commerce: Bring together buyers and sellers",
+      "bbox": [
+        59.2,
+        450.4,
+        254.0,
+        461.6
+      ],
+      "confidence": 0.9055
+    },
+    {
+      "text": "BENEFITS",
+      "bbox": [
+        55.6,
+        469.6,
+        104.8,
+        480.4
+      ],
+      "confidence": 0.8342
+    },
+    {
+      "text": "Farmers will be able to sell facilitated to sell the produce outside their state borders. This",
+      "bbox": [
+        55.2,
+        487.2,
+        406.4,
+        498.0
+      ],
+      "confidence": 0.9041
+    },
+    {
+      "text": "willincrease farmers'digital access to multiple markets, buyers and service providers and",
+      "bbox": [
+        55.2,
+        500.0,
+        406.0,
+        510.8
+      ],
+      "confidence": 0.9229
+    },
+    {
+      "text": "bring transparency in business transactions with the aim of improving price search",
+      "bbox": [
+        55.6,
+        513.6,
+        406.0,
+        523.6
+      ],
+      "confidence": 0.9324
+    },
+    {
+      "text": "mechanism and quality commensurate pricerealisation.",
+      "bbox": [
+        55.6,
+        525.6,
+        280.8,
+        536.4
+      ],
+      "confidence": 0.9171
+    },
+    {
+      "text": "23. ROLE OF GRAMIN HAATS IN IMPROVING",
+      "bbox": [
+        56.4,
+        553.2,
+        376.8,
+        564.8
+      ],
+      "confidence": 0.8867
+    },
+    {
+      "text": "MARKETING",
+      "bbox": [
+        82.0,
+        574.0,
+        171.6,
+        584.8
+      ],
+      "confidence": 0.8417
+    },
+    {
+      "text": "Gramin Haats are located in rural and interior areas in India and act as focal point for",
+      "bbox": [
+        56.0,
+        594.4,
+        404.4,
+        603.6
+      ],
+      "confidence": 0.9031
+    },
+    {
+      "text": "marketing of agricultural produce by the small and marginal farmers. There are around",
+      "bbox": [
+        56.0,
+        607.2,
+        405.6,
+        617.2
+      ],
+      "confidence": 0.9424
+    },
+    {
+      "text": "22,000 ruralmarkets and areknownbydifferent names suchas ruralperiodicalmarkets,",
+      "bbox": [
+        56.0,
+        620.8,
+        405.6,
+        629.6
+      ],
+      "confidence": 0.9025
+    },
+    {
+      "text": "haats, Rythu bazaar, Rytha santhe etc. in different states. These are owned and managed",
+      "bbox": [
+        55.6,
+        632.8,
+        406.0,
+        643.2
+      ],
+      "confidence": 0.9309
+    },
+    {
+      "text": "by different institutions- Panchayats, Urban Local Bodies, APMCs, Trusts etc.",
+      "bbox": [
+        55.6,
+        645.2,
+        358.0,
+        656.0
+      ],
+      "confidence": 0.9139
+    },
+    {
+      "text": "IMPORTANCE OF GRAMIN HAATS",
+      "bbox": [
+        56.0,
+        662.4,
+        225.6,
+        672.8
+      ],
+      "confidence": 0.9127
+    },
+    {
+      "text": "Lack of access to APMCs: An average APMC in India serves an area of around 450 sq.km",
+      "bbox": [
+        55.6,
+        679.2,
+        405.6,
+        689.6
+      ],
+      "confidence": 0.9307
+    },
+    {
+      "text": "as against the recommendation of 80 sq. km. given by M.S. Swaminathan Committee.",
+      "bbox": [
+        55.6,
+        692.4,
+        404.8,
+        702.8
+      ],
+      "confidence": 0.9436
+    },
+    {
+      "text": "Gramin Haats provide for alternative marketing infrastructure. Around 90 per cent of the",
+      "bbox": [
+        56.0,
+        705.2,
+        406.4,
+        715.6
+      ],
+      "confidence": 0.9339
+    },
+    {
+      "text": "total marketable surplus in the remote areas is sold through these markets.",
+      "bbox": [
+        55.2,
+        718.0,
+        356.4,
+        728.4
+      ],
+      "confidence": 0.9355
+    },
+    {
+      "text": "RAU'S IAS FOCUS SPECIAL EDITIONS I ECONOMY",
+      "bbox": [
+        140.8,
+        754.0,
+        350.8,
+        765.6
+      ],
+      "confidence": 0.9278
+    },
+    {
+      "text": "27",
+      "bbox": [
+        455.2,
+        752.0,
+        478.8,
+        769.2
+      ],
+      "confidence": 0.6371
+    }
+  ]
+}
