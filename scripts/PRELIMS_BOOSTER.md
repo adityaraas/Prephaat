@@ -1,16 +1,15 @@
 # Prelims Booster 2025
 
-`/home#prelims-2025` opens a Rau's PRE Compass collection with seven subjects:
+`/home#prelims-2025` opens a Prelims Booster collection with seven subjects:
 Economics, Environment & Ecology, Government Schemes, History & Culture,
 International Relations, Polity & Governance, and Science & Technology.
 
-Each book has a Crack IAS cover and retains its original page count. All 842
-non-cover pages across the seven 849-page PDFs retain their source text, page
-content streams, dimensions, rotations, internal links and bookmark destinations.
-Representative non-cover page renders are also compared by SHA-256 during builds.
-The adapted cover credits Rau's as the content source. Originals in
-`study material` are never edited. Final copies are written to `output/pdf` and
-identical download copies to `public/prelims-2025`.
+Each book has a Crack IAS cover and retains its original page count.
+Publisher-name edits are limited to branding text. The cleanup verifies study
+words, navigation destinations and page dimensions, and records edited pages in
+`public/data/prelims-branding-audit.json`. Source originals in `study material`
+are never edited. Final copies are written to `output/pdf` and identical download
+copies to `public/prelims-2025`.
 
 The website includes 813 content pages after the cover/blank/contents sections.
 Web notes use native paragraphs, headings, 1,215 table regions and 592 diagrams.

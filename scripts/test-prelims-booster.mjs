@@ -9,7 +9,7 @@ const books={};let pageCount=0,lineCount=0,tables=0,figures=0;
 for(const meta of catalog.books){
  const book=JSON.parse(await readFile('public'+meta.data,'utf8'));books[meta.id]=book;
  assert.equal(book.pageCount,meta.pageCount);assert.equal(book.pages.length,meta.contentPages);
- assert.equal(book.chapters.length,meta.chapters);assert.equal(book.preservation.unchangedPages,book.pageCount-1);
+ assert.equal(book.chapters.length,meta.chapters);assert.equal(book.preservation.unchangedPages+(book.preservation.brandingUpdatedPages?book.preservation.brandingUpdatedPages-1:0),book.pageCount-1);
  assert.equal(book.preservation.pageStreamHashes.length,book.pageCount-1);
  const publicPdf=await readFile('public'+meta.pdf),deliveryPdf=await readFile(`output/pdf/Crack-IAS-Prelims-Booster-2025-${meta.id}.pdf`);
  assert.equal(createHash('sha256').update(publicPdf).digest('hex'),createHash('sha256').update(deliveryPdf).digest('hex'));
@@ -38,7 +38,7 @@ let fetches=0;
 const context=vm.createContext({location:{hash:'#prelims-2025'},history:{replaceState(_a,_b,hash){context.location.hash=hash;}},fetch:async url=>{fetches++;const id=url.split('/').at(-1).split('.')[0];return {ok:true,json:async()=>id==='catalog'?catalog:books[id]};}});
 const code=await readFile('public/prelims-booster.js','utf8');vm.runInContext(code,context);const api=vm.runInContext('PrelimsBooster',context);
 const click=async dataset=>root.onclick({target:{closest:()=>({dataset})}});
-await api.mount(root);assert.match(root.innerHTML,/Rau’s PRE Compass/);assert.equal((root.innerHTML.match(/Read on website/g)||[]).length,7);assert.equal((root.innerHTML.match(/download=/g)||[]).length,7);
+await api.mount(root);assert.doesNotMatch(root.innerHTML,/rau[\u2019']s/i);assert.match(root.innerHTML,/Prelims Booster/);assert.equal((root.innerHTML.match(/Read on website/g)||[]).length,7);assert.equal((root.innerHTML.match(/download=/g)||[]).length,7);
 for(const meta of catalog.books){
  await click({boosterBook:meta.id});assert.match(root.innerHTML,new RegExp(meta.title.replace(/[&]/g,'&amp;').replace(/[.*+?^${}()|[\]\\]/g,'\\$&')));
  assert.match(root.innerHTML,/Web notes/);assert.match(context.location.hash,new RegExp('prelims-2025-'+meta.id+'-p'));
@@ -53,7 +53,7 @@ await click({boosterResult:'5'});assert.match(root.innerHTML,/AT1 bonds/);await 
 const before=context.location.hash;root.onchange({target:{matches:s=>s==='[data-booster-jump]',value:'9999'}});assert.equal(context.location.hash,before);
 await click({boosterOverview:''});assert.equal(context.location.hash,'#prelims-2025');assert.match(root.innerHTML,/Read on website/);
 const count=fetches;await click({boosterBook:'economy'});assert.equal(fetches,count,'Cached book fetched again');
-context.location.hash='#prelims-2025-polity-p10';await api.mount(root);assert.match(root.innerHTML,/NATIONAL POPULATION REGISTER/);
+context.location.hash='#prelims-2025-polity-p10';await api.mount(root);assert.doesNotMatch(root.innerHTML,/rau[\u2019']s/i);assert.match(root.innerHTML,/NATIONAL POPULATION REGISTER/);
 const home=await readFile('public/home.js','utf8');assert.match(home,/label: "Prelims Booster 2025"/);assert.match(home,/PrelimsBooster.mount/);assert.match(home,/hash.startsWith\('prelims-2025'\)/);
 const html=await readFile('public/home.html','utf8');assert.match(html,/id="prelims-booster-board"/);assert.match(html,/prelims-booster.js/);assert.match(html,/prelims-booster.css/);
 console.log(`PASS: 7 subjects, 849 PDF pages, ${pageCount} complete web pages, ${lineCount} uniquely owned source lines, ${tables} native table regions and ${figures} diagrams. Cover-copy integrity, page assets, all-page rendering, subject switching, search, chapter navigation, deep links, original images, PDF viewer, downloads and caching pass.`);

@@ -951,7 +951,7 @@ function pushSearchDoc(doc) {
 
 function rebuildSearchIndex() {
   searchIndex = [];
-  pushSearchDoc({kind:'Page',title:'Prelims Booster 2025',snippet:'Rau’s PRE Compass: Economics, Environment, Schemes, History, International Relations, Polity and Science. Read online or download Crack IAS PDFs.',tab:'prelims-2025'});
+  pushSearchDoc({kind:'Page',title:'Prelims Booster 2025',snippet:'Prelims Booster: Economics, Environment, Schemes, History, International Relations, Polity and Science. Read online or download Crack IAS PDFs.',tab:'prelims-2025'});
   pushSearchDoc({
     kind: "Page",
     title: "Current affairs",

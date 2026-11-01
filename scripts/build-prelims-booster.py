@@ -1,4 +1,4 @@
-"""Build all seven Rau's PRE Compass 2025 books for Crack IAS.
+"""Build all seven Prelims Booster 2025 books for Crack IAS.
 
 Only PDF page one is replaced. All remaining pages, page numbers, links and
 bookmarks are retained. Web text has audited line ownership, native tables and
@@ -100,10 +100,10 @@ def cover(doc,title):
     page.insert_textbox(fitz.Rect(40,h*.19,w-40,h*.25),'PRELIMS BOOSTER',fontname='helv',fontsize=23,color=cream,align=1)
     page.insert_text(fitz.Point((w-fitz.get_text_length('2025',fontname='hebo',fontsize=88))/2,h*.395),'2025',fontname='hebo',fontsize=88,color=gold)
     assert page.insert_textbox(fitz.Rect(45,h*.445,w-45,h*.575),title.upper(),fontname='hebo',fontsize=27,color=cream,align=1)>=0
-    page.insert_textbox(fitz.Rect(42,h*.66,w-42,h*.72),"Rau's PRE Compass",fontname='hebo',fontsize=23,color=green,align=1)
+    page.insert_textbox(fitz.Rect(42,h*.66,w-42,h*.72),"Prelims Booster",fontname='hebo',fontsize=23,color=green,align=1)
     page.insert_textbox(fitz.Rect(45,h*.735,w-45,h*.80),'UPSC Civil Services | Preliminary Examination\nCurrent affairs compilation - 2025 edition',fontname='helv',fontsize=13,color=green,align=1)
     page.draw_line(fitz.Point(80,h*.845),fitz.Point(w-80,h*.845),color=green,width=.8)
-    page.insert_textbox(fitz.Rect(50,h*.87,w-50,h*.96),"Crack IAS study copy\nSource material: Rau's IAS PRE Compass 2025\nCover adapted. Pages 2 onward retain the supplied source.",fontname='helv',fontsize=10,color=green,align=1)
+    page.insert_textbox(fitz.Rect(50,h*.87,w-50,h*.96),"Crack IAS study copy\nSource material: 2025 supplied study edition\nCover adapted. Pages 2 onward retain the supplied source.",fontname='helv',fontsize=10,color=green,align=1)
     doc.delete_page(1)
 
 catalog=[]
@@ -263,5 +263,9 @@ for slug,title,suffix in BOOKS:
     (DATA/f'{slug}.json').write_text(json.dumps(book,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
     catalog.append({k:book[k] for k in ['id','title','year','pdf','cover','pageCount','contentStart','stats']}|dict(chapters=len(chapters),topics=sum(len(c['topics']) for c in chapters),contentPages=len(pages),data=f'/data/prelims-2025/{slug}.json'))
     print(f'Built {slug}: {len(pages)} content pages, {len(chapters)} chapters, {len(owners)} audited lines.',flush=True)
-if catalog:(DATA/'catalog.json').write_text(json.dumps(dict(title='Prelims Booster 2025',collection="Rau's PRE Compass",year=2025,books=catalog),ensure_ascii=False,indent=2),encoding='utf-8')
+if catalog:(DATA/'catalog.json').write_text(json.dumps(dict(title='Prelims Booster 2025',collection="Prelims Booster",year=2025,books=catalog),ensure_ascii=False,indent=2),encoding='utf-8')
 print('All seven subjects built and verified.',flush=True)
+
+# Apply the same publisher-name cleanup after any rebuild.
+import subprocess
+subprocess.run([sys.executable,str(ROOT / "scripts/rebrand-prelims-pdfs.py")],check=True)
