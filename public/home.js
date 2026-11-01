@@ -117,6 +117,7 @@ function clickSound() {
 }
 
 function stopQuizTimer() {
+  QuestionTiming.stop();
   if (quizTimerId) window.clearInterval(quizTimerId);
   quizTimerId = 0;
 }
@@ -142,6 +143,7 @@ function renderTimer() {
 
 function startQuizTimer(resume = false) {
   stopQuizTimer();
+  if(activeQuiz&&!quizLocked)QuestionTiming.select(activeQuiz.questions[quizPage*3]?.id);
   quizLocked = false;
   if (!resume || !quizEndsAt) quizEndsAt = Date.now() + (Number(activeQuiz?.durationSeconds) || QUIZ_SECONDS) * 1000;
   renderTimer();
@@ -156,6 +158,7 @@ function startQuizTimer(resume = false) {
 
 async function submitQuiz(fromTimer = false) {
   if (!activeQuiz || quizLocked) return;
+  const questionTimes = QuestionTiming.snapshot();
   quizLocked = true;
   stopQuizTimer();
   quizTimerEl.innerHTML = fromTimer
@@ -173,6 +176,7 @@ async function submitQuiz(fromTimer = false) {
       answers: quizAnswers,
       responses: quizResponses,
       awarded: quizAwarded,
+      timings: questionTimes,
     }),
   });
   const data = await res.json();
@@ -218,7 +222,11 @@ async function requireSession() {
 
 function renderTabs() {
   const items = [
+    { id: "today", label: "Today" },
+    { id: "planner", label: "Planner" },
+    { id: "analytics", label: "Analytics" },
     { id: "preparation", label: "Preparation Desk" },
+    { id: "prelims-2025", label: "Prelims Booster 2025" },
     { id: "current", label: "Current affairs" },
     { id: "editorials", label: "Editorials" },
     { id: "mapping", label: "Mapping" },
@@ -231,8 +239,15 @@ function renderTabs() {
 }
 
 async function showTab(id) {
+  if(id==='planner'||id==='analytics'){location.href=id==='planner'?'/planner.html':'/performance.html';return;}
+  const navigationId=id;
+  const isToday=id==='today';
+  document.getElementById('today').hidden=!isToday;
+  document.querySelectorAll('[data-home-nav]').forEach(link=>{if(link.dataset.homeNav===navigationId)link.setAttribute('aria-current','page');else link.removeAttribute('aria-current');});
   const isPreparation=id==='preparation';
   document.getElementById('preparation').hidden=!isPreparation;
+  const isBooster=id==='prelims-2025';
+  document.getElementById('prelims-booster').hidden=!isBooster;
   for (const button of tabsEl.querySelectorAll("button")) {
     button.classList.toggle("on", button.dataset.tab === id);
   }
@@ -248,8 +263,12 @@ async function showTab(id) {
   pyqEl.hidden = !isPyq;
   surveyEl.hidden = !isSurvey;
   mappingEl.hidden = !isMapping;
-  subjectEl.hidden = isPreparation || isNews || isEditorials || isQuiz || isPyq || isSurvey || isMapping;
-  if (isPreparation) {
+  subjectEl.hidden = isToday || isBooster || isPreparation || isNews || isEditorials || isQuiz || isPyq || isSurvey || isMapping;
+  if (isToday) {
+    TodayDashboard.mount(document.getElementById("today-board"));
+  } else if (isBooster) {
+    await PrelimsBooster.mount(document.getElementById('prelims-booster-board'));
+  } else if (isPreparation) {
     PrepDesk.mount(document.getElementById('preparation-desk'));
   } else if (isNews) {
     await MonthlyCurrentAffairs.mount(document.getElementById("monthly-current-affairs"));
@@ -763,7 +782,7 @@ function renderQuizBoard(review = null) {
       const wordLimit = q.wordLimit ?? (marks === 15 ? 250 : 150);
       const awarded = review ? q.marks_awarded : (quizAwarded[q.id] ?? "");
       const count = response.trim() ? response.trim().split(/\s+/).length : 0;
-      return `<div class="q mains-q"><h3>${index + 1}. ${escapeHtml(q.prompt)}</h3><p class="meta">${escapeHtml(q.topic ?? "UPSC GS")} · ${marks} marks · ${wordLimit} words ${review ? `· Awarded ${Number(q.marks_awarded).toFixed(1)}/${marks}` : ""}</p>${review ? `<div class="mains-answer">${escapeHtml(response || "No answer submitted.")}</div><h4>Indicative answer points</h4>${threeLineExplanation(q, true)}` : `<textarea data-response="${escapeHtml(q.id)}" rows="7" placeholder="Structure your answer with an introduction, analysis and conclusion...">${escapeHtml(response)}</textarea><div class="answer-meta"><span>${count} words / ${wordLimit}</span><label>Self-mark (0–${marks}) <input type="number" min="0" max="${marks}" step="0.5" data-awarded="${escapeHtml(q.id)}" value="${escapeHtml(awarded)}"></label></div>`}</div>`;
+      return `<div class="q mains-q" data-question-id="${escapeHtml(q.id)}"><h3>${index + 1}. ${escapeHtml(q.prompt)}</h3><p class="meta">${escapeHtml(q.topic ?? "UPSC GS")} · ${marks} marks · ${wordLimit} words ${review ? `· Awarded ${Number(q.marks_awarded).toFixed(1)}/${marks}` : ""}</p>${review ? `<div class="mains-answer">${escapeHtml(response || "No answer submitted.")}</div><h4>Indicative answer points</h4>${threeLineExplanation(q, true)}` : `<textarea data-response="${escapeHtml(q.id)}" rows="7" placeholder="Structure your answer with an introduction, analysis and conclusion...">${escapeHtml(response)}</textarea><div class="answer-meta"><span>${count} words / ${wordLimit}</span><label>Self-mark (0–${marks}) <input type="number" min="0" max="${marks}" step="0.5" data-awarded="${escapeHtml(q.id)}" value="${escapeHtml(awarded)}"></label></div>`}</div>`;
     }
     const options = q.options.map((opt, optIndex) => {
       let cls = "q-opt";
@@ -776,7 +795,7 @@ function renderQuizBoard(review = null) {
     }).join("");
     const mark = review ? (q.ok ? '<span class="tag">Correct · +2</span>' : q.chosen < 0 ? '<span class="tag">Unattempted · 0</span>' : '<span class="tag">Incorrect · −⅔</span>') : "";
     const explain = review ? threeLineExplanation(q) : "";
-    return `<div class="q"><h3>${index + 1}. ${escapeHtml(q.prompt)} ${mark}</h3>${options}${explain}</div>`;
+    return `<div class="q" data-question-id="${escapeHtml(q.id)}"><h3>${index + 1}. ${escapeHtml(q.prompt)} ${mark}</h3>${options}${explain}</div>`;
   });
   const nav = allQuestions.map((q, index) => {
     const answered = mains ? Boolean(quizResponses[q.id]?.trim()) : Number.isInteger(quizAnswers[q.id]);
@@ -810,6 +829,11 @@ function renderQuizBoard(review = null) {
     : `<div class="test-controls"><button type="button" class="ghost" data-page="prev" ${quizPage === 0 ? "disabled" : ""}>Previous</button><span>Page ${quizPage + 1} of ${Math.ceil(allQuestions.length / 3)}</span><button type="button" class="ghost" data-page="next" ${pageStart + 3 >= allQuestions.length ? "disabled" : ""}>Next</button><button type="button" class="cta" id="submit-quiz">Submit &amp; save test</button><button type="button" class="ghost quit-test" id="quit-test">Quit test</button></div>`;
   const heading = review?.title ? `${escapeHtml(review.title)} analysis` : escapeHtml(activeQuiz.title);
   quizBoard.innerHTML = `<h2>${heading}</h2><p class="meta">${mains ? "UPSC Mains: 10/15 marks; no penalty" : "UPSC Prelims: +2 correct, -2/3 incorrect, 0 unanswered"}</p><div class="test-layout"><aside class="test-sidebar"><strong>Question navigator</strong><p class="navigator-legend"><span>Green: answered</span><span>Red: incorrect in review</span></p><div class="question-nav">${nav}</div></aside><div class="test-main">${questions.join("")}${footer}</div></div>`;
+  if(!review&&!quizLocked&&Date.now()<quizEndsAt){
+    const visible=allQuestions.slice(pageStart,pageStart+3);
+    const active=QuestionTiming.current();
+    QuestionTiming.select(visible.some(q=>q.id===active)?active:visible[0]?.id);
+  }else QuestionTiming.stop();
 }
 async function loadHistory() {
   const res = await fetch("/api/quiz/attempts");
@@ -859,6 +883,7 @@ async function loadQuiz(subject) {
     return;
   }
   activeQuiz = data;
+  QuestionTiming.reset();
   renderQuizPick();
   renderQuizBoard();
   startQuizTimer();
@@ -884,6 +909,7 @@ async function loadTest(testId) {
     return;
   }
   activeQuiz = data;
+  QuestionTiming.reset();
   renderQuizBoard();
   startQuizTimer();
   } catch {
@@ -925,6 +951,7 @@ function pushSearchDoc(doc) {
 
 function rebuildSearchIndex() {
   searchIndex = [];
+  pushSearchDoc({kind:'Page',title:'Prelims Booster 2025',snippet:'Rau’s PRE Compass: Economics, Environment, Schemes, History, International Relations, Polity and Science. Read online or download Crack IAS PDFs.',tab:'prelims-2025'});
   pushSearchDoc({
     kind: "Page",
     title: "Current affairs",
@@ -1315,14 +1342,16 @@ tabsEl.addEventListener("click", (event) => {
 });
 function tabFromHash() {
   const hash=window.location.hash.slice(1);
+  if(hash.startsWith('prelims-2025'))return 'prelims-2025';
   if(hash.startsWith('preparation'))return 'preparation';
   if(hash.startsWith('editorials'))return 'editorials';
   if(hash.startsWith('current'))return 'current';
   if(/^day-\d+$/.test(hash))return 'history';
   const subject=studyData?.subjects.find(subject=>hash===subject.id||hash.startsWith(subject.id+'-day-'));
-  return subject?.id || (['quiz','pyq','survey','mapping'].includes(hash)?hash:'preparation');
+  return subject?.id || (['today','planner','analytics','quiz','pyq','survey','mapping'].includes(hash)?hash:'today');
 }
 window.addEventListener('hashchange',()=>{if(studyData&&!testPage)showTab(tabFromHash());});
+document.addEventListener('current-affairs-updated',()=>{if(!studyData||testPage)return;newsItems=MonthlyCurrentAffairs.getSearchItems();rebuildSearchIndex();});
 
 pyqEl.addEventListener("click", (event) => {
   const examBtn = event.target.closest("[data-pyq-exam]");
@@ -1485,6 +1514,12 @@ quizBoard.addEventListener("click", async (event) => {
   }
 });
 
+for(const type of ['pointerover','focusin'])quizBoard.addEventListener(type,event=>{
+  if(!activeQuiz||quizLocked||quizReview||Date.now()>=quizEndsAt)return;
+  const question=event.target.closest('[data-question-id]');
+  if(question)QuestionTiming.select(question.dataset.questionId);
+});
+
 quizBoard.addEventListener("input", (event) => {
   const response = event.target.closest("[data-response]");
   if (response) {
@@ -1539,6 +1574,7 @@ document.querySelector(".syllabus-tabs").addEventListener("click", (event) => {
   if (!session) return;
   SiteProfile.setAccount(session.account);
   PrepDesk.setAccount(session.account);
+  TodayDashboard.setAccount(session.account);
 
   // Start the paper before loading unrelated dashboard data or account trackers.
   if (testPage) {
@@ -1563,7 +1599,10 @@ document.querySelector(".syllabus-tabs").addEventListener("click", (event) => {
   renderSyllabus();
   bindSearch();
   rebuildSearchIndex();
-  showTab(tabFromHash());
+  await showTab(tabFromHash());
+  if(new URLSearchParams(location.search).get("syllabus")==="1"&&document.getElementById("syllabus-toggle").getAttribute("aria-expanded")!=="true")document.getElementById("syllabus-toggle").click();
+  const requestedPractice=new URLSearchParams(location.search).get("practice");
+  if(quizSubjects.some(subject=>subject.id===requestedPractice)){await showTab("quiz");await loadQuiz(requestedPractice);}
 
   warmSearchIndex();
   await loadTracker();

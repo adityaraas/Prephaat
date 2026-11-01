@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-04T10:07:15.348Z",
+  "generatedAt": "2026-10-27T21:27:05.238219+00:00",
   "range": {
-    "start": "2025-04-04",
-    "end": "2026-10-04"
+    "start": "2025-04-28",
+    "end": "2026-10-28"
   },
   "selection": "Selected UPSC-relevant issues from publicly available reporting and editorial context; not every news report.",
   "months": [
@@ -10,6 +10,561 @@
       "id": "2026-10",
       "partial": true,
       "items": [
+        {
+          "id": "f427d272f6f6bb9059ae",
+          "title": "BRICS parliamentary declaration: institutions, technology and global governance",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2328977&lang=1&reg=3",
+          "published": "2026-10-27",
+          "source": "Press Information Bureau",
+          "topics": [
+            "ir"
+          ],
+          "whyInNews": "The BRICS Parliamentary Forum concluded in New Delhi with a jointly adopted declaration on 27 October.",
+          "summary": [
+            "Member parliaments adopted a common declaration after their deliberations.",
+            "The text reaffirms sovereignty and peaceful approaches to disputes.",
+            "Participants supported changes making the Security Council more representative.",
+            "The declaration condemns terrorism and its financing across borders.",
+            "It includes cooperation on digital public infrastructure and repositories.",
+            "Members discussed responsible applications of artificial intelligence in legislatures.",
+            "Transparency and public accountability were highlighted as parliamentary responsibilities.",
+            "Climate cooperation references differentiated responsibilities and national capabilities.",
+            "Participants called for better representation of developing country concerns.",
+            "The closing address identified China as the following chair."
+          ],
+          "syllabus": [
+            {
+              "paper": "GS II",
+              "topic": "Global groupings, international institutions and parliamentary accountability",
+              "subject": "ir",
+              "relevance": "Compare parliamentary diplomacy with executive negotiations. Revise UN reform, sovereignty and Indian interests; the declaration expresses commitments rather than demonstrating their implementation."
+            },
+            {
+              "paper": "GS IV",
+              "subject": "ethics",
+              "topic": "Accountability and ethical use of technology",
+              "relevance": "Use legislative AI as a governance example: examine explainability, transparency and human responsibility instead of assuming technology automatically improves accountability."
+            }
+          ],
+          "kind": "Prepared study brief",
+          "verifiedOn": "2026-10-28"
+        },
+        {
+          "id": "df4f8cf629afb4252193",
+          "title": "India at CBD COP17: biodiversity targets and benefit sharing",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2328896&lang=1&reg=3",
+          "published": "2026-10-27",
+          "source": "Press Information Bureau",
+          "topics": [
+            "environment"
+          ],
+          "whyInNews": "India presented its biodiversity position at CBD COP17 in Yerevan, according to the Environment Ministry.",
+          "summary": [
+            "India delivered its national statement at the biodiversity conference.",
+            "Its position emphasises implementation suited to national circumstances.",
+            "Predictable funding and technology access were identified as important.",
+            "India supports benefit sharing involving digital genetic sequence information.",
+            "The statement refers to the multilateral Cali Fund mechanism.",
+            "Synthetic biology was discussed alongside precaution and scientific assessment.",
+            "The national action plan contains twenty-three biodiversity targets.",
+            "India described indicators used to track those national targets.",
+            "Mangrove restoration and wetland conservation were cited as initiatives.",
+            "Village-level institutions were linked to decentralised biological resource benefits."
+          ],
+          "syllabus": [
+            {
+              "paper": "GS III",
+              "topic": "Biodiversity conservation and international environmental agreements",
+              "subject": "environment",
+              "relevance": "Distinguish the biodiversity convention from climate negotiations. Connect national targets, genetic-resource benefit sharing and local institutions to implementation and financing."
+            },
+            {
+              "paper": "Prelims",
+              "subject": "environment",
+              "topic": "Institutions, concepts and source-dated factual distinctions",
+              "relevance": "Revise the named institutions and underlying concepts. Keep publication dates, data reference periods and proposed actions distinct when evaluating statements."
+            }
+          ],
+          "kind": "Prepared study brief",
+          "verifiedOn": "2026-10-28"
+        },
+        {
+          "id": "177dd1d118663fe2d092",
+          "title": "Industrial production statistics: state-level IIP base revision",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2329092&lang=1&reg=3",
+          "published": "2026-10-27",
+          "source": "Press Information Bureau",
+          "topics": [
+            "economy"
+          ],
+          "whyInNews": "MoSPI announced a state-level industrial statistics workshop scheduled for 28–30 October in Thiruvananthapuram.",
+          "summary": [
+            "The workshop is scheduled rather than reported as completed.",
+            "MoSPI is coordinating discussions with participating state statistical offices.",
+            "Its focus is revision of state industrial production indices.",
+            "The release identifies the national base as 2022–23.",
+            "A base year provides the reference for subsequent comparisons.",
+            "Updated baskets and weights should reflect changing industrial activity.",
+            "The revised framework includes selected additional utility service activities.",
+            "Factory reporting panels and substitution procedures are being reviewed.",
+            "State statistical departments compile and publish their own indices.",
+            "The exercise seeks greater consistency and comparability across states."
+          ],
+          "syllabus": [
+            {
+              "paper": "GS III",
+              "topic": "Industrial growth, national income statistics and economic indicators",
+              "subject": "economy",
+              "relevance": "Revise index numbers, weights and base years. Distinguish industrial production from GDP, and national compilation from the statistical responsibilities of states."
+            },
+            {
+              "paper": "Prelims",
+              "subject": "economy",
+              "topic": "Institutions, concepts and source-dated factual distinctions",
+              "relevance": "Revise the named institutions and underlying concepts. Keep publication dates, data reference periods and proposed actions distinct when evaluating statements."
+            }
+          ],
+          "kind": "Prepared study brief",
+          "verifiedOn": "2026-10-28"
+        },
+        {
+          "id": "66d824391415f2daec71",
+          "title": "Carbon capture: applications in hard-to-abate industries",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2328830&lang=1&reg=3",
+          "published": "2026-10-27",
+          "source": "Press Information Bureau",
+          "topics": [
+            "environment"
+          ],
+          "whyInNews": "A PIB explainer reviewed carbon-capture technologies and Indian industrial decarbonisation efforts during the ESTIC conclave.",
+          "summary": [
+            "Some industrial emissions cannot easily be eliminated through electrification.",
+            "Carbon capture separates carbon dioxide before its atmospheric release.",
+            "Captured gas requires preparation before transport or further processing.",
+            "Pipelines can transport compressed carbon dioxide between suitable sites.",
+            "Utilisation channels captured carbon into selected industrial applications.",
+            "Storage involves retaining carbon dioxide in suitable geological formations.",
+            "The explainer identifies steel and cement among relevant sectors.",
+            "Research bodies and industrial enterprises participate in Indian initiatives.",
+            "Projects are at different stages, including operation and proposals.",
+            "The technology is presented as complementary to other mitigation measures."
+          ],
+          "syllabus": [
+            {
+              "paper": "GS III",
+              "topic": "Climate mitigation, clean technology and industrial decarbonisation",
+              "subject": "environment",
+              "relevance": "Distinguish capture, utilisation and permanent storage. Evaluate costs, energy use and storage integrity; prospective technologies should not be counted as verified emissions reductions."
+            },
+            {
+              "paper": "Prelims",
+              "subject": "environment",
+              "topic": "Institutions, concepts and source-dated factual distinctions",
+              "relevance": "Revise the named institutions and underlying concepts. Keep publication dates, data reference periods and proposed actions distinct when evaluating statements."
+            }
+          ],
+          "kind": "Prepared study brief",
+          "verifiedOn": "2026-10-28"
+        },
+        {
+          "id": "9b1007918b44b24d81f4",
+          "title": "ESTIC 2026: research capacity and indigenous technology",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2329164&lang=1&reg=3",
+          "published": "2026-10-27",
+          "source": "Press Information Bureau",
+          "topics": [
+            "science"
+          ],
+          "whyInNews": "The Emerging Science, Technology and Innovation Conclave opened at Bharat Mandapam in New Delhi.",
+          "summary": [
+            "The Prime Minister inaugurated the science and innovation conclave.",
+            "His address emphasised developing original technologies within India.",
+            "Startups were described as participants in the innovation ecosystem.",
+            "The speech discussed technological capabilities across multiple scientific fields.",
+            "Nuclear energy was linked to longer-term energy security objectives.",
+            "Indigenous research was presented as important for reducing dependencies.",
+            "Prior space and vaccine work served as illustrative examples.",
+            "Future technological ambitions were expressed alongside reported developments.",
+            "Institutional cooperation was discussed as support for scientific innovation.",
+            "Event participation alone does not establish commercial technology deployment."
+          ],
+          "syllabus": [
+            {
+              "paper": "GS III",
+              "topic": "Scientific innovation, indigenisation and research ecosystems",
+              "subject": "science",
+              "relevance": "Separate achievements reported in the speech from proposals and future ambitions. Examine research finance, institutional collaboration and technology transfer rather than treating an event as an outcome."
+            },
+            {
+              "paper": "Prelims",
+              "subject": "science",
+              "topic": "Institutions, concepts and source-dated factual distinctions",
+              "relevance": "Revise the named institutions and underlying concepts. Keep publication dates, data reference periods and proposed actions distinct when evaluating statements."
+            },
+            {
+              "paper": "Essay",
+              "subject": "science",
+              "topic": "Science, society and technological self-reliance",
+              "relevance": "Develop balanced arguments about research ecosystems, public purpose and accountability. Use this event as a dated illustration rather than an exam prediction."
+            }
+          ],
+          "kind": "Prepared study brief",
+          "verifiedOn": "2026-10-28"
+        },
+        {
+          "id": "202c070def065faf5eff",
+          "title": "Manuscript preservation: India–France cooperation under Gyan Bharatam",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2329163&lang=1&reg=3",
+          "published": "2026-10-27",
+          "source": "Press Information Bureau",
+          "topics": [
+            "history"
+          ],
+          "whyInNews": "The Culture Ministry reported an India–France manuscript-cooperation agreement signed in Paris on 26 October.",
+          "summary": [
+            "The agreement was signed with France’s national library.",
+            "It operates within the Indian Gyan Bharatam mission.",
+            "Cooperation includes conserving manuscript and other documentary heritage.",
+            "Digitisation is one of the partnership’s identified working areas.",
+            "Indic-origin collections held in France are specifically mentioned.",
+            "The framework also covers technology and research collaboration.",
+            "Cataloguing and script-recognition tools feature among knowledge exchanges.",
+            "Workshops and scholarly exchanges are envisaged under the agreement.",
+            "The proposed repository involves structured access for research.",
+            "Signing establishes cooperation, not completion of every digitisation project."
+          ],
+          "syllabus": [
+            {
+              "paper": "GS I",
+              "topic": "Indian literature, manuscript heritage and cultural preservation",
+              "subject": "history",
+              "relevance": "Revise conservation, documentation and digitisation as distinct activities. Connect institutional collaboration to access, cataloguing and preservation without assuming that every manuscript is already digitally available."
+            }
+          ],
+          "kind": "Prepared study brief",
+          "verifiedOn": "2026-10-28"
+        },
+        {
+          "id": "1da90b7782012b801b4d",
+          "title": "Genetic diversity and domestic biotechnology research capacity",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2328989&lang=1&reg=3",
+          "published": "2026-10-27",
+          "source": "Press Information Bureau",
+          "topics": [
+            "science"
+          ],
+          "whyInNews": "A biotechnology session at ESTIC discussed genetic diversity and building India’s domestic research capabilities.",
+          "summary": [
+            "The minister linked genetic diversity to research opportunities.",
+            "The discussion concerned system and synthetic biology research.",
+            "Variation in disease patterns was cited as a research application.",
+            "The address favoured stronger domestic gene-synthesis capabilities.",
+            "Reliance on overseas suppliers can affect research continuity.",
+            "Better support systems were presented as necessary for innovation.",
+            "Industry participation and research funding were also emphasised.",
+            "Collaboration across biology and engineering was encouraged in research.",
+            "Potential applications were discussed rather than universal clinical deployment.",
+            "Scientific ambitions need evaluation alongside practical and ethical safeguards."
+          ],
+          "syllabus": [
+            {
+              "paper": "GS III",
+              "topic": "Biotechnology, scientific applications and indigenous research capability",
+              "subject": "science",
+              "relevance": "Understand genetic variation, research infrastructure and gene-synthesis capability. Treat forecasts about India’s potential as proposals; examine ethics, consent and research governance separately."
+            },
+            {
+              "paper": "Prelims",
+              "subject": "science",
+              "topic": "Institutions, concepts and source-dated factual distinctions",
+              "relevance": "Revise the named institutions and underlying concepts. Keep publication dates, data reference periods and proposed actions distinct when evaluating statements."
+            }
+          ],
+          "kind": "Prepared study brief",
+          "verifiedOn": "2026-10-28"
+        },
+        {
+          "id": "e02e285399111f1d6236",
+          "title": "CARA consultation: inclusive adoption and children with special needs",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2328988&lang=1&reg=3",
+          "published": "2026-10-27",
+          "source": "Press Information Bureau",
+          "topics": [
+            "governance"
+          ],
+          "whyInNews": "CARA held an Eastern Zone workshop in Ranchi on adoption and family-based care for children with special needs.",
+          "summary": [
+            "The workshop took place in Ranchi on 27 October.",
+            "CARA worked with Jharkhand institutions in organising the consultation.",
+            "Its focus was family-based care for children with disabilities.",
+            "The regional context includes Bihar and other eastern states.",
+            "Participants represented adoption, welfare, healthcare and district institutions.",
+            "Discussions considered medical assessment and procedural barriers affecting adoption.",
+            "Coordination across departments was identified as an important requirement.",
+            "The meeting also examined support for prospective adoptive parents.",
+            "Officials emphasised sustained engagement beyond one-time awareness activities.",
+            "Policy commitments should be assessed through subsequent child-centred outcomes."
+          ],
+          "syllabus": [
+            {
+              "paper": "GS II",
+              "topic": "Child protection, vulnerable sections and institutional coordination",
+              "subject": "governance",
+              "relevance": "Map CARA, state agencies and district child-protection institutions. Assess family-based care, inclusion and procedural safeguards; participation in a workshop is not evidence that all barriers were removed."
+            }
+          ],
+          "kind": "Prepared study brief",
+          "verifiedOn": "2026-10-28"
+        },
+        {
+          "id": "42dea0063600bf97c975",
+          "title": "Legal metrology: measurement standards and consumer protection",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2328661&lang=1&reg=3",
+          "published": "2026-10-26",
+          "source": "Press Information Bureau",
+          "topics": [
+            "governance"
+          ],
+          "whyInNews": "India began hosting the International Committee of Legal Metrology meeting in New Delhi on 26 October.",
+          "summary": [
+            "The meeting runs from 26–28 October in New Delhi.",
+            "India is hosting this committee meeting for the first time.",
+            "The committee operates within the international legal metrology organisation.",
+            "Accurate measurement supports fair transactions and consumer confidence.",
+            "Participants discussed harmonisation of technical measurement standards internationally.",
+            "Digitalisation is changing regulatory services and measurement systems.",
+            "Mutual acceptance of test results features in certification discussions.",
+            "Capacity building supports consistent application of measurement requirements.",
+            "Indian representatives discussed reforms affecting compliance and enforcement.",
+            "A technical meeting does not itself rewrite all domestic rules."
+          ],
+          "syllabus": [
+            {
+              "paper": "GS II",
+              "topic": "Consumer protection, regulatory institutions and service delivery",
+              "subject": "governance",
+              "relevance": "Link weights and measures with consumer rights, fair trade and regulatory compliance. Distinguish the international organisation from its committee and domestic enforcement responsibilities."
+            }
+          ],
+          "kind": "Prepared study brief",
+          "verifiedOn": "2026-10-28"
+        },
+        {
+          "id": "65c166fb488cbde886d6",
+          "title": "Ramsar wetlands: ecological functions and conservation mechanisms",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2328132&lang=1&reg=3",
+          "published": "2026-10-25",
+          "source": "Press Information Bureau",
+          "topics": [
+            "environment"
+          ],
+          "whyInNews": "An official explainer reviewed India’s Ramsar network and wetland conservation programmes as of October 2026.",
+          "summary": [
+            "The explainer reports 103 Indian Ramsar sites in October.",
+            "Wetlands support biodiversity alongside important local economic activities.",
+            "Their functions include groundwater replenishment and moderating flood impacts.",
+            "Both natural and artificial wetlands fall within convention definitions.",
+            "The convention was adopted at Ramsar in Iran.",
+            "India became a contracting party during February 1982.",
+            "Indian wetland management also involves domestic conservation rules.",
+            "The explainer discusses the National Plan for Aquatic Ecosystems.",
+            "Community participation is associated with programmes including Mission Sahbhagita.",
+            "Site designation and continuing ecological protection require separate assessment."
+          ],
+          "syllabus": [
+            {
+              "paper": "GS III",
+              "topic": "Wetland conservation, ecosystem services and environmental institutions",
+              "subject": "environment",
+              "relevance": "Map wetland locations and conservation institutions. A Ramsar designation recognises international importance; evaluate ecological management separately from the growth in designated sites."
+            },
+            {
+              "paper": "Prelims",
+              "subject": "environment",
+              "topic": "Institutions, concepts and source-dated factual distinctions",
+              "relevance": "Revise the named institutions and underlying concepts. Keep publication dates, data reference periods and proposed actions distinct when evaluating statements."
+            }
+          ],
+          "kind": "Prepared study brief",
+          "verifiedOn": "2026-10-28"
+        },
+        {
+          "id": "89acd77a440b20dfbe23",
+          "title": "Cooperative federalism and consultation in law reform",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2326519&lang=1&reg=3",
+          "published": "2026-10-22",
+          "source": "Press Information Bureau",
+          "topics": [
+            "polity"
+          ],
+          "whyInNews": "A Law Commission conference in New Delhi examined cooperative federalism and national and state law reforms.",
+          "summary": [
+            "The Vice-President inaugurated a conference organised by the Law Commission.",
+            "Its subject combines cooperative federalism with legal reform.",
+            "The address calls for consultation between Union and state institutions.",
+            "Coordination and shared responsibility were presented as governance priorities.",
+            "State autonomy was discussed within the broader constitutional framework.",
+            "Political differences were distinguished from common public-interest objectives.",
+            "State law commissions were urged to review outdated legislation.",
+            "Repeal and amendment were identified as possible reform tools.",
+            "Cooperation was not described as requiring identical laws everywhere.",
+            "The conference provides context without itself creating binding legislation."
+          ],
+          "syllabus": [
+            {
+              "paper": "GS II",
+              "topic": "Federal structure, legislative reform and Centre-State relations",
+              "subject": "polity",
+              "relevance": "Connect intergovernmental consultation with constitutional responsibility and state autonomy. Distinguish recommendations made at a conference from enacted laws or binding institutional changes."
+            }
+          ],
+          "kind": "Prepared study brief",
+          "verifiedOn": "2026-10-28"
+        },
+        {
+          "id": "776c5d214f687042b2d8",
+          "title": "India–Poland joint statement: strategic partnership and implementation",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2326568&lang=1&reg=3",
+          "published": "2026-10-22",
+          "source": "Press Information Bureau",
+          "topics": [
+            "ir"
+          ],
+          "whyInNews": "India and Poland issued a joint statement during the Polish Prime Minister’s official visit.",
+          "summary": [
+            "The visit was scheduled across 21–23 October 2026.",
+            "The leaders reviewed political, economic and international issues.",
+            "Their statement recalls the strategic partnership established in 2024.",
+            "It refers to the bilateral action plan for 2024–2028.",
+            "An earlier ministerial review was cited as follow-up.",
+            "The leaders encouraged closer institutional and parliamentary engagement.",
+            "Commercial representatives accompanied the visiting Polish delegation to India.",
+            "The statement discusses trade, investment and supply-chain cooperation.",
+            "European Union engagement forms part of the diplomatic context.",
+            "Proposed cooperation must be distinguished from already delivered outcomes."
+          ],
+          "syllabus": [
+            {
+              "paper": "GS II",
+              "topic": "Bilateral relations and India’s engagement with Europe",
+              "subject": "ir",
+              "relevance": "Locate Poland and distinguish bilateral partnership mechanisms from wider India-EU arrangements. Compare diplomatic commitments with the institutional and commercial steps required for implementation."
+            }
+          ],
+          "kind": "Prepared study brief",
+          "verifiedOn": "2026-10-28"
+        },
+        {
+          "id": "5228765fc7631bcff4fe",
+          "title": "Delhi-NCR air pollution: Stage I of GRAP invoked",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2326133&lang=1&reg=3",
+          "published": "2026-10-21",
+          "source": "Press Information Bureau",
+          "topics": [
+            "environment"
+          ],
+          "whyInNews": "CAQM activated Stage I of the graded pollution-response plan after reviewing Delhi’s worsening air quality.",
+          "summary": [
+            "The order describes Delhi readings in the poor category.",
+            "Stage I corresponds to AQI values between 201–300.",
+            "CAQM reviewed pollution data and meteorological information before acting.",
+            "The release directs implementation across the National Capital Region.",
+            "Construction dust controls form part of the prescribed response.",
+            "Waste handling and preventing illegal dumping are also covered.",
+            "Road sweeping and sprinkling require appropriate dust disposal.",
+            "Implementing agencies were directed to intensify monitoring and compliance.",
+            "The action schedule contains twenty-five measures under this stage.",
+            "These observations describe the release date, not current conditions."
+          ],
+          "syllabus": [
+            {
+              "paper": "GS III",
+              "topic": "Air pollution, environmental regulation and inter-agency coordination",
+              "subject": "environment",
+              "relevance": "Revise AQI categories, CAQM, CPCB and graded responses. Link dust, waste and transport measures to enforcement, distinguishing the dated order from today’s air quality."
+            },
+            {
+              "paper": "Prelims",
+              "subject": "environment",
+              "topic": "Institutions, concepts and source-dated factual distinctions",
+              "relevance": "Revise the named institutions and underlying concepts. Keep publication dates, data reference periods and proposed actions distinct when evaluating statements."
+            }
+          ],
+          "kind": "Prepared study brief",
+          "verifiedOn": "2026-10-28"
+        },
+        {
+          "id": "5e0979a23d43371f7167",
+          "title": "Social assistance: Cabinet approval and disability-pension eligibility",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2323264&lang=1&reg=3",
+          "published": "2026-10-14",
+          "source": "Press Information Bureau",
+          "topics": [
+            "governance"
+          ],
+          "whyInNews": "The Cabinet approved continuation and changes to the social assistance programme for 2026–27 through 2030–31.",
+          "summary": [
+            "The approval continues a centrally supported social assistance programme.",
+            "It covers a five-year period ending in 2030–31.",
+            "The Cabinet also approved renaming the programme and sub-schemes.",
+            "Changes specifically affect disability-pension eligibility and assistance rates.",
+            "The disability threshold is proposed to move to forty percent.",
+            "The minimum age restriction is also proposed for removal.",
+            "Existing old-age and widow arrangements continue under the approval.",
+            "The release identifies a total outlay of 53,428 crore rupees.",
+            "Updated implementation guidelines were expected within three months.",
+            "Approval should be distinguished from completed beneficiary-level implementation."
+          ],
+          "syllabus": [
+            {
+              "paper": "GS II",
+              "topic": "Welfare schemes for vulnerable sections and implementation safeguards",
+              "subject": "governance",
+              "relevance": "Examine eligibility, Union-State delivery and fiscal support. Cabinet approval and promised guidelines do not establish that revised benefits have already reached all intended recipients."
+            }
+          ],
+          "kind": "Prepared study brief",
+          "verifiedOn": "2026-10-28"
+        },
+        {
+          "id": "a3b77f3469fa7153a7c0",
+          "title": "September CPI: headline inflation and food-price pressures",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2322244&lang=1&reg=3",
+          "published": "2026-10-12",
+          "source": "Press Information Bureau",
+          "topics": [
+            "economy"
+          ],
+          "whyInNews": "MoSPI released September 2026 consumer-price statistics on 12 October, with the latest figures marked provisional.",
+          "summary": [
+            "Combined annual consumer inflation was provisionally reported at 5.54%.",
+            "The reference period is September, not the publication month.",
+            "Food inflation was provisionally recorded at 7.74% annually.",
+            "The statistical series uses 2024 as its base year.",
+            "Rural headline inflation was higher than the urban reading.",
+            "August figures were published as final in this release.",
+            "Food and general indices measure different consumption baskets.",
+            "The release provides separate rural, urban and combined figures.",
+            "National rates should not be substituted for individual state estimates.",
+            "October data were scheduled for publication during the following month."
+          ],
+          "syllabus": [
+            {
+              "paper": "GS III",
+              "topic": "Inflation, economic measurement and monetary policy transmission",
+              "subject": "economy",
+              "relevance": "Read the reference month, release date and provisional status together. Compare food and headline indices; inflation is a rate of price change, not the price level."
+            },
+            {
+              "paper": "Prelims",
+              "subject": "economy",
+              "topic": "Institutions, concepts and source-dated factual distinctions",
+              "relevance": "Revise the named institutions and underlying concepts. Keep publication dates, data reference periods and proposed actions distinct when evaluating statements."
+            }
+          ],
+          "kind": "Prepared study brief",
+          "verifiedOn": "2026-10-28"
+        },
         {
           "id": "38180ab8961af430a3b1",
           "title": "Expert explains | As Israel heads to polls this month, will unpopular Netanyahu make a comeback?",
@@ -6070,246 +6625,10 @@
               "relevance": "His leadership in drafting the National Education Policy and the Western Ghats committee report highlights the intersection of scientific expertise with public policy, demonstrating how experts contribute to addressing complex societal and environmental challenges in India."
             }
           ]
-        },
-        {
-          "id": "484506100c74da4413be",
-          "title": "To avoid reciprocal tariffs, lock down trade deal with the US",
-          "url": "https://indianexpress.com/article/opinion/editorials/to-avoid-reciprocal-tariffs-lock-down-trade-deal-with-the-us-9964407/",
-          "published": "2025-04-25",
-          "topics": [
-            "Economy"
-          ],
-          "source": "The Indian Express · Editorial",
-          "whyInNews": "Global growth forecasts were lowered due to US tariff policies, prompting calls for Indian trade deals.",
-          "summary": [
-            "The IMF and World Bank lowered global growth forecasts due to US tariff policy uncertainty.",
-            "India's economic growth projection was reduced by thirty basis points to 6.2 per cent.",
-            "The RBI remains less pessimistic, estimating growth at 6.5 per cent for the year.",
-            "Exports of goods face significant challenges as global trade activity slows down this year.",
-            "Indian IT firms may experience project delays as American companies reduce their overall spending.",
-            "Volatility in financial markets could make raising funds overseas difficult for domestic Indian companies.",
-            "Lower global oil prices provide a potential positive impact on India's overall government finances.",
-            "MPC member Nagesh Kumar suggested a fifty basis point rate cut to stimulate economic activity.",
-            "The World Bank warns that monetary easing might be offset by persistent global economic weakness.",
-            "Finalizing a trade deal with the US would reduce uncertainty for global and domestic firms."
-          ],
-          "syllabus": [
-            {
-              "paper": "GS III",
-              "topic": "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment.",
-              "relevance": "This analysis provides a macro-economic perspective on how global trade policy shifts affect domestic growth, monetary policy decisions by the RBI, and the overall investment climate in India."
-            }
-          ]
-        },
-        {
-          "id": "fece7240a5e9b44669f8",
-          "title": "J D Vance visit, bilateral trade and how to deal with China",
-          "url": "https://indianexpress.com/article/opinion/editorials/j-d-vance-visit-bilateral-trade-and-how-to-deal-with-china-9959924/",
-          "published": "2025-04-23",
-          "topics": [
-            "Economy",
-            "International relations"
-          ],
-          "source": "The Indian Express · Editorial",
-          "whyInNews": "US Vice President J D Vance visited India to advance bilateral trade negotiations amidst global economic uncertainty.",
-          "summary": [
-            "US Vice President J D Vance visited India to discuss a potential bilateral trade agreement.",
-            "Both nations expressed commitment to significant progress in ongoing trade negotiations during this high-level visit.",
-            "Indian officials led by Rajesh Agarwal are negotiating nineteen chapters covering tariffs and trade barriers.",
-            "The White House aims to enhance bilateral trade and supply chain integration for mutual benefit.",
-            "US Treasury Secretary Scott Bessent prioritizes India alongside Japan and South Korea for trade deals.",
-            "China warned against trade deals with America, threatening reciprocal countermeasures if its interests are harmed.",
-            "The IMF recently slashed global growth forecasts for 2025 due to rising trade policy uncertainty.",
-            "India's projected economic growth was marked down by thirty basis points to 6.2 per cent.",
-            "Bilateral trade between India and China reached 118.4 billion dollars in the 2023-24 fiscal year.",
-            "India must navigate complex trade dynamics with the US while managing its relationship with China."
-          ],
-          "syllabus": [
-            {
-              "paper": "GS II",
-              "topic": "Bilateral, regional and global groupings and agreements involving India and/or affecting India's interests.",
-              "relevance": "This highlights the strategic importance of India-US trade negotiations amidst global protectionism and the need to balance relations with China, which is crucial for India's economic diplomacy and foreign policy."
-            },
-            {
-              "paper": "GS III",
-              "topic": "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment.",
-              "relevance": "The article discusses the impact of global trade wars and tariff policies on India's GDP growth projections, providing insights into how external economic shocks influence domestic policy and investment."
-            }
-          ]
-        },
-        {
-          "id": "78a485bbfea63e515940",
-          "title": "Politeness to LLMs costs money. Let’s thank AI anyway",
-          "url": "https://indianexpress.com/article/opinion/editorials/politeness-to-llms-costs-money-lets-thank-ai-anyway-9959926/",
-          "published": "2025-04-23",
-          "topics": [
-            "Science & technology"
-          ],
-          "source": "The Indian Express · Editorial",
-          "whyInNews": "OpenAI CEO Sam Altman noted that polite user interactions with AI models incur significant computational costs.",
-          "summary": [
-            "OpenAI CEO Sam Altman stated that polite user prompts cost the company substantial money.",
-            "Large language models require sophisticated graphics processing units to process data and generate responses.",
-            "Every polite interaction increases server usage, leading to higher electricity and water consumption costs.",
-            "Studies indicate that AI infrastructure requires significant water resources to cool down active servers.",
-            "Global data centers currently account for about two percent of total world electricity usage.",
-            "Experts suggest that politeness trains AI to respond collaboratively, setting a positive interaction tone.",
-            "Digital natives often anthropomorphize chatbots, treating them as personal assistants in their daily lives.",
-            "There is an ethical dilemma regarding whether compassion should be priced out of technology.",
-            "Socrates and Aristotle argued that civility and ethical habits underpin meaningful human societal dialogue.",
-            "Training machines to be courteous reinforces the importance of thoughtful dialogue in human society."
-          ],
-          "syllabus": [
-            {
-              "paper": "GS III",
-              "topic": "Awareness in the fields of IT, Space, Computers, robotics, nano-technology, bio-technology and issues relating to intellectual property rights.",
-              "relevance": "This highlights the environmental and economic costs of AI infrastructure, raising critical questions about the sustainability of large language models and the resource intensity of modern digital technologies."
-            },
-            {
-              "paper": "GS IV",
-              "topic": "Ethics and Human Interface: Essence, determinants and consequences of Ethics in human actions.",
-              "relevance": "The article explores the ethical implications of human-AI interaction, questioning whether civility and compassion are values that should be maintained even when interacting with non-human digital entities."
-            }
-          ]
-        },
-        {
-          "id": "6c95955d56f34ad37092",
-          "title": "J P Nadda is right in calling out BJP MPs’ crude targeting of judiciary — he needs to do more",
-          "url": "https://indianexpress.com/article/opinion/editorials/j-p-nadda-is-right-in-calling-out-bjp-mps-crude-targeting-of-judiciary-he-needs-to-do-more-9955510/",
-          "published": "2025-04-21",
-          "topics": [
-            "Polity & governance"
-          ],
-          "source": "The Indian Express · Editorial",
-          "whyInNews": "BJP President JP Nadda distanced the party from MPs making derogatory remarks against the judiciary and CJI.",
-          "summary": [
-            "Two BJP members of parliament recently made disparaging comments regarding the Chief Justice of India.",
-            "These lawmakers criticized Supreme Court rulings on the Tamil Nadu Governor and the Waqf Act.",
-            "Party leadership officially rejected these statements as personal views rather than the party's formal stance.",
-            "Constitutional functionaries have also faced criticism for pushing boundaries regarding their defined official red lines.",
-            "The judiciary serves as the essential custodian of fundamental rights and the Constitution's core spirit.",
-            "Checks and balances are fundamental to maintaining the integrity of India's democratic and constitutional framework.",
-            "Disrespect toward judicial institutions contributes to the gradual fraying of the nation's constitutional fabric overall.",
-            "The Prime Minister has repeatedly emphasized the primacy of the Constitution in public political discourse.",
-            "Political leaders must ensure that their rhetoric aligns with the respect due to constitutional institutions.",
-            "Effective governance requires adherence to established constitutional restraints by all branches of the state apparatus."
-          ],
-          "syllabus": [
-            {
-              "paper": "GS II",
-              "topic": "Polity and Governance",
-              "relevance": "This issue highlights the tension between the executive and judiciary. It underscores the importance of constitutional morality, the separation of powers, and the need for political restraint to preserve the independence of judicial institutions in a democracy."
-            }
-          ]
-        },
-        {
-          "id": "427cf6a5d20a9f54f517",
-          "title": "In Trump’s tariff war, China strikes back",
-          "url": "https://indianexpress.com/article/opinion/editorials/in-trumps-tariff-war-china-strikes-back-9948427/",
-          "published": "2025-04-17",
-          "topics": [
-            "Economy",
-            "International relations"
-          ],
-          "source": "The Indian Express · Editorial",
-          "whyInNews": "Trump escalated tariffs on China to 245 percent, prompting retaliatory trade measures and global economic uncertainty.",
-          "summary": [
-            "The US administration imposed significant tariffs on China following a brief pause for other nations.",
-            "China responded by raising import tariffs and restricting exports of critical rare earth elements globally.",
-            "These rare earth elements are essential for the energy, automobile, and defense manufacturing sectors worldwide.",
-            "Beijing also directed domestic airlines to halt purchases of American Boeing aircraft as retaliatory action.",
-            "The US restricted Nvidia from exporting advanced artificial intelligence chips to Chinese technology companies recently.",
-            "President Xi Jinping visited Southeast Asian nations to strengthen regional ties against unilateral trade bullying.",
-            "Global trade faces instability as the world's largest economies engage in this escalating tariff conflict.",
-            "India fears potential trade diversion, where surplus goods from other nations might be dumped domestically.",
-            "Government officials are monitoring import surges to protect local industries from unfair international trade practices.",
-            "Policymakers must adopt calibrated responses rather than reactive measures to navigate this complex global environment."
-          ],
-          "syllabus": [
-            {
-              "paper": "GS II",
-              "topic": "International Relations",
-              "relevance": "Understanding how US-China trade wars impact India's economy is crucial. It highlights the need for India to balance its trade policy, monitor dumping risks, and navigate geopolitical shifts in the Indo-Pacific region while maintaining strategic autonomy."
-            },
-            {
-              "paper": "GS III",
-              "topic": "Economy",
-              "relevance": "The article illustrates the mechanics of trade wars, including tariffs and non-tariff barriers. It provides a case study on supply chain vulnerabilities, particularly in rare earth elements, and the broader implications for global economic stability and domestic market protection."
-            }
-          ]
-        },
-        {
-          "id": "f1abe9c635c320364751",
-          "title": "India should use Trump’s tariff reprieve to finalise deals with US, EU, UK",
-          "url": "https://indianexpress.com/article/opinion/editorials/india-should-use-trumps-tariff-reprieve-to-finalise-deals-with-us-eu-uk-9942487/",
-          "published": "2025-04-14",
-          "topics": [
-            "Economy",
-            "International relations"
-          ],
-          "source": "The Indian Express · Editorial",
-          "whyInNews": "The US paused reciprocal tariffs, providing India a window to finalize trade deals with major economies.",
-          "summary": [
-            "US President Donald Trump paused reciprocal tariffs, reducing duties on Indian exports to ten percent.",
-            "This reprieve allows India time to finalize bilateral trade agreements with the US and EU.",
-            "External Affairs Minister Jaishankar emphasized the urgency to conclude these trade deals by this fall.",
-            "The US, EU, and UK accounted for nearly forty percent of India's merchandise exports recently.",
-            "India maintains trade surpluses with these three partners, strengthening its position in trade negotiations.",
-            "Negotiators should prioritize reducing barriers to trade in services like IT and skilled labor.",
-            "Trade talks must address non-tariff barriers like carbon border taxes and quality control orders.",
-            "India's own quality control orders often create non-transparent burdens for international trading partners involved.",
-            "Aligning standards with international norms is essential for fair trade between market-based global economies.",
-            "Finalizing these pacts would signal India's readiness to engage in robust, rule-based global business."
-          ],
-          "syllabus": [
-            {
-              "paper": "GS II",
-              "topic": "Bilateral, regional and global groupings and agreements involving India and/or affecting India's interests.",
-              "relevance": "The article discusses the strategic necessity of finalizing trade agreements with major Western economies to mitigate the impact of protectionist policies and strengthen India's global economic standing."
-            },
-            {
-              "paper": "GS III",
-              "topic": "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment.",
-              "relevance": "It highlights the importance of trade in services and the removal of non-tariff barriers, which are critical for boosting India's export competitiveness and integrating into global supply chains."
-            }
-          ]
-        },
-        {
-          "id": "87677023f8646acae687",
-          "title": "Parliament debate wasn’t about waqf – it showed a government with a trust deficit",
-          "url": "https://indianexpress.com/article/opinion/editorials/parliament-debate-wasnt-about-waqf-it-showed-a-government-with-a-trust-deficit-9923525/",
-          "published": "2025-04-04",
-          "topics": [
-            "Polity & governance"
-          ],
-          "source": "The Indian Express · Editorial",
-          "whyInNews": "Parliament debated the Waqf Amendment Bill, highlighting significant political trust deficits between the government and opposition.",
-          "summary": [
-            "Parliament recently conducted a contentious debate regarding the proposed Waqf Amendment Bill of 2025.",
-            "The bill aims to reform the administration and management of waqf properties across India.",
-            "Government proponents argue the legislation improves transparency, efficiency, and accountability in waqf property management.",
-            "Opposition parties claim the bill discriminates against Muslims and undermines constitutionally guaranteed minority rights.",
-            "Specific provisions include allowing non-Muslims on state boards and expanding government regulatory authority powers.",
-            "The debate transcended the bill, invoking past issues like triple talaq and Article 370.",
-            "A central issue remains the lack of trust between the government and the minority community.",
-            "The BJP currently lacks elected Muslim MPs, complicating its outreach and dialogue with minority groups.",
-            "Opposition parties utilized the debate to showcase rare unity against the government's legislative agenda.",
-            "Parliament functioned as a site for intense deliberation despite the final outcome via numbers."
-          ],
-          "syllabus": [
-            {
-              "paper": "GS II",
-              "topic": "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
-              "relevance": "The debate over the Waqf Amendment Bill touches upon the constitutional rights of religious minorities and the balance between state regulation of religious institutions and the freedom of religion."
-            },
-            {
-              "paper": "GS II",
-              "topic": "Parliament and State Legislatures—structure, functioning, conduct of business, powers & privileges and issues arising out of these.",
-              "relevance": "This event illustrates the functioning of the Indian Parliament, the role of the Opposition in legislative scrutiny, and the challenges of building consensus on sensitive socio-religious legislation."
-            }
-          ]
         }
       ]
     }
-  ]
+  ],
+  "latestPublished": "2026-10-27",
+  "reviewedThrough": "2026-10-28"
 }

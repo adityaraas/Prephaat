@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx server.ts",
-    "start": "tsx server.ts"
+    "start": "tsx server.ts",
+    "build:study-catalog": "python scripts/build-study-catalog.py",
+    "test:study": "node --import tsx --test scripts/current-affairs-data.test.ts scripts/performance-data.test.ts scripts/study-integration.test.ts",
+    "refresh:current-affairs": "tsx scripts/refresh-current-affairs.ts && python scripts/build-study-catalog.py && node scripts/collect-current-affairs-images.mjs"
   },
   "engines": {
     "node": ">=20"

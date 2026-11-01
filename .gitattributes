@@ -1,0 +1,2 @@
+# Preserve PDF bytes and treat study books as binary assets.
+*.pdf binary

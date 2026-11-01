@@ -13,8 +13,8 @@ import {
   sessionCookie,
   verifyPassword,
 } from "./auth.ts";
-import { getCurrentAffairs } from "./current-affairs.ts";
-import { getAttempt, getTracker, gradeQuiz, gradeTest, isQuizSubject, listAttempts, saveAttempt, startQuiz, startTest, subjectLabel } from "./quiz.ts";
+import { getCurrentAffairs, getCurrentAffairsArchive } from "./current-affairs.ts";
+import { getAttempt, getPerformance, getTracker, gradeQuiz, gradeTest, isQuizSubject, listAttempts, saveAttempt, startQuiz, startTest, subjectLabel } from "./quiz.ts";
 import { addMaterial, deleteMaterial, listFacultyMaterials, listPublishedMaterials, promoteToFaculty } from "./materials.ts";
 import {
   clearGoogleStateCookie,
@@ -56,6 +56,9 @@ const pages: Record<string, string> = {
   "/": "index.html",
   "/signup": "signup.html",
   "/home": "home.html",
+  "/planner": "planner.html",
+  "/analytics": "performance.html",
+  "/performance": "performance.html",
   "/test": "home.html",
   "/study": "home.html",
   "/library": "library.html",
@@ -282,6 +285,12 @@ const server = createServer(async (req, res) => {
       return;
     }
 
+    if (req.method === "GET" && url.pathname === "/api/current-affairs/archive") {
+      if (!(await requireAccount(req, res))) return;
+      send(res, 200, await getCurrentAffairsArchive());
+      return;
+    }
+
     if (req.method === "GET" && url.pathname === "/api/current-affairs") {
       if (!(await requireAccount(req, res))) return;
       const payload = await getCurrentAffairs();
@@ -333,24 +342,34 @@ const server = createServer(async (req, res) => {
           body.answers && typeof body.answers === "object" && !Array.isArray(body.answers)
             ? (body.answers as Record<string, number>)
             : {};
+        const timings = body.timings && typeof body.timings === "object" && !Array.isArray(body.timings) ? body.timings as Record<string, number> : {};
         const ids = Array.isArray(body.ids) ? body.ids.map(String) : undefined;
         if (body.stage === "prelims" || body.stage === "mains") {
           const responses = body.responses && typeof body.responses === "object" && !Array.isArray(body.responses) ? body.responses as Record<string, string> : {};
           const awarded = body.awarded && typeof body.awarded === "object" && !Array.isArray(body.awarded) ? body.awarded as Record<string, number> : {};
           const graded = gradeTest(String(body.stage), String(body.testId ?? ""), subject, ids ?? [], answers, responses, awarded);
-          const attemptId = await saveAttempt(account.id, subject as any, graded.correct, graded.total, graded.results, graded.stage, graded.testId, graded.score, graded.maxScore);
+          const attemptId = await saveAttempt(account.id, subject as any, graded.correct, graded.total, graded.results, graded.stage, graded.testId, graded.score, graded.maxScore, timings);
           const tracker = await getTracker(account.id);
           send(res, 200, { ...graded, attemptId, tracker });
           return;
         }
         const graded = gradeQuiz(subject, answers, ids);
         if (!isQuizSubject(subject)) throw new Error("Unknown subject");
-        const attemptId = await saveAttempt(account.id, subject, graded.correct, graded.total, graded.results);
+        const attemptId = await saveAttempt(account.id, subject, graded.correct, graded.total, graded.results, undefined, undefined, undefined, undefined, timings);
         const tracker = await getTracker(account.id);
         send(res, 200, { ...graded, attemptId, tracker });
       } catch (err) {
         send(res, 400, { error: err instanceof Error ? err.message : "Could not submit quiz" });
       }
+      return;
+    }
+
+    if (req.method === "GET" && url.pathname === "/api/quiz/performance") {
+      const account = await requireAccount(req, res);
+      if (!account) return;
+      const subject = url.searchParams.get("subject") || "all";
+      const days = Number(url.searchParams.get("days"));
+      send(res, 200, await getPerformance(account.id, subject, [7,30,90].includes(days) ? days : 0));
       return;
     }
 

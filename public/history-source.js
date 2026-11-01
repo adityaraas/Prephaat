@@ -46,6 +46,8 @@ const HistorySource = (() => {
       const label = bookSubject === 'ir' ? 'International Relations' : 'Polity';
       const data = await load(bookSubject || 'history');
       let section = initial === 'medieval' ? 'medieval' : 'all', query = '', selected = initial === 'medieval' ? 13 : 1;
+      const linkedChapter=Number(new URLSearchParams(location.search).get('chapter'));
+      if(data.chapters.some(c=>c.id===linkedChapter)){selected=linkedChapter;section='all';}
       const sections = bookSubject ? [{id:'all',title:`All ${label.toLowerCase()} chapters`}] : [{id:'all',title:'All chapters'},{id:'ancient',title:'Ancient History'},{id:'medieval',title:'Medieval History'},{id:'culture',title:'Art and Culture'}];
       const matches = () => data.chapters.filter(c => (section === 'all' || c.sections.includes(section)) && (!query || chapterText(c).toLowerCase().includes(query.toLowerCase())));
       const paint = focus => {

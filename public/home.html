@@ -5,23 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Crack IAS · Civil Services Prep</title>
     <link rel="icon" href="/logo.svg" />
-    <link rel="stylesheet" href="/study.css?v=20261003-1" />
+    <link rel="stylesheet" href="/study.css?v=20261101-no-ask-1" />
     <link rel="stylesheet" href="/resource-library.css" />
     <link rel="stylesheet" href="/history.css?v=20261024-4" />
     <link rel="stylesheet" href="/mapping.css" />
     <link rel="stylesheet" href="/theme.css" />
     <link rel="stylesheet" href="/tests.css" />
     <link rel="stylesheet" href="/editorials.css?v=20261004-2" />
-    <link rel="stylesheet" href="/current-affairs.css?v=20261004-2" />
+    <link rel="stylesheet" href="/current-affairs.css?v=20261101-analysis-9" />
     <link rel="stylesheet" href="/profile.css?v=20261003-1" />
     <link rel="stylesheet" href="/chess.css?v=20261003-1" />
     <link rel="stylesheet" href="/geography-visuals.css?v=20261004-1" />
     <link rel="stylesheet" href="/study-visuals.css?v=20261004-2" />
     <link rel="stylesheet" href="/preparation.css?v=20261004-3" />
     <link rel="stylesheet" href="/workspace.css?v=20261025-2" />
-    <link rel="stylesheet" href="/study-color.css?v=20261025-2" />
+    <link rel="stylesheet" href="/study-color.css?v=20261025-4" />
     <link rel="stylesheet" href="/ir-reader.css?v=20261025-5" />
-    <script src="/theme.js?v=20261025-1"></script>
+    <script src="/theme.js?v=20261028-analytics-1"></script>
+    <link rel="stylesheet" href="/prelims-booster.css?v=20261025-1" />
+    <link rel="stylesheet" href="/readability.css?v=20261025-3" />
+    <link rel="stylesheet" href="/today.css?v=20261028-2" />
   </head>
   <body>
     <header class="mast">
@@ -32,6 +35,7 @@
           <span>UPSC · BPSC in quick bites</span>
         </div>
       </a>
+      <nav class="today-nav" aria-label="Main navigation"><a href="/home#today" data-home-nav="today">Today</a><a href="/home#quiz" data-home-nav="quiz">Practice</a><button type="button" id="today-syllabus">Syllabus</button><a href="/library">Library</a><a href="/planner.html" data-home-nav="preparation">Planner</a><a href="/performance.html" data-home-nav="analytics">Analytics</a></nav>
       <div class="site-search" id="site-search">
         <label class="sr-only" for="site-search-input">Search study material</label>
         <input id="site-search-input" type="search" placeholder="Search notes, PYQ, current affairs…" autocomplete="off" />
@@ -55,12 +59,15 @@
       </div>
     </header>
 
+    <details class="subject-browser"><summary>Browse subjects &amp; study tools</summary>
     <div class="tabs-wrap">
       <button type="button" class="bored-nav" id="bored-chess-open" title="Play chess" aria-label="Play chess against the computer" aria-haspopup="dialog" aria-controls="chess-overlay">
         <svg class="chess-launch-icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 27h17M10 23h13M11 23c0-5 2-8 6-10l-7 3-4-3 8-8V2l5 3c6 2 8 8 5 14l-1 4"/><circle cx="17" cy="9" r="1" fill="currentColor" stroke="none"/></svg>
       </button>
       <nav class="tabs" id="tabs" aria-label="Subjects"></nav>
     </div>
+
+    </details>
 
     <div class="chess-overlay" id="chess-overlay" hidden>
       <div class="chess-sheet" role="dialog" aria-modal="true" aria-labelledby="chess-title" aria-describedby="chess-status">
@@ -85,7 +92,9 @@
 
     <div class="layout">
       <main>
+        <section id="today" class="panel" aria-label="Today dashboard" hidden><div id="today-board"></div></section>
         <section id="preparation" class="panel" hidden><div id="preparation-desk"></div></section>
+        <section id="prelims-booster" class="panel" hidden><div id="prelims-booster-board"></div></section>
         <section id="feed" class="panel" hidden>
           <div id="monthly-current-affairs"><p class="empty" role="status">Loading monthly current affairs...</p></div>
         </section>
@@ -143,42 +152,26 @@
       </div>
     </aside>
 
-    <aside class="chat-dock" id="chat-dock">
-      <button type="button" class="chat-fab" id="chat-toggle" aria-expanded="false">
-        <span aria-hidden="true">💬</span>
-        Ask
-      </button>
-      <div class="chat-panel" id="chat-panel" hidden>
-        <div class="chat-head">
-          <strong>Study chat</strong>
-          <button type="button" class="syllabus-toggle" id="chat-close" aria-label="Close chat">–</button>
-        </div>
-        <p class="meta chat-note">Public exam help only. It cannot see this site’s private notes or files.</p>
-        <div class="chat-log" id="chat-log"></div>
-        <form class="chat-form" id="chat-form">
-          <label class="sr-only" for="chat-input">Your question</label>
-          <textarea id="chat-input" rows="2" placeholder="Ask a GS question…" required></textarea>
-          <button type="submit" class="cta" id="chat-send">Send</button>
-        </form>
-      </div>
-    </aside>
 
+
+    <script src="/prelims-booster.js?v=20261025-1"></script>
     <script src="/resource-library.js"></script>
     <script src="/study-progress.js?v=20261025-environment-1"></script>
     <script src="/study-emphasis.js?v=20261025-2"></script>
     <script src="/geography-visuals.js?v=20261004-1"></script>
     <script src="/study-visuals.js?v=20261004-2"></script>
     <script src="/preparation.js?v=20261004-3"></script>
-    <script src="/history-source.js?v=20261025-2"></script>
-    <script src="/ir-reader.js?v=20261025-environment-1"></script>
+    <script src="/history-source.js?v=20261028-catalog-1"></script>
+    <script src="/ir-reader.js?v=20261028-catalog-1"></script>
     <script src="/history-plan.js?v=20261025-1"></script>
     <script src="/mapping.js"></script>
     <script src="/editorial-visuals.js?v=20261004-2"></script>
     <script src="/editorials.js?v=20261004-3"></script>
     <script src="/profile.js?v=20261025-1"></script>
-    <script src="/current-affairs.js?v=20261004-3"></script>
-    <script src="/home.js?v=20261025-environment-1"></script>
+    <script src="/current-affairs-language.js?v=20261101-analysis-9"></script><script src="/current-affairs-exam.js?v=20261101-analysis-9"></script><script src="/current-affairs-analysis.js?v=20261101-analysis-9"></script><script src="/current-affairs.js?v=20261101-analysis-9"></script>
+    <script src="/today.js?v=20261101-analysis-9"></script>
+    <script src="/question-timing.js?v=20261028-1"></script>
+    <script src="/home.js?v=20261028-real-data-1"></script>
     <script src="/chess-play.js?v=20261003-2"></script>
-    <script src="/chat.js"></script>
   </body>
 </html>

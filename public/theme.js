@@ -2,6 +2,10 @@ const SiteTheme = (() => {
   const themes = ['mango', 'forest', 'navy', 'plum'];
   try { const saved = localStorage.getItem('crack-ias-theme'); if (themes.includes(saved)) document.documentElement.dataset.theme = saved; } catch {}
   const paths = {
+    planner: '<rect x="3" y="4" width="18" height="17" rx="3"/><path d="M7 2v4m10-4v4M3 9h18m-13 6 3 3 5-6"/>',
+    analytics: '<path d="M4 3v18h17M8 16v-5m5 5V7m5 9V4"/>',
+    today: '<rect x="3" y="4" width="18" height="17" rx="3"/><path d="M7 2v4m10-4v4M3 9h18m-13 6 3 3 5-6"/>',
+    'prelims-2025': '<path d="M4 4h7l1 2 1-2h7v15h-7l-1 2-1-2H4zM12 6v15"/><path d="m8 10 1 1 2-3"/>',
     governance: '<path d="m3 9 9-6 9 6H3ZM5 10v9m7-9v9m7-9v9M3 21h18"/>',
     ir: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c5 5 5 13 0 18-5-5-5-13 0-18ZM5 7h14M5 17h14"/>',
     preparation: '<rect x="3" y="4" width="18" height="17" rx="3"/><path d="M7 2v4m10-4v4M3 9h18m-13 6 3 3 5-6"/>',

@@ -69,3 +69,18 @@
 .consistency-note { font-size:10px; line-height:1.6; color:var(--site-muted); margin-bottom:0; }
 @media(max-width:600px) { .layout #history-plan .intro { margin-inline:-12px; flex-wrap:wrap; gap:16px; } .profile-popover { right:-4px; } }
 @media(prefers-reduced-motion:reduce) { .tabs button:hover { transform:none; } }
+
+/* Distinct light colors for selected navigation tabs. */
+#tabs button[data-tab="ir"] { --tab-ink:#244c80; --tab-tint:#e8f1ff; }
+#tabs button[data-tab="pyq"] { --tab-ink:#7a3344; --tab-tint:#fcebec; }
+#tabs button[data-tab="economy"] { --tab-ink:#24563b; --tab-tint:#e6f4eb; }
+#tabs button[data-tab="preparation"] { --tab-ink:#58407c; --tab-tint:#f0eafb; }
+#tabs button[data-tab="quiz"] { --tab-ink:#7b431e; --tab-tint:#fff0df; }
+#tabs button:is([data-tab="ir"],[data-tab="pyq"],[data-tab="economy"],[data-tab="preparation"],[data-tab="quiz"]) {
+  background:var(--tab-tint); color:var(--tab-ink);
+  border-color:var(--tab-ink); box-shadow:none;
+}
+#tabs button:is([data-tab="ir"],[data-tab="pyq"],[data-tab="economy"],[data-tab="preparation"],[data-tab="quiz"]) .site-icon { color:inherit; }
+#tabs button:is([data-tab="ir"],[data-tab="pyq"],[data-tab="economy"],[data-tab="preparation"],[data-tab="quiz"]).on {
+  box-shadow:inset 0 -3px 0 var(--tab-ink);
+}

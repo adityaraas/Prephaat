@@ -1,3 +1,4 @@
+import { aggregatePerformance, type PerformanceAnswer } from "./performance-data.ts";
 import { sql } from "./db.ts";
 import { readFileSync } from "node:fs";
 import { isQuizSubject, pickQuiz, publicQuestion, QUIZ_BANK, type QuizSubject } from "./quiz-bank.ts";
@@ -146,7 +147,7 @@ export async function saveAttempt(
     max_marks?: number;
     word_limit?: number;
     topic?: string;
-  }>, stage = "prelims", testId = `subject-${subject}-1`, score = correct, maxScore = total
+  }>, stage = "prelims", testId = `subject-${subject}-1`, score = correct, maxScore = total, timings: Record<string, number> = {}
 ) {
   const [row] = await sql<Array<{ id: number }>>`
     INSERT INTO quiz_attempts (account_id, subject, correct, total, stage, test_id, score, max_score)
@@ -155,7 +156,7 @@ export async function saveAttempt(
   `;
   for (const item of results) {
     await sql`
-      INSERT INTO quiz_answers (attempt_id, question_id, prompt, options, chosen, correct_index, ok, explain, response, marks_awarded, max_marks, word_limit, topic)
+      INSERT INTO quiz_answers (attempt_id, question_id, prompt, options, chosen, correct_index, ok, explain, response, marks_awarded, max_marks, word_limit, topic, time_spent_ms)
       VALUES (
         ${row.id},
         ${item.id},
@@ -164,7 +165,7 @@ export async function saveAttempt(
         ${item.chosen},
         ${item.correctIndex},
         ${item.ok},
-        ${item.explain}, ${item.response ?? ""}, ${item.marks_awarded ?? 0}, ${item.max_marks ?? 2}, ${item.word_limit ?? 0}, ${item.topic ?? ""}
+        ${item.explain}, ${item.response ?? ""}, ${item.marks_awarded ?? 0}, ${item.max_marks ?? 2}, ${item.word_limit ?? 0}, ${item.topic ?? ""}, ${Number.isFinite(timings[item.id]) && timings[item.id] > 0 ? Math.min(86400000, Math.round(timings[item.id])) : null}
       )
     `;
   }
@@ -296,4 +297,15 @@ export async function getTracker(accountId: number) {
       total: row.total,
     })),
   };
+}
+
+export async function getPerformance(accountId: number, subject = "all", days = 0) {
+  const rows = await sql<PerformanceAnswer[]>`
+    SELECT a.id AS attempt_id, a.subject, a.stage, a.test_id, a.score, a.max_score, a.created_at,
+           q.question_id, q.prompt, q.topic, q.chosen, q.ok, q.time_spent_ms
+    FROM quiz_attempts a JOIN quiz_answers q ON q.attempt_id = a.id
+    WHERE a.account_id = ${accountId} AND a.stage = 'prelims'
+    ORDER BY a.created_at, a.id, q.id
+  `;
+  return aggregatePerformance(rows, subject, days);
 }

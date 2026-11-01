@@ -62,7 +62,7 @@ await api.mount(root);
 assert.match(root.innerHTML,/DAY 1 \/ 60/);
 assert.match(root.innerHTML,/data-day="0" disabled/);
 const shell=await readFile('public/home.html','utf8');
-for(const id of ['tabs','feed','quiz','pyq','survey','subject','chat-dock','chess-overlay','syllabus-box'])assert.ok(shell.includes(`id="${id}"`),`Existing ${id} section missing`);
+for(const id of ['tabs','feed','quiz','pyq','survey','subject','chess-overlay','syllabus-box'])assert.ok(shell.includes(`id="${id}"`),`Existing ${id} section missing`);
 const css=await readFile('public/history.css','utf8');
 assert.ok(!/(^|\n)(?:body|:root|main)[\s{]/.test(css),'History CSS leaks into global layout');
 const retryCtx=vm.createContext({URL,document:{getElementById:()=>null},location:{hash:''},localStorage:{getItem:()=> '[]'},fetch:async()=>({ok:!failFetch,json:async()=>data})});

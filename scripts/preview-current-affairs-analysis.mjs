@@ -1,0 +1,9 @@
+import {readFile,writeFile,mkdir} from 'node:fs/promises';
+const root=new URL('../',import.meta.url);
+const archive=JSON.parse(await readFile(new URL('public/data/monthly-current-affairs.json',root),'utf8'));
+const output=new URL('tmp/vision-july-2026/',root);
+await mkdir(output,{recursive:true});
+const scripts=['current-affairs-language.js','current-affairs-exam.js','current-affairs-analysis.js','current-affairs.js'];
+const html=`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="../../public/theme.css"><link rel="stylesheet" href="../../public/current-affairs.css"><style>body{margin:0}.mast{position:sticky;top:0;z-index:15;min-height:52px;box-sizing:border-box}.mast strong{color:var(--site-on-header)}#monthly-current-affairs{max-width:1300px;margin:auto}</style><title>Current affairs analysis preview</title></head><body><header class="mast"><strong>Crack IAS</strong></header><main id="monthly-current-affairs"></main><script>const archive=${JSON.stringify(archive).replaceAll('<','\\u003c')};window.fetch=async url=>({ok:!url.startsWith('/api/'),json:async()=>url.includes('images.json')?{}:archive});history.replaceState(null,'','#current/2026-07/24ee3453ba9ccf45af47');</script>${scripts.map(name=>`<script src="../../public/${name}"></script>`).join('')}<script>MonthlyCurrentAffairs.mount(document.getElementById('monthly-current-affairs')).then(()=>{document.getElementById('ca-notes-24ee3453ba9ccf45af47').open=true;setTimeout(()=>window.scrollTo(0,new URLSearchParams(location.search).has('lower')?1000:0),800);});</script></body></html>`;
+await writeFile(new URL('website-preview.html',output),html);
+console.log('Prepared local desktop/mobile visual preview using the actual app renderer.');

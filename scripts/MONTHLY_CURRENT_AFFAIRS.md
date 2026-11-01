@@ -18,3 +18,14 @@ node scripts/test-monthly-current-affairs.mjs
 ```
 
 Omit `--end` for a snapshot ending today. `--per-month=10` targets ten sourced issues per month; the accepted range is 6–30, and ten is the default. Previously prepared issues remain in the window even if not selected again. Restricted sources and invalid notes are skipped, so actual coverage depends on accessible reporting. `--month=YYYY-MM` prepares one month, `--refresh` rereads Explained archive metadata, and `--model` selects the preparation model. Metadata and prepared-note progress are retained in ignored `.cache/`. Generate the archive explicitly, not on each page view or deploy. The browser only reads the completed public JSON snapshot. Source dates, accessible full text, ten-line cardinality and content length are validated during generation; tests check substantive monthly coverage, continuous dates, source links, concise detail order and navigation.
+
+
+## Current-day coverage and live sources (28 October 2026)
+
+The prepared archive now contains 199 issues, including 15 source-checked PIB briefs covering science, biodiversity, CPI/IIP, welfare, culture, governance and international relations. The rolling window runs from 28 April 2025 through 28 October 2026. Each article keeps its actual publication date; coverage end and latest source date are displayed separately.
+
+`GET /api/current-affairs/archive` requires the signed-in account and merges prepared content with source-dated, syllabus-matched RSS/PIB headlines. It caches source checks for 15 minutes and excludes future dates, off-topic publicity and invalid URLs. Live headlines are explicitly labeled, link to the original source, and do not claim to have a prepared explanation. Existing prepared explanations take precedence. The page refreshes on demand and checks periodically while visible, with a static snapshot available if sources fail.
+
+Run `npm run refresh:current-affairs` to publish a new verified live snapshot and rebuild the Planner/search study catalog. `scripts/expand-current-affairs.py` retains the manually verified October briefs; source HTML in ignored `.cache/current-affairs-sources/` is required to revalidate publication dates. `scripts/fetch-current-affairs-sources.mjs` downloads those public source pages.
+
+The dedicated daily-digest page, home preview, monthly archive and Planner use the same source dates and issues. Browser search is refreshed when the live archive changes. No content-generation API is used for live headlines, and older curated months remain available.

@@ -77,6 +77,9 @@ const IRReader = (() => {
     try {
       const data = await load(subject);
       let chapterId = 1, topicId = data.chapters[0].topics[0].id, mode = 'notes', query = '';
+      const params = new URLSearchParams(location.search);
+      const linkedChapter = data.chapters.find(c=>String(c.id)===params.get('chapter'));
+      if(linkedChapter){chapterId=linkedChapter.id;topicId=linkedChapter.topics.some(t=>t.id===params.get('topic'))?params.get('topic'):linkedChapter.topics[0].id;}
       const chapter = () => data.chapters.find(c=>c.id===chapterId);
       const paint = (focus = false) => {
         const current = chapter();

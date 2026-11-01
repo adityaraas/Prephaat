@@ -10,3 +10,9 @@ tmp/resources/
 .cache/
 tmp/editorial-*.html
 tmp/editorial-*.xml
+
+# Local reference material and generated previews.
+/tmp/
+/output/
+/study material/
+/*.pdf

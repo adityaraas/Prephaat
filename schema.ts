@@ -60,6 +60,7 @@ export async function ensureAuthTables() {
   await sql`ALTER TABLE quiz_answers ADD COLUMN IF NOT EXISTS max_marks INTEGER NOT NULL DEFAULT 2`;
   await sql`ALTER TABLE quiz_answers ADD COLUMN IF NOT EXISTS word_limit INTEGER NOT NULL DEFAULT 0`;
   await sql`ALTER TABLE quiz_answers ADD COLUMN IF NOT EXISTS topic TEXT NOT NULL DEFAULT ''`;
+  await sql`ALTER TABLE quiz_answers ADD COLUMN IF NOT EXISTS time_spent_ms INTEGER`;
 
   await sql`
     CREATE TABLE IF NOT EXISTS study_materials (

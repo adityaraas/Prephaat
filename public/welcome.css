@@ -1,0 +1,34 @@
+.shell .prep-intro { display:flex; flex-direction:column; justify-content:center; padding:26px clamp(20px,3vw,48px) 32px; }
+.shell .prep-intro::before { display:none; }
+.shell .prep-intro .topbar { position:relative; justify-content:space-between; gap:12px; margin-bottom:28px; }
+.shell .prep-intro .topbar > span:first-child { color:var(--site-on-header); font-size:17px; font-weight:800; }
+.shell .prep-intro .hero-copy { margin:0 auto; max-width:620px; }
+.shell .prep-intro .hero-copy h1 { font-size:clamp(30px,3.2vw,46px); line-height:1.15; }
+.shell .prep-intro .prep-intro-copy { margin:16px auto 0; max-width:400px; font-size:15px; line-height:1.6; }
+.welcome-story { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; width:100%; max-width:680px; margin:28px auto 0; position:relative; }
+.welcome-scene { min-width:0; margin:0; overflow:hidden; border:1px solid #ffffff25; border-radius:14px; background:#fcf7ed; }
+.welcome-scene img { display:block; width:100%; height:auto; aspect-ratio:4/3; object-fit:contain; background:#fcf7ed; }
+.welcome-scene figcaption { padding:15px 16px 18px; color:#243448; }
+.welcome-scene figcaption h2 { margin:0 0 7px; color:#172c46; font-size:18px; line-height:1.3; font-weight:800; }
+.welcome-scene figcaption p { margin:0; font-size:13px; line-height:1.6; color:#526173; }
+.welcome-scene-ready { border-color:#d4b577; }
+.welcome-join { display:flex; justify-content:center; align-items:center; gap:14px; align-self:center; min-height:48px; padding:12px 22px; margin-top:24px; border:1px solid #ffffff45; border-radius:8px; color:var(--site-on-header); text-decoration:none; font-size:14px; font-weight:700; }
+.welcome-join:hover { background:#ffffff10; }
+@media(max-width:900px) {
+  .shell .prep-intro { min-height:0; padding:22px 22px 28px; }
+  .shell .prep-intro .topbar { margin-bottom:24px; }
+  .shell .prep-intro .hero-copy h1 { font-size:32px; }
+  .welcome-story { max-width:560px; margin-top:22px; }
+}
+@media(max-width:480px) {
+  .shell .prep-intro { padding:18px 16px 24px; }
+  .shell .prep-intro .topbar > span { font-size:11px; }
+  .shell .prep-intro .topbar > span:first-child { font-size:15px; }
+  .shell .prep-intro .hero-copy h1 { font-size:30px; }
+  .shell .prep-intro .prep-intro-copy { font-size:14px; }
+  .welcome-story { gap:10px; }
+  .welcome-scene { border-radius:10px; }
+  .welcome-scene figcaption { padding:12px; }
+  .welcome-scene figcaption h2 { font-size:16px; }
+  .welcome-scene figcaption p { font-size:12px; }
+}

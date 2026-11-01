@@ -1,0 +1,140 @@
+{
+  "title": "Prelims Booster 2025",
+  "collection": "Rau's PRE Compass",
+  "year": 2025,
+  "books": [
+    {
+      "id": "economy",
+      "title": "Economics",
+      "year": 2025,
+      "pdf": "/prelims-2025/economy.pdf",
+      "cover": "/prelims-2025/economy/cover.png",
+      "pageCount": 68,
+      "contentStart": 5,
+      "stats": {
+        "heading": 315,
+        "body": 1237,
+        "table": 80,
+        "figure": 34
+      },
+      "chapters": 8,
+      "topics": 80,
+      "contentPages": 64,
+      "data": "/data/prelims-2025/economy.json"
+    },
+    {
+      "id": "environment",
+      "title": "Environment & Ecology",
+      "year": 2025,
+      "pdf": "/prelims-2025/environment.pdf",
+      "cover": "/prelims-2025/environment/cover.png",
+      "pageCount": 193,
+      "contentStart": 7,
+      "stats": {
+        "heading": 778,
+        "body": 3321,
+        "table": 659,
+        "figure": 96
+      },
+      "chapters": 7,
+      "topics": 222,
+      "contentPages": 187,
+      "data": "/data/prelims-2025/environment.json"
+    },
+    {
+      "id": "schemes",
+      "title": "Government Schemes",
+      "year": 2025,
+      "pdf": "/prelims-2025/schemes.pdf",
+      "cover": "/prelims-2025/schemes/cover.png",
+      "pageCount": 83,
+      "contentStart": 7,
+      "stats": {
+        "heading": 405,
+        "body": 1611,
+        "figure": 16,
+        "table": 39
+      },
+      "chapters": 40,
+      "topics": 100,
+      "contentPages": 77,
+      "data": "/data/prelims-2025/schemes.json"
+    },
+    {
+      "id": "history",
+      "title": "History & Culture",
+      "year": 2025,
+      "pdf": "/prelims-2025/history.pdf",
+      "cover": "/prelims-2025/history/cover.png",
+      "pageCount": 95,
+      "contentStart": 4,
+      "stats": {
+        "heading": 264,
+        "body": 3113,
+        "figure": 52,
+        "table": 25
+      },
+      "chapters": 5,
+      "topics": 62,
+      "contentPages": 92,
+      "data": "/data/prelims-2025/history.json"
+    },
+    {
+      "id": "ir",
+      "title": "International Relations",
+      "year": 2025,
+      "pdf": "/prelims-2025/ir.pdf",
+      "cover": "/prelims-2025/ir/cover.png",
+      "pageCount": 170,
+      "contentStart": 8,
+      "stats": {
+        "heading": 789,
+        "body": 2815,
+        "table": 93,
+        "figure": 214
+      },
+      "chapters": 8,
+      "topics": 281,
+      "contentPages": 163,
+      "data": "/data/prelims-2025/ir.json"
+    },
+    {
+      "id": "polity",
+      "title": "Polity & Governance",
+      "year": 2025,
+      "pdf": "/prelims-2025/polity.pdf",
+      "cover": "/prelims-2025/polity/cover.png",
+      "pageCount": 83,
+      "contentStart": 5,
+      "stats": {
+        "heading": 398,
+        "figure": 70,
+        "body": 1316,
+        "table": 16
+      },
+      "chapters": 9,
+      "topics": 110,
+      "contentPages": 79,
+      "data": "/data/prelims-2025/polity.json"
+    },
+    {
+      "id": "science",
+      "title": "Science & Technology",
+      "year": 2025,
+      "pdf": "/prelims-2025/science.pdf",
+      "cover": "/prelims-2025/science/cover.png",
+      "pageCount": 157,
+      "contentStart": 7,
+      "stats": {
+        "body": 2832,
+        "heading": 606,
+        "figure": 110,
+        "table": 303
+      },
+      "chapters": 7,
+      "topics": 206,
+      "contentPages": 151,
+      "data": "/data/prelims-2025/science.json"
+    }
+  ]
+}

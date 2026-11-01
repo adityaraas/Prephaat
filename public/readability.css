@@ -1,0 +1,60 @@
+
+html {  -webkit-text-size-adjust: 100%; text-size-adjust: 100%; scroll-padding-top: 7rem; }
+body {
+
+  line-height: 1.7;
+}
+body :is(h1,h2,h3,h4,h5,h6) { line-height: 1.4;  }
+body :is(p,li,dd) { overflow-wrap: break-word; }
+body :is(input,select,textarea) {  line-height: 1.5; }
+body :is(input,textarea)::placeholder {  opacity: 1; }
+body :is(button,summary) { line-height: 1.5; }
+body :is(a,button,input,select,textarea,summary):focus-visible { outline: 3px solid var(--site-focus); outline-offset: 4px; }
+html .tabs-wrap .tabs button {
+   min-height: 80px; line-height: 1.5;
+}
+html .tabs-wrap .tabs button:hover { transform: none; }
+.theme-picker select { max-width: 180px; min-height: 36px; }
+.auth-form :is(input,button),.wrap :is(input,button) {  min-height: 44px; }
+.shell .prep-intro .hero-copy h1 { line-height: 1.25;  }
+.shell .prep-intro-copy {  line-height: 1.8; }
+.shell .prep-routine p {  line-height: 1.75; }
+/* Notes, editorial analysis and current affairs share the same reading scale. */
+.ir-room {    max-width: 1480px; margin-inline: auto; }
+.ir-topic-content { max-width: 78ch;  line-height: 1.8; }
+.ir-topic-content :is(p,li),
+#history-plan :is(.note p,.reading-prose p,.reading-prose li,.deep-topic>p,.deep-topic li,.lesson .detail,.pyq p),
+.ed-note-section :is(p,li),.ca-story-content p,.ca-summary li,.ca-brief :is(p,li),
+.prep-content :is(p,li),.module :is(p,li),.ncert-card :is(p,li),.article :is(p,li),
+.quiz-question,.quiz-option {  line-height: 1.8;  text-align: start; }
+.layout #history-plan .reading-prose p,
+#history-plan :is(.reading-prose li,.deep-topic>p,.note p),
+.ed-note-section>p,.ed-note-section>ul,.ca-story-content p,.ca-summary li,.module>p,.article>p { max-width: 72ch; }
+.ir-topic-content p,#history-plan .reading-prose p,.ed-note-section>p { margin-block: 0 1.1em; }
+.ir-points li,.ed-note-section li,#history-plan .reading-prose li { margin-bottom: .6em; }
+.ir-room :is(.ir-chapters button,.ir-topic-list button),
+#history-plan :is(.day-list button,.lesson-nav button),.ed-note-nav a,.ca-months button {  line-height: 1.6; }
+.ir-room :is(.ir-study-guide,.ir-exercise-note,.ir-preface),
+.ca-hero p,.ca-card-preview,.ed-card p,.resource-card p,.test-card p {  line-height: 1.75; }
+.syllabus-body :is(p,li),.search-hit,.chat-log,.chat-message {  line-height: 1.75; }
+.ed-read,.ed-bookmark,.ed-back,.ca-controls label,.ca-month-head p,.ca-months>p,
+.ir-chapters button>span:first-child,.ir-topic-list button>span:first-child,
+#history-plan :is(.day-list small,.save-note,.eyebrow,.topic-timeline li,.study-reference-grid dd),
+.resource-card :is(.resource-topics,.resource-papers),.prep-save-revision {  line-height: 1.65; }
+.ir-room :is(.ir-kicker,.ir-room-header p:not(.ir-kicker),.ir-save-note,.ir-topic-footer>p),
+.ir-map figcaption,.ed-caption,.ed-note-section .ed-caption,.ed-topics span,
+.ca-story-meta,.ca-range,.ca-open-hint,.ca-source,.ca-story-content .ca-source-note,
+.resource-meta,.resource-editions,.consistency-note,.consistency-legend,
+.consistency-subjects label,.consistency-stats span,#consistency-detail {  line-height: 1.65; }
+.ir-room .ir-topic-content :is(h4,h5),#history-plan .deep-topic h4,.ed-note-section h4,.ca-story-content h4 {   margin-top: 1.5em; }
+.ed-takeaway p {  line-height: 1.75; max-width: 65ch; }
+/* Keep reference data readable without shrinking columns to fit. */
+.ir-comparison table,#history-plan table,.reading-table,body .wrap table {  line-height: 1.7; }
+.ir-comparison .ir-map { max-width: 240px; }
+@media(max-width:700px) {
+  html .tabs-wrap .tabs button {  padding: 10px 6px; }
+  .theme-picker select { max-width: 165px; }
+}
+@media(forced-colors:active) {
+  .tabs button.on,.ir-chapters [aria-current],.ir-topic-list [aria-current] { outline: 2px solid Highlight; }
+}

@@ -69,6 +69,7 @@ if (![...historical.values()].some(item => item.published < start)) {
 index.push(...[...historical.values()].filter(item => item.published >= start && item.published <= end));
 let prepared: Record<string, StudyNews> = {};
 try { prepared = JSON.parse(await readFile(".cache/monthly-news-prepared.json", "utf8")); } catch {}
+try { const shipped=JSON.parse(await readFile("public/data/monthly-current-affairs.json","utf8"));for(const month of shipped.months)for(const item of month.items)if(!prepared[item.id])prepared[item.id]=item;} catch {}
 const key = (process.env.GEMINI_API_KEY || process.env.GOOGLE_GEMINI_API_KEY || process.env.GOOGLE_GENERATIVE_AI_API_KEY || process.env.GOOGLE_AI_API_KEY || "").trim();
 if (!key) throw new Error("A Gemini key is required to prepare the archive.");
 const model = process.argv.find(arg => arg.startsWith("--model="))?.slice(8) || process.env.EDITORIAL_MODEL?.trim() || "gemini-3-flash-preview";
