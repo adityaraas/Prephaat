@@ -29,6 +29,9 @@ import { SURVEY_KEYS, signedGetUrl } from "./storage.ts";
 import { answerChat } from "./chat.ts";
 import { EditorialError, getEditorialAnalysis, getEditorialCatalog, getEditorialDiagramKey } from "./editorials.ts";
 
+import { getSyllabusTree, contentSyllabusTags, validateSyllabusTag, SyllabusError } from './syllabus.ts';
+import { syllabusOverview, saveTopicStatus, topicResources, answerTopicQuestion } from './syllabus-page.ts';
+
 const PORT = Number(process.env.PORT) || 3000;
 const publicDir = join(import.meta.dirname, "public");
 
@@ -57,6 +60,7 @@ const pages: Record<string, string> = {
   "/signup": "signup.html",
   "/home": "home.html",
   "/planner": "planner.html",
+  "/syllabus": "syllabus.html",
   "/analytics": "performance.html",
   "/performance": "performance.html",
   "/test": "home.html",
@@ -82,11 +86,17 @@ function redirect(res: ServerResponse, location: string, extraHeaders: Record<st
   res.end();
 }
 
-function readJson(req: IncomingMessage): Promise<unknown> {
+function readJson(req: IncomingMessage, maxBytes = Infinity): Promise<unknown> {
   return new Promise((resolve, reject) => {
     const chunks: Buffer[] = [];
-    req.on("data", (chunk: Buffer) => chunks.push(chunk));
+    let size=0, exceeded=false;
+    req.on("data", (chunk: Buffer) => {
+      size+=chunk.length;
+      if(size>maxBytes) { if(!exceeded) reject(new SyllabusError('Request is too large.',413));exceeded=true;chunks.length=0; }
+      else if(!exceeded) chunks.push(chunk);
+    });
     req.on("end", () => {
+      if(exceeded) return;
       try {
         const raw = Buffer.concat(chunks).toString("utf8");
         resolve(raw ? JSON.parse(raw) : {});
@@ -177,6 +187,31 @@ async function requireFaculty(req: IncomingMessage, res: ServerResponse) {
 const server = createServer(async (req, res) => {
   try {
     const url = new URL(req.url ?? "/", `http://${req.headers.host ?? "localhost"}`);
+    if (['/api/syllabus','/api/syllabus/status','/api/syllabus/resources','/api/syllabus/answer'].includes(url.pathname)) {
+      const account=await requireAccount(req,res);if(!account)return;
+      try {
+        if(req.method==='GET'&&url.pathname==='/api/syllabus')send(res,200,await syllabusOverview(account.id,url.searchParams.get('exam')));
+        else if(req.method==='GET'&&url.pathname==='/api/syllabus/resources')send(res,200,await topicResources(url.searchParams.get('node')??'',url.searchParams.get('kind')??''));
+        else if(req.method==='PUT'&&url.pathname==='/api/syllabus/status')send(res,200,await saveTopicStatus(account.id,asObject(await readJson(req,8192))));
+        else if(req.method==='POST'&&url.pathname==='/api/syllabus/answer')send(res,200,await answerTopicQuestion(account.id,asObject(await readJson(req,8192))));
+        else send(res,405,{error:'Method not allowed'});
+      } catch(error) {
+        if(error instanceof SyllabusError)send(res,error.status,{error:error.message});else throw error;
+      }
+      return;
+    }
+    if (req.method === 'GET' && ['/api/syllabus-tree','/api/syllabus-tags'].includes(url.pathname)) {
+      if (!(await requireAccount(req,res))) return;
+      try {
+        if(url.pathname==='/api/syllabus-tree') send(res,200,await getSyllabusTree(url.searchParams.get('exam')));
+        else send(res,200,{tags:Object.fromEntries(await contentSyllabusTags(url.searchParams.get('kind')??'',url.searchParams.getAll('id')))});
+      } catch(error) {
+        if(error instanceof SyllabusError) send(res,error.status,{error:error.message});
+        else throw error;
+      }
+      return;
+    }
+
 
     if (req.method === "GET" && url.pathname === "/api/auth/google") {
       if (!googleConfigured()) {
@@ -454,7 +489,7 @@ const server = createServer(async (req, res) => {
         if (text.length < 20) throw new Error("Write at least 20 characters of material");
         const allowed = ["current", "history", "geography", "polity", "economy", "science", "environment", "ethics"];
         if (!allowed.includes(subject)) throw new Error("Pick a valid subject");
-        const id = await addMaterial(account.id, subject, title, text, classTag);
+        const id = await addMaterial(account.id, subject, title, text, classTag, await validateSyllabusTag(body.syllabus_node_id));
         send(res, 201, { id });
       } catch (err) {
         send(res, 400, { error: err instanceof Error ? err.message : "Could not publish" });

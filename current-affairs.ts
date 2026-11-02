@@ -3,6 +3,7 @@ import { readFile } from "node:fs/promises";
 import { indiaDate, mergeCurrentArchive, syllabusFor, type StudyIssue, type StudyArchive } from "./current-affairs-study.ts";
 
 export type NewsItem = {
+  syllabus_node_id?: string | null;
   id: string;
   source: string;
   section: string;

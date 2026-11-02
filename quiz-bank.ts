@@ -1,4 +1,5 @@
 export type QuizQuestion = {
+  syllabus_node_id?: string | null;
   id: string;
   subject: string;
   prompt: string;
@@ -488,7 +489,7 @@ export const QUIZ_BANK: QuizQuestion[] = [
 ];
 
 export function publicQuestion(q: QuizQuestion) {
-  return { id: q.id, subject: q.subject, prompt: q.prompt, options: q.options };
+  return { id: q.id, subject: q.subject, prompt: q.prompt, options: q.options, syllabus_node_id:q.syllabus_node_id??null };
 }
 
 export function pickQuiz(subject: QuizSubject, count = 10) {

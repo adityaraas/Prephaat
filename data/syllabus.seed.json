@@ -1,0 +1,5173 @@
+{
+  "version": 1,
+  "verified_on": "2026-11-02",
+  "sources": {
+    "upsc-2026": {
+      "title": "UPSC Civil Services Examination Notice 05/2026-CSE, 4 February 2026",
+      "url": "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf",
+      "sections": "Appendix I, optional-subject list pp. 28–29; Section III pp. 32–37; optional syllabi pp. 37–159"
+    },
+    "bpsc-syllabus": {
+      "title": "BPSC Combined Competitive Examination syllabus (2017 Gazette hosted by BPSC)",
+      "url": "https://bpsc.bihar.gov.in/wp-content/uploads/2025/01/Syllabus-CC-Exam-Updated.pdf",
+      "sections": "General syllabus pp. 4–5; optional subject list p. 3; detailed optionals pp. 6–100",
+      "note": "Use for subject coverage, not the superseded optional-paper marks or examination scheme."
+    },
+    "bpsc-72": {
+      "title": "BPSC Integrated 72nd CCE advertisement, 5 May 2026",
+      "url": "https://bpsc.bihar.gov.in/wp-content/uploads/BPSC_content/Notices/Advertisement-Integrated-72th-CCE-PT_BPSC-20260505-p1euvo.pdf",
+      "sections": "Prelims coverage p. 6; current Mains paper structure and optional subject codes pp. 7–8",
+      "note": "Confirms Essay and a qualifying optional paper; supersedes the older scheme in the syllabus PDF."
+    }
+  },
+  "coverage": {
+    "core": "Official common Prelims and Mains clauses, organised into an editorial subject/topic/subtopic tree. Labels are concise paraphrases, not a verbatim reproduction.",
+    "optionals": "All official optional subject choices are indexed under their papers; specialised optional topic/subtopic expansion is intentionally not claimed.",
+    "bpsc_scheme": "Current paper names follow the 72nd CCE advertisement, not the superseded marks scheme in the older syllabus PDF."
+  },
+  "nodes": [
+    {
+      "id": "upsc",
+      "parent_id": null,
+      "node_type": "exam",
+      "name": "UPSC",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "Exam scheme"
+    },
+    {
+      "id": "upsc.prelims",
+      "parent_id": "upsc",
+      "node_type": "stage",
+      "name": "Prelims",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "Exam scheme"
+    },
+    {
+      "id": "upsc.mains",
+      "parent_id": "upsc",
+      "node_type": "stage",
+      "name": "Mains",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "Exam scheme"
+    },
+    {
+      "id": "bpsc",
+      "parent_id": null,
+      "node_type": "exam",
+      "name": "BPSC",
+      "display_order": 20,
+      "source_id": "bpsc-72",
+      "source_ref": "Exam scheme"
+    },
+    {
+      "id": "bpsc.prelims",
+      "parent_id": "bpsc",
+      "node_type": "stage",
+      "name": "Prelims",
+      "display_order": 10,
+      "source_id": "bpsc-72",
+      "source_ref": "Exam scheme"
+    },
+    {
+      "id": "bpsc.mains",
+      "parent_id": "bpsc",
+      "node_type": "stage",
+      "name": "Mains",
+      "display_order": 20,
+      "source_id": "bpsc-72",
+      "source_ref": "Exam scheme"
+    },
+    {
+      "id": "upsc.prelims.gs1",
+      "parent_id": "upsc.prelims",
+      "node_type": "paper",
+      "name": "GS Paper I",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.current-affairs",
+      "parent_id": "upsc.prelims.gs1",
+      "node_type": "subject",
+      "name": "Current affairs",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.current-affairs.current-events",
+      "parent_id": "upsc.prelims.gs1.current-affairs",
+      "node_type": "topic",
+      "name": "Current events",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.current-affairs.current-events.national-affairs",
+      "parent_id": "upsc.prelims.gs1.current-affairs.current-events",
+      "node_type": "subtopic",
+      "name": "National affairs",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.current-affairs.current-events.international-affairs",
+      "parent_id": "upsc.prelims.gs1.current-affairs.current-events",
+      "node_type": "subtopic",
+      "name": "International affairs",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.history",
+      "parent_id": "upsc.prelims.gs1",
+      "node_type": "subject",
+      "name": "History",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.history.indian-history",
+      "parent_id": "upsc.prelims.gs1.history",
+      "node_type": "topic",
+      "name": "Indian history",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.history.indian-history.history-of-india",
+      "parent_id": "upsc.prelims.gs1.history.indian-history",
+      "node_type": "subtopic",
+      "name": "History of India",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.history.national-movement",
+      "parent_id": "upsc.prelims.gs1.history",
+      "node_type": "topic",
+      "name": "National movement",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.history.national-movement.indian-freedom-movement",
+      "parent_id": "upsc.prelims.gs1.history.national-movement",
+      "node_type": "subtopic",
+      "name": "Indian freedom movement",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.geography",
+      "parent_id": "upsc.prelims.gs1",
+      "node_type": "subject",
+      "name": "Geography",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.geography.india-and-the-world",
+      "parent_id": "upsc.prelims.gs1.geography",
+      "node_type": "topic",
+      "name": "India and the world",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.geography.india-and-the-world.physical-geography",
+      "parent_id": "upsc.prelims.gs1.geography.india-and-the-world",
+      "node_type": "subtopic",
+      "name": "Physical geography",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.geography.india-and-the-world.social-geography",
+      "parent_id": "upsc.prelims.gs1.geography.india-and-the-world",
+      "node_type": "subtopic",
+      "name": "Social geography",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.geography.india-and-the-world.economic-geography",
+      "parent_id": "upsc.prelims.gs1.geography.india-and-the-world",
+      "node_type": "subtopic",
+      "name": "Economic geography",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.polity-and-governance",
+      "parent_id": "upsc.prelims.gs1",
+      "node_type": "subject",
+      "name": "Polity and governance",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.polity-and-governance.constitution-and-government",
+      "parent_id": "upsc.prelims.gs1.polity-and-governance",
+      "node_type": "topic",
+      "name": "Constitution and government",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.polity-and-governance.constitution-and-government.indian-constitution",
+      "parent_id": "upsc.prelims.gs1.polity-and-governance.constitution-and-government",
+      "node_type": "subtopic",
+      "name": "Indian Constitution",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.polity-and-governance.constitution-and-government.political-system",
+      "parent_id": "upsc.prelims.gs1.polity-and-governance.constitution-and-government",
+      "node_type": "subtopic",
+      "name": "Political system",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.polity-and-governance.local-government-and-policy",
+      "parent_id": "upsc.prelims.gs1.polity-and-governance",
+      "node_type": "topic",
+      "name": "Local government and policy",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.polity-and-governance.local-government-and-policy.panchayati-raj",
+      "parent_id": "upsc.prelims.gs1.polity-and-governance.local-government-and-policy",
+      "node_type": "subtopic",
+      "name": "Panchayati Raj",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.polity-and-governance.local-government-and-policy.public-policy",
+      "parent_id": "upsc.prelims.gs1.polity-and-governance.local-government-and-policy",
+      "node_type": "subtopic",
+      "name": "Public policy",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.polity-and-governance.local-government-and-policy.rights-issues",
+      "parent_id": "upsc.prelims.gs1.polity-and-governance.local-government-and-policy",
+      "node_type": "subtopic",
+      "name": "Rights issues",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.economy-and-social-development",
+      "parent_id": "upsc.prelims.gs1",
+      "node_type": "subject",
+      "name": "Economy and social development",
+      "display_order": 50,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.economy-and-social-development.development-and-inclusion",
+      "parent_id": "upsc.prelims.gs1.economy-and-social-development",
+      "node_type": "topic",
+      "name": "Development and inclusion",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.economy-and-social-development.development-and-inclusion.sustainable-development",
+      "parent_id": "upsc.prelims.gs1.economy-and-social-development.development-and-inclusion",
+      "node_type": "subtopic",
+      "name": "Sustainable development",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.economy-and-social-development.development-and-inclusion.poverty",
+      "parent_id": "upsc.prelims.gs1.economy-and-social-development.development-and-inclusion",
+      "node_type": "subtopic",
+      "name": "Poverty",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.economy-and-social-development.development-and-inclusion.inclusion",
+      "parent_id": "upsc.prelims.gs1.economy-and-social-development.development-and-inclusion",
+      "node_type": "subtopic",
+      "name": "Inclusion",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.economy-and-social-development.population-and-social-policy",
+      "parent_id": "upsc.prelims.gs1.economy-and-social-development",
+      "node_type": "topic",
+      "name": "Population and social policy",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.economy-and-social-development.population-and-social-policy.demographics",
+      "parent_id": "upsc.prelims.gs1.economy-and-social-development.population-and-social-policy",
+      "node_type": "subtopic",
+      "name": "Demographics",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.economy-and-social-development.population-and-social-policy.social-sector-initiatives",
+      "parent_id": "upsc.prelims.gs1.economy-and-social-development.population-and-social-policy",
+      "node_type": "subtopic",
+      "name": "Social-sector initiatives",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.environment",
+      "parent_id": "upsc.prelims.gs1",
+      "node_type": "subject",
+      "name": "Environment",
+      "display_order": 60,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.environment.environmental-awareness",
+      "parent_id": "upsc.prelims.gs1.environment",
+      "node_type": "topic",
+      "name": "Environmental awareness",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.environment.environmental-awareness.ecology",
+      "parent_id": "upsc.prelims.gs1.environment.environmental-awareness",
+      "node_type": "subtopic",
+      "name": "Ecology",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.environment.environmental-awareness.biodiversity",
+      "parent_id": "upsc.prelims.gs1.environment.environmental-awareness",
+      "node_type": "subtopic",
+      "name": "Biodiversity",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.environment.environmental-awareness.climate-change",
+      "parent_id": "upsc.prelims.gs1.environment.environmental-awareness",
+      "node_type": "subtopic",
+      "name": "Climate change",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.general-science",
+      "parent_id": "upsc.prelims.gs1",
+      "node_type": "subject",
+      "name": "General science",
+      "display_order": 70,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.general-science.general-scientific-awareness",
+      "parent_id": "upsc.prelims.gs1.general-science",
+      "node_type": "topic",
+      "name": "General scientific awareness",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.gs1.general-science.general-scientific-awareness.non-specialist-science",
+      "parent_id": "upsc.prelims.gs1.general-science.general-scientific-awareness",
+      "node_type": "subtopic",
+      "name": "Non-specialist science",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper I"
+    },
+    {
+      "id": "upsc.prelims.csat",
+      "parent_id": "upsc.prelims",
+      "node_type": "paper",
+      "name": "GS Paper II (CSAT)",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper II"
+    },
+    {
+      "id": "upsc.prelims.csat.comprehension-and-communication",
+      "parent_id": "upsc.prelims.csat",
+      "node_type": "subject",
+      "name": "Comprehension and communication",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper II"
+    },
+    {
+      "id": "upsc.prelims.csat.comprehension-and-communication.reading-and-communication",
+      "parent_id": "upsc.prelims.csat.comprehension-and-communication",
+      "node_type": "topic",
+      "name": "Reading and communication",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper II"
+    },
+    {
+      "id": "upsc.prelims.csat.comprehension-and-communication.reading-and-communication.passage-comprehension",
+      "parent_id": "upsc.prelims.csat.comprehension-and-communication.reading-and-communication",
+      "node_type": "subtopic",
+      "name": "Passage comprehension",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper II"
+    },
+    {
+      "id": "upsc.prelims.csat.comprehension-and-communication.reading-and-communication.interpersonal-skills",
+      "parent_id": "upsc.prelims.csat.comprehension-and-communication.reading-and-communication",
+      "node_type": "subtopic",
+      "name": "Interpersonal skills",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper II"
+    },
+    {
+      "id": "upsc.prelims.csat.comprehension-and-communication.reading-and-communication.communication-skills",
+      "parent_id": "upsc.prelims.csat.comprehension-and-communication.reading-and-communication",
+      "node_type": "subtopic",
+      "name": "Communication skills",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper II"
+    },
+    {
+      "id": "upsc.prelims.csat.reasoning-and-aptitude",
+      "parent_id": "upsc.prelims.csat",
+      "node_type": "subject",
+      "name": "Reasoning and aptitude",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper II"
+    },
+    {
+      "id": "upsc.prelims.csat.reasoning-and-aptitude.reasoning",
+      "parent_id": "upsc.prelims.csat.reasoning-and-aptitude",
+      "node_type": "topic",
+      "name": "Reasoning",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper II"
+    },
+    {
+      "id": "upsc.prelims.csat.reasoning-and-aptitude.reasoning.logical-reasoning",
+      "parent_id": "upsc.prelims.csat.reasoning-and-aptitude.reasoning",
+      "node_type": "subtopic",
+      "name": "Logical reasoning",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper II"
+    },
+    {
+      "id": "upsc.prelims.csat.reasoning-and-aptitude.reasoning.analytical-ability",
+      "parent_id": "upsc.prelims.csat.reasoning-and-aptitude.reasoning",
+      "node_type": "subtopic",
+      "name": "Analytical ability",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper II"
+    },
+    {
+      "id": "upsc.prelims.csat.reasoning-and-aptitude.decisions-and-ability",
+      "parent_id": "upsc.prelims.csat.reasoning-and-aptitude",
+      "node_type": "topic",
+      "name": "Decisions and ability",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper II"
+    },
+    {
+      "id": "upsc.prelims.csat.reasoning-and-aptitude.decisions-and-ability.decision-making",
+      "parent_id": "upsc.prelims.csat.reasoning-and-aptitude.decisions-and-ability",
+      "node_type": "subtopic",
+      "name": "Decision-making",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper II"
+    },
+    {
+      "id": "upsc.prelims.csat.reasoning-and-aptitude.decisions-and-ability.problem-solving",
+      "parent_id": "upsc.prelims.csat.reasoning-and-aptitude.decisions-and-ability",
+      "node_type": "subtopic",
+      "name": "Problem-solving",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper II"
+    },
+    {
+      "id": "upsc.prelims.csat.reasoning-and-aptitude.decisions-and-ability.general-mental-ability",
+      "parent_id": "upsc.prelims.csat.reasoning-and-aptitude.decisions-and-ability",
+      "node_type": "subtopic",
+      "name": "General mental ability",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper II"
+    },
+    {
+      "id": "upsc.prelims.csat.numeracy-and-data",
+      "parent_id": "upsc.prelims.csat",
+      "node_type": "subject",
+      "name": "Numeracy and data",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper II"
+    },
+    {
+      "id": "upsc.prelims.csat.numeracy-and-data.class-x-numeracy",
+      "parent_id": "upsc.prelims.csat.numeracy-and-data",
+      "node_type": "topic",
+      "name": "Class X numeracy",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper II"
+    },
+    {
+      "id": "upsc.prelims.csat.numeracy-and-data.class-x-numeracy.numbers-and-relationships",
+      "parent_id": "upsc.prelims.csat.numeracy-and-data.class-x-numeracy",
+      "node_type": "subtopic",
+      "name": "Numbers and relationships",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper II"
+    },
+    {
+      "id": "upsc.prelims.csat.numeracy-and-data.class-x-numeracy.orders-of-magnitude",
+      "parent_id": "upsc.prelims.csat.numeracy-and-data.class-x-numeracy",
+      "node_type": "subtopic",
+      "name": "Orders of magnitude",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper II"
+    },
+    {
+      "id": "upsc.prelims.csat.numeracy-and-data.class-x-data-interpretation",
+      "parent_id": "upsc.prelims.csat.numeracy-and-data",
+      "node_type": "topic",
+      "name": "Class X data interpretation",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper II"
+    },
+    {
+      "id": "upsc.prelims.csat.numeracy-and-data.class-x-data-interpretation.charts",
+      "parent_id": "upsc.prelims.csat.numeracy-and-data.class-x-data-interpretation",
+      "node_type": "subtopic",
+      "name": "Charts",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper II"
+    },
+    {
+      "id": "upsc.prelims.csat.numeracy-and-data.class-x-data-interpretation.graphs",
+      "parent_id": "upsc.prelims.csat.numeracy-and-data.class-x-data-interpretation",
+      "node_type": "subtopic",
+      "name": "Graphs",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper II"
+    },
+    {
+      "id": "upsc.prelims.csat.numeracy-and-data.class-x-data-interpretation.tables",
+      "parent_id": "upsc.prelims.csat.numeracy-and-data.class-x-data-interpretation",
+      "node_type": "subtopic",
+      "name": "Tables",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper II"
+    },
+    {
+      "id": "upsc.prelims.csat.numeracy-and-data.class-x-data-interpretation.data-sufficiency",
+      "parent_id": "upsc.prelims.csat.numeracy-and-data.class-x-data-interpretation",
+      "node_type": "subtopic",
+      "name": "Data sufficiency",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 32, Part A, Paper II"
+    },
+    {
+      "id": "upsc.mains.language-a",
+      "parent_id": "upsc.mains",
+      "node_type": "paper",
+      "name": "Paper A: Indian language (qualifying)",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 33, qualifying language papers"
+    },
+    {
+      "id": "upsc.mains.language-a.selected-indian-language",
+      "parent_id": "upsc.mains.language-a",
+      "node_type": "subject",
+      "name": "Selected Indian language",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 33, qualifying language papers"
+    },
+    {
+      "id": "upsc.mains.language-a.selected-indian-language.language-skills",
+      "parent_id": "upsc.mains.language-a.selected-indian-language",
+      "node_type": "topic",
+      "name": "Language skills",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 33, qualifying language papers"
+    },
+    {
+      "id": "upsc.mains.language-a.selected-indian-language.language-skills.passage-comprehension",
+      "parent_id": "upsc.mains.language-a.selected-indian-language.language-skills",
+      "node_type": "subtopic",
+      "name": "Passage comprehension",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 33, qualifying language papers"
+    },
+    {
+      "id": "upsc.mains.language-a.selected-indian-language.language-skills.precis-writing",
+      "parent_id": "upsc.mains.language-a.selected-indian-language.language-skills",
+      "node_type": "subtopic",
+      "name": "Precis writing",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 33, qualifying language papers"
+    },
+    {
+      "id": "upsc.mains.language-a.selected-indian-language.language-skills.usage-and-vocabulary",
+      "parent_id": "upsc.mains.language-a.selected-indian-language.language-skills",
+      "node_type": "subtopic",
+      "name": "Usage and vocabulary",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 33, qualifying language papers"
+    },
+    {
+      "id": "upsc.mains.language-a.selected-indian-language.language-skills.short-essays",
+      "parent_id": "upsc.mains.language-a.selected-indian-language.language-skills",
+      "node_type": "subtopic",
+      "name": "Short essays",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 33, qualifying language papers"
+    },
+    {
+      "id": "upsc.mains.language-a.selected-indian-language.translation",
+      "parent_id": "upsc.mains.language-a.selected-indian-language",
+      "node_type": "topic",
+      "name": "Translation",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 33, qualifying language papers"
+    },
+    {
+      "id": "upsc.mains.language-a.selected-indian-language.translation.english-to-the-selected-language",
+      "parent_id": "upsc.mains.language-a.selected-indian-language.translation",
+      "node_type": "subtopic",
+      "name": "English to the selected language",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 33, qualifying language papers"
+    },
+    {
+      "id": "upsc.mains.language-a.selected-indian-language.translation.selected-language-to-english",
+      "parent_id": "upsc.mains.language-a.selected-indian-language.translation",
+      "node_type": "subtopic",
+      "name": "Selected language to English",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 33, qualifying language papers"
+    },
+    {
+      "id": "upsc.mains.english-b",
+      "parent_id": "upsc.mains",
+      "node_type": "paper",
+      "name": "Paper B: English (qualifying)",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 33, qualifying language papers"
+    },
+    {
+      "id": "upsc.mains.english-b.english",
+      "parent_id": "upsc.mains.english-b",
+      "node_type": "subject",
+      "name": "English",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 33, qualifying language papers"
+    },
+    {
+      "id": "upsc.mains.english-b.english.language-skills",
+      "parent_id": "upsc.mains.english-b.english",
+      "node_type": "topic",
+      "name": "Language skills",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 33, qualifying language papers"
+    },
+    {
+      "id": "upsc.mains.english-b.english.language-skills.passage-comprehension",
+      "parent_id": "upsc.mains.english-b.english.language-skills",
+      "node_type": "subtopic",
+      "name": "Passage comprehension",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 33, qualifying language papers"
+    },
+    {
+      "id": "upsc.mains.english-b.english.language-skills.precis-writing",
+      "parent_id": "upsc.mains.english-b.english.language-skills",
+      "node_type": "subtopic",
+      "name": "Precis writing",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 33, qualifying language papers"
+    },
+    {
+      "id": "upsc.mains.english-b.english.language-skills.usage-and-vocabulary",
+      "parent_id": "upsc.mains.english-b.english.language-skills",
+      "node_type": "subtopic",
+      "name": "Usage and vocabulary",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 33, qualifying language papers"
+    },
+    {
+      "id": "upsc.mains.english-b.english.language-skills.short-essays",
+      "parent_id": "upsc.mains.english-b.english.language-skills",
+      "node_type": "subtopic",
+      "name": "Short essays",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 33, qualifying language papers"
+    },
+    {
+      "id": "upsc.mains.essay",
+      "parent_id": "upsc.mains",
+      "node_type": "paper",
+      "name": "Essay (Paper I)",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 33, Paper I"
+    },
+    {
+      "id": "upsc.mains.essay.essay",
+      "parent_id": "upsc.mains.essay",
+      "node_type": "subject",
+      "name": "Essay",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 33, Paper I"
+    },
+    {
+      "id": "upsc.mains.essay.essay.essay-writing",
+      "parent_id": "upsc.mains.essay.essay",
+      "node_type": "topic",
+      "name": "Essay writing",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 33, Paper I"
+    },
+    {
+      "id": "upsc.mains.essay.essay.essay-writing.relevance-to-the-chosen-topic",
+      "parent_id": "upsc.mains.essay.essay.essay-writing",
+      "node_type": "subtopic",
+      "name": "Relevance to the chosen topic",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 33, Paper I"
+    },
+    {
+      "id": "upsc.mains.essay.essay.essay-writing.orderly-presentation-of-ideas",
+      "parent_id": "upsc.mains.essay.essay.essay-writing",
+      "node_type": "subtopic",
+      "name": "Orderly presentation of ideas",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 33, Paper I"
+    },
+    {
+      "id": "upsc.mains.essay.essay.essay-writing.concise-writing",
+      "parent_id": "upsc.mains.essay.essay.essay-writing",
+      "node_type": "subtopic",
+      "name": "Concise writing",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 33, Paper I"
+    },
+    {
+      "id": "upsc.mains.essay.essay.essay-writing.effective-expression",
+      "parent_id": "upsc.mains.essay.essay.essay-writing",
+      "node_type": "subtopic",
+      "name": "Effective expression",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 33, Paper I"
+    },
+    {
+      "id": "upsc.mains.gs1",
+      "parent_id": "upsc.mains",
+      "node_type": "paper",
+      "name": "GS1: Heritage, history, geography and society",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.art-and-culture",
+      "parent_id": "upsc.mains.gs1",
+      "node_type": "subject",
+      "name": "Art and culture",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.art-and-culture.indian-cultural-heritage",
+      "parent_id": "upsc.mains.gs1.art-and-culture",
+      "node_type": "topic",
+      "name": "Indian cultural heritage",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.art-and-culture.indian-cultural-heritage.art-forms",
+      "parent_id": "upsc.mains.gs1.art-and-culture.indian-cultural-heritage",
+      "node_type": "subtopic",
+      "name": "Art forms",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.art-and-culture.indian-cultural-heritage.literature",
+      "parent_id": "upsc.mains.gs1.art-and-culture.indian-cultural-heritage",
+      "node_type": "subtopic",
+      "name": "Literature",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.art-and-culture.indian-cultural-heritage.architecture",
+      "parent_id": "upsc.mains.gs1.art-and-culture.indian-cultural-heritage",
+      "node_type": "subtopic",
+      "name": "Architecture",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.history",
+      "parent_id": "upsc.mains.gs1",
+      "node_type": "subject",
+      "name": "History",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.history.modern-india",
+      "parent_id": "upsc.mains.gs1.history",
+      "node_type": "topic",
+      "name": "Modern India",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.history.modern-india.events-since-the-mid-eighteenth-century",
+      "parent_id": "upsc.mains.gs1.history.modern-india",
+      "node_type": "subtopic",
+      "name": "Events since the mid-eighteenth century",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.history.modern-india.important-personalities-and-issues",
+      "parent_id": "upsc.mains.gs1.history.modern-india",
+      "node_type": "subtopic",
+      "name": "Important personalities and issues",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.history.freedom-struggle",
+      "parent_id": "upsc.mains.gs1.history",
+      "node_type": "topic",
+      "name": "Freedom struggle",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.history.freedom-struggle.stages-of-the-struggle",
+      "parent_id": "upsc.mains.gs1.history.freedom-struggle",
+      "node_type": "subtopic",
+      "name": "Stages of the struggle",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.history.freedom-struggle.contributors-from-different-regions",
+      "parent_id": "upsc.mains.gs1.history.freedom-struggle",
+      "node_type": "subtopic",
+      "name": "Contributors from different regions",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.history.independent-india",
+      "parent_id": "upsc.mains.gs1.history",
+      "node_type": "topic",
+      "name": "Independent India",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.history.independent-india.consolidation",
+      "parent_id": "upsc.mains.gs1.history.independent-india",
+      "node_type": "subtopic",
+      "name": "Consolidation",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.history.independent-india.reorganisation",
+      "parent_id": "upsc.mains.gs1.history.independent-india",
+      "node_type": "subtopic",
+      "name": "Reorganisation",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.history.world-history-since-the-eighteenth-century",
+      "parent_id": "upsc.mains.gs1.history",
+      "node_type": "topic",
+      "name": "World history since the eighteenth century",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.history.world-history-since-the-eighteenth-century.industrial-revolution",
+      "parent_id": "upsc.mains.gs1.history.world-history-since-the-eighteenth-century",
+      "node_type": "subtopic",
+      "name": "Industrial revolution",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.history.world-history-since-the-eighteenth-century.world-wars",
+      "parent_id": "upsc.mains.gs1.history.world-history-since-the-eighteenth-century",
+      "node_type": "subtopic",
+      "name": "World wars",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.history.world-history-since-the-eighteenth-century.national-boundaries",
+      "parent_id": "upsc.mains.gs1.history.world-history-since-the-eighteenth-century",
+      "node_type": "subtopic",
+      "name": "National boundaries",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.history.world-history-since-the-eighteenth-century.colonisation-and-decolonisation",
+      "parent_id": "upsc.mains.gs1.history.world-history-since-the-eighteenth-century",
+      "node_type": "subtopic",
+      "name": "Colonisation and decolonisation",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.history.world-history-since-the-eighteenth-century.communism-capitalism-and-socialism",
+      "parent_id": "upsc.mains.gs1.history.world-history-since-the-eighteenth-century",
+      "node_type": "subtopic",
+      "name": "Communism, capitalism and socialism",
+      "display_order": 50,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.society",
+      "parent_id": "upsc.mains.gs1",
+      "node_type": "subject",
+      "name": "Society",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.society.indian-society",
+      "parent_id": "upsc.mains.gs1.society",
+      "node_type": "topic",
+      "name": "Indian society",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.society.indian-society.social-features",
+      "parent_id": "upsc.mains.gs1.society.indian-society",
+      "node_type": "subtopic",
+      "name": "Social features",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.society.indian-society.diversity",
+      "parent_id": "upsc.mains.gs1.society.indian-society",
+      "node_type": "subtopic",
+      "name": "Diversity",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.society.women-and-development",
+      "parent_id": "upsc.mains.gs1.society",
+      "node_type": "topic",
+      "name": "Women and development",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.society.women-and-development.women-and-organisations",
+      "parent_id": "upsc.mains.gs1.society.women-and-development",
+      "node_type": "subtopic",
+      "name": "Women and organisations",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.society.women-and-development.population-issues",
+      "parent_id": "upsc.mains.gs1.society.women-and-development",
+      "node_type": "subtopic",
+      "name": "Population issues",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.society.women-and-development.poverty-and-development",
+      "parent_id": "upsc.mains.gs1.society.women-and-development",
+      "node_type": "subtopic",
+      "name": "Poverty and development",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.society.women-and-development.urbanisation-and-remedies",
+      "parent_id": "upsc.mains.gs1.society.women-and-development",
+      "node_type": "subtopic",
+      "name": "Urbanisation and remedies",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.society.social-change",
+      "parent_id": "upsc.mains.gs1.society",
+      "node_type": "topic",
+      "name": "Social change",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.society.social-change.globalisation",
+      "parent_id": "upsc.mains.gs1.society.social-change",
+      "node_type": "subtopic",
+      "name": "Globalisation",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.society.social-change.social-empowerment",
+      "parent_id": "upsc.mains.gs1.society.social-change",
+      "node_type": "subtopic",
+      "name": "Social empowerment",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.society.social-change.communalism",
+      "parent_id": "upsc.mains.gs1.society.social-change",
+      "node_type": "subtopic",
+      "name": "Communalism",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.society.social-change.regionalism",
+      "parent_id": "upsc.mains.gs1.society.social-change",
+      "node_type": "subtopic",
+      "name": "Regionalism",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.society.social-change.secularism",
+      "parent_id": "upsc.mains.gs1.society.social-change",
+      "node_type": "subtopic",
+      "name": "Secularism",
+      "display_order": 50,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.geography",
+      "parent_id": "upsc.mains.gs1",
+      "node_type": "subject",
+      "name": "Geography",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.geography.physical-geography",
+      "parent_id": "upsc.mains.gs1.geography",
+      "node_type": "topic",
+      "name": "Physical geography",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.geography.physical-geography.world-physical-features",
+      "parent_id": "upsc.mains.gs1.geography.physical-geography",
+      "node_type": "subtopic",
+      "name": "World physical features",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.geography.resources-and-industry",
+      "parent_id": "upsc.mains.gs1.geography",
+      "node_type": "topic",
+      "name": "Resources and industry",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.geography.resources-and-industry.world-resource-distribution",
+      "parent_id": "upsc.mains.gs1.geography.resources-and-industry",
+      "node_type": "subtopic",
+      "name": "World resource distribution",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.geography.resources-and-industry.south-asian-resources",
+      "parent_id": "upsc.mains.gs1.geography.resources-and-industry",
+      "node_type": "subtopic",
+      "name": "South Asian resources",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.geography.resources-and-industry.location-of-primary-secondary-and-tertiary-industries",
+      "parent_id": "upsc.mains.gs1.geography.resources-and-industry",
+      "node_type": "subtopic",
+      "name": "Location of primary, secondary and tertiary industries",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.geography.geophysical-processes",
+      "parent_id": "upsc.mains.gs1.geography",
+      "node_type": "topic",
+      "name": "Geophysical processes",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.geography.geophysical-processes.earthquakes",
+      "parent_id": "upsc.mains.gs1.geography.geophysical-processes",
+      "node_type": "subtopic",
+      "name": "Earthquakes",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.geography.geophysical-processes.tsunamis",
+      "parent_id": "upsc.mains.gs1.geography.geophysical-processes",
+      "node_type": "subtopic",
+      "name": "Tsunamis",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.geography.geophysical-processes.volcanism",
+      "parent_id": "upsc.mains.gs1.geography.geophysical-processes",
+      "node_type": "subtopic",
+      "name": "Volcanism",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.geography.geophysical-processes.cyclones",
+      "parent_id": "upsc.mains.gs1.geography.geophysical-processes",
+      "node_type": "subtopic",
+      "name": "Cyclones",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.geography.changing-geography",
+      "parent_id": "upsc.mains.gs1.geography",
+      "node_type": "topic",
+      "name": "Changing geography",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.geography.changing-geography.water-bodies-and-ice-caps",
+      "parent_id": "upsc.mains.gs1.geography.changing-geography",
+      "node_type": "subtopic",
+      "name": "Water bodies and ice caps",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.geography.changing-geography.changes-in-flora-and-fauna",
+      "parent_id": "upsc.mains.gs1.geography.changing-geography",
+      "node_type": "subtopic",
+      "name": "Changes in flora and fauna",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs1.geography.changing-geography.effects-of-geographical-changes",
+      "parent_id": "upsc.mains.gs1.geography.changing-geography",
+      "node_type": "subtopic",
+      "name": "Effects of geographical changes",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 33–34, Paper II"
+    },
+    {
+      "id": "upsc.mains.gs2",
+      "parent_id": "upsc.mains",
+      "node_type": "paper",
+      "name": "GS2: Constitution, governance, social justice and international relations",
+      "display_order": 50,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.polity",
+      "parent_id": "upsc.mains.gs2",
+      "node_type": "subject",
+      "name": "Polity",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.polity.constitution",
+      "parent_id": "upsc.mains.gs2.polity",
+      "node_type": "topic",
+      "name": "Constitution",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.polity.constitution.historical-origins",
+      "parent_id": "upsc.mains.gs2.polity.constitution",
+      "node_type": "subtopic",
+      "name": "Historical origins",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.polity.constitution.evolution-and-features",
+      "parent_id": "upsc.mains.gs2.polity.constitution",
+      "node_type": "subtopic",
+      "name": "Evolution and features",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.polity.constitution.amendments-and-provisions",
+      "parent_id": "upsc.mains.gs2.polity.constitution",
+      "node_type": "subtopic",
+      "name": "Amendments and provisions",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.polity.constitution.basic-structure",
+      "parent_id": "upsc.mains.gs2.polity.constitution",
+      "node_type": "subtopic",
+      "name": "Basic structure",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.polity.constitution.comparison-with-other-constitutions",
+      "parent_id": "upsc.mains.gs2.polity.constitution",
+      "node_type": "subtopic",
+      "name": "Comparison with other constitutions",
+      "display_order": 50,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.polity.federalism",
+      "parent_id": "upsc.mains.gs2.polity",
+      "node_type": "topic",
+      "name": "Federalism",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.polity.federalism.union-and-state-responsibilities",
+      "parent_id": "upsc.mains.gs2.polity.federalism",
+      "node_type": "subtopic",
+      "name": "Union and State responsibilities",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.polity.federalism.federal-challenges",
+      "parent_id": "upsc.mains.gs2.polity.federalism",
+      "node_type": "subtopic",
+      "name": "Federal challenges",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.polity.federalism.local-devolution-of-power-and-finance",
+      "parent_id": "upsc.mains.gs2.polity.federalism",
+      "node_type": "subtopic",
+      "name": "Local devolution of power and finance",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.polity.institutions-and-separation-of-powers",
+      "parent_id": "upsc.mains.gs2.polity",
+      "node_type": "topic",
+      "name": "Institutions and separation of powers",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.polity.institutions-and-separation-of-powers.dispute-redressal",
+      "parent_id": "upsc.mains.gs2.polity.institutions-and-separation-of-powers",
+      "node_type": "subtopic",
+      "name": "Dispute redressal",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.polity.institutions-and-separation-of-powers.parliament-and-state-legislatures",
+      "parent_id": "upsc.mains.gs2.polity.institutions-and-separation-of-powers",
+      "node_type": "subtopic",
+      "name": "Parliament and State legislatures",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.polity.institutions-and-separation-of-powers.legislative-privileges-and-business",
+      "parent_id": "upsc.mains.gs2.polity.institutions-and-separation-of-powers",
+      "node_type": "subtopic",
+      "name": "Legislative privileges and business",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.polity.institutions-and-separation-of-powers.executive-structure",
+      "parent_id": "upsc.mains.gs2.polity.institutions-and-separation-of-powers",
+      "node_type": "subtopic",
+      "name": "Executive structure",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.polity.institutions-and-separation-of-powers.judiciary",
+      "parent_id": "upsc.mains.gs2.polity.institutions-and-separation-of-powers",
+      "node_type": "subtopic",
+      "name": "Judiciary",
+      "display_order": 50,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.polity.institutions-and-separation-of-powers.pressure-groups",
+      "parent_id": "upsc.mains.gs2.polity.institutions-and-separation-of-powers",
+      "node_type": "subtopic",
+      "name": "Pressure groups",
+      "display_order": 60,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.polity.elections-and-bodies",
+      "parent_id": "upsc.mains.gs2.polity",
+      "node_type": "topic",
+      "name": "Elections and bodies",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.polity.elections-and-bodies.representation-of-the-people-act",
+      "parent_id": "upsc.mains.gs2.polity.elections-and-bodies",
+      "node_type": "subtopic",
+      "name": "Representation of the People Act",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.polity.elections-and-bodies.constitutional-appointments-and-bodies",
+      "parent_id": "upsc.mains.gs2.polity.elections-and-bodies",
+      "node_type": "subtopic",
+      "name": "Constitutional appointments and bodies",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.polity.elections-and-bodies.statutory-and-regulatory-bodies",
+      "parent_id": "upsc.mains.gs2.polity.elections-and-bodies",
+      "node_type": "subtopic",
+      "name": "Statutory and regulatory bodies",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.polity.elections-and-bodies.quasi-judicial-institutions",
+      "parent_id": "upsc.mains.gs2.polity.elections-and-bodies",
+      "node_type": "subtopic",
+      "name": "Quasi-judicial institutions",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.governance",
+      "parent_id": "upsc.mains.gs2",
+      "node_type": "subject",
+      "name": "Governance",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.governance.development-policy",
+      "parent_id": "upsc.mains.gs2.governance",
+      "node_type": "topic",
+      "name": "Development policy",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.governance.development-policy.policy-design-and-implementation",
+      "parent_id": "upsc.mains.gs2.governance.development-policy",
+      "node_type": "subtopic",
+      "name": "Policy design and implementation",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.governance.development-policy.ngos-and-self-help-groups",
+      "parent_id": "upsc.mains.gs2.governance.development-policy",
+      "node_type": "subtopic",
+      "name": "NGOs and self-help groups",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.governance.development-policy.associations-charities-and-donors",
+      "parent_id": "upsc.mains.gs2.governance.development-policy",
+      "node_type": "subtopic",
+      "name": "Associations, charities and donors",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.governance.development-policy.institutional-stakeholders",
+      "parent_id": "upsc.mains.gs2.governance.development-policy",
+      "node_type": "subtopic",
+      "name": "Institutional stakeholders",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.governance.accountability",
+      "parent_id": "upsc.mains.gs2.governance",
+      "node_type": "topic",
+      "name": "Accountability",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.governance.accountability.transparency",
+      "parent_id": "upsc.mains.gs2.governance.accountability",
+      "node_type": "subtopic",
+      "name": "Transparency",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.governance.accountability.e-governance-models-and-limitations",
+      "parent_id": "upsc.mains.gs2.governance.accountability",
+      "node_type": "subtopic",
+      "name": "E-governance models and limitations",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.governance.accountability.citizens-charters",
+      "parent_id": "upsc.mains.gs2.governance.accountability",
+      "node_type": "subtopic",
+      "name": "Citizens charters",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.governance.accountability.institutional-accountability-measures",
+      "parent_id": "upsc.mains.gs2.governance.accountability",
+      "node_type": "subtopic",
+      "name": "Institutional accountability measures",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.governance.civil-services",
+      "parent_id": "upsc.mains.gs2.governance",
+      "node_type": "topic",
+      "name": "Civil services",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.governance.civil-services.role-in-a-democracy",
+      "parent_id": "upsc.mains.gs2.governance.civil-services",
+      "node_type": "subtopic",
+      "name": "Role in a democracy",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.social-justice",
+      "parent_id": "upsc.mains.gs2",
+      "node_type": "subject",
+      "name": "Social justice",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.social-justice.welfare-and-protection",
+      "parent_id": "upsc.mains.gs2.social-justice",
+      "node_type": "topic",
+      "name": "Welfare and protection",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.social-justice.welfare-and-protection.central-and-state-welfare-schemes",
+      "parent_id": "upsc.mains.gs2.social-justice.welfare-and-protection",
+      "node_type": "subtopic",
+      "name": "Central and State welfare schemes",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.social-justice.welfare-and-protection.vulnerable-groups",
+      "parent_id": "upsc.mains.gs2.social-justice.welfare-and-protection",
+      "node_type": "subtopic",
+      "name": "Vulnerable groups",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.social-justice.welfare-and-protection.protective-laws-and-institutions",
+      "parent_id": "upsc.mains.gs2.social-justice.welfare-and-protection",
+      "node_type": "subtopic",
+      "name": "Protective laws and institutions",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.social-justice.social-services",
+      "parent_id": "upsc.mains.gs2.social-justice",
+      "node_type": "topic",
+      "name": "Social services",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.social-justice.social-services.health",
+      "parent_id": "upsc.mains.gs2.social-justice.social-services",
+      "node_type": "subtopic",
+      "name": "Health",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.social-justice.social-services.education",
+      "parent_id": "upsc.mains.gs2.social-justice.social-services",
+      "node_type": "subtopic",
+      "name": "Education",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.social-justice.social-services.human-resources",
+      "parent_id": "upsc.mains.gs2.social-justice.social-services",
+      "node_type": "subtopic",
+      "name": "Human resources",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.social-justice.deprivation",
+      "parent_id": "upsc.mains.gs2.social-justice",
+      "node_type": "topic",
+      "name": "Deprivation",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.social-justice.deprivation.poverty",
+      "parent_id": "upsc.mains.gs2.social-justice.deprivation",
+      "node_type": "subtopic",
+      "name": "Poverty",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.social-justice.deprivation.hunger",
+      "parent_id": "upsc.mains.gs2.social-justice.deprivation",
+      "node_type": "subtopic",
+      "name": "Hunger",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.international-relations",
+      "parent_id": "upsc.mains.gs2",
+      "node_type": "subject",
+      "name": "International relations",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.international-relations.india-and-its-neighbourhood",
+      "parent_id": "upsc.mains.gs2.international-relations",
+      "node_type": "topic",
+      "name": "India and its neighbourhood",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.international-relations.india-and-its-neighbourhood.neighbourhood-relations",
+      "parent_id": "upsc.mains.gs2.international-relations.india-and-its-neighbourhood",
+      "node_type": "subtopic",
+      "name": "Neighbourhood relations",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.international-relations.international-cooperation",
+      "parent_id": "upsc.mains.gs2.international-relations",
+      "node_type": "topic",
+      "name": "International cooperation",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.international-relations.international-cooperation.bilateral-agreements",
+      "parent_id": "upsc.mains.gs2.international-relations.international-cooperation",
+      "node_type": "subtopic",
+      "name": "Bilateral agreements",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.international-relations.international-cooperation.regional-and-global-groupings",
+      "parent_id": "upsc.mains.gs2.international-relations.international-cooperation",
+      "node_type": "subtopic",
+      "name": "Regional and global groupings",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.international-relations.international-cooperation.indian-interests",
+      "parent_id": "upsc.mains.gs2.international-relations.international-cooperation",
+      "node_type": "subtopic",
+      "name": "Indian interests",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.international-relations.external-influences",
+      "parent_id": "upsc.mains.gs2.international-relations",
+      "node_type": "topic",
+      "name": "External influences",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.international-relations.external-influences.foreign-policies-and-politics-affecting-india",
+      "parent_id": "upsc.mains.gs2.international-relations.external-influences",
+      "node_type": "subtopic",
+      "name": "Foreign policies and politics affecting India",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.international-relations.external-influences.indian-diaspora",
+      "parent_id": "upsc.mains.gs2.international-relations.external-influences",
+      "node_type": "subtopic",
+      "name": "Indian diaspora",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.international-relations.international-institutions",
+      "parent_id": "upsc.mains.gs2.international-relations",
+      "node_type": "topic",
+      "name": "International institutions",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.international-relations.international-institutions.structure-and-mandate",
+      "parent_id": "upsc.mains.gs2.international-relations.international-institutions",
+      "node_type": "subtopic",
+      "name": "Structure and mandate",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs2.international-relations.international-institutions.agencies-and-forums",
+      "parent_id": "upsc.mains.gs2.international-relations.international-institutions",
+      "node_type": "subtopic",
+      "name": "Agencies and forums",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 34–35, Paper III"
+    },
+    {
+      "id": "upsc.mains.gs3",
+      "parent_id": "upsc.mains",
+      "node_type": "paper",
+      "name": "GS3: Economy, technology, environment, security and disasters",
+      "display_order": 60,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.economy",
+      "parent_id": "upsc.mains.gs3",
+      "node_type": "subject",
+      "name": "Economy",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.economy.economic-development",
+      "parent_id": "upsc.mains.gs3.economy",
+      "node_type": "topic",
+      "name": "Economic development",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.economy.economic-development.planning",
+      "parent_id": "upsc.mains.gs3.economy.economic-development",
+      "node_type": "subtopic",
+      "name": "Planning",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.economy.economic-development.resource-mobilisation",
+      "parent_id": "upsc.mains.gs3.economy.economic-development",
+      "node_type": "subtopic",
+      "name": "Resource mobilisation",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.economy.economic-development.growth",
+      "parent_id": "upsc.mains.gs3.economy.economic-development",
+      "node_type": "subtopic",
+      "name": "Growth",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.economy.economic-development.development",
+      "parent_id": "upsc.mains.gs3.economy.economic-development",
+      "node_type": "subtopic",
+      "name": "Development",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.economy.economic-development.employment",
+      "parent_id": "upsc.mains.gs3.economy.economic-development",
+      "node_type": "subtopic",
+      "name": "Employment",
+      "display_order": 50,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.economy.inclusion-and-public-finance",
+      "parent_id": "upsc.mains.gs3.economy",
+      "node_type": "topic",
+      "name": "Inclusion and public finance",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.economy.inclusion-and-public-finance.inclusive-growth",
+      "parent_id": "upsc.mains.gs3.economy.inclusion-and-public-finance",
+      "node_type": "subtopic",
+      "name": "Inclusive growth",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.economy.inclusion-and-public-finance.government-budgeting",
+      "parent_id": "upsc.mains.gs3.economy.inclusion-and-public-finance",
+      "node_type": "subtopic",
+      "name": "Government budgeting",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.economy.industry-and-investment",
+      "parent_id": "upsc.mains.gs3.economy",
+      "node_type": "topic",
+      "name": "Industry and investment",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.economy.industry-and-investment.liberalisation",
+      "parent_id": "upsc.mains.gs3.economy.industry-and-investment",
+      "node_type": "subtopic",
+      "name": "Liberalisation",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.economy.industry-and-investment.industrial-policy",
+      "parent_id": "upsc.mains.gs3.economy.industry-and-investment",
+      "node_type": "subtopic",
+      "name": "Industrial policy",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.economy.industry-and-investment.industrial-growth",
+      "parent_id": "upsc.mains.gs3.economy.industry-and-investment",
+      "node_type": "subtopic",
+      "name": "Industrial growth",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.economy.industry-and-investment.investment-models",
+      "parent_id": "upsc.mains.gs3.economy.industry-and-investment",
+      "node_type": "subtopic",
+      "name": "Investment models",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.economy.infrastructure",
+      "parent_id": "upsc.mains.gs3.economy",
+      "node_type": "topic",
+      "name": "Infrastructure",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.economy.infrastructure.energy",
+      "parent_id": "upsc.mains.gs3.economy.infrastructure",
+      "node_type": "subtopic",
+      "name": "Energy",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.economy.infrastructure.ports",
+      "parent_id": "upsc.mains.gs3.economy.infrastructure",
+      "node_type": "subtopic",
+      "name": "Ports",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.economy.infrastructure.roads",
+      "parent_id": "upsc.mains.gs3.economy.infrastructure",
+      "node_type": "subtopic",
+      "name": "Roads",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.economy.infrastructure.airports",
+      "parent_id": "upsc.mains.gs3.economy.infrastructure",
+      "node_type": "subtopic",
+      "name": "Airports",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.economy.infrastructure.railways",
+      "parent_id": "upsc.mains.gs3.economy.infrastructure",
+      "node_type": "subtopic",
+      "name": "Railways",
+      "display_order": 50,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.agriculture",
+      "parent_id": "upsc.mains.gs3",
+      "node_type": "subject",
+      "name": "Agriculture",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.agriculture.production-and-markets",
+      "parent_id": "upsc.mains.gs3.agriculture",
+      "node_type": "topic",
+      "name": "Production and markets",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.agriculture.production-and-markets.major-crops-and-cropping-patterns",
+      "parent_id": "upsc.mains.gs3.agriculture.production-and-markets",
+      "node_type": "subtopic",
+      "name": "Major crops and cropping patterns",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.agriculture.production-and-markets.irrigation-systems",
+      "parent_id": "upsc.mains.gs3.agriculture.production-and-markets",
+      "node_type": "subtopic",
+      "name": "Irrigation systems",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.agriculture.production-and-markets.storage-and-transport",
+      "parent_id": "upsc.mains.gs3.agriculture.production-and-markets",
+      "node_type": "subtopic",
+      "name": "Storage and transport",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.agriculture.production-and-markets.agricultural-marketing",
+      "parent_id": "upsc.mains.gs3.agriculture.production-and-markets",
+      "node_type": "subtopic",
+      "name": "Agricultural marketing",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.agriculture.production-and-markets.e-technology-for-farmers",
+      "parent_id": "upsc.mains.gs3.agriculture.production-and-markets",
+      "node_type": "subtopic",
+      "name": "E-technology for farmers",
+      "display_order": 50,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.agriculture.agricultural-support-and-food-security",
+      "parent_id": "upsc.mains.gs3.agriculture",
+      "node_type": "topic",
+      "name": "Agricultural support and food security",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.agriculture.agricultural-support-and-food-security.direct-and-indirect-subsidies",
+      "parent_id": "upsc.mains.gs3.agriculture.agricultural-support-and-food-security",
+      "node_type": "subtopic",
+      "name": "Direct and indirect subsidies",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.agriculture.agricultural-support-and-food-security.minimum-support-prices",
+      "parent_id": "upsc.mains.gs3.agriculture.agricultural-support-and-food-security",
+      "node_type": "subtopic",
+      "name": "Minimum support prices",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.agriculture.agricultural-support-and-food-security.public-distribution-system",
+      "parent_id": "upsc.mains.gs3.agriculture.agricultural-support-and-food-security",
+      "node_type": "subtopic",
+      "name": "Public Distribution System",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.agriculture.agricultural-support-and-food-security.buffer-stocks",
+      "parent_id": "upsc.mains.gs3.agriculture.agricultural-support-and-food-security",
+      "node_type": "subtopic",
+      "name": "Buffer stocks",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.agriculture.agricultural-support-and-food-security.food-security",
+      "parent_id": "upsc.mains.gs3.agriculture.agricultural-support-and-food-security",
+      "node_type": "subtopic",
+      "name": "Food security",
+      "display_order": 50,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.agriculture.agricultural-support-and-food-security.technology-missions",
+      "parent_id": "upsc.mains.gs3.agriculture.agricultural-support-and-food-security",
+      "node_type": "subtopic",
+      "name": "Technology missions",
+      "display_order": 60,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.agriculture.agricultural-support-and-food-security.animal-rearing",
+      "parent_id": "upsc.mains.gs3.agriculture.agricultural-support-and-food-security",
+      "node_type": "subtopic",
+      "name": "Animal rearing",
+      "display_order": 70,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.agriculture.food-processing",
+      "parent_id": "upsc.mains.gs3.agriculture",
+      "node_type": "topic",
+      "name": "Food processing",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.agriculture.food-processing.scope-and-location",
+      "parent_id": "upsc.mains.gs3.agriculture.food-processing",
+      "node_type": "subtopic",
+      "name": "Scope and location",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.agriculture.food-processing.upstream-and-downstream-needs",
+      "parent_id": "upsc.mains.gs3.agriculture.food-processing",
+      "node_type": "subtopic",
+      "name": "Upstream and downstream needs",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.agriculture.food-processing.supply-chains",
+      "parent_id": "upsc.mains.gs3.agriculture.food-processing",
+      "node_type": "subtopic",
+      "name": "Supply chains",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.agriculture.land-reforms",
+      "parent_id": "upsc.mains.gs3.agriculture",
+      "node_type": "topic",
+      "name": "Land reforms",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.agriculture.land-reforms.land-reforms-in-india",
+      "parent_id": "upsc.mains.gs3.agriculture.land-reforms",
+      "node_type": "subtopic",
+      "name": "Land reforms in India",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.science-and-technology",
+      "parent_id": "upsc.mains.gs3",
+      "node_type": "subject",
+      "name": "Science and technology",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.science-and-technology.science-in-society",
+      "parent_id": "upsc.mains.gs3.science-and-technology",
+      "node_type": "topic",
+      "name": "Science in society",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.science-and-technology.science-in-society.developments",
+      "parent_id": "upsc.mains.gs3.science-and-technology.science-in-society",
+      "node_type": "subtopic",
+      "name": "Developments",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.science-and-technology.science-in-society.everyday-applications-and-impacts",
+      "parent_id": "upsc.mains.gs3.science-and-technology.science-in-society",
+      "node_type": "subtopic",
+      "name": "Everyday applications and impacts",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.science-and-technology.indian-capabilities",
+      "parent_id": "upsc.mains.gs3.science-and-technology",
+      "node_type": "topic",
+      "name": "Indian capabilities",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.science-and-technology.indian-capabilities.indian-achievements",
+      "parent_id": "upsc.mains.gs3.science-and-technology.indian-capabilities",
+      "node_type": "subtopic",
+      "name": "Indian achievements",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.science-and-technology.indian-capabilities.indigenisation",
+      "parent_id": "upsc.mains.gs3.science-and-technology.indian-capabilities",
+      "node_type": "subtopic",
+      "name": "Indigenisation",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.science-and-technology.indian-capabilities.new-technologies",
+      "parent_id": "upsc.mains.gs3.science-and-technology.indian-capabilities",
+      "node_type": "subtopic",
+      "name": "New technologies",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.science-and-technology.emerging-technologies",
+      "parent_id": "upsc.mains.gs3.science-and-technology",
+      "node_type": "topic",
+      "name": "Emerging technologies",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.science-and-technology.emerging-technologies.information-technology-and-computers",
+      "parent_id": "upsc.mains.gs3.science-and-technology.emerging-technologies",
+      "node_type": "subtopic",
+      "name": "Information technology and computers",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.science-and-technology.emerging-technologies.space",
+      "parent_id": "upsc.mains.gs3.science-and-technology.emerging-technologies",
+      "node_type": "subtopic",
+      "name": "Space",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.science-and-technology.emerging-technologies.robotics",
+      "parent_id": "upsc.mains.gs3.science-and-technology.emerging-technologies",
+      "node_type": "subtopic",
+      "name": "Robotics",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.science-and-technology.emerging-technologies.nanotechnology",
+      "parent_id": "upsc.mains.gs3.science-and-technology.emerging-technologies",
+      "node_type": "subtopic",
+      "name": "Nanotechnology",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.science-and-technology.emerging-technologies.biotechnology",
+      "parent_id": "upsc.mains.gs3.science-and-technology.emerging-technologies",
+      "node_type": "subtopic",
+      "name": "Biotechnology",
+      "display_order": 50,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.science-and-technology.emerging-technologies.intellectual-property-rights",
+      "parent_id": "upsc.mains.gs3.science-and-technology.emerging-technologies",
+      "node_type": "subtopic",
+      "name": "Intellectual property rights",
+      "display_order": 60,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.environment",
+      "parent_id": "upsc.mains.gs3",
+      "node_type": "subject",
+      "name": "Environment",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.environment.environmental-management",
+      "parent_id": "upsc.mains.gs3.environment",
+      "node_type": "topic",
+      "name": "Environmental management",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.environment.environmental-management.conservation",
+      "parent_id": "upsc.mains.gs3.environment.environmental-management",
+      "node_type": "subtopic",
+      "name": "Conservation",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.environment.environmental-management.pollution-and-degradation",
+      "parent_id": "upsc.mains.gs3.environment.environmental-management",
+      "node_type": "subtopic",
+      "name": "Pollution and degradation",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.environment.environmental-management.environmental-impact-assessment",
+      "parent_id": "upsc.mains.gs3.environment.environmental-management",
+      "node_type": "subtopic",
+      "name": "Environmental impact assessment",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.disaster-management",
+      "parent_id": "upsc.mains.gs3",
+      "node_type": "subject",
+      "name": "Disaster management",
+      "display_order": 50,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.disaster-management.disasters",
+      "parent_id": "upsc.mains.gs3.disaster-management",
+      "node_type": "topic",
+      "name": "Disasters",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.disaster-management.disasters.disaster-management",
+      "parent_id": "upsc.mains.gs3.disaster-management.disasters",
+      "node_type": "subtopic",
+      "name": "Disaster management",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.internal-security",
+      "parent_id": "upsc.mains.gs3",
+      "node_type": "subject",
+      "name": "Internal security",
+      "display_order": 60,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.internal-security.extremism-and-actors",
+      "parent_id": "upsc.mains.gs3.internal-security",
+      "node_type": "topic",
+      "name": "Extremism and actors",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.internal-security.extremism-and-actors.development-and-extremism",
+      "parent_id": "upsc.mains.gs3.internal-security.extremism-and-actors",
+      "node_type": "subtopic",
+      "name": "Development and extremism",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.internal-security.extremism-and-actors.external-state-actors",
+      "parent_id": "upsc.mains.gs3.internal-security.extremism-and-actors",
+      "node_type": "subtopic",
+      "name": "External State actors",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.internal-security.extremism-and-actors.external-non-state-actors",
+      "parent_id": "upsc.mains.gs3.internal-security.extremism-and-actors",
+      "node_type": "subtopic",
+      "name": "External non-State actors",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.internal-security.networks-and-financial-security",
+      "parent_id": "upsc.mains.gs3.internal-security",
+      "node_type": "topic",
+      "name": "Networks and financial security",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.internal-security.networks-and-financial-security.communication-networks",
+      "parent_id": "upsc.mains.gs3.internal-security.networks-and-financial-security",
+      "node_type": "subtopic",
+      "name": "Communication networks",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.internal-security.networks-and-financial-security.media-and-social-networks",
+      "parent_id": "upsc.mains.gs3.internal-security.networks-and-financial-security",
+      "node_type": "subtopic",
+      "name": "Media and social networks",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.internal-security.networks-and-financial-security.cybersecurity",
+      "parent_id": "upsc.mains.gs3.internal-security.networks-and-financial-security",
+      "node_type": "subtopic",
+      "name": "Cybersecurity",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.internal-security.networks-and-financial-security.money-laundering-and-prevention",
+      "parent_id": "upsc.mains.gs3.internal-security.networks-and-financial-security",
+      "node_type": "subtopic",
+      "name": "Money laundering and prevention",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.internal-security.borders-and-agencies",
+      "parent_id": "upsc.mains.gs3.internal-security",
+      "node_type": "topic",
+      "name": "Borders and agencies",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.internal-security.borders-and-agencies.border-management",
+      "parent_id": "upsc.mains.gs3.internal-security.borders-and-agencies",
+      "node_type": "subtopic",
+      "name": "Border management",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.internal-security.borders-and-agencies.organised-crime-and-terrorism",
+      "parent_id": "upsc.mains.gs3.internal-security.borders-and-agencies",
+      "node_type": "subtopic",
+      "name": "Organised crime and terrorism",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs3.internal-security.borders-and-agencies.security-forces-and-mandates",
+      "parent_id": "upsc.mains.gs3.internal-security.borders-and-agencies",
+      "node_type": "subtopic",
+      "name": "Security forces and mandates",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 35–36, Paper IV"
+    },
+    {
+      "id": "upsc.mains.gs4",
+      "parent_id": "upsc.mains",
+      "node_type": "paper",
+      "name": "GS4: Ethics, integrity and aptitude",
+      "display_order": 70,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics",
+      "parent_id": "upsc.mains.gs4",
+      "node_type": "subject",
+      "name": "Ethics",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.ethics-and-human-values",
+      "parent_id": "upsc.mains.gs4.ethics",
+      "node_type": "topic",
+      "name": "Ethics and human values",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.ethics-and-human-values.essence-determinants-and-consequences",
+      "parent_id": "upsc.mains.gs4.ethics.ethics-and-human-values",
+      "node_type": "subtopic",
+      "name": "Essence, determinants and consequences",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.ethics-and-human-values.dimensions-of-ethics",
+      "parent_id": "upsc.mains.gs4.ethics.ethics-and-human-values",
+      "node_type": "subtopic",
+      "name": "Dimensions of ethics",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.ethics-and-human-values.private-and-public-relationships",
+      "parent_id": "upsc.mains.gs4.ethics.ethics-and-human-values",
+      "node_type": "subtopic",
+      "name": "Private and public relationships",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.ethics-and-human-values.lessons-from-leaders-reformers-and-administrators",
+      "parent_id": "upsc.mains.gs4.ethics.ethics-and-human-values",
+      "node_type": "subtopic",
+      "name": "Lessons from leaders, reformers and administrators",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.ethics-and-human-values.family-society-and-education",
+      "parent_id": "upsc.mains.gs4.ethics.ethics-and-human-values",
+      "node_type": "subtopic",
+      "name": "Family, society and education",
+      "display_order": 50,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.attitude",
+      "parent_id": "upsc.mains.gs4.ethics",
+      "node_type": "topic",
+      "name": "Attitude",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.attitude.content-structure-and-function",
+      "parent_id": "upsc.mains.gs4.ethics.attitude",
+      "node_type": "subtopic",
+      "name": "Content, structure and function",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.attitude.thought-and-behaviour",
+      "parent_id": "upsc.mains.gs4.ethics.attitude",
+      "node_type": "subtopic",
+      "name": "Thought and behaviour",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.attitude.moral-and-political-attitudes",
+      "parent_id": "upsc.mains.gs4.ethics.attitude",
+      "node_type": "subtopic",
+      "name": "Moral and political attitudes",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.attitude.social-influence",
+      "parent_id": "upsc.mains.gs4.ethics.attitude",
+      "node_type": "subtopic",
+      "name": "Social influence",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.attitude.persuasion",
+      "parent_id": "upsc.mains.gs4.ethics.attitude",
+      "node_type": "subtopic",
+      "name": "Persuasion",
+      "display_order": 50,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.civil-service-values",
+      "parent_id": "upsc.mains.gs4.ethics",
+      "node_type": "topic",
+      "name": "Civil-service values",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.civil-service-values.integrity",
+      "parent_id": "upsc.mains.gs4.ethics.civil-service-values",
+      "node_type": "subtopic",
+      "name": "Integrity",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.civil-service-values.impartiality-and-non-partisanship",
+      "parent_id": "upsc.mains.gs4.ethics.civil-service-values",
+      "node_type": "subtopic",
+      "name": "Impartiality and non-partisanship",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.civil-service-values.objectivity",
+      "parent_id": "upsc.mains.gs4.ethics.civil-service-values",
+      "node_type": "subtopic",
+      "name": "Objectivity",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.civil-service-values.dedication-to-public-service",
+      "parent_id": "upsc.mains.gs4.ethics.civil-service-values",
+      "node_type": "subtopic",
+      "name": "Dedication to public service",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.civil-service-values.empathy-tolerance-and-compassion",
+      "parent_id": "upsc.mains.gs4.ethics.civil-service-values",
+      "node_type": "subtopic",
+      "name": "Empathy, tolerance and compassion",
+      "display_order": 50,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.emotional-intelligence",
+      "parent_id": "upsc.mains.gs4.ethics",
+      "node_type": "topic",
+      "name": "Emotional intelligence",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.emotional-intelligence.concepts",
+      "parent_id": "upsc.mains.gs4.ethics.emotional-intelligence",
+      "node_type": "subtopic",
+      "name": "Concepts",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.emotional-intelligence.administrative-and-governance-applications",
+      "parent_id": "upsc.mains.gs4.ethics.emotional-intelligence",
+      "node_type": "subtopic",
+      "name": "Administrative and governance applications",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.moral-philosophy",
+      "parent_id": "upsc.mains.gs4.ethics",
+      "node_type": "topic",
+      "name": "Moral philosophy",
+      "display_order": 50,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.moral-philosophy.indian-thinkers",
+      "parent_id": "upsc.mains.gs4.ethics.moral-philosophy",
+      "node_type": "subtopic",
+      "name": "Indian thinkers",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.moral-philosophy.world-thinkers",
+      "parent_id": "upsc.mains.gs4.ethics.moral-philosophy",
+      "node_type": "subtopic",
+      "name": "World thinkers",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.public-service-ethics",
+      "parent_id": "upsc.mains.gs4.ethics",
+      "node_type": "topic",
+      "name": "Public-service ethics",
+      "display_order": 60,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.public-service-ethics.ethical-dilemmas-in-public-and-private-institutions",
+      "parent_id": "upsc.mains.gs4.ethics.public-service-ethics",
+      "node_type": "subtopic",
+      "name": "Ethical dilemmas in public and private institutions",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.public-service-ethics.laws-rules-and-conscience",
+      "parent_id": "upsc.mains.gs4.ethics.public-service-ethics",
+      "node_type": "subtopic",
+      "name": "Laws, rules and conscience",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.public-service-ethics.accountability-and-ethical-governance",
+      "parent_id": "upsc.mains.gs4.ethics.public-service-ethics",
+      "node_type": "subtopic",
+      "name": "Accountability and ethical governance",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.public-service-ethics.ethics-in-international-relations-and-funding",
+      "parent_id": "upsc.mains.gs4.ethics.public-service-ethics",
+      "node_type": "subtopic",
+      "name": "Ethics in international relations and funding",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.public-service-ethics.corporate-governance",
+      "parent_id": "upsc.mains.gs4.ethics.public-service-ethics",
+      "node_type": "subtopic",
+      "name": "Corporate governance",
+      "display_order": 50,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.probity",
+      "parent_id": "upsc.mains.gs4.ethics",
+      "node_type": "topic",
+      "name": "Probity",
+      "display_order": 70,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.probity.concept-of-public-service",
+      "parent_id": "upsc.mains.gs4.ethics.probity",
+      "node_type": "subtopic",
+      "name": "Concept of public service",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.probity.philosophical-basis-of-probity",
+      "parent_id": "upsc.mains.gs4.ethics.probity",
+      "node_type": "subtopic",
+      "name": "Philosophical basis of probity",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.probity.information-sharing-and-transparency",
+      "parent_id": "upsc.mains.gs4.ethics.probity",
+      "node_type": "subtopic",
+      "name": "Information sharing and transparency",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.probity.right-to-information",
+      "parent_id": "upsc.mains.gs4.ethics.probity",
+      "node_type": "subtopic",
+      "name": "Right to Information",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.probity.codes-of-ethics-and-conduct",
+      "parent_id": "upsc.mains.gs4.ethics.probity",
+      "node_type": "subtopic",
+      "name": "Codes of ethics and conduct",
+      "display_order": 50,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.probity.citizens-charters",
+      "parent_id": "upsc.mains.gs4.ethics.probity",
+      "node_type": "subtopic",
+      "name": "Citizens charters",
+      "display_order": 60,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.probity.work-culture-and-service-quality",
+      "parent_id": "upsc.mains.gs4.ethics.probity",
+      "node_type": "subtopic",
+      "name": "Work culture and service quality",
+      "display_order": 70,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.probity.use-of-public-funds",
+      "parent_id": "upsc.mains.gs4.ethics.probity",
+      "node_type": "subtopic",
+      "name": "Use of public funds",
+      "display_order": 80,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.probity.corruption",
+      "parent_id": "upsc.mains.gs4.ethics.probity",
+      "node_type": "subtopic",
+      "name": "Corruption",
+      "display_order": 90,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.case-studies",
+      "parent_id": "upsc.mains.gs4.ethics",
+      "node_type": "topic",
+      "name": "Case studies",
+      "display_order": 80,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.gs4.ethics.case-studies.application-to-ethical-conflicts",
+      "parent_id": "upsc.mains.gs4.ethics.case-studies",
+      "node_type": "subtopic",
+      "name": "Application to ethical conflicts",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "p. 36, Paper V"
+    },
+    {
+      "id": "upsc.mains.optional-1",
+      "parent_id": "upsc.mains",
+      "node_type": "paper",
+      "name": "Optional subject Paper I (Paper VI)",
+      "display_order": 80,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, subject list; pp. 37–159, detailed syllabi"
+    },
+    {
+      "id": "upsc.mains.optional-1.agriculture",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Agriculture",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.animal-husbandry-and-veterinary-science",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Animal Husbandry and Veterinary Science",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.anthropology",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Anthropology",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.botany",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Botany",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.chemistry",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Chemistry",
+      "display_order": 50,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.civil-engineering",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Civil Engineering",
+      "display_order": 60,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.commerce-and-accountancy",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Commerce and Accountancy",
+      "display_order": 70,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.economics",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Economics",
+      "display_order": 80,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.electrical-engineering",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Electrical Engineering",
+      "display_order": 90,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.geography",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Geography",
+      "display_order": 100,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.geology",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Geology",
+      "display_order": 110,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.history",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "History",
+      "display_order": 120,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.law",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Law",
+      "display_order": 130,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.management",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Management",
+      "display_order": 140,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.mathematics",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Mathematics",
+      "display_order": 150,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.mechanical-engineering",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Mechanical Engineering",
+      "display_order": 160,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.medical-science",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Medical Science",
+      "display_order": 170,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.philosophy",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Philosophy",
+      "display_order": 180,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.physics",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Physics",
+      "display_order": 190,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.political-science-and-international-relations",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Political Science and International Relations",
+      "display_order": 200,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.psychology",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Psychology",
+      "display_order": 210,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.public-administration",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Public Administration",
+      "display_order": 220,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.sociology",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Sociology",
+      "display_order": 230,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.statistics",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Statistics",
+      "display_order": 240,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.zoology",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Zoology",
+      "display_order": 250,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.assamese-literature",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Assamese Literature",
+      "display_order": 260,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.bengali-literature",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Bengali Literature",
+      "display_order": 270,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.bodo-literature",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Bodo Literature",
+      "display_order": 280,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.dogri-literature",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Dogri Literature",
+      "display_order": 290,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.gujarati-literature",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Gujarati Literature",
+      "display_order": 300,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.hindi-literature",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Hindi Literature",
+      "display_order": 310,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.kannada-literature",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Kannada Literature",
+      "display_order": 320,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.kashmiri-literature",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Kashmiri Literature",
+      "display_order": 330,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.konkani-literature",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Konkani Literature",
+      "display_order": 340,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.maithili-literature",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Maithili Literature",
+      "display_order": 350,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.malayalam-literature",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Malayalam Literature",
+      "display_order": 360,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.manipuri-literature",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Manipuri Literature",
+      "display_order": 370,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.marathi-literature",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Marathi Literature",
+      "display_order": 380,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.nepali-literature",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Nepali Literature",
+      "display_order": 390,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.odia-literature",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Odia Literature",
+      "display_order": 400,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.punjabi-literature",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Punjabi Literature",
+      "display_order": 410,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.sanskrit-literature",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Sanskrit Literature",
+      "display_order": 420,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.santhali-literature",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Santhali Literature",
+      "display_order": 430,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.sindhi-literature",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Sindhi Literature",
+      "display_order": 440,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.tamil-literature",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Tamil Literature",
+      "display_order": 450,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.telugu-literature",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Telugu Literature",
+      "display_order": 460,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.urdu-literature",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "Urdu Literature",
+      "display_order": 470,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-1.english-literature",
+      "parent_id": "upsc.mains.optional-1",
+      "node_type": "subject",
+      "name": "English Literature",
+      "display_order": 480,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2",
+      "parent_id": "upsc.mains",
+      "node_type": "paper",
+      "name": "Optional subject Paper II (Paper VII)",
+      "display_order": 90,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, subject list; pp. 37–159, detailed syllabi"
+    },
+    {
+      "id": "upsc.mains.optional-2.agriculture",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Agriculture",
+      "display_order": 10,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.animal-husbandry-and-veterinary-science",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Animal Husbandry and Veterinary Science",
+      "display_order": 20,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.anthropology",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Anthropology",
+      "display_order": 30,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.botany",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Botany",
+      "display_order": 40,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.chemistry",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Chemistry",
+      "display_order": 50,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.civil-engineering",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Civil Engineering",
+      "display_order": 60,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.commerce-and-accountancy",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Commerce and Accountancy",
+      "display_order": 70,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.economics",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Economics",
+      "display_order": 80,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.electrical-engineering",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Electrical Engineering",
+      "display_order": 90,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.geography",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Geography",
+      "display_order": 100,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.geology",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Geology",
+      "display_order": 110,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.history",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "History",
+      "display_order": 120,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.law",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Law",
+      "display_order": 130,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.management",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Management",
+      "display_order": 140,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.mathematics",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Mathematics",
+      "display_order": 150,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.mechanical-engineering",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Mechanical Engineering",
+      "display_order": 160,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.medical-science",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Medical Science",
+      "display_order": 170,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.philosophy",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Philosophy",
+      "display_order": 180,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.physics",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Physics",
+      "display_order": 190,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.political-science-and-international-relations",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Political Science and International Relations",
+      "display_order": 200,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.psychology",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Psychology",
+      "display_order": 210,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.public-administration",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Public Administration",
+      "display_order": 220,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.sociology",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Sociology",
+      "display_order": 230,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.statistics",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Statistics",
+      "display_order": 240,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.zoology",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Zoology",
+      "display_order": 250,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.assamese-literature",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Assamese Literature",
+      "display_order": 260,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.bengali-literature",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Bengali Literature",
+      "display_order": 270,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.bodo-literature",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Bodo Literature",
+      "display_order": 280,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.dogri-literature",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Dogri Literature",
+      "display_order": 290,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.gujarati-literature",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Gujarati Literature",
+      "display_order": 300,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.hindi-literature",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Hindi Literature",
+      "display_order": 310,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.kannada-literature",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Kannada Literature",
+      "display_order": 320,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.kashmiri-literature",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Kashmiri Literature",
+      "display_order": 330,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.konkani-literature",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Konkani Literature",
+      "display_order": 340,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.maithili-literature",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Maithili Literature",
+      "display_order": 350,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.malayalam-literature",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Malayalam Literature",
+      "display_order": 360,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.manipuri-literature",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Manipuri Literature",
+      "display_order": 370,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.marathi-literature",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Marathi Literature",
+      "display_order": 380,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.nepali-literature",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Nepali Literature",
+      "display_order": 390,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.odia-literature",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Odia Literature",
+      "display_order": 400,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.punjabi-literature",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Punjabi Literature",
+      "display_order": 410,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.sanskrit-literature",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Sanskrit Literature",
+      "display_order": 420,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.santhali-literature",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Santhali Literature",
+      "display_order": 430,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.sindhi-literature",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Sindhi Literature",
+      "display_order": 440,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.tamil-literature",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Tamil Literature",
+      "display_order": 450,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.telugu-literature",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Telugu Literature",
+      "display_order": 460,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.urdu-literature",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "Urdu Literature",
+      "display_order": 470,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "upsc.mains.optional-2.english-literature",
+      "parent_id": "upsc.mains.optional-2",
+      "node_type": "subject",
+      "name": "English Literature",
+      "display_order": 480,
+      "source_id": "upsc-2026",
+      "source_ref": "pp. 28–29, optional subject list",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "bpsc.prelims.gs",
+      "parent_id": "bpsc.prelims",
+      "node_type": "paper",
+      "name": "General Studies",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.prelims.gs.general-science",
+      "parent_id": "bpsc.prelims.gs",
+      "node_type": "subject",
+      "name": "General science",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.prelims.gs.general-science.scientific-awareness",
+      "parent_id": "bpsc.prelims.gs.general-science",
+      "node_type": "topic",
+      "name": "Scientific awareness",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.prelims.gs.general-science.scientific-awareness.daily-experience-and-observation",
+      "parent_id": "bpsc.prelims.gs.general-science.scientific-awareness",
+      "node_type": "subtopic",
+      "name": "Daily experience and observation",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.prelims.gs.general-science.scientific-awareness.general-understanding-without-specialist-study",
+      "parent_id": "bpsc.prelims.gs.general-science.scientific-awareness",
+      "node_type": "subtopic",
+      "name": "General understanding without specialist study",
+      "display_order": 20,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.prelims.gs.current-affairs",
+      "parent_id": "bpsc.prelims.gs",
+      "node_type": "subject",
+      "name": "Current affairs",
+      "display_order": 20,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.prelims.gs.current-affairs.current-events",
+      "parent_id": "bpsc.prelims.gs.current-affairs",
+      "node_type": "topic",
+      "name": "Current events",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.prelims.gs.current-affairs.current-events.national-importance",
+      "parent_id": "bpsc.prelims.gs.current-affairs.current-events",
+      "node_type": "subtopic",
+      "name": "National importance",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.prelims.gs.current-affairs.current-events.international-importance",
+      "parent_id": "bpsc.prelims.gs.current-affairs.current-events",
+      "node_type": "subtopic",
+      "name": "International importance",
+      "display_order": 20,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.prelims.gs.history",
+      "parent_id": "bpsc.prelims.gs",
+      "node_type": "subject",
+      "name": "History",
+      "display_order": 30,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.prelims.gs.history.indian-history",
+      "parent_id": "bpsc.prelims.gs.history",
+      "node_type": "topic",
+      "name": "Indian history",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.prelims.gs.history.indian-history.social-economic-and-political-aspects",
+      "parent_id": "bpsc.prelims.gs.history.indian-history",
+      "node_type": "subtopic",
+      "name": "Social, economic and political aspects",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.prelims.gs.history.history-of-bihar",
+      "parent_id": "bpsc.prelims.gs.history",
+      "node_type": "topic",
+      "name": "History of Bihar",
+      "display_order": 20,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.prelims.gs.history.history-of-bihar.major-historical-events-and-features",
+      "parent_id": "bpsc.prelims.gs.history.history-of-bihar",
+      "node_type": "subtopic",
+      "name": "Major historical events and features",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.prelims.gs.history.national-movement",
+      "parent_id": "bpsc.prelims.gs.history",
+      "node_type": "topic",
+      "name": "National movement",
+      "display_order": 30,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.prelims.gs.history.national-movement.nineteenth-century-resurgence",
+      "parent_id": "bpsc.prelims.gs.history.national-movement",
+      "node_type": "subtopic",
+      "name": "Nineteenth-century resurgence",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.prelims.gs.history.national-movement.growth-of-nationalism",
+      "parent_id": "bpsc.prelims.gs.history.national-movement",
+      "node_type": "subtopic",
+      "name": "Growth of nationalism",
+      "display_order": 20,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.prelims.gs.history.national-movement.independence",
+      "parent_id": "bpsc.prelims.gs.history.national-movement",
+      "node_type": "subtopic",
+      "name": "Independence",
+      "display_order": 30,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.prelims.gs.history.national-movement.bihar-in-the-freedom-struggle",
+      "parent_id": "bpsc.prelims.gs.history.national-movement",
+      "node_type": "subtopic",
+      "name": "Bihar in the freedom struggle",
+      "display_order": 40,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.prelims.gs.geography",
+      "parent_id": "bpsc.prelims.gs",
+      "node_type": "subject",
+      "name": "Geography",
+      "display_order": 40,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.prelims.gs.geography.india-and-bihar",
+      "parent_id": "bpsc.prelims.gs.geography",
+      "node_type": "topic",
+      "name": "India and Bihar",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.prelims.gs.geography.india-and-bihar.physical-divisions-of-bihar",
+      "parent_id": "bpsc.prelims.gs.geography.india-and-bihar",
+      "node_type": "subtopic",
+      "name": "Physical divisions of Bihar",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.prelims.gs.geography.india-and-bihar.important-rivers-of-bihar",
+      "parent_id": "bpsc.prelims.gs.geography.india-and-bihar",
+      "node_type": "subtopic",
+      "name": "Important rivers of Bihar",
+      "display_order": 20,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.prelims.gs.geography.india-and-bihar.social-and-economic-geography",
+      "parent_id": "bpsc.prelims.gs.geography.india-and-bihar",
+      "node_type": "subtopic",
+      "name": "Social and economic geography",
+      "display_order": 30,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.prelims.gs.geography.india-and-bihar.agriculture",
+      "parent_id": "bpsc.prelims.gs.geography.india-and-bihar",
+      "node_type": "subtopic",
+      "name": "Agriculture",
+      "display_order": 40,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.prelims.gs.geography.india-and-bihar.natural-resources",
+      "parent_id": "bpsc.prelims.gs.geography.india-and-bihar",
+      "node_type": "subtopic",
+      "name": "Natural resources",
+      "display_order": 50,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.prelims.gs.polity",
+      "parent_id": "bpsc.prelims.gs",
+      "node_type": "subject",
+      "name": "Polity",
+      "display_order": 50,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.prelims.gs.polity.indian-political-system",
+      "parent_id": "bpsc.prelims.gs.polity",
+      "node_type": "topic",
+      "name": "Indian political system",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.prelims.gs.polity.indian-political-system.panchayati-raj",
+      "parent_id": "bpsc.prelims.gs.polity.indian-political-system",
+      "node_type": "subtopic",
+      "name": "Panchayati Raj",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.prelims.gs.polity.indian-political-system.community-development",
+      "parent_id": "bpsc.prelims.gs.polity.indian-political-system",
+      "node_type": "subtopic",
+      "name": "Community development",
+      "display_order": 20,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.prelims.gs.economy",
+      "parent_id": "bpsc.prelims.gs",
+      "node_type": "subject",
+      "name": "Economy",
+      "display_order": 60,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.prelims.gs.economy.economic-development",
+      "parent_id": "bpsc.prelims.gs.economy",
+      "node_type": "topic",
+      "name": "Economic development",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.prelims.gs.economy.economic-development.indian-planning",
+      "parent_id": "bpsc.prelims.gs.economy.economic-development",
+      "node_type": "subtopic",
+      "name": "Indian planning",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.prelims.gs.economy.economic-development.planning-in-bihar",
+      "parent_id": "bpsc.prelims.gs.economy.economic-development",
+      "node_type": "subtopic",
+      "name": "Planning in Bihar",
+      "display_order": 20,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.prelims.gs.economy.economic-development.changes-in-bihar-economy-after-independence",
+      "parent_id": "bpsc.prelims.gs.economy.economic-development",
+      "node_type": "subtopic",
+      "name": "Changes in Bihar economy after independence",
+      "display_order": 30,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.prelims.gs.mental-ability",
+      "parent_id": "bpsc.prelims.gs",
+      "node_type": "subject",
+      "name": "Mental ability",
+      "display_order": 70,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.prelims.gs.mental-ability.general-mental-ability",
+      "parent_id": "bpsc.prelims.gs.mental-ability",
+      "node_type": "topic",
+      "name": "General mental ability",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 4, Prelims syllabus; 72nd advertisement p. 6"
+    },
+    {
+      "id": "bpsc.mains.hindi",
+      "parent_id": "bpsc.mains",
+      "node_type": "paper",
+      "name": "General Hindi (qualifying)",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5; current paper confirmed in 72nd advertisement p. 7"
+    },
+    {
+      "id": "bpsc.mains.hindi.hindi",
+      "parent_id": "bpsc.mains.hindi",
+      "node_type": "subject",
+      "name": "Hindi",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, secondary-level Hindi"
+    },
+    {
+      "id": "bpsc.mains.hindi.hindi.language-skills",
+      "parent_id": "bpsc.mains.hindi.hindi",
+      "node_type": "topic",
+      "name": "Language skills",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, secondary-level Hindi"
+    },
+    {
+      "id": "bpsc.mains.hindi.hindi.language-skills.essay",
+      "parent_id": "bpsc.mains.hindi.hindi.language-skills",
+      "node_type": "subtopic",
+      "name": "Essay",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, secondary-level Hindi"
+    },
+    {
+      "id": "bpsc.mains.hindi.hindi.language-skills.grammar",
+      "parent_id": "bpsc.mains.hindi.hindi.language-skills",
+      "node_type": "subtopic",
+      "name": "Grammar",
+      "display_order": 20,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, secondary-level Hindi"
+    },
+    {
+      "id": "bpsc.mains.hindi.hindi.language-skills.sentence-construction",
+      "parent_id": "bpsc.mains.hindi.hindi.language-skills",
+      "node_type": "subtopic",
+      "name": "Sentence construction",
+      "display_order": 30,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, secondary-level Hindi"
+    },
+    {
+      "id": "bpsc.mains.hindi.hindi.language-skills.precis-writing",
+      "parent_id": "bpsc.mains.hindi.hindi.language-skills",
+      "node_type": "subtopic",
+      "name": "Precis writing",
+      "display_order": 40,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, secondary-level Hindi"
+    },
+    {
+      "id": "bpsc.mains.gs1",
+      "parent_id": "bpsc.mains",
+      "node_type": "paper",
+      "name": "GS1: History, culture, current events and statistics",
+      "display_order": 20,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5"
+    },
+    {
+      "id": "bpsc.mains.gs1.history-and-culture",
+      "parent_id": "bpsc.mains.gs1",
+      "node_type": "subject",
+      "name": "History and culture",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper I"
+    },
+    {
+      "id": "bpsc.mains.gs1.history-and-culture.modern-indian-history",
+      "parent_id": "bpsc.mains.gs1.history-and-culture",
+      "node_type": "topic",
+      "name": "Modern Indian history",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper I"
+    },
+    {
+      "id": "bpsc.mains.gs1.history-and-culture.modern-indian-history.history-from-the-mid-nineteenth-century",
+      "parent_id": "bpsc.mains.gs1.history-and-culture.modern-indian-history",
+      "node_type": "subtopic",
+      "name": "History from the mid-nineteenth century",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper I"
+    },
+    {
+      "id": "bpsc.mains.gs1.history-and-culture.modern-indian-history.gandhi-tagore-and-nehru",
+      "parent_id": "bpsc.mains.gs1.history-and-culture.modern-indian-history",
+      "node_type": "subtopic",
+      "name": "Gandhi, Tagore and Nehru",
+      "display_order": 20,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper I"
+    },
+    {
+      "id": "bpsc.mains.gs1.history-and-culture.modern-bihar",
+      "parent_id": "bpsc.mains.gs1.history-and-culture",
+      "node_type": "topic",
+      "name": "Modern Bihar",
+      "display_order": 20,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper I"
+    },
+    {
+      "id": "bpsc.mains.gs1.history-and-culture.modern-bihar.western-and-technical-education",
+      "parent_id": "bpsc.mains.gs1.history-and-culture.modern-bihar",
+      "node_type": "subtopic",
+      "name": "Western and technical education",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper I"
+    },
+    {
+      "id": "bpsc.mains.gs1.history-and-culture.modern-bihar.bihar-in-the-freedom-struggle",
+      "parent_id": "bpsc.mains.gs1.history-and-culture.modern-bihar",
+      "node_type": "subtopic",
+      "name": "Bihar in the freedom struggle",
+      "display_order": 20,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper I"
+    },
+    {
+      "id": "bpsc.mains.gs1.history-and-culture.modern-bihar.santhal-uprising",
+      "parent_id": "bpsc.mains.gs1.history-and-culture.modern-bihar",
+      "node_type": "subtopic",
+      "name": "Santhal uprising",
+      "display_order": 30,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper I"
+    },
+    {
+      "id": "bpsc.mains.gs1.history-and-culture.modern-bihar.revolt-of-1857-in-bihar",
+      "parent_id": "bpsc.mains.gs1.history-and-culture.modern-bihar",
+      "node_type": "subtopic",
+      "name": "Revolt of 1857 in Bihar",
+      "display_order": 40,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper I"
+    },
+    {
+      "id": "bpsc.mains.gs1.history-and-culture.modern-bihar.birsa-movement",
+      "parent_id": "bpsc.mains.gs1.history-and-culture.modern-bihar",
+      "node_type": "subtopic",
+      "name": "Birsa movement",
+      "display_order": 50,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper I"
+    },
+    {
+      "id": "bpsc.mains.gs1.history-and-culture.modern-bihar.champaran-satyagraha",
+      "parent_id": "bpsc.mains.gs1.history-and-culture.modern-bihar",
+      "node_type": "subtopic",
+      "name": "Champaran Satyagraha",
+      "display_order": 60,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper I"
+    },
+    {
+      "id": "bpsc.mains.gs1.history-and-culture.modern-bihar.quit-india-movement-in-bihar",
+      "parent_id": "bpsc.mains.gs1.history-and-culture.modern-bihar",
+      "node_type": "subtopic",
+      "name": "Quit India movement in Bihar",
+      "display_order": 70,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper I"
+    },
+    {
+      "id": "bpsc.mains.gs1.history-and-culture.art-in-bihar",
+      "parent_id": "bpsc.mains.gs1.history-and-culture",
+      "node_type": "topic",
+      "name": "Art in Bihar",
+      "display_order": 30,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper I"
+    },
+    {
+      "id": "bpsc.mains.gs1.history-and-culture.art-in-bihar.mauryan-art",
+      "parent_id": "bpsc.mains.gs1.history-and-culture.art-in-bihar",
+      "node_type": "subtopic",
+      "name": "Mauryan art",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper I"
+    },
+    {
+      "id": "bpsc.mains.gs1.history-and-culture.art-in-bihar.pala-art",
+      "parent_id": "bpsc.mains.gs1.history-and-culture.art-in-bihar",
+      "node_type": "subtopic",
+      "name": "Pala art",
+      "display_order": 20,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper I"
+    },
+    {
+      "id": "bpsc.mains.gs1.history-and-culture.art-in-bihar.patna-qalam-painting",
+      "parent_id": "bpsc.mains.gs1.history-and-culture.art-in-bihar",
+      "node_type": "subtopic",
+      "name": "Patna Qalam painting",
+      "display_order": 30,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper I"
+    },
+    {
+      "id": "bpsc.mains.gs1.current-affairs",
+      "parent_id": "bpsc.mains.gs1",
+      "node_type": "subject",
+      "name": "Current affairs",
+      "display_order": 20,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper I"
+    },
+    {
+      "id": "bpsc.mains.gs1.current-affairs.important-current-events",
+      "parent_id": "bpsc.mains.gs1.current-affairs",
+      "node_type": "topic",
+      "name": "Important current events",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper I"
+    },
+    {
+      "id": "bpsc.mains.gs1.current-affairs.important-current-events.national-events",
+      "parent_id": "bpsc.mains.gs1.current-affairs.important-current-events",
+      "node_type": "subtopic",
+      "name": "National events",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper I"
+    },
+    {
+      "id": "bpsc.mains.gs1.current-affairs.important-current-events.international-events",
+      "parent_id": "bpsc.mains.gs1.current-affairs.important-current-events",
+      "node_type": "subtopic",
+      "name": "International events",
+      "display_order": 20,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper I"
+    },
+    {
+      "id": "bpsc.mains.gs1.statistics",
+      "parent_id": "bpsc.mains.gs1",
+      "node_type": "subject",
+      "name": "Statistics",
+      "display_order": 30,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper I"
+    },
+    {
+      "id": "bpsc.mains.gs1.statistics.analysis-and-interpretation",
+      "parent_id": "bpsc.mains.gs1.statistics",
+      "node_type": "topic",
+      "name": "Analysis and interpretation",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper I"
+    },
+    {
+      "id": "bpsc.mains.gs1.statistics.analysis-and-interpretation.statistical-diagrams",
+      "parent_id": "bpsc.mains.gs1.statistics.analysis-and-interpretation",
+      "node_type": "subtopic",
+      "name": "Statistical diagrams",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper I"
+    },
+    {
+      "id": "bpsc.mains.gs1.statistics.analysis-and-interpretation.graphs-and-illustrations",
+      "parent_id": "bpsc.mains.gs1.statistics.analysis-and-interpretation",
+      "node_type": "subtopic",
+      "name": "Graphs and illustrations",
+      "display_order": 20,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper I"
+    },
+    {
+      "id": "bpsc.mains.gs1.statistics.analysis-and-interpretation.inference-from-data",
+      "parent_id": "bpsc.mains.gs1.statistics.analysis-and-interpretation",
+      "node_type": "subtopic",
+      "name": "Inference from data",
+      "display_order": 30,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper I"
+    },
+    {
+      "id": "bpsc.mains.gs1.statistics.analysis-and-interpretation.limitations-and-inconsistencies-in-data",
+      "parent_id": "bpsc.mains.gs1.statistics.analysis-and-interpretation",
+      "node_type": "subtopic",
+      "name": "Limitations and inconsistencies in data",
+      "display_order": 40,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper I"
+    },
+    {
+      "id": "bpsc.mains.gs2",
+      "parent_id": "bpsc.mains",
+      "node_type": "paper",
+      "name": "GS2: Polity, economy, geography, science and technology",
+      "display_order": 30,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5"
+    },
+    {
+      "id": "bpsc.mains.gs2.polity",
+      "parent_id": "bpsc.mains.gs2",
+      "node_type": "subject",
+      "name": "Polity",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper II"
+    },
+    {
+      "id": "bpsc.mains.gs2.polity.political-system",
+      "parent_id": "bpsc.mains.gs2.polity",
+      "node_type": "topic",
+      "name": "Political system",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper II"
+    },
+    {
+      "id": "bpsc.mains.gs2.polity.political-system.india",
+      "parent_id": "bpsc.mains.gs2.polity.political-system",
+      "node_type": "subtopic",
+      "name": "India",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper II"
+    },
+    {
+      "id": "bpsc.mains.gs2.polity.political-system.bihar",
+      "parent_id": "bpsc.mains.gs2.polity.political-system",
+      "node_type": "subtopic",
+      "name": "Bihar",
+      "display_order": 20,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper II"
+    },
+    {
+      "id": "bpsc.mains.gs2.economy",
+      "parent_id": "bpsc.mains.gs2",
+      "node_type": "subject",
+      "name": "Economy",
+      "display_order": 20,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper II"
+    },
+    {
+      "id": "bpsc.mains.gs2.economy.planning-and-development",
+      "parent_id": "bpsc.mains.gs2.economy",
+      "node_type": "topic",
+      "name": "Planning and development",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper II"
+    },
+    {
+      "id": "bpsc.mains.gs2.economy.planning-and-development.indian-planning",
+      "parent_id": "bpsc.mains.gs2.economy.planning-and-development",
+      "node_type": "subtopic",
+      "name": "Indian planning",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper II"
+    },
+    {
+      "id": "bpsc.mains.gs2.economy.planning-and-development.bihar-context",
+      "parent_id": "bpsc.mains.gs2.economy.planning-and-development",
+      "node_type": "subtopic",
+      "name": "Bihar context",
+      "display_order": 20,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper II"
+    },
+    {
+      "id": "bpsc.mains.gs2.geography",
+      "parent_id": "bpsc.mains.gs2",
+      "node_type": "subject",
+      "name": "Geography",
+      "display_order": 30,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper II"
+    },
+    {
+      "id": "bpsc.mains.gs2.geography.india-and-bihar-geography",
+      "parent_id": "bpsc.mains.gs2.geography",
+      "node_type": "topic",
+      "name": "India and Bihar geography",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper II"
+    },
+    {
+      "id": "bpsc.mains.gs2.geography.india-and-bihar-geography.physical-geography",
+      "parent_id": "bpsc.mains.gs2.geography.india-and-bihar-geography",
+      "node_type": "subtopic",
+      "name": "Physical geography",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper II"
+    },
+    {
+      "id": "bpsc.mains.gs2.geography.india-and-bihar-geography.economic-geography",
+      "parent_id": "bpsc.mains.gs2.geography.india-and-bihar-geography",
+      "node_type": "subtopic",
+      "name": "Economic geography",
+      "display_order": 20,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper II"
+    },
+    {
+      "id": "bpsc.mains.gs2.geography.india-and-bihar-geography.social-geography",
+      "parent_id": "bpsc.mains.gs2.geography.india-and-bihar-geography",
+      "node_type": "subtopic",
+      "name": "Social geography",
+      "display_order": 30,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper II"
+    },
+    {
+      "id": "bpsc.mains.gs2.science-and-technology",
+      "parent_id": "bpsc.mains.gs2",
+      "node_type": "subject",
+      "name": "Science and technology",
+      "display_order": 40,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper II"
+    },
+    {
+      "id": "bpsc.mains.gs2.science-and-technology.development-applications",
+      "parent_id": "bpsc.mains.gs2.science-and-technology",
+      "node_type": "topic",
+      "name": "Development applications",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper II"
+    },
+    {
+      "id": "bpsc.mains.gs2.science-and-technology.development-applications.role-in-indian-development",
+      "parent_id": "bpsc.mains.gs2.science-and-technology.development-applications",
+      "node_type": "subtopic",
+      "name": "Role in Indian development",
+      "display_order": 10,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper II"
+    },
+    {
+      "id": "bpsc.mains.gs2.science-and-technology.development-applications.impact-in-bihar",
+      "parent_id": "bpsc.mains.gs2.science-and-technology.development-applications",
+      "node_type": "subtopic",
+      "name": "Impact in Bihar",
+      "display_order": 20,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper II"
+    },
+    {
+      "id": "bpsc.mains.gs2.science-and-technology.development-applications.practical-applications",
+      "parent_id": "bpsc.mains.gs2.science-and-technology.development-applications",
+      "node_type": "subtopic",
+      "name": "Practical applications",
+      "display_order": 30,
+      "source_id": "bpsc-syllabus",
+      "source_ref": "p. 5, GS Paper II"
+    },
+    {
+      "id": "bpsc.mains.essay",
+      "parent_id": "bpsc.mains",
+      "node_type": "paper",
+      "name": "Essay",
+      "display_order": 40,
+      "source_id": "bpsc-72",
+      "source_ref": "p. 7, mandatory paper code 38"
+    },
+    {
+      "id": "bpsc.mains.essay.essay",
+      "parent_id": "bpsc.mains.essay",
+      "node_type": "subject",
+      "name": "Essay",
+      "display_order": 10,
+      "source_id": "bpsc-72",
+      "source_ref": "p. 7: paper specified; no invented thematic sub-syllabus"
+    },
+    {
+      "id": "bpsc.mains.essay.essay.essay-writing",
+      "parent_id": "bpsc.mains.essay.essay",
+      "node_type": "topic",
+      "name": "Essay writing",
+      "display_order": 10,
+      "source_id": "bpsc-72",
+      "source_ref": "p. 7: paper specified; no invented thematic sub-syllabus"
+    },
+    {
+      "id": "bpsc.mains.optional",
+      "parent_id": "bpsc.mains",
+      "node_type": "paper",
+      "name": "Optional subject (qualifying)",
+      "display_order": 50,
+      "source_id": "bpsc-72",
+      "source_ref": "pp. 7–8, optional subject codes 04–37"
+    },
+    {
+      "id": "bpsc.mains.optional.agriculture",
+      "parent_id": "bpsc.mains.optional",
+      "node_type": "subject",
+      "name": "Agriculture",
+      "display_order": 10,
+      "source_id": "bpsc-72",
+      "source_ref": "pp. 7–8; detailed coverage in BPSC syllabus pp. 6–100",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "bpsc.mains.optional.animal-husbandry-and-veterinary-science",
+      "parent_id": "bpsc.mains.optional",
+      "node_type": "subject",
+      "name": "Animal Husbandry and Veterinary Science",
+      "display_order": 20,
+      "source_id": "bpsc-72",
+      "source_ref": "pp. 7–8; detailed coverage in BPSC syllabus pp. 6–100",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "bpsc.mains.optional.anthropology",
+      "parent_id": "bpsc.mains.optional",
+      "node_type": "subject",
+      "name": "Anthropology",
+      "display_order": 30,
+      "source_id": "bpsc-72",
+      "source_ref": "pp. 7–8; detailed coverage in BPSC syllabus pp. 6–100",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "bpsc.mains.optional.botany",
+      "parent_id": "bpsc.mains.optional",
+      "node_type": "subject",
+      "name": "Botany",
+      "display_order": 40,
+      "source_id": "bpsc-72",
+      "source_ref": "pp. 7–8; detailed coverage in BPSC syllabus pp. 6–100",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "bpsc.mains.optional.chemistry",
+      "parent_id": "bpsc.mains.optional",
+      "node_type": "subject",
+      "name": "Chemistry",
+      "display_order": 50,
+      "source_id": "bpsc-72",
+      "source_ref": "pp. 7–8; detailed coverage in BPSC syllabus pp. 6–100",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "bpsc.mains.optional.civil-engineering",
+      "parent_id": "bpsc.mains.optional",
+      "node_type": "subject",
+      "name": "Civil Engineering",
+      "display_order": 60,
+      "source_id": "bpsc-72",
+      "source_ref": "pp. 7–8; detailed coverage in BPSC syllabus pp. 6–100",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "bpsc.mains.optional.commerce-and-accountancy",
+      "parent_id": "bpsc.mains.optional",
+      "node_type": "subject",
+      "name": "Commerce and Accountancy",
+      "display_order": 70,
+      "source_id": "bpsc-72",
+      "source_ref": "pp. 7–8; detailed coverage in BPSC syllabus pp. 6–100",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "bpsc.mains.optional.economics",
+      "parent_id": "bpsc.mains.optional",
+      "node_type": "subject",
+      "name": "Economics",
+      "display_order": 80,
+      "source_id": "bpsc-72",
+      "source_ref": "pp. 7–8; detailed coverage in BPSC syllabus pp. 6–100",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "bpsc.mains.optional.electrical-engineering",
+      "parent_id": "bpsc.mains.optional",
+      "node_type": "subject",
+      "name": "Electrical Engineering",
+      "display_order": 90,
+      "source_id": "bpsc-72",
+      "source_ref": "pp. 7–8; detailed coverage in BPSC syllabus pp. 6–100",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "bpsc.mains.optional.geography",
+      "parent_id": "bpsc.mains.optional",
+      "node_type": "subject",
+      "name": "Geography",
+      "display_order": 100,
+      "source_id": "bpsc-72",
+      "source_ref": "pp. 7–8; detailed coverage in BPSC syllabus pp. 6–100",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "bpsc.mains.optional.geology",
+      "parent_id": "bpsc.mains.optional",
+      "node_type": "subject",
+      "name": "Geology",
+      "display_order": 110,
+      "source_id": "bpsc-72",
+      "source_ref": "pp. 7–8; detailed coverage in BPSC syllabus pp. 6–100",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "bpsc.mains.optional.history",
+      "parent_id": "bpsc.mains.optional",
+      "node_type": "subject",
+      "name": "History",
+      "display_order": 120,
+      "source_id": "bpsc-72",
+      "source_ref": "pp. 7–8; detailed coverage in BPSC syllabus pp. 6–100",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "bpsc.mains.optional.labour-and-social-welfare",
+      "parent_id": "bpsc.mains.optional",
+      "node_type": "subject",
+      "name": "Labour and Social Welfare",
+      "display_order": 130,
+      "source_id": "bpsc-72",
+      "source_ref": "pp. 7–8; detailed coverage in BPSC syllabus pp. 6–100",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "bpsc.mains.optional.law",
+      "parent_id": "bpsc.mains.optional",
+      "node_type": "subject",
+      "name": "Law",
+      "display_order": 140,
+      "source_id": "bpsc-72",
+      "source_ref": "pp. 7–8; detailed coverage in BPSC syllabus pp. 6–100",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "bpsc.mains.optional.management",
+      "parent_id": "bpsc.mains.optional",
+      "node_type": "subject",
+      "name": "Management",
+      "display_order": 150,
+      "source_id": "bpsc-72",
+      "source_ref": "pp. 7–8; detailed coverage in BPSC syllabus pp. 6–100",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "bpsc.mains.optional.mathematics",
+      "parent_id": "bpsc.mains.optional",
+      "node_type": "subject",
+      "name": "Mathematics",
+      "display_order": 160,
+      "source_id": "bpsc-72",
+      "source_ref": "pp. 7–8; detailed coverage in BPSC syllabus pp. 6–100",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "bpsc.mains.optional.mechanical-engineering",
+      "parent_id": "bpsc.mains.optional",
+      "node_type": "subject",
+      "name": "Mechanical Engineering",
+      "display_order": 170,
+      "source_id": "bpsc-72",
+      "source_ref": "pp. 7–8; detailed coverage in BPSC syllabus pp. 6–100",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "bpsc.mains.optional.philosophy",
+      "parent_id": "bpsc.mains.optional",
+      "node_type": "subject",
+      "name": "Philosophy",
+      "display_order": 180,
+      "source_id": "bpsc-72",
+      "source_ref": "pp. 7–8; detailed coverage in BPSC syllabus pp. 6–100",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "bpsc.mains.optional.physics",
+      "parent_id": "bpsc.mains.optional",
+      "node_type": "subject",
+      "name": "Physics",
+      "display_order": 190,
+      "source_id": "bpsc-72",
+      "source_ref": "pp. 7–8; detailed coverage in BPSC syllabus pp. 6–100",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "bpsc.mains.optional.political-science-and-international-relations",
+      "parent_id": "bpsc.mains.optional",
+      "node_type": "subject",
+      "name": "Political Science and International Relations",
+      "display_order": 200,
+      "source_id": "bpsc-72",
+      "source_ref": "pp. 7–8; detailed coverage in BPSC syllabus pp. 6–100",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "bpsc.mains.optional.psychology",
+      "parent_id": "bpsc.mains.optional",
+      "node_type": "subject",
+      "name": "Psychology",
+      "display_order": 210,
+      "source_id": "bpsc-72",
+      "source_ref": "pp. 7–8; detailed coverage in BPSC syllabus pp. 6–100",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "bpsc.mains.optional.public-administration",
+      "parent_id": "bpsc.mains.optional",
+      "node_type": "subject",
+      "name": "Public Administration",
+      "display_order": 220,
+      "source_id": "bpsc-72",
+      "source_ref": "pp. 7–8; detailed coverage in BPSC syllabus pp. 6–100",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "bpsc.mains.optional.sociology",
+      "parent_id": "bpsc.mains.optional",
+      "node_type": "subject",
+      "name": "Sociology",
+      "display_order": 230,
+      "source_id": "bpsc-72",
+      "source_ref": "pp. 7–8; detailed coverage in BPSC syllabus pp. 6–100",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "bpsc.mains.optional.statistics",
+      "parent_id": "bpsc.mains.optional",
+      "node_type": "subject",
+      "name": "Statistics",
+      "display_order": 240,
+      "source_id": "bpsc-72",
+      "source_ref": "pp. 7–8; detailed coverage in BPSC syllabus pp. 6–100",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "bpsc.mains.optional.zoology",
+      "parent_id": "bpsc.mains.optional",
+      "node_type": "subject",
+      "name": "Zoology",
+      "display_order": 250,
+      "source_id": "bpsc-72",
+      "source_ref": "pp. 7–8; detailed coverage in BPSC syllabus pp. 6–100",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "bpsc.mains.optional.hindi-language-and-literature",
+      "parent_id": "bpsc.mains.optional",
+      "node_type": "subject",
+      "name": "Hindi Language and Literature",
+      "display_order": 260,
+      "source_id": "bpsc-72",
+      "source_ref": "pp. 7–8; detailed coverage in BPSC syllabus pp. 6–100",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "bpsc.mains.optional.english-language-and-literature",
+      "parent_id": "bpsc.mains.optional",
+      "node_type": "subject",
+      "name": "English Language and Literature",
+      "display_order": 270,
+      "source_id": "bpsc-72",
+      "source_ref": "pp. 7–8; detailed coverage in BPSC syllabus pp. 6–100",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "bpsc.mains.optional.urdu-language-and-literature",
+      "parent_id": "bpsc.mains.optional",
+      "node_type": "subject",
+      "name": "Urdu Language and Literature",
+      "display_order": 280,
+      "source_id": "bpsc-72",
+      "source_ref": "pp. 7–8; detailed coverage in BPSC syllabus pp. 6–100",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "bpsc.mains.optional.bengali-language-and-literature",
+      "parent_id": "bpsc.mains.optional",
+      "node_type": "subject",
+      "name": "Bengali Language and Literature",
+      "display_order": 290,
+      "source_id": "bpsc-72",
+      "source_ref": "pp. 7–8; detailed coverage in BPSC syllabus pp. 6–100",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "bpsc.mains.optional.sanskrit-language-and-literature",
+      "parent_id": "bpsc.mains.optional",
+      "node_type": "subject",
+      "name": "Sanskrit Language and Literature",
+      "display_order": 300,
+      "source_id": "bpsc-72",
+      "source_ref": "pp. 7–8; detailed coverage in BPSC syllabus pp. 6–100",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "bpsc.mains.optional.persian-language-and-literature",
+      "parent_id": "bpsc.mains.optional",
+      "node_type": "subject",
+      "name": "Persian Language and Literature",
+      "display_order": 310,
+      "source_id": "bpsc-72",
+      "source_ref": "pp. 7–8; detailed coverage in BPSC syllabus pp. 6–100",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "bpsc.mains.optional.arabic-language-and-literature",
+      "parent_id": "bpsc.mains.optional",
+      "node_type": "subject",
+      "name": "Arabic Language and Literature",
+      "display_order": 320,
+      "source_id": "bpsc-72",
+      "source_ref": "pp. 7–8; detailed coverage in BPSC syllabus pp. 6–100",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "bpsc.mains.optional.pali-language-and-literature",
+      "parent_id": "bpsc.mains.optional",
+      "node_type": "subject",
+      "name": "Pali Language and Literature",
+      "display_order": 330,
+      "source_id": "bpsc-72",
+      "source_ref": "pp. 7–8; detailed coverage in BPSC syllabus pp. 6–100",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    },
+    {
+      "id": "bpsc.mains.optional.maithili-language-and-literature",
+      "parent_id": "bpsc.mains.optional",
+      "node_type": "subject",
+      "name": "Maithili Language and Literature",
+      "display_order": 340,
+      "source_id": "bpsc-72",
+      "source_ref": "pp. 7–8; detailed coverage in BPSC syllabus pp. 6–100",
+      "coverage": "subject-index; detailed optional topics not expanded in this seed"
+    }
+  ]
+}

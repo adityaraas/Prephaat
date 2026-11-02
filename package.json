@@ -8,7 +8,11 @@
     "start": "tsx server.ts",
     "build:study-catalog": "python scripts/build-study-catalog.py",
     "test:study": "node --import tsx --test scripts/current-affairs-data.test.ts scripts/performance-data.test.ts scripts/study-integration.test.ts",
-    "refresh:current-affairs": "tsx scripts/refresh-current-affairs.ts && python scripts/build-study-catalog.py && node scripts/collect-current-affairs-images.mjs"
+    "refresh:current-affairs": "tsx scripts/refresh-current-affairs.ts && python scripts/build-study-catalog.py && node scripts/collect-current-affairs-images.mjs",
+    "test:syllabus": "node --test scripts/syllabus-page.test.mjs",
+    "seed:syllabus": "tsx scripts/seed-syllabus.ts",
+    "syllabus:untagged": "tsx scripts/list-untagged-syllabus.ts",
+    "syllabus:tag": "tsx scripts/tag-syllabus-item.ts"
   },
   "engines": {
     "node": ">=20"

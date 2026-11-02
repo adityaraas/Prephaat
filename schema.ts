@@ -1,4 +1,5 @@
 import { sql } from "./db.ts";
+import { runMigrations } from "./migrations.ts";
 
 export async function ensureAuthTables() {
   await sql`
@@ -74,4 +75,25 @@ export async function ensureAuthTables() {
       created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
     )
   `;
+  await sql`
+    CREATE TABLE IF NOT EXISTS planner_blocks (
+      account_id INTEGER NOT NULL REFERENCES accounts(id) ON DELETE CASCADE,
+      id VARCHAR(100) NOT NULL,
+      date DATE NOT NULL,
+      start_time TIME NOT NULL,
+      duration INTEGER NOT NULL CHECK (duration BETWEEN 5 AND 480),
+      kind VARCHAR(10) NOT NULL CHECK (kind IN ('study','revision')),
+      subject VARCHAR(40),
+      title VARCHAR(200) NOT NULL,
+      linked_material VARCHAR(500),
+      checklist_task SMALLINT CHECK (checklist_task BETWEEN 0 AND 3),
+      completed BOOLEAN NOT NULL DEFAULT FALSE,
+      updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+      deleted_at TIMESTAMPTZ,
+      PRIMARY KEY (account_id,id),
+      CHECK (EXTRACT(HOUR FROM start_time)*60+EXTRACT(MINUTE FROM start_time)+duration <= 1440)
+    )
+  `;
+  await sql`CREATE INDEX IF NOT EXISTS planner_blocks_by_day ON planner_blocks(account_id,date) WHERE deleted_at IS NULL`;
+  await runMigrations();
 }

@@ -41,6 +41,6 @@ const TodayDashboard = (() => {
   function syncChecklist(){if(!host||document.getElementById('today').hidden)return;const done=checks();host.querySelectorAll('[data-today-task]').forEach(input=>input.checked=done.includes(Number(input.dataset.todayTask)));const count=host.querySelector('#today-done');if(count)count.textContent=done.length;}
   window.addEventListener('storage',event=>{if(event.key===storageKey())syncChecklist();if(event.key===`crack-ias-planner-${accountId}-v1`)syncCountdown();});
   window.addEventListener('focus',()=>{syncChecklist();syncCountdown();});
-  document.getElementById('today-syllabus').addEventListener('click',()=>{const toggle=document.getElementById('syllabus-toggle');if(toggle.getAttribute('aria-expanded')!=='true')toggle.click();toggle.focus();});
+  document.getElementById('today-syllabus')?.addEventListener('click',()=>{const toggle=document.getElementById('syllabus-toggle');if(toggle.getAttribute('aria-expanded')!=='true')toggle.click();toggle.focus();});
   return {mount,setAccount(account){accountId=String(account?.id??'guest').replace(/[^a-zA-Z0-9_-]/g,'');}};
 })();

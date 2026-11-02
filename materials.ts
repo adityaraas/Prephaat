@@ -7,8 +7,8 @@ export function isSubjectKey(value: string) {
 
 export async function listPublishedMaterials(subject?: string) {
   if (subject) {
-    return sql<Array<{ id: number; subject: string; title: string; body: string; class_tag: string | null; created_at: Date; author: string }>>`
-      SELECT m.id, m.subject, m.title, m.body, m.class_tag, m.created_at, a.name AS author
+    return sql<Array<{ id: number; subject: string; title: string; body: string; class_tag: string | null; created_at: Date; author: string; syllabus_node_id: string|null }>>`
+      SELECT m.id, m.subject, m.title, m.body, m.class_tag, m.created_at, a.name AS author, m.syllabus_node_id
       FROM study_materials m
       JOIN accounts a ON a.id = m.account_id
       WHERE m.published = TRUE AND m.subject = ${subject}
@@ -16,8 +16,8 @@ export async function listPublishedMaterials(subject?: string) {
       LIMIT 80
     `;
   }
-  return sql<Array<{ id: number; subject: string; title: string; body: string; class_tag: string | null; created_at: Date; author: string }>>`
-    SELECT m.id, m.subject, m.title, m.body, m.class_tag, m.created_at, a.name AS author
+  return sql<Array<{ id: number; subject: string; title: string; body: string; class_tag: string | null; created_at: Date; author: string; syllabus_node_id: string|null }>>`
+    SELECT m.id, m.subject, m.title, m.body, m.class_tag, m.created_at, a.name AS author, m.syllabus_node_id
     FROM study_materials m
     JOIN accounts a ON a.id = m.account_id
     WHERE m.published = TRUE
@@ -27,7 +27,7 @@ export async function listPublishedMaterials(subject?: string) {
 }
 
 export async function listFacultyMaterials(accountId: number) {
-  return sql<Array<{ id: number; subject: string; title: string; published: boolean; created_at: Date }>>`
+  return sql<Array<{ id: number; subject: string; title: string; published: boolean; created_at: Date; syllabus_node_id:string|null }>>`
     SELECT id, subject, title, published, created_at
     FROM study_materials
     WHERE account_id = ${accountId}
@@ -41,11 +41,12 @@ export async function addMaterial(
   subject: string,
   title: string,
   body: string,
-  classTag: string | null
+  classTag: string | null,
+  syllabusNodeId: string | null = null
 ) {
   const [row] = await sql<Array<{ id: number }>>`
-    INSERT INTO study_materials (account_id, subject, title, body, class_tag, published)
-    VALUES (${accountId}, ${subject}, ${title}, ${body}, ${classTag}, TRUE)
+    INSERT INTO study_materials (account_id, subject, title, body, class_tag, published, syllabus_node_id)
+    VALUES (${accountId}, ${subject}, ${title}, ${body}, ${classTag}, TRUE, ${syllabusNodeId})
     RETURNING id
   `;
   return row.id;

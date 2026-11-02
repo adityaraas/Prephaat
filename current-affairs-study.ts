@@ -1,5 +1,5 @@
 export type SyllabusLink = {paper:string;topic:string;relevance:string;subject:string};
-export type StudyIssue = {id:string;title:string;url:string;published:string;source:string;topics:string[];whyInNews:string;summary:string[];syllabus:SyllabusLink[];kind?:string};
+export type StudyIssue = {id:string;title:string;url:string;published:string;source:string;topics:string[];whyInNews:string;summary:string[];syllabus:SyllabusLink[];kind?:string;syllabus_node_id?:string|null};
 export type StudyArchive = {generatedAt:string;range:{start:string;end:string};selection:string;months:Array<{id:string;partial:boolean;items:StudyIssue[]}>;[key:string]:unknown};
 export const indiaDate = (date = new Date()) => new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Kolkata',year:'numeric',month:'2-digit',day:'2-digit'}).format(date);
 

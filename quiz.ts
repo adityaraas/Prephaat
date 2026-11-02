@@ -21,7 +21,7 @@ export function subjectLabel(subject: string) {
   return LABELS[subject] ?? subject;
 }
 
-type ExamQuestion = { id: string; q: string; n?: number; year?: number; options?: string[]; answer?: number; topic?: string; solution?: string; marks?: number };
+type ExamQuestion = { syllabus_node_id?: string|null; id: string; q: string; n?: number; year?: number; options?: string[]; answer?: number; topic?: string; solution?: string; marks?: number };
 const PYQ = JSON.parse(readFileSync(new URL("./public/data/pyq-upsc.json", import.meta.url), "utf8")) as { papers: Array<{ exam: string; stage: string; year: number; paper: string; questions: ExamQuestion[] }> };
 const SUBJECT_TESTS = ["history", "geography", "polity", "economy", "science", "environment"];
 const topicSubject: Record<string, string> = { "History & Culture": "history", History: "history", Ancient: "history", Medieval: "history", Modern: "history", Culture: "history", Geography: "geography", Polity: "polity", Economy: "economy", Environment: "environment", Disaster: "environment", Science: "science", "S&T": "science", "Science & Technology": "science" };
@@ -50,7 +50,7 @@ export function startTest(stage: string, testId: string, subject = "") {
       durationSeconds = 1200;
       subject = id;
     } else throw new Error("Unknown test paper");
-    return { stage, testId, subject: subject || "mock", title, durationSeconds, marksPerCorrect: 2, negativeMarks: 2 / 3, questions: questions.map((q) => "prompt" in q ? publicQuestion(q) : ({ id: q.id, prompt: q.q, options: q.options, topic: q.topic })) };
+    return { stage, testId, subject: subject || "mock", title, durationSeconds, marksPerCorrect: 2, negativeMarks: 2 / 3, questions: questions.map((q) => "prompt" in q ? publicQuestion(q) : ({ id: q.id, prompt: q.q, options: q.options, topic: q.topic, syllabus_node_id:q.syllabus_node_id??null })) };
   }
   if (stage === "mains" && /^mains-(gs|subject-(history|geography|polity|economy|science|environment))$/.test(testId)) {
     const filterSubject = testId.includes("subject-") ? testId.split("subject-")[1] : "";
