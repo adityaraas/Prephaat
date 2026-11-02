@@ -222,10 +222,8 @@ async function requireSession() {
 
 function renderTabs() {
   const items = [
-    { id: "today", label: "Today" },
-    { id: "planner", label: "Planner" },
-    { id: "analytics", label: "Analytics" },
     { id: "preparation", label: "Preparation Desk" },
+    { id: "answer-writing", label: "Answer Writing" },
     { id: "prelims-2025", label: "Prelims Booster 2025" },
     { id: "current", label: "Current affairs" },
     { id: "editorials", label: "Editorials" },
@@ -239,11 +237,11 @@ function renderTabs() {
 }
 
 async function showTab(id) {
+  if(id==='answer-writing'){location.href='/answer-writing.html';return;}
   if(id==='planner'||id==='analytics'){location.href=id==='planner'?'/planner.html':'/performance.html';return;}
-  const navigationId=id;
   const isToday=id==='today';
   document.getElementById('today').hidden=!isToday;
-  document.querySelectorAll('[data-home-nav]').forEach(link=>{if(link.dataset.homeNav===navigationId)link.setAttribute('aria-current','page');else link.removeAttribute('aria-current');});
+  window.dispatchEvent(new CustomEvent('site-section-change', { detail: id }));
   const isPreparation=id==='preparation';
   document.getElementById('preparation').hidden=!isPreparation;
   const isBooster=id==='prelims-2025';
@@ -1348,7 +1346,7 @@ function tabFromHash() {
   if(hash.startsWith('current'))return 'current';
   if(/^day-\d+$/.test(hash))return 'history';
   const subject=studyData?.subjects.find(subject=>hash===subject.id||hash.startsWith(subject.id+'-day-'));
-  return subject?.id || (['today','planner','analytics','quiz','pyq','survey','mapping'].includes(hash)?hash:'today');
+  return subject?.id || (['answer-writing','today','planner','analytics','quiz','pyq','survey','mapping'].includes(hash)?hash:'today');
 }
 window.addEventListener('hashchange',()=>{if(studyData&&!testPage)showTab(tabFromHash());});
 document.addEventListener('current-affairs-updated',()=>{if(!studyData||testPage)return;newsItems=MonthlyCurrentAffairs.getSearchItems();rebuildSearchIndex();});
@@ -1552,9 +1550,7 @@ subjectEl.addEventListener("click", (event) => {
 
 document.getElementById("syllabus-toggle").addEventListener("click", (event) => {
   event.stopPropagation();
-  const closed = syllabusBox.classList.toggle("closed");
-  document.getElementById("syllabus-toggle").setAttribute("aria-expanded", String(!closed));
-  document.getElementById("syllabus-toggle").setAttribute("aria-label", closed ? "Open syllabus" : "Collapse syllabus");
+  location.href = "/syllabus";
 });
 
 document.querySelector(".syllabus-tabs").addEventListener("click", (event) => {
@@ -1600,7 +1596,7 @@ document.querySelector(".syllabus-tabs").addEventListener("click", (event) => {
   bindSearch();
   rebuildSearchIndex();
   await showTab(tabFromHash());
-  if(new URLSearchParams(location.search).get("syllabus")==="1"&&document.getElementById("syllabus-toggle").getAttribute("aria-expanded")!=="true")document.getElementById("syllabus-toggle").click();
+  if(new URLSearchParams(location.search).get("syllabus")==="1")location.replace("/syllabus");
   const requestedPractice=new URLSearchParams(location.search).get("practice");
   if(quizSubjects.some(subject=>subject.id===requestedPractice)){await showTab("quiz");await loadQuiz(requestedPractice);}
 
